@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awswaf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validatePutCustomRequestHandlingParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWafv2WebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseCountPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

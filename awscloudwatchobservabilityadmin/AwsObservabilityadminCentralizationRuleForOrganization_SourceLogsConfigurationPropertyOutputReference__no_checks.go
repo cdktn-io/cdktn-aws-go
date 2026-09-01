@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awscloudwatchobservabilityadmin
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetDataSourceSelectionCriteriaParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetEncryptedLogGroupStrategyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetLogGroupSelectionCriteriaParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

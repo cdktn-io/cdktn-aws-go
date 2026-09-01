@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetAuthCodeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetInternalValueParameters(val *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetRedirectUriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

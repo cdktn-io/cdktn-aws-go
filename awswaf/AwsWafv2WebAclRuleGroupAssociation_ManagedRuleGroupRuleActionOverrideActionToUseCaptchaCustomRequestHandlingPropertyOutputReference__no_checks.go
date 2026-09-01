@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awswaf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validatePutInsertHeaderParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWafv2WebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseCaptchaCustomRequestHandlingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

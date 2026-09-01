@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awselementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateSetDestinationRefIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateSetInternalValueParameters(val *AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

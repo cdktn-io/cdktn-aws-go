@@ -1,0 +1,110 @@
+//go:build no_runtime_type_checking
+
+package awschimesdkmediapipelines
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutAmazonTranscribeCallAnalyticsProcessorConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutAmazonTranscribeProcessorConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutKinesisDataStreamSinkConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutLambdaFunctionSinkConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutS3RecordingSinkConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutSnsTopicSinkConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutSqsQueueSinkConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validatePutVoiceAnalyticsProcessorConfigurationParameters(value *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

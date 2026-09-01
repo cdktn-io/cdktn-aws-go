@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsconnect
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsConnectInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

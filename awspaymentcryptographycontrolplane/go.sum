@@ -1,0 +1,8 @@
+github.com/Masterminds/semver/v3 v3.5.0 h1:kQceYJfbupGfZOKZQg0kou0DgAKhzDg2NZPAwZ/2OOE=
+github.com/Masterminds/semver/v3 v3.5.0/go.mod h1:4V+yj/TJE1HU9XfppCwVMZq3I84lprf4nC11bSS5beM=
+github.com/aws/constructs-go/constructs/v10 v10.7.0 h1:7IneR5ScOYrMm8s/1KoFtWTej8KCV7uhfsquMizoEzg=
+github.com/aws/constructs-go/constructs/v10 v10.7.0/go.mod h1:MiqUj+liWOYrGXok5plly5J8zUbFanfodiEFARenpJE=
+github.com/aws/jsii-runtime-go v1.140.0 h1:kLxNL1zIYSmXMpUwyukq8EtUmH5LUCeCxJaCPmQPIS8=
+github.com/aws/jsii-runtime-go v1.140.0/go.mod h1:WFxbcqPoFuGqer5BBY/xKEvzo8NIQrMK+5Zawut8Pm0=
+github.com/open-constructs/cdk-terrain-go/cdktn v0.24.0 h1:8GFMr+waR9kPS97cmcysBNLO+Ni8NZOfKZMM5SX6WWU=
+github.com/open-constructs/cdk-terrain-go/cdktn v0.24.0/go.mod h1:YgK0wEyaF6Ik1KmhsGk8Q+qLPh7pcC7u4rOPisBiS7E=

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateSetApiKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateSetInternalValueParameters(val *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

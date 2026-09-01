@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awslexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validatePutValueParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetMapBlockKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetShapeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsLexv2ModelsIntent_ConfirmationSettingCodeHookPostCodeHookSpecificationTimeoutNextStepIntentSlotPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awseventbridge
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateSetInternalValueParameters(val *AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateSetResourceConfigurationArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCloudwatchEventConnection_InvocationConnectivityParametersResourceParametersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

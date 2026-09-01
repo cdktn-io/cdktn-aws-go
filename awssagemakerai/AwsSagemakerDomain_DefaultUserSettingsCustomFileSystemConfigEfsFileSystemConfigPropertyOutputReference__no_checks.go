@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetFileSystemIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetFileSystemPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

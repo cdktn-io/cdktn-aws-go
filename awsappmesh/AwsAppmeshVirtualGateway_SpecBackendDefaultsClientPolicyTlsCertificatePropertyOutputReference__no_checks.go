@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsappmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validatePutFileParameters(value *AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificateFileProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validatePutSdsParameters(value *AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificateSdsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateSetInternalValueParameters(val *AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificateProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAppmeshVirtualGateway_SpecBackendDefaultsClientPolicyTlsCertificatePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

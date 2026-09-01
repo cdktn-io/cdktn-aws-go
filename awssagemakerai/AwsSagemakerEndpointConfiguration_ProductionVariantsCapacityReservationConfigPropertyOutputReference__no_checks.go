@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetCapacityReservationPreferenceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetMlReservationArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

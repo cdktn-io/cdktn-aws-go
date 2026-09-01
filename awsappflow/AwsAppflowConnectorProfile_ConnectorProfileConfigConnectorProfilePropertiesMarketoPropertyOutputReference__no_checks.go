@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateSetInstanceUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateSetInternalValueParameters(val *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

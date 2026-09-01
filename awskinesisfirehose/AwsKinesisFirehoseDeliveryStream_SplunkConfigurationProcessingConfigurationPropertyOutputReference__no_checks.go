@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validatePutProcessorsParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

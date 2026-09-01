@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagents
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validatePutFilterConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentDataSource_DataSourceConfigurationSharePointConfigurationCrawlerConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

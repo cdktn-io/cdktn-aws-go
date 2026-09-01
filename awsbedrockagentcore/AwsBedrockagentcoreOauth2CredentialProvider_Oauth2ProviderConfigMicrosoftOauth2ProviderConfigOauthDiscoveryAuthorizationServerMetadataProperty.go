@@ -1,0 +1,7 @@
+package awsbedrockagentcore
+
+
+// Experimental.
+type AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty struct {
+}
+

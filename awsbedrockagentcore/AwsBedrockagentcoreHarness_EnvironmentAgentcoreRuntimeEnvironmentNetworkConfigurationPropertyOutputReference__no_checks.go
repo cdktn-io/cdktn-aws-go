@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validatePutNetworkModeConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetNetworkModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

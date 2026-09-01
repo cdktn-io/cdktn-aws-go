@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetInternalValueParameters(val *AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

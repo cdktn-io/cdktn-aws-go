@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsbedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validatePutBedrockEvaluatorModelParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

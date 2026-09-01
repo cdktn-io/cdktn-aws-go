@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awscloudwatchobservabilityadmin
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

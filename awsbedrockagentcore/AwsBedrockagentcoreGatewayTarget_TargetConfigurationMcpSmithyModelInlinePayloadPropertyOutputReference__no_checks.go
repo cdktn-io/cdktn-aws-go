@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateSetPayloadParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awstimestreamquery
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validatePutMaxParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

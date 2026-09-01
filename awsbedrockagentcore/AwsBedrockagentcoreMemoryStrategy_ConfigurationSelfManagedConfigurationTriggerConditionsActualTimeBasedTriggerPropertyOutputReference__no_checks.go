@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateSetInternalValueParameters(val *AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

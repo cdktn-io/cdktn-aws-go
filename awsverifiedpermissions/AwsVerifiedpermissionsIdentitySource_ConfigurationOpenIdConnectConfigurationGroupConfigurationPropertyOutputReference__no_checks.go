@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsverifiedpermissions
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetGroupClaimParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetGroupEntityTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

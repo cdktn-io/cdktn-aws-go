@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validatePutParametersParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

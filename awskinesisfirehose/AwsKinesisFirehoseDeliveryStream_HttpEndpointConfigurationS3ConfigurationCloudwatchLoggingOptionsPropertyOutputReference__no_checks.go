@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetInternalValueParameters(val *AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetLogGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetLogStreamNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

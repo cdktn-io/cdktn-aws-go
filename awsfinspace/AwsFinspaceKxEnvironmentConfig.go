@@ -1,0 +1,59 @@
+package awsfinspace
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsFinspaceKxEnvironmentConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#kms_key_id AwsFinspaceKxEnvironment#kms_key_id}.
+	// Experimental.
+	KmsKeyId *string `field:"required" json:"kmsKeyId" yaml:"kmsKeyId"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#name AwsFinspaceKxEnvironment#name}.
+	// Experimental.
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// custom_dns_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#custom_dns_configuration AwsFinspaceKxEnvironment#custom_dns_configuration}
+	// Experimental.
+	CustomDnsConfiguration interface{} `field:"optional" json:"customDnsConfiguration" yaml:"customDnsConfiguration"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#description AwsFinspaceKxEnvironment#description}.
+	// Experimental.
+	Description *string `field:"optional" json:"description" yaml:"description"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#region AwsFinspaceKxEnvironment#region}
+	// Experimental.
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#tags AwsFinspaceKxEnvironment#tags}.
+	// Experimental.
+	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#tags_all AwsFinspaceKxEnvironment#tags_all}.
+	// Experimental.
+	TagsAll *map[string]*string `field:"optional" json:"tagsAll" yaml:"tagsAll"`
+	// timeouts block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#timeouts AwsFinspaceKxEnvironment#timeouts}
+	// Experimental.
+	Timeouts *AwsFinspaceKxEnvironment_TimeoutsProperty `field:"optional" json:"timeouts" yaml:"timeouts"`
+	// transit_gateway_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/finspace_kx_environment#transit_gateway_configuration AwsFinspaceKxEnvironment#transit_gateway_configuration}
+	// Experimental.
+	TransitGatewayConfiguration *AwsFinspaceKxEnvironment_TransitGatewayConfigurationProperty `field:"optional" json:"transitGatewayConfiguration" yaml:"transitGatewayConfiguration"`
+}
+

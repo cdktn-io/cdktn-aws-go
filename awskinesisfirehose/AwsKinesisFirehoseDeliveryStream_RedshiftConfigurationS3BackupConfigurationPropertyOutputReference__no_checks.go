@@ -1,0 +1,110 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validatePutCloudwatchLoggingOptionsParameters(value *AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetBucketArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetBufferingIntervalParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetBufferingSizeParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetCompressionFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetErrorOutputPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

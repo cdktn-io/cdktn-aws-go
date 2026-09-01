@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awscloudwatchlogs
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validatePutCloudwatchLogsParameters(value *DataAwsCloudwatchLogDataProtectionPolicyDocument_CloudwatchLogsProperty) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validatePutFirehoseParameters(value *DataAwsCloudwatchLogDataProtectionPolicyDocument_FirehoseProperty) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validatePutS3Parameters(value *DataAwsCloudwatchLogDataProtectionPolicyDocument_S3Property) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsCloudwatchLogDataProtectionPolicyDocument_FindingsDestinationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

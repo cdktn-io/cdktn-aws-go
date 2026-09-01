@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetInternalValueParameters(val *AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetMaxInstanceCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetMinInstanceCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

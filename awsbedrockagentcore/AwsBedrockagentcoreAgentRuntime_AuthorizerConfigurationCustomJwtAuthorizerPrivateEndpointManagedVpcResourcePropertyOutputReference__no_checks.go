@@ -1,0 +1,98 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetEndpointIpAddressTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetRoutingDomainParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetSecurityGroupIdsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetSubnetIdsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference) validateSetVpcIdentifierParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

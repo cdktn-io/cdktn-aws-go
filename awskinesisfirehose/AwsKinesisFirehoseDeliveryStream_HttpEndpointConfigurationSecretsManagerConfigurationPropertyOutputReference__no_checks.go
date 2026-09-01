@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetSecretArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

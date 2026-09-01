@@ -1,0 +1,13 @@
+package awsappsync
+
+
+// Experimental.
+type AwsAppsyncApi_LogConfigProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appsync_api#cloudwatch_logs_role_arn AwsAppsyncApi#cloudwatch_logs_role_arn}.
+	// Experimental.
+	CloudwatchLogsRoleArn *string `field:"required" json:"cloudwatchLogsRoleArn" yaml:"cloudwatchLogsRoleArn"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appsync_api#log_level AwsAppsyncApi#log_level}.
+	// Experimental.
+	LogLevel *string `field:"required" json:"logLevel" yaml:"logLevel"`
+}
+

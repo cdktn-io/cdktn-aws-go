@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsarcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateSetBehaviorParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

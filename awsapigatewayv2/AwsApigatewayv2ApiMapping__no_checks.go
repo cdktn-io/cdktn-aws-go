@@ -1,0 +1,142 @@
+//go:build no_runtime_type_checking
+
+package awsapigatewayv2
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApigatewayv2ApiMapping) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateAwsApigatewayv2ApiMapping_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateAwsApigatewayv2ApiMapping_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsApigatewayv2ApiMapping_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsApigatewayv2ApiMapping_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetApiIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetApiMappingKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetDomainNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApigatewayv2ApiMapping) validateSetStageParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsApigatewayv2ApiMappingParameters(scope constructs.Construct, id *string, config *AwsApigatewayv2ApiMappingConfig) error {
+	return nil
+}
+

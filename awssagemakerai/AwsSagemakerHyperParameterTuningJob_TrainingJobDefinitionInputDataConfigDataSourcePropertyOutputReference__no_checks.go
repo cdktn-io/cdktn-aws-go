@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validatePutFileSystemDataSourceParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validatePutS3DataSourceParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

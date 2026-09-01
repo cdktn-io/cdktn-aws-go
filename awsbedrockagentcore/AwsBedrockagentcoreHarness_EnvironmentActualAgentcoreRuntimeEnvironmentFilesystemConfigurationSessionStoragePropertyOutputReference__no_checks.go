@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetInternalValueParameters(val *AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

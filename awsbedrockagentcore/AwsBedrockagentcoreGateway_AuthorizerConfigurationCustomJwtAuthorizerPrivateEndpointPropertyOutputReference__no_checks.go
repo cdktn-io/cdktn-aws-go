@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validatePutManagedVpcResourceParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validatePutSelfManagedLatticeResourceParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsappmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustAcmPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

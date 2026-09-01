@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validatePutIdleSettingsParameters(value *AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetInternalValueParameters(val *AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

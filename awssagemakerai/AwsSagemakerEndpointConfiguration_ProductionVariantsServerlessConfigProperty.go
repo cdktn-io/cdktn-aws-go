@@ -1,0 +1,16 @@
+package awssagemakerai
+
+
+// Experimental.
+type AwsSagemakerEndpointConfiguration_ProductionVariantsServerlessConfigProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint_configuration#max_concurrency AwsSagemakerEndpointConfiguration#max_concurrency}.
+	// Experimental.
+	MaxConcurrency *float64 `field:"required" json:"maxConcurrency" yaml:"maxConcurrency"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint_configuration#memory_size_in_mb AwsSagemakerEndpointConfiguration#memory_size_in_mb}.
+	// Experimental.
+	MemorySizeInMb *float64 `field:"required" json:"memorySizeInMb" yaml:"memorySizeInMb"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint_configuration#provisioned_concurrency AwsSagemakerEndpointConfiguration#provisioned_concurrency}.
+	// Experimental.
+	ProvisionedConcurrency *float64 `field:"optional" json:"provisionedConcurrency" yaml:"provisionedConcurrency"`
+}
+

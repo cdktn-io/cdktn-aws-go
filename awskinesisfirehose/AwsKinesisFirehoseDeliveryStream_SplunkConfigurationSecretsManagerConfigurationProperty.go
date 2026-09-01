@@ -1,0 +1,16 @@
+package awskinesisfirehose
+
+
+// Experimental.
+type AwsKinesisFirehoseDeliveryStream_SplunkConfigurationSecretsManagerConfigurationProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kinesis_firehose_delivery_stream#enabled AwsKinesisFirehoseDeliveryStream#enabled}.
+	// Experimental.
+	Enabled interface{} `field:"optional" json:"enabled" yaml:"enabled"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kinesis_firehose_delivery_stream#role_arn AwsKinesisFirehoseDeliveryStream#role_arn}.
+	// Experimental.
+	RoleArn *string `field:"optional" json:"roleArn" yaml:"roleArn"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/kinesis_firehose_delivery_stream#secret_arn AwsKinesisFirehoseDeliveryStream#secret_arn}.
+	// Experimental.
+	SecretArn *string `field:"optional" json:"secretArn" yaml:"secretArn"`
+}
+

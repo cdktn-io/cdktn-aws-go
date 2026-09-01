@@ -1,0 +1,94 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetInstanceTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetInternalValueParameters(val *AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetLifecycleConfigArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetSagemakerImageArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetSagemakerImageVersionAliasParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetSagemakerImageVersionArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

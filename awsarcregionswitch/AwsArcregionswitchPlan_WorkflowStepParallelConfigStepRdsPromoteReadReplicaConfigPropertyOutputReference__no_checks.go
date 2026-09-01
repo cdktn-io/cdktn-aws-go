@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package awsarcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetCrossAccountRoleParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetDbInstanceArnMapParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetExternalIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference) validateSetTimeoutMinutesParameters(val *float64) error {
+	return nil
+}
+
+func validateNewAwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

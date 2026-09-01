@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awstimestreamquery
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validatePutMaxParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

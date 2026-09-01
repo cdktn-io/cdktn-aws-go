@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awss3control
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateSetInternalValueParameters(val *AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsS3ControlStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedDataProtectionMetricsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

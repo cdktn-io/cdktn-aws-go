@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awscognitoidp
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateSetEventActionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateSetInternalValueParameters(val *AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCognitoRiskConfiguration_CompromisedCredentialsRiskConfigurationActionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

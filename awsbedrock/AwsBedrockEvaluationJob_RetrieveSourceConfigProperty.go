@@ -1,0 +1,10 @@
+package awsbedrock
+
+
+// Experimental.
+type AwsBedrockEvaluationJob_RetrieveSourceConfigProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_evaluation_job#rag_source_identifier AwsBedrockEvaluationJob#rag_source_identifier}.
+	// Experimental.
+	RagSourceIdentifier *string `field:"required" json:"ragSourceIdentifier" yaml:"ragSourceIdentifier"`
+}
+

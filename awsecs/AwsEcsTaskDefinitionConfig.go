@@ -1,0 +1,105 @@
+package awsecs
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsEcsTaskDefinitionConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#container_definitions AwsEcsTaskDefinition#container_definitions}.
+	// Experimental.
+	ContainerDefinitions *string `field:"required" json:"containerDefinitions" yaml:"containerDefinitions"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#family AwsEcsTaskDefinition#family}.
+	// Experimental.
+	Family *string `field:"required" json:"family" yaml:"family"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#cpu AwsEcsTaskDefinition#cpu}.
+	// Experimental.
+	Cpu *string `field:"optional" json:"cpu" yaml:"cpu"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#enable_fault_injection AwsEcsTaskDefinition#enable_fault_injection}.
+	// Experimental.
+	EnableFaultInjection interface{} `field:"optional" json:"enableFaultInjection" yaml:"enableFaultInjection"`
+	// ephemeral_storage block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#ephemeral_storage AwsEcsTaskDefinition#ephemeral_storage}
+	// Experimental.
+	EphemeralStorage *AwsEcsTaskDefinition_EphemeralStorageProperty `field:"optional" json:"ephemeralStorage" yaml:"ephemeralStorage"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#execution_role_arn AwsEcsTaskDefinition#execution_role_arn}.
+	// Experimental.
+	ExecutionRoleArn *string `field:"optional" json:"executionRoleArn" yaml:"executionRoleArn"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#id AwsEcsTaskDefinition#id}.
+	//
+	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+	// Experimental.
+	Id *string `field:"optional" json:"id" yaml:"id"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#ipc_mode AwsEcsTaskDefinition#ipc_mode}.
+	// Experimental.
+	IpcMode *string `field:"optional" json:"ipcMode" yaml:"ipcMode"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#memory AwsEcsTaskDefinition#memory}.
+	// Experimental.
+	Memory *string `field:"optional" json:"memory" yaml:"memory"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#network_mode AwsEcsTaskDefinition#network_mode}.
+	// Experimental.
+	NetworkMode *string `field:"optional" json:"networkMode" yaml:"networkMode"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#pid_mode AwsEcsTaskDefinition#pid_mode}.
+	// Experimental.
+	PidMode *string `field:"optional" json:"pidMode" yaml:"pidMode"`
+	// placement_constraints block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#placement_constraints AwsEcsTaskDefinition#placement_constraints}
+	// Experimental.
+	PlacementConstraints interface{} `field:"optional" json:"placementConstraints" yaml:"placementConstraints"`
+	// proxy_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#proxy_configuration AwsEcsTaskDefinition#proxy_configuration}
+	// Experimental.
+	ProxyConfiguration *AwsEcsTaskDefinition_ProxyConfigurationProperty `field:"optional" json:"proxyConfiguration" yaml:"proxyConfiguration"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#region AwsEcsTaskDefinition#region}
+	// Experimental.
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#requires_compatibilities AwsEcsTaskDefinition#requires_compatibilities}.
+	// Experimental.
+	RequiresCompatibilities *[]*string `field:"optional" json:"requiresCompatibilities" yaml:"requiresCompatibilities"`
+	// runtime_platform block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#runtime_platform AwsEcsTaskDefinition#runtime_platform}
+	// Experimental.
+	RuntimePlatform *AwsEcsTaskDefinition_RuntimePlatformProperty `field:"optional" json:"runtimePlatform" yaml:"runtimePlatform"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#skip_destroy AwsEcsTaskDefinition#skip_destroy}.
+	// Experimental.
+	SkipDestroy interface{} `field:"optional" json:"skipDestroy" yaml:"skipDestroy"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#tags AwsEcsTaskDefinition#tags}.
+	// Experimental.
+	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#tags_all AwsEcsTaskDefinition#tags_all}.
+	// Experimental.
+	TagsAll *map[string]*string `field:"optional" json:"tagsAll" yaml:"tagsAll"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#task_role_arn AwsEcsTaskDefinition#task_role_arn}.
+	// Experimental.
+	TaskRoleArn *string `field:"optional" json:"taskRoleArn" yaml:"taskRoleArn"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#track_latest AwsEcsTaskDefinition#track_latest}.
+	// Experimental.
+	TrackLatest interface{} `field:"optional" json:"trackLatest" yaml:"trackLatest"`
+	// volume block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ecs_task_definition#volume AwsEcsTaskDefinition#volume}
+	// Experimental.
+	Volume interface{} `field:"optional" json:"volume" yaml:"volume"`
+}
+

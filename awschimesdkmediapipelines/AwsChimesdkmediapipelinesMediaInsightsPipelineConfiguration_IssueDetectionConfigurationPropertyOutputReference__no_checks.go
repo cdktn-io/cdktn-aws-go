@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awschimesdkmediapipelines
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateSetRuleNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

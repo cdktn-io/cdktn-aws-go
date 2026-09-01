@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awscloudwatchobservabilityadmin
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateSetMetricsSelectionCriteriaParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,13 @@
+package awsapprunner
+
+
+// Experimental.
+type AwsApprunnerService_ObservabilityConfigurationProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apprunner_service#observability_enabled AwsApprunnerService#observability_enabled}.
+	// Experimental.
+	ObservabilityEnabled interface{} `field:"required" json:"observabilityEnabled" yaml:"observabilityEnabled"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/apprunner_service#observability_configuration_arn AwsApprunnerService#observability_configuration_arn}.
+	// Experimental.
+	ObservabilityConfigurationArn *string `field:"optional" json:"observabilityConfigurationArn" yaml:"observabilityConfigurationArn"`
+}
+

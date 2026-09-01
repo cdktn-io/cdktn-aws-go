@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awsglue
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetLocationParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetOrphanFileRetentionPeriodInDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetRunRateInHoursParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsGlueCatalogTableOptimizer_ConfigurationOrphanFileDeletionConfigurationIcebergConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

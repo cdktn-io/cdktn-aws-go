@@ -1,0 +1,146 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutAmplitudeParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudeProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutCustomConnectorParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutDatadogParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutDynatraceParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatraceProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutGoogleAnalyticsParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutHoneycodeParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodeProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutInforNexusParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutMarketoParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutRedshiftParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutSalesforceParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforceProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutSapoDataParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutServiceNowParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutSingularParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutSlackParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutSnowflakeParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakeProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutTrendmicroParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutVeevaParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validatePutZendeskParameters(value *AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateSetInternalValueParameters(val *AwsAppflowConnectorProfile_ConnectorProfilePropertiesProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,16 @@
+package awslakeformation
+
+
+// Experimental.
+type AwsLakeformationResourceLfTag_LfTagProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lakeformation_resource_lf_tag#key AwsLakeformationResourceLfTag#key}.
+	// Experimental.
+	Key *string `field:"required" json:"key" yaml:"key"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lakeformation_resource_lf_tag#value AwsLakeformationResourceLfTag#value}.
+	// Experimental.
+	Value *string `field:"required" json:"value" yaml:"value"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lakeformation_resource_lf_tag#catalog_id AwsLakeformationResourceLfTag#catalog_id}.
+	// Experimental.
+	CatalogId *string `field:"optional" json:"catalogId" yaml:"catalogId"`
+}
+

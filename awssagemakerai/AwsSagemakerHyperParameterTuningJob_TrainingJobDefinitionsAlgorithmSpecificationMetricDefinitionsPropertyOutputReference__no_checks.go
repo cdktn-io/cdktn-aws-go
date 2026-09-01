@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetRegexParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

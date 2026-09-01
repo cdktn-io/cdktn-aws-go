@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awscloudwatchobservabilityadmin
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validatePutBackupConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

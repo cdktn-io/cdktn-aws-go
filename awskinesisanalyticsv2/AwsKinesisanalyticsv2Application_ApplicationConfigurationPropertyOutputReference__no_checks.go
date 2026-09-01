@@ -1,0 +1,106 @@
+//go:build no_runtime_type_checking
+
+package awskinesisanalyticsv2
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutApplicationCodeConfigurationParameters(value *AwsKinesisanalyticsv2Application_ApplicationCodeConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutApplicationEncryptionConfigurationParameters(value *AwsKinesisanalyticsv2Application_ApplicationEncryptionConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutApplicationSnapshotConfigurationParameters(value *AwsKinesisanalyticsv2Application_ApplicationSnapshotConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutEnvironmentPropertiesParameters(value *AwsKinesisanalyticsv2Application_EnvironmentPropertiesProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutFlinkApplicationConfigurationParameters(value *AwsKinesisanalyticsv2Application_FlinkApplicationConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutRunConfigurationParameters(value *AwsKinesisanalyticsv2Application_RunConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutSqlApplicationConfigurationParameters(value *AwsKinesisanalyticsv2Application_SqlApplicationConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validatePutVpcConfigurationParameters(value *AwsKinesisanalyticsv2Application_VpcConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsKinesisanalyticsv2Application_ApplicationConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

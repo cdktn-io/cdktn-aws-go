@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awsec2imagebuilder
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validatePutTargetRepositoryParameters(value *AwsImagebuilderDistributionConfiguration_TargetRepositoryProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetContainerTagsParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsImagebuilderDistributionConfiguration_ContainerDistributionConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

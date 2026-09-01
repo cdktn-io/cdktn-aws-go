@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsappmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetInternalValueParameters(val *AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetSecretNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAppmeshVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustSdsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

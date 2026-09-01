@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awseks
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

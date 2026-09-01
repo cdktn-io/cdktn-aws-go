@@ -1,0 +1,7 @@
+package awseks
+
+
+// Experimental.
+type DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeSchedulerConfigNodeResourcesFitScoringStrategyDefaultValueProperty struct {
+}
+

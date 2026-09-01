@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awseventbridge
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateSetInternalValueParameters(val *AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateSetResourceConfigurationArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCloudwatchEventConnection_AuthParametersConnectivityParametersResourceParametersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

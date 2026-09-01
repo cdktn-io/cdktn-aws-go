@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssesmailmanager
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetAnalyzerParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetResultFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

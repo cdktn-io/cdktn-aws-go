@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awslexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetAllowAudioInputParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetAllowDtmfInputParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsLexv2ModelsSlot_ValueElicitationSettingPromptSpecificationPromptAttemptsSpecificationAllowedInputTypesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

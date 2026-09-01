@@ -1,0 +1,7 @@
+package awss3control
+
+
+// Experimental.
+type AwsS3ControlStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSseS3Property struct {
+}
+

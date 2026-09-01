@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

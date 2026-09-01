@@ -1,0 +1,122 @@
+//go:build no_runtime_type_checking
+
+package awschimesdkmediapipelines
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetContentIdentificationTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetContentRedactionTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetEnablePartialResultsStabilizationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetFilterPartialResultsParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetLanguageCodeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetLanguageModelNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetPartialResultsStabilityParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetPiiEntityTypesParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetShowSpeakerLabelParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetVocabularyFilterMethodParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetVocabularyFilterNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference) validateSetVocabularyNameParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

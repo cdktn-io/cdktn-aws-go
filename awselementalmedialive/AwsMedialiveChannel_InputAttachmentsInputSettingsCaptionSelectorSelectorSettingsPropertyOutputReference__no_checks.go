@@ -1,0 +1,102 @@
+//go:build no_runtime_type_checking
+
+package awselementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutAncillarySourceSettingsParameters(value *AwsMedialiveChannel_AncillarySourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutAribSourceSettingsParameters(value *AwsMedialiveChannel_AribSourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutDvbSubSourceSettingsParameters(value *AwsMedialiveChannel_DvbSubSourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutEmbeddedSourceSettingsParameters(value *AwsMedialiveChannel_EmbeddedSourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutScte20SourceSettingsParameters(value *AwsMedialiveChannel_Scte20SourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutScte27SourceSettingsParameters(value *AwsMedialiveChannel_Scte27SourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validatePutTeletextSourceSettingsParameters(value *AwsMedialiveChannel_TeletextSourceSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateSetInternalValueParameters(val *AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

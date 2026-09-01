@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awseks
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsEksClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigEventTtlConstraintsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

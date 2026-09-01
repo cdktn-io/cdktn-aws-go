@@ -1,0 +1,102 @@
+//go:build no_runtime_type_checking
+
+package awselementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutAacSettingsParameters(value *AwsMedialiveChannel_AacSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutAc3SettingsParameters(value *AwsMedialiveChannel_Ac3SettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutEac3AtmosSettingsParameters(value *AwsMedialiveChannel_Eac3AtmosSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutEac3SettingsParameters(value *AwsMedialiveChannel_Eac3SettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutMp2SettingsParameters(value *AwsMedialiveChannel_Mp2SettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutPassThroughSettingsParameters(value *AwsMedialiveChannel_PassThroughSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validatePutWavSettingsParameters(value *AwsMedialiveChannel_WavSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateSetInternalValueParameters(val *AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

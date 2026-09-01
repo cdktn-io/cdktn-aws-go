@@ -1,0 +1,13 @@
+package awsbedrockagentcore
+
+
+// Experimental.
+type AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_harness#security_groups AwsBedrockagentcoreHarness#security_groups}.
+	// Experimental.
+	SecurityGroups *[]*string `field:"required" json:"securityGroups" yaml:"securityGroups"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_harness#subnets AwsBedrockagentcoreHarness#subnets}.
+	// Experimental.
+	Subnets *[]*string `field:"required" json:"subnets" yaml:"subnets"`
+}
+

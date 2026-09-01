@@ -1,0 +1,13 @@
+package awssecurityhub
+
+
+// Experimental.
+type AwsSecurityhubAutomationRule_ComplianceSecurityControlIdProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_automation_rule#comparison AwsSecurityhubAutomationRule#comparison}.
+	// Experimental.
+	Comparison *string `field:"required" json:"comparison" yaml:"comparison"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/securityhub_automation_rule#value AwsSecurityhubAutomationRule#value}.
+	// Experimental.
+	Value *string `field:"required" json:"value" yaml:"value"`
+}
+

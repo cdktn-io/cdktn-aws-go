@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbatch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsBatchJobDefinition_EksPropertiesPodPropertiesInitContainersSecurityContextPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

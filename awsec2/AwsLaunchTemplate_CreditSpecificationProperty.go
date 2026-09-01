@@ -1,0 +1,10 @@
+package awsec2
+
+
+// Experimental.
+type AwsLaunchTemplate_CreditSpecificationProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/launch_template#cpu_credits AwsLaunchTemplate#cpu_credits}.
+	// Experimental.
+	CpuCredits *string `field:"optional" json:"cpuCredits" yaml:"cpuCredits"`
+}
+

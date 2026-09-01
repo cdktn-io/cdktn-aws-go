@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsfis
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetInternalValueParameters(val *AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetMaxInstanceCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetMinInstanceCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetStatusParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

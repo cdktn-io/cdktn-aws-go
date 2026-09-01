@@ -1,0 +1,94 @@
+//go:build no_runtime_type_checking
+
+package awsec2
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetHttpEndpointParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetHttpProtocolIpv6Parameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetHttpPutResponseHopLimitParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetHttpTokensParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetInstanceMetadataTagsParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetInternalValueParameters(val *AwsInstance_MetadataOptionsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstance_MetadataOptionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsInstance_MetadataOptionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

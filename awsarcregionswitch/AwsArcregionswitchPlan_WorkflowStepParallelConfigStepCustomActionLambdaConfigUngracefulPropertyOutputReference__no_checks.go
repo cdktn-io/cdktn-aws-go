@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsarcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateSetBehaviorParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

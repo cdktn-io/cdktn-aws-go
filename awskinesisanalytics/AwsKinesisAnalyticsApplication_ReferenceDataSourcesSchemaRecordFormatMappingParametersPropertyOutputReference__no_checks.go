@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awskinesisanalytics
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validatePutCsvParameters(value *AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validatePutJsonParameters(value *AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateSetInternalValueParameters(val *AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsKinesisAnalyticsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

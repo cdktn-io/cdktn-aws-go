@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

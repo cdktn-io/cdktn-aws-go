@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awscloudfront
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetContentTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetProfileIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCloudfrontFieldLevelEncryptionConfig_ContentTypeProfileConfigContentTypeProfilesItemsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+
