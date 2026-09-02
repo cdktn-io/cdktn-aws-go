@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awswaf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validatePutMatchPatternParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetMatchScopeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetOversizeHandlingParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfWebAclRule_StatementRateBasedStatementScopeDownStatementSizeConstraintStatementFieldToMatchHeadersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

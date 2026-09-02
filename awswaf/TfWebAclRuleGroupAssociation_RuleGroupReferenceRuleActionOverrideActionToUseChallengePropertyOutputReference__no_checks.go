@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awswaf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validatePutCustomRequestHandlingParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseChallengePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

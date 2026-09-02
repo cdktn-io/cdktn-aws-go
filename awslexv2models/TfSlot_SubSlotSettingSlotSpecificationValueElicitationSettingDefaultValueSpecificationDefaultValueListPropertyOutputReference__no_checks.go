@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awslexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateSetDefaultValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfSlot_SubSlotSettingSlotSpecificationValueElicitationSettingDefaultValueSpecificationDefaultValueListPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

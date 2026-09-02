@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster",
-		reflect.TypeOf((*AwsFinspaceKxCluster)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster",
+		reflect.TypeOf((*TfKxCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -139,18 +139,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster{}
+			j := jsiiProxy_TfKxCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.AutoScalingConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_AutoScalingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.AutoScalingConfigurationProperty",
+		reflect.TypeOf((*TfKxCluster_AutoScalingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.AutoScalingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_AutoScalingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.AutoScalingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_AutoScalingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoScalingMetric", GoGetter: "AutoScalingMetric"},
 			_jsii_.MemberProperty{JsiiProperty: "autoScalingMetricInput", GoGetter: "AutoScalingMetricInput"},
@@ -187,18 +187,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_AutoScalingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_AutoScalingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CacheConfigurationsProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CacheConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CacheConfigurationsProperty",
+		reflect.TypeOf((*TfKxCluster_CacheConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CacheConfigurationsPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CacheConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CacheConfigurationsPropertyList",
+		reflect.TypeOf((*TfKxCluster_CacheConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -213,14 +213,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_CacheConfigurationsPropertyList{}
+			j := jsiiProxy_TfKxCluster_CacheConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CacheConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CacheConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CacheConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_CacheConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheType", GoGetter: "CacheType"},
 			_jsii_.MemberProperty{JsiiProperty: "cacheTypeInput", GoGetter: "CacheTypeInput"},
@@ -250,18 +250,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_CacheConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_CacheConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CacheStorageConfigurationsProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CacheStorageConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CacheStorageConfigurationsProperty",
+		reflect.TypeOf((*TfKxCluster_CacheStorageConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CacheStorageConfigurationsPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CacheStorageConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CacheStorageConfigurationsPropertyList",
+		reflect.TypeOf((*TfKxCluster_CacheStorageConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -276,14 +276,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_CacheStorageConfigurationsPropertyList{}
+			j := jsiiProxy_TfKxCluster_CacheStorageConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CacheStorageConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CacheStorageConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CacheStorageConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_CacheStorageConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -312,18 +312,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_CacheStorageConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_CacheStorageConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CapacityConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CapacityConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CapacityConfigurationProperty",
+		reflect.TypeOf((*TfKxCluster_CapacityConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CapacityConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CapacityConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CapacityConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_CapacityConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -352,18 +352,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_CapacityConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_CapacityConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CodeProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CodeProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CodeProperty",
+		reflect.TypeOf((*TfKxCluster_CodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.CodePropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_CodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.CodePropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_CodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -395,18 +395,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_CodePropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_CodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.DatabaseProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_DatabaseProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.DatabaseProperty",
+		reflect.TypeOf((*TfKxCluster_DatabaseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.DatabasePropertyList",
-		reflect.TypeOf((*AwsFinspaceKxCluster_DatabasePropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.DatabasePropertyList",
+		reflect.TypeOf((*TfKxCluster_DatabasePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -421,14 +421,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_DatabasePropertyList{}
+			j := jsiiProxy_TfKxCluster_DatabasePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.DatabasePropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_DatabasePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.DatabasePropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_DatabasePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheConfigurations", GoGetter: "CacheConfigurations"},
 			_jsii_.MemberProperty{JsiiProperty: "cacheConfigurationsInput", GoGetter: "CacheConfigurationsInput"},
@@ -465,18 +465,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_DatabasePropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_DatabasePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.SavedownStorageConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_SavedownStorageConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.SavedownStorageConfigurationProperty",
+		reflect.TypeOf((*TfKxCluster_SavedownStorageConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.SavedownStorageConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_SavedownStorageConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.SavedownStorageConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_SavedownStorageConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -510,18 +510,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeNameInput", GoGetter: "VolumeNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_SavedownStorageConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_SavedownStorageConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.ScalingGroupConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_ScalingGroupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.ScalingGroupConfigurationProperty",
+		reflect.TypeOf((*TfKxCluster_ScalingGroupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.ScalingGroupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_ScalingGroupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.ScalingGroupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_ScalingGroupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -558,18 +558,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_ScalingGroupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_ScalingGroupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.TickerplantLogConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_TickerplantLogConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.TickerplantLogConfigurationProperty",
+		reflect.TypeOf((*TfKxCluster_TickerplantLogConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.TickerplantLogConfigurationPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxCluster_TickerplantLogConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.TickerplantLogConfigurationPropertyList",
+		reflect.TypeOf((*TfKxCluster_TickerplantLogConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -584,14 +584,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_TickerplantLogConfigurationPropertyList{}
+			j := jsiiProxy_TfKxCluster_TickerplantLogConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.TickerplantLogConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_TickerplantLogConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.TickerplantLogConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_TickerplantLogConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -618,18 +618,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_TickerplantLogConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_TickerplantLogConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfKxCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -663,18 +663,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.VpcConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxCluster_VpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.VpcConfigurationProperty",
+		reflect.TypeOf((*TfKxCluster_VpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxCluster.VpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxCluster_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxCluster.VpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxCluster_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -707,18 +707,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxCluster_VpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxCluster_VpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxClusterConfig",
-		reflect.TypeOf((*AwsFinspaceKxClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxClusterConfig",
+		reflect.TypeOf((*TfKxClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxDatabase",
-		reflect.TypeOf((*AwsFinspaceKxDatabase)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDatabase",
+		reflect.TypeOf((*TfKxDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -792,18 +792,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxDatabase{}
+			j := jsiiProxy_TfKxDatabase{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxDatabase.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxDatabase_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDatabase.TimeoutsProperty",
+		reflect.TypeOf((*TfKxDatabase_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxDatabase.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxDatabase_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDatabase.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxDatabase_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -837,18 +837,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxDatabase_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxDatabase_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxDatabaseConfig",
-		reflect.TypeOf((*AwsFinspaceKxDatabaseConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDatabaseConfig",
+		reflect.TypeOf((*TfKxDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataview",
-		reflect.TypeOf((*AwsFinspaceKxDataview)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataview",
+		reflect.TypeOf((*TfKxDataview)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -942,18 +942,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxDataview{}
+			j := jsiiProxy_TfKxDataview{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataview.SegmentConfigurationsProperty",
-		reflect.TypeOf((*AwsFinspaceKxDataview_SegmentConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataview.SegmentConfigurationsProperty",
+		reflect.TypeOf((*TfKxDataview_SegmentConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataview.SegmentConfigurationsPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxDataview_SegmentConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataview.SegmentConfigurationsPropertyList",
+		reflect.TypeOf((*TfKxDataview_SegmentConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -968,14 +968,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxDataview_SegmentConfigurationsPropertyList{}
+			j := jsiiProxy_TfKxDataview_SegmentConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataview.SegmentConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxDataview_SegmentConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataview.SegmentConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfKxDataview_SegmentConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1007,18 +1007,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeNameInput", GoGetter: "VolumeNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxDataview_SegmentConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfKxDataview_SegmentConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataview.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxDataview_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataview.TimeoutsProperty",
+		reflect.TypeOf((*TfKxDataview_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataview.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxDataview_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataview.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxDataview_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1052,18 +1052,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxDataview_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxDataview_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxDataviewConfig",
-		reflect.TypeOf((*AwsFinspaceKxDataviewConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxDataviewConfig",
+		reflect.TypeOf((*TfKxDataviewConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment",
+		reflect.TypeOf((*TfKxEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1146,18 +1146,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment{}
+			j := jsiiProxy_TfKxEnvironment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.AttachmentNetworkAclConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_AttachmentNetworkAclConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.AttachmentNetworkAclConfigurationProperty",
+		reflect.TypeOf((*TfKxEnvironment_AttachmentNetworkAclConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.AttachmentNetworkAclConfigurationPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_AttachmentNetworkAclConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.AttachmentNetworkAclConfigurationPropertyList",
+		reflect.TypeOf((*TfKxEnvironment_AttachmentNetworkAclConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1172,14 +1172,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_AttachmentNetworkAclConfigurationPropertyList{}
+			j := jsiiProxy_TfKxEnvironment_AttachmentNetworkAclConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.AttachmentNetworkAclConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_AttachmentNetworkAclConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.AttachmentNetworkAclConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxEnvironment_AttachmentNetworkAclConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlock", GoGetter: "CidrBlock"},
 			_jsii_.MemberProperty{JsiiProperty: "cidrBlockInput", GoGetter: "CidrBlockInput"},
@@ -1220,18 +1220,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_AttachmentNetworkAclConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxEnvironment_AttachmentNetworkAclConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.CustomDnsConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_CustomDnsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.CustomDnsConfigurationProperty",
+		reflect.TypeOf((*TfKxEnvironment_CustomDnsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.CustomDnsConfigurationPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_CustomDnsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.CustomDnsConfigurationPropertyList",
+		reflect.TypeOf((*TfKxEnvironment_CustomDnsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1246,14 +1246,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_CustomDnsConfigurationPropertyList{}
+			j := jsiiProxy_TfKxEnvironment_CustomDnsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.CustomDnsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_CustomDnsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.CustomDnsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxEnvironment_CustomDnsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1282,18 +1282,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_CustomDnsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxEnvironment_CustomDnsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.IcmpTypeCodeProperty",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_IcmpTypeCodeProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.IcmpTypeCodeProperty",
+		reflect.TypeOf((*TfKxEnvironment_IcmpTypeCodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.IcmpTypeCodePropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_IcmpTypeCodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.IcmpTypeCodePropertyOutputReference",
+		reflect.TypeOf((*TfKxEnvironment_IcmpTypeCodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
 			_jsii_.MemberProperty{JsiiProperty: "codeInput", GoGetter: "CodeInput"},
@@ -1322,18 +1322,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_IcmpTypeCodePropertyOutputReference{}
+			j := jsiiProxy_TfKxEnvironment_IcmpTypeCodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.PortRangeProperty",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_PortRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.PortRangeProperty",
+		reflect.TypeOf((*TfKxEnvironment_PortRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.PortRangePropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_PortRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.PortRangePropertyOutputReference",
+		reflect.TypeOf((*TfKxEnvironment_PortRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1362,18 +1362,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_PortRangePropertyOutputReference{}
+			j := jsiiProxy_TfKxEnvironment_PortRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.TimeoutsProperty",
+		reflect.TypeOf((*TfKxEnvironment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxEnvironment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1407,18 +1407,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxEnvironment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.TransitGatewayConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_TransitGatewayConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.TransitGatewayConfigurationProperty",
+		reflect.TypeOf((*TfKxEnvironment_TransitGatewayConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironment.TransitGatewayConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxEnvironment_TransitGatewayConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironment.TransitGatewayConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxEnvironment_TransitGatewayConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attachmentNetworkAclConfiguration", GoGetter: "AttachmentNetworkAclConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "attachmentNetworkAclConfigurationInput", GoGetter: "AttachmentNetworkAclConfigurationInput"},
@@ -1451,18 +1451,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitGatewayIdInput", GoGetter: "TransitGatewayIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxEnvironment_TransitGatewayConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxEnvironment_TransitGatewayConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxEnvironmentConfig",
-		reflect.TypeOf((*AwsFinspaceKxEnvironmentConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxEnvironmentConfig",
+		reflect.TypeOf((*TfKxEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxScalingGroup",
-		reflect.TypeOf((*AwsFinspaceKxScalingGroup)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxScalingGroup",
+		reflect.TypeOf((*TfKxScalingGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1540,18 +1540,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxScalingGroup{}
+			j := jsiiProxy_TfKxScalingGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxScalingGroup.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxScalingGroup_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxScalingGroup.TimeoutsProperty",
+		reflect.TypeOf((*TfKxScalingGroup_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxScalingGroup.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxScalingGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxScalingGroup.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxScalingGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1585,18 +1585,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxScalingGroup_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxScalingGroup_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxScalingGroupConfig",
-		reflect.TypeOf((*AwsFinspaceKxScalingGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxScalingGroupConfig",
+		reflect.TypeOf((*TfKxScalingGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxUser",
-		reflect.TypeOf((*AwsFinspaceKxUser)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxUser",
+		reflect.TypeOf((*TfKxUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1667,18 +1667,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxUser{}
+			j := jsiiProxy_TfKxUser{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxUser.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxUser_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxUser.TimeoutsProperty",
+		reflect.TypeOf((*TfKxUser_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxUser.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxUser_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxUser.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxUser_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1712,18 +1712,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxUser_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxUser_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxUserConfig",
-		reflect.TypeOf((*AwsFinspaceKxUserConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxUserConfig",
+		reflect.TypeOf((*TfKxUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume",
-		reflect.TypeOf((*AwsFinspaceKxVolume)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume",
+		reflect.TypeOf((*TfKxVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1810,18 +1810,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxVolume{}
+			j := jsiiProxy_TfKxVolume{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.AttachedClustersProperty",
-		reflect.TypeOf((*AwsFinspaceKxVolume_AttachedClustersProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.AttachedClustersProperty",
+		reflect.TypeOf((*TfKxVolume_AttachedClustersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.AttachedClustersPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxVolume_AttachedClustersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.AttachedClustersPropertyList",
+		reflect.TypeOf((*TfKxVolume_AttachedClustersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1835,14 +1835,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxVolume_AttachedClustersPropertyList{}
+			j := jsiiProxy_TfKxVolume_AttachedClustersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.AttachedClustersPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxVolume_AttachedClustersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.AttachedClustersPropertyOutputReference",
+		reflect.TypeOf((*TfKxVolume_AttachedClustersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterName", GoGetter: "ClusterName"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterStatus", GoGetter: "ClusterStatus"},
@@ -1870,18 +1870,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxVolume_AttachedClustersPropertyOutputReference{}
+			j := jsiiProxy_TfKxVolume_AttachedClustersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.Nas1ConfigurationProperty",
-		reflect.TypeOf((*AwsFinspaceKxVolume_Nas1ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.Nas1ConfigurationProperty",
+		reflect.TypeOf((*TfKxVolume_Nas1ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.Nas1ConfigurationPropertyList",
-		reflect.TypeOf((*AwsFinspaceKxVolume_Nas1ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.Nas1ConfigurationPropertyList",
+		reflect.TypeOf((*TfKxVolume_Nas1ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1896,14 +1896,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxVolume_Nas1ConfigurationPropertyList{}
+			j := jsiiProxy_TfKxVolume_Nas1ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.Nas1ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxVolume_Nas1ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.Nas1ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfKxVolume_Nas1ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1932,18 +1932,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxVolume_Nas1ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfKxVolume_Nas1ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.TimeoutsProperty",
-		reflect.TypeOf((*AwsFinspaceKxVolume_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.TimeoutsProperty",
+		reflect.TypeOf((*TfKxVolume_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolume.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFinspaceKxVolume_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolume.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKxVolume_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1977,13 +1977,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFinspaceKxVolume_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKxVolume_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-finspace.AwsFinspaceKxVolumeConfig",
-		reflect.TypeOf((*AwsFinspaceKxVolumeConfig)(nil)).Elem(),
+		"@cdktn/aws-finspace.TfKxVolumeConfig",
+		reflect.TypeOf((*TfKxVolumeConfig)(nil)).Elem(),
 	)
 }

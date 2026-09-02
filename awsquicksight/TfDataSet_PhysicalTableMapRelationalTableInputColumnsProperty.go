@@ -1,0 +1,13 @@
+package awsquicksight
+
+
+// Experimental.
+type TfDataSet_PhysicalTableMapRelationalTableInputColumnsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_data_set#name TfDataSet#name}.
+	// Experimental.
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_data_set#type TfDataSet#type}.
+	// Experimental.
+	Type *string `field:"required" json:"type" yaml:"type"`
+}
+

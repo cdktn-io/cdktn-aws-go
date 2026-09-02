@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster",
+		reflect.TypeOf((*TfDbCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -127,18 +127,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster{}
+			j := jsiiProxy_TfDbCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.LogDeliveryConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_LogDeliveryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.LogDeliveryConfigurationProperty",
+		reflect.TypeOf((*TfDbCluster_LogDeliveryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.LogDeliveryConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_LogDeliveryConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.LogDeliveryConfigurationPropertyList",
+		reflect.TypeOf((*TfDbCluster_LogDeliveryConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -153,14 +153,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_LogDeliveryConfigurationPropertyList{}
+			j := jsiiProxy_TfDbCluster_LogDeliveryConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.LogDeliveryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_LogDeliveryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.LogDeliveryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDbCluster_LogDeliveryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -189,18 +189,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_LogDeliveryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDbCluster_LogDeliveryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.MaintenanceScheduleProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_MaintenanceScheduleProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.MaintenanceScheduleProperty",
+		reflect.TypeOf((*TfDbCluster_MaintenanceScheduleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.MaintenanceSchedulePropertyList",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_MaintenanceSchedulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.MaintenanceSchedulePropertyList",
+		reflect.TypeOf((*TfDbCluster_MaintenanceSchedulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -215,14 +215,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_MaintenanceSchedulePropertyList{}
+			j := jsiiProxy_TfDbCluster_MaintenanceSchedulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.MaintenanceSchedulePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_MaintenanceSchedulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.MaintenanceSchedulePropertyOutputReference",
+		reflect.TypeOf((*TfDbCluster_MaintenanceSchedulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -251,18 +251,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_MaintenanceSchedulePropertyOutputReference{}
+			j := jsiiProxy_TfDbCluster_MaintenanceSchedulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.S3ConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_S3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.S3ConfigurationProperty",
+		reflect.TypeOf((*TfDbCluster_S3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.S3ConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_S3ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.S3ConfigurationPropertyList",
+		reflect.TypeOf((*TfDbCluster_S3ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -277,14 +277,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_S3ConfigurationPropertyList{}
+			j := jsiiProxy_TfDbCluster_S3ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.S3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.S3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDbCluster_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -313,18 +313,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_S3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDbCluster_S3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfDbCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDbCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -358,18 +358,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDbCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbClusterConfig",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbClusterConfig",
+		reflect.TypeOf((*TfDbClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance",
+		reflect.TypeOf((*TfDbInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -478,18 +478,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance{}
+			j := jsiiProxy_TfDbInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.LogDeliveryConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_LogDeliveryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.LogDeliveryConfigurationProperty",
+		reflect.TypeOf((*TfDbInstance_LogDeliveryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.LogDeliveryConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_LogDeliveryConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.LogDeliveryConfigurationPropertyList",
+		reflect.TypeOf((*TfDbInstance_LogDeliveryConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -504,14 +504,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_LogDeliveryConfigurationPropertyList{}
+			j := jsiiProxy_TfDbInstance_LogDeliveryConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.LogDeliveryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_LogDeliveryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.LogDeliveryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDbInstance_LogDeliveryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -540,18 +540,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_LogDeliveryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDbInstance_LogDeliveryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.MaintenanceScheduleProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_MaintenanceScheduleProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.MaintenanceScheduleProperty",
+		reflect.TypeOf((*TfDbInstance_MaintenanceScheduleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.MaintenanceSchedulePropertyList",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_MaintenanceSchedulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.MaintenanceSchedulePropertyList",
+		reflect.TypeOf((*TfDbInstance_MaintenanceSchedulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -566,14 +566,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_MaintenanceSchedulePropertyList{}
+			j := jsiiProxy_TfDbInstance_MaintenanceSchedulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.MaintenanceSchedulePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_MaintenanceSchedulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.MaintenanceSchedulePropertyOutputReference",
+		reflect.TypeOf((*TfDbInstance_MaintenanceSchedulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -602,18 +602,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_MaintenanceSchedulePropertyOutputReference{}
+			j := jsiiProxy_TfDbInstance_MaintenanceSchedulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.S3ConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_S3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.S3ConfigurationProperty",
+		reflect.TypeOf((*TfDbInstance_S3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.S3ConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_S3ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.S3ConfigurationPropertyList",
+		reflect.TypeOf((*TfDbInstance_S3ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -628,14 +628,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_S3ConfigurationPropertyList{}
+			j := jsiiProxy_TfDbInstance_S3ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.S3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.S3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDbInstance_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -664,18 +664,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_S3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDbInstance_S3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.TimeoutsProperty",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.TimeoutsProperty",
+		reflect.TypeOf((*TfDbInstance_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstance.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstance_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstance.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDbInstance_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -709,13 +709,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreaminfluxdbDbInstance_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDbInstance_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-for-influxdb.AwsTimestreaminfluxdbDbInstanceConfig",
-		reflect.TypeOf((*AwsTimestreaminfluxdbDbInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-timestream-for-influxdb.TfDbInstanceConfig",
+		reflect.TypeOf((*TfDbInstanceConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,74 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm",
-		reflect.TypeOf((*AwsSagemakerAlgorithm)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.DataTfPrebuiltEcrImage",
+		reflect.TypeOf((*DataTfPrebuiltEcrImage)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsSuffix", GoGetter: "DnsSuffix"},
+			_jsii_.MemberProperty{JsiiProperty: "dnsSuffixInput", GoGetter: "DnsSuffixInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "imageTag", GoGetter: "ImageTag"},
+			_jsii_.MemberProperty{JsiiProperty: "imageTagInput", GoGetter: "ImageTagInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberProperty{JsiiProperty: "registryId", GoGetter: "RegistryId"},
+			_jsii_.MemberProperty{JsiiProperty: "registryPath", GoGetter: "RegistryPath"},
+			_jsii_.MemberProperty{JsiiProperty: "repositoryName", GoGetter: "RepositoryName"},
+			_jsii_.MemberProperty{JsiiProperty: "repositoryNameInput", GoGetter: "RepositoryNameInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDnsSuffix", GoMethod: "ResetDnsSuffix"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetImageTag", GoMethod: "ResetImageTag"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfPrebuiltEcrImage{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-sagemaker-ai.DataTfPrebuiltEcrImageConfig",
+		reflect.TypeOf((*DataTfPrebuiltEcrImageConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm",
+		reflect.TypeOf((*TfAlgorithm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -93,18 +159,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm{}
+			j := jsiiProxy_TfAlgorithm{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.BaseModelProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_BaseModelProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.BaseModelProperty",
+		reflect.TypeOf((*TfAlgorithm_BaseModelProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.BaseModelPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_BaseModelPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.BaseModelPropertyList",
+		reflect.TypeOf((*TfAlgorithm_BaseModelPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -119,14 +185,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_BaseModelPropertyList{}
+			j := jsiiProxy_TfAlgorithm_BaseModelPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.BaseModelPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_BaseModelPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.BaseModelPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_BaseModelPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -160,18 +226,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_BaseModelPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_BaseModelPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.CategoricalParameterRangeSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_CategoricalParameterRangeSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.CategoricalParameterRangeSpecificationProperty",
+		reflect.TypeOf((*TfAlgorithm_CategoricalParameterRangeSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.CategoricalParameterRangeSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_CategoricalParameterRangeSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.CategoricalParameterRangeSpecificationPropertyList",
+		reflect.TypeOf((*TfAlgorithm_CategoricalParameterRangeSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -186,14 +252,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_CategoricalParameterRangeSpecificationPropertyList{}
+			j := jsiiProxy_TfAlgorithm_CategoricalParameterRangeSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.CategoricalParameterRangeSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_CategoricalParameterRangeSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.CategoricalParameterRangeSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_CategoricalParameterRangeSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -220,18 +286,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_CategoricalParameterRangeSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_CategoricalParameterRangeSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ContainersProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ContainersProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ContainersProperty",
+		reflect.TypeOf((*TfAlgorithm_ContainersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ContainersPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ContainersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ContainersPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ContainersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -246,14 +312,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ContainersPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ContainersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ContainersPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ContainersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ContainersPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ContainersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalS3DataSource", GoGetter: "AdditionalS3DataSource"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalS3DataSourceInput", GoGetter: "AdditionalS3DataSourceInput"},
@@ -327,18 +393,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ContainersPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ContainersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ContinuousParameterRangeSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ContinuousParameterRangeSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ContinuousParameterRangeSpecificationProperty",
+		reflect.TypeOf((*TfAlgorithm_ContinuousParameterRangeSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ContinuousParameterRangeSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ContinuousParameterRangeSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ContinuousParameterRangeSpecificationPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ContinuousParameterRangeSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -353,14 +419,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ContinuousParameterRangeSpecificationPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ContinuousParameterRangeSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ContinuousParameterRangeSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ContinuousParameterRangeSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ContinuousParameterRangeSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ContinuousParameterRangeSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -389,18 +455,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ContinuousParameterRangeSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ContinuousParameterRangeSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.FileSystemDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_FileSystemDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.FileSystemDataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_FileSystemDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.FileSystemDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_FileSystemDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.FileSystemDataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_FileSystemDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -415,14 +481,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_FileSystemDataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_FileSystemDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.FileSystemDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_FileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.FileSystemDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_FileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -455,18 +521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_FileSystemDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_FileSystemDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersAdditionalS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersAdditionalS3DataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersAdditionalS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersAdditionalS3DataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -481,14 +547,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersAdditionalS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersAdditionalS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -523,18 +589,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersAdditionalS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -549,14 +615,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -584,18 +650,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -610,14 +676,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -645,18 +711,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -671,14 +737,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -726,18 +792,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationProperty",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationPropertyList",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -752,14 +818,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationPropertyList{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InferenceSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InferenceSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InferenceSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InferenceSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -800,18 +866,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InferenceSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InferenceSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InputDataConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_InputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InputDataConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_InputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -826,14 +892,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InputDataConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_InputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelNameInput", GoGetter: "ChannelNameInput"},
@@ -880,18 +946,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InstanceGroupsProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InstanceGroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InstanceGroupsProperty",
+		reflect.TypeOf((*TfAlgorithm_InstanceGroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InstanceGroupsPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InstanceGroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InstanceGroupsPropertyList",
+		reflect.TypeOf((*TfAlgorithm_InstanceGroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -906,14 +972,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InstanceGroupsPropertyList{}
+			j := jsiiProxy_TfAlgorithm_InstanceGroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InstanceGroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InstanceGroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InstanceGroupsPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InstanceGroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -944,18 +1010,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InstanceGroupsPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InstanceGroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InstancePlacementConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InstancePlacementConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InstancePlacementConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_InstancePlacementConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InstancePlacementConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InstancePlacementConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InstancePlacementConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_InstancePlacementConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -970,14 +1036,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InstancePlacementConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_InstancePlacementConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.InstancePlacementConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_InstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.InstancePlacementConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_InstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1009,18 +1075,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_InstancePlacementConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_InstancePlacementConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.IntegerParameterRangeSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_IntegerParameterRangeSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.IntegerParameterRangeSpecificationProperty",
+		reflect.TypeOf((*TfAlgorithm_IntegerParameterRangeSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.IntegerParameterRangeSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_IntegerParameterRangeSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.IntegerParameterRangeSpecificationPropertyList",
+		reflect.TypeOf((*TfAlgorithm_IntegerParameterRangeSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1035,14 +1101,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_IntegerParameterRangeSpecificationPropertyList{}
+			j := jsiiProxy_TfAlgorithm_IntegerParameterRangeSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.IntegerParameterRangeSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_IntegerParameterRangeSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.IntegerParameterRangeSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_IntegerParameterRangeSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1071,18 +1137,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_IntegerParameterRangeSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_IntegerParameterRangeSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.MetricDefinitionsProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_MetricDefinitionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.MetricDefinitionsProperty",
+		reflect.TypeOf((*TfAlgorithm_MetricDefinitionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.MetricDefinitionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_MetricDefinitionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.MetricDefinitionsPropertyList",
+		reflect.TypeOf((*TfAlgorithm_MetricDefinitionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1097,14 +1163,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_MetricDefinitionsPropertyList{}
+			j := jsiiProxy_TfAlgorithm_MetricDefinitionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.MetricDefinitionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_MetricDefinitionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.MetricDefinitionsPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_MetricDefinitionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1133,18 +1199,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_MetricDefinitionsPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_MetricDefinitionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ModelDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ModelDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ModelDataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_ModelDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ModelDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ModelDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ModelDataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_ModelDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1159,14 +1225,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ModelDataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_ModelDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ModelDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ModelDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ModelDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ModelDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1195,18 +1261,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ModelDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ModelDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ModelInputProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ModelInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ModelInputProperty",
+		reflect.TypeOf((*TfAlgorithm_ModelInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ModelInputPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ModelInputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ModelInputPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ModelInputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1221,14 +1287,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ModelInputPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ModelInputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ModelInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ModelInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ModelInputPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ModelInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1256,18 +1322,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ModelInputPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ModelInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.OutputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_OutputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.OutputDataConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_OutputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.OutputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_OutputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.OutputDataConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_OutputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1282,14 +1348,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_OutputDataConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_OutputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.OutputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_OutputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.OutputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_OutputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1322,18 +1388,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_OutputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_OutputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.PlacementSpecificationsProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_PlacementSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.PlacementSpecificationsProperty",
+		reflect.TypeOf((*TfAlgorithm_PlacementSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.PlacementSpecificationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_PlacementSpecificationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.PlacementSpecificationsPropertyList",
+		reflect.TypeOf((*TfAlgorithm_PlacementSpecificationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1348,14 +1414,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_PlacementSpecificationsPropertyList{}
+			j := jsiiProxy_TfAlgorithm_PlacementSpecificationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.PlacementSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_PlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.PlacementSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_PlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1385,18 +1451,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ultraServerIdInput", GoGetter: "UltraServerIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_PlacementSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_PlacementSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.RangeProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_RangeProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.RangeProperty",
+		reflect.TypeOf((*TfAlgorithm_RangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.RangePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_RangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.RangePropertyList",
+		reflect.TypeOf((*TfAlgorithm_RangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1411,14 +1477,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_RangePropertyList{}
+			j := jsiiProxy_TfAlgorithm_RangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.RangePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_RangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.RangePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_RangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "categoricalParameterRangeSpecification", GoGetter: "CategoricalParameterRangeSpecification"},
 			_jsii_.MemberProperty{JsiiProperty: "categoricalParameterRangeSpecificationInput", GoGetter: "CategoricalParameterRangeSpecificationInput"},
@@ -1455,18 +1521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_RangePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_RangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ResourceConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_ResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ResourceConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1481,14 +1547,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ResourceConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1539,18 +1605,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ShuffleConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ShuffleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ShuffleConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_ShuffleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ShuffleConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ShuffleConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ShuffleConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ShuffleConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1565,14 +1631,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ShuffleConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ShuffleConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ShuffleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ShuffleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ShuffleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ShuffleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1599,18 +1665,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ShuffleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ShuffleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.StoppingConditionProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_StoppingConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.StoppingConditionProperty",
+		reflect.TypeOf((*TfAlgorithm_StoppingConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.StoppingConditionPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_StoppingConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.StoppingConditionPropertyList",
+		reflect.TypeOf((*TfAlgorithm_StoppingConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1625,14 +1691,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_StoppingConditionPropertyList{}
+			j := jsiiProxy_TfAlgorithm_StoppingConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.StoppingConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_StoppingConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.StoppingConditionPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_StoppingConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1666,18 +1732,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_StoppingConditionPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_StoppingConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.SupportedHyperParametersProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_SupportedHyperParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.SupportedHyperParametersProperty",
+		reflect.TypeOf((*TfAlgorithm_SupportedHyperParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.SupportedHyperParametersPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_SupportedHyperParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.SupportedHyperParametersPropertyList",
+		reflect.TypeOf((*TfAlgorithm_SupportedHyperParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1692,14 +1758,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_SupportedHyperParametersPropertyList{}
+			j := jsiiProxy_TfAlgorithm_SupportedHyperParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.SupportedHyperParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_SupportedHyperParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.SupportedHyperParametersPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_SupportedHyperParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1744,18 +1810,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_SupportedHyperParametersPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_SupportedHyperParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.SupportedTuningJobObjectiveMetricsProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_SupportedTuningJobObjectiveMetricsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.SupportedTuningJobObjectiveMetricsProperty",
+		reflect.TypeOf((*TfAlgorithm_SupportedTuningJobObjectiveMetricsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.SupportedTuningJobObjectiveMetricsPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_SupportedTuningJobObjectiveMetricsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.SupportedTuningJobObjectiveMetricsPropertyList",
+		reflect.TypeOf((*TfAlgorithm_SupportedTuningJobObjectiveMetricsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1770,14 +1836,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_SupportedTuningJobObjectiveMetricsPropertyList{}
+			j := jsiiProxy_TfAlgorithm_SupportedTuningJobObjectiveMetricsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.SupportedTuningJobObjectiveMetricsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_SupportedTuningJobObjectiveMetricsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.SupportedTuningJobObjectiveMetricsPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_SupportedTuningJobObjectiveMetricsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1806,18 +1872,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_SupportedTuningJobObjectiveMetricsPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_SupportedTuningJobObjectiveMetricsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TimeoutsProperty",
+		reflect.TypeOf((*TfAlgorithm_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1848,18 +1914,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingChannelsProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingChannelsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingChannelsProperty",
+		reflect.TypeOf((*TfAlgorithm_TrainingChannelsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingChannelsPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingChannelsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingChannelsPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TrainingChannelsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1874,14 +1940,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingChannelsPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TrainingChannelsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingChannelsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingChannelsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingChannelsPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TrainingChannelsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1921,18 +1987,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingChannelsPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TrainingChannelsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingJobDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingJobDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingJobDefinitionProperty",
+		reflect.TypeOf((*TfAlgorithm_TrainingJobDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingJobDefinitionPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingJobDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingJobDefinitionPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TrainingJobDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1947,14 +2013,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingJobDefinitionPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TrainingJobDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingJobDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingJobDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingJobDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TrainingJobDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2000,18 +2066,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingInputModeInput", GoGetter: "TrainingInputModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingJobDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TrainingJobDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingSpecificationAdditionalS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingSpecificationAdditionalS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingSpecificationAdditionalS3DataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_TrainingSpecificationAdditionalS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingSpecificationAdditionalS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingSpecificationAdditionalS3DataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2026,14 +2092,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingSpecificationAdditionalS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingSpecificationAdditionalS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2068,18 +2134,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TrainingSpecificationAdditionalS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingSpecificationProperty",
+		reflect.TypeOf((*TfAlgorithm_TrainingSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingSpecificationPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TrainingSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2094,14 +2160,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingSpecificationPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TrainingSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TrainingSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TrainingSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TrainingSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TrainingSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalS3DataSource", GoGetter: "AdditionalS3DataSource"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalS3DataSourceInput", GoGetter: "AdditionalS3DataSourceInput"},
@@ -2156,18 +2222,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingImageInput", GoGetter: "TrainingImageInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TrainingSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TrainingSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformInputProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformInputProperty",
+		reflect.TypeOf((*TfAlgorithm_TransformInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformInputPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformInputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformInputPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TransformInputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2182,14 +2248,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformInputPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TransformInputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformInputPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TransformInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2227,18 +2293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformInputPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TransformInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformJobDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformJobDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformJobDefinitionProperty",
+		reflect.TypeOf((*TfAlgorithm_TransformJobDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformJobDefinitionPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformJobDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformJobDefinitionPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TransformJobDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2253,14 +2319,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformJobDefinitionPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TransformJobDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformJobDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformJobDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformJobDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TransformJobDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchStrategy", GoGetter: "BatchStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "batchStrategyInput", GoGetter: "BatchStrategyInput"},
@@ -2309,18 +2375,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transformResourcesInput", GoGetter: "TransformResourcesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformJobDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TransformJobDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformOutputProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformOutputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformOutputProperty",
+		reflect.TypeOf((*TfAlgorithm_TransformOutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformOutputPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformOutputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformOutputPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TransformOutputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2335,14 +2401,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformOutputPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TransformOutputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformOutputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformOutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformOutputPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TransformOutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accept", GoGetter: "Accept"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptInput", GoGetter: "AcceptInput"},
@@ -2378,18 +2444,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformOutputPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TransformOutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformResourcesProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformResourcesProperty",
+		reflect.TypeOf((*TfAlgorithm_TransformResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformResourcesPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformResourcesPropertyList",
+		reflect.TypeOf((*TfAlgorithm_TransformResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2404,14 +2470,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformResourcesPropertyList{}
+			j := jsiiProxy_TfAlgorithm_TransformResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.TransformResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_TransformResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.TransformResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_TransformResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2446,18 +2512,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeKmsKeyIdInput", GoGetter: "VolumeKmsKeyIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_TransformResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_TransformResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationProfilesProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationProfilesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationProfilesProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationProfilesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationProfilesPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationProfilesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationProfilesPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationProfilesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2472,14 +2538,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationProfilesPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationProfilesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationProfilesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationProfilesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationProfilesPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationProfilesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2514,18 +2580,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transformJobDefinitionInput", GoGetter: "TransformJobDefinitionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationProfilesPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationProfilesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2540,14 +2606,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2578,18 +2644,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validationRoleInput", GoGetter: "ValidationRoleInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2604,14 +2670,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2644,18 +2710,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2670,14 +2736,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2705,18 +2771,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2731,14 +2797,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -2766,18 +2832,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2792,14 +2858,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeNames", GoGetter: "AttributeNames"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeNamesInput", GoGetter: "AttributeNamesInput"},
@@ -2845,18 +2911,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2871,14 +2937,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2907,18 +2973,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2933,14 +2999,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithm.ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2969,18 +3035,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAlgorithmConfig",
-		reflect.TypeOf((*AwsSagemakerAlgorithmConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAlgorithmConfig",
+		reflect.TypeOf((*TfAlgorithmConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerApp",
-		reflect.TypeOf((*AwsSagemakerApp)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfApp",
+		reflect.TypeOf((*TfApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3057,18 +3123,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerApp{}
+			j := jsiiProxy_TfApp{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerApp.ResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerApp_ResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfApp.ResourceSpecProperty",
+		reflect.TypeOf((*TfApp_ResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerApp.ResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerApp_ResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfApp.ResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfApp_ResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3108,18 +3174,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerApp_ResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfApp_ResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppConfig",
-		reflect.TypeOf((*AwsSagemakerAppConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppConfig",
+		reflect.TypeOf((*TfAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig",
+		reflect.TypeOf((*TfAppImageConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3194,18 +3260,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig{}
+			j := jsiiProxy_TfAppImageConfig{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.CodeEditorAppImageConfigContainerConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_CodeEditorAppImageConfigContainerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.CodeEditorAppImageConfigContainerConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_CodeEditorAppImageConfigContainerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.CodeEditorAppImageConfigContainerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.CodeEditorAppImageConfigContainerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3239,18 +3305,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.CodeEditorAppImageConfigFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_CodeEditorAppImageConfigFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.CodeEditorAppImageConfigFileSystemConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_CodeEditorAppImageConfigFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.CodeEditorAppImageConfigFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_CodeEditorAppImageConfigFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.CodeEditorAppImageConfigFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_CodeEditorAppImageConfigFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3284,18 +3350,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_CodeEditorAppImageConfigFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_CodeEditorAppImageConfigFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.CodeEditorAppImageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_CodeEditorAppImageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.CodeEditorAppImageConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_CodeEditorAppImageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.CodeEditorAppImageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_CodeEditorAppImageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.CodeEditorAppImageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_CodeEditorAppImageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3328,18 +3394,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_CodeEditorAppImageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_CodeEditorAppImageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.JupyterLabImageConfigContainerConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_JupyterLabImageConfigContainerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.JupyterLabImageConfigContainerConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_JupyterLabImageConfigContainerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.JupyterLabImageConfigContainerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_JupyterLabImageConfigContainerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.JupyterLabImageConfigContainerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_JupyterLabImageConfigContainerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3373,18 +3439,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_JupyterLabImageConfigContainerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_JupyterLabImageConfigContainerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.JupyterLabImageConfigFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_JupyterLabImageConfigFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.JupyterLabImageConfigFileSystemConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_JupyterLabImageConfigFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.JupyterLabImageConfigFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_JupyterLabImageConfigFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.JupyterLabImageConfigFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_JupyterLabImageConfigFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3418,18 +3484,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_JupyterLabImageConfigFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_JupyterLabImageConfigFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.JupyterLabImageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_JupyterLabImageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.JupyterLabImageConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_JupyterLabImageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.JupyterLabImageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_JupyterLabImageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.JupyterLabImageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_JupyterLabImageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3462,18 +3528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_JupyterLabImageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_JupyterLabImageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelGatewayImageConfigFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelGatewayImageConfigFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelGatewayImageConfigFileSystemConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_KernelGatewayImageConfigFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelGatewayImageConfigFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelGatewayImageConfigFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelGatewayImageConfigFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_KernelGatewayImageConfigFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3507,18 +3573,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_KernelGatewayImageConfigFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_KernelGatewayImageConfigFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelGatewayImageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelGatewayImageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelGatewayImageConfigProperty",
+		reflect.TypeOf((*TfAppImageConfig_KernelGatewayImageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelGatewayImageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelGatewayImageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelGatewayImageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_KernelGatewayImageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3550,18 +3616,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_KernelGatewayImageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_KernelGatewayImageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelSpecProperty",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelSpecProperty",
+		reflect.TypeOf((*TfAppImageConfig_KernelSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelSpecPropertyList",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelSpecPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelSpecPropertyList",
+		reflect.TypeOf((*TfAppImageConfig_KernelSpecPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3576,14 +3642,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_KernelSpecPropertyList{}
+			j := jsiiProxy_TfAppImageConfig_KernelSpecPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfig.KernelSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerAppImageConfig_KernelSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfig.KernelSpecPropertyOutputReference",
+		reflect.TypeOf((*TfAppImageConfig_KernelSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3613,18 +3679,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerAppImageConfig_KernelSpecPropertyOutputReference{}
+			j := jsiiProxy_TfAppImageConfig_KernelSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerAppImageConfigConfig",
-		reflect.TypeOf((*AwsSagemakerAppImageConfigConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfAppImageConfigConfig",
+		reflect.TypeOf((*TfAppImageConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerCodeRepository",
-		reflect.TypeOf((*AwsSagemakerCodeRepository)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfCodeRepository",
+		reflect.TypeOf((*TfCodeRepository)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3690,18 +3756,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerCodeRepository{}
+			j := jsiiProxy_TfCodeRepository{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerCodeRepository.GitConfigProperty",
-		reflect.TypeOf((*AwsSagemakerCodeRepository_GitConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfCodeRepository.GitConfigProperty",
+		reflect.TypeOf((*TfCodeRepository_GitConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerCodeRepository.GitConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerCodeRepository_GitConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfCodeRepository.GitConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCodeRepository_GitConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branch", GoGetter: "Branch"},
 			_jsii_.MemberProperty{JsiiProperty: "branchInput", GoGetter: "BranchInput"},
@@ -3734,18 +3800,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerCodeRepository_GitConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCodeRepository_GitConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerCodeRepositoryConfig",
-		reflect.TypeOf((*AwsSagemakerCodeRepositoryConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfCodeRepositoryConfig",
+		reflect.TypeOf((*TfCodeRepositoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition",
+		reflect.TypeOf((*TfDataQualityJobDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3835,18 +3901,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition{}
+			j := jsiiProxy_TfDataQualityJobDefinition{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.BatchTransformInputProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_BatchTransformInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.BatchTransformInputProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_BatchTransformInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.BatchTransformInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_BatchTransformInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.BatchTransformInputPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_BatchTransformInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3885,18 +3951,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_BatchTransformInputPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_BatchTransformInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.ClusterConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_ClusterConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.ClusterConfigProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_ClusterConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.ClusterConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_ClusterConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.ClusterConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_ClusterConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3930,18 +3996,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_ClusterConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_ClusterConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.ConstraintsResourceProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_ConstraintsResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.ConstraintsResourceProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_ConstraintsResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.ConstraintsResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_ConstraintsResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.ConstraintsResourcePropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_ConstraintsResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3969,18 +4035,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_ConstraintsResourcePropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_ConstraintsResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.CsvProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_CsvProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.CsvProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_CsvProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.CsvPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_CsvPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.CsvPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_CsvPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4008,18 +4074,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_CsvPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_CsvPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityAppSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityAppSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityAppSpecificationProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityAppSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityAppSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityAppSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityAppSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityAppSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4055,18 +4121,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_DataQualityAppSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_DataQualityAppSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityBaselineConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityBaselineConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityBaselineConfigProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityBaselineConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityBaselineConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityBaselineConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityBaselineConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityBaselineConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4099,18 +4165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_DataQualityBaselineConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_DataQualityBaselineConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityJobInputProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityJobInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityJobInputProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityJobInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityJobInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityJobInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityJobInputPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityJobInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchTransformInput", GoGetter: "BatchTransformInput"},
 			_jsii_.MemberProperty{JsiiProperty: "batchTransformInputInput", GoGetter: "BatchTransformInputInput"},
@@ -4143,18 +4209,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_DataQualityJobInputPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_DataQualityJobInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityJobOutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityJobOutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityJobOutputConfigProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityJobOutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DataQualityJobOutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DataQualityJobOutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DataQualityJobOutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DataQualityJobOutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4185,18 +4251,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_DataQualityJobOutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_DataQualityJobOutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DatasetFormatProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DatasetFormatProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DatasetFormatProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DatasetFormatProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.DatasetFormatPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_DatasetFormatPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.DatasetFormatPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_DatasetFormatPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4229,18 +4295,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_DatasetFormatPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_DatasetFormatPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.EndpointInputProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_EndpointInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.EndpointInputProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_EndpointInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.EndpointInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_EndpointInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.EndpointInputPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_EndpointInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4276,18 +4342,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_EndpointInputPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_EndpointInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.JobResourcesProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_JobResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.JobResourcesProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_JobResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.JobResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_JobResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.JobResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_JobResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterConfig", GoGetter: "ClusterConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterConfigInput", GoGetter: "ClusterConfigInput"},
@@ -4315,18 +4381,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_JobResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_JobResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.JsonProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_JsonProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.JsonProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_JsonProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.JsonPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_JsonPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.JsonPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_JsonPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4354,18 +4420,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_JsonPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_JsonPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.MonitoringOutputsProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_MonitoringOutputsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.MonitoringOutputsProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_MonitoringOutputsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.MonitoringOutputsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_MonitoringOutputsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.MonitoringOutputsPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_MonitoringOutputsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4393,18 +4459,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_MonitoringOutputsPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_MonitoringOutputsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.NetworkConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_NetworkConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.NetworkConfigProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_NetworkConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.NetworkConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_NetworkConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.NetworkConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_NetworkConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4439,18 +4505,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_NetworkConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_NetworkConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.S3OutputProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_S3OutputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.S3OutputProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_S3OutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.S3OutputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_S3OutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.S3OutputPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_S3OutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4483,18 +4549,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_S3OutputPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_S3OutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.StatisticsResourceProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_StatisticsResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.StatisticsResourceProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_StatisticsResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.StatisticsResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_StatisticsResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.StatisticsResourcePropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_StatisticsResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4522,18 +4588,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_StatisticsResourcePropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_StatisticsResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.StoppingConditionProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_StoppingConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.StoppingConditionProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_StoppingConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.StoppingConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_StoppingConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.StoppingConditionPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_StoppingConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4561,18 +4627,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_StoppingConditionPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_StoppingConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.VpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.VpcConfigProperty",
+		reflect.TypeOf((*TfDataQualityJobDefinition_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinition.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinition_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinition.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDataQualityJobDefinition_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4601,18 +4667,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDataQualityJobDefinition_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDataQualityJobDefinition_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDataQualityJobDefinitionConfig",
-		reflect.TypeOf((*AwsSagemakerDataQualityJobDefinitionConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDataQualityJobDefinitionConfig",
+		reflect.TypeOf((*TfDataQualityJobDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDevice",
-		reflect.TypeOf((*AwsSagemakerDevice)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDevice",
+		reflect.TypeOf((*TfDevice)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -4673,18 +4739,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDevice{}
+			j := jsiiProxy_TfDevice{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDevice.DeviceProperty",
-		reflect.TypeOf((*AwsSagemakerDevice_DeviceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDevice.DeviceProperty",
+		reflect.TypeOf((*TfDevice_DeviceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDevice.DevicePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDevice_DevicePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDevice.DevicePropertyOutputReference",
+		reflect.TypeOf((*TfDevice_DevicePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4717,18 +4783,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDevice_DevicePropertyOutputReference{}
+			j := jsiiProxy_TfDevice_DevicePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDeviceConfig",
-		reflect.TypeOf((*AwsSagemakerDeviceConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDeviceConfig",
+		reflect.TypeOf((*TfDeviceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDeviceFleet",
-		reflect.TypeOf((*AwsSagemakerDeviceFleet)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDeviceFleet",
+		reflect.TypeOf((*TfDeviceFleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -4803,18 +4869,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDeviceFleet{}
+			j := jsiiProxy_TfDeviceFleet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDeviceFleet.OutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDeviceFleet_OutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDeviceFleet.OutputConfigProperty",
+		reflect.TypeOf((*TfDeviceFleet_OutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDeviceFleet.OutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDeviceFleet_OutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDeviceFleet.OutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDeviceFleet_OutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4844,18 +4910,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDeviceFleet_OutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDeviceFleet_OutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDeviceFleetConfig",
-		reflect.TypeOf((*AwsSagemakerDeviceFleetConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDeviceFleetConfig",
+		reflect.TypeOf((*TfDeviceFleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain",
-		reflect.TypeOf((*AwsSagemakerDomain)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -4956,18 +5022,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.CanvasAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_CanvasAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.CanvasAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_CanvasAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.CanvasAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_CanvasAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.CanvasAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_CanvasAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5024,18 +5090,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceSettingsInput", GoGetter: "WorkspaceSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_CanvasAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_CanvasAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.CodeEditorAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_CodeEditorAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.CodeEditorAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_CodeEditorAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.CodeEditorAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_CodeEditorAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.CodeEditorAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_CodeEditorAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -5078,18 +5144,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_CodeEditorAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_CodeEditorAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5118,18 +5184,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomFileSystemConfigProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomFileSystemConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomFileSystemConfigPropertyList",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5144,14 +5210,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyList{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5180,18 +5246,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsCustomFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomPosixUserConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomPosixUserConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomPosixUserConfigProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomPosixUserConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsCustomPosixUserConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsCustomPosixUserConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsCustomPosixUserConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsCustomPosixUserConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5220,18 +5286,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uidInput", GoGetter: "UidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsCustomPosixUserConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsCustomPosixUserConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5268,18 +5334,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5308,18 +5374,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5334,14 +5400,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5368,18 +5434,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5394,14 +5460,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -5433,18 +5499,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5484,18 +5550,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assumableRoleArns", GoGetter: "AssumableRoleArns"},
 			_jsii_.MemberProperty{JsiiProperty: "assumableRoleArnsInput", GoGetter: "AssumableRoleArnsInput"},
@@ -5526,18 +5592,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterLabAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterLabAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -5588,18 +5654,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterLabAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterLabAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5614,14 +5680,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5648,18 +5714,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5699,18 +5765,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsJupyterServerAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsJupyterServerAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeRepository", GoGetter: "CodeRepository"},
 			_jsii_.MemberProperty{JsiiProperty: "codeRepositoryInput", GoGetter: "CodeRepositoryInput"},
@@ -5746,18 +5812,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsJupyterServerAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsJupyterServerAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5772,14 +5838,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -5811,18 +5877,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5862,18 +5928,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsKernelGatewayAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsKernelGatewayAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5909,18 +5975,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsKernelGatewayAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsKernelGatewayAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5974,18 +6040,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6014,18 +6080,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsSpaceStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsSpaceStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsSpaceStorageSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsSpaceStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultSpaceSettingsSpaceStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultSpaceSettingsSpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultSpaceSettingsSpaceStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultSpaceSettingsSpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6054,18 +6120,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultSpaceSettingsSpaceStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultSpaceSettingsSpaceStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6102,18 +6168,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6142,18 +6208,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6168,14 +6234,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -6207,18 +6273,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6258,18 +6324,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6298,18 +6364,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCustomFileSystemConfigEfsFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomFileSystemConfigProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomFileSystemConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomFileSystemConfigPropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomFileSystemConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6324,14 +6390,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigPropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCustomFileSystemConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6360,18 +6426,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCustomFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomPosixUserConfigProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomPosixUserConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomPosixUserConfigProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomPosixUserConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsCustomPosixUserConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsCustomPosixUserConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsCustomPosixUserConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsCustomPosixUserConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6400,18 +6466,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uidInput", GoGetter: "UidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsCustomPosixUserConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsCustomPosixUserConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6448,18 +6514,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6488,18 +6554,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6514,14 +6580,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6548,18 +6614,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6574,14 +6640,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -6613,18 +6679,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6664,18 +6730,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsEmrSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsEmrSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsEmrSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsEmrSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assumableRoleArns", GoGetter: "AssumableRoleArns"},
 			_jsii_.MemberProperty{JsiiProperty: "assumableRoleArnsInput", GoGetter: "AssumableRoleArnsInput"},
@@ -6706,18 +6772,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsEmrSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterLabAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterLabAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -6768,18 +6834,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterLabAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterLabAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6794,14 +6860,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6828,18 +6894,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6879,18 +6945,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsJupyterServerAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsJupyterServerAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsJupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeRepository", GoGetter: "CodeRepository"},
 			_jsii_.MemberProperty{JsiiProperty: "codeRepositoryInput", GoGetter: "CodeRepositoryInput"},
@@ -6926,18 +6992,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsJupyterServerAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsJupyterServerAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6952,14 +7018,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -6991,18 +7057,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7042,18 +7108,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsKernelGatewayAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsKernelGatewayAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsKernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7089,18 +7155,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsKernelGatewayAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsKernelGatewayAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoMountHomeEfs", GoGetter: "AutoMountHomeEfs"},
 			_jsii_.MemberProperty{JsiiProperty: "autoMountHomeEfsInput", GoGetter: "AutoMountHomeEfsInput"},
@@ -7191,18 +7257,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsRSessionAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsRSessionAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsRSessionAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsRSessionAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsRSessionAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7217,14 +7283,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsRSessionAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsRSessionAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -7256,18 +7322,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsRSessionAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7307,18 +7373,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7347,18 +7413,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsSpaceStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsSpaceStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsSpaceStorageSettingsProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsSpaceStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsSpaceStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsSpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsSpaceStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsSpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7387,18 +7453,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsSpaceStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsSpaceStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7438,18 +7504,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DefaultUserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DirectDeploySettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DirectDeploySettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DirectDeploySettingsProperty",
+		reflect.TypeOf((*TfDomain_DirectDeploySettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DirectDeploySettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DirectDeploySettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DirectDeploySettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DirectDeploySettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7477,18 +7543,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DirectDeploySettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DirectDeploySettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DockerSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DockerSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DockerSettingsProperty",
+		reflect.TypeOf((*TfDomain_DockerSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DockerSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DockerSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DockerSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DockerSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7519,18 +7585,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcOnlyTrustedAccountsInput", GoGetter: "VpcOnlyTrustedAccountsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DockerSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DockerSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DomainSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DomainSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DomainSettingsProperty",
+		reflect.TypeOf((*TfDomain_DomainSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DomainSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DomainSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DomainSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DomainSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7573,18 +7639,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustedIdentityPropagationSettingsInput", GoGetter: "TrustedIdentityPropagationSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DomainSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DomainSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfDomain_DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7624,18 +7690,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_DomainSettingsRStudioServerProDomainSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.EmrServerlessSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_EmrServerlessSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.EmrServerlessSettingsProperty",
+		reflect.TypeOf((*TfDomain_EmrServerlessSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.EmrServerlessSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_EmrServerlessSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.EmrServerlessSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_EmrServerlessSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7666,18 +7732,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_EmrServerlessSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_EmrServerlessSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.GenerativeAiSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_GenerativeAiSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.GenerativeAiSettingsProperty",
+		reflect.TypeOf((*TfDomain_GenerativeAiSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.GenerativeAiSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_GenerativeAiSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.GenerativeAiSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_GenerativeAiSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonBedrockRoleArn", GoGetter: "AmazonBedrockRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "amazonBedrockRoleArnInput", GoGetter: "AmazonBedrockRoleArnInput"},
@@ -7705,18 +7771,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_GenerativeAiSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_GenerativeAiSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.IdentityProviderOauthSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_IdentityProviderOauthSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.IdentityProviderOauthSettingsProperty",
+		reflect.TypeOf((*TfDomain_IdentityProviderOauthSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.IdentityProviderOauthSettingsPropertyList",
-		reflect.TypeOf((*AwsSagemakerDomain_IdentityProviderOauthSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.IdentityProviderOauthSettingsPropertyList",
+		reflect.TypeOf((*TfDomain_IdentityProviderOauthSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7731,14 +7797,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_IdentityProviderOauthSettingsPropertyList{}
+			j := jsiiProxy_TfDomain_IdentityProviderOauthSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.IdentityProviderOauthSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_IdentityProviderOauthSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.IdentityProviderOauthSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_IdentityProviderOauthSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7771,18 +7837,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_IdentityProviderOauthSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_IdentityProviderOauthSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.KendraSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_KendraSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.KendraSettingsProperty",
+		reflect.TypeOf((*TfDomain_KendraSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.KendraSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_KendraSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.KendraSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_KendraSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7810,18 +7876,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_KendraSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_KendraSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.ModelRegisterSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_ModelRegisterSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.ModelRegisterSettingsProperty",
+		reflect.TypeOf((*TfDomain_ModelRegisterSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.ModelRegisterSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_ModelRegisterSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.ModelRegisterSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_ModelRegisterSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7852,18 +7918,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_ModelRegisterSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_ModelRegisterSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RSessionAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_RSessionAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RSessionAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_RSessionAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RSessionAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_RSessionAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RSessionAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RSessionAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7896,18 +7962,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_RSessionAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RSessionAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RStudioServerProAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_RStudioServerProAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RStudioServerProAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_RStudioServerProAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RStudioServerProAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_RStudioServerProAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RStudioServerProAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RStudioServerProAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessStatus", GoGetter: "AccessStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "accessStatusInput", GoGetter: "AccessStatusInput"},
@@ -7938,18 +8004,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userGroupInput", GoGetter: "UserGroupInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_RStudioServerProAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RStudioServerProAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RStudioServerProDomainSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_RStudioServerProDomainSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RStudioServerProDomainSettingsProperty",
+		reflect.TypeOf((*TfDomain_RStudioServerProDomainSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RStudioServerProDomainSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_RStudioServerProDomainSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RStudioServerProDomainSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RStudioServerProDomainSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7986,18 +8052,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_RStudioServerProDomainSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RStudioServerProDomainSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RetentionPolicyProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_RetentionPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RetentionPolicyProperty",
+		reflect.TypeOf((*TfDomain_RetentionPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.RetentionPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_RetentionPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.RetentionPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RetentionPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8025,18 +8091,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_RetentionPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RetentionPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.SharingSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_SharingSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.SharingSettingsProperty",
+		reflect.TypeOf((*TfDomain_SharingSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.SharingSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_SharingSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.SharingSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_SharingSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8070,18 +8136,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_SharingSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_SharingSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.StudioWebPortalSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_StudioWebPortalSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.StudioWebPortalSettingsProperty",
+		reflect.TypeOf((*TfDomain_StudioWebPortalSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.StudioWebPortalSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_StudioWebPortalSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.StudioWebPortalSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_StudioWebPortalSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8115,18 +8181,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_StudioWebPortalSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_StudioWebPortalSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.TensorBoardAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_TensorBoardAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.TensorBoardAppSettingsProperty",
+		reflect.TypeOf((*TfDomain_TensorBoardAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.TensorBoardAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_TensorBoardAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.TensorBoardAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_TensorBoardAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8155,18 +8221,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_TensorBoardAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_TensorBoardAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.TimeSeriesForecastingSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_TimeSeriesForecastingSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.TimeSeriesForecastingSettingsProperty",
+		reflect.TypeOf((*TfDomain_TimeSeriesForecastingSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.TimeSeriesForecastingSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_TimeSeriesForecastingSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.TimeSeriesForecastingSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_TimeSeriesForecastingSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonForecastRoleArn", GoGetter: "AmazonForecastRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "amazonForecastRoleArnInput", GoGetter: "AmazonForecastRoleArnInput"},
@@ -8197,18 +8263,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_TimeSeriesForecastingSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_TimeSeriesForecastingSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.TrustedIdentityPropagationSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_TrustedIdentityPropagationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.TrustedIdentityPropagationSettingsProperty",
+		reflect.TypeOf((*TfDomain_TrustedIdentityPropagationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.TrustedIdentityPropagationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_TrustedIdentityPropagationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.TrustedIdentityPropagationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_TrustedIdentityPropagationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8235,18 +8301,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_TrustedIdentityPropagationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_TrustedIdentityPropagationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.WorkspaceSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerDomain_WorkspaceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.WorkspaceSettingsProperty",
+		reflect.TypeOf((*TfDomain_WorkspaceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomain.WorkspaceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerDomain_WorkspaceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomain.WorkspaceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_WorkspaceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8277,18 +8343,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerDomain_WorkspaceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_WorkspaceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerDomainConfig",
-		reflect.TypeOf((*AwsSagemakerDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint",
-		reflect.TypeOf((*AwsSagemakerEndpoint)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint",
+		reflect.TypeOf((*TfEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -8358,18 +8424,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint{}
+			j := jsiiProxy_TfEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.AlarmsProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_AlarmsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.AlarmsProperty",
+		reflect.TypeOf((*TfEndpoint_AlarmsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.AlarmsPropertyList",
-		reflect.TypeOf((*AwsSagemakerEndpoint_AlarmsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.AlarmsPropertyList",
+		reflect.TypeOf((*TfEndpoint_AlarmsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8384,14 +8450,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_AlarmsPropertyList{}
+			j := jsiiProxy_TfEndpoint_AlarmsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.AlarmsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_AlarmsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.AlarmsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_AlarmsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmName", GoGetter: "AlarmName"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmNameInput", GoGetter: "AlarmNameInput"},
@@ -8418,18 +8484,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_AlarmsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_AlarmsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.AutoRollbackConfigurationProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_AutoRollbackConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.AutoRollbackConfigurationProperty",
+		reflect.TypeOf((*TfEndpoint_AutoRollbackConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.AutoRollbackConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_AutoRollbackConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.AutoRollbackConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_AutoRollbackConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarms", GoGetter: "Alarms"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmsInput", GoGetter: "AlarmsInput"},
@@ -8458,18 +8524,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_AutoRollbackConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_AutoRollbackConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.BlueGreenUpdatePolicyProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_BlueGreenUpdatePolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.BlueGreenUpdatePolicyProperty",
+		reflect.TypeOf((*TfEndpoint_BlueGreenUpdatePolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.BlueGreenUpdatePolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_BlueGreenUpdatePolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.BlueGreenUpdatePolicyPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_BlueGreenUpdatePolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8503,18 +8569,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficRoutingConfigurationInput", GoGetter: "TrafficRoutingConfigurationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_BlueGreenUpdatePolicyPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_BlueGreenUpdatePolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.CanarySizeProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_CanarySizeProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.CanarySizeProperty",
+		reflect.TypeOf((*TfEndpoint_CanarySizeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.CanarySizePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_CanarySizePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.CanarySizePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_CanarySizePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8543,18 +8609,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_CanarySizePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_CanarySizePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.DeploymentConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_DeploymentConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.DeploymentConfigProperty",
+		reflect.TypeOf((*TfEndpoint_DeploymentConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.DeploymentConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_DeploymentConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.DeploymentConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_DeploymentConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoRollbackConfiguration", GoGetter: "AutoRollbackConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "autoRollbackConfigurationInput", GoGetter: "AutoRollbackConfigurationInput"},
@@ -8591,18 +8657,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_DeploymentConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_DeploymentConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.LinearStepSizeProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_LinearStepSizeProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.LinearStepSizeProperty",
+		reflect.TypeOf((*TfEndpoint_LinearStepSizeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.LinearStepSizePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_LinearStepSizePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.LinearStepSizePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_LinearStepSizePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8631,18 +8697,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_LinearStepSizePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_LinearStepSizePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.MaximumBatchSizeProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_MaximumBatchSizeProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.MaximumBatchSizeProperty",
+		reflect.TypeOf((*TfEndpoint_MaximumBatchSizeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.MaximumBatchSizePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_MaximumBatchSizePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.MaximumBatchSizePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_MaximumBatchSizePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8671,18 +8737,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_MaximumBatchSizePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_MaximumBatchSizePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.RollbackMaximumBatchSizeProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_RollbackMaximumBatchSizeProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.RollbackMaximumBatchSizeProperty",
+		reflect.TypeOf((*TfEndpoint_RollbackMaximumBatchSizeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.RollbackMaximumBatchSizePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_RollbackMaximumBatchSizePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.RollbackMaximumBatchSizePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_RollbackMaximumBatchSizePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8711,18 +8777,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_RollbackMaximumBatchSizePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_RollbackMaximumBatchSizePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.RollingUpdatePolicyProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_RollingUpdatePolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.RollingUpdatePolicyProperty",
+		reflect.TypeOf((*TfEndpoint_RollingUpdatePolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.RollingUpdatePolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_RollingUpdatePolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.RollingUpdatePolicyPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_RollingUpdatePolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8759,18 +8825,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitIntervalInSecondsInput", GoGetter: "WaitIntervalInSecondsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_RollingUpdatePolicyPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_RollingUpdatePolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.TrafficRoutingConfigurationProperty",
-		reflect.TypeOf((*AwsSagemakerEndpoint_TrafficRoutingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.TrafficRoutingConfigurationProperty",
+		reflect.TypeOf((*TfEndpoint_TrafficRoutingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpoint.TrafficRoutingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpoint_TrafficRoutingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpoint.TrafficRoutingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_TrafficRoutingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "canarySize", GoGetter: "CanarySize"},
 			_jsii_.MemberProperty{JsiiProperty: "canarySizeInput", GoGetter: "CanarySizeInput"},
@@ -8807,18 +8873,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitIntervalInSecondsInput", GoGetter: "WaitIntervalInSecondsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpoint_TrafficRoutingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_TrafficRoutingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfig",
-		reflect.TypeOf((*AwsSagemakerEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfig",
+		reflect.TypeOf((*TfEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration",
+		reflect.TypeOf((*TfEndpointConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -8906,18 +8972,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration{}
+			j := jsiiProxy_TfEndpointConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.AsyncInferenceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_AsyncInferenceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.AsyncInferenceConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_AsyncInferenceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.AsyncInferenceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_AsyncInferenceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.AsyncInferenceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_AsyncInferenceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientConfig", GoGetter: "ClientConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "clientConfigInput", GoGetter: "ClientConfigInput"},
@@ -8949,18 +9015,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_AsyncInferenceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_AsyncInferenceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.CaptureContentTypeHeaderProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_CaptureContentTypeHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.CaptureContentTypeHeaderProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_CaptureContentTypeHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.CaptureContentTypeHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_CaptureContentTypeHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.CaptureContentTypeHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_CaptureContentTypeHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8991,18 +9057,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_CaptureContentTypeHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_CaptureContentTypeHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.CaptureOptionsProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_CaptureOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.CaptureOptionsProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_CaptureOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.CaptureOptionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_CaptureOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.CaptureOptionsPropertyList",
+		reflect.TypeOf((*TfEndpointConfiguration_CaptureOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9017,14 +9083,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_CaptureOptionsPropertyList{}
+			j := jsiiProxy_TfEndpointConfiguration_CaptureOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.CaptureOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_CaptureOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.CaptureOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_CaptureOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "captureMode", GoGetter: "CaptureMode"},
 			_jsii_.MemberProperty{JsiiProperty: "captureModeInput", GoGetter: "CaptureModeInput"},
@@ -9051,18 +9117,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_CaptureOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_CaptureOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ClientConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ClientConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ClientConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ClientConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ClientConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ClientConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ClientConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ClientConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9090,18 +9156,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ClientConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ClientConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.DataCaptureConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_DataCaptureConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.DataCaptureConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_DataCaptureConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.DataCaptureConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_DataCaptureConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.DataCaptureConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_DataCaptureConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "captureContentTypeHeader", GoGetter: "CaptureContentTypeHeader"},
 			_jsii_.MemberProperty{JsiiProperty: "captureContentTypeHeaderInput", GoGetter: "CaptureContentTypeHeaderInput"},
@@ -9143,18 +9209,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_DataCaptureConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_DataCaptureConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.NotificationConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_NotificationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.NotificationConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_NotificationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.NotificationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_NotificationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.NotificationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_NotificationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9188,18 +9254,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_NotificationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_NotificationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.OutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_OutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.OutputConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_OutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.OutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_OutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.OutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_OutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9236,18 +9302,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_OutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_OutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsCapacityReservationConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsCapacityReservationConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsCapacityReservationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsCapacityReservationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsCapacityReservationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreference", GoGetter: "CapacityReservationPreference"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreferenceInput", GoGetter: "CapacityReservationPreferenceInput"},
@@ -9278,18 +9344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsCapacityReservationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsCoreDumpConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsCoreDumpConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsCoreDumpConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsCoreDumpConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsCoreDumpConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsCoreDumpConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsCoreDumpConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsCoreDumpConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9319,18 +9385,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsCoreDumpConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsCoreDumpConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsManagedInstanceScalingProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsManagedInstanceScalingProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsManagedInstanceScalingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsManagedInstanceScalingPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsManagedInstanceScalingPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9364,18 +9430,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsManagedInstanceScalingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsPropertyList",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsPropertyList",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9390,14 +9456,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsPropertyList{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorTypeInput", GoGetter: "AcceleratorTypeInput"},
@@ -9475,18 +9541,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsRoutingConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsRoutingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsRoutingConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsRoutingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsRoutingConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsRoutingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsRoutingConfigPropertyList",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsRoutingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9501,14 +9567,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsRoutingConfigPropertyList{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsRoutingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsRoutingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsRoutingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsRoutingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsRoutingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9535,18 +9601,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsRoutingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsRoutingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsServerlessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsServerlessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsServerlessConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsServerlessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ProductionVariantsServerlessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ProductionVariantsServerlessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ProductionVariantsServerlessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ProductionVariantsServerlessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9578,18 +9644,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ProductionVariantsServerlessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ProductionVariantsServerlessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsCapacityReservationConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsCapacityReservationConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreference", GoGetter: "CapacityReservationPreference"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityReservationPreferenceInput", GoGetter: "CapacityReservationPreferenceInput"},
@@ -9620,18 +9686,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsCoreDumpConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsCoreDumpConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsCoreDumpConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsCoreDumpConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsCoreDumpConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsCoreDumpConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsCoreDumpConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsCoreDumpConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9660,18 +9726,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsCoreDumpConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCoreDumpConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsManagedInstanceScalingProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsManagedInstanceScalingProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9705,18 +9771,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsManagedInstanceScalingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsPropertyList",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsPropertyList",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9731,14 +9797,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsPropertyList{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorType", GoGetter: "AcceleratorType"},
 			_jsii_.MemberProperty{JsiiProperty: "acceleratorTypeInput", GoGetter: "AcceleratorTypeInput"},
@@ -9816,18 +9882,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsRoutingConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsRoutingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsRoutingConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsRoutingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsRoutingConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsRoutingConfigPropertyList",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9842,14 +9908,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyList{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsRoutingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsRoutingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9876,18 +9942,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsRoutingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsServerlessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsServerlessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsServerlessConfigProperty",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsServerlessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfiguration.ShadowProductionVariantsServerlessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerEndpointConfiguration_ShadowProductionVariantsServerlessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfiguration.ShadowProductionVariantsServerlessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEndpointConfiguration_ShadowProductionVariantsServerlessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9919,18 +9985,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerEndpointConfiguration_ShadowProductionVariantsServerlessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsServerlessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerEndpointConfigurationConfig",
-		reflect.TypeOf((*AwsSagemakerEndpointConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfEndpointConfigurationConfig",
+		reflect.TypeOf((*TfEndpointConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup",
+		reflect.TypeOf((*TfFeatureGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -10017,18 +10083,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup{}
+			j := jsiiProxy_TfFeatureGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.CollectionConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_CollectionConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.CollectionConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_CollectionConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.CollectionConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_CollectionConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.CollectionConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_CollectionConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10057,18 +10123,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vectorConfigInput", GoGetter: "VectorConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_CollectionConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_CollectionConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.DataCatalogConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_DataCatalogConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.DataCatalogConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_DataCatalogConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.DataCatalogConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_DataCatalogConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.DataCatalogConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_DataCatalogConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalog", GoGetter: "Catalog"},
 			_jsii_.MemberProperty{JsiiProperty: "catalogInput", GoGetter: "CatalogInput"},
@@ -10102,18 +10168,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_DataCatalogConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_DataCatalogConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.FeatureDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_FeatureDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.FeatureDefinitionProperty",
+		reflect.TypeOf((*TfFeatureGroup_FeatureDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.FeatureDefinitionPropertyList",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_FeatureDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.FeatureDefinitionPropertyList",
+		reflect.TypeOf((*TfFeatureGroup_FeatureDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10128,14 +10194,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_FeatureDefinitionPropertyList{}
+			j := jsiiProxy_TfFeatureGroup_FeatureDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.FeatureDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_FeatureDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.FeatureDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_FeatureDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "collectionConfig", GoGetter: "CollectionConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "collectionConfigInput", GoGetter: "CollectionConfigInput"},
@@ -10173,18 +10239,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_FeatureDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_FeatureDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.OfflineStoreConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_OfflineStoreConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.OfflineStoreConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_OfflineStoreConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.OfflineStoreConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_OfflineStoreConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.OfflineStoreConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_OfflineStoreConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10222,18 +10288,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_OfflineStoreConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_OfflineStoreConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.OnlineStoreConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_OnlineStoreConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.OnlineStoreConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_OnlineStoreConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.OnlineStoreConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_OnlineStoreConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.OnlineStoreConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_OnlineStoreConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10272,18 +10338,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ttlDurationInput", GoGetter: "TtlDurationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_OnlineStoreConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_OnlineStoreConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.S3StorageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_S3StorageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.S3StorageConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_S3StorageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.S3StorageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_S3StorageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.S3StorageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_S3StorageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10316,18 +10382,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_S3StorageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_S3StorageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.SecurityConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_SecurityConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.SecurityConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_SecurityConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.SecurityConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_SecurityConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.SecurityConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_SecurityConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10355,18 +10421,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_SecurityConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_SecurityConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.ThroughputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_ThroughputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.ThroughputConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_ThroughputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.ThroughputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_ThroughputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.ThroughputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_ThroughputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10400,18 +10466,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_ThroughputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_ThroughputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.TtlDurationProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_TtlDurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.TtlDurationProperty",
+		reflect.TypeOf((*TfFeatureGroup_TtlDurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.TtlDurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_TtlDurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.TtlDurationPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_TtlDurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10442,18 +10508,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_TtlDurationPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_TtlDurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.VectorConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_VectorConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.VectorConfigProperty",
+		reflect.TypeOf((*TfFeatureGroup_VectorConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroup.VectorConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFeatureGroup_VectorConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroup.VectorConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFeatureGroup_VectorConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10481,18 +10547,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFeatureGroup_VectorConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFeatureGroup_VectorConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFeatureGroupConfig",
-		reflect.TypeOf((*AwsSagemakerFeatureGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFeatureGroupConfig",
+		reflect.TypeOf((*TfFeatureGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition",
+		reflect.TypeOf((*TfFlowDefinition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -10571,18 +10637,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition{}
+			j := jsiiProxy_TfFlowDefinition{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.AmountInUsdProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_AmountInUsdProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.AmountInUsdProperty",
+		reflect.TypeOf((*TfFlowDefinition_AmountInUsdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.AmountInUsdPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_AmountInUsdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.AmountInUsdPropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_AmountInUsdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cents", GoGetter: "Cents"},
 			_jsii_.MemberProperty{JsiiProperty: "centsInput", GoGetter: "CentsInput"},
@@ -10616,18 +10682,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_AmountInUsdPropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_AmountInUsdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopActivationConditionsConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopActivationConditionsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopActivationConditionsConfigProperty",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopActivationConditionsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopActivationConditionsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopActivationConditionsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopActivationConditionsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopActivationConditionsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10654,18 +10720,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_HumanLoopActivationConditionsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_HumanLoopActivationConditionsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopActivationConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopActivationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopActivationConfigProperty",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopActivationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopActivationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopActivationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopActivationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopActivationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10694,18 +10760,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_HumanLoopActivationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_HumanLoopActivationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopConfigProperty",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10753,18 +10819,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workteamArnInput", GoGetter: "WorkteamArnInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_HumanLoopConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_HumanLoopConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopRequestSourceProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopRequestSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopRequestSourceProperty",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopRequestSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.HumanLoopRequestSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_HumanLoopRequestSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.HumanLoopRequestSourcePropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_HumanLoopRequestSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsManagedHumanLoopRequestSource", GoGetter: "AwsManagedHumanLoopRequestSource"},
 			_jsii_.MemberProperty{JsiiProperty: "awsManagedHumanLoopRequestSourceInput", GoGetter: "AwsManagedHumanLoopRequestSourceInput"},
@@ -10791,18 +10857,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_HumanLoopRequestSourcePropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_HumanLoopRequestSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.OutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_OutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.OutputConfigProperty",
+		reflect.TypeOf((*TfFlowDefinition_OutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.OutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_OutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.OutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_OutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10832,18 +10898,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_OutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_OutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.PublicWorkforceTaskPriceProperty",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_PublicWorkforceTaskPriceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.PublicWorkforceTaskPriceProperty",
+		reflect.TypeOf((*TfFlowDefinition_PublicWorkforceTaskPriceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinition.PublicWorkforceTaskPricePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerFlowDefinition_PublicWorkforceTaskPricePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinition.PublicWorkforceTaskPricePropertyOutputReference",
+		reflect.TypeOf((*TfFlowDefinition_PublicWorkforceTaskPricePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amountInUsd", GoGetter: "AmountInUsd"},
 			_jsii_.MemberProperty{JsiiProperty: "amountInUsdInput", GoGetter: "AmountInUsdInput"},
@@ -10872,18 +10938,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerFlowDefinition_PublicWorkforceTaskPricePropertyOutputReference{}
+			j := jsiiProxy_TfFlowDefinition_PublicWorkforceTaskPricePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerFlowDefinitionConfig",
-		reflect.TypeOf((*AwsSagemakerFlowDefinitionConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfFlowDefinitionConfig",
+		reflect.TypeOf((*TfFlowDefinitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHub",
-		reflect.TypeOf((*AwsSagemakerHub)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHub",
+		reflect.TypeOf((*TfHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -10958,18 +11024,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHub{}
+			j := jsiiProxy_TfHub{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHub.S3StorageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHub_S3StorageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHub.S3StorageConfigProperty",
+		reflect.TypeOf((*TfHub_S3StorageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHub.S3StorageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHub_S3StorageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHub.S3StorageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHub_S3StorageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10997,18 +11063,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHub_S3StorageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHub_S3StorageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHubConfig",
-		reflect.TypeOf((*AwsSagemakerHubConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHubConfig",
+		reflect.TypeOf((*TfHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHubContentReference",
-		reflect.TypeOf((*AwsSagemakerHubContentReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHubContentReference",
+		reflect.TypeOf((*TfHubContentReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -11080,18 +11146,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHubContentReference{}
+			j := jsiiProxy_TfHubContentReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHubContentReference.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerHubContentReference_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHubContentReference.TimeoutsProperty",
+		reflect.TypeOf((*TfHubContentReference_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHubContentReference.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHubContentReference_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHubContentReference.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfHubContentReference_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11125,18 +11191,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHubContentReference_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfHubContentReference_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHubContentReferenceConfig",
-		reflect.TypeOf((*AwsSagemakerHubContentReferenceConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHubContentReferenceConfig",
+		reflect.TypeOf((*TfHubContentReferenceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHumanTaskUi",
-		reflect.TypeOf((*AwsSagemakerHumanTaskUi)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHumanTaskUi",
+		reflect.TypeOf((*TfHumanTaskUi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -11202,18 +11268,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHumanTaskUi{}
+			j := jsiiProxy_TfHumanTaskUi{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHumanTaskUi.UiTemplateProperty",
-		reflect.TypeOf((*AwsSagemakerHumanTaskUi_UiTemplateProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHumanTaskUi.UiTemplateProperty",
+		reflect.TypeOf((*TfHumanTaskUi_UiTemplateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHumanTaskUi.UiTemplatePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHumanTaskUi_UiTemplatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHumanTaskUi.UiTemplatePropertyOutputReference",
+		reflect.TypeOf((*TfHumanTaskUi_UiTemplatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11243,18 +11309,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHumanTaskUi_UiTemplatePropertyOutputReference{}
+			j := jsiiProxy_TfHumanTaskUi_UiTemplatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHumanTaskUiConfig",
-		reflect.TypeOf((*AwsSagemakerHumanTaskUiConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHumanTaskUiConfig",
+		reflect.TypeOf((*TfHumanTaskUiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob",
+		reflect.TypeOf((*TfHyperParameterTuningJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -11338,18 +11404,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob{}
+			j := jsiiProxy_TfHyperParameterTuningJob{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.AutotuneProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_AutotuneProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.AutotuneProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_AutotuneProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.AutotunePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_AutotunePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.AutotunePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_AutotunePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11364,14 +11430,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_AutotunePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_AutotunePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.AutotunePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_AutotunePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.AutotunePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_AutotunePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11398,18 +11464,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_AutotunePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_AutotunePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.BestObjectiveNotImprovingProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_BestObjectiveNotImprovingProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.BestObjectiveNotImprovingProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_BestObjectiveNotImprovingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.BestObjectiveNotImprovingPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_BestObjectiveNotImprovingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.BestObjectiveNotImprovingPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_BestObjectiveNotImprovingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11424,14 +11490,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_BestObjectiveNotImprovingPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_BestObjectiveNotImprovingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.BestObjectiveNotImprovingPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_BestObjectiveNotImprovingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.BestObjectiveNotImprovingPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_BestObjectiveNotImprovingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11459,18 +11525,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_BestObjectiveNotImprovingPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_BestObjectiveNotImprovingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesAutoParametersProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesAutoParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesAutoParametersProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesAutoParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesAutoParametersPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesAutoParametersPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11485,14 +11551,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesAutoParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesAutoParametersPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11521,18 +11587,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueHintInput", GoGetter: "ValueHintInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesAutoParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesCategoricalParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesCategoricalParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesCategoricalParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesCategoricalParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11547,14 +11613,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesCategoricalParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesCategoricalParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11583,18 +11649,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesCategoricalParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesContinuousParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesContinuousParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesContinuousParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesContinuousParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11609,14 +11675,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesContinuousParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesContinuousParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11650,18 +11716,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesContinuousParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesIntegerParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesIntegerParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesIntegerParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesIntegerParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11676,14 +11742,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigParameterRangesIntegerParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigParameterRangesIntegerParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11717,18 +11783,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigParameterRangesIntegerParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11743,14 +11809,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11803,18 +11869,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tuningJobCompletionCriteriaInput", GoGetter: "TuningJobCompletionCriteriaInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConvergenceDetectedProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConvergenceDetectedProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConvergenceDetectedProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConvergenceDetectedProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConvergenceDetectedPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConvergenceDetectedPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConvergenceDetectedPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConvergenceDetectedPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11829,14 +11895,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConvergenceDetectedPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConvergenceDetectedPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ConvergenceDetectedPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ConvergenceDetectedPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ConvergenceDetectedPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ConvergenceDetectedPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "completeOnConvergence", GoGetter: "CompleteOnConvergence"},
 			_jsii_.MemberProperty{JsiiProperty: "completeOnConvergenceInput", GoGetter: "CompleteOnConvergenceInput"},
@@ -11864,18 +11930,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ConvergenceDetectedPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ConvergenceDetectedPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.HyperbandStrategyConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_HyperbandStrategyConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.HyperbandStrategyConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_HyperbandStrategyConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.HyperbandStrategyConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_HyperbandStrategyConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.HyperbandStrategyConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_HyperbandStrategyConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11890,14 +11956,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_HyperbandStrategyConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_HyperbandStrategyConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.HyperbandStrategyConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_HyperbandStrategyConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.HyperbandStrategyConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_HyperbandStrategyConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11928,18 +11994,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_HyperbandStrategyConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_HyperbandStrategyConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ObjectiveProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ObjectiveProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ObjectiveProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ObjectiveProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ObjectivePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ObjectivePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ObjectivePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ObjectivePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11954,14 +12020,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ObjectivePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ObjectivePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ObjectivePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ObjectivePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ObjectivePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ObjectivePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11990,18 +12056,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ObjectivePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ObjectivePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12016,14 +12082,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoParameters", GoGetter: "AutoParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "autoParametersInput", GoGetter: "AutoParametersInput"},
@@ -12064,18 +12130,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ParentHyperParameterTuningJobsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ParentHyperParameterTuningJobsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ParentHyperParameterTuningJobsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ParentHyperParameterTuningJobsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ParentHyperParameterTuningJobsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ParentHyperParameterTuningJobsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12090,14 +12156,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ParentHyperParameterTuningJobsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ParentHyperParameterTuningJobsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12124,18 +12190,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ParentHyperParameterTuningJobsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ResourceLimitsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ResourceLimitsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ResourceLimitsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ResourceLimitsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ResourceLimitsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ResourceLimitsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ResourceLimitsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ResourceLimitsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12150,14 +12216,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ResourceLimitsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ResourceLimitsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.ResourceLimitsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_ResourceLimitsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.ResourceLimitsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_ResourceLimitsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12190,18 +12256,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_ResourceLimitsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_ResourceLimitsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.StrategyConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_StrategyConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.StrategyConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_StrategyConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.StrategyConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_StrategyConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.StrategyConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_StrategyConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12216,14 +12282,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_StrategyConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_StrategyConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.StrategyConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_StrategyConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.StrategyConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_StrategyConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12252,18 +12318,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_StrategyConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_StrategyConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TimeoutsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12294,18 +12360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12320,14 +12386,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12356,18 +12422,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12382,14 +12448,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionAlgorithmSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithmName", GoGetter: "AlgorithmName"},
 			_jsii_.MemberProperty{JsiiProperty: "algorithmNameInput", GoGetter: "AlgorithmNameInput"},
@@ -12426,18 +12492,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingInputModeInput", GoGetter: "TrainingInputModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionCheckpointConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionCheckpointConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionCheckpointConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionCheckpointConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12452,14 +12518,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionCheckpointConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionCheckpointConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12489,18 +12555,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionCheckpointConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesAutoParametersProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesAutoParametersProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12515,14 +12581,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12551,18 +12617,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueHintInput", GoGetter: "ValueHintInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesAutoParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12577,14 +12643,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12613,18 +12679,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12639,14 +12705,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12680,18 +12746,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesContinuousParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12706,14 +12772,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12747,18 +12813,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesIntegerParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12773,14 +12839,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoParameters", GoGetter: "AutoParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "autoParametersInput", GoGetter: "AutoParametersInput"},
@@ -12821,18 +12887,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12847,14 +12913,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12888,18 +12954,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12914,14 +12980,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -12965,18 +13031,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterTuningResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourceProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12991,14 +13057,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13031,18 +13097,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourcePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13057,14 +13123,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13097,18 +13163,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13123,14 +13189,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13157,18 +13223,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13183,14 +13249,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -13217,18 +13283,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13243,14 +13309,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeNames", GoGetter: "AttributeNames"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeNamesInput", GoGetter: "AttributeNamesInput"},
@@ -13296,18 +13362,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13322,14 +13388,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelNameInput", GoGetter: "ChannelNameInput"},
@@ -13376,18 +13442,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigShuffleConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigShuffleConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigShuffleConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigShuffleConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13402,14 +13468,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigShuffleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionInputDataConfigShuffleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13436,18 +13502,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigShuffleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionOutputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionOutputDataConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionOutputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionOutputDataConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13462,14 +13528,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionOutputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionOutputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13502,18 +13568,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionOutputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13528,14 +13594,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithmSpecification", GoGetter: "AlgorithmSpecification"},
 			_jsii_.MemberProperty{JsiiProperty: "algorithmSpecificationInput", GoGetter: "AlgorithmSpecificationInput"},
@@ -13624,18 +13690,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstanceGroupsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstanceGroupsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstanceGroupsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstanceGroupsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13650,14 +13716,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstanceGroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstanceGroupsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13688,18 +13754,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstanceGroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13714,14 +13780,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13751,18 +13817,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ultraServerIdInput", GoGetter: "UltraServerIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13777,14 +13843,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13816,18 +13882,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigInstancePlacementConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13842,14 +13908,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13900,18 +13966,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionRetryStrategyProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionRetryStrategyProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionRetryStrategyPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionRetryStrategyPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13926,14 +13992,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionRetryStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionRetryStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13961,18 +14027,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionRetryStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionStoppingConditionProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionStoppingConditionProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionStoppingConditionPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionStoppingConditionPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13987,14 +14053,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionStoppingConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionStoppingConditionPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14028,18 +14094,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionStoppingConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionTuningObjectiveProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionTuningObjectiveProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionTuningObjectiveProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionTuningObjectiveProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionTuningObjectivePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionTuningObjectivePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14054,14 +14120,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionTuningObjectivePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionTuningObjectivePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14090,18 +14156,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionTuningObjectivePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionVpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionVpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionVpcConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionVpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionVpcConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionVpcConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14116,14 +14182,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionVpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionVpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14152,18 +14218,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionVpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14178,14 +14244,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14214,18 +14280,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationMetricDefinitionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14240,14 +14306,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsAlgorithmSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithmName", GoGetter: "AlgorithmName"},
 			_jsii_.MemberProperty{JsiiProperty: "algorithmNameInput", GoGetter: "AlgorithmNameInput"},
@@ -14284,18 +14350,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingInputModeInput", GoGetter: "TrainingInputModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsAlgorithmSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsCheckpointConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsCheckpointConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsCheckpointConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsCheckpointConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14310,14 +14376,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsCheckpointConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsCheckpointConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14347,18 +14413,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsCheckpointConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesAutoParametersProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesAutoParametersProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14373,14 +14439,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14409,18 +14475,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueHintInput", GoGetter: "ValueHintInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesAutoParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14435,14 +14501,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14471,18 +14537,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesCategoricalParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14497,14 +14563,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14538,18 +14604,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesContinuousParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14564,14 +14630,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14605,18 +14671,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesIntegerParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14631,14 +14697,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterRangesPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoParameters", GoGetter: "AutoParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "autoParametersInput", GoGetter: "AutoParametersInput"},
@@ -14679,18 +14745,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterRangesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14705,14 +14771,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14746,18 +14812,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigInstanceConfigsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14772,14 +14838,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -14823,18 +14889,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsHyperParameterTuningResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourceProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14849,14 +14915,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14889,18 +14955,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourcePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14915,14 +14981,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14955,18 +15021,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14981,14 +15047,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15015,18 +15081,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceHubAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15041,14 +15107,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -15075,18 +15141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15101,14 +15167,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeNames", GoGetter: "AttributeNames"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeNamesInput", GoGetter: "AttributeNamesInput"},
@@ -15154,18 +15220,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15180,14 +15246,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelNameInput", GoGetter: "ChannelNameInput"},
@@ -15234,18 +15300,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigShuffleConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigShuffleConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15260,14 +15326,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15294,18 +15360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsInputDataConfigShuffleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsOutputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsOutputDataConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsOutputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsOutputDataConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15320,14 +15386,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsOutputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsOutputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15360,18 +15426,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsOutputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15386,14 +15452,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithmSpecification", GoGetter: "AlgorithmSpecification"},
 			_jsii_.MemberProperty{JsiiProperty: "algorithmSpecificationInput", GoGetter: "AlgorithmSpecificationInput"},
@@ -15482,18 +15548,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstanceGroupsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstanceGroupsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15508,14 +15574,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15546,18 +15612,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstanceGroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15572,14 +15638,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15609,18 +15675,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ultraServerIdInput", GoGetter: "UltraServerIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15635,14 +15701,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15674,18 +15740,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15700,14 +15766,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15758,18 +15824,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsRetryStrategyProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsRetryStrategyProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsRetryStrategyPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsRetryStrategyPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15784,14 +15850,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsRetryStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsRetryStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15819,18 +15885,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsRetryStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsStoppingConditionProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsStoppingConditionProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsStoppingConditionPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsStoppingConditionPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15845,14 +15911,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsStoppingConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsStoppingConditionPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15886,18 +15952,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsStoppingConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsTuningObjectiveProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectiveProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsTuningObjectiveProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectiveProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsTuningObjectivePropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsTuningObjectivePropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15912,14 +15978,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsTuningObjectivePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsTuningObjectivePropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15948,18 +16014,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsTuningObjectivePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsVpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsVpcConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsVpcConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsVpcConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15974,14 +16040,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TrainingJobDefinitionsVpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TrainingJobDefinitionsVpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16010,18 +16076,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsVpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TuningJobCompletionCriteriaProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TuningJobCompletionCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TuningJobCompletionCriteriaProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TuningJobCompletionCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TuningJobCompletionCriteriaPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TuningJobCompletionCriteriaPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16036,14 +16102,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.TuningJobCompletionCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.TuningJobCompletionCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bestObjectiveNotImproving", GoGetter: "BestObjectiveNotImproving"},
 			_jsii_.MemberProperty{JsiiProperty: "bestObjectiveNotImprovingInput", GoGetter: "BestObjectiveNotImprovingInput"},
@@ -16079,18 +16145,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_TuningJobCompletionCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.WarmStartConfigProperty",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_WarmStartConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.WarmStartConfigProperty",
+		reflect.TypeOf((*TfHyperParameterTuningJob_WarmStartConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.WarmStartConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_WarmStartConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.WarmStartConfigPropertyList",
+		reflect.TypeOf((*TfHyperParameterTuningJob_WarmStartConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16105,14 +16171,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_WarmStartConfigPropertyList{}
+			j := jsiiProxy_TfHyperParameterTuningJob_WarmStartConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJob.WarmStartConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJob_WarmStartConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJob.WarmStartConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHyperParameterTuningJob_WarmStartConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16144,18 +16210,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "warmStartTypeInput", GoGetter: "WarmStartTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerHyperParameterTuningJob_WarmStartConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHyperParameterTuningJob_WarmStartConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerHyperParameterTuningJobConfig",
-		reflect.TypeOf((*AwsSagemakerHyperParameterTuningJobConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfHyperParameterTuningJobConfig",
+		reflect.TypeOf((*TfHyperParameterTuningJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerImage",
-		reflect.TypeOf((*AwsSagemakerImage)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfImage",
+		reflect.TypeOf((*TfImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -16226,18 +16292,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerImage{}
+			j := jsiiProxy_TfImage{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerImageConfig",
-		reflect.TypeOf((*AwsSagemakerImageConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfImageConfig",
+		reflect.TypeOf((*TfImageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerImageVersion",
-		reflect.TypeOf((*AwsSagemakerImageVersion)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfImageVersion",
+		reflect.TypeOf((*TfImageVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -16323,18 +16389,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerImageVersion{}
+			j := jsiiProxy_TfImageVersion{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerImageVersionConfig",
-		reflect.TypeOf((*AwsSagemakerImageVersionConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfImageVersionConfig",
+		reflect.TypeOf((*TfImageVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob",
-		reflect.TypeOf((*AwsSagemakerLabelingJob)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob",
+		reflect.TypeOf((*TfLabelingJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -16423,18 +16489,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob{}
+			j := jsiiProxy_TfLabelingJob{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.AmountInUsdProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_AmountInUsdProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.AmountInUsdProperty",
+		reflect.TypeOf((*TfLabelingJob_AmountInUsdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.AmountInUsdPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_AmountInUsdPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.AmountInUsdPropertyList",
+		reflect.TypeOf((*TfLabelingJob_AmountInUsdPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16449,14 +16515,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_AmountInUsdPropertyList{}
+			j := jsiiProxy_TfLabelingJob_AmountInUsdPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.AmountInUsdPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_AmountInUsdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.AmountInUsdPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_AmountInUsdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cents", GoGetter: "Cents"},
 			_jsii_.MemberProperty{JsiiProperty: "centsInput", GoGetter: "CentsInput"},
@@ -16490,18 +16556,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_AmountInUsdPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_AmountInUsdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.AnnotationConsolidationConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_AnnotationConsolidationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.AnnotationConsolidationConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_AnnotationConsolidationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.AnnotationConsolidationConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_AnnotationConsolidationConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.AnnotationConsolidationConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_AnnotationConsolidationConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16516,14 +16582,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_AnnotationConsolidationConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_AnnotationConsolidationConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.AnnotationConsolidationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_AnnotationConsolidationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.AnnotationConsolidationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_AnnotationConsolidationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotationConsolidationLambdaArn", GoGetter: "AnnotationConsolidationLambdaArn"},
 			_jsii_.MemberProperty{JsiiProperty: "annotationConsolidationLambdaArnInput", GoGetter: "AnnotationConsolidationLambdaArnInput"},
@@ -16550,18 +16616,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_AnnotationConsolidationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_AnnotationConsolidationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.DataAttributesProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_DataAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.DataAttributesProperty",
+		reflect.TypeOf((*TfLabelingJob_DataAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.DataAttributesPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_DataAttributesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.DataAttributesPropertyList",
+		reflect.TypeOf((*TfLabelingJob_DataAttributesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16576,14 +16642,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_DataAttributesPropertyList{}
+			j := jsiiProxy_TfLabelingJob_DataAttributesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.DataAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_DataAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.DataAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_DataAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16611,18 +16677,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_DataAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_DataAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.DataSourceProperty",
+		reflect.TypeOf((*TfLabelingJob_DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.DataSourcePropertyList",
+		reflect.TypeOf((*TfLabelingJob_DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16637,14 +16703,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_DataSourcePropertyList{}
+			j := jsiiProxy_TfLabelingJob_DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16677,18 +16743,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.HumanTaskConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_HumanTaskConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.HumanTaskConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_HumanTaskConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.HumanTaskConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_HumanTaskConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.HumanTaskConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_HumanTaskConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16703,14 +16769,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_HumanTaskConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_HumanTaskConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.HumanTaskConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_HumanTaskConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.HumanTaskConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_HumanTaskConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotationConsolidationConfig", GoGetter: "AnnotationConsolidationConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "annotationConsolidationConfigInput", GoGetter: "AnnotationConsolidationConfigInput"},
@@ -16769,18 +16835,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workteamArnInput", GoGetter: "WorkteamArnInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_HumanTaskConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_HumanTaskConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.InputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_InputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.InputConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_InputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.InputConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_InputConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.InputConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_InputConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16795,14 +16861,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_InputConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_InputConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.InputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_InputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.InputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_InputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16835,18 +16901,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_InputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_InputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelCountersProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelCountersProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelCountersProperty",
+		reflect.TypeOf((*TfLabelingJob_LabelCountersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelCountersPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelCountersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelCountersPropertyList",
+		reflect.TypeOf((*TfLabelingJob_LabelCountersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16860,14 +16926,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_LabelCountersPropertyList{}
+			j := jsiiProxy_TfLabelingJob_LabelCountersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelCountersPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelCountersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelCountersPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_LabelCountersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16897,18 +16963,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unlabeled", GoGetter: "Unlabeled"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_LabelCountersPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_LabelCountersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelingJobAlgorithmsConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelingJobAlgorithmsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelingJobAlgorithmsConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_LabelingJobAlgorithmsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelingJobAlgorithmsConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelingJobAlgorithmsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelingJobAlgorithmsConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_LabelingJobAlgorithmsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16923,14 +16989,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_LabelingJobAlgorithmsConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_LabelingJobAlgorithmsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelingJobAlgorithmsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelingJobAlgorithmsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelingJobAlgorithmsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_LabelingJobAlgorithmsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16964,18 +17030,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_LabelingJobAlgorithmsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_LabelingJobAlgorithmsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelingJobResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelingJobResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelingJobResourceConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_LabelingJobResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelingJobResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelingJobResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelingJobResourceConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_LabelingJobResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16990,14 +17056,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_LabelingJobResourceConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_LabelingJobResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.LabelingJobResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_LabelingJobResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.LabelingJobResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_LabelingJobResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17029,18 +17095,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_LabelingJobResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_LabelingJobResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.OutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_OutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.OutputConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_OutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.OutputConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_OutputConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.OutputConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_OutputConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17055,14 +17121,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_OutputConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_OutputConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.OutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_OutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.OutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_OutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17095,18 +17161,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_OutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_OutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.PublicWorkforceTaskPriceProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_PublicWorkforceTaskPriceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.PublicWorkforceTaskPriceProperty",
+		reflect.TypeOf((*TfLabelingJob_PublicWorkforceTaskPriceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.PublicWorkforceTaskPricePropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_PublicWorkforceTaskPricePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.PublicWorkforceTaskPricePropertyList",
+		reflect.TypeOf((*TfLabelingJob_PublicWorkforceTaskPricePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17121,14 +17187,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_PublicWorkforceTaskPricePropertyList{}
+			j := jsiiProxy_TfLabelingJob_PublicWorkforceTaskPricePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.PublicWorkforceTaskPricePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_PublicWorkforceTaskPricePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.PublicWorkforceTaskPricePropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_PublicWorkforceTaskPricePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amountInUsd", GoGetter: "AmountInUsd"},
 			_jsii_.MemberProperty{JsiiProperty: "amountInUsdInput", GoGetter: "AmountInUsdInput"},
@@ -17157,18 +17223,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_PublicWorkforceTaskPricePropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_PublicWorkforceTaskPricePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.S3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_S3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.S3DataSourceProperty",
+		reflect.TypeOf((*TfLabelingJob_S3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.S3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_S3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.S3DataSourcePropertyList",
+		reflect.TypeOf((*TfLabelingJob_S3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17183,14 +17249,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_S3DataSourcePropertyList{}
+			j := jsiiProxy_TfLabelingJob_S3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.S3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_S3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.S3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_S3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17217,18 +17283,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_S3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_S3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.SnsDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_SnsDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.SnsDataSourceProperty",
+		reflect.TypeOf((*TfLabelingJob_SnsDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.SnsDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_SnsDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.SnsDataSourcePropertyList",
+		reflect.TypeOf((*TfLabelingJob_SnsDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17243,14 +17309,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_SnsDataSourcePropertyList{}
+			j := jsiiProxy_TfLabelingJob_SnsDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.SnsDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_SnsDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.SnsDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_SnsDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17277,18 +17343,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_SnsDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_SnsDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.StoppingConditionsProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_StoppingConditionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.StoppingConditionsProperty",
+		reflect.TypeOf((*TfLabelingJob_StoppingConditionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.StoppingConditionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_StoppingConditionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.StoppingConditionsPropertyList",
+		reflect.TypeOf((*TfLabelingJob_StoppingConditionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17303,14 +17369,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_StoppingConditionsPropertyList{}
+			j := jsiiProxy_TfLabelingJob_StoppingConditionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.StoppingConditionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_StoppingConditionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.StoppingConditionsPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_StoppingConditionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17341,18 +17407,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_StoppingConditionsPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_StoppingConditionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.UiConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_UiConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.UiConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_UiConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.UiConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_UiConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.UiConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_UiConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17367,14 +17433,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_UiConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_UiConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.UiConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_UiConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.UiConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_UiConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17405,18 +17471,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uiTemplateS3UriInput", GoGetter: "UiTemplateS3UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_UiConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_UiConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.VpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.VpcConfigProperty",
+		reflect.TypeOf((*TfLabelingJob_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.VpcConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_VpcConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.VpcConfigPropertyList",
+		reflect.TypeOf((*TfLabelingJob_VpcConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17431,14 +17497,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_VpcConfigPropertyList{}
+			j := jsiiProxy_TfLabelingJob_VpcConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJob.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerLabelingJob_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJob.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLabelingJob_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17467,18 +17533,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerLabelingJob_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLabelingJob_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerLabelingJobConfig",
-		reflect.TypeOf((*AwsSagemakerLabelingJobConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfLabelingJobConfig",
+		reflect.TypeOf((*TfLabelingJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMlflowApp",
-		reflect.TypeOf((*AwsSagemakerMlflowApp)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMlflowApp",
+		reflect.TypeOf((*TfMlflowApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountDefaultStatus", GoGetter: "AccountDefaultStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "accountDefaultStatusInput", GoGetter: "AccountDefaultStatusInput"},
@@ -17556,18 +17622,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMlflowApp{}
+			j := jsiiProxy_TfMlflowApp{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMlflowApp.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerMlflowApp_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMlflowApp.TimeoutsProperty",
+		reflect.TypeOf((*TfMlflowApp_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMlflowApp.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMlflowApp_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMlflowApp.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMlflowApp_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17601,18 +17667,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMlflowApp_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMlflowApp_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMlflowAppConfig",
-		reflect.TypeOf((*AwsSagemakerMlflowAppConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMlflowAppConfig",
+		reflect.TypeOf((*TfMlflowAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMlflowTrackingServer",
-		reflect.TypeOf((*AwsSagemakerMlflowTrackingServer)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMlflowTrackingServer",
+		reflect.TypeOf((*TfMlflowTrackingServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -17692,18 +17758,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMlflowTrackingServer{}
+			j := jsiiProxy_TfMlflowTrackingServer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMlflowTrackingServerConfig",
-		reflect.TypeOf((*AwsSagemakerMlflowTrackingServerConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMlflowTrackingServerConfig",
+		reflect.TypeOf((*TfMlflowTrackingServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel",
-		reflect.TypeOf((*AwsSagemakerModel)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel",
+		reflect.TypeOf((*TfModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -17788,18 +17854,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel{}
+			j := jsiiProxy_TfModel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourceProperty",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourcePropertyList",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17814,14 +17880,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerAdditionalModelDataSourcePropertyList{}
+			j := jsiiProxy_TfModel_ContainerAdditionalModelDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelNameInput", GoGetter: "ChannelNameInput"},
@@ -17851,18 +17917,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerAdditionalModelDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerAdditionalModelDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -17889,18 +17955,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17915,14 +17981,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17957,18 +18023,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerImageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerImageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerImageConfigProperty",
+		reflect.TypeOf((*TfModel_ContainerImageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerImageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerImageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerImageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerImageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17999,18 +18065,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerImageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerImageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerImageConfigRepositoryAuthConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerImageConfigRepositoryAuthConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerImageConfigRepositoryAuthConfigProperty",
+		reflect.TypeOf((*TfModel_ContainerImageConfigRepositoryAuthConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerImageConfigRepositoryAuthConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerImageConfigRepositoryAuthConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerImageConfigRepositoryAuthConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerImageConfigRepositoryAuthConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18037,18 +18103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerImageConfigRepositoryAuthConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerImageConfigRepositoryAuthConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourceProperty",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18076,18 +18142,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerModelDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerModelDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -18114,18 +18180,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18140,14 +18206,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerModelDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfModel_ContainerModelDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerModelDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerModelDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18182,18 +18248,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerModelDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerModelDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerMultiModelConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerMultiModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerMultiModelConfigProperty",
+		reflect.TypeOf((*TfModel_ContainerMultiModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerMultiModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerMultiModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerMultiModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerMultiModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18221,18 +18287,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerMultiModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerMultiModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerProperty",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerProperty",
+		reflect.TypeOf((*TfModel_ContainerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerPropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerPropertyList",
+		reflect.TypeOf((*TfModel_ContainerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18247,14 +18313,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerPropertyList{}
+			j := jsiiProxy_TfModel_ContainerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.ContainerPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_ContainerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.ContainerPropertyOutputReference",
+		reflect.TypeOf((*TfModel_ContainerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelDataSource", GoGetter: "AdditionalModelDataSource"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelDataSourceInput", GoGetter: "AdditionalModelDataSourceInput"},
@@ -18316,18 +18382,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_ContainerPropertyOutputReference{}
+			j := jsiiProxy_TfModel_ContainerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.InferenceExecutionConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_InferenceExecutionConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.InferenceExecutionConfigProperty",
+		reflect.TypeOf((*TfModel_InferenceExecutionConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.InferenceExecutionConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_InferenceExecutionConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.InferenceExecutionConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_InferenceExecutionConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18354,18 +18420,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_InferenceExecutionConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_InferenceExecutionConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourceProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourcePropertyList",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18380,14 +18446,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourcePropertyList{}
+			j := jsiiProxy_TfModel_PrimaryContainerAdditionalModelDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelNameInput", GoGetter: "ChannelNameInput"},
@@ -18417,18 +18483,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerAdditionalModelDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -18455,18 +18521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18481,14 +18547,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18523,18 +18589,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerAdditionalModelDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerImageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerImageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerImageConfigProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerImageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerImageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerImageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerImageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerImageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18565,18 +18631,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerImageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerImageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerImageConfigRepositoryAuthConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerImageConfigRepositoryAuthConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerImageConfigRepositoryAuthConfigProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerImageConfigRepositoryAuthConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerImageConfigRepositoryAuthConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerImageConfigRepositoryAuthConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerImageConfigRepositoryAuthConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerImageConfigRepositoryAuthConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18603,18 +18669,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerImageConfigRepositoryAuthConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerImageConfigRepositoryAuthConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourceProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18642,18 +18708,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerModelDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerModelDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -18680,18 +18746,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerModelDataSourceS3DataSourceModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourceS3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourceS3DataSourceProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourceS3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourceS3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourceS3DataSourcePropertyList",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourceS3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18706,14 +18772,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourcePropertyList{}
+			j := jsiiProxy_TfModel_PrimaryContainerModelDataSourceS3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerModelDataSourceS3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerModelDataSourceS3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerModelDataSourceS3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18748,18 +18814,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerModelDataSourceS3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerModelDataSourceS3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerMultiModelConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerMultiModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerMultiModelConfigProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerMultiModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerMultiModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerMultiModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerMultiModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerMultiModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18787,18 +18853,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerMultiModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerMultiModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerProperty",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerProperty",
+		reflect.TypeOf((*TfModel_PrimaryContainerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.PrimaryContainerPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_PrimaryContainerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.PrimaryContainerPropertyOutputReference",
+		reflect.TypeOf((*TfModel_PrimaryContainerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelDataSource", GoGetter: "AdditionalModelDataSource"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelDataSourceInput", GoGetter: "AdditionalModelDataSourceInput"},
@@ -18860,18 +18926,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_PrimaryContainerPropertyOutputReference{}
+			j := jsiiProxy_TfModel_PrimaryContainerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.VpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModel_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.VpcConfigProperty",
+		reflect.TypeOf((*TfModel_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModel.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModel_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModel.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModel_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18900,14 +18966,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModel_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModel_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCard",
-		reflect.TypeOf((*AwsSagemakerModelCard)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCard",
+		reflect.TypeOf((*TfModelCard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -18977,18 +19043,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCard{}
+			j := jsiiProxy_TfModelCard{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCard.SecurityConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModelCard_SecurityConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCard.SecurityConfigProperty",
+		reflect.TypeOf((*TfModelCard_SecurityConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCard.SecurityConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerModelCard_SecurityConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCard.SecurityConfigPropertyList",
+		reflect.TypeOf((*TfModelCard_SecurityConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19003,14 +19069,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCard_SecurityConfigPropertyList{}
+			j := jsiiProxy_TfModelCard_SecurityConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCard.SecurityConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModelCard_SecurityConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCard.SecurityConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModelCard_SecurityConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19037,18 +19103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCard_SecurityConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModelCard_SecurityConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCard.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerModelCard_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCard.TimeoutsProperty",
+		reflect.TypeOf((*TfModelCard_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCard.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModelCard_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCard.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfModelCard_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19076,18 +19142,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCard_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfModelCard_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardConfig",
-		reflect.TypeOf((*AwsSagemakerModelCardConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardConfig",
+		reflect.TypeOf((*TfModelCardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob",
+		reflect.TypeOf((*TfModelCardExportJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19155,18 +19221,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCardExportJob{}
+			j := jsiiProxy_TfModelCardExportJob{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.ExportArtifactsProperty",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_ExportArtifactsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.ExportArtifactsProperty",
+		reflect.TypeOf((*TfModelCardExportJob_ExportArtifactsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.ExportArtifactsPropertyList",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_ExportArtifactsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.ExportArtifactsPropertyList",
+		reflect.TypeOf((*TfModelCardExportJob_ExportArtifactsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19180,14 +19246,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCardExportJob_ExportArtifactsPropertyList{}
+			j := jsiiProxy_TfModelCardExportJob_ExportArtifactsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.ExportArtifactsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_ExportArtifactsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.ExportArtifactsPropertyOutputReference",
+		reflect.TypeOf((*TfModelCardExportJob_ExportArtifactsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19213,18 +19279,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCardExportJob_ExportArtifactsPropertyOutputReference{}
+			j := jsiiProxy_TfModelCardExportJob_ExportArtifactsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.OutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_OutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.OutputConfigProperty",
+		reflect.TypeOf((*TfModelCardExportJob_OutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.OutputConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_OutputConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.OutputConfigPropertyList",
+		reflect.TypeOf((*TfModelCardExportJob_OutputConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19239,14 +19305,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCardExportJob_OutputConfigPropertyList{}
+			j := jsiiProxy_TfModelCardExportJob_OutputConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.OutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_OutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.OutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfModelCardExportJob_OutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19273,18 +19339,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCardExportJob_OutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfModelCardExportJob_OutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.TimeoutsProperty",
+		reflect.TypeOf((*TfModelCardExportJob_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJob.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJob.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfModelCardExportJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19312,22 +19378,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelCardExportJob_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfModelCardExportJob_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelCardExportJobConfig",
-		reflect.TypeOf((*AwsSagemakerModelCardExportJobConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelCardExportJobConfig",
+		reflect.TypeOf((*TfModelCardExportJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelConfig",
-		reflect.TypeOf((*AwsSagemakerModelConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelConfig",
+		reflect.TypeOf((*TfModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelPackageGroup",
-		reflect.TypeOf((*AwsSagemakerModelPackageGroup)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelPackageGroup",
+		reflect.TypeOf((*TfModelPackageGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19393,18 +19459,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelPackageGroup{}
+			j := jsiiProxy_TfModelPackageGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelPackageGroupConfig",
-		reflect.TypeOf((*AwsSagemakerModelPackageGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelPackageGroupConfig",
+		reflect.TypeOf((*TfModelPackageGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelPackageGroupPolicy",
-		reflect.TypeOf((*AwsSagemakerModelPackageGroupPolicy)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelPackageGroupPolicy",
+		reflect.TypeOf((*TfModelPackageGroupPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19462,18 +19528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerModelPackageGroupPolicy{}
+			j := jsiiProxy_TfModelPackageGroupPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerModelPackageGroupPolicyConfig",
-		reflect.TypeOf((*AwsSagemakerModelPackageGroupPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfModelPackageGroupPolicyConfig",
+		reflect.TypeOf((*TfModelPackageGroupPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule",
+		reflect.TypeOf((*TfMonitoringSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19540,18 +19606,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule{}
+			j := jsiiProxy_TfMonitoringSchedule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.BaselineProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_BaselineProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.BaselineProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_BaselineProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.BaselinePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_BaselinePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.BaselinePropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_BaselinePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseliningJobName", GoGetter: "BaseliningJobName"},
 			_jsii_.MemberProperty{JsiiProperty: "baseliningJobNameInput", GoGetter: "BaseliningJobNameInput"},
@@ -19587,18 +19653,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_BaselinePropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_BaselinePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.BatchTransformInputProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_BatchTransformInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.BatchTransformInputProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_BatchTransformInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.BatchTransformInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_BatchTransformInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.BatchTransformInputPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_BatchTransformInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19657,18 +19723,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_BatchTransformInputPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_BatchTransformInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.ClusterConfigProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_ClusterConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.ClusterConfigProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_ClusterConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.ClusterConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_ClusterConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.ClusterConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_ClusterConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19702,18 +19768,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_ClusterConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_ClusterConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.ConstraintsResourceProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_ConstraintsResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.ConstraintsResourceProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_ConstraintsResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.ConstraintsResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_ConstraintsResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.ConstraintsResourcePropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_ConstraintsResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19741,18 +19807,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_ConstraintsResourcePropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_ConstraintsResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.CsvProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_CsvProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.CsvProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_CsvProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.CsvPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_CsvPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.CsvPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_CsvPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19780,18 +19846,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_CsvPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_CsvPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.DatasetFormatProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_DatasetFormatProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.DatasetFormatProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_DatasetFormatProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.DatasetFormatPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_DatasetFormatPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.DatasetFormatPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_DatasetFormatPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19824,18 +19890,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_DatasetFormatPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_DatasetFormatPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.EndpointInputProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_EndpointInputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.EndpointInputProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_EndpointInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.EndpointInputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_EndpointInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.EndpointInputPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_EndpointInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19891,18 +19957,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_EndpointInputPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_EndpointInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.JsonProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_JsonProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.JsonProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_JsonProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.JsonPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_JsonPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.JsonPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_JsonPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19930,18 +19996,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_JsonPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_JsonPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringAppSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringAppSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringAppSpecificationProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringAppSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringAppSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringAppSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringAppSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringAppSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19980,18 +20046,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringAppSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringAppSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringInputsProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringInputsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringInputsProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringInputsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringInputsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringInputsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringInputsPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringInputsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchTransformInput", GoGetter: "BatchTransformInput"},
 			_jsii_.MemberProperty{JsiiProperty: "batchTransformInputInput", GoGetter: "BatchTransformInputInput"},
@@ -20024,18 +20090,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringInputsPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringInputsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringJobDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringJobDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringJobDefinitionProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringJobDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringJobDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringJobDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringJobDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringJobDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseline", GoGetter: "Baseline"},
 			_jsii_.MemberProperty{JsiiProperty: "baselineInput", GoGetter: "BaselineInput"},
@@ -20089,18 +20155,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringJobDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringJobDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringOutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringOutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringOutputConfigProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringOutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringOutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringOutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringOutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringOutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20131,18 +20197,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringOutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringOutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringOutputsProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringOutputsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringOutputsProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringOutputsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringOutputsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringOutputsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringOutputsPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringOutputsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20170,18 +20236,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringOutputsPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringOutputsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringResourcesProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringResourcesProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterConfig", GoGetter: "ClusterConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterConfigInput", GoGetter: "ClusterConfigInput"},
@@ -20209,18 +20275,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringScheduleConfigProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringScheduleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringScheduleConfigProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringScheduleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.MonitoringScheduleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_MonitoringScheduleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.MonitoringScheduleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_MonitoringScheduleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20258,18 +20324,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_MonitoringScheduleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_MonitoringScheduleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.NetworkConfigProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_NetworkConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.NetworkConfigProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_NetworkConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.NetworkConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_NetworkConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.NetworkConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_NetworkConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20304,18 +20370,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_NetworkConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_NetworkConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.S3OutputProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_S3OutputProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.S3OutputProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_S3OutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.S3OutputPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_S3OutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.S3OutputPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_S3OutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20347,18 +20413,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_S3OutputPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_S3OutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.ScheduleConfigProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_ScheduleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.ScheduleConfigProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_ScheduleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.ScheduleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_ScheduleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.ScheduleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_ScheduleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20385,18 +20451,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_ScheduleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_ScheduleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.StatisticsResourceProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_StatisticsResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.StatisticsResourceProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_StatisticsResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.StatisticsResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_StatisticsResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.StatisticsResourcePropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_StatisticsResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20424,18 +20490,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_StatisticsResourcePropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_StatisticsResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.StoppingConditionProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_StoppingConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.StoppingConditionProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_StoppingConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.StoppingConditionPropertyList",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_StoppingConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.StoppingConditionPropertyList",
+		reflect.TypeOf((*TfMonitoringSchedule_StoppingConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20450,14 +20516,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_StoppingConditionPropertyList{}
+			j := jsiiProxy_TfMonitoringSchedule_StoppingConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.StoppingConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_StoppingConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.StoppingConditionPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_StoppingConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20485,18 +20551,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_StoppingConditionPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_StoppingConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.VpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.VpcConfigProperty",
+		reflect.TypeOf((*TfMonitoringSchedule_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringSchedule.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerMonitoringSchedule_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringSchedule.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitoringSchedule_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20525,18 +20591,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerMonitoringSchedule_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitoringSchedule_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerMonitoringScheduleConfig",
-		reflect.TypeOf((*AwsSagemakerMonitoringScheduleConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfMonitoringScheduleConfig",
+		reflect.TypeOf((*TfMonitoringScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerNotebookInstance",
-		reflect.TypeOf((*AwsSagemakerNotebookInstance)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfNotebookInstance",
+		reflect.TypeOf((*TfNotebookInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalCodeRepositories", GoGetter: "AdditionalCodeRepositories"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalCodeRepositoriesInput", GoGetter: "AdditionalCodeRepositoriesInput"},
@@ -20639,18 +20705,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerNotebookInstance{}
+			j := jsiiProxy_TfNotebookInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerNotebookInstance.InstanceMetadataServiceConfigurationProperty",
-		reflect.TypeOf((*AwsSagemakerNotebookInstance_InstanceMetadataServiceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfNotebookInstance.InstanceMetadataServiceConfigurationProperty",
+		reflect.TypeOf((*TfNotebookInstance_InstanceMetadataServiceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerNotebookInstance.InstanceMetadataServiceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerNotebookInstance_InstanceMetadataServiceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfNotebookInstance.InstanceMetadataServiceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfNotebookInstance_InstanceMetadataServiceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20678,18 +20744,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerNotebookInstance_InstanceMetadataServiceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfNotebookInstance_InstanceMetadataServiceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerNotebookInstanceConfig",
-		reflect.TypeOf((*AwsSagemakerNotebookInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfNotebookInstanceConfig",
+		reflect.TypeOf((*TfNotebookInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerNotebookInstanceLifecycleConfiguration",
-		reflect.TypeOf((*AwsSagemakerNotebookInstanceLifecycleConfiguration)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfNotebookInstanceLifecycleConfiguration",
+		reflect.TypeOf((*TfNotebookInstanceLifecycleConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -20759,18 +20825,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerNotebookInstanceLifecycleConfiguration{}
+			j := jsiiProxy_TfNotebookInstanceLifecycleConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerNotebookInstanceLifecycleConfigurationConfig",
-		reflect.TypeOf((*AwsSagemakerNotebookInstanceLifecycleConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfNotebookInstanceLifecycleConfigurationConfig",
+		reflect.TypeOf((*TfNotebookInstanceLifecycleConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerPipeline",
-		reflect.TypeOf((*AwsSagemakerPipeline)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfPipeline",
+		reflect.TypeOf((*TfPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -20852,18 +20918,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerPipeline{}
+			j := jsiiProxy_TfPipeline{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerPipeline.ParallelismConfigurationProperty",
-		reflect.TypeOf((*AwsSagemakerPipeline_ParallelismConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfPipeline.ParallelismConfigurationProperty",
+		reflect.TypeOf((*TfPipeline_ParallelismConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerPipeline.ParallelismConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerPipeline_ParallelismConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfPipeline.ParallelismConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_ParallelismConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20890,18 +20956,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerPipeline_ParallelismConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_ParallelismConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerPipeline.PipelineDefinitionS3LocationProperty",
-		reflect.TypeOf((*AwsSagemakerPipeline_PipelineDefinitionS3LocationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfPipeline.PipelineDefinitionS3LocationProperty",
+		reflect.TypeOf((*TfPipeline_PipelineDefinitionS3LocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerPipeline.PipelineDefinitionS3LocationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerPipeline_PipelineDefinitionS3LocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfPipeline.PipelineDefinitionS3LocationPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_PipelineDefinitionS3LocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -20933,18 +20999,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionIdInput", GoGetter: "VersionIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerPipeline_PipelineDefinitionS3LocationPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_PipelineDefinitionS3LocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerPipelineConfig",
-		reflect.TypeOf((*AwsSagemakerPipelineConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfPipelineConfig",
+		reflect.TypeOf((*TfPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProject",
-		reflect.TypeOf((*AwsSagemakerProject)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProject",
+		reflect.TypeOf((*TfProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -21014,18 +21080,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerProject{}
+			j := jsiiProxy_TfProject{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProject.ProvisioningParameterProperty",
-		reflect.TypeOf((*AwsSagemakerProject_ProvisioningParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProject.ProvisioningParameterProperty",
+		reflect.TypeOf((*TfProject_ProvisioningParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProject.ProvisioningParameterPropertyList",
-		reflect.TypeOf((*AwsSagemakerProject_ProvisioningParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProject.ProvisioningParameterPropertyList",
+		reflect.TypeOf((*TfProject_ProvisioningParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -21040,14 +21106,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerProject_ProvisioningParameterPropertyList{}
+			j := jsiiProxy_TfProject_ProvisioningParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProject.ProvisioningParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerProject_ProvisioningParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProject.ProvisioningParameterPropertyOutputReference",
+		reflect.TypeOf((*TfProject_ProvisioningParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21077,18 +21143,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerProject_ProvisioningParameterPropertyOutputReference{}
+			j := jsiiProxy_TfProject_ProvisioningParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProject.ServiceCatalogProvisioningDetailsProperty",
-		reflect.TypeOf((*AwsSagemakerProject_ServiceCatalogProvisioningDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProject.ServiceCatalogProvisioningDetailsProperty",
+		reflect.TypeOf((*TfProject_ServiceCatalogProvisioningDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProject.ServiceCatalogProvisioningDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerProject_ServiceCatalogProvisioningDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProject.ServiceCatalogProvisioningDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfProject_ServiceCatalogProvisioningDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21125,18 +21191,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerProject_ServiceCatalogProvisioningDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfProject_ServiceCatalogProvisioningDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerProjectConfig",
-		reflect.TypeOf((*AwsSagemakerProjectConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfProjectConfig",
+		reflect.TypeOf((*TfProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerServicecatalogPortfolioStatus",
-		reflect.TypeOf((*AwsSagemakerServicecatalogPortfolioStatus)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfServicecatalogPortfolioStatus",
+		reflect.TypeOf((*TfServicecatalogPortfolioStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -21192,18 +21258,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerServicecatalogPortfolioStatus{}
+			j := jsiiProxy_TfServicecatalogPortfolioStatus{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerServicecatalogPortfolioStatusConfig",
-		reflect.TypeOf((*AwsSagemakerServicecatalogPortfolioStatusConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfServicecatalogPortfolioStatusConfig",
+		reflect.TypeOf((*TfServicecatalogPortfolioStatusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace",
-		reflect.TypeOf((*AwsSagemakerSpace)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace",
+		reflect.TypeOf((*TfSpace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -21285,18 +21351,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace{}
+			j := jsiiProxy_TfSpace{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CodeEditorAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_CodeEditorAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CodeEditorAppSettingsProperty",
+		reflect.TypeOf((*TfSpace_CodeEditorAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CodeEditorAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_CodeEditorAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CodeEditorAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_CodeEditorAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -21328,18 +21394,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_CodeEditorAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_CodeEditorAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CustomFileSystemProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_CustomFileSystemProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CustomFileSystemProperty",
+		reflect.TypeOf((*TfSpace_CustomFileSystemProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CustomFileSystemPropertyList",
-		reflect.TypeOf((*AwsSagemakerSpace_CustomFileSystemPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CustomFileSystemPropertyList",
+		reflect.TypeOf((*TfSpace_CustomFileSystemPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -21354,14 +21420,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_CustomFileSystemPropertyList{}
+			j := jsiiProxy_TfSpace_CustomFileSystemPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CustomFileSystemPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_CustomFileSystemPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CustomFileSystemPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_CustomFileSystemPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21389,18 +21455,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_CustomFileSystemPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_CustomFileSystemPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_CustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CustomImageProperty",
+		reflect.TypeOf((*TfSpace_CustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerSpace_CustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CustomImagePropertyList",
+		reflect.TypeOf((*TfSpace_CustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -21415,14 +21481,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_CustomImagePropertyList{}
+			j := jsiiProxy_TfSpace_CustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.CustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_CustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.CustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfSpace_CustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -21454,18 +21520,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_CustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfSpace_CustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.EbsStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_EbsStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.EbsStorageSettingsProperty",
+		reflect.TypeOf((*TfSpace_EbsStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.EbsStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_EbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.EbsStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_EbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21492,18 +21558,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_EbsStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_EbsStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.EfsFileSystemProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_EfsFileSystemProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.EfsFileSystemProperty",
+		reflect.TypeOf((*TfSpace_EfsFileSystemProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.EfsFileSystemPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_EfsFileSystemPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.EfsFileSystemPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_EfsFileSystemPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21530,18 +21596,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_EfsFileSystemPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_EfsFileSystemPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.JupyterLabAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_JupyterLabAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.JupyterLabAppSettingsProperty",
+		reflect.TypeOf((*TfSpace_JupyterLabAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.JupyterLabAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_JupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.JupyterLabAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_JupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -21577,18 +21643,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_JupyterLabAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_JupyterLabAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.JupyterServerAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_JupyterServerAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.JupyterServerAppSettingsProperty",
+		reflect.TypeOf((*TfSpace_JupyterServerAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.JupyterServerAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_JupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.JupyterServerAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_JupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeRepository", GoGetter: "CodeRepository"},
 			_jsii_.MemberProperty{JsiiProperty: "codeRepositoryInput", GoGetter: "CodeRepositoryInput"},
@@ -21623,18 +21689,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_JupyterServerAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_JupyterServerAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.KernelGatewayAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_KernelGatewayAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.KernelGatewayAppSettingsProperty",
+		reflect.TypeOf((*TfSpace_KernelGatewayAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.KernelGatewayAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_KernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.KernelGatewayAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_KernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21669,18 +21735,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_KernelGatewayAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_KernelGatewayAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.OwnershipSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_OwnershipSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.OwnershipSettingsProperty",
+		reflect.TypeOf((*TfSpace_OwnershipSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.OwnershipSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_OwnershipSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.OwnershipSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_OwnershipSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21707,18 +21773,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_OwnershipSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_OwnershipSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21746,18 +21812,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21786,18 +21852,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21837,18 +21903,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21876,18 +21942,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21916,18 +21982,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -21942,14 +22008,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -21976,18 +22042,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22027,18 +22093,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22053,14 +22119,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22087,18 +22153,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22138,18 +22204,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22189,18 +22255,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsProperty",
+		reflect.TypeOf((*TfSpace_SpaceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appType", GoGetter: "AppType"},
 			_jsii_.MemberProperty{JsiiProperty: "appTypeInput", GoGetter: "AppTypeInput"},
@@ -22252,18 +22318,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSharingSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSharingSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSharingSettingsProperty",
+		reflect.TypeOf((*TfSpace_SpaceSharingSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceSharingSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceSharingSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceSharingSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceSharingSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22290,18 +22356,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceSharingSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceSharingSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceStorageSettingsProperty",
+		reflect.TypeOf((*TfSpace_SpaceStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpace.SpaceStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerSpace_SpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpace.SpaceStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfSpace_SpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22329,18 +22395,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerSpace_SpaceStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfSpace_SpaceStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerSpaceConfig",
-		reflect.TypeOf((*AwsSagemakerSpaceConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfSpaceConfig",
+		reflect.TypeOf((*TfSpaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerStudioLifecycleConfig",
-		reflect.TypeOf((*AwsSagemakerStudioLifecycleConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfStudioLifecycleConfig",
+		reflect.TypeOf((*TfStudioLifecycleConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -22407,18 +22473,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerStudioLifecycleConfig{}
+			j := jsiiProxy_TfStudioLifecycleConfig{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerStudioLifecycleConfigConfig",
-		reflect.TypeOf((*AwsSagemakerStudioLifecycleConfigConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfStudioLifecycleConfigConfig",
+		reflect.TypeOf((*TfStudioLifecycleConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob",
-		reflect.TypeOf((*AwsSagemakerTrainingJob)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob",
+		reflect.TypeOf((*TfTrainingJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -22583,18 +22649,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob{}
+			j := jsiiProxy_TfTrainingJob{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.AlgorithmSpecificationProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_AlgorithmSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.AlgorithmSpecificationProperty",
+		reflect.TypeOf((*TfTrainingJob_AlgorithmSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.AlgorithmSpecificationPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_AlgorithmSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.AlgorithmSpecificationPropertyList",
+		reflect.TypeOf((*TfTrainingJob_AlgorithmSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22609,14 +22675,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_AlgorithmSpecificationPropertyList{}
+			j := jsiiProxy_TfTrainingJob_AlgorithmSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.AlgorithmSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_AlgorithmSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.AlgorithmSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_AlgorithmSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithmName", GoGetter: "AlgorithmName"},
 			_jsii_.MemberProperty{JsiiProperty: "algorithmNameInput", GoGetter: "AlgorithmNameInput"},
@@ -22667,18 +22733,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingInputModeInput", GoGetter: "TrainingInputModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_AlgorithmSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_AlgorithmSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.CheckpointConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_CheckpointConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.CheckpointConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_CheckpointConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.CheckpointConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_CheckpointConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.CheckpointConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_CheckpointConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22693,14 +22759,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_CheckpointConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_CheckpointConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.CheckpointConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_CheckpointConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.CheckpointConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_CheckpointConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22730,18 +22796,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_CheckpointConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_CheckpointConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.CollectionConfigurationsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_CollectionConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.CollectionConfigurationsProperty",
+		reflect.TypeOf((*TfTrainingJob_CollectionConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.CollectionConfigurationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_CollectionConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.CollectionConfigurationsPropertyList",
+		reflect.TypeOf((*TfTrainingJob_CollectionConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22756,14 +22822,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_CollectionConfigurationsPropertyList{}
+			j := jsiiProxy_TfTrainingJob_CollectionConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.CollectionConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_CollectionConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.CollectionConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_CollectionConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "collectionName", GoGetter: "CollectionName"},
 			_jsii_.MemberProperty{JsiiProperty: "collectionNameInput", GoGetter: "CollectionNameInput"},
@@ -22794,18 +22860,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_CollectionConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_CollectionConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DataSourceProperty",
+		reflect.TypeOf((*TfTrainingJob_DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DataSourcePropertyList",
+		reflect.TypeOf((*TfTrainingJob_DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22820,14 +22886,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_DataSourcePropertyList{}
+			j := jsiiProxy_TfTrainingJob_DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -22860,18 +22926,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DebugHookConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DebugHookConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DebugHookConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_DebugHookConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DebugHookConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DebugHookConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DebugHookConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_DebugHookConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22886,14 +22952,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_DebugHookConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_DebugHookConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DebugHookConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DebugHookConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DebugHookConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_DebugHookConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "collectionConfigurations", GoGetter: "CollectionConfigurations"},
 			_jsii_.MemberProperty{JsiiProperty: "collectionConfigurationsInput", GoGetter: "CollectionConfigurationsInput"},
@@ -22930,18 +22996,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_DebugHookConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_DebugHookConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DebugRuleConfigurationsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DebugRuleConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DebugRuleConfigurationsProperty",
+		reflect.TypeOf((*TfTrainingJob_DebugRuleConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DebugRuleConfigurationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DebugRuleConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DebugRuleConfigurationsPropertyList",
+		reflect.TypeOf((*TfTrainingJob_DebugRuleConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -22956,14 +23022,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_DebugRuleConfigurationsPropertyList{}
+			j := jsiiProxy_TfTrainingJob_DebugRuleConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.DebugRuleConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_DebugRuleConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.DebugRuleConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_DebugRuleConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23007,18 +23073,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_DebugRuleConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_DebugRuleConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ExperimentConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ExperimentConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ExperimentConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ExperimentConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ExperimentConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ExperimentConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ExperimentConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ExperimentConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23033,14 +23099,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ExperimentConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ExperimentConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ExperimentConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ExperimentConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ExperimentConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ExperimentConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23077,18 +23143,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trialNameInput", GoGetter: "TrialNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ExperimentConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ExperimentConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.FileSystemDataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_FileSystemDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.FileSystemDataSourceProperty",
+		reflect.TypeOf((*TfTrainingJob_FileSystemDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.FileSystemDataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_FileSystemDataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.FileSystemDataSourcePropertyList",
+		reflect.TypeOf((*TfTrainingJob_FileSystemDataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23103,14 +23169,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_FileSystemDataSourcePropertyList{}
+			j := jsiiProxy_TfTrainingJob_FileSystemDataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.FileSystemDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_FileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.FileSystemDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_FileSystemDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23143,18 +23209,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_FileSystemDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_FileSystemDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.HubAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_HubAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.HubAccessConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_HubAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.HubAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_HubAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.HubAccessConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_HubAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23169,14 +23235,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_HubAccessConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_HubAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.HubAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_HubAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.HubAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_HubAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23203,18 +23269,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_HubAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_HubAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InfraCheckConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InfraCheckConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InfraCheckConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_InfraCheckConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InfraCheckConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InfraCheckConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InfraCheckConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_InfraCheckConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23229,14 +23295,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InfraCheckConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_InfraCheckConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InfraCheckConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InfraCheckConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InfraCheckConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_InfraCheckConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23264,18 +23330,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InfraCheckConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_InfraCheckConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InputDataConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_InputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InputDataConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_InputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23290,14 +23356,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InputDataConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_InputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_InputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelName", GoGetter: "ChannelName"},
 			_jsii_.MemberProperty{JsiiProperty: "channelNameInput", GoGetter: "ChannelNameInput"},
@@ -23344,18 +23410,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_InputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InstanceGroupsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InstanceGroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InstanceGroupsProperty",
+		reflect.TypeOf((*TfTrainingJob_InstanceGroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InstanceGroupsPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InstanceGroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InstanceGroupsPropertyList",
+		reflect.TypeOf((*TfTrainingJob_InstanceGroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23370,14 +23436,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InstanceGroupsPropertyList{}
+			j := jsiiProxy_TfTrainingJob_InstanceGroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InstanceGroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InstanceGroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InstanceGroupsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_InstanceGroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23411,18 +23477,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InstanceGroupsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_InstanceGroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InstancePlacementConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InstancePlacementConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InstancePlacementConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_InstancePlacementConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InstancePlacementConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InstancePlacementConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InstancePlacementConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_InstancePlacementConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23437,14 +23503,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InstancePlacementConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_InstancePlacementConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.InstancePlacementConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_InstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.InstancePlacementConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_InstancePlacementConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23476,18 +23542,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_InstancePlacementConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_InstancePlacementConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.MetricDefinitionsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_MetricDefinitionsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.MetricDefinitionsProperty",
+		reflect.TypeOf((*TfTrainingJob_MetricDefinitionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.MetricDefinitionsPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_MetricDefinitionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.MetricDefinitionsPropertyList",
+		reflect.TypeOf((*TfTrainingJob_MetricDefinitionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23502,14 +23568,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_MetricDefinitionsPropertyList{}
+			j := jsiiProxy_TfTrainingJob_MetricDefinitionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.MetricDefinitionsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_MetricDefinitionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.MetricDefinitionsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_MetricDefinitionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23538,18 +23604,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_MetricDefinitionsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_MetricDefinitionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.MlflowConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_MlflowConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.MlflowConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_MlflowConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.MlflowConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_MlflowConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.MlflowConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_MlflowConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23564,14 +23630,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_MlflowConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_MlflowConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.MlflowConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_MlflowConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.MlflowConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_MlflowConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23604,18 +23670,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_MlflowConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_MlflowConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ModelAccessConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ModelAccessConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ModelAccessConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ModelAccessConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ModelAccessConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ModelAccessConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ModelAccessConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ModelAccessConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23630,14 +23696,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ModelAccessConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ModelAccessConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ModelAccessConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ModelAccessConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ModelAccessConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ModelAccessConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -23664,18 +23730,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ModelAccessConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ModelAccessConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ModelPackageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ModelPackageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ModelPackageConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ModelPackageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ModelPackageConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ModelPackageConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ModelPackageConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ModelPackageConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23690,14 +23756,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ModelPackageConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ModelPackageConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ModelPackageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ModelPackageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ModelPackageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ModelPackageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23727,18 +23793,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ModelPackageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ModelPackageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.OutputDataConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_OutputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.OutputDataConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_OutputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.OutputDataConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_OutputDataConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.OutputDataConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_OutputDataConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23753,14 +23819,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_OutputDataConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_OutputDataConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.OutputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_OutputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.OutputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_OutputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23793,18 +23859,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_OutputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_OutputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.PlacementSpecificationsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_PlacementSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.PlacementSpecificationsProperty",
+		reflect.TypeOf((*TfTrainingJob_PlacementSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.PlacementSpecificationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_PlacementSpecificationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.PlacementSpecificationsPropertyList",
+		reflect.TypeOf((*TfTrainingJob_PlacementSpecificationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23819,14 +23885,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_PlacementSpecificationsPropertyList{}
+			j := jsiiProxy_TfTrainingJob_PlacementSpecificationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.PlacementSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_PlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.PlacementSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_PlacementSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23857,18 +23923,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ultraServerIdInput", GoGetter: "UltraServerIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_PlacementSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_PlacementSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ProfilerConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ProfilerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ProfilerConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ProfilerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ProfilerConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ProfilerConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ProfilerConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ProfilerConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23883,14 +23949,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ProfilerConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ProfilerConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ProfilerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ProfilerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ProfilerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ProfilerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -23927,18 +23993,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ProfilerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ProfilerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ProfilerRuleConfigurationsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ProfilerRuleConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ProfilerRuleConfigurationsProperty",
+		reflect.TypeOf((*TfTrainingJob_ProfilerRuleConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ProfilerRuleConfigurationsPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ProfilerRuleConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ProfilerRuleConfigurationsPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ProfilerRuleConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -23953,14 +24019,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ProfilerRuleConfigurationsPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ProfilerRuleConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ProfilerRuleConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ProfilerRuleConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ProfilerRuleConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ProfilerRuleConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24004,18 +24070,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ProfilerRuleConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ProfilerRuleConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.RemoteDebugConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_RemoteDebugConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.RemoteDebugConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_RemoteDebugConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.RemoteDebugConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_RemoteDebugConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.RemoteDebugConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_RemoteDebugConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24030,14 +24096,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_RemoteDebugConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_RemoteDebugConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.RemoteDebugConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_RemoteDebugConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.RemoteDebugConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_RemoteDebugConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24065,18 +24131,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_RemoteDebugConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_RemoteDebugConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ResourceConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ResourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ResourceConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ResourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ResourceConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ResourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ResourceConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ResourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24091,14 +24157,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ResourceConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ResourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ResourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ResourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ResourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ResourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24149,18 +24215,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumeSizeInGbInput", GoGetter: "VolumeSizeInGbInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ResourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ResourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.RetryStrategyProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_RetryStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.RetryStrategyProperty",
+		reflect.TypeOf((*TfTrainingJob_RetryStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.RetryStrategyPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_RetryStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.RetryStrategyPropertyList",
+		reflect.TypeOf((*TfTrainingJob_RetryStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24175,14 +24241,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_RetryStrategyPropertyList{}
+			j := jsiiProxy_TfTrainingJob_RetryStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.RetryStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_RetryStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.RetryStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_RetryStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24209,18 +24275,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_RetryStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_RetryStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.S3DataSourceProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_S3DataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.S3DataSourceProperty",
+		reflect.TypeOf((*TfTrainingJob_S3DataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.S3DataSourcePropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_S3DataSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.S3DataSourcePropertyList",
+		reflect.TypeOf((*TfTrainingJob_S3DataSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24235,14 +24301,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_S3DataSourcePropertyList{}
+			j := jsiiProxy_TfTrainingJob_S3DataSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.S3DataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_S3DataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.S3DataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_S3DataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeNames", GoGetter: "AttributeNames"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeNamesInput", GoGetter: "AttributeNamesInput"},
@@ -24288,18 +24354,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_S3DataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_S3DataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ServerlessJobConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ServerlessJobConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ServerlessJobConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ServerlessJobConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ServerlessJobConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ServerlessJobConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ServerlessJobConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ServerlessJobConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24314,14 +24380,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ServerlessJobConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ServerlessJobConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ServerlessJobConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ServerlessJobConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ServerlessJobConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ServerlessJobConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptEula", GoGetter: "AcceptEula"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptEulaInput", GoGetter: "AcceptEulaInput"},
@@ -24365,18 +24431,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ServerlessJobConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ServerlessJobConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.SessionChainingConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_SessionChainingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.SessionChainingConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_SessionChainingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.SessionChainingConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_SessionChainingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.SessionChainingConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_SessionChainingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24391,14 +24457,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_SessionChainingConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_SessionChainingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.SessionChainingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_SessionChainingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.SessionChainingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_SessionChainingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24426,18 +24492,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_SessionChainingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_SessionChainingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ShuffleConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ShuffleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ShuffleConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_ShuffleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ShuffleConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ShuffleConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ShuffleConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_ShuffleConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24452,14 +24518,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ShuffleConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_ShuffleConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.ShuffleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_ShuffleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.ShuffleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_ShuffleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24487,18 +24553,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_ShuffleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_ShuffleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.StoppingConditionProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_StoppingConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.StoppingConditionProperty",
+		reflect.TypeOf((*TfTrainingJob_StoppingConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.StoppingConditionPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_StoppingConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.StoppingConditionPropertyList",
+		reflect.TypeOf((*TfTrainingJob_StoppingConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24513,14 +24579,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_StoppingConditionPropertyList{}
+			j := jsiiProxy_TfTrainingJob_StoppingConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.StoppingConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_StoppingConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.StoppingConditionPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_StoppingConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24554,18 +24620,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_StoppingConditionPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_StoppingConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TensorBoardOutputConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TensorBoardOutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TensorBoardOutputConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_TensorBoardOutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TensorBoardOutputConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TensorBoardOutputConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TensorBoardOutputConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_TensorBoardOutputConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24580,14 +24646,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TensorBoardOutputConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_TensorBoardOutputConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TensorBoardOutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TensorBoardOutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TensorBoardOutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_TensorBoardOutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24617,18 +24683,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TensorBoardOutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_TensorBoardOutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TimeoutsProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TimeoutsProperty",
+		reflect.TypeOf((*TfTrainingJob_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24662,18 +24728,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TrainingImageConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TrainingImageConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TrainingImageConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_TrainingImageConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TrainingImageConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TrainingImageConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TrainingImageConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_TrainingImageConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24688,14 +24754,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TrainingImageConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_TrainingImageConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TrainingImageConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TrainingImageConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TrainingImageConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_TrainingImageConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24727,18 +24793,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingRepositoryAuthConfigInput", GoGetter: "TrainingRepositoryAuthConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TrainingImageConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_TrainingImageConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TrainingRepositoryAuthConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TrainingRepositoryAuthConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TrainingRepositoryAuthConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_TrainingRepositoryAuthConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TrainingRepositoryAuthConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TrainingRepositoryAuthConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TrainingRepositoryAuthConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_TrainingRepositoryAuthConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24753,14 +24819,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TrainingRepositoryAuthConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_TrainingRepositoryAuthConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.TrainingRepositoryAuthConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_TrainingRepositoryAuthConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.TrainingRepositoryAuthConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_TrainingRepositoryAuthConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24788,18 +24854,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trainingRepositoryCredentialsProviderArnInput", GoGetter: "TrainingRepositoryCredentialsProviderArnInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_TrainingRepositoryAuthConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_TrainingRepositoryAuthConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.VpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.VpcConfigProperty",
+		reflect.TypeOf((*TfTrainingJob_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.VpcConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_VpcConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.VpcConfigPropertyList",
+		reflect.TypeOf((*TfTrainingJob_VpcConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -24814,14 +24880,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_VpcConfigPropertyList{}
+			j := jsiiProxy_TfTrainingJob_VpcConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJob.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerTrainingJob_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJob.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTrainingJob_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -24850,18 +24916,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerTrainingJob_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTrainingJob_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerTrainingJobConfig",
-		reflect.TypeOf((*AwsSagemakerTrainingJobConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfTrainingJobConfig",
+		reflect.TypeOf((*TfTrainingJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile",
-		reflect.TypeOf((*AwsSagemakerUserProfile)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile",
+		reflect.TypeOf((*TfUserProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -24937,18 +25003,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile{}
+			j := jsiiProxy_TfUserProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CanvasAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CanvasAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CanvasAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_CanvasAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CanvasAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CanvasAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CanvasAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_CanvasAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25005,18 +25071,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceSettingsInput", GoGetter: "WorkspaceSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_CanvasAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_CanvasAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CodeEditorAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CodeEditorAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CodeEditorAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_CodeEditorAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CodeEditorAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CodeEditorAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CodeEditorAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_CodeEditorAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -25059,18 +25125,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_CodeEditorAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_CodeEditorAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CustomFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CustomFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CustomFileSystemConfigProperty",
+		reflect.TypeOf((*TfUserProfile_CustomFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CustomFileSystemConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CustomFileSystemConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CustomFileSystemConfigPropertyList",
+		reflect.TypeOf((*TfUserProfile_CustomFileSystemConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -25085,14 +25151,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_CustomFileSystemConfigPropertyList{}
+			j := jsiiProxy_TfUserProfile_CustomFileSystemConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CustomFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CustomFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CustomFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_CustomFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25121,18 +25187,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_CustomFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_CustomFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CustomPosixUserConfigProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CustomPosixUserConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CustomPosixUserConfigProperty",
+		reflect.TypeOf((*TfUserProfile_CustomPosixUserConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.CustomPosixUserConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_CustomPosixUserConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.CustomPosixUserConfigPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_CustomPosixUserConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25161,18 +25227,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uidInput", GoGetter: "UidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_CustomPosixUserConfigPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_CustomPosixUserConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.DefaultEbsStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_DefaultEbsStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.DefaultEbsStorageSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_DefaultEbsStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.DefaultEbsStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_DefaultEbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.DefaultEbsStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_DefaultEbsStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25201,18 +25267,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_DefaultEbsStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_DefaultEbsStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.DirectDeploySettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_DirectDeploySettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.DirectDeploySettingsProperty",
+		reflect.TypeOf((*TfUserProfile_DirectDeploySettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.DirectDeploySettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_DirectDeploySettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.DirectDeploySettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_DirectDeploySettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25240,18 +25306,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_DirectDeploySettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_DirectDeploySettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EfsFileSystemConfigProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EfsFileSystemConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EfsFileSystemConfigProperty",
+		reflect.TypeOf((*TfUserProfile_EfsFileSystemConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EfsFileSystemConfigPropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EfsFileSystemConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EfsFileSystemConfigPropertyList",
+		reflect.TypeOf((*TfUserProfile_EfsFileSystemConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -25266,14 +25332,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_EfsFileSystemConfigPropertyList{}
+			j := jsiiProxy_TfUserProfile_EfsFileSystemConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EfsFileSystemConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EfsFileSystemConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EfsFileSystemConfigPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_EfsFileSystemConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25303,18 +25369,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_EfsFileSystemConfigPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_EfsFileSystemConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EmrServerlessSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EmrServerlessSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EmrServerlessSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_EmrServerlessSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EmrServerlessSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EmrServerlessSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EmrServerlessSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_EmrServerlessSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25345,18 +25411,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_EmrServerlessSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_EmrServerlessSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EmrSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EmrSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EmrSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_EmrSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.EmrSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_EmrSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.EmrSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_EmrSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assumableRoleArns", GoGetter: "AssumableRoleArns"},
 			_jsii_.MemberProperty{JsiiProperty: "assumableRoleArnsInput", GoGetter: "AssumableRoleArnsInput"},
@@ -25387,18 +25453,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_EmrSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_EmrSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.GenerativeAiSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_GenerativeAiSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.GenerativeAiSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_GenerativeAiSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.GenerativeAiSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_GenerativeAiSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.GenerativeAiSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_GenerativeAiSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonBedrockRoleArn", GoGetter: "AmazonBedrockRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "amazonBedrockRoleArnInput", GoGetter: "AmazonBedrockRoleArnInput"},
@@ -25426,18 +25492,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_GenerativeAiSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_GenerativeAiSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.IdentityProviderOauthSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_IdentityProviderOauthSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.IdentityProviderOauthSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_IdentityProviderOauthSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.IdentityProviderOauthSettingsPropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_IdentityProviderOauthSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.IdentityProviderOauthSettingsPropertyList",
+		reflect.TypeOf((*TfUserProfile_IdentityProviderOauthSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -25452,14 +25518,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_IdentityProviderOauthSettingsPropertyList{}
+			j := jsiiProxy_TfUserProfile_IdentityProviderOauthSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.IdentityProviderOauthSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_IdentityProviderOauthSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.IdentityProviderOauthSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_IdentityProviderOauthSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25492,18 +25558,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_IdentityProviderOauthSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_IdentityProviderOauthSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.JupyterLabAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_JupyterLabAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.JupyterLabAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_JupyterLabAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.JupyterLabAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_JupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.JupyterLabAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_JupyterLabAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagement", GoGetter: "AppLifecycleManagement"},
 			_jsii_.MemberProperty{JsiiProperty: "appLifecycleManagementInput", GoGetter: "AppLifecycleManagementInput"},
@@ -25554,18 +25620,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_JupyterLabAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_JupyterLabAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.JupyterServerAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_JupyterServerAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.JupyterServerAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_JupyterServerAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.JupyterServerAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_JupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.JupyterServerAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_JupyterServerAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeRepository", GoGetter: "CodeRepository"},
 			_jsii_.MemberProperty{JsiiProperty: "codeRepositoryInput", GoGetter: "CodeRepositoryInput"},
@@ -25601,18 +25667,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_JupyterServerAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_JupyterServerAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.KendraSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_KendraSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.KendraSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_KendraSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.KendraSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_KendraSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.KendraSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_KendraSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25640,18 +25706,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_KendraSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_KendraSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.KernelGatewayAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_KernelGatewayAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.KernelGatewayAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_KernelGatewayAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.KernelGatewayAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_KernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.KernelGatewayAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_KernelGatewayAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25687,18 +25753,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_KernelGatewayAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_KernelGatewayAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.ModelRegisterSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_ModelRegisterSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.ModelRegisterSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_ModelRegisterSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.ModelRegisterSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_ModelRegisterSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.ModelRegisterSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_ModelRegisterSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25729,18 +25795,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_ModelRegisterSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_ModelRegisterSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.RSessionAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_RSessionAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.RSessionAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_RSessionAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.RSessionAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_RSessionAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.RSessionAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_RSessionAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25773,18 +25839,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_RSessionAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_RSessionAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.RStudioServerProAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_RStudioServerProAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.RStudioServerProAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_RStudioServerProAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.RStudioServerProAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_RStudioServerProAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.RStudioServerProAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_RStudioServerProAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessStatus", GoGetter: "AccessStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "accessStatusInput", GoGetter: "AccessStatusInput"},
@@ -25815,18 +25881,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userGroupInput", GoGetter: "UserGroupInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_RStudioServerProAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_RStudioServerProAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.SharingSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_SharingSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.SharingSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_SharingSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.SharingSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_SharingSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.SharingSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_SharingSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25860,18 +25926,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_SharingSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_SharingSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.SpaceStorageSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_SpaceStorageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.SpaceStorageSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_SpaceStorageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.SpaceStorageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_SpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.SpaceStorageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_SpaceStorageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25900,18 +25966,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_SpaceStorageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_SpaceStorageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.StudioWebPortalSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_StudioWebPortalSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.StudioWebPortalSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_StudioWebPortalSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.StudioWebPortalSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_StudioWebPortalSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.StudioWebPortalSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_StudioWebPortalSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25945,18 +26011,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_StudioWebPortalSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_StudioWebPortalSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.TensorBoardAppSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_TensorBoardAppSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.TensorBoardAppSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_TensorBoardAppSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.TensorBoardAppSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_TensorBoardAppSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.TensorBoardAppSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_TensorBoardAppSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -25985,18 +26051,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_TensorBoardAppSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_TensorBoardAppSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.TimeSeriesForecastingSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_TimeSeriesForecastingSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.TimeSeriesForecastingSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_TimeSeriesForecastingSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.TimeSeriesForecastingSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_TimeSeriesForecastingSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.TimeSeriesForecastingSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_TimeSeriesForecastingSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonForecastRoleArn", GoGetter: "AmazonForecastRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "amazonForecastRoleArnInput", GoGetter: "AmazonForecastRoleArnInput"},
@@ -26027,18 +26093,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_TimeSeriesForecastingSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_TimeSeriesForecastingSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26075,18 +26141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26115,18 +26181,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -26141,14 +26207,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -26180,18 +26246,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsCodeEditorAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26231,18 +26297,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsCodeEditorAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26279,18 +26345,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26319,18 +26385,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -26345,14 +26411,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26379,18 +26445,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -26405,14 +26471,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -26444,18 +26510,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26495,18 +26561,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterLabAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterServerAppSettingsCodeRepositoryProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterServerAppSettingsCodeRepositoryProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -26521,14 +26587,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26555,18 +26621,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterServerAppSettingsCodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterServerAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26606,18 +26672,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsJupyterServerAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsKernelGatewayAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsKernelGatewayAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsKernelGatewayAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsKernelGatewayAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsKernelGatewayAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -26632,14 +26698,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -26671,18 +26737,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsKernelGatewayAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsKernelGatewayAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26722,18 +26788,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsKernelGatewayAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoMountHomeEfs", GoGetter: "AutoMountHomeEfs"},
 			_jsii_.MemberProperty{JsiiProperty: "autoMountHomeEfsInput", GoGetter: "AutoMountHomeEfsInput"},
@@ -26824,18 +26890,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsRSessionAppSettingsCustomImageProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsCustomImageProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsRSessionAppSettingsCustomImageProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsRSessionAppSettingsCustomImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsRSessionAppSettingsCustomImagePropertyList",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsRSessionAppSettingsCustomImagePropertyList",
+		reflect.TypeOf((*TfUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -26850,14 +26916,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyList{}
+			j := jsiiProxy_TfUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsRSessionAppSettingsCustomImagePropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsRSessionAppSettingsCustomImagePropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigName", GoGetter: "AppImageConfigName"},
 			_jsii_.MemberProperty{JsiiProperty: "appImageConfigNameInput", GoGetter: "AppImageConfigNameInput"},
@@ -26889,18 +26955,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsRSessionAppSettingsCustomImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsRSessionAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsRSessionAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsRSessionAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26940,18 +27006,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsRSessionAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty",
+		reflect.TypeOf((*TfUserProfile_UserSettingsTensorBoardAppSettingsDefaultResourceSpecProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.UserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_UserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.UserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_UserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -26991,18 +27057,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_UserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_UserSettingsTensorBoardAppSettingsDefaultResourceSpecPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.WorkspaceSettingsProperty",
-		reflect.TypeOf((*AwsSagemakerUserProfile_WorkspaceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.WorkspaceSettingsProperty",
+		reflect.TypeOf((*TfUserProfile_WorkspaceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfile.WorkspaceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerUserProfile_WorkspaceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfile.WorkspaceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_WorkspaceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27033,18 +27099,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerUserProfile_WorkspaceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_WorkspaceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerUserProfileConfig",
-		reflect.TypeOf((*AwsSagemakerUserProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfUserProfileConfig",
+		reflect.TypeOf((*TfUserProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce",
-		reflect.TypeOf((*AwsSagemakerWorkforce)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce",
+		reflect.TypeOf((*TfWorkforce)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -27118,18 +27184,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workforceVpcConfigInput", GoGetter: "WorkforceVpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkforce{}
+			j := jsiiProxy_TfWorkforce{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.CognitoConfigProperty",
-		reflect.TypeOf((*AwsSagemakerWorkforce_CognitoConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.CognitoConfigProperty",
+		reflect.TypeOf((*TfWorkforce_CognitoConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.CognitoConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkforce_CognitoConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.CognitoConfigPropertyOutputReference",
+		reflect.TypeOf((*TfWorkforce_CognitoConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
 			_jsii_.MemberProperty{JsiiProperty: "clientIdInput", GoGetter: "ClientIdInput"},
@@ -27158,18 +27224,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolInput", GoGetter: "UserPoolInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkforce_CognitoConfigPropertyOutputReference{}
+			j := jsiiProxy_TfWorkforce_CognitoConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.OidcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerWorkforce_OidcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.OidcConfigProperty",
+		reflect.TypeOf((*TfWorkforce_OidcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.OidcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkforce_OidcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.OidcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfWorkforce_OidcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationRequestExtraParams", GoGetter: "AuthenticationRequestExtraParams"},
 			_jsii_.MemberProperty{JsiiProperty: "authenticationRequestExtraParamsInput", GoGetter: "AuthenticationRequestExtraParamsInput"},
@@ -27216,18 +27282,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userInfoEndpointInput", GoGetter: "UserInfoEndpointInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkforce_OidcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfWorkforce_OidcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.SourceIpConfigProperty",
-		reflect.TypeOf((*AwsSagemakerWorkforce_SourceIpConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.SourceIpConfigProperty",
+		reflect.TypeOf((*TfWorkforce_SourceIpConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.SourceIpConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkforce_SourceIpConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.SourceIpConfigPropertyOutputReference",
+		reflect.TypeOf((*TfWorkforce_SourceIpConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrs", GoGetter: "Cidrs"},
 			_jsii_.MemberProperty{JsiiProperty: "cidrsInput", GoGetter: "CidrsInput"},
@@ -27254,18 +27320,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkforce_SourceIpConfigPropertyOutputReference{}
+			j := jsiiProxy_TfWorkforce_SourceIpConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.WorkforceVpcConfigProperty",
-		reflect.TypeOf((*AwsSagemakerWorkforce_WorkforceVpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.WorkforceVpcConfigProperty",
+		reflect.TypeOf((*TfWorkforce_WorkforceVpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforce.WorkforceVpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkforce_WorkforceVpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforce.WorkforceVpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfWorkforce_WorkforceVpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27300,18 +27366,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkforce_WorkforceVpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfWorkforce_WorkforceVpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkforceConfig",
-		reflect.TypeOf((*AwsSagemakerWorkforceConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkforceConfig",
+		reflect.TypeOf((*TfWorkforceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam",
-		reflect.TypeOf((*AwsSagemakerWorkteam)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam",
+		reflect.TypeOf((*TfWorkteam)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -27391,18 +27457,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workteamNameInput", GoGetter: "WorkteamNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam{}
+			j := jsiiProxy_TfWorkteam{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.CognitoMemberDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_CognitoMemberDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.CognitoMemberDefinitionProperty",
+		reflect.TypeOf((*TfWorkteam_CognitoMemberDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.CognitoMemberDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_CognitoMemberDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.CognitoMemberDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_CognitoMemberDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
 			_jsii_.MemberProperty{JsiiProperty: "clientIdInput", GoGetter: "ClientIdInput"},
@@ -27433,18 +27499,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolInput", GoGetter: "UserPoolInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_CognitoMemberDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_CognitoMemberDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.IamPolicyConstraintsProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_IamPolicyConstraintsProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.IamPolicyConstraintsProperty",
+		reflect.TypeOf((*TfWorkteam_IamPolicyConstraintsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.IamPolicyConstraintsPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_IamPolicyConstraintsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.IamPolicyConstraintsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_IamPolicyConstraintsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27475,18 +27541,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcSourceIpInput", GoGetter: "VpcSourceIpInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_IamPolicyConstraintsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_IamPolicyConstraintsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.MemberDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_MemberDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.MemberDefinitionProperty",
+		reflect.TypeOf((*TfWorkteam_MemberDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.MemberDefinitionPropertyList",
-		reflect.TypeOf((*AwsSagemakerWorkteam_MemberDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.MemberDefinitionPropertyList",
+		reflect.TypeOf((*TfWorkteam_MemberDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -27501,14 +27567,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_MemberDefinitionPropertyList{}
+			j := jsiiProxy_TfWorkteam_MemberDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.MemberDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_MemberDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.MemberDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_MemberDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cognitoMemberDefinition", GoGetter: "CognitoMemberDefinition"},
 			_jsii_.MemberProperty{JsiiProperty: "cognitoMemberDefinitionInput", GoGetter: "CognitoMemberDefinitionInput"},
@@ -27541,18 +27607,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_MemberDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_MemberDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.NotificationConfigurationProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_NotificationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.NotificationConfigurationProperty",
+		reflect.TypeOf((*TfWorkteam_NotificationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.NotificationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_NotificationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.NotificationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_NotificationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27580,18 +27646,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_NotificationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_NotificationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.OidcMemberDefinitionProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_OidcMemberDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.OidcMemberDefinitionProperty",
+		reflect.TypeOf((*TfWorkteam_OidcMemberDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.OidcMemberDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_OidcMemberDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.OidcMemberDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_OidcMemberDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27618,18 +27684,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_OidcMemberDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_OidcMemberDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.S3PresignProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_S3PresignProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.S3PresignProperty",
+		reflect.TypeOf((*TfWorkteam_S3PresignProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.S3PresignPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_S3PresignPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.S3PresignPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_S3PresignPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27658,18 +27724,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_S3PresignPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_S3PresignPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.WorkerAccessConfigurationProperty",
-		reflect.TypeOf((*AwsSagemakerWorkteam_WorkerAccessConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.WorkerAccessConfigurationProperty",
+		reflect.TypeOf((*TfWorkteam_WorkerAccessConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteam.WorkerAccessConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSagemakerWorkteam_WorkerAccessConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteam.WorkerAccessConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkteam_WorkerAccessConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -27698,79 +27764,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSagemakerWorkteam_WorkerAccessConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkteam_WorkerAccessConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.AwsSagemakerWorkteamConfig",
-		reflect.TypeOf((*AwsSagemakerWorkteamConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-sagemaker-ai.DataAwsSagemakerPrebuiltEcrImage",
-		reflect.TypeOf((*DataAwsSagemakerPrebuiltEcrImage)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "dnsSuffix", GoGetter: "DnsSuffix"},
-			_jsii_.MemberProperty{JsiiProperty: "dnsSuffixInput", GoGetter: "DnsSuffixInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "imageTag", GoGetter: "ImageTag"},
-			_jsii_.MemberProperty{JsiiProperty: "imageTagInput", GoGetter: "ImageTagInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberProperty{JsiiProperty: "registryId", GoGetter: "RegistryId"},
-			_jsii_.MemberProperty{JsiiProperty: "registryPath", GoGetter: "RegistryPath"},
-			_jsii_.MemberProperty{JsiiProperty: "repositoryName", GoGetter: "RepositoryName"},
-			_jsii_.MemberProperty{JsiiProperty: "repositoryNameInput", GoGetter: "RepositoryNameInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDnsSuffix", GoMethod: "ResetDnsSuffix"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetImageTag", GoMethod: "ResetImageTag"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsSagemakerPrebuiltEcrImage{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-sagemaker-ai.DataAwsSagemakerPrebuiltEcrImageConfig",
-		reflect.TypeOf((*DataAwsSagemakerPrebuiltEcrImageConfig)(nil)).Elem(),
+		"@cdktn/aws-sagemaker-ai.TfWorkteamConfig",
+		reflect.TypeOf((*TfWorkteamConfig)(nil)).Elem(),
 	)
 }

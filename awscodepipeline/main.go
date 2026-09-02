@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline",
-		reflect.TypeOf((*AwsCodepipeline)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline",
+		reflect.TypeOf((*TfCodepipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -96,18 +96,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline{}
+			j := jsiiProxy_TfCodepipeline{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.ActionProperty",
-		reflect.TypeOf((*AwsCodepipeline_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.ActionProperty",
+		reflect.TypeOf((*TfCodepipeline_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.ActionPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_ActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.ActionPropertyList",
+		reflect.TypeOf((*TfCodepipeline_ActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -122,14 +122,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_ActionPropertyList{}
+			j := jsiiProxy_TfCodepipeline_ActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
 			_jsii_.MemberProperty{JsiiProperty: "categoryInput", GoGetter: "CategoryInput"},
@@ -198,18 +198,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.ArtifactStoreProperty",
-		reflect.TypeOf((*AwsCodepipeline_ArtifactStoreProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.ArtifactStoreProperty",
+		reflect.TypeOf((*TfCodepipeline_ArtifactStoreProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.ArtifactStorePropertyList",
-		reflect.TypeOf((*AwsCodepipeline_ArtifactStorePropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.ArtifactStorePropertyList",
+		reflect.TypeOf((*TfCodepipeline_ArtifactStorePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -224,14 +224,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_ArtifactStorePropertyList{}
+			j := jsiiProxy_TfCodepipeline_ArtifactStorePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.ArtifactStorePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_ArtifactStorePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.ArtifactStorePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_ArtifactStorePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -267,18 +267,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_ArtifactStorePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_ArtifactStorePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.BeforeEntryProperty",
-		reflect.TypeOf((*AwsCodepipeline_BeforeEntryProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.BeforeEntryProperty",
+		reflect.TypeOf((*TfCodepipeline_BeforeEntryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.BeforeEntryPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_BeforeEntryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.BeforeEntryPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_BeforeEntryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -306,18 +306,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_BeforeEntryPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_BeforeEntryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.EncryptionKeyProperty",
-		reflect.TypeOf((*AwsCodepipeline_EncryptionKeyProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.EncryptionKeyProperty",
+		reflect.TypeOf((*TfCodepipeline_EncryptionKeyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.EncryptionKeyPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_EncryptionKeyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.EncryptionKeyPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_EncryptionKeyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -346,18 +346,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_EncryptionKeyPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_EncryptionKeyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OnFailureProperty",
-		reflect.TypeOf((*AwsCodepipeline_OnFailureProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OnFailureProperty",
+		reflect.TypeOf((*TfCodepipeline_OnFailureProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OnFailurePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_OnFailurePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OnFailurePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_OnFailurePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -393,18 +393,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_OnFailurePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_OnFailurePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OnSuccessProperty",
-		reflect.TypeOf((*AwsCodepipeline_OnSuccessProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OnSuccessProperty",
+		reflect.TypeOf((*TfCodepipeline_OnSuccessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OnSuccessPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_OnSuccessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OnSuccessPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_OnSuccessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -432,18 +432,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_OnSuccessPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_OnSuccessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OutputArtifactsForComputeActionProperty",
-		reflect.TypeOf((*AwsCodepipeline_OutputArtifactsForComputeActionProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OutputArtifactsForComputeActionProperty",
+		reflect.TypeOf((*TfCodepipeline_OutputArtifactsForComputeActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OutputArtifactsForComputeActionPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_OutputArtifactsForComputeActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OutputArtifactsForComputeActionPropertyList",
+		reflect.TypeOf((*TfCodepipeline_OutputArtifactsForComputeActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -458,14 +458,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_OutputArtifactsForComputeActionPropertyList{}
+			j := jsiiProxy_TfCodepipeline_OutputArtifactsForComputeActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.OutputArtifactsForComputeActionPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_OutputArtifactsForComputeActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.OutputArtifactsForComputeActionPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_OutputArtifactsForComputeActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -495,18 +495,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_OutputArtifactsForComputeActionPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_OutputArtifactsForComputeActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.RetryConfigurationProperty",
-		reflect.TypeOf((*AwsCodepipeline_RetryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.RetryConfigurationProperty",
+		reflect.TypeOf((*TfCodepipeline_RetryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.RetryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_RetryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.RetryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_RetryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -534,18 +534,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_RetryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_RetryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionProperty",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -576,18 +576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageBeforeEntryConditionPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageBeforeEntryConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionRuleProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionRuleProperty",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionRulePropertyList",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionRulePropertyList",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -602,14 +602,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageBeforeEntryConditionRulePropertyList{}
+			j := jsiiProxy_TfCodepipeline_StageBeforeEntryConditionRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionRulePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionRulePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commands", GoGetter: "Commands"},
 			_jsii_.MemberProperty{JsiiProperty: "commandsInput", GoGetter: "CommandsInput"},
@@ -657,18 +657,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageBeforeEntryConditionRulePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageBeforeEntryConditionRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionRuleRuleTypeIdProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionRuleRuleTypeIdProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionRuleRuleTypeIdProperty",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionRuleRuleTypeIdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageBeforeEntryConditionRuleRuleTypeIdPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageBeforeEntryConditionRuleRuleTypeIdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageBeforeEntryConditionRuleRuleTypeIdPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageBeforeEntryConditionRuleRuleTypeIdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
 			_jsii_.MemberProperty{JsiiProperty: "categoryInput", GoGetter: "CategoryInput"},
@@ -703,18 +703,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageBeforeEntryConditionRuleRuleTypeIdPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageBeforeEntryConditionRuleRuleTypeIdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionProperty",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -745,18 +745,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnFailureConditionPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageOnFailureConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionRuleProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionRuleProperty",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionRulePropertyList",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionRulePropertyList",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -771,14 +771,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnFailureConditionRulePropertyList{}
+			j := jsiiProxy_TfCodepipeline_StageOnFailureConditionRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionRulePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionRulePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commands", GoGetter: "Commands"},
 			_jsii_.MemberProperty{JsiiProperty: "commandsInput", GoGetter: "CommandsInput"},
@@ -826,18 +826,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnFailureConditionRulePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageOnFailureConditionRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionRuleRuleTypeIdProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionRuleRuleTypeIdProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionRuleRuleTypeIdProperty",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionRuleRuleTypeIdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnFailureConditionRuleRuleTypeIdPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageOnFailureConditionRuleRuleTypeIdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnFailureConditionRuleRuleTypeIdPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageOnFailureConditionRuleRuleTypeIdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
 			_jsii_.MemberProperty{JsiiProperty: "categoryInput", GoGetter: "CategoryInput"},
@@ -872,18 +872,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnFailureConditionRuleRuleTypeIdPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageOnFailureConditionRuleRuleTypeIdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionProperty",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -914,18 +914,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnSuccessConditionPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageOnSuccessConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionRuleProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionRuleProperty",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionRulePropertyList",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionRulePropertyList",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -940,14 +940,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnSuccessConditionRulePropertyList{}
+			j := jsiiProxy_TfCodepipeline_StageOnSuccessConditionRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionRulePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionRulePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commands", GoGetter: "Commands"},
 			_jsii_.MemberProperty{JsiiProperty: "commandsInput", GoGetter: "CommandsInput"},
@@ -995,18 +995,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnSuccessConditionRulePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageOnSuccessConditionRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionRuleRuleTypeIdProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionRuleRuleTypeIdProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionRuleRuleTypeIdProperty",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionRuleRuleTypeIdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageOnSuccessConditionRuleRuleTypeIdPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StageOnSuccessConditionRuleRuleTypeIdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageOnSuccessConditionRuleRuleTypeIdPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StageOnSuccessConditionRuleRuleTypeIdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "category", GoGetter: "Category"},
 			_jsii_.MemberProperty{JsiiProperty: "categoryInput", GoGetter: "CategoryInput"},
@@ -1041,18 +1041,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StageOnSuccessConditionRuleRuleTypeIdPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StageOnSuccessConditionRuleRuleTypeIdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StageProperty",
-		reflect.TypeOf((*AwsCodepipeline_StageProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StageProperty",
+		reflect.TypeOf((*TfCodepipeline_StageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StagePropertyList",
-		reflect.TypeOf((*AwsCodepipeline_StagePropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StagePropertyList",
+		reflect.TypeOf((*TfCodepipeline_StagePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1067,14 +1067,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StagePropertyList{}
+			j := jsiiProxy_TfCodepipeline_StagePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.StagePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_StagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.StagePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_StagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -1116,18 +1116,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_StagePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_StagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1141,14 +1141,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1176,18 +1176,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestBranchesProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestBranchesProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestBranchesProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestBranchesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestBranchesPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestBranchesPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1201,14 +1201,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestBranchesPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestBranchesPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1235,18 +1235,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPullRequestBranchesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestFilePathsProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestFilePathsProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestFilePathsPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestFilePathsPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1260,14 +1260,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestFilePathsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestFilePathsPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1294,18 +1294,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPullRequestFilePathsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1319,14 +1319,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPullRequestPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPullRequestPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPullRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPullRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPullRequestPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPullRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1354,18 +1354,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPullRequestPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPullRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushBranchesProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushBranchesProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushBranchesProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushBranchesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushBranchesPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushBranchesPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1379,14 +1379,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushBranchesPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushBranchesPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1413,18 +1413,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushBranchesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushFilePathsProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushFilePathsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushFilePathsProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushFilePathsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushFilePathsPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushFilePathsPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1438,14 +1438,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushFilePathsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushFilePathsPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1472,18 +1472,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushFilePathsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1497,14 +1497,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1532,18 +1532,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushTagsProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushTagsProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushTagsPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushTagsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushTagsPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushTagsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1557,14 +1557,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushTagsPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushTagsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllGitConfigurationPushTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllGitConfigurationPushTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllGitConfigurationPushTagsPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllGitConfigurationPushTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1591,18 +1591,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllGitConfigurationPushTagsPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllGitConfigurationPushTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1616,14 +1616,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerAllPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerAllPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerAllPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerAllPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1650,18 +1650,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerAllPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerAllPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1696,18 +1696,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestBranchesProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestBranchesProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestBranchesProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestBranchesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestBranchesPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestBranchesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestBranchesPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestBranchesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1738,18 +1738,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPullRequestBranchesPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPullRequestBranchesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestFilePathsProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestFilePathsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestFilePathsProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestFilePathsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestFilePathsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestFilePathsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestFilePathsPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestFilePathsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1780,18 +1780,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPullRequestFilePathsPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPullRequestFilePathsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1806,14 +1806,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPullRequestPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPullRequestPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPullRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPullRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPullRequestPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPullRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
 			_jsii_.MemberProperty{JsiiProperty: "branchesInput", GoGetter: "BranchesInput"},
@@ -1849,18 +1849,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPullRequestPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPullRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushBranchesProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushBranchesProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushBranchesProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushBranchesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushBranchesPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushBranchesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushBranchesPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushBranchesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1891,18 +1891,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPushBranchesPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPushBranchesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushFilePathsProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushFilePathsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushFilePathsProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushFilePathsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushFilePathsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushFilePathsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushFilePathsPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushFilePathsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1933,18 +1933,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPushFilePathsPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPushFilePathsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1959,14 +1959,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPushPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPushPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branches", GoGetter: "Branches"},
 			_jsii_.MemberProperty{JsiiProperty: "branchesInput", GoGetter: "BranchesInput"},
@@ -2003,18 +2003,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPushPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPushPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushTagsProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushTagsProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerGitConfigurationPushTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerGitConfigurationPushTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerGitConfigurationPushTagsPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerGitConfigurationPushTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2045,18 +2045,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerGitConfigurationPushTagsPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerGitConfigurationPushTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerProperty",
-		reflect.TypeOf((*AwsCodepipeline_TriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerProperty",
+		reflect.TypeOf((*TfCodepipeline_TriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerPropertyList",
-		reflect.TypeOf((*AwsCodepipeline_TriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerPropertyList",
+		reflect.TypeOf((*TfCodepipeline_TriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2071,14 +2071,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerPropertyList{}
+			j := jsiiProxy_TfCodepipeline_TriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.TriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_TriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.TriggerPropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_TriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2108,18 +2108,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_TriggerPropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_TriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.VariableProperty",
-		reflect.TypeOf((*AwsCodepipeline_VariableProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.VariableProperty",
+		reflect.TypeOf((*TfCodepipeline_VariableProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.VariablePropertyList",
-		reflect.TypeOf((*AwsCodepipeline_VariablePropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.VariablePropertyList",
+		reflect.TypeOf((*TfCodepipeline_VariablePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2134,14 +2134,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_VariablePropertyList{}
+			j := jsiiProxy_TfCodepipeline_VariablePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipeline.VariablePropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipeline_VariablePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipeline.VariablePropertyOutputReference",
+		reflect.TypeOf((*TfCodepipeline_VariablePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2174,18 +2174,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipeline_VariablePropertyOutputReference{}
+			j := jsiiProxy_TfCodepipeline_VariablePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineConfig",
-		reflect.TypeOf((*AwsCodepipelineConfig)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCodepipelineConfig",
+		reflect.TypeOf((*TfCodepipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType",
+		reflect.TypeOf((*TfCustomActionType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2267,18 +2267,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineCustomActionType{}
+			j := jsiiProxy_TfCustomActionType{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.ConfigurationPropertyProperty",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_ConfigurationPropertyProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.ConfigurationPropertyProperty",
+		reflect.TypeOf((*TfCustomActionType_ConfigurationPropertyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.ConfigurationPropertyPropertyList",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_ConfigurationPropertyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.ConfigurationPropertyPropertyList",
+		reflect.TypeOf((*TfCustomActionType_ConfigurationPropertyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2293,14 +2293,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineCustomActionType_ConfigurationPropertyPropertyList{}
+			j := jsiiProxy_TfCustomActionType_ConfigurationPropertyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.ConfigurationPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_ConfigurationPropertyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.ConfigurationPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfCustomActionType_ConfigurationPropertyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2342,18 +2342,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineCustomActionType_ConfigurationPropertyPropertyOutputReference{}
+			j := jsiiProxy_TfCustomActionType_ConfigurationPropertyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.InputArtifactDetailsProperty",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_InputArtifactDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.InputArtifactDetailsProperty",
+		reflect.TypeOf((*TfCustomActionType_InputArtifactDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.InputArtifactDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_InputArtifactDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.InputArtifactDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfCustomActionType_InputArtifactDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2382,18 +2382,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineCustomActionType_InputArtifactDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfCustomActionType_InputArtifactDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.OutputArtifactDetailsProperty",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_OutputArtifactDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.OutputArtifactDetailsProperty",
+		reflect.TypeOf((*TfCustomActionType_OutputArtifactDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.OutputArtifactDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_OutputArtifactDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.OutputArtifactDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfCustomActionType_OutputArtifactDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2422,18 +2422,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineCustomActionType_OutputArtifactDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfCustomActionType_OutputArtifactDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.SettingsProperty",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.SettingsProperty",
+		reflect.TypeOf((*TfCustomActionType_SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionType.SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipelineCustomActionType_SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionType.SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfCustomActionType_SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2470,18 +2470,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineCustomActionType_SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfCustomActionType_SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineCustomActionTypeConfig",
-		reflect.TypeOf((*AwsCodepipelineCustomActionTypeConfig)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfCustomActionTypeConfig",
+		reflect.TypeOf((*TfCustomActionTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhook",
-		reflect.TypeOf((*AwsCodepipelineWebhook)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhook",
+		reflect.TypeOf((*TfWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2558,18 +2558,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineWebhook{}
+			j := jsiiProxy_TfWebhook{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhook.AuthenticationConfigurationProperty",
-		reflect.TypeOf((*AwsCodepipelineWebhook_AuthenticationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhook.AuthenticationConfigurationProperty",
+		reflect.TypeOf((*TfWebhook_AuthenticationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhook.AuthenticationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipelineWebhook_AuthenticationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhook.AuthenticationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWebhook_AuthenticationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedIpRange", GoGetter: "AllowedIpRange"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedIpRangeInput", GoGetter: "AllowedIpRangeInput"},
@@ -2600,18 +2600,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineWebhook_AuthenticationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWebhook_AuthenticationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhook.FilterProperty",
-		reflect.TypeOf((*AwsCodepipelineWebhook_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhook.FilterProperty",
+		reflect.TypeOf((*TfWebhook_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhook.FilterPropertyList",
-		reflect.TypeOf((*AwsCodepipelineWebhook_FilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhook.FilterPropertyList",
+		reflect.TypeOf((*TfWebhook_FilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2626,14 +2626,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineWebhook_FilterPropertyList{}
+			j := jsiiProxy_TfWebhook_FilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhook.FilterPropertyOutputReference",
-		reflect.TypeOf((*AwsCodepipelineWebhook_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhook.FilterPropertyOutputReference",
+		reflect.TypeOf((*TfWebhook_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2662,13 +2662,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodepipelineWebhook_FilterPropertyOutputReference{}
+			j := jsiiProxy_TfWebhook_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codepipeline.AwsCodepipelineWebhookConfig",
-		reflect.TypeOf((*AwsCodepipelineWebhookConfig)(nil)).Elem(),
+		"@cdktn/aws-codepipeline.TfWebhookConfig",
+		reflect.TypeOf((*TfWebhookConfig)(nil)).Elem(),
 	)
 }

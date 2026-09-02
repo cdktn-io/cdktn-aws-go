@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetInternalValueParameters(val *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference) validateSetUsernameParameters(val *string) error {
+	return nil
+}
+
+func validateNewTfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

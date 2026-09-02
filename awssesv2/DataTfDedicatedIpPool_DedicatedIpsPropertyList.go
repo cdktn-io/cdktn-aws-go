@@ -1,0 +1,243 @@
+package awssesv2
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-aws-go/awssesv2/jsii"
+
+	"github.com/cdktn-io/cdktn-aws-go/awssesv2/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type DataTfDedicatedIpPool_DedicatedIpsPropertyList interface {
+	cdktn.ComplexList
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	WrapsSet() *bool
+	// Experimental.
+	SetWrapsSet(val *bool)
+	// Creating an iterator for this complex list.
+	//
+	// The list will be converted into a map with the mapKeyAttributeName as the key.
+	// Experimental.
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	Get(index *float64) DataTfDedicatedIpPool_DedicatedIpsPropertyOutputReference
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for DataTfDedicatedIpPool_DedicatedIpsPropertyList
+type jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList struct {
+	internal.Type__cdktnComplexList
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) WrapsSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"wrapsSet",
+		&returns,
+	)
+	return returns
+}
+
+
+// Experimental.
+func NewDataTfDedicatedIpPool_DedicatedIpsPropertyList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataTfDedicatedIpPool_DedicatedIpsPropertyList {
+	_init_.Initialize()
+
+	if err := validateNewDataTfDedicatedIpPool_DedicatedIpsPropertyListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList{}
+
+	_jsii_.Create(
+		"@cdktn/aws-sesv2.DataTfDedicatedIpPool.DedicatedIpsPropertyList",
+		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
+		&j,
+	)
+
+	return &j
+}
+
+// Experimental.
+func NewDataTfDedicatedIpPool_DedicatedIpsPropertyList_Override(d DataTfDedicatedIpPool_DedicatedIpsPropertyList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/aws-sesv2.DataTfDedicatedIpPool.DedicatedIpsPropertyList",
+		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList)SetWrapsSet(val *bool) {
+	if err := j.validateSetWrapsSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"wrapsSet",
+		val,
+	)
+}
+
+func (d *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
+	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
+		panic(err)
+	}
+	var returns cdktn.DynamicListTerraformIterator
+
+	_jsii_.Invoke(
+		d,
+		"allWithMapKey",
+		[]interface{}{mapKeyAttributeName},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) Get(index *float64) DataTfDedicatedIpPool_DedicatedIpsPropertyOutputReference {
+	if err := d.validateGetParameters(index); err != nil {
+		panic(err)
+	}
+	var returns DataTfDedicatedIpPool_DedicatedIpsPropertyOutputReference
+
+	_jsii_.Invoke(
+		d,
+		"get",
+		[]interface{}{index},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfDedicatedIpPool_DedicatedIpsPropertyList) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

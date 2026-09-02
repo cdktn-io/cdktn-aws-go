@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailBucket",
-		reflect.TypeOf((*AwsLightsailBucket)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfBucket",
+		reflect.TypeOf((*TfBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -82,14 +82,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailBucket{}
+			j := jsiiProxy_TfBucket{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailBucketAccessKey",
-		reflect.TypeOf((*AwsLightsailBucketAccessKey)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfBucketAccessKey",
+		reflect.TypeOf((*TfBucketAccessKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyId", GoGetter: "AccessKeyId"},
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -149,22 +149,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailBucketAccessKey{}
+			j := jsiiProxy_TfBucketAccessKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailBucketAccessKeyConfig",
-		reflect.TypeOf((*AwsLightsailBucketAccessKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfBucketAccessKeyConfig",
+		reflect.TypeOf((*TfBucketAccessKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailBucketConfig",
-		reflect.TypeOf((*AwsLightsailBucketConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfBucketConfig",
+		reflect.TypeOf((*TfBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailBucketResourceAccess",
-		reflect.TypeOf((*AwsLightsailBucketResourceAccess)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfBucketResourceAccess",
+		reflect.TypeOf((*TfBucketResourceAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -222,18 +222,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailBucketResourceAccess{}
+			j := jsiiProxy_TfBucketResourceAccess{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailBucketResourceAccessConfig",
-		reflect.TypeOf((*AwsLightsailBucketResourceAccessConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfBucketResourceAccessConfig",
+		reflect.TypeOf((*TfBucketResourceAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailCertificate",
-		reflect.TypeOf((*AwsLightsailCertificate)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfCertificate",
+		reflect.TypeOf((*TfCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -304,18 +304,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailCertificate{}
+			j := jsiiProxy_TfCertificate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailCertificate.DomainValidationOptionsProperty",
-		reflect.TypeOf((*AwsLightsailCertificate_DomainValidationOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfCertificate.DomainValidationOptionsProperty",
+		reflect.TypeOf((*TfCertificate_DomainValidationOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailCertificate.DomainValidationOptionsPropertyList",
-		reflect.TypeOf((*AwsLightsailCertificate_DomainValidationOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfCertificate.DomainValidationOptionsPropertyList",
+		reflect.TypeOf((*TfCertificate_DomainValidationOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -329,14 +329,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailCertificate_DomainValidationOptionsPropertyList{}
+			j := jsiiProxy_TfCertificate_DomainValidationOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailCertificate.DomainValidationOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailCertificate_DomainValidationOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfCertificate.DomainValidationOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfCertificate_DomainValidationOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -365,18 +365,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailCertificate_DomainValidationOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfCertificate_DomainValidationOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailCertificateConfig",
-		reflect.TypeOf((*AwsLightsailCertificateConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfCertificateConfig",
+		reflect.TypeOf((*TfCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService",
-		reflect.TypeOf((*AwsLightsailContainerService)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService",
+		reflect.TypeOf((*TfContainerService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -466,18 +466,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService{}
+			j := jsiiProxy_TfContainerService{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.CertificateProperty",
-		reflect.TypeOf((*AwsLightsailContainerService_CertificateProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.CertificateProperty",
+		reflect.TypeOf((*TfContainerService_CertificateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.CertificatePropertyList",
-		reflect.TypeOf((*AwsLightsailContainerService_CertificatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.CertificatePropertyList",
+		reflect.TypeOf((*TfContainerService_CertificatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -492,14 +492,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService_CertificatePropertyList{}
+			j := jsiiProxy_TfContainerService_CertificatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.CertificatePropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerService_CertificatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.CertificatePropertyOutputReference",
+		reflect.TypeOf((*TfContainerService_CertificatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateName", GoGetter: "CertificateName"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateNameInput", GoGetter: "CertificateNameInput"},
@@ -528,18 +528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService_CertificatePropertyOutputReference{}
+			j := jsiiProxy_TfContainerService_CertificatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.EcrImagePullerRoleProperty",
-		reflect.TypeOf((*AwsLightsailContainerService_EcrImagePullerRoleProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.EcrImagePullerRoleProperty",
+		reflect.TypeOf((*TfContainerService_EcrImagePullerRoleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.EcrImagePullerRolePropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerService_EcrImagePullerRolePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.EcrImagePullerRolePropertyOutputReference",
+		reflect.TypeOf((*TfContainerService_EcrImagePullerRolePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -568,18 +568,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService_EcrImagePullerRolePropertyOutputReference{}
+			j := jsiiProxy_TfContainerService_EcrImagePullerRolePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.PrivateRegistryAccessProperty",
-		reflect.TypeOf((*AwsLightsailContainerService_PrivateRegistryAccessProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.PrivateRegistryAccessProperty",
+		reflect.TypeOf((*TfContainerService_PrivateRegistryAccessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.PrivateRegistryAccessPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerService_PrivateRegistryAccessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.PrivateRegistryAccessPropertyOutputReference",
+		reflect.TypeOf((*TfContainerService_PrivateRegistryAccessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -608,18 +608,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService_PrivateRegistryAccessPropertyOutputReference{}
+			j := jsiiProxy_TfContainerService_PrivateRegistryAccessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.PublicDomainNamesProperty",
-		reflect.TypeOf((*AwsLightsailContainerService_PublicDomainNamesProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.PublicDomainNamesProperty",
+		reflect.TypeOf((*TfContainerService_PublicDomainNamesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.PublicDomainNamesPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerService_PublicDomainNamesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.PublicDomainNamesPropertyOutputReference",
+		reflect.TypeOf((*TfContainerService_PublicDomainNamesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateInput", GoGetter: "CertificateInput"},
@@ -647,18 +647,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService_PublicDomainNamesPropertyOutputReference{}
+			j := jsiiProxy_TfContainerService_PublicDomainNamesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.TimeoutsProperty",
-		reflect.TypeOf((*AwsLightsailContainerService_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.TimeoutsProperty",
+		reflect.TypeOf((*TfContainerService_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerService.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerService_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerService.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfContainerService_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -692,18 +692,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerService_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfContainerService_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceConfig",
-		reflect.TypeOf((*AwsLightsailContainerServiceConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceConfig",
+		reflect.TypeOf((*TfContainerServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -773,18 +773,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerServiceDeploymentVersion{}
+			j := jsiiProxy_TfContainerServiceDeploymentVersion{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.ContainerProperty",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_ContainerProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.ContainerProperty",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_ContainerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.ContainerPropertyList",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_ContainerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.ContainerPropertyList",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_ContainerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -799,14 +799,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerServiceDeploymentVersion_ContainerPropertyList{}
+			j := jsiiProxy_TfContainerServiceDeploymentVersion_ContainerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.ContainerPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_ContainerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.ContainerPropertyOutputReference",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_ContainerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
 			_jsii_.MemberProperty{JsiiProperty: "commandInput", GoGetter: "CommandInput"},
@@ -844,18 +844,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerServiceDeploymentVersion_ContainerPropertyOutputReference{}
+			j := jsiiProxy_TfContainerServiceDeploymentVersion_ContainerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.HealthCheckProperty",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_HealthCheckProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.HealthCheckProperty",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_HealthCheckProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.HealthCheckPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_HealthCheckPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.HealthCheckPropertyOutputReference",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_HealthCheckPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -898,18 +898,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unhealthyThresholdInput", GoGetter: "UnhealthyThresholdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerServiceDeploymentVersion_HealthCheckPropertyOutputReference{}
+			j := jsiiProxy_TfContainerServiceDeploymentVersion_HealthCheckPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.PublicEndpointProperty",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_PublicEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.PublicEndpointProperty",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_PublicEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.PublicEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_PublicEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.PublicEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_PublicEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -941,18 +941,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerServiceDeploymentVersion_PublicEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfContainerServiceDeploymentVersion_PublicEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.TimeoutsProperty",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.TimeoutsProperty",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersion.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersion_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersion.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersion_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -980,18 +980,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailContainerServiceDeploymentVersion_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfContainerServiceDeploymentVersion_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailContainerServiceDeploymentVersionConfig",
-		reflect.TypeOf((*AwsLightsailContainerServiceDeploymentVersionConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfContainerServiceDeploymentVersionConfig",
+		reflect.TypeOf((*TfContainerServiceDeploymentVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDatabase",
-		reflect.TypeOf((*AwsLightsailDatabase)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDatabase",
+		reflect.TypeOf((*TfDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1099,18 +1099,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDatabase{}
+			j := jsiiProxy_TfDatabase{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDatabaseConfig",
-		reflect.TypeOf((*AwsLightsailDatabaseConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDatabaseConfig",
+		reflect.TypeOf((*TfDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDisk",
-		reflect.TypeOf((*AwsLightsailDisk)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDisk",
+		reflect.TypeOf((*TfDisk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1179,14 +1179,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDisk{}
+			j := jsiiProxy_TfDisk{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDiskAttachment",
-		reflect.TypeOf((*AwsLightsailDiskAttachment)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDiskAttachment",
+		reflect.TypeOf((*TfDiskAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1246,22 +1246,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDiskAttachment{}
+			j := jsiiProxy_TfDiskAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDiskAttachmentConfig",
-		reflect.TypeOf((*AwsLightsailDiskAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDiskAttachmentConfig",
+		reflect.TypeOf((*TfDiskAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDiskConfig",
-		reflect.TypeOf((*AwsLightsailDiskConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDiskConfig",
+		reflect.TypeOf((*TfDiskConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution",
-		reflect.TypeOf((*AwsLightsailDistribution)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution",
+		reflect.TypeOf((*TfDistribution)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1361,18 +1361,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution{}
+			j := jsiiProxy_TfDistribution{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.CacheBehaviorProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_CacheBehaviorProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.CacheBehaviorProperty",
+		reflect.TypeOf((*TfDistribution_CacheBehaviorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.CacheBehaviorPropertyList",
-		reflect.TypeOf((*AwsLightsailDistribution_CacheBehaviorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.CacheBehaviorPropertyList",
+		reflect.TypeOf((*TfDistribution_CacheBehaviorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1387,14 +1387,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_CacheBehaviorPropertyList{}
+			j := jsiiProxy_TfDistribution_CacheBehaviorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.CacheBehaviorPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_CacheBehaviorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.CacheBehaviorPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_CacheBehaviorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -1423,18 +1423,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_CacheBehaviorPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_CacheBehaviorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.CacheBehaviorSettingsProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_CacheBehaviorSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.CacheBehaviorSettingsProperty",
+		reflect.TypeOf((*TfDistribution_CacheBehaviorSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.CacheBehaviorSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_CacheBehaviorSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.CacheBehaviorSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_CacheBehaviorSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedHttpMethods", GoGetter: "AllowedHttpMethods"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedHttpMethodsInput", GoGetter: "AllowedHttpMethodsInput"},
@@ -1486,18 +1486,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_CacheBehaviorSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_CacheBehaviorSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.DefaultCacheBehaviorProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_DefaultCacheBehaviorProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.DefaultCacheBehaviorProperty",
+		reflect.TypeOf((*TfDistribution_DefaultCacheBehaviorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.DefaultCacheBehaviorPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_DefaultCacheBehaviorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.DefaultCacheBehaviorPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_DefaultCacheBehaviorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -1524,18 +1524,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_DefaultCacheBehaviorPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_DefaultCacheBehaviorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.ForwardedCookiesProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_ForwardedCookiesProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.ForwardedCookiesProperty",
+		reflect.TypeOf((*TfDistribution_ForwardedCookiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.ForwardedCookiesPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_ForwardedCookiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.ForwardedCookiesPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_ForwardedCookiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1566,18 +1566,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_ForwardedCookiesPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_ForwardedCookiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.ForwardedHeadersProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_ForwardedHeadersProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.ForwardedHeadersProperty",
+		reflect.TypeOf((*TfDistribution_ForwardedHeadersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.ForwardedHeadersPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_ForwardedHeadersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.ForwardedHeadersPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_ForwardedHeadersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1608,18 +1608,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_ForwardedHeadersPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_ForwardedHeadersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.ForwardedQueryStringsProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_ForwardedQueryStringsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.ForwardedQueryStringsProperty",
+		reflect.TypeOf((*TfDistribution_ForwardedQueryStringsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.ForwardedQueryStringsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_ForwardedQueryStringsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.ForwardedQueryStringsPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_ForwardedQueryStringsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1650,18 +1650,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_ForwardedQueryStringsPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_ForwardedQueryStringsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.LocationProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_LocationProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.LocationProperty",
+		reflect.TypeOf((*TfDistribution_LocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.LocationPropertyList",
-		reflect.TypeOf((*AwsLightsailDistribution_LocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.LocationPropertyList",
+		reflect.TypeOf((*TfDistribution_LocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1675,14 +1675,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_LocationPropertyList{}
+			j := jsiiProxy_TfDistribution_LocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.LocationPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_LocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.LocationPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_LocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1709,18 +1709,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_LocationPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_LocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.OriginProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_OriginProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.OriginProperty",
+		reflect.TypeOf((*TfDistribution_OriginProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.OriginPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_OriginPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.OriginPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_OriginPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1753,18 +1753,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_OriginPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_OriginPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.TimeoutsProperty",
-		reflect.TypeOf((*AwsLightsailDistribution_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.TimeoutsProperty",
+		reflect.TypeOf((*TfDistribution_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDistribution.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailDistribution_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistribution.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDistribution_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1798,18 +1798,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDistribution_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDistribution_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDistributionConfig",
-		reflect.TypeOf((*AwsLightsailDistributionConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDistributionConfig",
+		reflect.TypeOf((*TfDistributionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDomain",
-		reflect.TypeOf((*AwsLightsailDomain)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1866,18 +1866,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDomainConfig",
-		reflect.TypeOf((*AwsLightsailDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailDomainEntry",
-		reflect.TypeOf((*AwsLightsailDomainEntry)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDomainEntry",
+		reflect.TypeOf((*TfDomainEntry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1942,18 +1942,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailDomainEntry{}
+			j := jsiiProxy_TfDomainEntry{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailDomainEntryConfig",
-		reflect.TypeOf((*AwsLightsailDomainEntryConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfDomainEntryConfig",
+		reflect.TypeOf((*TfDomainEntryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailInstance",
-		reflect.TypeOf((*AwsLightsailInstance)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstance",
+		reflect.TypeOf((*TfInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberProperty{JsiiProperty: "addOn", GoGetter: "AddOn"},
@@ -2043,18 +2043,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailInstance{}
+			j := jsiiProxy_TfInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailInstance.AddOnProperty",
-		reflect.TypeOf((*AwsLightsailInstance_AddOnProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstance.AddOnProperty",
+		reflect.TypeOf((*TfInstance_AddOnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailInstance.AddOnPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailInstance_AddOnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstance.AddOnPropertyOutputReference",
+		reflect.TypeOf((*TfInstance_AddOnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2085,18 +2085,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailInstance_AddOnPropertyOutputReference{}
+			j := jsiiProxy_TfInstance_AddOnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailInstanceConfig",
-		reflect.TypeOf((*AwsLightsailInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstanceConfig",
+		reflect.TypeOf((*TfInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailInstancePublicPorts",
-		reflect.TypeOf((*AwsLightsailInstancePublicPorts)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstancePublicPorts",
+		reflect.TypeOf((*TfInstancePublicPorts)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2155,18 +2155,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailInstancePublicPorts{}
+			j := jsiiProxy_TfInstancePublicPorts{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailInstancePublicPorts.PortInfoProperty",
-		reflect.TypeOf((*AwsLightsailInstancePublicPorts_PortInfoProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstancePublicPorts.PortInfoProperty",
+		reflect.TypeOf((*TfInstancePublicPorts_PortInfoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailInstancePublicPorts.PortInfoPropertyList",
-		reflect.TypeOf((*AwsLightsailInstancePublicPorts_PortInfoPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstancePublicPorts.PortInfoPropertyList",
+		reflect.TypeOf((*TfInstancePublicPorts_PortInfoPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2181,14 +2181,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailInstancePublicPorts_PortInfoPropertyList{}
+			j := jsiiProxy_TfInstancePublicPorts_PortInfoPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailInstancePublicPorts.PortInfoPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailInstancePublicPorts_PortInfoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstancePublicPorts.PortInfoPropertyOutputReference",
+		reflect.TypeOf((*TfInstancePublicPorts_PortInfoPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidrListAliases", GoGetter: "CidrListAliases"},
 			_jsii_.MemberProperty{JsiiProperty: "cidrListAliasesInput", GoGetter: "CidrListAliasesInput"},
@@ -2228,18 +2228,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailInstancePublicPorts_PortInfoPropertyOutputReference{}
+			j := jsiiProxy_TfInstancePublicPorts_PortInfoPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailInstancePublicPortsConfig",
-		reflect.TypeOf((*AwsLightsailInstancePublicPortsConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfInstancePublicPortsConfig",
+		reflect.TypeOf((*TfInstancePublicPortsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailKeyPair",
-		reflect.TypeOf((*AwsLightsailKeyPair)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfKeyPair",
+		reflect.TypeOf((*TfKeyPair)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2316,18 +2316,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailKeyPair{}
+			j := jsiiProxy_TfKeyPair{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailKeyPairConfig",
-		reflect.TypeOf((*AwsLightsailKeyPairConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfKeyPairConfig",
+		reflect.TypeOf((*TfKeyPairConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLb",
-		reflect.TypeOf((*AwsLightsailLb)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLb",
+		reflect.TypeOf((*TfLb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2403,14 +2403,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLb{}
+			j := jsiiProxy_TfLb{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbAttachment",
-		reflect.TypeOf((*AwsLightsailLbAttachment)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbAttachment",
+		reflect.TypeOf((*TfLbAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2468,18 +2468,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbAttachment{}
+			j := jsiiProxy_TfLbAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbAttachmentConfig",
-		reflect.TypeOf((*AwsLightsailLbAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbAttachmentConfig",
+		reflect.TypeOf((*TfLbAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificate",
-		reflect.TypeOf((*AwsLightsailLbCertificate)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificate",
+		reflect.TypeOf((*TfLbCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2547,18 +2547,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbCertificate{}
+			j := jsiiProxy_TfLbCertificate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificate.DomainValidationRecordsProperty",
-		reflect.TypeOf((*AwsLightsailLbCertificate_DomainValidationRecordsProperty)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificate.DomainValidationRecordsProperty",
+		reflect.TypeOf((*TfLbCertificate_DomainValidationRecordsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificate.DomainValidationRecordsPropertyList",
-		reflect.TypeOf((*AwsLightsailLbCertificate_DomainValidationRecordsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificate.DomainValidationRecordsPropertyList",
+		reflect.TypeOf((*TfLbCertificate_DomainValidationRecordsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2572,14 +2572,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbCertificate_DomainValidationRecordsPropertyList{}
+			j := jsiiProxy_TfLbCertificate_DomainValidationRecordsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificate.DomainValidationRecordsPropertyOutputReference",
-		reflect.TypeOf((*AwsLightsailLbCertificate_DomainValidationRecordsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificate.DomainValidationRecordsPropertyOutputReference",
+		reflect.TypeOf((*TfLbCertificate_DomainValidationRecordsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2608,14 +2608,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbCertificate_DomainValidationRecordsPropertyOutputReference{}
+			j := jsiiProxy_TfLbCertificate_DomainValidationRecordsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificateAttachment",
-		reflect.TypeOf((*AwsLightsailLbCertificateAttachment)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificateAttachment",
+		reflect.TypeOf((*TfLbCertificateAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2673,26 +2673,26 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbCertificateAttachment{}
+			j := jsiiProxy_TfLbCertificateAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificateAttachmentConfig",
-		reflect.TypeOf((*AwsLightsailLbCertificateAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificateAttachmentConfig",
+		reflect.TypeOf((*TfLbCertificateAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbCertificateConfig",
-		reflect.TypeOf((*AwsLightsailLbCertificateConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbCertificateConfig",
+		reflect.TypeOf((*TfLbCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbConfig",
-		reflect.TypeOf((*AwsLightsailLbConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbConfig",
+		reflect.TypeOf((*TfLbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbHttpsRedirectionPolicy",
-		reflect.TypeOf((*AwsLightsailLbHttpsRedirectionPolicy)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbHttpsRedirectionPolicy",
+		reflect.TypeOf((*TfLbHttpsRedirectionPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2750,18 +2750,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbHttpsRedirectionPolicy{}
+			j := jsiiProxy_TfLbHttpsRedirectionPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbHttpsRedirectionPolicyConfig",
-		reflect.TypeOf((*AwsLightsailLbHttpsRedirectionPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbHttpsRedirectionPolicyConfig",
+		reflect.TypeOf((*TfLbHttpsRedirectionPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailLbStickinessPolicy",
-		reflect.TypeOf((*AwsLightsailLbStickinessPolicy)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbStickinessPolicy",
+		reflect.TypeOf((*TfLbStickinessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2821,18 +2821,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailLbStickinessPolicy{}
+			j := jsiiProxy_TfLbStickinessPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailLbStickinessPolicyConfig",
-		reflect.TypeOf((*AwsLightsailLbStickinessPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfLbStickinessPolicyConfig",
+		reflect.TypeOf((*TfLbStickinessPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailStaticIp",
-		reflect.TypeOf((*AwsLightsailStaticIp)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfStaticIp",
+		reflect.TypeOf((*TfStaticIp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2891,14 +2891,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailStaticIp{}
+			j := jsiiProxy_TfStaticIp{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lightsail.AwsLightsailStaticIpAttachment",
-		reflect.TypeOf((*AwsLightsailStaticIpAttachment)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfStaticIpAttachment",
+		reflect.TypeOf((*TfStaticIpAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2957,17 +2957,17 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLightsailStaticIpAttachment{}
+			j := jsiiProxy_TfStaticIpAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailStaticIpAttachmentConfig",
-		reflect.TypeOf((*AwsLightsailStaticIpAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfStaticIpAttachmentConfig",
+		reflect.TypeOf((*TfStaticIpAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lightsail.AwsLightsailStaticIpConfig",
-		reflect.TypeOf((*AwsLightsailStaticIpConfig)(nil)).Elem(),
+		"@cdktn/aws-lightsail.TfStaticIpConfig",
+		reflect.TypeOf((*TfStaticIpConfig)(nil)).Elem(),
 	)
 }

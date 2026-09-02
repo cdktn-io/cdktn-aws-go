@@ -1,0 +1,7 @@
+package awsbedrockagentcore
+
+
+// Experimental.
+type TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerProperty struct {
+}
+

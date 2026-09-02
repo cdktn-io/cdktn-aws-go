@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey",
-		reflect.TypeOf((*AwsPaymentcryptographyKey)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey",
+		reflect.TypeOf((*TfKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -89,18 +89,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKey{}
+			j := jsiiProxy_TfKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.KeyAttributesProperty",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_KeyAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.KeyAttributesProperty",
+		reflect.TypeOf((*TfKey_KeyAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.KeyAttributesPropertyList",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_KeyAttributesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.KeyAttributesPropertyList",
+		reflect.TypeOf((*TfKey_KeyAttributesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -115,14 +115,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKey_KeyAttributesPropertyList{}
+			j := jsiiProxy_TfKey_KeyAttributesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.KeyAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_KeyAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.KeyAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfKey_KeyAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -157,18 +157,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKey_KeyAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfKey_KeyAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.KeyModesOfUseProperty",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_KeyModesOfUseProperty)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.KeyModesOfUseProperty",
+		reflect.TypeOf((*TfKey_KeyModesOfUseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.KeyModesOfUsePropertyList",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_KeyModesOfUsePropertyList)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.KeyModesOfUsePropertyList",
+		reflect.TypeOf((*TfKey_KeyModesOfUsePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -183,14 +183,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKey_KeyModesOfUsePropertyList{}
+			j := jsiiProxy_TfKey_KeyModesOfUsePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.KeyModesOfUsePropertyOutputReference",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_KeyModesOfUsePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.KeyModesOfUsePropertyOutputReference",
+		reflect.TypeOf((*TfKey_KeyModesOfUsePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -242,18 +242,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapInput", GoGetter: "WrapInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKey_KeyModesOfUsePropertyOutputReference{}
+			j := jsiiProxy_TfKey_KeyModesOfUsePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.TimeoutsProperty",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.TimeoutsProperty",
+		reflect.TypeOf((*TfKey_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKey.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsPaymentcryptographyKey_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKey.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKey_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -287,14 +287,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKey_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKey_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKeyAlias",
-		reflect.TypeOf((*AwsPaymentcryptographyKeyAlias)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKeyAlias",
+		reflect.TypeOf((*TfKeyAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -351,17 +351,17 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPaymentcryptographyKeyAlias{}
+			j := jsiiProxy_TfKeyAlias{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKeyAliasConfig",
-		reflect.TypeOf((*AwsPaymentcryptographyKeyAliasConfig)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKeyAliasConfig",
+		reflect.TypeOf((*TfKeyAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-payment-cryptography-control-plane.AwsPaymentcryptographyKeyConfig",
-		reflect.TypeOf((*AwsPaymentcryptographyKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-payment-cryptography-control-plane.TfKeyConfig",
+		reflect.TypeOf((*TfKeyConfig)(nil)).Elem(),
 	)
 }

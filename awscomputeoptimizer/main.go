@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerEnrollmentStatus",
-		reflect.TypeOf((*AwsComputeoptimizerEnrollmentStatus)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfEnrollmentStatus",
+		reflect.TypeOf((*TfEnrollmentStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,18 +72,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerEnrollmentStatus{}
+			j := jsiiProxy_TfEnrollmentStatus{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerEnrollmentStatus.TimeoutsProperty",
-		reflect.TypeOf((*AwsComputeoptimizerEnrollmentStatus_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfEnrollmentStatus.TimeoutsProperty",
+		reflect.TypeOf((*TfEnrollmentStatus_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerEnrollmentStatus.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsComputeoptimizerEnrollmentStatus_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfEnrollmentStatus.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEnrollmentStatus_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -114,18 +114,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerEnrollmentStatus_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEnrollmentStatus_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerEnrollmentStatusConfig",
-		reflect.TypeOf((*AwsComputeoptimizerEnrollmentStatusConfig)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfEnrollmentStatusConfig",
+		reflect.TypeOf((*TfEnrollmentStatusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences",
+		reflect.TypeOf((*TfRecommendationPreferences)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -207,18 +207,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences{}
+			j := jsiiProxy_TfRecommendationPreferences{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.ExternalMetricsPreferenceProperty",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_ExternalMetricsPreferenceProperty)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.ExternalMetricsPreferenceProperty",
+		reflect.TypeOf((*TfRecommendationPreferences_ExternalMetricsPreferenceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.ExternalMetricsPreferencePropertyList",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_ExternalMetricsPreferencePropertyList)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.ExternalMetricsPreferencePropertyList",
+		reflect.TypeOf((*TfRecommendationPreferences_ExternalMetricsPreferencePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -233,14 +233,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_ExternalMetricsPreferencePropertyList{}
+			j := jsiiProxy_TfRecommendationPreferences_ExternalMetricsPreferencePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.ExternalMetricsPreferencePropertyOutputReference",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_ExternalMetricsPreferencePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.ExternalMetricsPreferencePropertyOutputReference",
+		reflect.TypeOf((*TfRecommendationPreferences_ExternalMetricsPreferencePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -267,18 +267,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_ExternalMetricsPreferencePropertyOutputReference{}
+			j := jsiiProxy_TfRecommendationPreferences_ExternalMetricsPreferencePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.MetricParametersProperty",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_MetricParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.MetricParametersProperty",
+		reflect.TypeOf((*TfRecommendationPreferences_MetricParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.MetricParametersPropertyList",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_MetricParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.MetricParametersPropertyList",
+		reflect.TypeOf((*TfRecommendationPreferences_MetricParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -293,14 +293,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_MetricParametersPropertyList{}
+			j := jsiiProxy_TfRecommendationPreferences_MetricParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.MetricParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_MetricParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.MetricParametersPropertyOutputReference",
+		reflect.TypeOf((*TfRecommendationPreferences_MetricParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -330,18 +330,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_MetricParametersPropertyOutputReference{}
+			j := jsiiProxy_TfRecommendationPreferences_MetricParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.PreferredResourceProperty",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_PreferredResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.PreferredResourceProperty",
+		reflect.TypeOf((*TfRecommendationPreferences_PreferredResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.PreferredResourcePropertyList",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_PreferredResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.PreferredResourcePropertyList",
+		reflect.TypeOf((*TfRecommendationPreferences_PreferredResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -356,14 +356,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_PreferredResourcePropertyList{}
+			j := jsiiProxy_TfRecommendationPreferences_PreferredResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.PreferredResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_PreferredResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.PreferredResourcePropertyOutputReference",
+		reflect.TypeOf((*TfRecommendationPreferences_PreferredResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -396,18 +396,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_PreferredResourcePropertyOutputReference{}
+			j := jsiiProxy_TfRecommendationPreferences_PreferredResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.ScopeProperty",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_ScopeProperty)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.ScopeProperty",
+		reflect.TypeOf((*TfRecommendationPreferences_ScopeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.ScopePropertyList",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_ScopePropertyList)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.ScopePropertyList",
+		reflect.TypeOf((*TfRecommendationPreferences_ScopePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -422,14 +422,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_ScopePropertyList{}
+			j := jsiiProxy_TfRecommendationPreferences_ScopePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.ScopePropertyOutputReference",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_ScopePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.ScopePropertyOutputReference",
+		reflect.TypeOf((*TfRecommendationPreferences_ScopePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -458,18 +458,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_ScopePropertyOutputReference{}
+			j := jsiiProxy_TfRecommendationPreferences_ScopePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.UtilizationPreferenceProperty",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_UtilizationPreferenceProperty)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.UtilizationPreferenceProperty",
+		reflect.TypeOf((*TfRecommendationPreferences_UtilizationPreferenceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.UtilizationPreferencePropertyList",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_UtilizationPreferencePropertyList)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.UtilizationPreferencePropertyList",
+		reflect.TypeOf((*TfRecommendationPreferences_UtilizationPreferencePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -484,14 +484,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_UtilizationPreferencePropertyList{}
+			j := jsiiProxy_TfRecommendationPreferences_UtilizationPreferencePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferences.UtilizationPreferencePropertyOutputReference",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferences_UtilizationPreferencePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferences.UtilizationPreferencePropertyOutputReference",
+		reflect.TypeOf((*TfRecommendationPreferences_UtilizationPreferencePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -522,13 +522,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComputeoptimizerRecommendationPreferences_UtilizationPreferencePropertyOutputReference{}
+			j := jsiiProxy_TfRecommendationPreferences_UtilizationPreferencePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-compute-optimizer.AwsComputeoptimizerRecommendationPreferencesConfig",
-		reflect.TypeOf((*AwsComputeoptimizerRecommendationPreferencesConfig)(nil)).Elem(),
+		"@cdktn/aws-compute-optimizer.TfRecommendationPreferencesConfig",
+		reflect.TypeOf((*TfRecommendationPreferencesConfig)(nil)).Elem(),
 	)
 }

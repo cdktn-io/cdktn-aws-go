@@ -1,0 +1,68 @@
+package awsnetworkmanager
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type DataTfCoreNetworkPolicyDocumentConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// core_network_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#core_network_configuration DataTfCoreNetworkPolicyDocument#core_network_configuration}
+	// Experimental.
+	CoreNetworkConfiguration interface{} `field:"required" json:"coreNetworkConfiguration" yaml:"coreNetworkConfiguration"`
+	// segments block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#segments DataTfCoreNetworkPolicyDocument#segments}
+	// Experimental.
+	Segments interface{} `field:"required" json:"segments" yaml:"segments"`
+	// attachment_policies block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#attachment_policies DataTfCoreNetworkPolicyDocument#attachment_policies}
+	// Experimental.
+	AttachmentPolicies interface{} `field:"optional" json:"attachmentPolicies" yaml:"attachmentPolicies"`
+	// attachment_routing_policy_rules block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#attachment_routing_policy_rules DataTfCoreNetworkPolicyDocument#attachment_routing_policy_rules}
+	// Experimental.
+	AttachmentRoutingPolicyRules interface{} `field:"optional" json:"attachmentRoutingPolicyRules" yaml:"attachmentRoutingPolicyRules"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#id DataTfCoreNetworkPolicyDocument#id}.
+	//
+	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+	// Experimental.
+	Id *string `field:"optional" json:"id" yaml:"id"`
+	// network_function_groups block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#network_function_groups DataTfCoreNetworkPolicyDocument#network_function_groups}
+	// Experimental.
+	NetworkFunctionGroups interface{} `field:"optional" json:"networkFunctionGroups" yaml:"networkFunctionGroups"`
+	// routing_policies block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#routing_policies DataTfCoreNetworkPolicyDocument#routing_policies}
+	// Experimental.
+	RoutingPolicies interface{} `field:"optional" json:"routingPolicies" yaml:"routingPolicies"`
+	// segment_actions block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#segment_actions DataTfCoreNetworkPolicyDocument#segment_actions}
+	// Experimental.
+	SegmentActions interface{} `field:"optional" json:"segmentActions" yaml:"segmentActions"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/networkmanager_core_network_policy_document#version DataTfCoreNetworkPolicyDocument#version}.
+	// Experimental.
+	Version *string `field:"optional" json:"version" yaml:"version"`
+}
+

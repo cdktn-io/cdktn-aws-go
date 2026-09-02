@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validatePutBasicAuthCredentialsParameters(value *TfConnectorProfile_BasicAuthCredentialsProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validatePutOauthCredentialsParameters(value *TfConnectorProfile_OauthCredentialsProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateSetInternalValueParameters(val *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

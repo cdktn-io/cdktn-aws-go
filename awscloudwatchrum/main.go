@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-rum.AwsRumAppMonitor",
-		reflect.TypeOf((*AwsRumAppMonitor)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfAppMonitor",
+		reflect.TypeOf((*TfAppMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -92,18 +92,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRumAppMonitor{}
+			j := jsiiProxy_TfAppMonitor{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-rum.AwsRumAppMonitor.AppMonitorConfigurationProperty",
-		reflect.TypeOf((*AwsRumAppMonitor_AppMonitorConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfAppMonitor.AppMonitorConfigurationProperty",
+		reflect.TypeOf((*TfAppMonitor_AppMonitorConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-rum.AwsRumAppMonitor.AppMonitorConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsRumAppMonitor_AppMonitorConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfAppMonitor.AppMonitorConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAppMonitor_AppMonitorConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowCookies", GoGetter: "AllowCookies"},
 			_jsii_.MemberProperty{JsiiProperty: "allowCookiesInput", GoGetter: "AllowCookiesInput"},
@@ -155,18 +155,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRumAppMonitor_AppMonitorConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAppMonitor_AppMonitorConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-rum.AwsRumAppMonitor.CustomEventsProperty",
-		reflect.TypeOf((*AwsRumAppMonitor_CustomEventsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfAppMonitor.CustomEventsProperty",
+		reflect.TypeOf((*TfAppMonitor_CustomEventsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-rum.AwsRumAppMonitor.CustomEventsPropertyOutputReference",
-		reflect.TypeOf((*AwsRumAppMonitor_CustomEventsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfAppMonitor.CustomEventsPropertyOutputReference",
+		reflect.TypeOf((*TfAppMonitor_CustomEventsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -194,18 +194,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRumAppMonitor_CustomEventsPropertyOutputReference{}
+			j := jsiiProxy_TfAppMonitor_CustomEventsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-rum.AwsRumAppMonitorConfig",
-		reflect.TypeOf((*AwsRumAppMonitorConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfAppMonitorConfig",
+		reflect.TypeOf((*TfAppMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-rum.AwsRumMetricsDestination",
-		reflect.TypeOf((*AwsRumMetricsDestination)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfMetricsDestination",
+		reflect.TypeOf((*TfMetricsDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -269,13 +269,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRumMetricsDestination{}
+			j := jsiiProxy_TfMetricsDestination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-rum.AwsRumMetricsDestinationConfig",
-		reflect.TypeOf((*AwsRumMetricsDestinationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-rum.TfMetricsDestinationConfig",
+		reflect.TypeOf((*TfMetricsDestinationConfig)(nil)).Elem(),
 	)
 }

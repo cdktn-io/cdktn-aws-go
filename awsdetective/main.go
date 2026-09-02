@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-detective.AwsDetectiveGraph",
-		reflect.TypeOf((*AwsDetectiveGraph)(nil)).Elem(),
+		"@cdktn/aws-detective.TfGraph",
+		reflect.TypeOf((*TfGraph)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,18 +72,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDetectiveGraph{}
+			j := jsiiProxy_TfGraph{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-detective.AwsDetectiveGraphConfig",
-		reflect.TypeOf((*AwsDetectiveGraphConfig)(nil)).Elem(),
+		"@cdktn/aws-detective.TfGraphConfig",
+		reflect.TypeOf((*TfGraphConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-detective.AwsDetectiveInvitationAccepter",
-		reflect.TypeOf((*AwsDetectiveInvitationAccepter)(nil)).Elem(),
+		"@cdktn/aws-detective.TfInvitationAccepter",
+		reflect.TypeOf((*TfInvitationAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -139,18 +139,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDetectiveInvitationAccepter{}
+			j := jsiiProxy_TfInvitationAccepter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-detective.AwsDetectiveInvitationAccepterConfig",
-		reflect.TypeOf((*AwsDetectiveInvitationAccepterConfig)(nil)).Elem(),
+		"@cdktn/aws-detective.TfInvitationAccepterConfig",
+		reflect.TypeOf((*TfInvitationAccepterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-detective.AwsDetectiveMember",
-		reflect.TypeOf((*AwsDetectiveMember)(nil)).Elem(),
+		"@cdktn/aws-detective.TfMember",
+		reflect.TypeOf((*TfMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -222,18 +222,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDetectiveMember{}
+			j := jsiiProxy_TfMember{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-detective.AwsDetectiveMemberConfig",
-		reflect.TypeOf((*AwsDetectiveMemberConfig)(nil)).Elem(),
+		"@cdktn/aws-detective.TfMemberConfig",
+		reflect.TypeOf((*TfMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-detective.AwsDetectiveOrganizationAdminAccount",
-		reflect.TypeOf((*AwsDetectiveOrganizationAdminAccount)(nil)).Elem(),
+		"@cdktn/aws-detective.TfOrganizationAdminAccount",
+		reflect.TypeOf((*TfOrganizationAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -289,18 +289,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDetectiveOrganizationAdminAccount{}
+			j := jsiiProxy_TfOrganizationAdminAccount{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-detective.AwsDetectiveOrganizationAdminAccountConfig",
-		reflect.TypeOf((*AwsDetectiveOrganizationAdminAccountConfig)(nil)).Elem(),
+		"@cdktn/aws-detective.TfOrganizationAdminAccountConfig",
+		reflect.TypeOf((*TfOrganizationAdminAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-detective.AwsDetectiveOrganizationConfiguration",
-		reflect.TypeOf((*AwsDetectiveOrganizationConfiguration)(nil)).Elem(),
+		"@cdktn/aws-detective.TfOrganizationConfiguration",
+		reflect.TypeOf((*TfOrganizationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -358,13 +358,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDetectiveOrganizationConfiguration{}
+			j := jsiiProxy_TfOrganizationConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-detective.AwsDetectiveOrganizationConfigurationConfig",
-		reflect.TypeOf((*AwsDetectiveOrganizationConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-detective.TfOrganizationConfigurationConfig",
+		reflect.TypeOf((*TfOrganizationConfigurationConfig)(nil)).Elem(),
 	)
 }

@@ -1,7 +1,0 @@
-package awsbedrockagentcore
-
-
-// Experimental.
-type AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerProperty struct {
-}
-

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetAuthCodeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetInternalValueParameters(val *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetRedirectUriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

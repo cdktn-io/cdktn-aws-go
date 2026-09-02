@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime",
+		reflect.TypeOf((*TfAgentRuntime)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -111,18 +111,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityDetails", GoGetter: "WorkloadIdentityDetails"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime{}
+			j := jsiiProxy_TfAgentRuntime{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AgentRuntimeArtifactProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AgentRuntimeArtifactProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AgentRuntimeArtifactProperty",
+		reflect.TypeOf((*TfAgentRuntime_AgentRuntimeArtifactProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AgentRuntimeArtifactPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AgentRuntimeArtifactPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AgentRuntimeArtifactPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AgentRuntimeArtifactPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -137,14 +137,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AgentRuntimeArtifactPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AgentRuntimeArtifactPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AgentRuntimeArtifactPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AgentRuntimeArtifactPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AgentRuntimeArtifactPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AgentRuntimeArtifactPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeConfiguration", GoGetter: "CodeConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "codeConfigurationInput", GoGetter: "CodeConfigurationInput"},
@@ -177,18 +177,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AgentRuntimeArtifactPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AgentRuntimeArtifactPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AllowedWorkloadConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AllowedWorkloadConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AllowedWorkloadConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AllowedWorkloadConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -203,14 +203,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AllowedWorkloadConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AllowedWorkloadConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AllowedWorkloadConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AllowedWorkloadConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -242,18 +242,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentitiesInput", GoGetter: "WorkloadIdentitiesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AllowedWorkloadConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AllowedWorkloadConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -268,14 +268,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -315,18 +315,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -341,14 +341,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -388,18 +388,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -414,14 +414,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -454,18 +454,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -480,14 +480,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -514,18 +514,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -540,14 +540,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -580,18 +580,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -606,14 +606,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -640,18 +640,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -666,14 +666,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -702,18 +702,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizingClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizingClaimMatchValueProperty",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizingClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizingClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -728,14 +728,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizingClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizingClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.AuthorizingClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.AuthorizingClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperator", GoGetter: "ClaimMatchOperator"},
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperatorInput", GoGetter: "ClaimMatchOperatorInput"},
@@ -766,18 +766,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_AuthorizingClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_AuthorizingClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ClaimMatchValueProperty",
+		reflect.TypeOf((*TfAgentRuntime_ClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_ClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -792,14 +792,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_ClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_ClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -830,18 +830,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_ClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_ClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CodeConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CodeConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CodeConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_CodeConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CodeConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CodeConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CodeConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_CodeConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -856,14 +856,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CodeConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_CodeConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CodeConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CodeConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CodeConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_CodeConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
 			_jsii_.MemberProperty{JsiiProperty: "codeInput", GoGetter: "CodeInput"},
@@ -896,18 +896,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CodeConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_CodeConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CodeProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CodeProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CodeProperty",
+		reflect.TypeOf((*TfAgentRuntime_CodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CodePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CodePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CodePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_CodePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -922,14 +922,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CodePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_CodePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CodePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CodePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_CodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -958,18 +958,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CodePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_CodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ContainerConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ContainerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ContainerConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_ContainerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ContainerConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ContainerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ContainerConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_ContainerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -984,14 +984,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_ContainerConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_ContainerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ContainerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ContainerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ContainerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_ContainerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1018,18 +1018,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_ContainerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_ContainerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CustomClaimProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CustomClaimProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CustomClaimProperty",
+		reflect.TypeOf((*TfAgentRuntime_CustomClaimProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CustomClaimPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CustomClaimPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CustomClaimPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_CustomClaimPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1044,14 +1044,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CustomClaimPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_CustomClaimPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CustomClaimPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CustomClaimPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CustomClaimPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_CustomClaimPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValue", GoGetter: "AuthorizingClaimMatchValue"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValueInput", GoGetter: "AuthorizingClaimMatchValueInput"},
@@ -1084,18 +1084,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CustomClaimPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_CustomClaimPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CustomJwtAuthorizerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CustomJwtAuthorizerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CustomJwtAuthorizerProperty",
+		reflect.TypeOf((*TfAgentRuntime_CustomJwtAuthorizerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CustomJwtAuthorizerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CustomJwtAuthorizerPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1110,14 +1110,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CustomJwtAuthorizerPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_CustomJwtAuthorizerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.CustomJwtAuthorizerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.CustomJwtAuthorizerPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudience", GoGetter: "AllowedAudience"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudienceInput", GoGetter: "AllowedAudienceInput"},
@@ -1169,18 +1169,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_CustomJwtAuthorizerPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_CustomJwtAuthorizerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.EfsAccessPointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_EfsAccessPointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.EfsAccessPointProperty",
+		reflect.TypeOf((*TfAgentRuntime_EfsAccessPointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.EfsAccessPointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_EfsAccessPointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.EfsAccessPointPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_EfsAccessPointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1195,14 +1195,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_EfsAccessPointPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_EfsAccessPointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.EfsAccessPointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_EfsAccessPointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.EfsAccessPointPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_EfsAccessPointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArnInput", GoGetter: "AccessPointArnInput"},
@@ -1231,18 +1231,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_EfsAccessPointPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_EfsAccessPointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.FilesystemConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_FilesystemConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.FilesystemConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_FilesystemConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.FilesystemConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_FilesystemConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.FilesystemConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_FilesystemConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1257,14 +1257,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_FilesystemConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_FilesystemConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.FilesystemConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_FilesystemConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.FilesystemConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_FilesystemConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1301,18 +1301,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_FilesystemConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_FilesystemConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.HostingEnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_HostingEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.HostingEnvironmentProperty",
+		reflect.TypeOf((*TfAgentRuntime_HostingEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.HostingEnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_HostingEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.HostingEnvironmentPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_HostingEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1327,14 +1327,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_HostingEnvironmentPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_HostingEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.HostingEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.HostingEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -1361,18 +1361,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_HostingEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_HostingEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.LifecycleConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_LifecycleConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.LifecycleConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_LifecycleConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.LifecycleConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_LifecycleConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.LifecycleConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_LifecycleConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1387,14 +1387,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_LifecycleConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_LifecycleConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.LifecycleConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_LifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.LifecycleConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_LifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1425,18 +1425,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_LifecycleConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_LifecycleConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.NetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_NetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.NetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_NetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1451,14 +1451,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_NetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_NetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1489,18 +1489,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.NetworkModeConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_NetworkModeConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.NetworkModeConfigProperty",
+		reflect.TypeOf((*TfAgentRuntime_NetworkModeConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.NetworkModeConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_NetworkModeConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.NetworkModeConfigPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_NetworkModeConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1515,14 +1515,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_NetworkModeConfigPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_NetworkModeConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.NetworkModeConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_NetworkModeConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.NetworkModeConfigPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_NetworkModeConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1552,18 +1552,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_NetworkModeConfigPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_NetworkModeConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.PrivateEndpointOverridesProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_PrivateEndpointOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.PrivateEndpointOverridesProperty",
+		reflect.TypeOf((*TfAgentRuntime_PrivateEndpointOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.PrivateEndpointOverridesPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.PrivateEndpointOverridesPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1578,14 +1578,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_PrivateEndpointOverridesPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_PrivateEndpointOverridesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.PrivateEndpointOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.PrivateEndpointOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1616,18 +1616,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_PrivateEndpointOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_PrivateEndpointOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ProtocolConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ProtocolConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ProtocolConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_ProtocolConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ProtocolConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ProtocolConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ProtocolConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_ProtocolConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1642,14 +1642,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_ProtocolConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_ProtocolConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.ProtocolConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_ProtocolConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.ProtocolConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_ProtocolConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1677,18 +1677,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_ProtocolConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_ProtocolConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.RequestHeaderConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_RequestHeaderConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.RequestHeaderConfigurationProperty",
+		reflect.TypeOf((*TfAgentRuntime_RequestHeaderConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.RequestHeaderConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_RequestHeaderConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.RequestHeaderConfigurationPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_RequestHeaderConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1703,14 +1703,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_RequestHeaderConfigurationPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_RequestHeaderConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.RequestHeaderConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_RequestHeaderConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.RequestHeaderConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_RequestHeaderConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1738,18 +1738,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_RequestHeaderConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_RequestHeaderConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.S3FilesAccessPointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_S3FilesAccessPointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.S3FilesAccessPointProperty",
+		reflect.TypeOf((*TfAgentRuntime_S3FilesAccessPointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.S3FilesAccessPointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_S3FilesAccessPointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.S3FilesAccessPointPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_S3FilesAccessPointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1764,14 +1764,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_S3FilesAccessPointPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_S3FilesAccessPointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.S3FilesAccessPointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_S3FilesAccessPointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.S3FilesAccessPointPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_S3FilesAccessPointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArnInput", GoGetter: "AccessPointArnInput"},
@@ -1800,18 +1800,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_S3FilesAccessPointPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_S3FilesAccessPointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.S3Property",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_S3Property)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.S3Property",
+		reflect.TypeOf((*TfAgentRuntime_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.S3PropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_S3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.S3PropertyList",
+		reflect.TypeOf((*TfAgentRuntime_S3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1826,14 +1826,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_S3PropertyList{}
+			j := jsiiProxy_TfAgentRuntime_S3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.S3PropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -1865,18 +1865,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionIdInput", GoGetter: "VersionIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_S3PropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.SessionStorageProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_SessionStorageProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.SessionStorageProperty",
+		reflect.TypeOf((*TfAgentRuntime_SessionStorageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.SessionStoragePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_SessionStoragePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.SessionStoragePropertyList",
+		reflect.TypeOf((*TfAgentRuntime_SessionStoragePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1891,14 +1891,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_SessionStoragePropertyList{}
+			j := jsiiProxy_TfAgentRuntime_SessionStoragePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.SessionStoragePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_SessionStoragePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.SessionStoragePropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_SessionStoragePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1925,18 +1925,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_SessionStoragePropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_SessionStoragePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.TimeoutsProperty",
+		reflect.TypeOf((*TfAgentRuntime_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1970,18 +1970,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.WorkloadIdentityDetailsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_WorkloadIdentityDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.WorkloadIdentityDetailsProperty",
+		reflect.TypeOf((*TfAgentRuntime_WorkloadIdentityDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.WorkloadIdentityDetailsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_WorkloadIdentityDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.WorkloadIdentityDetailsPropertyList",
+		reflect.TypeOf((*TfAgentRuntime_WorkloadIdentityDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1995,14 +1995,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_WorkloadIdentityDetailsPropertyList{}
+			j := jsiiProxy_TfAgentRuntime_WorkloadIdentityDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntime.WorkloadIdentityDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntime_WorkloadIdentityDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntime.WorkloadIdentityDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntime_WorkloadIdentityDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2028,18 +2028,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityArn", GoGetter: "WorkloadIdentityArn"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntime_WorkloadIdentityDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntime_WorkloadIdentityDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntimeConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntimeConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntimeConfig",
+		reflect.TypeOf((*TfAgentRuntimeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntimeEndpoint",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntimeEndpoint)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntimeEndpoint",
+		reflect.TypeOf((*TfAgentRuntimeEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2110,18 +2110,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntimeEndpoint{}
+			j := jsiiProxy_TfAgentRuntimeEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntimeEndpoint.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntimeEndpoint_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntimeEndpoint.TimeoutsProperty",
+		reflect.TypeOf((*TfAgentRuntimeEndpoint_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntimeEndpoint.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntimeEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntimeEndpoint.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAgentRuntimeEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2155,18 +2155,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreAgentRuntimeEndpoint_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAgentRuntimeEndpoint_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreAgentRuntimeEndpointConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreAgentRuntimeEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfAgentRuntimeEndpointConfig",
+		reflect.TypeOf((*TfAgentRuntimeEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreApiKeyCredentialProvider",
-		reflect.TypeOf((*AwsBedrockagentcoreApiKeyCredentialProvider)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfApiKeyCredentialProvider",
+		reflect.TypeOf((*TfApiKeyCredentialProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2234,18 +2234,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreApiKeyCredentialProvider{}
+			j := jsiiProxy_TfApiKeyCredentialProvider{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreApiKeyCredentialProvider.ApiKeySecretArnProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreApiKeyCredentialProvider_ApiKeySecretArnProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfApiKeyCredentialProvider.ApiKeySecretArnProperty",
+		reflect.TypeOf((*TfApiKeyCredentialProvider_ApiKeySecretArnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreApiKeyCredentialProvider.ApiKeySecretArnPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreApiKeyCredentialProvider_ApiKeySecretArnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfApiKeyCredentialProvider.ApiKeySecretArnPropertyList",
+		reflect.TypeOf((*TfApiKeyCredentialProvider_ApiKeySecretArnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2259,14 +2259,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreApiKeyCredentialProvider_ApiKeySecretArnPropertyList{}
+			j := jsiiProxy_TfApiKeyCredentialProvider_ApiKeySecretArnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreApiKeyCredentialProvider.ApiKeySecretArnPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreApiKeyCredentialProvider_ApiKeySecretArnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfApiKeyCredentialProvider.ApiKeySecretArnPropertyOutputReference",
+		reflect.TypeOf((*TfApiKeyCredentialProvider_ApiKeySecretArnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2292,18 +2292,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreApiKeyCredentialProvider_ApiKeySecretArnPropertyOutputReference{}
+			j := jsiiProxy_TfApiKeyCredentialProvider_ApiKeySecretArnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreApiKeyCredentialProviderConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreApiKeyCredentialProviderConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfApiKeyCredentialProviderConfig",
+		reflect.TypeOf((*TfApiKeyCredentialProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser",
+		reflect.TypeOf((*TfBrowser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2392,18 +2392,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser{}
+			j := jsiiProxy_TfBrowser{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.BrowserSigningProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_BrowserSigningProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.BrowserSigningProperty",
+		reflect.TypeOf((*TfBrowser_BrowserSigningProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.BrowserSigningPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_BrowserSigningPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.BrowserSigningPropertyList",
+		reflect.TypeOf((*TfBrowser_BrowserSigningPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2418,14 +2418,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_BrowserSigningPropertyList{}
+			j := jsiiProxy_TfBrowser_BrowserSigningPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.BrowserSigningPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_BrowserSigningPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.BrowserSigningPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_BrowserSigningPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2452,18 +2452,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_BrowserSigningPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_BrowserSigningPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.CertificateLocationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_CertificateLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.CertificateLocationProperty",
+		reflect.TypeOf((*TfBrowser_CertificateLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.CertificateLocationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_CertificateLocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.CertificateLocationPropertyList",
+		reflect.TypeOf((*TfBrowser_CertificateLocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2478,14 +2478,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_CertificateLocationPropertyList{}
+			j := jsiiProxy_TfBrowser_CertificateLocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.CertificateLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_CertificateLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.CertificateLocationPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_CertificateLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2514,18 +2514,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_CertificateLocationPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_CertificateLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.CertificateProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_CertificateProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.CertificateProperty",
+		reflect.TypeOf((*TfBrowser_CertificateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.CertificatePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_CertificatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.CertificatePropertyList",
+		reflect.TypeOf((*TfBrowser_CertificatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2540,14 +2540,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_CertificatePropertyList{}
+			j := jsiiProxy_TfBrowser_CertificatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.CertificatePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_CertificatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.CertificatePropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_CertificatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2576,18 +2576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_CertificatePropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_CertificatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.EnterprisePolicyLocationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_EnterprisePolicyLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.EnterprisePolicyLocationProperty",
+		reflect.TypeOf((*TfBrowser_EnterprisePolicyLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.EnterprisePolicyLocationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_EnterprisePolicyLocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.EnterprisePolicyLocationPropertyList",
+		reflect.TypeOf((*TfBrowser_EnterprisePolicyLocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2602,14 +2602,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_EnterprisePolicyLocationPropertyList{}
+			j := jsiiProxy_TfBrowser_EnterprisePolicyLocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.EnterprisePolicyLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_EnterprisePolicyLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.EnterprisePolicyLocationPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_EnterprisePolicyLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2638,18 +2638,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_EnterprisePolicyLocationPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_EnterprisePolicyLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.EnterprisePolicyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_EnterprisePolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.EnterprisePolicyProperty",
+		reflect.TypeOf((*TfBrowser_EnterprisePolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.EnterprisePolicyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_EnterprisePolicyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.EnterprisePolicyPropertyList",
+		reflect.TypeOf((*TfBrowser_EnterprisePolicyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2664,14 +2664,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_EnterprisePolicyPropertyList{}
+			j := jsiiProxy_TfBrowser_EnterprisePolicyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.EnterprisePolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_EnterprisePolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.EnterprisePolicyPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_EnterprisePolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2703,18 +2703,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_EnterprisePolicyPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_EnterprisePolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfBrowser_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.NetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_NetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.NetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfBrowser_NetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2729,14 +2729,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_NetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfBrowser_NetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2767,18 +2767,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.RecordingProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_RecordingProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.RecordingProperty",
+		reflect.TypeOf((*TfBrowser_RecordingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.RecordingPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_RecordingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.RecordingPropertyList",
+		reflect.TypeOf((*TfBrowser_RecordingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2793,14 +2793,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_RecordingPropertyList{}
+			j := jsiiProxy_TfBrowser_RecordingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.RecordingPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_RecordingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.RecordingPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_RecordingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2832,18 +2832,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_RecordingPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_RecordingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.S3LocationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_S3LocationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.S3LocationProperty",
+		reflect.TypeOf((*TfBrowser_S3LocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.S3LocationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_S3LocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.S3LocationPropertyList",
+		reflect.TypeOf((*TfBrowser_S3LocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2858,14 +2858,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_S3LocationPropertyList{}
+			j := jsiiProxy_TfBrowser_S3LocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.S3LocationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_S3LocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.S3LocationPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_S3LocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -2894,18 +2894,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_S3LocationPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_S3LocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.S3Property",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_S3Property)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.S3Property",
+		reflect.TypeOf((*TfBrowser_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.S3PropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_S3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.S3PropertyList",
+		reflect.TypeOf((*TfBrowser_S3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2920,14 +2920,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_S3PropertyList{}
+			j := jsiiProxy_TfBrowser_S3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.S3PropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -2959,18 +2959,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionIdInput", GoGetter: "VersionIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_S3PropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.SecretsManagerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_SecretsManagerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.SecretsManagerProperty",
+		reflect.TypeOf((*TfBrowser_SecretsManagerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.SecretsManagerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_SecretsManagerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.SecretsManagerPropertyList",
+		reflect.TypeOf((*TfBrowser_SecretsManagerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2985,14 +2985,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_SecretsManagerPropertyList{}
+			j := jsiiProxy_TfBrowser_SecretsManagerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.SecretsManagerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_SecretsManagerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.SecretsManagerPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_SecretsManagerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3019,18 +3019,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_SecretsManagerPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_SecretsManagerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.TimeoutsProperty",
+		reflect.TypeOf((*TfBrowser_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3061,18 +3061,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.VpcConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.VpcConfigProperty",
+		reflect.TypeOf((*TfBrowser_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.VpcConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_VpcConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.VpcConfigPropertyList",
+		reflect.TypeOf((*TfBrowser_VpcConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3087,14 +3087,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_VpcConfigPropertyList{}
+			j := jsiiProxy_TfBrowser_VpcConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowser.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowser_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowser.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfBrowser_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3123,18 +3123,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowser_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfBrowser_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowserConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowserConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowserConfig",
+		reflect.TypeOf((*TfBrowserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowserProfile",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowserProfile)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowserProfile",
+		reflect.TypeOf((*TfBrowserProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3200,18 +3200,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowserProfile{}
+			j := jsiiProxy_TfBrowserProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowserProfile.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowserProfile_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowserProfile.TimeoutsProperty",
+		reflect.TypeOf((*TfBrowserProfile_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowserProfile.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowserProfile_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowserProfile.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfBrowserProfile_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3242,18 +3242,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreBrowserProfile_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfBrowserProfile_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreBrowserProfileConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreBrowserProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfBrowserProfileConfig",
+		reflect.TypeOf((*TfBrowserProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter",
+		reflect.TypeOf((*TfCodeInterpreter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3330,18 +3330,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter{}
+			j := jsiiProxy_TfCodeInterpreter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.CertificateProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_CertificateProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.CertificateProperty",
+		reflect.TypeOf((*TfCodeInterpreter_CertificateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.CertificatePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_CertificatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.CertificatePropertyList",
+		reflect.TypeOf((*TfCodeInterpreter_CertificatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3356,14 +3356,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_CertificatePropertyList{}
+			j := jsiiProxy_TfCodeInterpreter_CertificatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.CertificatePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_CertificatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.CertificatePropertyOutputReference",
+		reflect.TypeOf((*TfCodeInterpreter_CertificatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3392,18 +3392,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_CertificatePropertyOutputReference{}
+			j := jsiiProxy_TfCodeInterpreter_CertificatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.LocationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_LocationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.LocationProperty",
+		reflect.TypeOf((*TfCodeInterpreter_LocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.LocationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_LocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.LocationPropertyList",
+		reflect.TypeOf((*TfCodeInterpreter_LocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3418,14 +3418,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_LocationPropertyList{}
+			j := jsiiProxy_TfCodeInterpreter_LocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.LocationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_LocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.LocationPropertyOutputReference",
+		reflect.TypeOf((*TfCodeInterpreter_LocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3454,18 +3454,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_LocationPropertyOutputReference{}
+			j := jsiiProxy_TfCodeInterpreter_LocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfCodeInterpreter_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.NetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_NetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.NetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfCodeInterpreter_NetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3480,14 +3480,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_NetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfCodeInterpreter_NetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCodeInterpreter_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3518,18 +3518,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCodeInterpreter_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.SecretsManagerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_SecretsManagerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.SecretsManagerProperty",
+		reflect.TypeOf((*TfCodeInterpreter_SecretsManagerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.SecretsManagerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_SecretsManagerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.SecretsManagerPropertyList",
+		reflect.TypeOf((*TfCodeInterpreter_SecretsManagerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3544,14 +3544,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_SecretsManagerPropertyList{}
+			j := jsiiProxy_TfCodeInterpreter_SecretsManagerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.SecretsManagerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_SecretsManagerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.SecretsManagerPropertyOutputReference",
+		reflect.TypeOf((*TfCodeInterpreter_SecretsManagerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3578,18 +3578,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_SecretsManagerPropertyOutputReference{}
+			j := jsiiProxy_TfCodeInterpreter_SecretsManagerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.TimeoutsProperty",
+		reflect.TypeOf((*TfCodeInterpreter_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCodeInterpreter_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3620,18 +3620,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCodeInterpreter_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.VpcConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.VpcConfigProperty",
+		reflect.TypeOf((*TfCodeInterpreter_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.VpcConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_VpcConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.VpcConfigPropertyList",
+		reflect.TypeOf((*TfCodeInterpreter_VpcConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3646,14 +3646,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_VpcConfigPropertyList{}
+			j := jsiiProxy_TfCodeInterpreter_VpcConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreter.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreter_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreter.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCodeInterpreter_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3682,18 +3682,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreCodeInterpreter_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCodeInterpreter_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreCodeInterpreterConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreCodeInterpreterConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfCodeInterpreterConfig",
+		reflect.TypeOf((*TfCodeInterpreterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator",
+		reflect.TypeOf((*TfEvaluator)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3771,18 +3771,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator{}
+			j := jsiiProxy_TfEvaluator{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.BedrockEvaluatorModelConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_BedrockEvaluatorModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.BedrockEvaluatorModelConfigProperty",
+		reflect.TypeOf((*TfEvaluator_BedrockEvaluatorModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.BedrockEvaluatorModelConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_BedrockEvaluatorModelConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.BedrockEvaluatorModelConfigPropertyList",
+		reflect.TypeOf((*TfEvaluator_BedrockEvaluatorModelConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3797,14 +3797,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_BedrockEvaluatorModelConfigPropertyList{}
+			j := jsiiProxy_TfEvaluator_BedrockEvaluatorModelConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.BedrockEvaluatorModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_BedrockEvaluatorModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.BedrockEvaluatorModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_BedrockEvaluatorModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelRequestFields", GoGetter: "AdditionalModelRequestFields"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalModelRequestFieldsInput", GoGetter: "AdditionalModelRequestFieldsInput"},
@@ -3838,18 +3838,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_BedrockEvaluatorModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_BedrockEvaluatorModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.CategoricalProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_CategoricalProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.CategoricalProperty",
+		reflect.TypeOf((*TfEvaluator_CategoricalProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.CategoricalPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_CategoricalPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.CategoricalPropertyList",
+		reflect.TypeOf((*TfEvaluator_CategoricalPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3864,14 +3864,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_CategoricalPropertyList{}
+			j := jsiiProxy_TfEvaluator_CategoricalPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.CategoricalPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_CategoricalPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.CategoricalPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_CategoricalPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3900,18 +3900,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_CategoricalPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_CategoricalPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.CodeBasedProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_CodeBasedProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.CodeBasedProperty",
+		reflect.TypeOf((*TfEvaluator_CodeBasedProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.CodeBasedPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_CodeBasedPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.CodeBasedPropertyList",
+		reflect.TypeOf((*TfEvaluator_CodeBasedPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3926,14 +3926,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_CodeBasedPropertyList{}
+			j := jsiiProxy_TfEvaluator_CodeBasedPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.CodeBasedPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_CodeBasedPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.CodeBasedPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_CodeBasedPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3962,18 +3962,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_CodeBasedPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_CodeBasedPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.EvaluatorConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_EvaluatorConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.EvaluatorConfigProperty",
+		reflect.TypeOf((*TfEvaluator_EvaluatorConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.EvaluatorConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_EvaluatorConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.EvaluatorConfigPropertyList",
+		reflect.TypeOf((*TfEvaluator_EvaluatorConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3988,14 +3988,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_EvaluatorConfigPropertyList{}
+			j := jsiiProxy_TfEvaluator_EvaluatorConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.EvaluatorConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_EvaluatorConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.EvaluatorConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_EvaluatorConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeBased", GoGetter: "CodeBased"},
 			_jsii_.MemberProperty{JsiiProperty: "codeBasedInput", GoGetter: "CodeBasedInput"},
@@ -4028,18 +4028,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_EvaluatorConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_EvaluatorConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.InferenceConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_InferenceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.InferenceConfigProperty",
+		reflect.TypeOf((*TfEvaluator_InferenceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.InferenceConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_InferenceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.InferenceConfigPropertyList",
+		reflect.TypeOf((*TfEvaluator_InferenceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4054,14 +4054,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_InferenceConfigPropertyList{}
+			j := jsiiProxy_TfEvaluator_InferenceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.InferenceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_InferenceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.InferenceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_InferenceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4098,18 +4098,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_InferenceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_InferenceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.LambdaConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_LambdaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.LambdaConfigProperty",
+		reflect.TypeOf((*TfEvaluator_LambdaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.LambdaConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_LambdaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.LambdaConfigPropertyList",
+		reflect.TypeOf((*TfEvaluator_LambdaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4124,14 +4124,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_LambdaConfigPropertyList{}
+			j := jsiiProxy_TfEvaluator_LambdaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.LambdaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_LambdaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.LambdaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_LambdaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4161,18 +4161,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_LambdaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_LambdaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.LlmAsAJudgeProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_LlmAsAJudgeProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.LlmAsAJudgeProperty",
+		reflect.TypeOf((*TfEvaluator_LlmAsAJudgeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.LlmAsAJudgePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_LlmAsAJudgePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.LlmAsAJudgePropertyList",
+		reflect.TypeOf((*TfEvaluator_LlmAsAJudgePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4187,14 +4187,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_LlmAsAJudgePropertyList{}
+			j := jsiiProxy_TfEvaluator_LlmAsAJudgePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.LlmAsAJudgePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_LlmAsAJudgePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.LlmAsAJudgePropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_LlmAsAJudgePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4229,18 +4229,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_LlmAsAJudgePropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_LlmAsAJudgePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.ModelConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_ModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.ModelConfigProperty",
+		reflect.TypeOf((*TfEvaluator_ModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.ModelConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_ModelConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.ModelConfigPropertyList",
+		reflect.TypeOf((*TfEvaluator_ModelConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4255,14 +4255,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_ModelConfigPropertyList{}
+			j := jsiiProxy_TfEvaluator_ModelConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.ModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_ModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.ModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_ModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bedrockEvaluatorModelConfig", GoGetter: "BedrockEvaluatorModelConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "bedrockEvaluatorModelConfigInput", GoGetter: "BedrockEvaluatorModelConfigInput"},
@@ -4291,18 +4291,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_ModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_ModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.NumericalProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_NumericalProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.NumericalProperty",
+		reflect.TypeOf((*TfEvaluator_NumericalProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.NumericalPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_NumericalPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.NumericalPropertyList",
+		reflect.TypeOf((*TfEvaluator_NumericalPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4317,14 +4317,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_NumericalPropertyList{}
+			j := jsiiProxy_TfEvaluator_NumericalPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.NumericalPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_NumericalPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.NumericalPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_NumericalPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4355,18 +4355,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_NumericalPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_NumericalPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.RatingScaleProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_RatingScaleProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.RatingScaleProperty",
+		reflect.TypeOf((*TfEvaluator_RatingScaleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.RatingScalePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_RatingScalePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.RatingScalePropertyList",
+		reflect.TypeOf((*TfEvaluator_RatingScalePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4381,14 +4381,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_RatingScalePropertyList{}
+			j := jsiiProxy_TfEvaluator_RatingScalePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.RatingScalePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_RatingScalePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.RatingScalePropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_RatingScalePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "categorical", GoGetter: "Categorical"},
 			_jsii_.MemberProperty{JsiiProperty: "categoricalInput", GoGetter: "CategoricalInput"},
@@ -4421,18 +4421,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_RatingScalePropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_RatingScalePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.TimeoutsProperty",
+		reflect.TypeOf((*TfEvaluator_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluator.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluator_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluator.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEvaluator_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4466,18 +4466,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreEvaluator_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEvaluator_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreEvaluatorConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreEvaluatorConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfEvaluatorConfig",
+		reflect.TypeOf((*TfEvaluatorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway",
+		reflect.TypeOf((*TfGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -4574,18 +4574,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityDetails", GoGetter: "WorkloadIdentityDetails"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway{}
+			j := jsiiProxy_TfGateway{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AllowedWorkloadConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AllowedWorkloadConfigurationProperty",
+		reflect.TypeOf((*TfGateway_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AllowedWorkloadConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AllowedWorkloadConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4600,14 +4600,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AllowedWorkloadConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_AllowedWorkloadConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AllowedWorkloadConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AllowedWorkloadConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4639,18 +4639,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentitiesInput", GoGetter: "WorkloadIdentitiesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AllowedWorkloadConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AllowedWorkloadConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4665,14 +4665,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4712,18 +4712,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4738,14 +4738,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4785,18 +4785,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4811,14 +4811,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4851,18 +4851,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4877,14 +4877,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4911,18 +4911,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4937,14 +4937,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4977,18 +4977,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5003,14 +5003,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5037,18 +5037,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationProperty",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5063,14 +5063,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5099,18 +5099,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizingClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizingClaimMatchValueProperty",
+		reflect.TypeOf((*TfGateway_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizingClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizingClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfGateway_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5125,14 +5125,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizingClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfGateway_AuthorizingClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.AuthorizingClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.AuthorizingClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperator", GoGetter: "ClaimMatchOperator"},
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperatorInput", GoGetter: "ClaimMatchOperatorInput"},
@@ -5163,18 +5163,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_AuthorizingClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_AuthorizingClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.ClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_ClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.ClaimMatchValueProperty",
+		reflect.TypeOf((*TfGateway_ClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.ClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_ClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.ClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfGateway_ClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5189,14 +5189,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_ClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfGateway_ClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.ClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.ClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5227,18 +5227,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_ClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_ClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.CustomClaimProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_CustomClaimProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.CustomClaimProperty",
+		reflect.TypeOf((*TfGateway_CustomClaimProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.CustomClaimPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_CustomClaimPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.CustomClaimPropertyList",
+		reflect.TypeOf((*TfGateway_CustomClaimPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5253,14 +5253,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_CustomClaimPropertyList{}
+			j := jsiiProxy_TfGateway_CustomClaimPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.CustomClaimPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_CustomClaimPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.CustomClaimPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_CustomClaimPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValue", GoGetter: "AuthorizingClaimMatchValue"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValueInput", GoGetter: "AuthorizingClaimMatchValueInput"},
@@ -5293,18 +5293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_CustomClaimPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_CustomClaimPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.CustomJwtAuthorizerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_CustomJwtAuthorizerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.CustomJwtAuthorizerProperty",
+		reflect.TypeOf((*TfGateway_CustomJwtAuthorizerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.CustomJwtAuthorizerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.CustomJwtAuthorizerPropertyList",
+		reflect.TypeOf((*TfGateway_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5319,14 +5319,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_CustomJwtAuthorizerPropertyList{}
+			j := jsiiProxy_TfGateway_CustomJwtAuthorizerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.CustomJwtAuthorizerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.CustomJwtAuthorizerPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudience", GoGetter: "AllowedAudience"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudienceInput", GoGetter: "AllowedAudienceInput"},
@@ -5378,18 +5378,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_CustomJwtAuthorizerPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_CustomJwtAuthorizerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.HostingEnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_HostingEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.HostingEnvironmentProperty",
+		reflect.TypeOf((*TfGateway_HostingEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.HostingEnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_HostingEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.HostingEnvironmentPropertyList",
+		reflect.TypeOf((*TfGateway_HostingEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5404,14 +5404,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_HostingEnvironmentPropertyList{}
+			j := jsiiProxy_TfGateway_HostingEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.HostingEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.HostingEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -5438,18 +5438,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_HostingEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_HostingEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InputConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InputConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InputConfigurationProperty",
+		reflect.TypeOf((*TfGateway_InputConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InputConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InputConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InputConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_InputConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5464,14 +5464,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_InputConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_InputConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InputConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InputConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InputConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_InputConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5498,18 +5498,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_InputConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_InputConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InterceptorConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InterceptorConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InterceptorConfigurationProperty",
+		reflect.TypeOf((*TfGateway_InterceptorConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InterceptorConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InterceptorConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InterceptorConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_InterceptorConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5524,14 +5524,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_InterceptorConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_InterceptorConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InterceptorConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InterceptorConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InterceptorConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_InterceptorConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5566,18 +5566,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_InterceptorConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_InterceptorConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InterceptorProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InterceptorProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InterceptorProperty",
+		reflect.TypeOf((*TfGateway_InterceptorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InterceptorPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InterceptorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InterceptorPropertyList",
+		reflect.TypeOf((*TfGateway_InterceptorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5592,14 +5592,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_InterceptorPropertyList{}
+			j := jsiiProxy_TfGateway_InterceptorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.InterceptorPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_InterceptorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.InterceptorPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_InterceptorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5628,18 +5628,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_InterceptorPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_InterceptorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.LambdaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_LambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.LambdaProperty",
+		reflect.TypeOf((*TfGateway_LambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.LambdaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_LambdaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.LambdaPropertyList",
+		reflect.TypeOf((*TfGateway_LambdaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5654,14 +5654,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_LambdaPropertyList{}
+			j := jsiiProxy_TfGateway_LambdaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.LambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_LambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.LambdaPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_LambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -5688,18 +5688,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_LambdaPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_LambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.McpProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_McpProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.McpProperty",
+		reflect.TypeOf((*TfGateway_McpProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.McpPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_McpPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.McpPropertyList",
+		reflect.TypeOf((*TfGateway_McpPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5714,14 +5714,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_McpPropertyList{}
+			j := jsiiProxy_TfGateway_McpPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.McpPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_McpPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.McpPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_McpPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5763,18 +5763,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_McpPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_McpPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.PolicyEngineConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_PolicyEngineConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.PolicyEngineConfigurationProperty",
+		reflect.TypeOf((*TfGateway_PolicyEngineConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.PolicyEngineConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_PolicyEngineConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.PolicyEngineConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_PolicyEngineConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5789,14 +5789,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_PolicyEngineConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_PolicyEngineConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.PolicyEngineConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_PolicyEngineConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.PolicyEngineConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_PolicyEngineConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -5825,18 +5825,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_PolicyEngineConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_PolicyEngineConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.PrivateEndpointOverridesProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_PrivateEndpointOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.PrivateEndpointOverridesProperty",
+		reflect.TypeOf((*TfGateway_PrivateEndpointOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.PrivateEndpointOverridesPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.PrivateEndpointOverridesPropertyList",
+		reflect.TypeOf((*TfGateway_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5851,14 +5851,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_PrivateEndpointOverridesPropertyList{}
+			j := jsiiProxy_TfGateway_PrivateEndpointOverridesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.PrivateEndpointOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.PrivateEndpointOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5889,18 +5889,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_PrivateEndpointOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_PrivateEndpointOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.ProtocolConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_ProtocolConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.ProtocolConfigurationProperty",
+		reflect.TypeOf((*TfGateway_ProtocolConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.ProtocolConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_ProtocolConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.ProtocolConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_ProtocolConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5915,14 +5915,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_ProtocolConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_ProtocolConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.ProtocolConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_ProtocolConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.ProtocolConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_ProtocolConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5951,18 +5951,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_ProtocolConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_ProtocolConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.SessionConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_SessionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.SessionConfigurationProperty",
+		reflect.TypeOf((*TfGateway_SessionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.SessionConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_SessionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.SessionConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_SessionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5977,14 +5977,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_SessionConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_SessionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.SessionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_SessionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.SessionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_SessionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6012,18 +6012,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_SessionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_SessionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.StreamingConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_StreamingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.StreamingConfigurationProperty",
+		reflect.TypeOf((*TfGateway_StreamingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.StreamingConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_StreamingConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.StreamingConfigurationPropertyList",
+		reflect.TypeOf((*TfGateway_StreamingConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6038,14 +6038,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_StreamingConfigurationPropertyList{}
+			j := jsiiProxy_TfGateway_StreamingConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.StreamingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_StreamingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.StreamingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_StreamingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6073,18 +6073,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_StreamingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_StreamingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.TimeoutsProperty",
+		reflect.TypeOf((*TfGateway_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6118,18 +6118,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.WorkloadIdentityDetailsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_WorkloadIdentityDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.WorkloadIdentityDetailsProperty",
+		reflect.TypeOf((*TfGateway_WorkloadIdentityDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.WorkloadIdentityDetailsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_WorkloadIdentityDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.WorkloadIdentityDetailsPropertyList",
+		reflect.TypeOf((*TfGateway_WorkloadIdentityDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6143,14 +6143,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_WorkloadIdentityDetailsPropertyList{}
+			j := jsiiProxy_TfGateway_WorkloadIdentityDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGateway.WorkloadIdentityDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGateway_WorkloadIdentityDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGateway.WorkloadIdentityDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_WorkloadIdentityDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6176,18 +6176,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityArn", GoGetter: "WorkloadIdentityArn"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGateway_WorkloadIdentityDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_WorkloadIdentityDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayConfig",
+		reflect.TypeOf((*TfGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule",
+		reflect.TypeOf((*TfGatewayRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -6260,18 +6260,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule{}
+			j := jsiiProxy_TfGatewayRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleProperty",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundlePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundlePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundlePropertyList",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundlePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6286,14 +6286,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionConfigurationBundlePropertyList{}
+			j := jsiiProxy_TfGatewayRule_ActionConfigurationBundlePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundlePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundlePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundlePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundlePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6326,18 +6326,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightedOverrideInput", GoGetter: "WeightedOverrideInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionConfigurationBundlePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_ActionConfigurationBundlePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundleProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundleProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundleProperty",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyList",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6352,14 +6352,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyList{}
+			j := jsiiProxy_TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bundleArn", GoGetter: "BundleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bundleArnInput", GoGetter: "BundleArnInput"},
@@ -6388,18 +6388,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitConfigurationBundlePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitProperty",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyList",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6414,14 +6414,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyList{}
+			j := jsiiProxy_TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6460,18 +6460,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightInput", GoGetter: "WeightInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_ActionConfigurationBundleWeightedOverrideTrafficSplitPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionProperty",
+		reflect.TypeOf((*TfGatewayRule_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionPropertyList",
+		reflect.TypeOf((*TfGatewayRule_ActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6486,14 +6486,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionPropertyList{}
+			j := jsiiProxy_TfGatewayRule_ActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6526,18 +6526,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionRouteToTargetWeightedRouteTrafficSplitProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionRouteToTargetWeightedRouteTrafficSplitProperty",
+		reflect.TypeOf((*TfGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionRouteToTargetWeightedRouteTrafficSplitPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionRouteToTargetWeightedRouteTrafficSplitPropertyList",
+		reflect.TypeOf((*TfGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6552,14 +6552,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyList{}
+			j := jsiiProxy_TfGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ActionRouteToTargetWeightedRouteTrafficSplitPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ActionRouteToTargetWeightedRouteTrafficSplitPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6596,18 +6596,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightInput", GoGetter: "WeightInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_ActionRouteToTargetWeightedRouteTrafficSplitPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.AnyOfProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_AnyOfProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.AnyOfProperty",
+		reflect.TypeOf((*TfGatewayRule_AnyOfProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.AnyOfPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_AnyOfPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.AnyOfPropertyList",
+		reflect.TypeOf((*TfGatewayRule_AnyOfPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6622,14 +6622,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_AnyOfPropertyList{}
+			j := jsiiProxy_TfGatewayRule_AnyOfPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.AnyOfPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_AnyOfPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.AnyOfPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_AnyOfPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6658,18 +6658,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_AnyOfPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_AnyOfPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ConditionProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ConditionProperty",
+		reflect.TypeOf((*TfGatewayRule_ConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ConditionPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ConditionPropertyList",
+		reflect.TypeOf((*TfGatewayRule_ConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6684,14 +6684,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ConditionPropertyList{}
+			j := jsiiProxy_TfGatewayRule_ConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.ConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_ConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.ConditionPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_ConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6724,18 +6724,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_ConditionPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_ConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.IamPrincipalProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_IamPrincipalProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.IamPrincipalProperty",
+		reflect.TypeOf((*TfGatewayRule_IamPrincipalProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.IamPrincipalPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_IamPrincipalPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.IamPrincipalPropertyList",
+		reflect.TypeOf((*TfGatewayRule_IamPrincipalPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6750,14 +6750,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_IamPrincipalPropertyList{}
+			j := jsiiProxy_TfGatewayRule_IamPrincipalPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.IamPrincipalPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_IamPrincipalPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.IamPrincipalPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_IamPrincipalPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -6787,18 +6787,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_IamPrincipalPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_IamPrincipalPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.MatchPathsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_MatchPathsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.MatchPathsProperty",
+		reflect.TypeOf((*TfGatewayRule_MatchPathsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.MatchPathsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_MatchPathsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.MatchPathsPropertyList",
+		reflect.TypeOf((*TfGatewayRule_MatchPathsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6813,14 +6813,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_MatchPathsPropertyList{}
+			j := jsiiProxy_TfGatewayRule_MatchPathsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.MatchPathsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_MatchPathsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.MatchPathsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_MatchPathsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "anyOf", GoGetter: "AnyOf"},
 			_jsii_.MemberProperty{JsiiProperty: "anyOfInput", GoGetter: "AnyOfInput"},
@@ -6847,18 +6847,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_MatchPathsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_MatchPathsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.MatchPrincipalsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_MatchPrincipalsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.MatchPrincipalsProperty",
+		reflect.TypeOf((*TfGatewayRule_MatchPrincipalsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.MatchPrincipalsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_MatchPrincipalsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.MatchPrincipalsPropertyList",
+		reflect.TypeOf((*TfGatewayRule_MatchPrincipalsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6873,14 +6873,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_MatchPrincipalsPropertyList{}
+			j := jsiiProxy_TfGatewayRule_MatchPrincipalsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.MatchPrincipalsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_MatchPrincipalsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.MatchPrincipalsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_MatchPrincipalsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "anyOf", GoGetter: "AnyOf"},
 			_jsii_.MemberProperty{JsiiProperty: "anyOfInput", GoGetter: "AnyOfInput"},
@@ -6909,18 +6909,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_MatchPrincipalsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_MatchPrincipalsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.RouteToTargetProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_RouteToTargetProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.RouteToTargetProperty",
+		reflect.TypeOf((*TfGatewayRule_RouteToTargetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.RouteToTargetPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_RouteToTargetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.RouteToTargetPropertyList",
+		reflect.TypeOf((*TfGatewayRule_RouteToTargetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6935,14 +6935,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_RouteToTargetPropertyList{}
+			j := jsiiProxy_TfGatewayRule_RouteToTargetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.RouteToTargetPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_RouteToTargetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.RouteToTargetPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_RouteToTargetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6975,18 +6975,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightedRouteInput", GoGetter: "WeightedRouteInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_RouteToTargetPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_RouteToTargetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.StaticOverrideProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_StaticOverrideProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.StaticOverrideProperty",
+		reflect.TypeOf((*TfGatewayRule_StaticOverrideProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.StaticOverridePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_StaticOverridePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.StaticOverridePropertyList",
+		reflect.TypeOf((*TfGatewayRule_StaticOverridePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7001,14 +7001,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_StaticOverridePropertyList{}
+			j := jsiiProxy_TfGatewayRule_StaticOverridePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.StaticOverridePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_StaticOverridePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.StaticOverridePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_StaticOverridePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bundleArn", GoGetter: "BundleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bundleArnInput", GoGetter: "BundleArnInput"},
@@ -7037,18 +7037,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_StaticOverridePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_StaticOverridePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.StaticRouteProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_StaticRouteProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.StaticRouteProperty",
+		reflect.TypeOf((*TfGatewayRule_StaticRouteProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.StaticRoutePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_StaticRoutePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.StaticRoutePropertyList",
+		reflect.TypeOf((*TfGatewayRule_StaticRoutePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7063,14 +7063,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_StaticRoutePropertyList{}
+			j := jsiiProxy_TfGatewayRule_StaticRoutePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.StaticRoutePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_StaticRoutePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.StaticRoutePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_StaticRoutePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7097,18 +7097,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_StaticRoutePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_StaticRoutePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.SystemProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_SystemProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.SystemProperty",
+		reflect.TypeOf((*TfGatewayRule_SystemProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.SystemPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_SystemPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.SystemPropertyList",
+		reflect.TypeOf((*TfGatewayRule_SystemPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7122,14 +7122,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_SystemPropertyList{}
+			j := jsiiProxy_TfGatewayRule_SystemPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.SystemPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_SystemPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.SystemPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_SystemPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7155,18 +7155,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_SystemPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_SystemPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.TimeoutsProperty",
+		reflect.TypeOf((*TfGatewayRule_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7200,18 +7200,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.WeightedOverrideProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_WeightedOverrideProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.WeightedOverrideProperty",
+		reflect.TypeOf((*TfGatewayRule_WeightedOverrideProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.WeightedOverridePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_WeightedOverridePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.WeightedOverridePropertyList",
+		reflect.TypeOf((*TfGatewayRule_WeightedOverridePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7226,14 +7226,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_WeightedOverridePropertyList{}
+			j := jsiiProxy_TfGatewayRule_WeightedOverridePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.WeightedOverridePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_WeightedOverridePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.WeightedOverridePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_WeightedOverridePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7262,18 +7262,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficSplitInput", GoGetter: "TrafficSplitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_WeightedOverridePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_WeightedOverridePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.WeightedRouteProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_WeightedRouteProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.WeightedRouteProperty",
+		reflect.TypeOf((*TfGatewayRule_WeightedRouteProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.WeightedRoutePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_WeightedRoutePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.WeightedRoutePropertyList",
+		reflect.TypeOf((*TfGatewayRule_WeightedRoutePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7288,14 +7288,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_WeightedRoutePropertyList{}
+			j := jsiiProxy_TfGatewayRule_WeightedRoutePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRule.WeightedRoutePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRule_WeightedRoutePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRule.WeightedRoutePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayRule_WeightedRoutePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7324,18 +7324,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficSplitInput", GoGetter: "TrafficSplitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayRule_WeightedRoutePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayRule_WeightedRoutePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayRuleConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayRuleConfig",
+		reflect.TypeOf((*TfGatewayRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget",
+		reflect.TypeOf((*TfGatewayTarget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -7414,18 +7414,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget{}
+			j := jsiiProxy_TfGatewayTarget{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.AgentcoreRuntimeProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_AgentcoreRuntimeProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.AgentcoreRuntimeProperty",
+		reflect.TypeOf((*TfGatewayTarget_AgentcoreRuntimeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.AgentcoreRuntimePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_AgentcoreRuntimePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.AgentcoreRuntimePropertyList",
+		reflect.TypeOf((*TfGatewayTarget_AgentcoreRuntimePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7440,14 +7440,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_AgentcoreRuntimePropertyList{}
+			j := jsiiProxy_TfGatewayTarget_AgentcoreRuntimePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.AgentcoreRuntimePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_AgentcoreRuntimePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.AgentcoreRuntimePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_AgentcoreRuntimePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -7477,18 +7477,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_AgentcoreRuntimePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_AgentcoreRuntimePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiGatewayProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiGatewayProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiGatewayProperty",
+		reflect.TypeOf((*TfGatewayTarget_ApiGatewayProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiGatewayPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiGatewayPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiGatewayPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ApiGatewayPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7503,14 +7503,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ApiGatewayPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ApiGatewayPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiGatewayPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiGatewayPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiGatewayPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ApiGatewayPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGatewayToolConfiguration", GoGetter: "ApiGatewayToolConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "apiGatewayToolConfigurationInput", GoGetter: "ApiGatewayToolConfigurationInput"},
@@ -7543,18 +7543,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ApiGatewayPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ApiGatewayPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiGatewayToolConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiGatewayToolConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiGatewayToolConfigurationProperty",
+		reflect.TypeOf((*TfGatewayTarget_ApiGatewayToolConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiGatewayToolConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiGatewayToolConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiGatewayToolConfigurationPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ApiGatewayToolConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7569,14 +7569,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ApiGatewayToolConfigurationPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ApiGatewayToolConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiGatewayToolConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiGatewayToolConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiGatewayToolConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ApiGatewayToolConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7609,18 +7609,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ApiGatewayToolConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ApiGatewayToolConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiKeyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiKeyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiKeyProperty",
+		reflect.TypeOf((*TfGatewayTarget_ApiKeyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiKeyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiKeyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiKeyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ApiKeyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7635,14 +7635,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ApiKeyPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ApiKeyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ApiKeyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ApiKeyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ApiKeyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ApiKeyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7678,18 +7678,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ApiKeyPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ApiKeyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.CallerIamCredentialsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_CallerIamCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.CallerIamCredentialsProperty",
+		reflect.TypeOf((*TfGatewayTarget_CallerIamCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.CallerIamCredentialsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_CallerIamCredentialsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.CallerIamCredentialsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_CallerIamCredentialsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7704,14 +7704,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_CallerIamCredentialsPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_CallerIamCredentialsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.CallerIamCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_CallerIamCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.CallerIamCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_CallerIamCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7741,18 +7741,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_CallerIamCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_CallerIamCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.CredentialProviderConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_CredentialProviderConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.CredentialProviderConfigurationProperty",
+		reflect.TypeOf((*TfGatewayTarget_CredentialProviderConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.CredentialProviderConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_CredentialProviderConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.CredentialProviderConfigurationPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_CredentialProviderConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7767,14 +7767,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_CredentialProviderConfigurationPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_CredentialProviderConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.CredentialProviderConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_CredentialProviderConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.CredentialProviderConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_CredentialProviderConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -7819,18 +7819,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_CredentialProviderConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_CredentialProviderConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.GatewayIamRoleProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_GatewayIamRoleProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.GatewayIamRoleProperty",
+		reflect.TypeOf((*TfGatewayTarget_GatewayIamRoleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.GatewayIamRolePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_GatewayIamRolePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.GatewayIamRolePropertyList",
+		reflect.TypeOf((*TfGatewayTarget_GatewayIamRolePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7845,14 +7845,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_GatewayIamRolePropertyList{}
+			j := jsiiProxy_TfGatewayTarget_GatewayIamRolePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.GatewayIamRolePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_GatewayIamRolePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.GatewayIamRolePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_GatewayIamRolePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7883,18 +7883,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_GatewayIamRolePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_GatewayIamRolePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.HttpProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_HttpProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.HttpProperty",
+		reflect.TypeOf((*TfGatewayTarget_HttpProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.HttpPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_HttpPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.HttpPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_HttpPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7909,14 +7909,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_HttpPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_HttpPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.HttpPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_HttpPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.HttpPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_HttpPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreRuntime", GoGetter: "AgentcoreRuntime"},
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreRuntimeInput", GoGetter: "AgentcoreRuntimeInput"},
@@ -7945,18 +7945,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_HttpPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_HttpPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.InputSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_InputSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.InputSchemaProperty",
+		reflect.TypeOf((*TfGatewayTarget_InputSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.InputSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_InputSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.InputSchemaPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_InputSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7971,14 +7971,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_InputSchemaPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_InputSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.InputSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_InputSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.InputSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_InputSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8016,18 +8016,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_InputSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_InputSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.JwtPassthroughProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_JwtPassthroughProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.JwtPassthroughProperty",
+		reflect.TypeOf((*TfGatewayTarget_JwtPassthroughProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.JwtPassthroughPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_JwtPassthroughPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.JwtPassthroughPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_JwtPassthroughPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8042,14 +8042,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_JwtPassthroughPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_JwtPassthroughPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.JwtPassthroughPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_JwtPassthroughPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.JwtPassthroughPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_JwtPassthroughPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8074,18 +8074,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_JwtPassthroughPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_JwtPassthroughPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.LambdaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_LambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.LambdaProperty",
+		reflect.TypeOf((*TfGatewayTarget_LambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.LambdaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_LambdaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.LambdaPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_LambdaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8100,14 +8100,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_LambdaPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_LambdaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.LambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_LambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.LambdaPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_LambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8138,18 +8138,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_LambdaPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_LambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ManagedVpcResourceProperty",
+		reflect.TypeOf((*TfGatewayTarget_ManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8164,14 +8164,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8211,18 +8211,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpProperty",
+		reflect.TypeOf((*TfGatewayTarget_McpProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_McpPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8237,14 +8237,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_McpPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_McpPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_McpPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiGateway", GoGetter: "ApiGateway"},
 			_jsii_.MemberProperty{JsiiProperty: "apiGatewayInput", GoGetter: "ApiGatewayInput"},
@@ -8289,18 +8289,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_McpPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_McpPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpServerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpServerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpServerProperty",
+		reflect.TypeOf((*TfGatewayTarget_McpServerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpServerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpServerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpServerPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_McpServerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8315,14 +8315,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_McpServerPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_McpServerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpServerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpServerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpServerPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_McpServerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8359,18 +8359,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_McpServerPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_McpServerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpToolSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpToolSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpToolSchemaProperty",
+		reflect.TypeOf((*TfGatewayTarget_McpToolSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpToolSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpToolSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpToolSchemaPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_McpToolSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8385,14 +8385,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_McpToolSchemaPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_McpToolSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.McpToolSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_McpToolSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.McpToolSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_McpToolSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8425,18 +8425,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_McpToolSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_McpToolSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.MetadataConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_MetadataConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.MetadataConfigurationProperty",
+		reflect.TypeOf((*TfGatewayTarget_MetadataConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.MetadataConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_MetadataConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.MetadataConfigurationPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_MetadataConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8451,14 +8451,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_MetadataConfigurationPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_MetadataConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.MetadataConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_MetadataConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.MetadataConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_MetadataConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedQueryParameters", GoGetter: "AllowedQueryParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedQueryParametersInput", GoGetter: "AllowedQueryParametersInput"},
@@ -8492,18 +8492,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_MetadataConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_MetadataConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OauthProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OauthProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OauthProperty",
+		reflect.TypeOf((*TfGatewayTarget_OauthProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OauthPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OauthPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OauthPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_OauthPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8518,14 +8518,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_OauthPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_OauthPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OauthPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OauthPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OauthPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_OauthPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8563,18 +8563,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_OauthPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_OauthPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OpenApiSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OpenApiSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OpenApiSchemaProperty",
+		reflect.TypeOf((*TfGatewayTarget_OpenApiSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OpenApiSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OpenApiSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OpenApiSchemaPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_OpenApiSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8589,14 +8589,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_OpenApiSchemaPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_OpenApiSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OpenApiSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OpenApiSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OpenApiSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_OpenApiSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8629,18 +8629,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_OpenApiSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_OpenApiSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OutputSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OutputSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OutputSchemaProperty",
+		reflect.TypeOf((*TfGatewayTarget_OutputSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OutputSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OutputSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OutputSchemaPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_OutputSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8655,14 +8655,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_OutputSchemaPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_OutputSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.OutputSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_OutputSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.OutputSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_OutputSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8700,18 +8700,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_OutputSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_OutputSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.PrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_PrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.PrivateEndpointProperty",
+		reflect.TypeOf((*TfGatewayTarget_PrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.PrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_PrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.PrivateEndpointPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_PrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8726,14 +8726,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_PrivateEndpointPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_PrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.PrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_PrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.PrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_PrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8766,18 +8766,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_PrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_PrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.SelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_SelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.SelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfGatewayTarget_SelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.SelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_SelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.SelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfGatewayTarget_SelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8792,14 +8792,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_SelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfGatewayTarget_SelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.SelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_SelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.SelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_SelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8826,18 +8826,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_SelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_SelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.SmithyModelProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_SmithyModelProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.SmithyModelProperty",
+		reflect.TypeOf((*TfGatewayTarget_SmithyModelProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.SmithyModelPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_SmithyModelPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.SmithyModelPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_SmithyModelPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8852,14 +8852,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_SmithyModelPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_SmithyModelPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.SmithyModelPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_SmithyModelPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.SmithyModelPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_SmithyModelPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8892,18 +8892,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_SmithyModelPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_SmithyModelPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8918,14 +8918,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8961,18 +8961,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsItemsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8987,14 +8987,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9032,18 +9032,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9058,14 +9058,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9106,18 +9106,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaItemsPropertyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9132,14 +9132,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9175,18 +9175,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsItemsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9201,14 +9201,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9246,18 +9246,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9272,14 +9272,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9320,18 +9320,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyItemsPropertyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9346,592 +9346,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "items", GoGetter: "Items"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsInput", GoGetter: "ItemsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "property", GoGetter: "Property"},
-			_jsii_.MemberProperty{JsiiProperty: "propertyInput", GoGetter: "PropertyInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putItems", GoMethod: "PutItems"},
-			_jsii_.MemberMethod{JsiiMethod: "putProperty", GoMethod: "PutProperty"},
-			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
-			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItems", GoMethod: "ResetItems"},
-			_jsii_.MemberMethod{JsiiMethod: "resetProperty", GoMethod: "ResetProperty"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
-			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "items", GoGetter: "Items"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsInput", GoGetter: "ItemsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "property", GoGetter: "Property"},
-			_jsii_.MemberProperty{JsiiProperty: "propertyInput", GoGetter: "PropertyInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putItems", GoMethod: "PutItems"},
-			_jsii_.MemberMethod{JsiiMethod: "putProperty", GoMethod: "PutProperty"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItems", GoMethod: "ResetItems"},
-			_jsii_.MemberMethod{JsiiMethod: "resetProperty", GoMethod: "ResetProperty"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
-			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "items", GoGetter: "Items"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsInput", GoGetter: "ItemsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "property", GoGetter: "Property"},
-			_jsii_.MemberProperty{JsiiProperty: "propertyInput", GoGetter: "PropertyInput"},
-			_jsii_.MemberMethod{JsiiMethod: "putItems", GoMethod: "PutItems"},
-			_jsii_.MemberMethod{JsiiMethod: "putProperty", GoMethod: "PutProperty"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItems", GoMethod: "ResetItems"},
-			_jsii_.MemberMethod{JsiiMethod: "resetProperty", GoMethod: "ResetProperty"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
-			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
-			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
-			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
-			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
-			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9974,18 +9396,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10000,14 +9422,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10048,18 +9470,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadInputSchemaPropertyPropertyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10074,14 +9496,592 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsItemsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "items", GoGetter: "Items"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsInput", GoGetter: "ItemsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "property", GoGetter: "Property"},
+			_jsii_.MemberProperty{JsiiProperty: "propertyInput", GoGetter: "PropertyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putItems", GoMethod: "PutItems"},
+			_jsii_.MemberMethod{JsiiMethod: "putProperty", GoMethod: "PutProperty"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItems", GoMethod: "ResetItems"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProperty", GoMethod: "ResetProperty"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
+			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaItemsPropertyPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsItemsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "items", GoGetter: "Items"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsInput", GoGetter: "ItemsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "property", GoGetter: "Property"},
+			_jsii_.MemberProperty{JsiiProperty: "propertyInput", GoGetter: "PropertyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putItems", GoMethod: "PutItems"},
+			_jsii_.MemberMethod{JsiiMethod: "putProperty", GoMethod: "PutProperty"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItems", GoMethod: "ResetItems"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProperty", GoMethod: "ResetProperty"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
+			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyItemsPropertyPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "items", GoGetter: "Items"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsInput", GoGetter: "ItemsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "property", GoGetter: "Property"},
+			_jsii_.MemberProperty{JsiiProperty: "propertyInput", GoGetter: "PropertyInput"},
+			_jsii_.MemberMethod{JsiiMethod: "putItems", GoMethod: "PutItems"},
+			_jsii_.MemberMethod{JsiiMethod: "putProperty", GoMethod: "PutProperty"},
+			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
+			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItems", GoMethod: "ResetItems"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProperty", GoMethod: "ResetProperty"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "descriptionInput", GoGetter: "DescriptionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJson", GoGetter: "ItemsJson"},
+			_jsii_.MemberProperty{JsiiProperty: "itemsJsonInput", GoGetter: "ItemsJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJson", GoGetter: "PropertiesJson"},
+			_jsii_.MemberProperty{JsiiProperty: "propertiesJsonInput", GoGetter: "PropertiesJsonInput"},
+			_jsii_.MemberProperty{JsiiProperty: "required", GoGetter: "Required"},
+			_jsii_.MemberProperty{JsiiProperty: "requiredInput", GoGetter: "RequiredInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDescription", GoMethod: "ResetDescription"},
+			_jsii_.MemberMethod{JsiiMethod: "resetItemsJson", GoMethod: "ResetItemsJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPropertiesJson", GoMethod: "ResetPropertiesJson"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRequired", GoMethod: "ResetRequired"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadOutputSchemaPropertyPropertyPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10118,18 +10118,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaInlinePayloadPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaS3Property",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3Property)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaS3Property",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaS3PropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaS3PropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10144,14 +10144,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpLambdaToolSchemaS3PropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpLambdaToolSchemaS3PropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountId", GoGetter: "BucketOwnerAccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountIdInput", GoGetter: "BucketOwnerAccountIdInput"},
@@ -10182,18 +10182,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpLambdaToolSchemaS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10208,14 +10208,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10242,18 +10242,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaInlinePayloadPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaS3Property",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3Property)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaS3Property",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10268,14 +10268,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountId", GoGetter: "BucketOwnerAccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountIdInput", GoGetter: "BucketOwnerAccountIdInput"},
@@ -10305,18 +10305,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpMcpServerMcpToolSchemaS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpOpenApiSchemaInlinePayloadProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpOpenApiSchemaInlinePayloadProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10331,14 +10331,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10365,18 +10365,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaInlinePayloadPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpOpenApiSchemaS3Property",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3Property)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpOpenApiSchemaS3Property",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpOpenApiSchemaS3PropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpOpenApiSchemaS3PropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10391,138 +10391,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpOpenApiSchemaS3PropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountId", GoGetter: "BucketOwnerAccountId"},
-			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountIdInput", GoGetter: "BucketOwnerAccountIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resetBucketOwnerAccountId", GoMethod: "ResetBucketOwnerAccountId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetUri", GoMethod: "ResetUri"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "uri", GoGetter: "Uri"},
-			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpSmithyModelInlinePayloadProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpSmithyModelInlinePayloadPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "payload", GoGetter: "Payload"},
-			_jsii_.MemberProperty{JsiiProperty: "payloadInput", GoGetter: "PayloadInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpSmithyModelS3Property",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelS3Property)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpSmithyModelS3PropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationMcpSmithyModelS3PropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpOpenApiSchemaS3PropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountId", GoGetter: "BucketOwnerAccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountIdInput", GoGetter: "BucketOwnerAccountIdInput"},
@@ -10553,18 +10429,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpOpenApiSchemaS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpSmithyModelInlinePayloadProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpSmithyModelInlinePayloadPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10579,14 +10455,138 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TargetConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TargetConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "payload", GoGetter: "Payload"},
+			_jsii_.MemberProperty{JsiiProperty: "payloadInput", GoGetter: "PayloadInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpSmithyModelInlinePayloadPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpSmithyModelS3Property",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpSmithyModelS3Property)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpSmithyModelS3PropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationMcpSmithyModelS3PropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountId", GoGetter: "BucketOwnerAccountId"},
+			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerAccountIdInput", GoGetter: "BucketOwnerAccountIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resetBucketOwnerAccountId", GoMethod: "ResetBucketOwnerAccountId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetUri", GoMethod: "ResetUri"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "uri", GoGetter: "Uri"},
+			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationMcpSmithyModelS3PropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationProperty",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TargetConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TargetConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10619,18 +10619,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TargetConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TargetConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TimeoutsProperty",
+		reflect.TypeOf((*TfGatewayTarget_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10664,18 +10664,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolFilterProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolFilterProperty",
+		reflect.TypeOf((*TfGatewayTarget_ToolFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolFilterPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolFilterPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ToolFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10690,14 +10690,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ToolFilterPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ToolFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolFilterPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ToolFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10726,18 +10726,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ToolFilterPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ToolFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolOverrideProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolOverrideProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolOverrideProperty",
+		reflect.TypeOf((*TfGatewayTarget_ToolOverrideProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolOverridePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolOverridePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolOverridePropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ToolOverridePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10752,14 +10752,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ToolOverridePropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ToolOverridePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolOverridePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolOverridePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolOverridePropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ToolOverridePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10793,18 +10793,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ToolOverridePropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ToolOverridePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolSchemaProperty",
+		reflect.TypeOf((*TfGatewayTarget_ToolSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolSchemaPropertyList",
+		reflect.TypeOf((*TfGatewayTarget_ToolSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -10819,14 +10819,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ToolSchemaPropertyList{}
+			j := jsiiProxy_TfGatewayTarget_ToolSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTarget.ToolSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTarget_ToolSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTarget.ToolSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfGatewayTarget_ToolSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -10859,18 +10859,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreGatewayTarget_ToolSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfGatewayTarget_ToolSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreGatewayTargetConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreGatewayTargetConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfGatewayTargetConfig",
+		reflect.TypeOf((*TfGatewayTargetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness",
+		reflect.TypeOf((*TfHarness)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -10988,18 +10988,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness{}
+			j := jsiiProxy_TfHarness{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreBrowserProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreBrowserProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreBrowserProperty",
+		reflect.TypeOf((*TfHarness_AgentcoreBrowserProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreBrowserPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreBrowserPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreBrowserPropertyList",
+		reflect.TypeOf((*TfHarness_AgentcoreBrowserPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11014,14 +11014,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AgentcoreBrowserPropertyList{}
+			j := jsiiProxy_TfHarness_AgentcoreBrowserPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreBrowserPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreBrowserPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreBrowserPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AgentcoreBrowserPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "browserArn", GoGetter: "BrowserArn"},
 			_jsii_.MemberProperty{JsiiProperty: "browserArnInput", GoGetter: "BrowserArnInput"},
@@ -11049,18 +11049,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AgentcoreBrowserPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AgentcoreBrowserPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreCodeInterpreterProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreCodeInterpreterProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreCodeInterpreterProperty",
+		reflect.TypeOf((*TfHarness_AgentcoreCodeInterpreterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreCodeInterpreterPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreCodeInterpreterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreCodeInterpreterPropertyList",
+		reflect.TypeOf((*TfHarness_AgentcoreCodeInterpreterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11075,14 +11075,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AgentcoreCodeInterpreterPropertyList{}
+			j := jsiiProxy_TfHarness_AgentcoreCodeInterpreterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreCodeInterpreterPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreCodeInterpreterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreCodeInterpreterPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AgentcoreCodeInterpreterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeInterpreterArn", GoGetter: "CodeInterpreterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "codeInterpreterArnInput", GoGetter: "CodeInterpreterArnInput"},
@@ -11110,18 +11110,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AgentcoreCodeInterpreterPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AgentcoreCodeInterpreterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreGatewayProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreGatewayProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreGatewayProperty",
+		reflect.TypeOf((*TfHarness_AgentcoreGatewayProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreGatewayPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreGatewayPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreGatewayPropertyList",
+		reflect.TypeOf((*TfHarness_AgentcoreGatewayPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11136,14 +11136,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AgentcoreGatewayPropertyList{}
+			j := jsiiProxy_TfHarness_AgentcoreGatewayPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AgentcoreGatewayPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AgentcoreGatewayPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AgentcoreGatewayPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AgentcoreGatewayPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11174,18 +11174,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AgentcoreGatewayPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AgentcoreGatewayPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AllowedWorkloadConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AllowedWorkloadConfigurationProperty",
+		reflect.TypeOf((*TfHarness_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AllowedWorkloadConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AllowedWorkloadConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11200,14 +11200,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AllowedWorkloadConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_AllowedWorkloadConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AllowedWorkloadConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AllowedWorkloadConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11239,18 +11239,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentitiesInput", GoGetter: "WorkloadIdentitiesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AllowedWorkloadConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AllowedWorkloadConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11265,14 +11265,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11312,18 +11312,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11338,14 +11338,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11385,18 +11385,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11411,14 +11411,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11451,18 +11451,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11477,14 +11477,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11511,18 +11511,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11537,14 +11537,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11577,18 +11577,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11603,14 +11603,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11637,18 +11637,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationProperty",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11663,14 +11663,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11699,18 +11699,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizingClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizingClaimMatchValueProperty",
+		reflect.TypeOf((*TfHarness_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizingClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizingClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfHarness_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11725,14 +11725,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizingClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfHarness_AuthorizingClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.AuthorizingClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.AuthorizingClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperator", GoGetter: "ClaimMatchOperator"},
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperatorInput", GoGetter: "ClaimMatchOperatorInput"},
@@ -11763,18 +11763,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_AuthorizingClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_AuthorizingClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.BedrockModelConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_BedrockModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.BedrockModelConfigProperty",
+		reflect.TypeOf((*TfHarness_BedrockModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.BedrockModelConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_BedrockModelConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.BedrockModelConfigPropertyList",
+		reflect.TypeOf((*TfHarness_BedrockModelConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11789,14 +11789,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_BedrockModelConfigPropertyList{}
+			j := jsiiProxy_TfHarness_BedrockModelConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.BedrockModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_BedrockModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.BedrockModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_BedrockModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11832,18 +11832,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_BedrockModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_BedrockModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ClaimMatchValueProperty",
+		reflect.TypeOf((*TfHarness_ClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfHarness_ClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11858,14 +11858,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfHarness_ClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11896,18 +11896,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_ClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ContainerConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ContainerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ContainerConfigurationProperty",
+		reflect.TypeOf((*TfHarness_ContainerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ContainerConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ContainerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ContainerConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_ContainerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11922,14 +11922,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ContainerConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_ContainerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ContainerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ContainerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ContainerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_ContainerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -11956,18 +11956,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ContainerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_ContainerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.CustomClaimProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_CustomClaimProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.CustomClaimProperty",
+		reflect.TypeOf((*TfHarness_CustomClaimProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.CustomClaimPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_CustomClaimPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.CustomClaimPropertyList",
+		reflect.TypeOf((*TfHarness_CustomClaimPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -11982,14 +11982,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_CustomClaimPropertyList{}
+			j := jsiiProxy_TfHarness_CustomClaimPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.CustomClaimPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_CustomClaimPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.CustomClaimPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_CustomClaimPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValue", GoGetter: "AuthorizingClaimMatchValue"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValueInput", GoGetter: "AuthorizingClaimMatchValueInput"},
@@ -12022,18 +12022,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_CustomClaimPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_CustomClaimPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.CustomJwtAuthorizerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_CustomJwtAuthorizerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.CustomJwtAuthorizerProperty",
+		reflect.TypeOf((*TfHarness_CustomJwtAuthorizerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.CustomJwtAuthorizerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.CustomJwtAuthorizerPropertyList",
+		reflect.TypeOf((*TfHarness_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12048,14 +12048,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_CustomJwtAuthorizerPropertyList{}
+			j := jsiiProxy_TfHarness_CustomJwtAuthorizerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.CustomJwtAuthorizerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.CustomJwtAuthorizerPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudience", GoGetter: "AllowedAudience"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudienceInput", GoGetter: "AllowedAudienceInput"},
@@ -12107,18 +12107,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_CustomJwtAuthorizerPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_CustomJwtAuthorizerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12132,14 +12132,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -12166,18 +12166,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12191,14 +12191,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12226,18 +12226,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12251,14 +12251,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -12285,18 +12285,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12310,14 +12310,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12343,18 +12343,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12368,14 +12368,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12402,18 +12402,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12427,14 +12427,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12462,18 +12462,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12487,14 +12487,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12521,18 +12521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12546,14 +12546,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualAgentcoreRuntimeEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualAgentcoreRuntimeEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentRuntimeArn", GoGetter: "AgentRuntimeArn"},
 			_jsii_.MemberProperty{JsiiProperty: "agentRuntimeId", GoGetter: "AgentRuntimeId"},
@@ -12584,18 +12584,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentActualProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentActualPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12609,14 +12609,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentActualPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentActualPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentActualPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentActualPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentActualPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreRuntimeEnvironment", GoGetter: "AgentcoreRuntimeEnvironment"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -12642,18 +12642,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentActualPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentActualPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12668,14 +12668,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArnInput", GoGetter: "AccessPointArnInput"},
@@ -12704,18 +12704,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12730,14 +12730,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12774,18 +12774,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12800,14 +12800,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArnInput", GoGetter: "AccessPointArnInput"},
@@ -12836,18 +12836,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12862,14 +12862,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12896,18 +12896,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12922,14 +12922,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -12960,18 +12960,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentLifecycleConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -12986,14 +12986,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13023,18 +13023,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13049,14 +13049,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13087,18 +13087,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13113,14 +13113,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentAgentcoreRuntimeEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentAgentcoreRuntimeEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentRuntimeArn", GoGetter: "AgentRuntimeArn"},
 			_jsii_.MemberProperty{JsiiProperty: "agentRuntimeId", GoGetter: "AgentRuntimeId"},
@@ -13160,18 +13160,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentAgentcoreRuntimeEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentArtifactProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentArtifactProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentArtifactProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentArtifactProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentArtifactPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentArtifactPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentArtifactPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentArtifactPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13186,14 +13186,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentArtifactPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentArtifactPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentArtifactPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentArtifactPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentArtifactPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentArtifactPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13222,18 +13222,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentArtifactPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentArtifactPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentProperty",
+		reflect.TypeOf((*TfHarness_EnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentPropertyList",
+		reflect.TypeOf((*TfHarness_EnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13248,14 +13248,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentPropertyList{}
+			j := jsiiProxy_TfHarness_EnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.EnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_EnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.EnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_EnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreRuntimeEnvironment", GoGetter: "AgentcoreRuntimeEnvironment"},
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreRuntimeEnvironmentInput", GoGetter: "AgentcoreRuntimeEnvironmentInput"},
@@ -13284,18 +13284,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_EnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_EnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.GeminiModelConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_GeminiModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.GeminiModelConfigProperty",
+		reflect.TypeOf((*TfHarness_GeminiModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.GeminiModelConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_GeminiModelConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.GeminiModelConfigPropertyList",
+		reflect.TypeOf((*TfHarness_GeminiModelConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13310,14 +13310,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_GeminiModelConfigPropertyList{}
+			j := jsiiProxy_TfHarness_GeminiModelConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.GeminiModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_GeminiModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.GeminiModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_GeminiModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArn", GoGetter: "ApiKeyArn"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArnInput", GoGetter: "ApiKeyArnInput"},
@@ -13358,18 +13358,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_GeminiModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_GeminiModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.HostingEnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_HostingEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.HostingEnvironmentProperty",
+		reflect.TypeOf((*TfHarness_HostingEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.HostingEnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_HostingEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.HostingEnvironmentPropertyList",
+		reflect.TypeOf((*TfHarness_HostingEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13384,14 +13384,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_HostingEnvironmentPropertyList{}
+			j := jsiiProxy_TfHarness_HostingEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.HostingEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.HostingEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -13418,18 +13418,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_HostingEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_HostingEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.InlineFunctionProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_InlineFunctionProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.InlineFunctionProperty",
+		reflect.TypeOf((*TfHarness_InlineFunctionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.InlineFunctionPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_InlineFunctionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.InlineFunctionPropertyList",
+		reflect.TypeOf((*TfHarness_InlineFunctionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13444,14 +13444,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_InlineFunctionPropertyList{}
+			j := jsiiProxy_TfHarness_InlineFunctionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.InlineFunctionPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_InlineFunctionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.InlineFunctionPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_InlineFunctionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13480,18 +13480,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_InlineFunctionPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_InlineFunctionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualAgentcoreMemoryConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualAgentcoreMemoryConfigurationProperty",
+		reflect.TypeOf((*TfHarness_MemoryActualAgentcoreMemoryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualAgentcoreMemoryConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualAgentcoreMemoryConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryActualAgentcoreMemoryConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13505,14 +13505,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryActualAgentcoreMemoryConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualAgentcoreMemoryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualAgentcoreMemoryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryActualAgentcoreMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actorId", GoGetter: "ActorId"},
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
@@ -13541,18 +13541,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryActualAgentcoreMemoryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualAgentcoreMemoryConfigurationRetrievalConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualAgentcoreMemoryConfigurationRetrievalConfigProperty",
+		reflect.TypeOf((*TfHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13566,14 +13566,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13602,18 +13602,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryActualAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualDisabledProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualDisabledProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualDisabledProperty",
+		reflect.TypeOf((*TfHarness_MemoryActualDisabledProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualDisabledPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualDisabledPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualDisabledPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryActualDisabledPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13627,14 +13627,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualDisabledPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryActualDisabledPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualDisabledPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualDisabledPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualDisabledPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryActualDisabledPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13659,18 +13659,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualDisabledPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryActualDisabledPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualManagedMemoryConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualManagedMemoryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualManagedMemoryConfigurationProperty",
+		reflect.TypeOf((*TfHarness_MemoryActualManagedMemoryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualManagedMemoryConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualManagedMemoryConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualManagedMemoryConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryActualManagedMemoryConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13684,14 +13684,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualManagedMemoryConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryActualManagedMemoryConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualManagedMemoryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualManagedMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualManagedMemoryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryActualManagedMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -13720,18 +13720,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualManagedMemoryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryActualManagedMemoryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualProperty",
+		reflect.TypeOf((*TfHarness_MemoryActualProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryActualPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13745,14 +13745,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryActualPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryActualPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryActualPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryActualPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryActualPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreMemoryConfiguration", GoGetter: "AgentcoreMemoryConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -13780,18 +13780,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryActualPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryActualPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryAgentcoreMemoryConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryAgentcoreMemoryConfigurationProperty",
+		reflect.TypeOf((*TfHarness_MemoryAgentcoreMemoryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryAgentcoreMemoryConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryAgentcoreMemoryConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryAgentcoreMemoryConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13806,14 +13806,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryAgentcoreMemoryConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryAgentcoreMemoryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryAgentcoreMemoryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryAgentcoreMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actorId", GoGetter: "ActorId"},
 			_jsii_.MemberProperty{JsiiProperty: "actorIdInput", GoGetter: "ActorIdInput"},
@@ -13850,18 +13850,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryAgentcoreMemoryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryAgentcoreMemoryConfigurationRetrievalConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryAgentcoreMemoryConfigurationRetrievalConfigProperty",
+		reflect.TypeOf((*TfHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13876,14 +13876,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13919,18 +13919,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryAgentcoreMemoryConfigurationRetrievalConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryDisabledProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryDisabledProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryDisabledProperty",
+		reflect.TypeOf((*TfHarness_MemoryDisabledProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryDisabledPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryDisabledPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryDisabledPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryDisabledPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -13945,14 +13945,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryDisabledPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryDisabledPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryDisabledPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryDisabledPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryDisabledPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryDisabledPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -13977,18 +13977,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryDisabledPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryDisabledPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryManagedMemoryConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryManagedMemoryConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryManagedMemoryConfigurationProperty",
+		reflect.TypeOf((*TfHarness_MemoryManagedMemoryConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryManagedMemoryConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryManagedMemoryConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryManagedMemoryConfigurationPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryManagedMemoryConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14003,14 +14003,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryManagedMemoryConfigurationPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryManagedMemoryConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryManagedMemoryConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryManagedMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryManagedMemoryConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryManagedMemoryConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -14045,18 +14045,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryManagedMemoryConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryManagedMemoryConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryProperty",
+		reflect.TypeOf((*TfHarness_MemoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryPropertyList",
+		reflect.TypeOf((*TfHarness_MemoryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14071,14 +14071,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryPropertyList{}
+			j := jsiiProxy_TfHarness_MemoryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.MemoryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_MemoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.MemoryPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_MemoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreMemoryConfiguration", GoGetter: "AgentcoreMemoryConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreMemoryConfigurationInput", GoGetter: "AgentcoreMemoryConfigurationInput"},
@@ -14115,18 +14115,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_MemoryPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_MemoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ModelProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ModelProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ModelProperty",
+		reflect.TypeOf((*TfHarness_ModelProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ModelPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ModelPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ModelPropertyList",
+		reflect.TypeOf((*TfHarness_ModelPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14141,14 +14141,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ModelPropertyList{}
+			j := jsiiProxy_TfHarness_ModelPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ModelPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ModelPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ModelPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_ModelPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bedrockModelConfig", GoGetter: "BedrockModelConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "bedrockModelConfigInput", GoGetter: "BedrockModelConfigInput"},
@@ -14185,18 +14185,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ModelPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_ModelPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OauthProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OauthProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OauthProperty",
+		reflect.TypeOf((*TfHarness_OauthProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OauthPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OauthPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OauthPropertyList",
+		reflect.TypeOf((*TfHarness_OauthPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14211,14 +14211,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_OauthPropertyList{}
+			j := jsiiProxy_TfHarness_OauthPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OauthPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OauthPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OauthPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_OauthPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14256,18 +14256,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_OauthPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_OauthPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OpenaiModelConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OpenaiModelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OpenaiModelConfigProperty",
+		reflect.TypeOf((*TfHarness_OpenaiModelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OpenaiModelConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OpenaiModelConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OpenaiModelConfigPropertyList",
+		reflect.TypeOf((*TfHarness_OpenaiModelConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14282,14 +14282,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_OpenaiModelConfigPropertyList{}
+			j := jsiiProxy_TfHarness_OpenaiModelConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OpenaiModelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OpenaiModelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OpenaiModelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_OpenaiModelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArn", GoGetter: "ApiKeyArn"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyArnInput", GoGetter: "ApiKeyArnInput"},
@@ -14327,18 +14327,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_OpenaiModelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_OpenaiModelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OutboundAuthProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OutboundAuthProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OutboundAuthProperty",
+		reflect.TypeOf((*TfHarness_OutboundAuthProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OutboundAuthPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OutboundAuthPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OutboundAuthPropertyList",
+		reflect.TypeOf((*TfHarness_OutboundAuthPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14353,14 +14353,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_OutboundAuthPropertyList{}
+			j := jsiiProxy_TfHarness_OutboundAuthPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.OutboundAuthPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_OutboundAuthPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.OutboundAuthPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_OutboundAuthPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsIam", GoGetter: "AwsIam"},
 			_jsii_.MemberProperty{JsiiProperty: "awsIamInput", GoGetter: "AwsIamInput"},
@@ -14395,18 +14395,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_OutboundAuthPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_OutboundAuthPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.PrivateEndpointOverridesProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_PrivateEndpointOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.PrivateEndpointOverridesProperty",
+		reflect.TypeOf((*TfHarness_PrivateEndpointOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.PrivateEndpointOverridesPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.PrivateEndpointOverridesPropertyList",
+		reflect.TypeOf((*TfHarness_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14421,14 +14421,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_PrivateEndpointOverridesPropertyList{}
+			j := jsiiProxy_TfHarness_PrivateEndpointOverridesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.PrivateEndpointOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.PrivateEndpointOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14459,18 +14459,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_PrivateEndpointOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_PrivateEndpointOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.RemoteMcpProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_RemoteMcpProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.RemoteMcpProperty",
+		reflect.TypeOf((*TfHarness_RemoteMcpProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.RemoteMcpPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_RemoteMcpPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.RemoteMcpPropertyList",
+		reflect.TypeOf((*TfHarness_RemoteMcpPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14485,14 +14485,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_RemoteMcpPropertyList{}
+			j := jsiiProxy_TfHarness_RemoteMcpPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.RemoteMcpPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_RemoteMcpPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.RemoteMcpPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_RemoteMcpPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14522,18 +14522,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlInput", GoGetter: "UrlInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_RemoteMcpPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_RemoteMcpPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SkillProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SkillProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SkillProperty",
+		reflect.TypeOf((*TfHarness_SkillProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SkillPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SkillPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SkillPropertyList",
+		reflect.TypeOf((*TfHarness_SkillPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14548,14 +14548,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SkillPropertyList{}
+			j := jsiiProxy_TfHarness_SkillPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SkillPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SkillPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SkillPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_SkillPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14582,18 +14582,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SkillPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_SkillPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SlidingWindowProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SlidingWindowProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SlidingWindowProperty",
+		reflect.TypeOf((*TfHarness_SlidingWindowProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SlidingWindowPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SlidingWindowPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SlidingWindowPropertyList",
+		reflect.TypeOf((*TfHarness_SlidingWindowPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14608,14 +14608,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SlidingWindowPropertyList{}
+			j := jsiiProxy_TfHarness_SlidingWindowPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SlidingWindowPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SlidingWindowPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SlidingWindowPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_SlidingWindowPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14643,18 +14643,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SlidingWindowPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_SlidingWindowPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SummarizationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SummarizationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SummarizationProperty",
+		reflect.TypeOf((*TfHarness_SummarizationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SummarizationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SummarizationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SummarizationPropertyList",
+		reflect.TypeOf((*TfHarness_SummarizationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14669,14 +14669,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SummarizationPropertyList{}
+			j := jsiiProxy_TfHarness_SummarizationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SummarizationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SummarizationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SummarizationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_SummarizationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14710,18 +14710,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SummarizationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_SummarizationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SystemPromptProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SystemPromptProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SystemPromptProperty",
+		reflect.TypeOf((*TfHarness_SystemPromptProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SystemPromptPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SystemPromptPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SystemPromptPropertyList",
+		reflect.TypeOf((*TfHarness_SystemPromptPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14736,14 +14736,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SystemPromptPropertyList{}
+			j := jsiiProxy_TfHarness_SystemPromptPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.SystemPromptPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_SystemPromptPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.SystemPromptPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_SystemPromptPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14770,18 +14770,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_SystemPromptPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_SystemPromptPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TimeoutsProperty",
+		reflect.TypeOf((*TfHarness_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14815,18 +14815,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ToolConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ToolConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ToolConfigProperty",
+		reflect.TypeOf((*TfHarness_ToolConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ToolConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ToolConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ToolConfigPropertyList",
+		reflect.TypeOf((*TfHarness_ToolConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14841,14 +14841,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ToolConfigPropertyList{}
+			j := jsiiProxy_TfHarness_ToolConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ToolConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ToolConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ToolConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_ToolConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreBrowser", GoGetter: "AgentcoreBrowser"},
 			_jsii_.MemberProperty{JsiiProperty: "agentcoreBrowserInput", GoGetter: "AgentcoreBrowserInput"},
@@ -14893,18 +14893,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ToolConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_ToolConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ToolProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ToolProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ToolProperty",
+		reflect.TypeOf((*TfHarness_ToolProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ToolPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ToolPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ToolPropertyList",
+		reflect.TypeOf((*TfHarness_ToolPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14919,14 +14919,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ToolPropertyList{}
+			j := jsiiProxy_TfHarness_ToolPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.ToolPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_ToolPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.ToolPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_ToolPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -14960,18 +14960,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_ToolPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_ToolPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TruncationConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TruncationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TruncationConfigProperty",
+		reflect.TypeOf((*TfHarness_TruncationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TruncationConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TruncationConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TruncationConfigPropertyList",
+		reflect.TypeOf((*TfHarness_TruncationConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -14986,14 +14986,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_TruncationConfigPropertyList{}
+			j := jsiiProxy_TfHarness_TruncationConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TruncationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TruncationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TruncationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_TruncationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15026,18 +15026,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_TruncationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_TruncationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TruncationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TruncationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TruncationProperty",
+		reflect.TypeOf((*TfHarness_TruncationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TruncationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TruncationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TruncationPropertyList",
+		reflect.TypeOf((*TfHarness_TruncationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15052,14 +15052,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_TruncationPropertyList{}
+			j := jsiiProxy_TfHarness_TruncationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarness.TruncationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreHarness_TruncationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarness.TruncationPropertyOutputReference",
+		reflect.TypeOf((*TfHarness_TruncationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15091,18 +15091,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreHarness_TruncationPropertyOutputReference{}
+			j := jsiiProxy_TfHarness_TruncationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreHarnessConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreHarnessConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfHarnessConfig",
+		reflect.TypeOf((*TfHarnessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory",
+		reflect.TypeOf((*TfMemory)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -15184,18 +15184,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory{}
+			j := jsiiProxy_TfMemory{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.ContentConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_ContentConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.ContentConfigurationProperty",
+		reflect.TypeOf((*TfMemory_ContentConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.ContentConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_ContentConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.ContentConfigurationPropertyList",
+		reflect.TypeOf((*TfMemory_ContentConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15210,14 +15210,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_ContentConfigurationPropertyList{}
+			j := jsiiProxy_TfMemory_ContentConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.ContentConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_ContentConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.ContentConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMemory_ContentConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15247,18 +15247,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_ContentConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMemory_ContentConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.IndexedKeyProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_IndexedKeyProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.IndexedKeyProperty",
+		reflect.TypeOf((*TfMemory_IndexedKeyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.IndexedKeyPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_IndexedKeyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.IndexedKeyPropertyList",
+		reflect.TypeOf((*TfMemory_IndexedKeyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15273,14 +15273,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_IndexedKeyPropertyList{}
+			j := jsiiProxy_TfMemory_IndexedKeyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.IndexedKeyPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_IndexedKeyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.IndexedKeyPropertyOutputReference",
+		reflect.TypeOf((*TfMemory_IndexedKeyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15309,18 +15309,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_IndexedKeyPropertyOutputReference{}
+			j := jsiiProxy_TfMemory_IndexedKeyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.KinesisProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_KinesisProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.KinesisProperty",
+		reflect.TypeOf((*TfMemory_KinesisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.KinesisPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_KinesisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.KinesisPropertyList",
+		reflect.TypeOf((*TfMemory_KinesisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15335,14 +15335,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_KinesisPropertyList{}
+			j := jsiiProxy_TfMemory_KinesisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.KinesisPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_KinesisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.KinesisPropertyOutputReference",
+		reflect.TypeOf((*TfMemory_KinesisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15373,18 +15373,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_KinesisPropertyOutputReference{}
+			j := jsiiProxy_TfMemory_KinesisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.ResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_ResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.ResourceProperty",
+		reflect.TypeOf((*TfMemory_ResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.ResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_ResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.ResourcePropertyList",
+		reflect.TypeOf((*TfMemory_ResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15399,14 +15399,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_ResourcePropertyList{}
+			j := jsiiProxy_TfMemory_ResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.ResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_ResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.ResourcePropertyOutputReference",
+		reflect.TypeOf((*TfMemory_ResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15435,18 +15435,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_ResourcePropertyOutputReference{}
+			j := jsiiProxy_TfMemory_ResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.StreamDeliveryResourcesProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_StreamDeliveryResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.StreamDeliveryResourcesProperty",
+		reflect.TypeOf((*TfMemory_StreamDeliveryResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.StreamDeliveryResourcesPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_StreamDeliveryResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.StreamDeliveryResourcesPropertyList",
+		reflect.TypeOf((*TfMemory_StreamDeliveryResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15461,14 +15461,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_StreamDeliveryResourcesPropertyList{}
+			j := jsiiProxy_TfMemory_StreamDeliveryResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.StreamDeliveryResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_StreamDeliveryResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.StreamDeliveryResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfMemory_StreamDeliveryResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15497,18 +15497,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_StreamDeliveryResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfMemory_StreamDeliveryResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.TimeoutsProperty",
+		reflect.TypeOf((*TfMemory_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemory.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemory_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemory.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMemory_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15542,18 +15542,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemory_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMemory_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryConfig",
+		reflect.TypeOf((*TfMemoryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy",
+		reflect.TypeOf((*TfMemoryStrategy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -15639,18 +15639,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy{}
+			j := jsiiProxy_TfMemoryStrategy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15665,14 +15665,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15715,18 +15715,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15740,14 +15740,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15773,18 +15773,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualMessageBasedTriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15798,14 +15798,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15831,18 +15831,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTimeBasedTriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15856,14 +15856,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15889,18 +15889,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsActualTokenBasedTriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15915,14 +15915,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -15949,18 +15949,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsMessageBasedTriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -15975,14 +15975,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16009,18 +16009,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16035,14 +16035,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16069,18 +16069,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTokenBasedTriggerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConsolidationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConsolidationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConsolidationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ConsolidationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConsolidationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConsolidationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConsolidationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ConsolidationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16095,14 +16095,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConsolidationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ConsolidationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ConsolidationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ConsolidationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ConsolidationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ConsolidationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appendToPrompt", GoGetter: "AppendToPrompt"},
 			_jsii_.MemberProperty{JsiiProperty: "appendToPromptInput", GoGetter: "AppendToPromptInput"},
@@ -16131,18 +16131,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ConsolidationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ConsolidationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ExtractionConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ExtractionConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ExtractionConfigProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ExtractionConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ExtractionConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ExtractionConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ExtractionConfigPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ExtractionConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16157,14 +16157,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ExtractionConfigPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ExtractionConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ExtractionConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ExtractionConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ExtractionConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ExtractionConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16193,18 +16193,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ExtractionConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ExtractionConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ExtractionProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ExtractionProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ExtractionProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ExtractionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ExtractionPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ExtractionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ExtractionPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ExtractionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16219,14 +16219,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ExtractionPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ExtractionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ExtractionPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ExtractionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ExtractionPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ExtractionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appendToPrompt", GoGetter: "AppendToPrompt"},
 			_jsii_.MemberProperty{JsiiProperty: "appendToPromptInput", GoGetter: "AppendToPromptInput"},
@@ -16255,18 +16255,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ExtractionPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ExtractionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.InvocationConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_InvocationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.InvocationConfigurationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_InvocationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.InvocationConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_InvocationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.InvocationConfigurationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_InvocationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16281,14 +16281,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_InvocationConfigurationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_InvocationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.InvocationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_InvocationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.InvocationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_InvocationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16317,18 +16317,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_InvocationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_InvocationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.LlmExtractionConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_LlmExtractionConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.LlmExtractionConfigProperty",
+		reflect.TypeOf((*TfMemoryStrategy_LlmExtractionConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.LlmExtractionConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_LlmExtractionConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.LlmExtractionConfigPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_LlmExtractionConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16343,14 +16343,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_LlmExtractionConfigPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_LlmExtractionConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.LlmExtractionConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_LlmExtractionConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.LlmExtractionConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_LlmExtractionConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16384,18 +16384,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "validationInput", GoGetter: "ValidationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_LlmExtractionConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_LlmExtractionConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.MemoryRecordSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_MemoryRecordSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.MemoryRecordSchemaProperty",
+		reflect.TypeOf((*TfMemoryStrategy_MemoryRecordSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.MemoryRecordSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_MemoryRecordSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.MemoryRecordSchemaPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_MemoryRecordSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16410,14 +16410,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_MemoryRecordSchemaPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_MemoryRecordSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.MemoryRecordSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_MemoryRecordSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.MemoryRecordSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_MemoryRecordSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16446,18 +16446,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_MemoryRecordSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_MemoryRecordSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.MetadataSchemaProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_MetadataSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.MetadataSchemaProperty",
+		reflect.TypeOf((*TfMemoryStrategy_MetadataSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.MetadataSchemaPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_MetadataSchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.MetadataSchemaPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_MetadataSchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16472,14 +16472,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_MetadataSchemaPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_MetadataSchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.MetadataSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_MetadataSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.MetadataSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_MetadataSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16516,18 +16516,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_MetadataSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_MetadataSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.NumberValidationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_NumberValidationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.NumberValidationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_NumberValidationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.NumberValidationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_NumberValidationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.NumberValidationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_NumberValidationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16542,14 +16542,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_NumberValidationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_NumberValidationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.NumberValidationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_NumberValidationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.NumberValidationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_NumberValidationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16580,18 +16580,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_NumberValidationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_NumberValidationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ReflectionConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ReflectionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ReflectionConfigurationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ReflectionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ReflectionConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ReflectionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ReflectionConfigurationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ReflectionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16606,14 +16606,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ReflectionConfigurationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ReflectionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ReflectionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ReflectionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ReflectionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ReflectionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16640,18 +16640,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ReflectionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ReflectionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ReflectionProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ReflectionProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ReflectionProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ReflectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ReflectionPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ReflectionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ReflectionPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ReflectionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16666,14 +16666,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ReflectionPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ReflectionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ReflectionPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ReflectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ReflectionPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ReflectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appendToPrompt", GoGetter: "AppendToPrompt"},
 			_jsii_.MemberProperty{JsiiProperty: "appendToPromptInput", GoGetter: "AppendToPromptInput"},
@@ -16704,18 +16704,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ReflectionPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ReflectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.SelfManagedConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_SelfManagedConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.SelfManagedConfigurationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_SelfManagedConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.SelfManagedConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_SelfManagedConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.SelfManagedConfigurationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_SelfManagedConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16730,14 +16730,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_SelfManagedConfigurationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_SelfManagedConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.SelfManagedConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_SelfManagedConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.SelfManagedConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_SelfManagedConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16774,18 +16774,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerConditionsInput", GoGetter: "TriggerConditionsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_SelfManagedConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_SelfManagedConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.StringListValidationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_StringListValidationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.StringListValidationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_StringListValidationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.StringListValidationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_StringListValidationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.StringListValidationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_StringListValidationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16800,14 +16800,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_StringListValidationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_StringListValidationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.StringListValidationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_StringListValidationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.StringListValidationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_StringListValidationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedValues", GoGetter: "AllowedValues"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedValuesInput", GoGetter: "AllowedValuesInput"},
@@ -16838,18 +16838,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_StringListValidationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_StringListValidationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.StringValidationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_StringValidationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.StringValidationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_StringValidationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.StringValidationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_StringValidationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.StringValidationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_StringValidationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16864,14 +16864,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_StringValidationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_StringValidationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.StringValidationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_StringValidationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.StringValidationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_StringValidationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedValues", GoGetter: "AllowedValues"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedValuesInput", GoGetter: "AllowedValuesInput"},
@@ -16898,18 +16898,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_StringValidationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_StringValidationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TimeoutsProperty",
+		reflect.TypeOf((*TfMemoryStrategy_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -16943,18 +16943,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TriggerConditionsActualProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TriggerConditionsActualProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TriggerConditionsActualProperty",
+		reflect.TypeOf((*TfMemoryStrategy_TriggerConditionsActualProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TriggerConditionsActualPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TriggerConditionsActualPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TriggerConditionsActualPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_TriggerConditionsActualPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -16968,14 +16968,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_TriggerConditionsActualPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_TriggerConditionsActualPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TriggerConditionsActualPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TriggerConditionsActualPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TriggerConditionsActualPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_TriggerConditionsActualPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17003,18 +17003,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_TriggerConditionsActualPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_TriggerConditionsActualPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TriggerConditionsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TriggerConditionsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TriggerConditionsProperty",
+		reflect.TypeOf((*TfMemoryStrategy_TriggerConditionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TriggerConditionsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TriggerConditionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TriggerConditionsPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_TriggerConditionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17029,14 +17029,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_TriggerConditionsPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_TriggerConditionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.TriggerConditionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_TriggerConditionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.TriggerConditionsPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_TriggerConditionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17073,18 +17073,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_TriggerConditionsPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_TriggerConditionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ValidationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ValidationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ValidationProperty",
+		reflect.TypeOf((*TfMemoryStrategy_ValidationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ValidationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ValidationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ValidationPropertyList",
+		reflect.TypeOf((*TfMemoryStrategy_ValidationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17099,14 +17099,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ValidationPropertyList{}
+			j := jsiiProxy_TfMemoryStrategy_ValidationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategy.ValidationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategy_ValidationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategy.ValidationPropertyOutputReference",
+		reflect.TypeOf((*TfMemoryStrategy_ValidationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17143,18 +17143,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreMemoryStrategy_ValidationPropertyOutputReference{}
+			j := jsiiProxy_TfMemoryStrategy_ValidationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreMemoryStrategyConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreMemoryStrategyConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfMemoryStrategyConfig",
+		reflect.TypeOf((*TfMemoryStrategyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider",
+		reflect.TypeOf((*TfOauth2CredentialProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -17219,18 +17219,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider{}
+			j := jsiiProxy_TfOauth2CredentialProvider{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.ClientSecretArnProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_ClientSecretArnProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.ClientSecretArnProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_ClientSecretArnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.ClientSecretArnPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_ClientSecretArnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.ClientSecretArnPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_ClientSecretArnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17244,14 +17244,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_ClientSecretArnPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_ClientSecretArnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.ClientSecretArnPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_ClientSecretArnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.ClientSecretArnPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_ClientSecretArnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -17277,18 +17277,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_ClientSecretArnPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_ClientSecretArnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.CustomOauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_CustomOauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.CustomOauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_CustomOauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.CustomOauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.CustomOauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17303,14 +17303,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.CustomOauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.CustomOauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersion", GoGetter: "ClientCredentialsWoVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersionInput", GoGetter: "ClientCredentialsWoVersionInput"},
@@ -17354,18 +17354,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_CustomOauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.GithubOauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_GithubOauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.GithubOauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_GithubOauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.GithubOauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.GithubOauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17380,14 +17380,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.GithubOauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.GithubOauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersion", GoGetter: "ClientCredentialsWoVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersionInput", GoGetter: "ClientCredentialsWoVersionInput"},
@@ -17428,18 +17428,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_GithubOauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.GoogleOauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_GoogleOauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.GoogleOauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_GoogleOauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.GoogleOauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.GoogleOauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17454,14 +17454,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.GoogleOauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.GoogleOauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersion", GoGetter: "ClientCredentialsWoVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersionInput", GoGetter: "ClientCredentialsWoVersionInput"},
@@ -17502,18 +17502,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_GoogleOauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.MicrosoftOauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_MicrosoftOauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.MicrosoftOauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_MicrosoftOauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.MicrosoftOauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.MicrosoftOauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17528,14 +17528,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.MicrosoftOauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.MicrosoftOauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersion", GoGetter: "ClientCredentialsWoVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersionInput", GoGetter: "ClientCredentialsWoVersionInput"},
@@ -17576,18 +17576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_MicrosoftOauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17602,14 +17602,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpointInput", GoGetter: "AuthorizationEndpointInput"},
@@ -17643,18 +17643,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17669,14 +17669,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadata", GoGetter: "AuthorizationServerMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadataInput", GoGetter: "AuthorizationServerMetadataInput"},
@@ -17708,18 +17708,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigCustomOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17733,14 +17733,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -17769,18 +17769,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17794,14 +17794,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadata", GoGetter: "AuthorizationServerMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -17828,18 +17828,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGithubOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17853,14 +17853,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -17889,18 +17889,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17914,14 +17914,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadata", GoGetter: "AuthorizationServerMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -17948,18 +17948,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -17973,14 +17973,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -18009,18 +18009,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18034,14 +18034,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadata", GoGetter: "AuthorizationServerMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -18068,18 +18068,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigMicrosoftOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18094,14 +18094,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18150,18 +18150,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18175,14 +18175,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -18211,18 +18211,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18236,14 +18236,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadata", GoGetter: "AuthorizationServerMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -18270,18 +18270,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18295,14 +18295,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -18331,18 +18331,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18356,14 +18356,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationServerMetadata", GoGetter: "AuthorizationServerMetadata"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -18390,18 +18390,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.SalesforceOauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_SalesforceOauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.SalesforceOauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_SalesforceOauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.SalesforceOauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.SalesforceOauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18416,14 +18416,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.SalesforceOauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.SalesforceOauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersion", GoGetter: "ClientCredentialsWoVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersionInput", GoGetter: "ClientCredentialsWoVersionInput"},
@@ -18464,18 +18464,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_SalesforceOauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.SlackOauth2ProviderConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_SlackOauth2ProviderConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.SlackOauth2ProviderConfigProperty",
+		reflect.TypeOf((*TfOauth2CredentialProvider_SlackOauth2ProviderConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.SlackOauth2ProviderConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.SlackOauth2ProviderConfigPropertyList",
+		reflect.TypeOf((*TfOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18490,14 +18490,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyList{}
+			j := jsiiProxy_TfOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProvider.SlackOauth2ProviderConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProvider.SlackOauth2ProviderConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersion", GoGetter: "ClientCredentialsWoVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCredentialsWoVersionInput", GoGetter: "ClientCredentialsWoVersionInput"},
@@ -18538,18 +18538,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOauth2CredentialProvider_SlackOauth2ProviderConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOauth2CredentialProviderConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreOauth2CredentialProviderConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOauth2CredentialProviderConfig",
+		reflect.TypeOf((*TfOauth2CredentialProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig",
+		reflect.TypeOf((*TfOnlineEvaluationConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -18635,18 +18635,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig{}
+			j := jsiiProxy_TfOnlineEvaluationConfig{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.CloudwatchConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.CloudwatchConfigProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_CloudwatchConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.CloudwatchConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.CloudwatchConfigPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_CloudwatchConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18660,14 +18660,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchConfigPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_CloudwatchConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.CloudwatchConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.CloudwatchConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_CloudwatchConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18693,18 +18693,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_CloudwatchConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.CloudwatchLogsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.CloudwatchLogsProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_CloudwatchLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.CloudwatchLogsPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchLogsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.CloudwatchLogsPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_CloudwatchLogsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18719,14 +18719,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchLogsPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_CloudwatchLogsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.CloudwatchLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.CloudwatchLogsPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18755,18 +18755,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_CloudwatchLogsPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_CloudwatchLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.DataSourceConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_DataSourceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.DataSourceConfigProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_DataSourceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.DataSourceConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_DataSourceConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.DataSourceConfigPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_DataSourceConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18781,14 +18781,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_DataSourceConfigPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_DataSourceConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.DataSourceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_DataSourceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.DataSourceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_DataSourceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogs", GoGetter: "CloudwatchLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsInput", GoGetter: "CloudwatchLogsInput"},
@@ -18817,18 +18817,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_DataSourceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_DataSourceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.EvaluatorProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_EvaluatorProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.EvaluatorProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_EvaluatorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.EvaluatorPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_EvaluatorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.EvaluatorPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_EvaluatorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18843,14 +18843,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_EvaluatorPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_EvaluatorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.EvaluatorPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_EvaluatorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.EvaluatorPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_EvaluatorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18877,18 +18877,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_EvaluatorPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_EvaluatorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.FilterProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.FilterProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.FilterPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_FilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.FilterPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_FilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18903,14 +18903,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_FilterPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_FilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.FilterPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.FilterPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -18943,18 +18943,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_FilterPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.OutputConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_OutputConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.OutputConfigProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_OutputConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.OutputConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_OutputConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.OutputConfigPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_OutputConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -18968,14 +18968,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_OutputConfigPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_OutputConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.OutputConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_OutputConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.OutputConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_OutputConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchConfig", GoGetter: "CloudwatchConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -19001,18 +19001,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_OutputConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_OutputConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.RuleProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.RuleProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.RulePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.RulePropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19027,14 +19027,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_RulePropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.RulePropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19071,18 +19071,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_RulePropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.SamplingConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_SamplingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.SamplingConfigProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_SamplingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.SamplingConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_SamplingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.SamplingConfigPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_SamplingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19097,14 +19097,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_SamplingConfigPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_SamplingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.SamplingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_SamplingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.SamplingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_SamplingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19131,18 +19131,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_SamplingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_SamplingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.SessionConfigProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_SessionConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.SessionConfigProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_SessionConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.SessionConfigPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_SessionConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.SessionConfigPropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_SessionConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19157,14 +19157,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_SessionConfigPropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_SessionConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.SessionConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_SessionConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.SessionConfigPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_SessionConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19191,18 +19191,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_SessionConfigPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_SessionConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.TimeoutsProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19236,18 +19236,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.ValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_ValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.ValueProperty",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_ValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.ValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_ValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.ValuePropertyList",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_ValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19262,14 +19262,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_ValuePropertyList{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_ValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfig.ValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfig_ValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfig.ValuePropertyOutputReference",
+		reflect.TypeOf((*TfOnlineEvaluationConfig_ValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "booleanValue", GoGetter: "BooleanValue"},
 			_jsii_.MemberProperty{JsiiProperty: "booleanValueInput", GoGetter: "BooleanValueInput"},
@@ -19303,18 +19303,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreOnlineEvaluationConfig_ValuePropertyOutputReference{}
+			j := jsiiProxy_TfOnlineEvaluationConfig_ValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreOnlineEvaluationConfigConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreOnlineEvaluationConfigConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfOnlineEvaluationConfigConfig",
+		reflect.TypeOf((*TfOnlineEvaluationConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy",
+		reflect.TypeOf((*TfPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19385,18 +19385,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicy{}
+			j := jsiiProxy_TfPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.CedarProperty",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_CedarProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.CedarProperty",
+		reflect.TypeOf((*TfPolicy_CedarProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.CedarPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_CedarPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.CedarPropertyList",
+		reflect.TypeOf((*TfPolicy_CedarPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19411,14 +19411,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicy_CedarPropertyList{}
+			j := jsiiProxy_TfPolicy_CedarPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.CedarPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_CedarPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.CedarPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_CedarPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19445,18 +19445,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicy_CedarPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_CedarPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.DefinitionProperty",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_DefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.DefinitionProperty",
+		reflect.TypeOf((*TfPolicy_DefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.DefinitionPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_DefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.DefinitionPropertyList",
+		reflect.TypeOf((*TfPolicy_DefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19471,14 +19471,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicy_DefinitionPropertyList{}
+			j := jsiiProxy_TfPolicy_DefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.DefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_DefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.DefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_DefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cedar", GoGetter: "Cedar"},
 			_jsii_.MemberProperty{JsiiProperty: "cedarInput", GoGetter: "CedarInput"},
@@ -19507,18 +19507,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicy_DefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_DefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.TimeoutsProperty",
+		reflect.TypeOf((*TfPolicy_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicy.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcorePolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicy.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19552,18 +19552,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicy_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicyConfig",
-		reflect.TypeOf((*AwsBedrockagentcorePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicyConfig",
+		reflect.TypeOf((*TfPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicyEngine",
-		reflect.TypeOf((*AwsBedrockagentcorePolicyEngine)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicyEngine",
+		reflect.TypeOf((*TfPolicyEngine)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19632,18 +19632,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicyEngine{}
+			j := jsiiProxy_TfPolicyEngine{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicyEngine.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcorePolicyEngine_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicyEngine.TimeoutsProperty",
+		reflect.TypeOf((*TfPolicyEngine_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicyEngine.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcorePolicyEngine_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicyEngine.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPolicyEngine_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19677,18 +19677,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcorePolicyEngine_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPolicyEngine_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcorePolicyEngineConfig",
-		reflect.TypeOf((*AwsBedrockagentcorePolicyEngineConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfPolicyEngineConfig",
+		reflect.TypeOf((*TfPolicyEngineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry",
+		reflect.TypeOf((*TfRegistry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -19761,18 +19761,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry{}
+			j := jsiiProxy_TfRegistry{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AllowedWorkloadConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AllowedWorkloadConfigurationProperty",
+		reflect.TypeOf((*TfRegistry_AllowedWorkloadConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AllowedWorkloadConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AllowedWorkloadConfigurationPropertyList",
+		reflect.TypeOf((*TfRegistry_AllowedWorkloadConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19787,14 +19787,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AllowedWorkloadConfigurationPropertyList{}
+			j := jsiiProxy_TfRegistry_AllowedWorkloadConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AllowedWorkloadConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AllowedWorkloadConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AllowedWorkloadConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19826,18 +19826,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentitiesInput", GoGetter: "WorkloadIdentitiesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AllowedWorkloadConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AllowedWorkloadConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.ApprovalConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_ApprovalConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.ApprovalConfigurationProperty",
+		reflect.TypeOf((*TfRegistry_ApprovalConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.ApprovalConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_ApprovalConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.ApprovalConfigurationPropertyList",
+		reflect.TypeOf((*TfRegistry_ApprovalConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19852,14 +19852,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_ApprovalConfigurationPropertyList{}
+			j := jsiiProxy_TfRegistry_ApprovalConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.ApprovalConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_ApprovalConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.ApprovalConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_ApprovalConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoApproval", GoGetter: "AutoApproval"},
 			_jsii_.MemberProperty{JsiiProperty: "autoApprovalInput", GoGetter: "AutoApprovalInput"},
@@ -19887,18 +19887,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_ApprovalConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_ApprovalConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19913,14 +19913,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -19960,18 +19960,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -19986,14 +19986,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20033,18 +20033,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdentifierInput", GoGetter: "VpcIdentifierInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointManagedVpcResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20059,14 +20059,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20099,18 +20099,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20125,14 +20125,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20159,18 +20159,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointOverridesPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20185,14 +20185,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20225,18 +20225,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20251,14 +20251,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20285,18 +20285,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationCustomJwtAuthorizerPrivateEndpointSelfManagedLatticeResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationPropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20311,14 +20311,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationPropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20347,18 +20347,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizingClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizingClaimMatchValueProperty",
+		reflect.TypeOf((*TfRegistry_AuthorizingClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizingClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizingClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfRegistry_AuthorizingClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20373,14 +20373,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizingClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfRegistry_AuthorizingClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.AuthorizingClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.AuthorizingClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_AuthorizingClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperator", GoGetter: "ClaimMatchOperator"},
 			_jsii_.MemberProperty{JsiiProperty: "claimMatchOperatorInput", GoGetter: "ClaimMatchOperatorInput"},
@@ -20411,18 +20411,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_AuthorizingClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_AuthorizingClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.ClaimMatchValueProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_ClaimMatchValueProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.ClaimMatchValueProperty",
+		reflect.TypeOf((*TfRegistry_ClaimMatchValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.ClaimMatchValuePropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_ClaimMatchValuePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.ClaimMatchValuePropertyList",
+		reflect.TypeOf((*TfRegistry_ClaimMatchValuePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20437,14 +20437,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_ClaimMatchValuePropertyList{}
+			j := jsiiProxy_TfRegistry_ClaimMatchValuePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.ClaimMatchValuePropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.ClaimMatchValuePropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_ClaimMatchValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20475,18 +20475,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_ClaimMatchValuePropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_ClaimMatchValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.CustomClaimProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_CustomClaimProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.CustomClaimProperty",
+		reflect.TypeOf((*TfRegistry_CustomClaimProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.CustomClaimPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_CustomClaimPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.CustomClaimPropertyList",
+		reflect.TypeOf((*TfRegistry_CustomClaimPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20501,14 +20501,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_CustomClaimPropertyList{}
+			j := jsiiProxy_TfRegistry_CustomClaimPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.CustomClaimPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_CustomClaimPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.CustomClaimPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_CustomClaimPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValue", GoGetter: "AuthorizingClaimMatchValue"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizingClaimMatchValueInput", GoGetter: "AuthorizingClaimMatchValueInput"},
@@ -20541,18 +20541,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_CustomClaimPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_CustomClaimPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.CustomJwtAuthorizerProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_CustomJwtAuthorizerProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.CustomJwtAuthorizerProperty",
+		reflect.TypeOf((*TfRegistry_CustomJwtAuthorizerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.CustomJwtAuthorizerPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.CustomJwtAuthorizerPropertyList",
+		reflect.TypeOf((*TfRegistry_CustomJwtAuthorizerPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20567,14 +20567,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_CustomJwtAuthorizerPropertyList{}
+			j := jsiiProxy_TfRegistry_CustomJwtAuthorizerPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.CustomJwtAuthorizerPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.CustomJwtAuthorizerPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_CustomJwtAuthorizerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudience", GoGetter: "AllowedAudience"},
 			_jsii_.MemberProperty{JsiiProperty: "allowedAudienceInput", GoGetter: "AllowedAudienceInput"},
@@ -20626,18 +20626,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_CustomJwtAuthorizerPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_CustomJwtAuthorizerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.HostingEnvironmentProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_HostingEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.HostingEnvironmentProperty",
+		reflect.TypeOf((*TfRegistry_HostingEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.HostingEnvironmentPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_HostingEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.HostingEnvironmentPropertyList",
+		reflect.TypeOf((*TfRegistry_HostingEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20652,14 +20652,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_HostingEnvironmentPropertyList{}
+			j := jsiiProxy_TfRegistry_HostingEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.HostingEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.HostingEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_HostingEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -20686,18 +20686,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_HostingEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_HostingEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.PrivateEndpointOverridesProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_PrivateEndpointOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.PrivateEndpointOverridesProperty",
+		reflect.TypeOf((*TfRegistry_PrivateEndpointOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.PrivateEndpointOverridesPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.PrivateEndpointOverridesPropertyList",
+		reflect.TypeOf((*TfRegistry_PrivateEndpointOverridesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20712,14 +20712,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_PrivateEndpointOverridesPropertyList{}
+			j := jsiiProxy_TfRegistry_PrivateEndpointOverridesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.PrivateEndpointOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.PrivateEndpointOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_PrivateEndpointOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20750,18 +20750,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_PrivateEndpointOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_PrivateEndpointOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.TimeoutsProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.TimeoutsProperty",
+		reflect.TypeOf((*TfRegistry_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistry.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistry_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistry.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRegistry_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20795,18 +20795,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreRegistry_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRegistry_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreRegistryConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreRegistryConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfRegistryConfig",
+		reflect.TypeOf((*TfRegistryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreResourcePolicy",
-		reflect.TypeOf((*AwsBedrockagentcoreResourcePolicy)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfResourcePolicy",
+		reflect.TypeOf((*TfResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -20861,18 +20861,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreResourcePolicy{}
+			j := jsiiProxy_TfResourcePolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreResourcePolicyConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreResourcePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfResourcePolicyConfig",
+		reflect.TypeOf((*TfResourcePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreTokenVaultCmk",
-		reflect.TypeOf((*AwsBedrockagentcoreTokenVaultCmk)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfTokenVaultCmk",
+		reflect.TypeOf((*TfTokenVaultCmk)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -20930,18 +20930,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreTokenVaultCmk{}
+			j := jsiiProxy_TfTokenVaultCmk{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreTokenVaultCmk.KmsConfigurationProperty",
-		reflect.TypeOf((*AwsBedrockagentcoreTokenVaultCmk_KmsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfTokenVaultCmk.KmsConfigurationProperty",
+		reflect.TypeOf((*TfTokenVaultCmk_KmsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreTokenVaultCmk.KmsConfigurationPropertyList",
-		reflect.TypeOf((*AwsBedrockagentcoreTokenVaultCmk_KmsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfTokenVaultCmk.KmsConfigurationPropertyList",
+		reflect.TypeOf((*TfTokenVaultCmk_KmsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -20956,14 +20956,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreTokenVaultCmk_KmsConfigurationPropertyList{}
+			j := jsiiProxy_TfTokenVaultCmk_KmsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreTokenVaultCmk.KmsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsBedrockagentcoreTokenVaultCmk_KmsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfTokenVaultCmk.KmsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTokenVaultCmk_KmsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -20993,18 +20993,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreTokenVaultCmk_KmsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTokenVaultCmk_KmsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreTokenVaultCmkConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreTokenVaultCmkConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfTokenVaultCmkConfig",
+		reflect.TypeOf((*TfTokenVaultCmkConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreWorkloadIdentity",
-		reflect.TypeOf((*AwsBedrockagentcoreWorkloadIdentity)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfWorkloadIdentity",
+		reflect.TypeOf((*TfWorkloadIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -21061,13 +21061,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workloadIdentityArn", GoGetter: "WorkloadIdentityArn"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBedrockagentcoreWorkloadIdentity{}
+			j := jsiiProxy_TfWorkloadIdentity{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bedrock-agentcore.AwsBedrockagentcoreWorkloadIdentityConfig",
-		reflect.TypeOf((*AwsBedrockagentcoreWorkloadIdentityConfig)(nil)).Elem(),
+		"@cdktn/aws-bedrock-agentcore.TfWorkloadIdentityConfig",
+		reflect.TypeOf((*TfWorkloadIdentityConfig)(nil)).Elem(),
 	)
 }

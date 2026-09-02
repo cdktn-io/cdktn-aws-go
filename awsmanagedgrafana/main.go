@@ -9,8 +9,88 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaLicenseAssociation",
-		reflect.TypeOf((*AwsGrafanaLicenseAssociation)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.DataTfWorkspace",
+		reflect.TypeOf((*DataTfWorkspace)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "accountAccessType", GoGetter: "AccountAccessType"},
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "authenticationProviders", GoGetter: "AuthenticationProviders"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "createdDate", GoGetter: "CreatedDate"},
+			_jsii_.MemberProperty{JsiiProperty: "dataSources", GoGetter: "DataSources"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "grafanaVersion", GoGetter: "GrafanaVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "kmsKeyId", GoGetter: "KmsKeyId"},
+			_jsii_.MemberProperty{JsiiProperty: "lastUpdatedDate", GoGetter: "LastUpdatedDate"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberProperty{JsiiProperty: "notificationDestinations", GoGetter: "NotificationDestinations"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationalUnits", GoGetter: "OrganizationalUnits"},
+			_jsii_.MemberProperty{JsiiProperty: "organizationRoleName", GoGetter: "OrganizationRoleName"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "permissionType", GoGetter: "PermissionType"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
+			_jsii_.MemberProperty{JsiiProperty: "samlConfigurationStatus", GoGetter: "SamlConfigurationStatus"},
+			_jsii_.MemberProperty{JsiiProperty: "stackSetName", GoGetter: "StackSetName"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+			_jsii_.MemberProperty{JsiiProperty: "workspaceId", GoGetter: "WorkspaceId"},
+			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfWorkspace{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-managed-grafana.DataTfWorkspaceConfig",
+		reflect.TypeOf((*DataTfWorkspaceConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-managed-grafana.TfLicenseAssociation",
+		reflect.TypeOf((*TfLicenseAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,18 +157,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaLicenseAssociation{}
+			j := jsiiProxy_TfLicenseAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaLicenseAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsGrafanaLicenseAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfLicenseAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfLicenseAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaLicenseAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGrafanaLicenseAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfLicenseAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfLicenseAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -119,18 +199,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaLicenseAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfLicenseAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaLicenseAssociationConfig",
-		reflect.TypeOf((*AwsGrafanaLicenseAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfLicenseAssociationConfig",
+		reflect.TypeOf((*TfLicenseAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaRoleAssociation",
-		reflect.TypeOf((*AwsGrafanaRoleAssociation)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfRoleAssociation",
+		reflect.TypeOf((*TfRoleAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -198,18 +278,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaRoleAssociation{}
+			j := jsiiProxy_TfRoleAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaRoleAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsGrafanaRoleAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfRoleAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfRoleAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaRoleAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGrafanaRoleAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfRoleAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRoleAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -240,18 +320,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaRoleAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRoleAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaRoleAssociationConfig",
-		reflect.TypeOf((*AwsGrafanaRoleAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfRoleAssociationConfig",
+		reflect.TypeOf((*TfRoleAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace",
-		reflect.TypeOf((*AwsGrafanaWorkspace)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace",
+		reflect.TypeOf((*TfWorkspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountAccessType", GoGetter: "AccountAccessType"},
 			_jsii_.MemberProperty{JsiiProperty: "accountAccessTypeInput", GoGetter: "AccountAccessTypeInput"},
@@ -365,18 +445,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspace{}
+			j := jsiiProxy_TfWorkspace{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace.NetworkAccessControlProperty",
-		reflect.TypeOf((*AwsGrafanaWorkspace_NetworkAccessControlProperty)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace.NetworkAccessControlProperty",
+		reflect.TypeOf((*TfWorkspace_NetworkAccessControlProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace.NetworkAccessControlPropertyOutputReference",
-		reflect.TypeOf((*AwsGrafanaWorkspace_NetworkAccessControlPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace.NetworkAccessControlPropertyOutputReference",
+		reflect.TypeOf((*TfWorkspace_NetworkAccessControlPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -405,18 +485,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpceIdsInput", GoGetter: "VpceIdsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspace_NetworkAccessControlPropertyOutputReference{}
+			j := jsiiProxy_TfWorkspace_NetworkAccessControlPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace.TimeoutsProperty",
-		reflect.TypeOf((*AwsGrafanaWorkspace_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace.TimeoutsProperty",
+		reflect.TypeOf((*TfWorkspace_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGrafanaWorkspace_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkspace_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -447,18 +527,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspace_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkspace_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace.VpcConfigurationProperty",
-		reflect.TypeOf((*AwsGrafanaWorkspace_VpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace.VpcConfigurationProperty",
+		reflect.TypeOf((*TfWorkspace_VpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspace.VpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGrafanaWorkspace_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspace.VpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkspace_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -487,14 +567,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspace_VpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkspace_VpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceApiKey",
-		reflect.TypeOf((*AwsGrafanaWorkspaceApiKey)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceApiKey",
+		reflect.TypeOf((*TfWorkspaceApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -557,22 +637,22 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspaceApiKey{}
+			j := jsiiProxy_TfWorkspaceApiKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceApiKeyConfig",
-		reflect.TypeOf((*AwsGrafanaWorkspaceApiKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceApiKeyConfig",
+		reflect.TypeOf((*TfWorkspaceApiKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceConfig",
-		reflect.TypeOf((*AwsGrafanaWorkspaceConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceConfig",
+		reflect.TypeOf((*TfWorkspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceSamlConfiguration",
-		reflect.TypeOf((*AwsGrafanaWorkspaceSamlConfiguration)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceSamlConfiguration",
+		reflect.TypeOf((*TfWorkspaceSamlConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -668,18 +748,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspaceSamlConfiguration{}
+			j := jsiiProxy_TfWorkspaceSamlConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceSamlConfiguration.TimeoutsProperty",
-		reflect.TypeOf((*AwsGrafanaWorkspaceSamlConfiguration_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceSamlConfiguration.TimeoutsProperty",
+		reflect.TypeOf((*TfWorkspaceSamlConfiguration_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceSamlConfiguration.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGrafanaWorkspaceSamlConfiguration_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceSamlConfiguration.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkspaceSamlConfiguration_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -710,18 +790,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspaceSamlConfiguration_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkspaceSamlConfiguration_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceSamlConfigurationConfig",
-		reflect.TypeOf((*AwsGrafanaWorkspaceSamlConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceSamlConfigurationConfig",
+		reflect.TypeOf((*TfWorkspaceSamlConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceServiceAccount",
-		reflect.TypeOf((*AwsGrafanaWorkspaceServiceAccount)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceServiceAccount",
+		reflect.TypeOf((*TfWorkspaceServiceAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -780,18 +860,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspaceServiceAccount{}
+			j := jsiiProxy_TfWorkspaceServiceAccount{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceServiceAccountConfig",
-		reflect.TypeOf((*AwsGrafanaWorkspaceServiceAccountConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceServiceAccountConfig",
+		reflect.TypeOf((*TfWorkspaceServiceAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceServiceAccountToken",
-		reflect.TypeOf((*AwsGrafanaWorkspaceServiceAccountToken)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceServiceAccountToken",
+		reflect.TypeOf((*TfWorkspaceServiceAccountToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -855,93 +935,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGrafanaWorkspaceServiceAccountToken{}
+			j := jsiiProxy_TfWorkspaceServiceAccountToken{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.AwsGrafanaWorkspaceServiceAccountTokenConfig",
-		reflect.TypeOf((*AwsGrafanaWorkspaceServiceAccountTokenConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-managed-grafana.DataAwsGrafanaWorkspace",
-		reflect.TypeOf((*DataAwsGrafanaWorkspace)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "accountAccessType", GoGetter: "AccountAccessType"},
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "authenticationProviders", GoGetter: "AuthenticationProviders"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "createdDate", GoGetter: "CreatedDate"},
-			_jsii_.MemberProperty{JsiiProperty: "dataSources", GoGetter: "DataSources"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "grafanaVersion", GoGetter: "GrafanaVersion"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "kmsKeyId", GoGetter: "KmsKeyId"},
-			_jsii_.MemberProperty{JsiiProperty: "lastUpdatedDate", GoGetter: "LastUpdatedDate"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberProperty{JsiiProperty: "notificationDestinations", GoGetter: "NotificationDestinations"},
-			_jsii_.MemberProperty{JsiiProperty: "organizationalUnits", GoGetter: "OrganizationalUnits"},
-			_jsii_.MemberProperty{JsiiProperty: "organizationRoleName", GoGetter: "OrganizationRoleName"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "permissionType", GoGetter: "PermissionType"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
-			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
-			_jsii_.MemberProperty{JsiiProperty: "samlConfigurationStatus", GoGetter: "SamlConfigurationStatus"},
-			_jsii_.MemberProperty{JsiiProperty: "stackSetName", GoGetter: "StackSetName"},
-			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-			_jsii_.MemberProperty{JsiiProperty: "workspaceId", GoGetter: "WorkspaceId"},
-			_jsii_.MemberProperty{JsiiProperty: "workspaceIdInput", GoGetter: "WorkspaceIdInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGrafanaWorkspace{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-managed-grafana.DataAwsGrafanaWorkspaceConfig",
-		reflect.TypeOf((*DataAwsGrafanaWorkspaceConfig)(nil)).Elem(),
+		"@cdktn/aws-managed-grafana.TfWorkspaceServiceAccountTokenConfig",
+		reflect.TypeOf((*TfWorkspaceServiceAccountTokenConfig)(nil)).Elem(),
 	)
 }

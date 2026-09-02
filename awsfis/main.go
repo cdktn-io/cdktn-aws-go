@@ -9,8 +9,65 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate",
-		reflect.TypeOf((*AwsFisExperimentTemplate)(nil)).Elem(),
+		"@cdktn/aws-fis.DataTfExperimentTemplates",
+		reflect.TypeOf((*DataTfExperimentTemplates)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ids", GoGetter: "Ids"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfExperimentTemplates{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-fis.DataTfExperimentTemplatesConfig",
+		reflect.TypeOf((*DataTfExperimentTemplatesConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-fis.TfExperimentTemplate",
+		reflect.TypeOf((*TfExperimentTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -100,18 +157,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate{}
+			j := jsiiProxy_TfExperimentTemplate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ActionProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ActionProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ActionPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ActionPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_ActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -126,14 +183,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ActionPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_ActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionId", GoGetter: "ActionId"},
 			_jsii_.MemberProperty{JsiiProperty: "actionIdInput", GoGetter: "ActionIdInput"},
@@ -176,18 +233,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ActionTargetProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ActionTargetProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ActionTargetProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ActionTargetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ActionTargetPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ActionTargetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ActionTargetPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ActionTargetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -216,18 +273,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ActionTargetPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ActionTargetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.CloudwatchDashboardProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_CloudwatchDashboardProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.CloudwatchDashboardProperty",
+		reflect.TypeOf((*TfExperimentTemplate_CloudwatchDashboardProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.CloudwatchDashboardPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_CloudwatchDashboardPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.CloudwatchDashboardPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_CloudwatchDashboardPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -242,14 +299,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_CloudwatchDashboardPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_CloudwatchDashboardPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.CloudwatchDashboardPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_CloudwatchDashboardPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.CloudwatchDashboardPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_CloudwatchDashboardPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -277,18 +334,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_CloudwatchDashboardPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_CloudwatchDashboardPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.CloudwatchLogsConfigurationProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_CloudwatchLogsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.CloudwatchLogsConfigurationProperty",
+		reflect.TypeOf((*TfExperimentTemplate_CloudwatchLogsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.CloudwatchLogsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_CloudwatchLogsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.CloudwatchLogsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_CloudwatchLogsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -315,18 +372,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_CloudwatchLogsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_CloudwatchLogsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.DataSourcesProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_DataSourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.DataSourcesProperty",
+		reflect.TypeOf((*TfExperimentTemplate_DataSourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.DataSourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_DataSourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.DataSourcesPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_DataSourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchDashboard", GoGetter: "CloudwatchDashboard"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchDashboardInput", GoGetter: "CloudwatchDashboardInput"},
@@ -355,18 +412,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_DataSourcesPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_DataSourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ExperimentOptionsProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ExperimentOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ExperimentOptionsProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ExperimentOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ExperimentOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ExperimentOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ExperimentOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ExperimentOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountTargeting", GoGetter: "AccountTargeting"},
 			_jsii_.MemberProperty{JsiiProperty: "accountTargetingInput", GoGetter: "AccountTargetingInput"},
@@ -397,18 +454,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ExperimentOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ExperimentOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ExperimentReportConfigurationOutputsS3ConfigurationProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ExperimentReportConfigurationOutputsS3ConfigurationProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -438,18 +495,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ExperimentReportConfigurationOutputsS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ExperimentReportConfigurationProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ExperimentReportConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ExperimentReportConfigurationProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ExperimentReportConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ExperimentReportConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ExperimentReportConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ExperimentReportConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ExperimentReportConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -488,18 +545,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ExperimentReportConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ExperimentReportConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.FilterProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.FilterProperty",
+		reflect.TypeOf((*TfExperimentTemplate_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.FilterPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_FilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.FilterPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_FilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -514,14 +571,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_FilterPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_FilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.FilterPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.FilterPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -550,18 +607,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_FilterPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.LogConfigurationProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_LogConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.LogConfigurationProperty",
+		reflect.TypeOf((*TfExperimentTemplate_LogConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.LogConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_LogConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.LogConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_LogConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsConfiguration", GoGetter: "CloudwatchLogsConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsConfigurationInput", GoGetter: "CloudwatchLogsConfigurationInput"},
@@ -596,18 +653,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_LogConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_LogConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.LogConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_LogConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.LogConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfExperimentTemplate_LogConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.LogConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_LogConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.LogConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_LogConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -637,18 +694,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_LogConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_LogConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.OutputsProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_OutputsProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.OutputsProperty",
+		reflect.TypeOf((*TfExperimentTemplate_OutputsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.OutputsPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_OutputsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.OutputsPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_OutputsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -677,18 +734,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_OutputsPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_OutputsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ParameterProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ParameterProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ParameterPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ParameterPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_ParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -703,14 +760,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ParameterPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_ParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ParameterPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -739,18 +796,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ParameterPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ResourceTagProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ResourceTagProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ResourceTagProperty",
+		reflect.TypeOf((*TfExperimentTemplate_ResourceTagProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ResourceTagPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ResourceTagPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ResourceTagPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_ResourceTagPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -765,14 +822,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ResourceTagPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_ResourceTagPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.ResourceTagPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_ResourceTagPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.ResourceTagPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_ResourceTagPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -801,18 +858,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_ResourceTagPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_ResourceTagPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.StopConditionProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_StopConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.StopConditionProperty",
+		reflect.TypeOf((*TfExperimentTemplate_StopConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.StopConditionPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_StopConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.StopConditionPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_StopConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -827,14 +884,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_StopConditionPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_StopConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.StopConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_StopConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.StopConditionPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_StopConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -864,18 +921,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_StopConditionPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_StopConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.TargetProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_TargetProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.TargetProperty",
+		reflect.TypeOf((*TfExperimentTemplate_TargetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.TargetPropertyList",
-		reflect.TypeOf((*AwsFisExperimentTemplate_TargetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.TargetPropertyList",
+		reflect.TypeOf((*TfExperimentTemplate_TargetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -890,14 +947,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_TargetPropertyList{}
+			j := jsiiProxy_TfExperimentTemplate_TargetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.TargetPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_TargetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.TargetPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_TargetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -942,18 +999,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_TargetPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_TargetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.TimeoutsProperty",
-		reflect.TypeOf((*AwsFisExperimentTemplate_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.TimeoutsProperty",
+		reflect.TypeOf((*TfExperimentTemplate_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisExperimentTemplate.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsFisExperimentTemplate_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplate.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfExperimentTemplate_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -987,18 +1044,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisExperimentTemplate_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfExperimentTemplate_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisExperimentTemplateConfig",
-		reflect.TypeOf((*AwsFisExperimentTemplateConfig)(nil)).Elem(),
+		"@cdktn/aws-fis.TfExperimentTemplateConfig",
+		reflect.TypeOf((*TfExperimentTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.AwsFisTargetAccountConfiguration",
-		reflect.TypeOf((*AwsFisTargetAccountConfiguration)(nil)).Elem(),
+		"@cdktn/aws-fis.TfTargetAccountConfiguration",
+		reflect.TypeOf((*TfTargetAccountConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -1059,70 +1116,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsFisTargetAccountConfiguration{}
+			j := jsiiProxy_TfTargetAccountConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.AwsFisTargetAccountConfigurationConfig",
-		reflect.TypeOf((*AwsFisTargetAccountConfigurationConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-fis.DataAwsFisExperimentTemplates",
-		reflect.TypeOf((*DataAwsFisExperimentTemplates)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "ids", GoGetter: "Ids"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsFisExperimentTemplates{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-fis.DataAwsFisExperimentTemplatesConfig",
-		reflect.TypeOf((*DataAwsFisExperimentTemplatesConfig)(nil)).Elem(),
+		"@cdktn/aws-fis.TfTargetAccountConfigurationConfig",
+		reflect.TypeOf((*TfTargetAccountConfigurationConfig)(nil)).Elem(),
 	)
 }

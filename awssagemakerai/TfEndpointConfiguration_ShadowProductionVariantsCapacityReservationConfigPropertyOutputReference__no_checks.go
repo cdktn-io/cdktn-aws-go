@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetCapacityReservationPreferenceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetInternalValueParameters(val *TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetMlReservationArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

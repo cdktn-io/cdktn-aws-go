@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigCluster",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigCluster)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,18 +75,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigCluster.ClusterEndpointsProperty",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigCluster_ClusterEndpointsProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfCluster.ClusterEndpointsProperty",
+		reflect.TypeOf((*TfCluster_ClusterEndpointsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigCluster.ClusterEndpointsPropertyList",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigCluster_ClusterEndpointsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfCluster.ClusterEndpointsPropertyList",
+		reflect.TypeOf((*TfCluster_ClusterEndpointsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -100,14 +100,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigCluster_ClusterEndpointsPropertyList{}
+			j := jsiiProxy_TfCluster_ClusterEndpointsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigCluster.ClusterEndpointsPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigCluster_ClusterEndpointsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfCluster.ClusterEndpointsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_ClusterEndpointsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -134,18 +134,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigCluster_ClusterEndpointsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_ClusterEndpointsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigClusterConfig",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigControlPanel",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigControlPanel)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfControlPanel",
+		reflect.TypeOf((*TfControlPanel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -210,18 +210,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigControlPanel{}
+			j := jsiiProxy_TfControlPanel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigControlPanelConfig",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigControlPanelConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfControlPanelConfig",
+		reflect.TypeOf((*TfControlPanelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigRoutingControl",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigRoutingControl)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfRoutingControl",
+		reflect.TypeOf((*TfRoutingControl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -281,18 +281,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigRoutingControl{}
+			j := jsiiProxy_TfRoutingControl{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigRoutingControlConfig",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigRoutingControlConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfRoutingControlConfig",
+		reflect.TypeOf((*TfRoutingControlConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigSafetyRule",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigSafetyRule)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfSafetyRule",
+		reflect.TypeOf((*TfSafetyRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -369,18 +369,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigSafetyRule{}
+			j := jsiiProxy_TfSafetyRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigSafetyRule.RuleConfigProperty",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigSafetyRule_RuleConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfSafetyRule.RuleConfigProperty",
+		reflect.TypeOf((*TfSafetyRule_RuleConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigSafetyRule.RuleConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigSafetyRule_RuleConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfSafetyRule.RuleConfigPropertyOutputReference",
+		reflect.TypeOf((*TfSafetyRule_RuleConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -411,13 +411,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoverycontrolconfigSafetyRule_RuleConfigPropertyOutputReference{}
+			j := jsiiProxy_TfSafetyRule_RuleConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-control-config.AwsRoute53RecoverycontrolconfigSafetyRuleConfig",
-		reflect.TypeOf((*AwsRoute53RecoverycontrolconfigSafetyRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-control-config.TfSafetyRuleConfig",
+		reflect.TypeOf((*TfSafetyRuleConfig)(nil)).Elem(),
 	)
 }

@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package awslambda
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validatePutAccessConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validatePutSchemaValidationConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetEventRecordFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetInternalValueParameters(val *TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetSchemaRegistryUriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfEventSourceMapping_SelfManagedKafkaEventSourceConfigSchemaRegistryConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-glacier.AwsGlacierVault",
-		reflect.TypeOf((*AwsGlacierVault)(nil)).Elem(),
+		"@cdktn/aws-s3-glacier.TfVault",
+		reflect.TypeOf((*TfVault)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyInput", GoGetter: "AccessPolicyInput"},
@@ -81,18 +81,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGlacierVault{}
+			j := jsiiProxy_TfVault{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-glacier.AwsGlacierVault.NotificationProperty",
-		reflect.TypeOf((*AwsGlacierVault_NotificationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-glacier.TfVault.NotificationProperty",
+		reflect.TypeOf((*TfVault_NotificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-glacier.AwsGlacierVault.NotificationPropertyOutputReference",
-		reflect.TypeOf((*AwsGlacierVault_NotificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-glacier.TfVault.NotificationPropertyOutputReference",
+		reflect.TypeOf((*TfVault_NotificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -121,18 +121,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGlacierVault_NotificationPropertyOutputReference{}
+			j := jsiiProxy_TfVault_NotificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-glacier.AwsGlacierVaultConfig",
-		reflect.TypeOf((*AwsGlacierVaultConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-glacier.TfVaultConfig",
+		reflect.TypeOf((*TfVaultConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-glacier.AwsGlacierVaultLock",
-		reflect.TypeOf((*AwsGlacierVaultLock)(nil)).Elem(),
+		"@cdktn/aws-s3-glacier.TfVaultLock",
+		reflect.TypeOf((*TfVaultLock)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -195,13 +195,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGlacierVaultLock{}
+			j := jsiiProxy_TfVaultLock{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-glacier.AwsGlacierVaultLockConfig",
-		reflect.TypeOf((*AwsGlacierVaultLockConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-glacier.TfVaultLockConfig",
+		reflect.TypeOf((*TfVaultLockConfig)(nil)).Elem(),
 	)
 }

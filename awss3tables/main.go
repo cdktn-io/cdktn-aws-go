@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesNamespace",
-		reflect.TypeOf((*AwsS3TablesNamespace)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfNamespace",
+		reflect.TypeOf((*TfNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,18 +68,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesNamespace{}
+			j := jsiiProxy_TfNamespace{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesNamespaceConfig",
-		reflect.TypeOf((*AwsS3TablesNamespaceConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfNamespaceConfig",
+		reflect.TypeOf((*TfNamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable",
-		reflect.TypeOf((*AwsS3TablesTable)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable",
+		reflect.TypeOf((*TfTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -164,18 +164,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable{}
+			j := jsiiProxy_TfTable{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsS3TablesTable_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfTable_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTable_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -206,18 +206,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTable_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.FieldProperty",
-		reflect.TypeOf((*AwsS3TablesTable_FieldProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.FieldProperty",
+		reflect.TypeOf((*TfTable_FieldProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.FieldPropertyList",
-		reflect.TypeOf((*AwsS3TablesTable_FieldPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.FieldPropertyList",
+		reflect.TypeOf((*TfTable_FieldPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -232,14 +232,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_FieldPropertyList{}
+			j := jsiiProxy_TfTable_FieldPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.FieldPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_FieldPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.FieldPropertyOutputReference",
+		reflect.TypeOf((*TfTable_FieldPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -271,18 +271,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_FieldPropertyOutputReference{}
+			j := jsiiProxy_TfTable_FieldPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergCompactionProperty",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergCompactionProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergCompactionProperty",
+		reflect.TypeOf((*TfTable_IcebergCompactionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergCompactionPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergCompactionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergCompactionPropertyOutputReference",
+		reflect.TypeOf((*TfTable_IcebergCompactionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -314,18 +314,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_IcebergCompactionPropertyOutputReference{}
+			j := jsiiProxy_TfTable_IcebergCompactionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergProperty",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergProperty",
+		reflect.TypeOf((*TfTable_IcebergProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergPropertyList",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergPropertyList",
+		reflect.TypeOf((*TfTable_IcebergPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -340,14 +340,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_IcebergPropertyList{}
+			j := jsiiProxy_TfTable_IcebergPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergPropertyOutputReference",
+		reflect.TypeOf((*TfTable_IcebergPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -379,18 +379,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_IcebergPropertyOutputReference{}
+			j := jsiiProxy_TfTable_IcebergPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergSnapshotManagementProperty",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergSnapshotManagementProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergSnapshotManagementProperty",
+		reflect.TypeOf((*TfTable_IcebergSnapshotManagementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.IcebergSnapshotManagementPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_IcebergSnapshotManagementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.IcebergSnapshotManagementPropertyOutputReference",
+		reflect.TypeOf((*TfTable_IcebergSnapshotManagementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -422,18 +422,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_IcebergSnapshotManagementPropertyOutputReference{}
+			j := jsiiProxy_TfTable_IcebergSnapshotManagementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MaintenanceConfigurationIcebergCompactionSettingsProperty",
-		reflect.TypeOf((*AwsS3TablesTable_MaintenanceConfigurationIcebergCompactionSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MaintenanceConfigurationIcebergCompactionSettingsProperty",
+		reflect.TypeOf((*TfTable_MaintenanceConfigurationIcebergCompactionSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MaintenanceConfigurationIcebergCompactionSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_MaintenanceConfigurationIcebergCompactionSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MaintenanceConfigurationIcebergCompactionSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfTable_MaintenanceConfigurationIcebergCompactionSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -461,18 +461,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_MaintenanceConfigurationIcebergCompactionSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfTable_MaintenanceConfigurationIcebergCompactionSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MaintenanceConfigurationIcebergSnapshotManagementSettingsProperty",
-		reflect.TypeOf((*AwsS3TablesTable_MaintenanceConfigurationIcebergSnapshotManagementSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MaintenanceConfigurationIcebergSnapshotManagementSettingsProperty",
+		reflect.TypeOf((*TfTable_MaintenanceConfigurationIcebergSnapshotManagementSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MaintenanceConfigurationIcebergSnapshotManagementSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_MaintenanceConfigurationIcebergSnapshotManagementSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MaintenanceConfigurationIcebergSnapshotManagementSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfTable_MaintenanceConfigurationIcebergSnapshotManagementSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -503,18 +503,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_MaintenanceConfigurationIcebergSnapshotManagementSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfTable_MaintenanceConfigurationIcebergSnapshotManagementSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MaintenanceConfigurationProperty",
-		reflect.TypeOf((*AwsS3TablesTable_MaintenanceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MaintenanceConfigurationProperty",
+		reflect.TypeOf((*TfTable_MaintenanceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MaintenanceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_MaintenanceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MaintenanceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTable_MaintenanceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -547,18 +547,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_MaintenanceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTable_MaintenanceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MetadataProperty",
-		reflect.TypeOf((*AwsS3TablesTable_MetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MetadataProperty",
+		reflect.TypeOf((*TfTable_MetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MetadataPropertyList",
-		reflect.TypeOf((*AwsS3TablesTable_MetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MetadataPropertyList",
+		reflect.TypeOf((*TfTable_MetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -573,14 +573,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_MetadataPropertyList{}
+			j := jsiiProxy_TfTable_MetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.MetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_MetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.MetadataPropertyOutputReference",
+		reflect.TypeOf((*TfTable_MetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -609,18 +609,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_MetadataPropertyOutputReference{}
+			j := jsiiProxy_TfTable_MetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.SchemaProperty",
-		reflect.TypeOf((*AwsS3TablesTable_SchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.SchemaProperty",
+		reflect.TypeOf((*TfTable_SchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.SchemaPropertyList",
-		reflect.TypeOf((*AwsS3TablesTable_SchemaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.SchemaPropertyList",
+		reflect.TypeOf((*TfTable_SchemaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -635,14 +635,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_SchemaPropertyList{}
+			j := jsiiProxy_TfTable_SchemaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTable.SchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTable_SchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTable.SchemaPropertyOutputReference",
+		reflect.TypeOf((*TfTable_SchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -671,14 +671,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTable_SchemaPropertyOutputReference{}
+			j := jsiiProxy_TfTable_SchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket",
-		reflect.TypeOf((*AwsS3TablesTableBucket)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket",
+		reflect.TypeOf((*TfTableBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -749,18 +749,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucket{}
+			j := jsiiProxy_TfTableBucket{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsS3TablesTableBucket_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfTableBucket_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableBucket_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTableBucket_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -791,18 +791,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucket_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTableBucket_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.IcebergUnreferencedFileRemovalProperty",
-		reflect.TypeOf((*AwsS3TablesTableBucket_IcebergUnreferencedFileRemovalProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.IcebergUnreferencedFileRemovalProperty",
+		reflect.TypeOf((*TfTableBucket_IcebergUnreferencedFileRemovalProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.IcebergUnreferencedFileRemovalPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableBucket_IcebergUnreferencedFileRemovalPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.IcebergUnreferencedFileRemovalPropertyOutputReference",
+		reflect.TypeOf((*TfTableBucket_IcebergUnreferencedFileRemovalPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -834,18 +834,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucket_IcebergUnreferencedFileRemovalPropertyOutputReference{}
+			j := jsiiProxy_TfTableBucket_IcebergUnreferencedFileRemovalPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.MaintenanceConfigurationProperty",
-		reflect.TypeOf((*AwsS3TablesTableBucket_MaintenanceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.MaintenanceConfigurationProperty",
+		reflect.TypeOf((*TfTableBucket_MaintenanceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.MaintenanceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableBucket_MaintenanceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.MaintenanceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTableBucket_MaintenanceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -874,18 +874,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucket_MaintenanceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTableBucket_MaintenanceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.SettingsProperty",
-		reflect.TypeOf((*AwsS3TablesTableBucket_SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.SettingsProperty",
+		reflect.TypeOf((*TfTableBucket_SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucket.SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableBucket_SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucket.SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfTableBucket_SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -916,18 +916,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unreferencedDaysInput", GoGetter: "UnreferencedDaysInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucket_SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfTableBucket_SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketConfig",
-		reflect.TypeOf((*AwsS3TablesTableBucketConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketConfig",
+		reflect.TypeOf((*TfTableBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketPolicy",
-		reflect.TypeOf((*AwsS3TablesTableBucketPolicy)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketPolicy",
+		reflect.TypeOf((*TfTableBucketPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -982,18 +982,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucketPolicy{}
+			j := jsiiProxy_TfTableBucketPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketPolicyConfig",
-		reflect.TypeOf((*AwsS3TablesTableBucketPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketPolicyConfig",
+		reflect.TypeOf((*TfTableBucketPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication",
+		reflect.TypeOf((*TfTableBucketReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1053,18 +1053,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucketReplication{}
+			j := jsiiProxy_TfTableBucketReplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication.DestinationProperty",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication_DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication.DestinationProperty",
+		reflect.TypeOf((*TfTableBucketReplication_DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication.DestinationPropertyList",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication_DestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication.DestinationPropertyList",
+		reflect.TypeOf((*TfTableBucketReplication_DestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1079,14 +1079,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucketReplication_DestinationPropertyList{}
+			j := jsiiProxy_TfTableBucketReplication_DestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication.DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication_DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication.DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfTableBucketReplication_DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1113,18 +1113,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucketReplication_DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfTableBucketReplication_DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication.RuleProperty",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication.RuleProperty",
+		reflect.TypeOf((*TfTableBucketReplication_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication.RulePropertyList",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication.RulePropertyList",
+		reflect.TypeOf((*TfTableBucketReplication_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1139,14 +1139,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucketReplication_RulePropertyList{}
+			j := jsiiProxy_TfTableBucketReplication_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplication.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplication_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplication.RulePropertyOutputReference",
+		reflect.TypeOf((*TfTableBucketReplication_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1175,22 +1175,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableBucketReplication_RulePropertyOutputReference{}
+			j := jsiiProxy_TfTableBucketReplication_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableBucketReplicationConfig",
-		reflect.TypeOf((*AwsS3TablesTableBucketReplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableBucketReplicationConfig",
+		reflect.TypeOf((*TfTableBucketReplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableConfig",
-		reflect.TypeOf((*AwsS3TablesTableConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableConfig",
+		reflect.TypeOf((*TfTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTablePolicy",
-		reflect.TypeOf((*AwsS3TablesTablePolicy)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTablePolicy",
+		reflect.TypeOf((*TfTablePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1249,18 +1249,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTablePolicy{}
+			j := jsiiProxy_TfTablePolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTablePolicyConfig",
-		reflect.TypeOf((*AwsS3TablesTablePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTablePolicyConfig",
+		reflect.TypeOf((*TfTablePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication",
-		reflect.TypeOf((*AwsS3TablesTableReplication)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication",
+		reflect.TypeOf((*TfTableReplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1320,18 +1320,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableReplication{}
+			j := jsiiProxy_TfTableReplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication.DestinationProperty",
-		reflect.TypeOf((*AwsS3TablesTableReplication_DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication.DestinationProperty",
+		reflect.TypeOf((*TfTableReplication_DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication.DestinationPropertyList",
-		reflect.TypeOf((*AwsS3TablesTableReplication_DestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication.DestinationPropertyList",
+		reflect.TypeOf((*TfTableReplication_DestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1346,14 +1346,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableReplication_DestinationPropertyList{}
+			j := jsiiProxy_TfTableReplication_DestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication.DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableReplication_DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication.DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfTableReplication_DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1380,18 +1380,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableReplication_DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfTableReplication_DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication.RuleProperty",
-		reflect.TypeOf((*AwsS3TablesTableReplication_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication.RuleProperty",
+		reflect.TypeOf((*TfTableReplication_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication.RulePropertyList",
-		reflect.TypeOf((*AwsS3TablesTableReplication_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication.RulePropertyList",
+		reflect.TypeOf((*TfTableReplication_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1406,14 +1406,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableReplication_RulePropertyList{}
+			j := jsiiProxy_TfTableReplication_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplication.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsS3TablesTableReplication_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplication.RulePropertyOutputReference",
+		reflect.TypeOf((*TfTableReplication_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1442,13 +1442,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3TablesTableReplication_RulePropertyOutputReference{}
+			j := jsiiProxy_TfTableReplication_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-tables.AwsS3TablesTableReplicationConfig",
-		reflect.TypeOf((*AwsS3TablesTableReplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-tables.TfTableReplicationConfig",
+		reflect.TypeOf((*TfTableReplicationConfig)(nil)).Elem(),
 	)
 }

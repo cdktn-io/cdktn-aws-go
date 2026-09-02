@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel",
-		reflect.TypeOf((*AwsMediaPackageChannel)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel",
+		reflect.TypeOf((*TfChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,18 +77,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaPackageChannel{}
+			j := jsiiProxy_TfChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel.HlsIngestProperty",
-		reflect.TypeOf((*AwsMediaPackageChannel_HlsIngestProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel.HlsIngestProperty",
+		reflect.TypeOf((*TfChannel_HlsIngestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel.HlsIngestPropertyList",
-		reflect.TypeOf((*AwsMediaPackageChannel_HlsIngestPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel.HlsIngestPropertyList",
+		reflect.TypeOf((*TfChannel_HlsIngestPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -102,14 +102,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaPackageChannel_HlsIngestPropertyList{}
+			j := jsiiProxy_TfChannel_HlsIngestPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel.HlsIngestPropertyOutputReference",
-		reflect.TypeOf((*AwsMediaPackageChannel_HlsIngestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel.HlsIngestPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsIngestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -135,18 +135,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaPackageChannel_HlsIngestPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsIngestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel.IngestEndpointsProperty",
-		reflect.TypeOf((*AwsMediaPackageChannel_IngestEndpointsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel.IngestEndpointsProperty",
+		reflect.TypeOf((*TfChannel_IngestEndpointsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel.IngestEndpointsPropertyList",
-		reflect.TypeOf((*AwsMediaPackageChannel_IngestEndpointsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel.IngestEndpointsPropertyList",
+		reflect.TypeOf((*TfChannel_IngestEndpointsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -160,14 +160,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaPackageChannel_IngestEndpointsPropertyList{}
+			j := jsiiProxy_TfChannel_IngestEndpointsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannel.IngestEndpointsPropertyOutputReference",
-		reflect.TypeOf((*AwsMediaPackageChannel_IngestEndpointsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannel.IngestEndpointsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_IngestEndpointsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -195,13 +195,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "username", GoGetter: "Username"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaPackageChannel_IngestEndpointsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_IngestEndpointsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-mediapackage.AwsMediaPackageChannelConfig",
-		reflect.TypeOf((*AwsMediaPackageChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage.TfChannelConfig",
+		reflect.TypeOf((*TfChannelConfig)(nil)).Elem(),
 	)
 }

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awswaf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validatePutInsertHeaderParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseAllowCustomRequestHandlingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

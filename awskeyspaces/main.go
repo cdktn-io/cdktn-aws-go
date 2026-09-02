@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesKeyspace",
-		reflect.TypeOf((*AwsKeyspacesKeyspace)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfKeyspace",
+		reflect.TypeOf((*TfKeyspace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -81,18 +81,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesKeyspace{}
+			j := jsiiProxy_TfKeyspace{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesKeyspace.ReplicationSpecificationProperty",
-		reflect.TypeOf((*AwsKeyspacesKeyspace_ReplicationSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfKeyspace.ReplicationSpecificationProperty",
+		reflect.TypeOf((*TfKeyspace_ReplicationSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesKeyspace.ReplicationSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesKeyspace_ReplicationSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfKeyspace.ReplicationSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfKeyspace_ReplicationSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -123,18 +123,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesKeyspace_ReplicationSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfKeyspace_ReplicationSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesKeyspace.TimeoutsProperty",
-		reflect.TypeOf((*AwsKeyspacesKeyspace_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfKeyspace.TimeoutsProperty",
+		reflect.TypeOf((*TfKeyspace_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesKeyspace.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesKeyspace_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfKeyspace.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfKeyspace_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -165,18 +165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesKeyspace_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfKeyspace_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesKeyspaceConfig",
-		reflect.TypeOf((*AwsKeyspacesKeyspaceConfig)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfKeyspaceConfig",
+		reflect.TypeOf((*TfKeyspaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable",
-		reflect.TypeOf((*AwsKeyspacesTable)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable",
+		reflect.TypeOf((*TfTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -275,18 +275,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable{}
+			j := jsiiProxy_TfTable{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.CapacitySpecificationProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_CapacitySpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.CapacitySpecificationProperty",
+		reflect.TypeOf((*TfTable_CapacitySpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.CapacitySpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_CapacitySpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.CapacitySpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfTable_CapacitySpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -320,18 +320,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeCapacityUnitsInput", GoGetter: "WriteCapacityUnitsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_CapacitySpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfTable_CapacitySpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ClientSideTimestampsProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_ClientSideTimestampsProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ClientSideTimestampsProperty",
+		reflect.TypeOf((*TfTable_ClientSideTimestampsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ClientSideTimestampsPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_ClientSideTimestampsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ClientSideTimestampsPropertyOutputReference",
+		reflect.TypeOf((*TfTable_ClientSideTimestampsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -358,18 +358,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_ClientSideTimestampsPropertyOutputReference{}
+			j := jsiiProxy_TfTable_ClientSideTimestampsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ClusteringKeyProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_ClusteringKeyProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ClusteringKeyProperty",
+		reflect.TypeOf((*TfTable_ClusteringKeyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ClusteringKeyPropertyList",
-		reflect.TypeOf((*AwsKeyspacesTable_ClusteringKeyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ClusteringKeyPropertyList",
+		reflect.TypeOf((*TfTable_ClusteringKeyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -384,14 +384,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_ClusteringKeyPropertyList{}
+			j := jsiiProxy_TfTable_ClusteringKeyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ClusteringKeyPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_ClusteringKeyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ClusteringKeyPropertyOutputReference",
+		reflect.TypeOf((*TfTable_ClusteringKeyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -420,18 +420,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_ClusteringKeyPropertyOutputReference{}
+			j := jsiiProxy_TfTable_ClusteringKeyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ColumnProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_ColumnProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ColumnProperty",
+		reflect.TypeOf((*TfTable_ColumnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ColumnPropertyList",
-		reflect.TypeOf((*AwsKeyspacesTable_ColumnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ColumnPropertyList",
+		reflect.TypeOf((*TfTable_ColumnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -446,14 +446,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_ColumnPropertyList{}
+			j := jsiiProxy_TfTable_ColumnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.ColumnPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_ColumnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.ColumnPropertyOutputReference",
+		reflect.TypeOf((*TfTable_ColumnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -482,18 +482,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_ColumnPropertyOutputReference{}
+			j := jsiiProxy_TfTable_ColumnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.CommentProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_CommentProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.CommentProperty",
+		reflect.TypeOf((*TfTable_CommentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.CommentPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_CommentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.CommentPropertyOutputReference",
+		reflect.TypeOf((*TfTable_CommentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -521,18 +521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_CommentPropertyOutputReference{}
+			j := jsiiProxy_TfTable_CommentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.EncryptionSpecificationProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_EncryptionSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.EncryptionSpecificationProperty",
+		reflect.TypeOf((*TfTable_EncryptionSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.EncryptionSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_EncryptionSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.EncryptionSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfTable_EncryptionSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -563,18 +563,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_EncryptionSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfTable_EncryptionSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.PartitionKeyProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_PartitionKeyProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.PartitionKeyProperty",
+		reflect.TypeOf((*TfTable_PartitionKeyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.PartitionKeyPropertyList",
-		reflect.TypeOf((*AwsKeyspacesTable_PartitionKeyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.PartitionKeyPropertyList",
+		reflect.TypeOf((*TfTable_PartitionKeyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -589,14 +589,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_PartitionKeyPropertyList{}
+			j := jsiiProxy_TfTable_PartitionKeyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.PartitionKeyPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_PartitionKeyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.PartitionKeyPropertyOutputReference",
+		reflect.TypeOf((*TfTable_PartitionKeyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -623,18 +623,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_PartitionKeyPropertyOutputReference{}
+			j := jsiiProxy_TfTable_PartitionKeyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.PointInTimeRecoveryProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_PointInTimeRecoveryProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.PointInTimeRecoveryProperty",
+		reflect.TypeOf((*TfTable_PointInTimeRecoveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.PointInTimeRecoveryPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_PointInTimeRecoveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.PointInTimeRecoveryPropertyOutputReference",
+		reflect.TypeOf((*TfTable_PointInTimeRecoveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -662,18 +662,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_PointInTimeRecoveryPropertyOutputReference{}
+			j := jsiiProxy_TfTable_PointInTimeRecoveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.SchemaDefinitionProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_SchemaDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.SchemaDefinitionProperty",
+		reflect.TypeOf((*TfTable_SchemaDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.SchemaDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_SchemaDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.SchemaDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfTable_SchemaDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusteringKey", GoGetter: "ClusteringKey"},
 			_jsii_.MemberProperty{JsiiProperty: "clusteringKeyInput", GoGetter: "ClusteringKeyInput"},
@@ -712,18 +712,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_SchemaDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfTable_SchemaDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.StaticColumnProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_StaticColumnProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.StaticColumnProperty",
+		reflect.TypeOf((*TfTable_StaticColumnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.StaticColumnPropertyList",
-		reflect.TypeOf((*AwsKeyspacesTable_StaticColumnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.StaticColumnPropertyList",
+		reflect.TypeOf((*TfTable_StaticColumnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -738,14 +738,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_StaticColumnPropertyList{}
+			j := jsiiProxy_TfTable_StaticColumnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.StaticColumnPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_StaticColumnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.StaticColumnPropertyOutputReference",
+		reflect.TypeOf((*TfTable_StaticColumnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -772,18 +772,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_StaticColumnPropertyOutputReference{}
+			j := jsiiProxy_TfTable_StaticColumnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.TimeoutsProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.TimeoutsProperty",
+		reflect.TypeOf((*TfTable_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTable_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -817,18 +817,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTable_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.TtlProperty",
-		reflect.TypeOf((*AwsKeyspacesTable_TtlProperty)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.TtlProperty",
+		reflect.TypeOf((*TfTable_TtlProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTable.TtlPropertyOutputReference",
-		reflect.TypeOf((*AwsKeyspacesTable_TtlPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTable.TtlPropertyOutputReference",
+		reflect.TypeOf((*TfTable_TtlPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -855,13 +855,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKeyspacesTable_TtlPropertyOutputReference{}
+			j := jsiiProxy_TfTable_TtlPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-keyspaces.AwsKeyspacesTableConfig",
-		reflect.TypeOf((*AwsKeyspacesTableConfig)(nil)).Elem(),
+		"@cdktn/aws-keyspaces.TfTableConfig",
+		reflect.TypeOf((*TfTableConfig)(nil)).Elem(),
 	)
 }

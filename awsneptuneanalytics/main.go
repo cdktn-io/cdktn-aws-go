@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraph",
-		reflect.TypeOf((*AwsNeptunegraphGraph)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraph",
+		reflect.TypeOf((*TfGraph)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -96,18 +96,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptunegraphGraph{}
+			j := jsiiProxy_TfGraph{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraph.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptunegraphGraph_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraph.TimeoutsProperty",
+		reflect.TypeOf((*TfGraph_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraph.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptunegraphGraph_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraph.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGraph_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -141,18 +141,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptunegraphGraph_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGraph_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraph.VectorSearchConfigurationProperty",
-		reflect.TypeOf((*AwsNeptunegraphGraph_VectorSearchConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraph.VectorSearchConfigurationProperty",
+		reflect.TypeOf((*TfGraph_VectorSearchConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraph.VectorSearchConfigurationPropertyList",
-		reflect.TypeOf((*AwsNeptunegraphGraph_VectorSearchConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraph.VectorSearchConfigurationPropertyList",
+		reflect.TypeOf((*TfGraph_VectorSearchConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -167,14 +167,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptunegraphGraph_VectorSearchConfigurationPropertyList{}
+			j := jsiiProxy_TfGraph_VectorSearchConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraph.VectorSearchConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptunegraphGraph_VectorSearchConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraph.VectorSearchConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGraph_VectorSearchConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -202,18 +202,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vectorSearchDimensionInput", GoGetter: "VectorSearchDimensionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptunegraphGraph_VectorSearchConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGraph_VectorSearchConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphGraphConfig",
-		reflect.TypeOf((*AwsNeptunegraphGraphConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfGraphConfig",
+		reflect.TypeOf((*TfGraphConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphPrivateGraphEndpoint",
-		reflect.TypeOf((*AwsNeptunegraphPrivateGraphEndpoint)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfPrivateGraphEndpoint",
+		reflect.TypeOf((*TfPrivateGraphEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -280,18 +280,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptunegraphPrivateGraphEndpoint{}
+			j := jsiiProxy_TfPrivateGraphEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphPrivateGraphEndpoint.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptunegraphPrivateGraphEndpoint_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfPrivateGraphEndpoint.TimeoutsProperty",
+		reflect.TypeOf((*TfPrivateGraphEndpoint_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphPrivateGraphEndpoint.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptunegraphPrivateGraphEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfPrivateGraphEndpoint.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPrivateGraphEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -322,13 +322,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptunegraphPrivateGraphEndpoint_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPrivateGraphEndpoint_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune-analytics.AwsNeptunegraphPrivateGraphEndpointConfig",
-		reflect.TypeOf((*AwsNeptunegraphPrivateGraphEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune-analytics.TfPrivateGraphEndpointConfig",
+		reflect.TypeOf((*TfPrivateGraphEndpointConfig)(nil)).Elem(),
 	)
 }

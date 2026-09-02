@@ -9,8 +9,72 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaCapacityReservation",
-		reflect.TypeOf((*AwsAthenaCapacityReservation)(nil)).Elem(),
+		"@cdktn/aws-athena.DataTfNamedQuery",
+		reflect.TypeOf((*DataTfNamedQuery)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "database", GoGetter: "Database"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "querystring", GoGetter: "Querystring"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetWorkgroup", GoMethod: "ResetWorkgroup"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+			_jsii_.MemberProperty{JsiiProperty: "workgroup", GoGetter: "Workgroup"},
+			_jsii_.MemberProperty{JsiiProperty: "workgroupInput", GoGetter: "WorkgroupInput"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfNamedQuery{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-athena.DataTfNamedQueryConfig",
+		reflect.TypeOf((*DataTfNamedQueryConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-athena.TfCapacityReservation",
+		reflect.TypeOf((*TfCapacityReservation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,18 +140,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaCapacityReservation{}
+			j := jsiiProxy_TfCapacityReservation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaCapacityReservation.TimeoutsProperty",
-		reflect.TypeOf((*AwsAthenaCapacityReservation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfCapacityReservation.TimeoutsProperty",
+		reflect.TypeOf((*TfCapacityReservation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaCapacityReservation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaCapacityReservation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfCapacityReservation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCapacityReservation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -121,18 +185,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaCapacityReservation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCapacityReservation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaCapacityReservationConfig",
-		reflect.TypeOf((*AwsAthenaCapacityReservationConfig)(nil)).Elem(),
+		"@cdktn/aws-athena.TfCapacityReservationConfig",
+		reflect.TypeOf((*TfCapacityReservationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaDataCatalog",
-		reflect.TypeOf((*AwsAthenaDataCatalog)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDataCatalog",
+		reflect.TypeOf((*TfDataCatalog)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -201,18 +265,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaDataCatalog{}
+			j := jsiiProxy_TfDataCatalog{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaDataCatalogConfig",
-		reflect.TypeOf((*AwsAthenaDataCatalogConfig)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDataCatalogConfig",
+		reflect.TypeOf((*TfDataCatalogConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaDatabase",
-		reflect.TypeOf((*AwsAthenaDatabase)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDatabase",
+		reflect.TypeOf((*TfDatabase)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aclConfiguration", GoGetter: "AclConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "aclConfigurationInput", GoGetter: "AclConfigurationInput"},
@@ -294,18 +358,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workgroupInput", GoGetter: "WorkgroupInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaDatabase{}
+			j := jsiiProxy_TfDatabase{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaDatabase.AclConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaDatabase_AclConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDatabase.AclConfigurationProperty",
+		reflect.TypeOf((*TfDatabase_AclConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaDatabase.AclConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaDatabase_AclConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDatabase.AclConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDatabase_AclConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -332,18 +396,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaDatabase_AclConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDatabase_AclConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaDatabase.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaDatabase_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDatabase.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfDatabase_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaDatabase.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaDatabase_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDatabase.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDatabase_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -373,18 +437,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaDatabase_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDatabase_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaDatabaseConfig",
-		reflect.TypeOf((*AwsAthenaDatabaseConfig)(nil)).Elem(),
+		"@cdktn/aws-athena.TfDatabaseConfig",
+		reflect.TypeOf((*TfDatabaseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaNamedQuery",
-		reflect.TypeOf((*AwsAthenaNamedQuery)(nil)).Elem(),
+		"@cdktn/aws-athena.TfNamedQuery",
+		reflect.TypeOf((*TfNamedQuery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -450,18 +514,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workgroupInput", GoGetter: "WorkgroupInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaNamedQuery{}
+			j := jsiiProxy_TfNamedQuery{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaNamedQueryConfig",
-		reflect.TypeOf((*AwsAthenaNamedQueryConfig)(nil)).Elem(),
+		"@cdktn/aws-athena.TfNamedQueryConfig",
+		reflect.TypeOf((*TfNamedQueryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaPreparedStatement",
-		reflect.TypeOf((*AwsAthenaPreparedStatement)(nil)).Elem(),
+		"@cdktn/aws-athena.TfPreparedStatement",
+		reflect.TypeOf((*TfPreparedStatement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -528,18 +592,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workgroupInput", GoGetter: "WorkgroupInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaPreparedStatement{}
+			j := jsiiProxy_TfPreparedStatement{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaPreparedStatement.TimeoutsProperty",
-		reflect.TypeOf((*AwsAthenaPreparedStatement_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfPreparedStatement.TimeoutsProperty",
+		reflect.TypeOf((*TfPreparedStatement_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaPreparedStatement.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaPreparedStatement_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfPreparedStatement.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPreparedStatement_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -573,18 +637,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaPreparedStatement_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPreparedStatement_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaPreparedStatementConfig",
-		reflect.TypeOf((*AwsAthenaPreparedStatementConfig)(nil)).Elem(),
+		"@cdktn/aws-athena.TfPreparedStatementConfig",
+		reflect.TypeOf((*TfPreparedStatementConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup",
-		reflect.TypeOf((*AwsAthenaWorkgroup)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup",
+		reflect.TypeOf((*TfWorkgroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -660,18 +724,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup{}
+			j := jsiiProxy_TfWorkgroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.AclConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_AclConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.AclConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_AclConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.AclConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_AclConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.AclConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_AclConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -698,18 +762,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_AclConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_AclConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.CloudWatchLoggingConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_CloudWatchLoggingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.CloudWatchLoggingConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_CloudWatchLoggingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.CloudWatchLoggingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_CloudWatchLoggingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.CloudWatchLoggingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_CloudWatchLoggingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -746,18 +810,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_CloudWatchLoggingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_CloudWatchLoggingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -785,18 +849,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bytesScannedCutoffPerQuery", GoGetter: "BytesScannedCutoffPerQuery"},
 			_jsii_.MemberProperty{JsiiProperty: "bytesScannedCutoffPerQueryInput", GoGetter: "BytesScannedCutoffPerQueryInput"},
@@ -867,18 +931,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ConfigurationResultConfigurationEncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ConfigurationResultConfigurationEncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ConfigurationResultConfigurationEncryptionConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_ConfigurationResultConfigurationEncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ConfigurationResultConfigurationEncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ConfigurationResultConfigurationEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ConfigurationResultConfigurationEncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_ConfigurationResultConfigurationEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -909,18 +973,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_ConfigurationResultConfigurationEncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_ConfigurationResultConfigurationEncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.CustomerContentEncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_CustomerContentEncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.CustomerContentEncryptionConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_CustomerContentEncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.CustomerContentEncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_CustomerContentEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.CustomerContentEncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_CustomerContentEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -948,18 +1012,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_CustomerContentEncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_CustomerContentEncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.EngineVersionProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_EngineVersionProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.EngineVersionProperty",
+		reflect.TypeOf((*TfWorkgroup_EngineVersionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.EngineVersionPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_EngineVersionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.EngineVersionPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_EngineVersionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -988,18 +1052,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_EngineVersionPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_EngineVersionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.IdentityCenterConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_IdentityCenterConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.IdentityCenterConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_IdentityCenterConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.IdentityCenterConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_IdentityCenterConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.IdentityCenterConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_IdentityCenterConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1030,18 +1094,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_IdentityCenterConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_IdentityCenterConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.LogTypeProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_LogTypeProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.LogTypeProperty",
+		reflect.TypeOf((*TfWorkgroup_LogTypeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.LogTypePropertyList",
-		reflect.TypeOf((*AwsAthenaWorkgroup_LogTypePropertyList)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.LogTypePropertyList",
+		reflect.TypeOf((*TfWorkgroup_LogTypePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1056,14 +1120,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_LogTypePropertyList{}
+			j := jsiiProxy_TfWorkgroup_LogTypePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.LogTypePropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_LogTypePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.LogTypePropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_LogTypePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1092,18 +1156,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_LogTypePropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_LogTypePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ManagedLoggingConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ManagedLoggingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ManagedLoggingConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_ManagedLoggingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ManagedLoggingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ManagedLoggingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ManagedLoggingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_ManagedLoggingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1133,18 +1197,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_ManagedLoggingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_ManagedLoggingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ManagedQueryResultsConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ManagedQueryResultsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ManagedQueryResultsConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_ManagedQueryResultsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ManagedQueryResultsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ManagedQueryResultsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ManagedQueryResultsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_ManagedQueryResultsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1176,18 +1240,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_ManagedQueryResultsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_ManagedQueryResultsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.MonitoringConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_MonitoringConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.MonitoringConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_MonitoringConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.MonitoringConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.MonitoringConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudWatchLoggingConfiguration", GoGetter: "CloudWatchLoggingConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudWatchLoggingConfigurationInput", GoGetter: "CloudWatchLoggingConfigurationInput"},
@@ -1224,18 +1288,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_MonitoringConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_MonitoringConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.QueryResultsS3AccessGrantsConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_QueryResultsS3AccessGrantsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.QueryResultsS3AccessGrantsConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_QueryResultsS3AccessGrantsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.QueryResultsS3AccessGrantsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_QueryResultsS3AccessGrantsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.QueryResultsS3AccessGrantsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_QueryResultsS3AccessGrantsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
 			_jsii_.MemberProperty{JsiiProperty: "authenticationTypeInput", GoGetter: "AuthenticationTypeInput"},
@@ -1267,18 +1331,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_QueryResultsS3AccessGrantsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_QueryResultsS3AccessGrantsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ResultConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ResultConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ResultConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_ResultConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.ResultConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_ResultConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.ResultConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_ResultConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aclConfiguration", GoGetter: "AclConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "aclConfigurationInput", GoGetter: "AclConfigurationInput"},
@@ -1317,18 +1381,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_ResultConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_ResultConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.S3LoggingConfigurationProperty",
-		reflect.TypeOf((*AwsAthenaWorkgroup_S3LoggingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.S3LoggingConfigurationProperty",
+		reflect.TypeOf((*TfWorkgroup_S3LoggingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.AwsAthenaWorkgroup.S3LoggingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAthenaWorkgroup_S3LoggingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroup.S3LoggingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkgroup_S3LoggingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1361,77 +1425,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAthenaWorkgroup_S3LoggingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkgroup_S3LoggingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.AwsAthenaWorkgroupConfig",
-		reflect.TypeOf((*AwsAthenaWorkgroupConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-athena.DataAwsAthenaNamedQuery",
-		reflect.TypeOf((*DataAwsAthenaNamedQuery)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "database", GoGetter: "Database"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "querystring", GoGetter: "Querystring"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetWorkgroup", GoMethod: "ResetWorkgroup"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-			_jsii_.MemberProperty{JsiiProperty: "workgroup", GoGetter: "Workgroup"},
-			_jsii_.MemberProperty{JsiiProperty: "workgroupInput", GoGetter: "WorkgroupInput"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsAthenaNamedQuery{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-athena.DataAwsAthenaNamedQueryConfig",
-		reflect.TypeOf((*DataAwsAthenaNamedQueryConfig)(nil)).Elem(),
+		"@cdktn/aws-athena.TfWorkgroupConfig",
+		reflect.TypeOf((*TfWorkgroupConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatement",
-		reflect.TypeOf((*AwsRedshiftdataStatement)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatement",
+		reflect.TypeOf((*TfStatement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -94,18 +94,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workgroupNameInput", GoGetter: "WorkgroupNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRedshiftdataStatement{}
+			j := jsiiProxy_TfStatement{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatement.ParametersProperty",
-		reflect.TypeOf((*AwsRedshiftdataStatement_ParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatement.ParametersProperty",
+		reflect.TypeOf((*TfStatement_ParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatement.ParametersPropertyList",
-		reflect.TypeOf((*AwsRedshiftdataStatement_ParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatement.ParametersPropertyList",
+		reflect.TypeOf((*TfStatement_ParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -120,14 +120,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRedshiftdataStatement_ParametersPropertyList{}
+			j := jsiiProxy_TfStatement_ParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatement.ParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsRedshiftdataStatement_ParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatement.ParametersPropertyOutputReference",
+		reflect.TypeOf((*TfStatement_ParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -156,18 +156,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRedshiftdataStatement_ParametersPropertyOutputReference{}
+			j := jsiiProxy_TfStatement_ParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatement.TimeoutsProperty",
-		reflect.TypeOf((*AwsRedshiftdataStatement_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatement.TimeoutsProperty",
+		reflect.TypeOf((*TfStatement_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatement.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRedshiftdataStatement_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatement.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfStatement_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -195,13 +195,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRedshiftdataStatement_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfStatement_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-redshift-data.AwsRedshiftdataStatementConfig",
-		reflect.TypeOf((*AwsRedshiftdataStatementConfig)(nil)).Elem(),
+		"@cdktn/aws-redshift-data.TfStatementConfig",
+		reflect.TypeOf((*TfStatementConfig)(nil)).Elem(),
 	)
 }

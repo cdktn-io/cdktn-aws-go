@@ -1,0 +1,110 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validatePutCloudwatchLoggingOptionsParameters(value *TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetBucketArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetBufferingIntervalParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetBufferingSizeParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetCompressionFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetErrorOutputPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

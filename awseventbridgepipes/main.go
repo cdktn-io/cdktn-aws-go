@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe",
-		reflect.TypeOf((*AwsPipesPipe)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe",
+		reflect.TypeOf((*TfPipe)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -115,18 +115,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe{}
+			j := jsiiProxy_TfPipe{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ActivemqBrokerParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_ActivemqBrokerParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ActivemqBrokerParametersProperty",
+		reflect.TypeOf((*TfPipe_ActivemqBrokerParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ActivemqBrokerParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_ActivemqBrokerParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ActivemqBrokerParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_ActivemqBrokerParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
 			_jsii_.MemberProperty{JsiiProperty: "batchSizeInput", GoGetter: "BatchSizeInput"},
@@ -162,18 +162,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_ActivemqBrokerParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_ActivemqBrokerParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ArrayPropertiesProperty",
-		reflect.TypeOf((*AwsPipesPipe_ArrayPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ArrayPropertiesProperty",
+		reflect.TypeOf((*TfPipe_ArrayPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ArrayPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_ArrayPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ArrayPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_ArrayPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -201,18 +201,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_ArrayPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_ArrayPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.AwsVpcConfigurationProperty",
-		reflect.TypeOf((*AwsPipesPipe_AwsVpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.AwsVpcConfigurationProperty",
+		reflect.TypeOf((*TfPipe_AwsVpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.AwsVpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_AwsVpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.AwsVpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_AwsVpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIp", GoGetter: "AssignPublicIp"},
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIpInput", GoGetter: "AssignPublicIpInput"},
@@ -246,18 +246,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_AwsVpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_AwsVpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.BatchJobParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_BatchJobParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.BatchJobParametersProperty",
+		reflect.TypeOf((*TfPipe_BatchJobParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.BatchJobParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_BatchJobParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.BatchJobParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_BatchJobParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arrayProperties", GoGetter: "ArrayProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "arrayPropertiesInput", GoGetter: "ArrayPropertiesInput"},
@@ -305,18 +305,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_BatchJobParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_BatchJobParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CapacityProviderStrategyProperty",
-		reflect.TypeOf((*AwsPipesPipe_CapacityProviderStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CapacityProviderStrategyProperty",
+		reflect.TypeOf((*TfPipe_CapacityProviderStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CapacityProviderStrategyPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_CapacityProviderStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CapacityProviderStrategyPropertyList",
+		reflect.TypeOf((*TfPipe_CapacityProviderStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -331,14 +331,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_CapacityProviderStrategyPropertyList{}
+			j := jsiiProxy_TfPipe_CapacityProviderStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CapacityProviderStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_CapacityProviderStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CapacityProviderStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_CapacityProviderStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "base", GoGetter: "Base"},
 			_jsii_.MemberProperty{JsiiProperty: "baseInput", GoGetter: "BaseInput"},
@@ -371,18 +371,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightInput", GoGetter: "WeightInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_CapacityProviderStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_CapacityProviderStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CloudwatchLogsLogDestinationProperty",
-		reflect.TypeOf((*AwsPipesPipe_CloudwatchLogsLogDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CloudwatchLogsLogDestinationProperty",
+		reflect.TypeOf((*TfPipe_CloudwatchLogsLogDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CloudwatchLogsLogDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_CloudwatchLogsLogDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CloudwatchLogsLogDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_CloudwatchLogsLogDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -409,18 +409,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_CloudwatchLogsLogDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_CloudwatchLogsLogDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CloudwatchLogsParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_CloudwatchLogsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CloudwatchLogsParametersProperty",
+		reflect.TypeOf((*TfPipe_CloudwatchLogsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.CloudwatchLogsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_CloudwatchLogsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.CloudwatchLogsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_CloudwatchLogsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -451,18 +451,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_CloudwatchLogsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_CloudwatchLogsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ContainerOverrideProperty",
-		reflect.TypeOf((*AwsPipesPipe_ContainerOverrideProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ContainerOverrideProperty",
+		reflect.TypeOf((*TfPipe_ContainerOverrideProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ContainerOverridePropertyList",
-		reflect.TypeOf((*AwsPipesPipe_ContainerOverridePropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ContainerOverridePropertyList",
+		reflect.TypeOf((*TfPipe_ContainerOverridePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -477,14 +477,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_ContainerOverridePropertyList{}
+			j := jsiiProxy_TfPipe_ContainerOverridePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ContainerOverridePropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_ContainerOverridePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ContainerOverridePropertyOutputReference",
+		reflect.TypeOf((*TfPipe_ContainerOverridePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
 			_jsii_.MemberProperty{JsiiProperty: "commandInput", GoGetter: "CommandInput"},
@@ -536,18 +536,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_ContainerOverridePropertyOutputReference{}
+			j := jsiiProxy_TfPipe_ContainerOverridePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ContainerOverridesProperty",
-		reflect.TypeOf((*AwsPipesPipe_ContainerOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ContainerOverridesProperty",
+		reflect.TypeOf((*TfPipe_ContainerOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ContainerOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_ContainerOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ContainerOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_ContainerOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "command", GoGetter: "Command"},
 			_jsii_.MemberProperty{JsiiProperty: "commandInput", GoGetter: "CommandInput"},
@@ -586,18 +586,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_ContainerOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_ContainerOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.DependsOnProperty",
-		reflect.TypeOf((*AwsPipesPipe_DependsOnProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.DependsOnProperty",
+		reflect.TypeOf((*TfPipe_DependsOnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.DependsOnPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_DependsOnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.DependsOnPropertyList",
+		reflect.TypeOf((*TfPipe_DependsOnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -612,14 +612,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_DependsOnPropertyList{}
+			j := jsiiProxy_TfPipe_DependsOnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.DependsOnPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_DependsOnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.DependsOnPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_DependsOnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -650,18 +650,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_DependsOnPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_DependsOnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.DynamodbStreamParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_DynamodbStreamParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.DynamodbStreamParametersProperty",
+		reflect.TypeOf((*TfPipe_DynamodbStreamParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.DynamodbStreamParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_DynamodbStreamParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.DynamodbStreamParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_DynamodbStreamParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
 			_jsii_.MemberProperty{JsiiProperty: "batchSizeInput", GoGetter: "BatchSizeInput"},
@@ -710,18 +710,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_DynamodbStreamParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_DynamodbStreamParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EcsTaskParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_EcsTaskParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EcsTaskParametersProperty",
+		reflect.TypeOf((*TfPipe_EcsTaskParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EcsTaskParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_EcsTaskParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EcsTaskParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_EcsTaskParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderStrategy", GoGetter: "CapacityProviderStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderStrategyInput", GoGetter: "CapacityProviderStrategyInput"},
@@ -795,18 +795,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EcsTaskParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_EcsTaskParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnrichmentParametersHttpParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_EnrichmentParametersHttpParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnrichmentParametersHttpParametersProperty",
+		reflect.TypeOf((*TfPipe_EnrichmentParametersHttpParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnrichmentParametersHttpParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_EnrichmentParametersHttpParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnrichmentParametersHttpParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_EnrichmentParametersHttpParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -840,18 +840,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EnrichmentParametersHttpParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_EnrichmentParametersHttpParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnrichmentParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_EnrichmentParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnrichmentParametersProperty",
+		reflect.TypeOf((*TfPipe_EnrichmentParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnrichmentParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_EnrichmentParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnrichmentParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_EnrichmentParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -883,18 +883,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EnrichmentParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_EnrichmentParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnvironmentFileProperty",
-		reflect.TypeOf((*AwsPipesPipe_EnvironmentFileProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnvironmentFileProperty",
+		reflect.TypeOf((*TfPipe_EnvironmentFileProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnvironmentFilePropertyList",
-		reflect.TypeOf((*AwsPipesPipe_EnvironmentFilePropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnvironmentFilePropertyList",
+		reflect.TypeOf((*TfPipe_EnvironmentFilePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -909,14 +909,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EnvironmentFilePropertyList{}
+			j := jsiiProxy_TfPipe_EnvironmentFilePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EnvironmentFilePropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_EnvironmentFilePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EnvironmentFilePropertyOutputReference",
+		reflect.TypeOf((*TfPipe_EnvironmentFilePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -945,18 +945,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EnvironmentFilePropertyOutputReference{}
+			j := jsiiProxy_TfPipe_EnvironmentFilePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EphemeralStorageProperty",
-		reflect.TypeOf((*AwsPipesPipe_EphemeralStorageProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EphemeralStorageProperty",
+		reflect.TypeOf((*TfPipe_EphemeralStorageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EphemeralStoragePropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_EphemeralStoragePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EphemeralStoragePropertyOutputReference",
+		reflect.TypeOf((*TfPipe_EphemeralStoragePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -983,18 +983,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EphemeralStoragePropertyOutputReference{}
+			j := jsiiProxy_TfPipe_EphemeralStoragePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EventbridgeEventBusParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_EventbridgeEventBusParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EventbridgeEventBusParametersProperty",
+		reflect.TypeOf((*TfPipe_EventbridgeEventBusParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.EventbridgeEventBusParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_EventbridgeEventBusParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.EventbridgeEventBusParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_EventbridgeEventBusParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1034,18 +1034,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_EventbridgeEventBusParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_EventbridgeEventBusParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FilterCriteriaProperty",
-		reflect.TypeOf((*AwsPipesPipe_FilterCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FilterCriteriaProperty",
+		reflect.TypeOf((*TfPipe_FilterCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FilterCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_FilterCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FilterCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_FilterCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1074,18 +1074,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_FilterCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_FilterCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FilterProperty",
-		reflect.TypeOf((*AwsPipesPipe_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FilterProperty",
+		reflect.TypeOf((*TfPipe_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FilterPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_FilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FilterPropertyList",
+		reflect.TypeOf((*TfPipe_FilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1100,14 +1100,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_FilterPropertyList{}
+			j := jsiiProxy_TfPipe_FilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FilterPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FilterPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1134,18 +1134,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_FilterPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FirehoseLogDestinationProperty",
-		reflect.TypeOf((*AwsPipesPipe_FirehoseLogDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FirehoseLogDestinationProperty",
+		reflect.TypeOf((*TfPipe_FirehoseLogDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.FirehoseLogDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_FirehoseLogDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.FirehoseLogDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_FirehoseLogDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1172,18 +1172,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_FirehoseLogDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_FirehoseLogDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.InferenceAcceleratorOverrideProperty",
-		reflect.TypeOf((*AwsPipesPipe_InferenceAcceleratorOverrideProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.InferenceAcceleratorOverrideProperty",
+		reflect.TypeOf((*TfPipe_InferenceAcceleratorOverrideProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.InferenceAcceleratorOverridePropertyList",
-		reflect.TypeOf((*AwsPipesPipe_InferenceAcceleratorOverridePropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.InferenceAcceleratorOverridePropertyList",
+		reflect.TypeOf((*TfPipe_InferenceAcceleratorOverridePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1198,14 +1198,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_InferenceAcceleratorOverridePropertyList{}
+			j := jsiiProxy_TfPipe_InferenceAcceleratorOverridePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.InferenceAcceleratorOverridePropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_InferenceAcceleratorOverridePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.InferenceAcceleratorOverridePropertyOutputReference",
+		reflect.TypeOf((*TfPipe_InferenceAcceleratorOverridePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1236,18 +1236,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_InferenceAcceleratorOverridePropertyOutputReference{}
+			j := jsiiProxy_TfPipe_InferenceAcceleratorOverridePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.LambdaFunctionParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_LambdaFunctionParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.LambdaFunctionParametersProperty",
+		reflect.TypeOf((*TfPipe_LambdaFunctionParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.LambdaFunctionParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_LambdaFunctionParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.LambdaFunctionParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_LambdaFunctionParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1274,18 +1274,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_LambdaFunctionParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_LambdaFunctionParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.LogConfigurationProperty",
-		reflect.TypeOf((*AwsPipesPipe_LogConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.LogConfigurationProperty",
+		reflect.TypeOf((*TfPipe_LogConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.LogConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_LogConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.LogConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_LogConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsLogDestination", GoGetter: "CloudwatchLogsLogDestination"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsLogDestinationInput", GoGetter: "CloudwatchLogsLogDestinationInput"},
@@ -1327,18 +1327,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_LogConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_LogConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ManagedStreamingKafkaParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_ManagedStreamingKafkaParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ManagedStreamingKafkaParametersProperty",
+		reflect.TypeOf((*TfPipe_ManagedStreamingKafkaParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.ManagedStreamingKafkaParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_ManagedStreamingKafkaParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.ManagedStreamingKafkaParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_ManagedStreamingKafkaParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
 			_jsii_.MemberProperty{JsiiProperty: "batchSizeInput", GoGetter: "BatchSizeInput"},
@@ -1381,18 +1381,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_ManagedStreamingKafkaParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_ManagedStreamingKafkaParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsPipesPipe_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfPipe_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsVpcConfiguration", GoGetter: "AwsVpcConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "awsVpcConfigurationInput", GoGetter: "AwsVpcConfigurationInput"},
@@ -1421,18 +1421,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.OverridesProperty",
-		reflect.TypeOf((*AwsPipesPipe_OverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.OverridesProperty",
+		reflect.TypeOf((*TfPipe_OverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.OverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_OverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.OverridesPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_OverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1481,18 +1481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_OverridesPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_OverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PipelineParameterProperty",
-		reflect.TypeOf((*AwsPipesPipe_PipelineParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PipelineParameterProperty",
+		reflect.TypeOf((*TfPipe_PipelineParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PipelineParameterPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_PipelineParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PipelineParameterPropertyList",
+		reflect.TypeOf((*TfPipe_PipelineParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1507,14 +1507,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_PipelineParameterPropertyList{}
+			j := jsiiProxy_TfPipe_PipelineParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PipelineParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_PipelineParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PipelineParameterPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_PipelineParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1543,18 +1543,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_PipelineParameterPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_PipelineParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PlacementConstraintProperty",
-		reflect.TypeOf((*AwsPipesPipe_PlacementConstraintProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PlacementConstraintProperty",
+		reflect.TypeOf((*TfPipe_PlacementConstraintProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PlacementConstraintPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_PlacementConstraintPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PlacementConstraintPropertyList",
+		reflect.TypeOf((*TfPipe_PlacementConstraintPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1569,14 +1569,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_PlacementConstraintPropertyList{}
+			j := jsiiProxy_TfPipe_PlacementConstraintPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PlacementConstraintPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_PlacementConstraintPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PlacementConstraintPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_PlacementConstraintPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1607,18 +1607,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_PlacementConstraintPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_PlacementConstraintPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PlacementStrategyProperty",
-		reflect.TypeOf((*AwsPipesPipe_PlacementStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PlacementStrategyProperty",
+		reflect.TypeOf((*TfPipe_PlacementStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PlacementStrategyPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_PlacementStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PlacementStrategyPropertyList",
+		reflect.TypeOf((*TfPipe_PlacementStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1633,14 +1633,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_PlacementStrategyPropertyList{}
+			j := jsiiProxy_TfPipe_PlacementStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.PlacementStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_PlacementStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.PlacementStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_PlacementStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1671,18 +1671,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_PlacementStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_PlacementStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.RabbitmqBrokerParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_RabbitmqBrokerParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.RabbitmqBrokerParametersProperty",
+		reflect.TypeOf((*TfPipe_RabbitmqBrokerParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.RabbitmqBrokerParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_RabbitmqBrokerParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.RabbitmqBrokerParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_RabbitmqBrokerParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
 			_jsii_.MemberProperty{JsiiProperty: "batchSizeInput", GoGetter: "BatchSizeInput"},
@@ -1721,18 +1721,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "virtualHostInput", GoGetter: "VirtualHostInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_RabbitmqBrokerParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_RabbitmqBrokerParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.RedshiftDataParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_RedshiftDataParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.RedshiftDataParametersProperty",
+		reflect.TypeOf((*TfPipe_RedshiftDataParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.RedshiftDataParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_RedshiftDataParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.RedshiftDataParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_RedshiftDataParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1773,18 +1773,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "withEventInput", GoGetter: "WithEventInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_RedshiftDataParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_RedshiftDataParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.RetryStrategyProperty",
-		reflect.TypeOf((*AwsPipesPipe_RetryStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.RetryStrategyProperty",
+		reflect.TypeOf((*TfPipe_RetryStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.RetryStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_RetryStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.RetryStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_RetryStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attempts", GoGetter: "Attempts"},
 			_jsii_.MemberProperty{JsiiProperty: "attemptsInput", GoGetter: "AttemptsInput"},
@@ -1812,18 +1812,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_RetryStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_RetryStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.S3LogDestinationProperty",
-		reflect.TypeOf((*AwsPipesPipe_S3LogDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.S3LogDestinationProperty",
+		reflect.TypeOf((*TfPipe_S3LogDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.S3LogDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_S3LogDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.S3LogDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_S3LogDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -1858,18 +1858,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_S3LogDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_S3LogDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SagemakerPipelineParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_SagemakerPipelineParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SagemakerPipelineParametersProperty",
+		reflect.TypeOf((*TfPipe_SagemakerPipelineParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SagemakerPipelineParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SagemakerPipelineParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SagemakerPipelineParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SagemakerPipelineParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1898,18 +1898,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SagemakerPipelineParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SagemakerPipelineParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SelfManagedKafkaParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_SelfManagedKafkaParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SelfManagedKafkaParametersProperty",
+		reflect.TypeOf((*TfPipe_SelfManagedKafkaParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SelfManagedKafkaParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SelfManagedKafkaParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SelfManagedKafkaParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SelfManagedKafkaParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalBootstrapServers", GoGetter: "AdditionalBootstrapServers"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalBootstrapServersInput", GoGetter: "AdditionalBootstrapServersInput"},
@@ -1962,18 +1962,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SelfManagedKafkaParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SelfManagedKafkaParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersActivemqBrokerParametersCredentialsProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersActivemqBrokerParametersCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersActivemqBrokerParametersCredentialsProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersActivemqBrokerParametersCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersActivemqBrokerParametersCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersActivemqBrokerParametersCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersActivemqBrokerParametersCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersActivemqBrokerParametersCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuth", GoGetter: "BasicAuth"},
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthInput", GoGetter: "BasicAuthInput"},
@@ -2000,18 +2000,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersActivemqBrokerParametersCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersActivemqBrokerParametersCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersDynamodbStreamParametersDeadLetterConfigProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersDynamodbStreamParametersDeadLetterConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersDynamodbStreamParametersDeadLetterConfigProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersDynamodbStreamParametersDeadLetterConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersDynamodbStreamParametersDeadLetterConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersDynamodbStreamParametersDeadLetterConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersDynamodbStreamParametersDeadLetterConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersDynamodbStreamParametersDeadLetterConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -2039,18 +2039,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersDynamodbStreamParametersDeadLetterConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersDynamodbStreamParametersDeadLetterConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersKinesisStreamParametersDeadLetterConfigProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersKinesisStreamParametersDeadLetterConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersKinesisStreamParametersDeadLetterConfigProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersKinesisStreamParametersDeadLetterConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersKinesisStreamParametersDeadLetterConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersKinesisStreamParametersDeadLetterConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersKinesisStreamParametersDeadLetterConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersKinesisStreamParametersDeadLetterConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -2078,18 +2078,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersKinesisStreamParametersDeadLetterConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersKinesisStreamParametersDeadLetterConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersKinesisStreamParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersKinesisStreamParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersKinesisStreamParametersProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersKinesisStreamParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersKinesisStreamParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersKinesisStreamParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersKinesisStreamParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersKinesisStreamParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
 			_jsii_.MemberProperty{JsiiProperty: "batchSizeInput", GoGetter: "BatchSizeInput"},
@@ -2141,18 +2141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersKinesisStreamParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersKinesisStreamParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersManagedStreamingKafkaParametersCredentialsProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersManagedStreamingKafkaParametersCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersManagedStreamingKafkaParametersCredentialsProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersManagedStreamingKafkaParametersCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersManagedStreamingKafkaParametersCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersManagedStreamingKafkaParametersCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersManagedStreamingKafkaParametersCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersManagedStreamingKafkaParametersCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientCertificateTlsAuth", GoGetter: "ClientCertificateTlsAuth"},
 			_jsii_.MemberProperty{JsiiProperty: "clientCertificateTlsAuthInput", GoGetter: "ClientCertificateTlsAuthInput"},
@@ -2183,18 +2183,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersManagedStreamingKafkaParametersCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersManagedStreamingKafkaParametersCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activemqBrokerParameters", GoGetter: "ActivemqBrokerParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "activemqBrokerParametersInput", GoGetter: "ActivemqBrokerParametersInput"},
@@ -2251,18 +2251,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersRabbitmqBrokerParametersCredentialsProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersRabbitmqBrokerParametersCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersRabbitmqBrokerParametersCredentialsProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersRabbitmqBrokerParametersCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersRabbitmqBrokerParametersCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersRabbitmqBrokerParametersCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersRabbitmqBrokerParametersCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersRabbitmqBrokerParametersCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuth", GoGetter: "BasicAuth"},
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthInput", GoGetter: "BasicAuthInput"},
@@ -2289,18 +2289,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersRabbitmqBrokerParametersCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersRabbitmqBrokerParametersCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersSelfManagedKafkaParametersCredentialsProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersSelfManagedKafkaParametersCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersSelfManagedKafkaParametersCredentialsProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersSelfManagedKafkaParametersCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersSelfManagedKafkaParametersCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersSelfManagedKafkaParametersCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersSelfManagedKafkaParametersCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersSelfManagedKafkaParametersCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuth", GoGetter: "BasicAuth"},
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthInput", GoGetter: "BasicAuthInput"},
@@ -2337,18 +2337,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersSelfManagedKafkaParametersCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersSelfManagedKafkaParametersCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersSqsQueueParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersSqsQueueParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersSqsQueueParametersProperty",
+		reflect.TypeOf((*TfPipe_SourceParametersSqsQueueParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.SourceParametersSqsQueueParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_SourceParametersSqsQueueParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.SourceParametersSqsQueueParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_SourceParametersSqsQueueParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchSize", GoGetter: "BatchSize"},
 			_jsii_.MemberProperty{JsiiProperty: "batchSizeInput", GoGetter: "BatchSizeInput"},
@@ -2379,18 +2379,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_SourceParametersSqsQueueParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_SourceParametersSqsQueueParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.StepFunctionStateMachineParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_StepFunctionStateMachineParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.StepFunctionStateMachineParametersProperty",
+		reflect.TypeOf((*TfPipe_StepFunctionStateMachineParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.StepFunctionStateMachineParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_StepFunctionStateMachineParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.StepFunctionStateMachineParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_StepFunctionStateMachineParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2417,18 +2417,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_StepFunctionStateMachineParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_StepFunctionStateMachineParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersBatchJobParametersContainerOverridesEnvironmentProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersBatchJobParametersContainerOverridesEnvironmentProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyList",
+		reflect.TypeOf((*TfPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2443,14 +2443,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyList{}
+			j := jsiiProxy_TfPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2481,18 +2481,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersBatchJobParametersContainerOverridesEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersBatchJobParametersContainerOverridesResourceRequirementProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersBatchJobParametersContainerOverridesResourceRequirementProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyList",
+		reflect.TypeOf((*TfPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2507,14 +2507,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyList{}
+			j := jsiiProxy_TfPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2543,18 +2543,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersBatchJobParametersContainerOverridesResourceRequirementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyList",
+		reflect.TypeOf((*TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2569,14 +2569,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyList{}
+			j := jsiiProxy_TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2607,18 +2607,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideEnvironmentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyList",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyList",
+		reflect.TypeOf((*TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2633,14 +2633,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyList{}
+			j := jsiiProxy_TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2669,18 +2669,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersHttpParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersHttpParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersHttpParametersProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersHttpParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersHttpParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersHttpParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersHttpParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersHttpParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2714,18 +2714,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersHttpParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersHttpParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersKinesisStreamParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersKinesisStreamParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersKinesisStreamParametersProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersKinesisStreamParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersKinesisStreamParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersKinesisStreamParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersKinesisStreamParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersKinesisStreamParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2752,18 +2752,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersKinesisStreamParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersKinesisStreamParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchJobParameters", GoGetter: "BatchJobParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "batchJobParametersInput", GoGetter: "BatchJobParametersInput"},
@@ -2835,18 +2835,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersSqsQueueParametersProperty",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersSqsQueueParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersSqsQueueParametersProperty",
+		reflect.TypeOf((*TfPipe_TargetParametersSqsQueueParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TargetParametersSqsQueueParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TargetParametersSqsQueueParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TargetParametersSqsQueueParametersPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TargetParametersSqsQueueParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2877,18 +2877,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TargetParametersSqsQueueParametersPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TargetParametersSqsQueueParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TimeoutsProperty",
-		reflect.TypeOf((*AwsPipesPipe_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TimeoutsProperty",
+		reflect.TypeOf((*TfPipe_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2922,18 +2922,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.VpcProperty",
-		reflect.TypeOf((*AwsPipesPipe_VpcProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.VpcProperty",
+		reflect.TypeOf((*TfPipe_VpcProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipe.VpcPropertyOutputReference",
-		reflect.TypeOf((*AwsPipesPipe_VpcPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipe.VpcPropertyOutputReference",
+		reflect.TypeOf((*TfPipe_VpcPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2964,13 +2964,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPipesPipe_VpcPropertyOutputReference{}
+			j := jsiiProxy_TfPipe_VpcPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-pipes.AwsPipesPipeConfig",
-		reflect.TypeOf((*AwsPipesPipeConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-pipes.TfPipeConfig",
+		reflect.TypeOf((*TfPipeConfig)(nil)).Elem(),
 	)
 }

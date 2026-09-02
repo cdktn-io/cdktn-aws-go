@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,18 +78,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationLogsConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationLogsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationLogsConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationLogsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationLogsConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationLogsConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -104,14 +104,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationLogsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationLogsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupConfiguration", GoGetter: "BackupConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "backupConfigurationInput", GoGetter: "BackupConfigurationInput"},
@@ -152,18 +152,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_DestinationLogsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationMetricsConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationMetricsConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationMetricsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationMetricsConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationMetricsConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -178,14 +178,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationMetricsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationMetricsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "backupConfiguration", GoGetter: "BackupConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "backupConfigurationInput", GoGetter: "BackupConfigurationInput"},
@@ -214,18 +214,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_DestinationMetricsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -240,14 +240,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_DestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "account", GoGetter: "Account"},
 			_jsii_.MemberProperty{JsiiProperty: "accountInput", GoGetter: "AccountInput"},
@@ -284,18 +284,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.LogGroupNameConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_LogGroupNameConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.LogGroupNameConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_LogGroupNameConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.LogGroupNameConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.LogGroupNameConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -310,14 +310,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.LogGroupNameConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.LogGroupNameConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -344,18 +344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_LogGroupNameConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.LogsEncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_LogsEncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.LogsEncryptionConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_LogsEncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.LogsEncryptionConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.LogsEncryptionConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -370,14 +370,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.LogsEncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.LogsEncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -413,18 +413,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_LogsEncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleDestinationDestinationLogsConfigurationBackupConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleDestinationDestinationLogsConfigurationBackupConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -439,14 +439,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -477,18 +477,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_RuleDestinationDestinationLogsConfigurationBackupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleDestinationDestinationMetricsConfigurationBackupConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleDestinationDestinationMetricsConfigurationBackupConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -503,14 +503,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -537,18 +537,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RuleProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RuleProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RulePropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RulePropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -563,14 +563,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RulePropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.RulePropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -603,18 +603,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_RulePropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceLogsConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceLogsConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceLogsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceLogsConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceLogsConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceLogsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -629,14 +629,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_SourceLogsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceLogsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceLogsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -669,18 +669,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_SourceLogsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceMetricsConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceMetricsConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceMetricsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceMetricsConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceMetricsConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -695,14 +695,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceMetricsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceMetricsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -729,18 +729,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_SourceMetricsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourceProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourceProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourceProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourcePropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourcePropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -755,14 +755,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourcePropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_SourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.SourcePropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_SourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.SourcePropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_SourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -799,18 +799,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_SourcePropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_SourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.TagPropagationConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_TagPropagationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.TagPropagationConfigurationProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_TagPropagationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.TagPropagationConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_TagPropagationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.TagPropagationConfigurationPropertyList",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_TagPropagationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -825,14 +825,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_TagPropagationConfigurationPropertyList{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_TagPropagationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.TagPropagationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_TagPropagationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.TagPropagationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_TagPropagationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -862,18 +862,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_TagPropagationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_TagPropagationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.TimeoutsProperty",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganization.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganization.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCentralizationRuleForOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -904,18 +904,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminCentralizationRuleForOrganization_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCentralizationRuleForOrganization_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminCentralizationRuleForOrganizationConfig",
-		reflect.TypeOf((*AwsObservabilityadminCentralizationRuleForOrganizationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfCentralizationRuleForOrganizationConfig",
+		reflect.TypeOf((*TfCentralizationRuleForOrganizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegration",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegration)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegration",
+		reflect.TypeOf((*TfS3TableIntegration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -982,18 +982,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminS3TableIntegration{}
+			j := jsiiProxy_TfS3TableIntegration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegration.EncryptionProperty",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegration_EncryptionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegration.EncryptionProperty",
+		reflect.TypeOf((*TfS3TableIntegration_EncryptionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegration.EncryptionPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegration_EncryptionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegration.EncryptionPropertyList",
+		reflect.TypeOf((*TfS3TableIntegration_EncryptionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1008,14 +1008,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminS3TableIntegration_EncryptionPropertyList{}
+			j := jsiiProxy_TfS3TableIntegration_EncryptionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegration.EncryptionPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegration_EncryptionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegration.EncryptionPropertyOutputReference",
+		reflect.TypeOf((*TfS3TableIntegration_EncryptionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1045,18 +1045,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminS3TableIntegration_EncryptionPropertyOutputReference{}
+			j := jsiiProxy_TfS3TableIntegration_EncryptionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegration.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegration_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegration.TimeoutsProperty",
+		reflect.TypeOf((*TfS3TableIntegration_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegration.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegration_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegration.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfS3TableIntegration_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1087,18 +1087,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminS3TableIntegration_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfS3TableIntegration_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminS3TableIntegrationConfig",
-		reflect.TypeOf((*AwsObservabilityadminS3TableIntegrationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfS3TableIntegrationConfig",
+		reflect.TypeOf((*TfS3TableIntegrationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEnrichment",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEnrichment)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEnrichment",
+		reflect.TypeOf((*TfTelemetryEnrichment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1155,18 +1155,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryEnrichment{}
+			j := jsiiProxy_TfTelemetryEnrichment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEnrichment.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEnrichment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEnrichment.TimeoutsProperty",
+		reflect.TypeOf((*TfTelemetryEnrichment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEnrichment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEnrichment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEnrichment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryEnrichment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1197,18 +1197,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryEnrichment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryEnrichment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEnrichmentConfig",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEnrichmentConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEnrichmentConfig",
+		reflect.TypeOf((*TfTelemetryEnrichmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluation",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluation)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluation",
+		reflect.TypeOf((*TfTelemetryEvaluation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1266,18 +1266,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryEvaluation{}
+			j := jsiiProxy_TfTelemetryEvaluation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluation.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluation.TimeoutsProperty",
+		reflect.TypeOf((*TfTelemetryEvaluation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryEvaluation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1308,18 +1308,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryEvaluation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryEvaluation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluationConfig",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluationConfig",
+		reflect.TypeOf((*TfTelemetryEvaluationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluationForOrganization",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluationForOrganization)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluationForOrganization",
+		reflect.TypeOf((*TfTelemetryEvaluationForOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1384,18 +1384,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryEvaluationForOrganization{}
+			j := jsiiProxy_TfTelemetryEvaluationForOrganization{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluationForOrganization.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluationForOrganization_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluationForOrganization.TimeoutsProperty",
+		reflect.TypeOf((*TfTelemetryEvaluationForOrganization_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluationForOrganization.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluationForOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluationForOrganization.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryEvaluationForOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1426,18 +1426,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryEvaluationForOrganization_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryEvaluationForOrganization_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryEvaluationForOrganizationConfig",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryEvaluationForOrganizationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryEvaluationForOrganizationConfig",
+		reflect.TypeOf((*TfTelemetryEvaluationForOrganizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipeline",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipeline)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipeline",
+		reflect.TypeOf((*TfTelemetryPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1503,18 +1503,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryPipeline{}
+			j := jsiiProxy_TfTelemetryPipeline{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipeline.ConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipeline_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipeline.ConfigurationProperty",
+		reflect.TypeOf((*TfTelemetryPipeline_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipeline.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipeline_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipeline.ConfigurationPropertyList",
+		reflect.TypeOf((*TfTelemetryPipeline_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1529,14 +1529,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryPipeline_ConfigurationPropertyList{}
+			j := jsiiProxy_TfTelemetryPipeline_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipeline.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipeline_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipeline.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryPipeline_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "body", GoGetter: "Body"},
 			_jsii_.MemberProperty{JsiiProperty: "bodyInput", GoGetter: "BodyInput"},
@@ -1563,18 +1563,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryPipeline_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryPipeline_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipeline.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipeline_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipeline.TimeoutsProperty",
+		reflect.TypeOf((*TfTelemetryPipeline_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipeline.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipeline_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipeline.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryPipeline_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1608,18 +1608,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryPipeline_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryPipeline_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryPipelineConfig",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryPipelineConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryPipelineConfig",
+		reflect.TypeOf((*TfTelemetryPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule",
+		reflect.TypeOf((*TfTelemetryRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1685,18 +1685,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule{}
+			j := jsiiProxy_TfTelemetryRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ActionConditionProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ActionConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ActionConditionProperty",
+		reflect.TypeOf((*TfTelemetryRule_ActionConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ActionConditionPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ActionConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ActionConditionPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_ActionConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1711,14 +1711,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_ActionConditionPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_ActionConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ActionConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ActionConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ActionConditionPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_ActionConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -1745,18 +1745,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_ActionConditionPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_ActionConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.AdvancedEventSelectorsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_AdvancedEventSelectorsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.AdvancedEventSelectorsProperty",
+		reflect.TypeOf((*TfTelemetryRule_AdvancedEventSelectorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.AdvancedEventSelectorsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_AdvancedEventSelectorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.AdvancedEventSelectorsPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_AdvancedEventSelectorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1771,14 +1771,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_AdvancedEventSelectorsPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_AdvancedEventSelectorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.AdvancedEventSelectorsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_AdvancedEventSelectorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.AdvancedEventSelectorsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_AdvancedEventSelectorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1810,18 +1810,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_AdvancedEventSelectorsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_AdvancedEventSelectorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.CloudtrailParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_CloudtrailParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.CloudtrailParametersProperty",
+		reflect.TypeOf((*TfTelemetryRule_CloudtrailParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.CloudtrailParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_CloudtrailParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.CloudtrailParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_CloudtrailParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1836,14 +1836,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_CloudtrailParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_CloudtrailParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.CloudtrailParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_CloudtrailParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.CloudtrailParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_CloudtrailParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advancedEventSelectors", GoGetter: "AdvancedEventSelectors"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedEventSelectorsInput", GoGetter: "AdvancedEventSelectorsInput"},
@@ -1872,18 +1872,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_CloudtrailParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_CloudtrailParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ConditionsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ConditionsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ConditionsProperty",
+		reflect.TypeOf((*TfTelemetryRule_ConditionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ConditionsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ConditionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ConditionsPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_ConditionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1898,14 +1898,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_ConditionsPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_ConditionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ConditionsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ConditionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ConditionsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_ConditionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionCondition", GoGetter: "ActionCondition"},
 			_jsii_.MemberProperty{JsiiProperty: "actionConditionInput", GoGetter: "ActionConditionInput"},
@@ -1938,18 +1938,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_ConditionsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_ConditionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.DestinationConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_DestinationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.DestinationConfigurationProperty",
+		reflect.TypeOf((*TfTelemetryRule_DestinationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.DestinationConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_DestinationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.DestinationConfigurationPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_DestinationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1964,14 +1964,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_DestinationConfigurationPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_DestinationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.DestinationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.DestinationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudtrailParameters", GoGetter: "CloudtrailParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudtrailParametersInput", GoGetter: "CloudtrailParametersInput"},
@@ -2029,18 +2029,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wafLoggingParametersInput", GoGetter: "WafLoggingParametersInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_DestinationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_DestinationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ElbLoadBalancerLoggingParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ElbLoadBalancerLoggingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ElbLoadBalancerLoggingParametersProperty",
+		reflect.TypeOf((*TfTelemetryRule_ElbLoadBalancerLoggingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ElbLoadBalancerLoggingParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ElbLoadBalancerLoggingParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ElbLoadBalancerLoggingParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_ElbLoadBalancerLoggingParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2055,14 +2055,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_ElbLoadBalancerLoggingParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_ElbLoadBalancerLoggingParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.ElbLoadBalancerLoggingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_ElbLoadBalancerLoggingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.ElbLoadBalancerLoggingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_ElbLoadBalancerLoggingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2093,18 +2093,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_ElbLoadBalancerLoggingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_ElbLoadBalancerLoggingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.FieldSelectorsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_FieldSelectorsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.FieldSelectorsProperty",
+		reflect.TypeOf((*TfTelemetryRule_FieldSelectorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.FieldSelectorsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_FieldSelectorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.FieldSelectorsPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_FieldSelectorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2119,14 +2119,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_FieldSelectorsPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_FieldSelectorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.FieldSelectorsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_FieldSelectorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.FieldSelectorsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_FieldSelectorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2171,18 +2171,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_FieldSelectorsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_FieldSelectorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.FiltersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_FiltersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.FiltersProperty",
+		reflect.TypeOf((*TfTelemetryRule_FiltersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.FiltersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_FiltersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.FiltersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_FiltersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2197,14 +2197,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_FiltersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_FiltersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.FiltersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_FiltersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.FiltersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_FiltersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -2239,18 +2239,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_FiltersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_FiltersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LabelNameConditionProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LabelNameConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LabelNameConditionProperty",
+		reflect.TypeOf((*TfTelemetryRule_LabelNameConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LabelNameConditionPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LabelNameConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LabelNameConditionPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_LabelNameConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2265,14 +2265,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_LabelNameConditionPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_LabelNameConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LabelNameConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LabelNameConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LabelNameConditionPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_LabelNameConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2300,18 +2300,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_LabelNameConditionPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_LabelNameConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LogDeliveryParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LogDeliveryParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LogDeliveryParametersProperty",
+		reflect.TypeOf((*TfTelemetryRule_LogDeliveryParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LogDeliveryParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LogDeliveryParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LogDeliveryParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_LogDeliveryParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2326,14 +2326,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_LogDeliveryParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_LogDeliveryParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LogDeliveryParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LogDeliveryParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LogDeliveryParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_LogDeliveryParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2361,18 +2361,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_LogDeliveryParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_LogDeliveryParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LoggingFilterProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LoggingFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LoggingFilterProperty",
+		reflect.TypeOf((*TfTelemetryRule_LoggingFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LoggingFilterPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LoggingFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LoggingFilterPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_LoggingFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2387,14 +2387,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_LoggingFilterPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_LoggingFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.LoggingFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_LoggingFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.LoggingFilterPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_LoggingFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2426,18 +2426,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_LoggingFilterPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_LoggingFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.MskMonitoringParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_MskMonitoringParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.MskMonitoringParametersProperty",
+		reflect.TypeOf((*TfTelemetryRule_MskMonitoringParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.MskMonitoringParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_MskMonitoringParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.MskMonitoringParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_MskMonitoringParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2452,14 +2452,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_MskMonitoringParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_MskMonitoringParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.MskMonitoringParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_MskMonitoringParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.MskMonitoringParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_MskMonitoringParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2487,18 +2487,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_MskMonitoringParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_MskMonitoringParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.RedactedFieldsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_RedactedFieldsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.RedactedFieldsProperty",
+		reflect.TypeOf((*TfTelemetryRule_RedactedFieldsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.RedactedFieldsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_RedactedFieldsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.RedactedFieldsPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_RedactedFieldsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2513,14 +2513,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_RedactedFieldsPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_RedactedFieldsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.RedactedFieldsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_RedactedFieldsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.RedactedFieldsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_RedactedFieldsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2558,18 +2558,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriPathInput", GoGetter: "UriPathInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_RedactedFieldsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_RedactedFieldsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.RuleProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.RuleProperty",
+		reflect.TypeOf((*TfTelemetryRule_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.RulePropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.RulePropertyList",
+		reflect.TypeOf((*TfTelemetryRule_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2584,14 +2584,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_RulePropertyList{}
+			j := jsiiProxy_TfTelemetryRule_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.RulePropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowFieldUpdates", GoGetter: "AllowFieldUpdates"},
 			_jsii_.MemberProperty{JsiiProperty: "allowFieldUpdatesInput", GoGetter: "AllowFieldUpdatesInput"},
@@ -2643,18 +2643,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_RulePropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.SingleHeaderProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_SingleHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.SingleHeaderProperty",
+		reflect.TypeOf((*TfTelemetryRule_SingleHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.SingleHeaderPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_SingleHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.SingleHeaderPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_SingleHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2669,14 +2669,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_SingleHeaderPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_SingleHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.SingleHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_SingleHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.SingleHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_SingleHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2703,18 +2703,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_SingleHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_SingleHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.TimeoutsProperty",
+		reflect.TypeOf((*TfTelemetryRule_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2748,18 +2748,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.VpcFlowLogParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_VpcFlowLogParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.VpcFlowLogParametersProperty",
+		reflect.TypeOf((*TfTelemetryRule_VpcFlowLogParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.VpcFlowLogParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_VpcFlowLogParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.VpcFlowLogParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_VpcFlowLogParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2774,14 +2774,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_VpcFlowLogParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_VpcFlowLogParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.VpcFlowLogParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_VpcFlowLogParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.VpcFlowLogParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_VpcFlowLogParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2815,18 +2815,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficTypeInput", GoGetter: "TrafficTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_VpcFlowLogParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_VpcFlowLogParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.WafLoggingParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_WafLoggingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.WafLoggingParametersProperty",
+		reflect.TypeOf((*TfTelemetryRule_WafLoggingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.WafLoggingParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_WafLoggingParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.WafLoggingParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRule_WafLoggingParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2841,14 +2841,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_WafLoggingParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRule_WafLoggingParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRule.WafLoggingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRule_WafLoggingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRule.WafLoggingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRule_WafLoggingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2884,18 +2884,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRule_WafLoggingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRule_WafLoggingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleConfig",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleConfig",
+		reflect.TypeOf((*TfTelemetryRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2961,18 +2961,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ActionConditionProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ActionConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ActionConditionProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ActionConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ActionConditionPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ActionConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ActionConditionPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ActionConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2987,14 +2987,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_ActionConditionPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_ActionConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ActionConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ActionConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ActionConditionPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ActionConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -3021,18 +3021,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_ActionConditionPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_ActionConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.AdvancedEventSelectorsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_AdvancedEventSelectorsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.AdvancedEventSelectorsProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_AdvancedEventSelectorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.AdvancedEventSelectorsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.AdvancedEventSelectorsPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3047,14 +3047,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.AdvancedEventSelectorsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.AdvancedEventSelectorsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3086,18 +3086,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_AdvancedEventSelectorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.CloudtrailParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_CloudtrailParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.CloudtrailParametersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_CloudtrailParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.CloudtrailParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_CloudtrailParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.CloudtrailParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_CloudtrailParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3112,14 +3112,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_CloudtrailParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_CloudtrailParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.CloudtrailParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_CloudtrailParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.CloudtrailParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_CloudtrailParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "advancedEventSelectors", GoGetter: "AdvancedEventSelectors"},
 			_jsii_.MemberProperty{JsiiProperty: "advancedEventSelectorsInput", GoGetter: "AdvancedEventSelectorsInput"},
@@ -3148,18 +3148,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_CloudtrailParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_CloudtrailParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ConditionsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ConditionsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ConditionsProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ConditionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ConditionsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ConditionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ConditionsPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ConditionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3174,14 +3174,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_ConditionsPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_ConditionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ConditionsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ConditionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ConditionsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ConditionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionCondition", GoGetter: "ActionCondition"},
 			_jsii_.MemberProperty{JsiiProperty: "actionConditionInput", GoGetter: "ActionConditionInput"},
@@ -3214,18 +3214,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_ConditionsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_ConditionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.DestinationConfigurationProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_DestinationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.DestinationConfigurationProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_DestinationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.DestinationConfigurationPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_DestinationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.DestinationConfigurationPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_DestinationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3240,14 +3240,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_DestinationConfigurationPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_DestinationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.DestinationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.DestinationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudtrailParameters", GoGetter: "CloudtrailParameters"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudtrailParametersInput", GoGetter: "CloudtrailParametersInput"},
@@ -3305,18 +3305,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wafLoggingParametersInput", GoGetter: "WafLoggingParametersInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_DestinationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_DestinationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ElbLoadBalancerLoggingParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ElbLoadBalancerLoggingParametersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ElbLoadBalancerLoggingParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ElbLoadBalancerLoggingParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3331,14 +3331,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.ElbLoadBalancerLoggingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.ElbLoadBalancerLoggingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3369,18 +3369,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_ElbLoadBalancerLoggingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.FieldSelectorsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_FieldSelectorsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.FieldSelectorsProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_FieldSelectorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.FieldSelectorsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_FieldSelectorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.FieldSelectorsPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_FieldSelectorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3395,14 +3395,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_FieldSelectorsPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_FieldSelectorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.FieldSelectorsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_FieldSelectorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.FieldSelectorsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_FieldSelectorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3447,18 +3447,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_FieldSelectorsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_FieldSelectorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.FiltersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_FiltersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.FiltersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_FiltersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.FiltersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_FiltersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.FiltersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_FiltersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3473,14 +3473,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_FiltersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_FiltersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.FiltersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_FiltersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.FiltersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_FiltersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -3515,18 +3515,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_FiltersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_FiltersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LabelNameConditionProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LabelNameConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LabelNameConditionProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LabelNameConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LabelNameConditionPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LabelNameConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LabelNameConditionPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LabelNameConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3541,14 +3541,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_LabelNameConditionPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_LabelNameConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LabelNameConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LabelNameConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LabelNameConditionPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LabelNameConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3576,18 +3576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_LabelNameConditionPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_LabelNameConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LogDeliveryParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LogDeliveryParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LogDeliveryParametersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LogDeliveryParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LogDeliveryParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LogDeliveryParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LogDeliveryParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LogDeliveryParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3602,14 +3602,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_LogDeliveryParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_LogDeliveryParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LogDeliveryParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LogDeliveryParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LogDeliveryParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LogDeliveryParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3637,18 +3637,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_LogDeliveryParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_LogDeliveryParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LoggingFilterProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LoggingFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LoggingFilterProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LoggingFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LoggingFilterPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LoggingFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LoggingFilterPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LoggingFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3663,14 +3663,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_LoggingFilterPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_LoggingFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.LoggingFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_LoggingFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.LoggingFilterPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_LoggingFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3702,18 +3702,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_LoggingFilterPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_LoggingFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.MskMonitoringParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_MskMonitoringParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.MskMonitoringParametersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_MskMonitoringParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.MskMonitoringParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_MskMonitoringParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.MskMonitoringParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_MskMonitoringParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3728,14 +3728,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_MskMonitoringParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_MskMonitoringParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.MskMonitoringParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_MskMonitoringParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.MskMonitoringParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_MskMonitoringParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3763,18 +3763,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_MskMonitoringParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_MskMonitoringParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.RedactedFieldsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_RedactedFieldsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.RedactedFieldsProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_RedactedFieldsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.RedactedFieldsPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_RedactedFieldsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.RedactedFieldsPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_RedactedFieldsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3789,14 +3789,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_RedactedFieldsPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_RedactedFieldsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.RedactedFieldsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_RedactedFieldsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.RedactedFieldsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_RedactedFieldsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3834,18 +3834,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriPathInput", GoGetter: "UriPathInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_RedactedFieldsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_RedactedFieldsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.RuleProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.RuleProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.RulePropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.RulePropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3860,14 +3860,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_RulePropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.RulePropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowFieldUpdates", GoGetter: "AllowFieldUpdates"},
 			_jsii_.MemberProperty{JsiiProperty: "allowFieldUpdatesInput", GoGetter: "AllowFieldUpdatesInput"},
@@ -3919,18 +3919,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_RulePropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.SingleHeaderProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_SingleHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.SingleHeaderProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_SingleHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.SingleHeaderPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_SingleHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.SingleHeaderPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_SingleHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3945,14 +3945,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_SingleHeaderPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_SingleHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.SingleHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_SingleHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.SingleHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_SingleHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3979,18 +3979,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_SingleHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_SingleHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.TimeoutsProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.TimeoutsProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4024,18 +4024,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.VpcFlowLogParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_VpcFlowLogParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.VpcFlowLogParametersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_VpcFlowLogParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.VpcFlowLogParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_VpcFlowLogParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.VpcFlowLogParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_VpcFlowLogParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4050,14 +4050,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_VpcFlowLogParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_VpcFlowLogParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.VpcFlowLogParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_VpcFlowLogParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.VpcFlowLogParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_VpcFlowLogParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4091,18 +4091,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trafficTypeInput", GoGetter: "TrafficTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_VpcFlowLogParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_VpcFlowLogParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.WafLoggingParametersProperty",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_WafLoggingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.WafLoggingParametersProperty",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_WafLoggingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.WafLoggingParametersPropertyList",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_WafLoggingParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.WafLoggingParametersPropertyList",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_WafLoggingParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4117,14 +4117,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_WafLoggingParametersPropertyList{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_WafLoggingParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganization.WafLoggingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganization_WafLoggingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganization.WafLoggingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfTelemetryRuleForOrganization_WafLoggingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4160,13 +4160,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsObservabilityadminTelemetryRuleForOrganization_WafLoggingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfTelemetryRuleForOrganization_WafLoggingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-observability-admin.AwsObservabilityadminTelemetryRuleForOrganizationConfig",
-		reflect.TypeOf((*AwsObservabilityadminTelemetryRuleForOrganizationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-observability-admin.TfTelemetryRuleForOrganizationConfig",
+		reflect.TypeOf((*TfTelemetryRuleForOrganizationConfig)(nil)).Elem(),
 	)
 }

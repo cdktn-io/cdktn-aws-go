@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplate",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplate)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplate",
+		reflect.TypeOf((*TfReplicationConfigurationTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -103,18 +103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDrsReplicationConfigurationTemplate{}
+			j := jsiiProxy_TfReplicationConfigurationTemplate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplate.PitPolicyProperty",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplate_PitPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplate.PitPolicyProperty",
+		reflect.TypeOf((*TfReplicationConfigurationTemplate_PitPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplate.PitPolicyPropertyList",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplate_PitPolicyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplate.PitPolicyPropertyList",
+		reflect.TypeOf((*TfReplicationConfigurationTemplate_PitPolicyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -129,14 +129,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDrsReplicationConfigurationTemplate_PitPolicyPropertyList{}
+			j := jsiiProxy_TfReplicationConfigurationTemplate_PitPolicyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplate.PitPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplate_PitPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplate.PitPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfReplicationConfigurationTemplate_PitPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -173,18 +173,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unitsInput", GoGetter: "UnitsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDrsReplicationConfigurationTemplate_PitPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfReplicationConfigurationTemplate_PitPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplate.TimeoutsProperty",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplate_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplate.TimeoutsProperty",
+		reflect.TypeOf((*TfReplicationConfigurationTemplate_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplate.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplate_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplate.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfReplicationConfigurationTemplate_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -218,13 +218,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDrsReplicationConfigurationTemplate_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfReplicationConfigurationTemplate_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-drs.AwsDrsReplicationConfigurationTemplateConfig",
-		reflect.TypeOf((*AwsDrsReplicationConfigurationTemplateConfig)(nil)).Elem(),
+		"@cdktn/aws-drs.TfReplicationConfigurationTemplateConfig",
+		reflect.TypeOf((*TfReplicationConfigurationTemplateConfig)(nil)).Elem(),
 	)
 }

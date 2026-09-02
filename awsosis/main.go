@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline",
-		reflect.TypeOf((*AwsOsisPipeline)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline",
+		reflect.TypeOf((*TfPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -99,18 +99,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline{}
+			j := jsiiProxy_TfPipeline{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipeline.BufferOptionsProperty",
-		reflect.TypeOf((*AwsOsisPipeline_BufferOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.BufferOptionsProperty",
+		reflect.TypeOf((*TfPipeline_BufferOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.BufferOptionsPropertyList",
-		reflect.TypeOf((*AwsOsisPipeline_BufferOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.BufferOptionsPropertyList",
+		reflect.TypeOf((*TfPipeline_BufferOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -125,14 +125,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_BufferOptionsPropertyList{}
+			j := jsiiProxy_TfPipeline_BufferOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.BufferOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipeline_BufferOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.BufferOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_BufferOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -159,18 +159,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_BufferOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_BufferOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipeline.CloudwatchLogDestinationProperty",
-		reflect.TypeOf((*AwsOsisPipeline_CloudwatchLogDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.CloudwatchLogDestinationProperty",
+		reflect.TypeOf((*TfPipeline_CloudwatchLogDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.CloudwatchLogDestinationPropertyList",
-		reflect.TypeOf((*AwsOsisPipeline_CloudwatchLogDestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.CloudwatchLogDestinationPropertyList",
+		reflect.TypeOf((*TfPipeline_CloudwatchLogDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -185,14 +185,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_CloudwatchLogDestinationPropertyList{}
+			j := jsiiProxy_TfPipeline_CloudwatchLogDestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.CloudwatchLogDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipeline_CloudwatchLogDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.CloudwatchLogDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_CloudwatchLogDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -219,18 +219,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_CloudwatchLogDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_CloudwatchLogDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipeline.EncryptionAtRestOptionsProperty",
-		reflect.TypeOf((*AwsOsisPipeline_EncryptionAtRestOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.EncryptionAtRestOptionsProperty",
+		reflect.TypeOf((*TfPipeline_EncryptionAtRestOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.EncryptionAtRestOptionsPropertyList",
-		reflect.TypeOf((*AwsOsisPipeline_EncryptionAtRestOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.EncryptionAtRestOptionsPropertyList",
+		reflect.TypeOf((*TfPipeline_EncryptionAtRestOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -245,14 +245,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_EncryptionAtRestOptionsPropertyList{}
+			j := jsiiProxy_TfPipeline_EncryptionAtRestOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.EncryptionAtRestOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipeline_EncryptionAtRestOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.EncryptionAtRestOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_EncryptionAtRestOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -279,18 +279,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_EncryptionAtRestOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_EncryptionAtRestOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipeline.LogPublishingOptionsProperty",
-		reflect.TypeOf((*AwsOsisPipeline_LogPublishingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.LogPublishingOptionsProperty",
+		reflect.TypeOf((*TfPipeline_LogPublishingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.LogPublishingOptionsPropertyList",
-		reflect.TypeOf((*AwsOsisPipeline_LogPublishingOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.LogPublishingOptionsPropertyList",
+		reflect.TypeOf((*TfPipeline_LogPublishingOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -305,14 +305,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_LogPublishingOptionsPropertyList{}
+			j := jsiiProxy_TfPipeline_LogPublishingOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.LogPublishingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipeline_LogPublishingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.LogPublishingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_LogPublishingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogDestination", GoGetter: "CloudwatchLogDestination"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogDestinationInput", GoGetter: "CloudwatchLogDestinationInput"},
@@ -344,18 +344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_LogPublishingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_LogPublishingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipeline.TimeoutsProperty",
-		reflect.TypeOf((*AwsOsisPipeline_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.TimeoutsProperty",
+		reflect.TypeOf((*TfPipeline_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipeline_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -389,18 +389,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipeline.VpcOptionsProperty",
-		reflect.TypeOf((*AwsOsisPipeline_VpcOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.VpcOptionsProperty",
+		reflect.TypeOf((*TfPipeline_VpcOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.VpcOptionsPropertyList",
-		reflect.TypeOf((*AwsOsisPipeline_VpcOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.VpcOptionsPropertyList",
+		reflect.TypeOf((*TfPipeline_VpcOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -415,14 +415,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_VpcOptionsPropertyList{}
+			j := jsiiProxy_TfPipeline_VpcOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipeline.VpcOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipeline_VpcOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipeline.VpcOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_VpcOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -455,18 +455,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointManagementInput", GoGetter: "VpcEndpointManagementInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipeline_VpcOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_VpcOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipelineConfig",
-		reflect.TypeOf((*AwsOsisPipelineConfig)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineConfig",
+		reflect.TypeOf((*TfPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpoint",
-		reflect.TypeOf((*AwsOsisPipelineEndpoint)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpoint",
+		reflect.TypeOf((*TfPipelineEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -530,18 +530,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipelineEndpoint{}
+			j := jsiiProxy_TfPipelineEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpoint.TimeoutsProperty",
-		reflect.TypeOf((*AwsOsisPipelineEndpoint_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpoint.TimeoutsProperty",
+		reflect.TypeOf((*TfPipelineEndpoint_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpoint.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipelineEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpoint.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPipelineEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -572,18 +572,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipelineEndpoint_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPipelineEndpoint_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpoint.VpcOptionsProperty",
-		reflect.TypeOf((*AwsOsisPipelineEndpoint_VpcOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpoint.VpcOptionsProperty",
+		reflect.TypeOf((*TfPipelineEndpoint_VpcOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpoint.VpcOptionsPropertyList",
-		reflect.TypeOf((*AwsOsisPipelineEndpoint_VpcOptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpoint.VpcOptionsPropertyList",
+		reflect.TypeOf((*TfPipelineEndpoint_VpcOptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -598,14 +598,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipelineEndpoint_VpcOptionsPropertyList{}
+			j := jsiiProxy_TfPipelineEndpoint_VpcOptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpoint.VpcOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsOsisPipelineEndpoint_VpcOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpoint.VpcOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipelineEndpoint_VpcOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -635,18 +635,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisPipelineEndpoint_VpcOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipelineEndpoint_VpcOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisPipelineEndpointConfig",
-		reflect.TypeOf((*AwsOsisPipelineEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-osis.TfPipelineEndpointConfig",
+		reflect.TypeOf((*TfPipelineEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-osis.AwsOsisResourcePolicy",
-		reflect.TypeOf((*AwsOsisResourcePolicy)(nil)).Elem(),
+		"@cdktn/aws-osis.TfResourcePolicy",
+		reflect.TypeOf((*TfResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -701,13 +701,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsOsisResourcePolicy{}
+			j := jsiiProxy_TfResourcePolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-osis.AwsOsisResourcePolicyConfig",
-		reflect.TypeOf((*AwsOsisResourcePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-osis.TfResourcePolicyConfig",
+		reflect.TypeOf((*TfResourcePolicyConfig)(nil)).Elem(),
 	)
 }

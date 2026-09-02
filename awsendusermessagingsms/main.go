@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2ConfigurationSet",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2ConfigurationSet)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfConfigurationSet",
+		reflect.TypeOf((*TfConfigurationSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -75,18 +75,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2ConfigurationSet{}
+			j := jsiiProxy_TfConfigurationSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2ConfigurationSetConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2ConfigurationSetConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfConfigurationSetConfig",
+		reflect.TypeOf((*TfConfigurationSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination",
+		reflect.TypeOf((*TfEventDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -159,18 +159,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination{}
+			j := jsiiProxy_TfEventDestination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.CloudwatchLogsDestinationProperty",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_CloudwatchLogsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.CloudwatchLogsDestinationProperty",
+		reflect.TypeOf((*TfEventDestination_CloudwatchLogsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.CloudwatchLogsDestinationPropertyList",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_CloudwatchLogsDestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.CloudwatchLogsDestinationPropertyList",
+		reflect.TypeOf((*TfEventDestination_CloudwatchLogsDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -185,14 +185,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination_CloudwatchLogsDestinationPropertyList{}
+			j := jsiiProxy_TfEventDestination_CloudwatchLogsDestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.CloudwatchLogsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_CloudwatchLogsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.CloudwatchLogsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfEventDestination_CloudwatchLogsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -221,18 +221,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination_CloudwatchLogsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfEventDestination_CloudwatchLogsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.KinesisFirehoseDestinationProperty",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_KinesisFirehoseDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.KinesisFirehoseDestinationProperty",
+		reflect.TypeOf((*TfEventDestination_KinesisFirehoseDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.KinesisFirehoseDestinationPropertyList",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_KinesisFirehoseDestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.KinesisFirehoseDestinationPropertyList",
+		reflect.TypeOf((*TfEventDestination_KinesisFirehoseDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -247,14 +247,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination_KinesisFirehoseDestinationPropertyList{}
+			j := jsiiProxy_TfEventDestination_KinesisFirehoseDestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.KinesisFirehoseDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_KinesisFirehoseDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.KinesisFirehoseDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfEventDestination_KinesisFirehoseDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -283,18 +283,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination_KinesisFirehoseDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfEventDestination_KinesisFirehoseDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.SnsDestinationProperty",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_SnsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.SnsDestinationProperty",
+		reflect.TypeOf((*TfEventDestination_SnsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.SnsDestinationPropertyList",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_SnsDestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.SnsDestinationPropertyList",
+		reflect.TypeOf((*TfEventDestination_SnsDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -309,14 +309,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination_SnsDestinationPropertyList{}
+			j := jsiiProxy_TfEventDestination_SnsDestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestination.SnsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestination_SnsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestination.SnsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfEventDestination_SnsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -343,18 +343,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2EventDestination_SnsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfEventDestination_SnsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2EventDestinationConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2EventDestinationConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfEventDestinationConfig",
+		reflect.TypeOf((*TfEventDestinationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2Keyword",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2Keyword)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfKeyword",
+		reflect.TypeOf((*TfKeyword)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -414,18 +414,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2Keyword{}
+			j := jsiiProxy_TfKeyword{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2KeywordConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2KeywordConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfKeywordConfig",
+		reflect.TypeOf((*TfKeywordConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2OptOutList",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2OptOutList)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfOptOutList",
+		reflect.TypeOf((*TfOptOutList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -484,18 +484,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2OptOutList{}
+			j := jsiiProxy_TfOptOutList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2OptOutListConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2OptOutListConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfOptOutListConfig",
+		reflect.TypeOf((*TfOptOutListConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2PhoneNumber",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2PhoneNumber)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPhoneNumber",
+		reflect.TypeOf((*TfPhoneNumber)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -594,18 +594,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2PhoneNumber{}
+			j := jsiiProxy_TfPhoneNumber{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2PhoneNumber.TimeoutsProperty",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2PhoneNumber_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPhoneNumber.TimeoutsProperty",
+		reflect.TypeOf((*TfPhoneNumber_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2PhoneNumber.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2PhoneNumber_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPhoneNumber.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPhoneNumber_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -639,18 +639,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2PhoneNumber_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPhoneNumber_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2PhoneNumberConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2PhoneNumberConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPhoneNumberConfig",
+		reflect.TypeOf((*TfPhoneNumberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2Pool",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2Pool)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPool",
+		reflect.TypeOf((*TfPool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -739,18 +739,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2Pool{}
+			j := jsiiProxy_TfPool{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2Pool.TimeoutsProperty",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2Pool_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPool.TimeoutsProperty",
+		reflect.TypeOf((*TfPool_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2Pool.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2Pool_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPool.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPool_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -784,18 +784,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2Pool_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPool_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2PoolConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2PoolConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfPoolConfig",
+		reflect.TypeOf((*TfPoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2ResourcePolicy",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2ResourcePolicy)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfResourcePolicy",
+		reflect.TypeOf((*TfResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -850,18 +850,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2ResourcePolicy{}
+			j := jsiiProxy_TfResourcePolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2ResourcePolicyConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2ResourcePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfResourcePolicyConfig",
+		reflect.TypeOf((*TfResourcePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2SenderId",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2SenderId)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfSenderId",
+		reflect.TypeOf((*TfSenderId)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -934,18 +934,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2SenderId{}
+			j := jsiiProxy_TfSenderId{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2SenderId.TimeoutsProperty",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2SenderId_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfSenderId.TimeoutsProperty",
+		reflect.TypeOf((*TfSenderId_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2SenderId.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2SenderId_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfSenderId.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfSenderId_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -979,13 +979,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointsmsvoicev2SenderId_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfSenderId_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging-sms.AwsPinpointsmsvoicev2SenderIdConfig",
-		reflect.TypeOf((*AwsPinpointsmsvoicev2SenderIdConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging-sms.TfSenderIdConfig",
+		reflect.TypeOf((*TfSenderIdConfig)(nil)).Elem(),
 	)
 }

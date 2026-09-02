@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxCluster",
-		reflect.TypeOf((*AwsDaxCluster)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -115,18 +115,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxCluster.NodesProperty",
-		reflect.TypeOf((*AwsDaxCluster_NodesProperty)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.NodesProperty",
+		reflect.TypeOf((*TfCluster_NodesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxCluster.NodesPropertyList",
-		reflect.TypeOf((*AwsDaxCluster_NodesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.NodesPropertyList",
+		reflect.TypeOf((*TfCluster_NodesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -140,14 +140,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxCluster_NodesPropertyList{}
+			j := jsiiProxy_TfCluster_NodesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxCluster.NodesPropertyOutputReference",
-		reflect.TypeOf((*AwsDaxCluster_NodesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.NodesPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_NodesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
@@ -176,18 +176,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxCluster_NodesPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_NodesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxCluster.ServerSideEncryptionProperty",
-		reflect.TypeOf((*AwsDaxCluster_ServerSideEncryptionProperty)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.ServerSideEncryptionProperty",
+		reflect.TypeOf((*TfCluster_ServerSideEncryptionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxCluster.ServerSideEncryptionPropertyOutputReference",
-		reflect.TypeOf((*AwsDaxCluster_ServerSideEncryptionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.ServerSideEncryptionPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_ServerSideEncryptionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -215,18 +215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxCluster_ServerSideEncryptionPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_ServerSideEncryptionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsDaxCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDaxCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dax.TfCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -260,18 +260,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxClusterConfig",
-		reflect.TypeOf((*AwsDaxClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-dax.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxParameterGroup",
-		reflect.TypeOf((*AwsDaxParameterGroup)(nil)).Elem(),
+		"@cdktn/aws-dax.TfParameterGroup",
+		reflect.TypeOf((*TfParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -334,18 +334,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxParameterGroup{}
+			j := jsiiProxy_TfParameterGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxParameterGroup.ParametersProperty",
-		reflect.TypeOf((*AwsDaxParameterGroup_ParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-dax.TfParameterGroup.ParametersProperty",
+		reflect.TypeOf((*TfParameterGroup_ParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxParameterGroup.ParametersPropertyList",
-		reflect.TypeOf((*AwsDaxParameterGroup_ParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-dax.TfParameterGroup.ParametersPropertyList",
+		reflect.TypeOf((*TfParameterGroup_ParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -360,14 +360,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxParameterGroup_ParametersPropertyList{}
+			j := jsiiProxy_TfParameterGroup_ParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxParameterGroup.ParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsDaxParameterGroup_ParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dax.TfParameterGroup.ParametersPropertyOutputReference",
+		reflect.TypeOf((*TfParameterGroup_ParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -396,18 +396,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxParameterGroup_ParametersPropertyOutputReference{}
+			j := jsiiProxy_TfParameterGroup_ParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxParameterGroupConfig",
-		reflect.TypeOf((*AwsDaxParameterGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-dax.TfParameterGroupConfig",
+		reflect.TypeOf((*TfParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dax.AwsDaxSubnetGroup",
-		reflect.TypeOf((*AwsDaxSubnetGroup)(nil)).Elem(),
+		"@cdktn/aws-dax.TfSubnetGroup",
+		reflect.TypeOf((*TfSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -469,13 +469,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDaxSubnetGroup{}
+			j := jsiiProxy_TfSubnetGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dax.AwsDaxSubnetGroupConfig",
-		reflect.TypeOf((*AwsDaxSubnetGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-dax.TfSubnetGroupConfig",
+		reflect.TypeOf((*TfSubnetGroupConfig)(nil)).Elem(),
 	)
 }

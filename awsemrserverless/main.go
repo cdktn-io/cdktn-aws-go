@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication",
-		reflect.TypeOf((*AwsEmrserverlessApplication)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication",
+		reflect.TypeOf((*TfApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -124,18 +124,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication{}
+			j := jsiiProxy_TfApplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.AutoStartConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_AutoStartConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.AutoStartConfigurationProperty",
+		reflect.TypeOf((*TfApplication_AutoStartConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.AutoStartConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_AutoStartConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.AutoStartConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_AutoStartConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -163,18 +163,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_AutoStartConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_AutoStartConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.AutoStopConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_AutoStopConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.AutoStopConfigurationProperty",
+		reflect.TypeOf((*TfApplication_AutoStopConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.AutoStopConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_AutoStopConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.AutoStopConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_AutoStopConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -205,18 +205,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_AutoStopConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_AutoStopConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.CloudwatchLoggingConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_CloudwatchLoggingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.CloudwatchLoggingConfigurationProperty",
+		reflect.TypeOf((*TfApplication_CloudwatchLoggingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.CloudwatchLoggingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_CloudwatchLoggingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.CloudwatchLoggingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_CloudwatchLoggingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -256,18 +256,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_CloudwatchLoggingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_CloudwatchLoggingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.ImageConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_ImageConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.ImageConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ImageConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.ImageConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_ImageConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.ImageConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ImageConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -294,18 +294,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_ImageConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ImageConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InitialCapacityConfigProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InitialCapacityConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InitialCapacityConfigProperty",
+		reflect.TypeOf((*TfApplication_InitialCapacityConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InitialCapacityConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InitialCapacityConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InitialCapacityConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InitialCapacityConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -336,18 +336,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workerCountInput", GoGetter: "WorkerCountInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_InitialCapacityConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InitialCapacityConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InitialCapacityProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InitialCapacityProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InitialCapacityProperty",
+		reflect.TypeOf((*TfApplication_InitialCapacityProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InitialCapacityPropertyList",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InitialCapacityPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InitialCapacityPropertyList",
+		reflect.TypeOf((*TfApplication_InitialCapacityPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -362,14 +362,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_InitialCapacityPropertyList{}
+			j := jsiiProxy_TfApplication_InitialCapacityPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InitialCapacityPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InitialCapacityPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InitialCapacityPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InitialCapacityPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -400,18 +400,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_InitialCapacityPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InitialCapacityPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InteractiveConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InteractiveConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InteractiveConfigurationProperty",
+		reflect.TypeOf((*TfApplication_InteractiveConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.InteractiveConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_InteractiveConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.InteractiveConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InteractiveConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -442,18 +442,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_InteractiveConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InteractiveConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.JobLevelCostAllocationConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_JobLevelCostAllocationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.JobLevelCostAllocationConfigurationProperty",
+		reflect.TypeOf((*TfApplication_JobLevelCostAllocationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.JobLevelCostAllocationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_JobLevelCostAllocationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.JobLevelCostAllocationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_JobLevelCostAllocationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -481,18 +481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_JobLevelCostAllocationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_JobLevelCostAllocationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.LogTypesProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_LogTypesProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.LogTypesProperty",
+		reflect.TypeOf((*TfApplication_LogTypesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.LogTypesPropertyList",
-		reflect.TypeOf((*AwsEmrserverlessApplication_LogTypesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.LogTypesPropertyList",
+		reflect.TypeOf((*TfApplication_LogTypesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -507,14 +507,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_LogTypesPropertyList{}
+			j := jsiiProxy_TfApplication_LogTypesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.LogTypesPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_LogTypesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.LogTypesPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_LogTypesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -543,18 +543,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_LogTypesPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_LogTypesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.ManagedPersistenceMonitoringConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_ManagedPersistenceMonitoringConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.ManagedPersistenceMonitoringConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ManagedPersistenceMonitoringConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.ManagedPersistenceMonitoringConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_ManagedPersistenceMonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.ManagedPersistenceMonitoringConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ManagedPersistenceMonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -585,18 +585,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_ManagedPersistenceMonitoringConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ManagedPersistenceMonitoringConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.MaximumCapacityProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_MaximumCapacityProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.MaximumCapacityProperty",
+		reflect.TypeOf((*TfApplication_MaximumCapacityProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.MaximumCapacityPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_MaximumCapacityPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.MaximumCapacityPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_MaximumCapacityPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -628,18 +628,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_MaximumCapacityPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_MaximumCapacityPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.MonitoringConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_MonitoringConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.MonitoringConfigurationProperty",
+		reflect.TypeOf((*TfApplication_MonitoringConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.MonitoringConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.MonitoringConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLoggingConfiguration", GoGetter: "CloudwatchLoggingConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLoggingConfigurationInput", GoGetter: "CloudwatchLoggingConfigurationInput"},
@@ -680,18 +680,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_MonitoringConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_MonitoringConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfApplication_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -722,18 +722,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.PrometheusMonitoringConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_PrometheusMonitoringConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.PrometheusMonitoringConfigurationProperty",
+		reflect.TypeOf((*TfApplication_PrometheusMonitoringConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.PrometheusMonitoringConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_PrometheusMonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.PrometheusMonitoringConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_PrometheusMonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -761,18 +761,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_PrometheusMonitoringConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_PrometheusMonitoringConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.RuntimeConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_RuntimeConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.RuntimeConfigurationProperty",
+		reflect.TypeOf((*TfApplication_RuntimeConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.RuntimeConfigurationPropertyList",
-		reflect.TypeOf((*AwsEmrserverlessApplication_RuntimeConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.RuntimeConfigurationPropertyList",
+		reflect.TypeOf((*TfApplication_RuntimeConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -787,14 +787,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_RuntimeConfigurationPropertyList{}
+			j := jsiiProxy_TfApplication_RuntimeConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.RuntimeConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_RuntimeConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.RuntimeConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_RuntimeConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
 			_jsii_.MemberProperty{JsiiProperty: "classificationInput", GoGetter: "ClassificationInput"},
@@ -824,18 +824,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_RuntimeConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_RuntimeConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.S3MonitoringConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_S3MonitoringConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.S3MonitoringConfigurationProperty",
+		reflect.TypeOf((*TfApplication_S3MonitoringConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.S3MonitoringConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_S3MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.S3MonitoringConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_S3MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -866,18 +866,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_S3MonitoringConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_S3MonitoringConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.SchedulerConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_SchedulerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.SchedulerConfigurationProperty",
+		reflect.TypeOf((*TfApplication_SchedulerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.SchedulerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_SchedulerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.SchedulerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_SchedulerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -908,18 +908,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_SchedulerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_SchedulerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.WorkerConfigurationProperty",
-		reflect.TypeOf((*AwsEmrserverlessApplication_WorkerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.WorkerConfigurationProperty",
+		reflect.TypeOf((*TfApplication_WorkerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplication.WorkerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrserverlessApplication_WorkerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplication.WorkerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_WorkerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -951,13 +951,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrserverlessApplication_WorkerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_WorkerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr-serverless.AwsEmrserverlessApplicationConfig",
-		reflect.TypeOf((*AwsEmrserverlessApplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-emr-serverless.TfApplicationConfig",
+		reflect.TypeOf((*TfApplicationConfig)(nil)).Elem(),
 	)
 }

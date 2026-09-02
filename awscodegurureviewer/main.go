@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation",
+		reflect.TypeOf((*TfRepositoryAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -90,18 +90,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation{}
+			j := jsiiProxy_TfRepositoryAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.BitbucketProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_BitbucketProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.BitbucketProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_BitbucketProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.BitbucketPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_BitbucketPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.BitbucketPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_BitbucketPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -132,18 +132,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_BitbucketPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_BitbucketPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.CodeArtifactsProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_CodeArtifactsProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.CodeArtifactsProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_CodeArtifactsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.CodeArtifactsPropertyList",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_CodeArtifactsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.CodeArtifactsPropertyList",
+		reflect.TypeOf((*TfRepositoryAssociation_CodeArtifactsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -157,14 +157,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_CodeArtifactsPropertyList{}
+			j := jsiiProxy_TfRepositoryAssociation_CodeArtifactsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.CodeArtifactsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_CodeArtifactsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.CodeArtifactsPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_CodeArtifactsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buildArtifactsObjectKey", GoGetter: "BuildArtifactsObjectKey"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -191,18 +191,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_CodeArtifactsPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_CodeArtifactsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.CodecommitProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_CodecommitProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.CodecommitProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_CodecommitProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.CodecommitPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_CodecommitPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.CodecommitPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_CodecommitPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -229,18 +229,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_CodecommitPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_CodecommitPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.GithubEnterpriseServerProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_GithubEnterpriseServerProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.GithubEnterpriseServerProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_GithubEnterpriseServerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.GithubEnterpriseServerPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_GithubEnterpriseServerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.GithubEnterpriseServerPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_GithubEnterpriseServerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -271,18 +271,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_GithubEnterpriseServerPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_GithubEnterpriseServerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.KmsKeyDetailsProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_KmsKeyDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.KmsKeyDetailsProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_KmsKeyDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.KmsKeyDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_KmsKeyDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.KmsKeyDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_KmsKeyDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -313,18 +313,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_KmsKeyDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_KmsKeyDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.RepositoryProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_RepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.RepositoryProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_RepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.RepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_RepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.RepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_RepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitbucket", GoGetter: "Bitbucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bitbucketInput", GoGetter: "BitbucketInput"},
@@ -365,18 +365,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_RepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_RepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.S3BucketProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_S3BucketProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.S3BucketProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_S3BucketProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.S3BucketPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_S3BucketPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.S3BucketPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_S3BucketPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -405,18 +405,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_S3BucketPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_S3BucketPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.S3RepositoryDetailsProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_S3RepositoryDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.S3RepositoryDetailsProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_S3RepositoryDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.S3RepositoryDetailsPropertyList",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_S3RepositoryDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.S3RepositoryDetailsPropertyList",
+		reflect.TypeOf((*TfRepositoryAssociation_S3RepositoryDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -430,14 +430,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_S3RepositoryDetailsPropertyList{}
+			j := jsiiProxy_TfRepositoryAssociation_S3RepositoryDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.S3RepositoryDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_S3RepositoryDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.S3RepositoryDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_S3RepositoryDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "codeArtifacts", GoGetter: "CodeArtifacts"},
@@ -464,18 +464,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_S3RepositoryDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_S3RepositoryDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfRepositoryAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRepositoryAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -509,13 +509,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodegurureviewerRepositoryAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRepositoryAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeguru-reviewer.AwsCodegurureviewerRepositoryAssociationConfig",
-		reflect.TypeOf((*AwsCodegurureviewerRepositoryAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-codeguru-reviewer.TfRepositoryAssociationConfig",
+		reflect.TypeOf((*TfRepositoryAssociationConfig)(nil)).Elem(),
 	)
 }

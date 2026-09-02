@@ -9,8 +9,128 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.DataTfPolicyStore",
+		reflect.TypeOf((*DataTfPolicyStore)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "createdDate", GoGetter: "CreatedDate"},
+			_jsii_.MemberProperty{JsiiProperty: "deletionProtection", GoGetter: "DeletionProtection"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lastUpdatedDate", GoGetter: "LastUpdatedDate"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "validationSettings", GoGetter: "ValidationSettings"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfPolicyStore{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-verified-permissions.DataTfPolicyStore.ValidationSettingsProperty",
+		reflect.TypeOf((*DataTfPolicyStore_ValidationSettingsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-verified-permissions.DataTfPolicyStore.ValidationSettingsPropertyList",
+		reflect.TypeOf((*DataTfPolicyStore_ValidationSettingsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfPolicyStore_ValidationSettingsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-verified-permissions.DataTfPolicyStore.ValidationSettingsPropertyOutputReference",
+		reflect.TypeOf((*DataTfPolicyStore_ValidationSettingsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "mode", GoGetter: "Mode"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfPolicyStore_ValidationSettingsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-verified-permissions.DataTfPolicyStoreConfig",
+		reflect.TypeOf((*DataTfPolicyStoreConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-verified-permissions.TfIdentitySource",
+		reflect.TypeOf((*TfIdentitySource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -71,18 +191,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource{}
+			j := jsiiProxy_TfIdentitySource{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.AccessTokenOnlyProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_AccessTokenOnlyProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.AccessTokenOnlyProperty",
+		reflect.TypeOf((*TfIdentitySource_AccessTokenOnlyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.AccessTokenOnlyPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_AccessTokenOnlyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.AccessTokenOnlyPropertyList",
+		reflect.TypeOf((*TfIdentitySource_AccessTokenOnlyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -97,14 +217,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_AccessTokenOnlyPropertyList{}
+			j := jsiiProxy_TfIdentitySource_AccessTokenOnlyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.AccessTokenOnlyPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_AccessTokenOnlyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.AccessTokenOnlyPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_AccessTokenOnlyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audiences", GoGetter: "Audiences"},
 			_jsii_.MemberProperty{JsiiProperty: "audiencesInput", GoGetter: "AudiencesInput"},
@@ -135,18 +255,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_AccessTokenOnlyPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_AccessTokenOnlyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.CognitoUserPoolConfigurationProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_CognitoUserPoolConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.CognitoUserPoolConfigurationProperty",
+		reflect.TypeOf((*TfIdentitySource_CognitoUserPoolConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.CognitoUserPoolConfigurationPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_CognitoUserPoolConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.CognitoUserPoolConfigurationPropertyList",
+		reflect.TypeOf((*TfIdentitySource_CognitoUserPoolConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -161,14 +281,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_CognitoUserPoolConfigurationPropertyList{}
+			j := jsiiProxy_TfIdentitySource_CognitoUserPoolConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.CognitoUserPoolConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_CognitoUserPoolConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.CognitoUserPoolConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_CognitoUserPoolConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientIds", GoGetter: "ClientIds"},
 			_jsii_.MemberProperty{JsiiProperty: "clientIdsInput", GoGetter: "ClientIdsInput"},
@@ -202,18 +322,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolArnInput", GoGetter: "UserPoolArnInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_CognitoUserPoolConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_CognitoUserPoolConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationCognitoUserPoolConfigurationGroupConfigurationProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationCognitoUserPoolConfigurationGroupConfigurationProperty",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyList",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -228,14 +348,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyList{}
+			j := jsiiProxy_TfIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -262,18 +382,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_ConfigurationCognitoUserPoolConfigurationGroupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationOpenIdConnectConfigurationGroupConfigurationProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationOpenIdConnectConfigurationGroupConfigurationProperty",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyList",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -288,14 +408,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyList{}
+			j := jsiiProxy_TfIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -324,18 +444,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_ConfigurationOpenIdConnectConfigurationGroupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationProperty",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationPropertyList",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -350,14 +470,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationPropertyList{}
+			j := jsiiProxy_TfIdentitySource_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cognitoUserPoolConfiguration", GoGetter: "CognitoUserPoolConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "cognitoUserPoolConfigurationInput", GoGetter: "CognitoUserPoolConfigurationInput"},
@@ -390,18 +510,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.IdentityTokenOnlyProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_IdentityTokenOnlyProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.IdentityTokenOnlyProperty",
+		reflect.TypeOf((*TfIdentitySource_IdentityTokenOnlyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.IdentityTokenOnlyPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_IdentityTokenOnlyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.IdentityTokenOnlyPropertyList",
+		reflect.TypeOf((*TfIdentitySource_IdentityTokenOnlyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -416,14 +536,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_IdentityTokenOnlyPropertyList{}
+			j := jsiiProxy_TfIdentitySource_IdentityTokenOnlyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.IdentityTokenOnlyPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_IdentityTokenOnlyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.IdentityTokenOnlyPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_IdentityTokenOnlyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientIds", GoGetter: "ClientIds"},
 			_jsii_.MemberProperty{JsiiProperty: "clientIdsInput", GoGetter: "ClientIdsInput"},
@@ -454,18 +574,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_IdentityTokenOnlyPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_IdentityTokenOnlyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.OpenIdConnectConfigurationProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_OpenIdConnectConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.OpenIdConnectConfigurationProperty",
+		reflect.TypeOf((*TfIdentitySource_OpenIdConnectConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.OpenIdConnectConfigurationPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_OpenIdConnectConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.OpenIdConnectConfigurationPropertyList",
+		reflect.TypeOf((*TfIdentitySource_OpenIdConnectConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -480,14 +600,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_OpenIdConnectConfigurationPropertyList{}
+			j := jsiiProxy_TfIdentitySource_OpenIdConnectConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.OpenIdConnectConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_OpenIdConnectConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.OpenIdConnectConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_OpenIdConnectConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -525,18 +645,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_OpenIdConnectConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_OpenIdConnectConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.TokenSelectionProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_TokenSelectionProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.TokenSelectionProperty",
+		reflect.TypeOf((*TfIdentitySource_TokenSelectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.TokenSelectionPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_TokenSelectionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.TokenSelectionPropertyList",
+		reflect.TypeOf((*TfIdentitySource_TokenSelectionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -551,14 +671,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_TokenSelectionPropertyList{}
+			j := jsiiProxy_TfIdentitySource_TokenSelectionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySource.TokenSelectionPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySource_TokenSelectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySource.TokenSelectionPropertyOutputReference",
+		reflect.TypeOf((*TfIdentitySource_TokenSelectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenOnly", GoGetter: "AccessTokenOnly"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenOnlyInput", GoGetter: "AccessTokenOnlyInput"},
@@ -591,18 +711,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsIdentitySource_TokenSelectionPropertyOutputReference{}
+			j := jsiiProxy_TfIdentitySource_TokenSelectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsIdentitySourceConfig",
-		reflect.TypeOf((*AwsVerifiedpermissionsIdentitySourceConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfIdentitySourceConfig",
+		reflect.TypeOf((*TfIdentitySourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy",
+		reflect.TypeOf((*TfPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -662,18 +782,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy{}
+			j := jsiiProxy_TfPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.DefinitionProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_DefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.DefinitionProperty",
+		reflect.TypeOf((*TfPolicy_DefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.DefinitionPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_DefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.DefinitionPropertyList",
+		reflect.TypeOf((*TfPolicy_DefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -688,14 +808,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_DefinitionPropertyList{}
+			j := jsiiProxy_TfPolicy_DefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.DefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_DefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.DefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_DefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -728,18 +848,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_DefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_DefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.PrincipalProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_PrincipalProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.PrincipalProperty",
+		reflect.TypeOf((*TfPolicy_PrincipalProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.PrincipalPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_PrincipalPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.PrincipalPropertyList",
+		reflect.TypeOf((*TfPolicy_PrincipalPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -754,14 +874,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_PrincipalPropertyList{}
+			j := jsiiProxy_TfPolicy_PrincipalPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.PrincipalPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_PrincipalPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.PrincipalPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_PrincipalPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -790,18 +910,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_PrincipalPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_PrincipalPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.ResourceProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_ResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.ResourceProperty",
+		reflect.TypeOf((*TfPolicy_ResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.ResourcePropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_ResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.ResourcePropertyList",
+		reflect.TypeOf((*TfPolicy_ResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -816,14 +936,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_ResourcePropertyList{}
+			j := jsiiProxy_TfPolicy_ResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.ResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_ResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.ResourcePropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_ResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -852,18 +972,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_ResourcePropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_ResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.StaticProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_StaticProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.StaticProperty",
+		reflect.TypeOf((*TfPolicy_StaticProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.StaticPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_StaticPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.StaticPropertyList",
+		reflect.TypeOf((*TfPolicy_StaticPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -878,14 +998,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_StaticPropertyList{}
+			j := jsiiProxy_TfPolicy_StaticPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.StaticPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_StaticPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.StaticPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_StaticPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -915,18 +1035,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_StaticPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_StaticPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.TemplateLinkedProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_TemplateLinkedProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.TemplateLinkedProperty",
+		reflect.TypeOf((*TfPolicy_TemplateLinkedProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.TemplateLinkedPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_TemplateLinkedPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.TemplateLinkedPropertyList",
+		reflect.TypeOf((*TfPolicy_TemplateLinkedPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -941,14 +1061,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_TemplateLinkedPropertyList{}
+			j := jsiiProxy_TfPolicy_TemplateLinkedPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicy.TemplateLinkedPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicy_TemplateLinkedPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicy.TemplateLinkedPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_TemplateLinkedPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -983,18 +1103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicy_TemplateLinkedPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_TemplateLinkedPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyConfig",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyConfig",
+		reflect.TypeOf((*TfPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyStore",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyStore)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyStore",
+		reflect.TypeOf((*TfPolicyStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1062,18 +1182,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicyStore{}
+			j := jsiiProxy_TfPolicyStore{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyStore.ValidationSettingsProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyStore_ValidationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyStore.ValidationSettingsProperty",
+		reflect.TypeOf((*TfPolicyStore_ValidationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyStore.ValidationSettingsPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyStore.ValidationSettingsPropertyList",
+		reflect.TypeOf((*TfPolicyStore_ValidationSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1088,14 +1208,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyList{}
+			j := jsiiProxy_TfPolicyStore_ValidationSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyStore.ValidationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyStore.ValidationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfPolicyStore_ValidationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1122,18 +1242,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfPolicyStore_ValidationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyStoreConfig",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyStoreConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyStoreConfig",
+		reflect.TypeOf((*TfPolicyStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyTemplate",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyTemplate)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyTemplate",
+		reflect.TypeOf((*TfPolicyTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1194,18 +1314,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsPolicyTemplate{}
+			j := jsiiProxy_TfPolicyTemplate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsPolicyTemplateConfig",
-		reflect.TypeOf((*AwsVerifiedpermissionsPolicyTemplateConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfPolicyTemplateConfig",
+		reflect.TypeOf((*TfPolicyTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsSchema",
-		reflect.TypeOf((*AwsVerifiedpermissionsSchema)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfSchema",
+		reflect.TypeOf((*TfSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1264,18 +1384,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsSchema{}
+			j := jsiiProxy_TfSchema{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsSchema.DefinitionProperty",
-		reflect.TypeOf((*AwsVerifiedpermissionsSchema_DefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfSchema.DefinitionProperty",
+		reflect.TypeOf((*TfSchema_DefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsSchema.DefinitionPropertyList",
-		reflect.TypeOf((*AwsVerifiedpermissionsSchema_DefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfSchema.DefinitionPropertyList",
+		reflect.TypeOf((*TfSchema_DefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1290,14 +1410,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsSchema_DefinitionPropertyList{}
+			j := jsiiProxy_TfSchema_DefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsSchema.DefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedpermissionsSchema_DefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfSchema.DefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfSchema_DefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1324,133 +1444,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedpermissionsSchema_DefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfSchema_DefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.AwsVerifiedpermissionsSchemaConfig",
-		reflect.TypeOf((*AwsVerifiedpermissionsSchemaConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.DataAwsVerifiedpermissionsPolicyStore",
-		reflect.TypeOf((*DataAwsVerifiedpermissionsPolicyStore)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "createdDate", GoGetter: "CreatedDate"},
-			_jsii_.MemberProperty{JsiiProperty: "deletionProtection", GoGetter: "DeletionProtection"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lastUpdatedDate", GoGetter: "LastUpdatedDate"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "validationSettings", GoGetter: "ValidationSettings"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsVerifiedpermissionsPolicyStore{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.DataAwsVerifiedpermissionsPolicyStore.ValidationSettingsProperty",
-		reflect.TypeOf((*DataAwsVerifiedpermissionsPolicyStore_ValidationSettingsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.DataAwsVerifiedpermissionsPolicyStore.ValidationSettingsPropertyList",
-		reflect.TypeOf((*DataAwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-permissions.DataAwsVerifiedpermissionsPolicyStore.ValidationSettingsPropertyOutputReference",
-		reflect.TypeOf((*DataAwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "mode", GoGetter: "Mode"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsVerifiedpermissionsPolicyStore_ValidationSettingsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-permissions.DataAwsVerifiedpermissionsPolicyStoreConfig",
-		reflect.TypeOf((*DataAwsVerifiedpermissionsPolicyStoreConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-permissions.TfSchemaConfig",
+		reflect.TypeOf((*TfSchemaConfig)(nil)).Elem(),
 	)
 }

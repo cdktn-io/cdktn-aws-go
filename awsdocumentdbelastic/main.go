@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb-elastic.AwsDocdbelasticCluster",
-		reflect.TypeOf((*AwsDocdbelasticCluster)(nil)).Elem(),
+		"@cdktn/aws-documentdb-elastic.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -105,18 +105,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbelasticCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb-elastic.AwsDocdbelasticCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsDocdbelasticCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb-elastic.TfCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb-elastic.AwsDocdbelasticCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbelasticCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb-elastic.TfCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -150,13 +150,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbelasticCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb-elastic.AwsDocdbelasticClusterConfig",
-		reflect.TypeOf((*AwsDocdbelasticClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb-elastic.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 }

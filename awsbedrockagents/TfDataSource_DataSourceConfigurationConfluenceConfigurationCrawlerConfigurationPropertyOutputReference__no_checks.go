@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagents
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validatePutFilterConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfDataSource_DataSourceConfigurationConfluenceConfigurationCrawlerConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

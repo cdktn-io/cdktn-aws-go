@@ -1,0 +1,38 @@
+//go:build no_runtime_type_checking
+
+package awsfsx
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfS3AccessPointAttachment_PosixUserPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewTfS3AccessPointAttachment_PosixUserPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

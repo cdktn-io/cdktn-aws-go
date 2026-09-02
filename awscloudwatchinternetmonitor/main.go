@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor",
-		reflect.TypeOf((*AwsInternetmonitorMonitor)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor",
+		reflect.TypeOf((*TfMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -93,18 +93,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInternetmonitorMonitor{}
+			j := jsiiProxy_TfMonitor{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor.HealthEventsConfigProperty",
-		reflect.TypeOf((*AwsInternetmonitorMonitor_HealthEventsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor.HealthEventsConfigProperty",
+		reflect.TypeOf((*TfMonitor_HealthEventsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor.HealthEventsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsInternetmonitorMonitor_HealthEventsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor.HealthEventsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitor_HealthEventsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityScoreThreshold", GoGetter: "AvailabilityScoreThreshold"},
 			_jsii_.MemberProperty{JsiiProperty: "availabilityScoreThresholdInput", GoGetter: "AvailabilityScoreThresholdInput"},
@@ -135,18 +135,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInternetmonitorMonitor_HealthEventsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitor_HealthEventsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor.InternetMeasurementsLogDeliveryProperty",
-		reflect.TypeOf((*AwsInternetmonitorMonitor_InternetMeasurementsLogDeliveryProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor.InternetMeasurementsLogDeliveryProperty",
+		reflect.TypeOf((*TfMonitor_InternetMeasurementsLogDeliveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor.InternetMeasurementsLogDeliveryPropertyOutputReference",
-		reflect.TypeOf((*AwsInternetmonitorMonitor_InternetMeasurementsLogDeliveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor.InternetMeasurementsLogDeliveryPropertyOutputReference",
+		reflect.TypeOf((*TfMonitor_InternetMeasurementsLogDeliveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -175,18 +175,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInternetmonitorMonitor_InternetMeasurementsLogDeliveryPropertyOutputReference{}
+			j := jsiiProxy_TfMonitor_InternetMeasurementsLogDeliveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor.S3ConfigProperty",
-		reflect.TypeOf((*AwsInternetmonitorMonitor_S3ConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor.S3ConfigProperty",
+		reflect.TypeOf((*TfMonitor_S3ConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitor.S3ConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsInternetmonitorMonitor_S3ConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitor.S3ConfigPropertyOutputReference",
+		reflect.TypeOf((*TfMonitor_S3ConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -219,13 +219,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInternetmonitorMonitor_S3ConfigPropertyOutputReference{}
+			j := jsiiProxy_TfMonitor_S3ConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-internet-monitor.AwsInternetmonitorMonitorConfig",
-		reflect.TypeOf((*AwsInternetmonitorMonitorConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-internet-monitor.TfMonitorConfig",
+		reflect.TypeOf((*TfMonitorConfig)(nil)).Elem(),
 	)
 }

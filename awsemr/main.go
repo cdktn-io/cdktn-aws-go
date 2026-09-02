@@ -9,8 +9,236 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrBlockPublicAccessConfiguration",
-		reflect.TypeOf((*AwsEmrBlockPublicAccessConfiguration)(nil)).Elem(),
+		"@cdktn/aws-emr.DataTfReleaseLabels",
+		reflect.TypeOf((*DataTfReleaseLabels)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "filters", GoGetter: "Filters"},
+			_jsii_.MemberProperty{JsiiProperty: "filtersInput", GoGetter: "FiltersInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberMethod{JsiiMethod: "putFilters", GoMethod: "PutFilters"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberProperty{JsiiProperty: "releaseLabels", GoGetter: "ReleaseLabels"},
+			_jsii_.MemberMethod{JsiiMethod: "resetFilters", GoMethod: "ResetFilters"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfReleaseLabels{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-emr.DataTfReleaseLabels.FiltersProperty",
+		reflect.TypeOf((*DataTfReleaseLabels_FiltersProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-emr.DataTfReleaseLabels.FiltersPropertyOutputReference",
+		reflect.TypeOf((*DataTfReleaseLabels_FiltersPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "application", GoGetter: "Application"},
+			_jsii_.MemberProperty{JsiiProperty: "applicationInput", GoGetter: "ApplicationInput"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "prefix", GoGetter: "Prefix"},
+			_jsii_.MemberProperty{JsiiProperty: "prefixInput", GoGetter: "PrefixInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetApplication", GoMethod: "ResetApplication"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPrefix", GoMethod: "ResetPrefix"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfReleaseLabels_FiltersPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-emr.DataTfReleaseLabelsConfig",
+		reflect.TypeOf((*DataTfReleaseLabelsConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-emr.DataTfSupportedInstanceTypes",
+		reflect.TypeOf((*DataTfSupportedInstanceTypes)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberProperty{JsiiProperty: "releaseLabel", GoGetter: "ReleaseLabel"},
+			_jsii_.MemberProperty{JsiiProperty: "releaseLabelInput", GoGetter: "ReleaseLabelInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "supportedInstanceTypes", GoGetter: "SupportedInstanceTypes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfSupportedInstanceTypes{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-emr.DataTfSupportedInstanceTypes.SupportedInstanceTypesProperty",
+		reflect.TypeOf((*DataTfSupportedInstanceTypes_SupportedInstanceTypesProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-emr.DataTfSupportedInstanceTypes.SupportedInstanceTypesPropertyList",
+		reflect.TypeOf((*DataTfSupportedInstanceTypes_SupportedInstanceTypesPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfSupportedInstanceTypes_SupportedInstanceTypesPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-emr.DataTfSupportedInstanceTypes.SupportedInstanceTypesPropertyOutputReference",
+		reflect.TypeOf((*DataTfSupportedInstanceTypes_SupportedInstanceTypesPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "architecture", GoGetter: "Architecture"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "ebsOptimizedAvailable", GoGetter: "EbsOptimizedAvailable"},
+			_jsii_.MemberProperty{JsiiProperty: "ebsOptimizedByDefault", GoGetter: "EbsOptimizedByDefault"},
+			_jsii_.MemberProperty{JsiiProperty: "ebsStorageOnly", GoGetter: "EbsStorageOnly"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceFamilyId", GoGetter: "InstanceFamilyId"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "is64BitsOnly", GoGetter: "Is64BitsOnly"},
+			_jsii_.MemberProperty{JsiiProperty: "memoryGb", GoGetter: "MemoryGb"},
+			_jsii_.MemberProperty{JsiiProperty: "numberOfDisks", GoGetter: "NumberOfDisks"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "storageGb", GoGetter: "StorageGb"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberProperty{JsiiProperty: "vcpu", GoGetter: "Vcpu"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfSupportedInstanceTypes_SupportedInstanceTypesPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-emr.DataTfSupportedInstanceTypesConfig",
+		reflect.TypeOf((*DataTfSupportedInstanceTypesConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-emr.TfBlockPublicAccessConfiguration",
+		reflect.TypeOf((*TfBlockPublicAccessConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,18 +298,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrBlockPublicAccessConfiguration{}
+			j := jsiiProxy_TfBlockPublicAccessConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrBlockPublicAccessConfiguration.PermittedPublicSecurityGroupRuleRangeProperty",
-		reflect.TypeOf((*AwsEmrBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfBlockPublicAccessConfiguration.PermittedPublicSecurityGroupRuleRangeProperty",
+		reflect.TypeOf((*TfBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrBlockPublicAccessConfiguration.PermittedPublicSecurityGroupRuleRangePropertyList",
-		reflect.TypeOf((*AwsEmrBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfBlockPublicAccessConfiguration.PermittedPublicSecurityGroupRuleRangePropertyList",
+		reflect.TypeOf((*TfBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -96,14 +324,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyList{}
+			j := jsiiProxy_TfBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrBlockPublicAccessConfiguration.PermittedPublicSecurityGroupRuleRangePropertyOutputReference",
-		reflect.TypeOf((*AwsEmrBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfBlockPublicAccessConfiguration.PermittedPublicSecurityGroupRuleRangePropertyOutputReference",
+		reflect.TypeOf((*TfBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -132,18 +360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyOutputReference{}
+			j := jsiiProxy_TfBlockPublicAccessConfiguration_PermittedPublicSecurityGroupRuleRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrBlockPublicAccessConfigurationConfig",
-		reflect.TypeOf((*AwsEmrBlockPublicAccessConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfBlockPublicAccessConfigurationConfig",
+		reflect.TypeOf((*TfBlockPublicAccessConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster",
-		reflect.TypeOf((*AwsEmrCluster)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalInfo", GoGetter: "AdditionalInfo"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalInfoInput", GoGetter: "AdditionalInfoInput"},
@@ -306,18 +534,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.AutoTerminationPolicyProperty",
-		reflect.TypeOf((*AwsEmrCluster_AutoTerminationPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.AutoTerminationPolicyProperty",
+		reflect.TypeOf((*TfCluster_AutoTerminationPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.AutoTerminationPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_AutoTerminationPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.AutoTerminationPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_AutoTerminationPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -345,18 +573,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_AutoTerminationPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_AutoTerminationPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.BootstrapActionProperty",
-		reflect.TypeOf((*AwsEmrCluster_BootstrapActionProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.BootstrapActionProperty",
+		reflect.TypeOf((*TfCluster_BootstrapActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.BootstrapActionPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_BootstrapActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.BootstrapActionPropertyList",
+		reflect.TypeOf((*TfCluster_BootstrapActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -371,14 +599,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_BootstrapActionPropertyList{}
+			j := jsiiProxy_TfCluster_BootstrapActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.BootstrapActionPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_BootstrapActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.BootstrapActionPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_BootstrapActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
 			_jsii_.MemberProperty{JsiiProperty: "argsInput", GoGetter: "ArgsInput"},
@@ -410,18 +638,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_BootstrapActionPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_BootstrapActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsConfigurationsProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsConfigurationsProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyList",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -436,14 +664,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyList{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
 			_jsii_.MemberProperty{JsiiProperty: "classificationInput", GoGetter: "ClassificationInput"},
@@ -474,18 +702,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsEbsConfigProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsEbsConfigProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyList",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -500,14 +728,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyList{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -542,18 +770,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesPerInstanceInput", GoGetter: "VolumesPerInstanceInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsPropertyList",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -568,14 +796,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsPropertyList{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetInstanceTypeConfigsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetInstanceTypeConfigsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetInstanceTypeConfigsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetInstanceTypeConfigsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
 			_jsii_.MemberProperty{JsiiProperty: "bidPriceAsPercentageOfOnDemandPrice", GoGetter: "BidPriceAsPercentageOfOnDemandPrice"},
@@ -619,18 +847,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightedCapacityInput", GoGetter: "WeightedCapacityInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetInstanceTypeConfigsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetInstanceTypeConfigsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -645,14 +873,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -679,18 +907,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -723,18 +951,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetLaunchSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsSpotSpecificationProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsSpotSpecificationProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -749,14 +977,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -790,18 +1018,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceFleetPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceFleetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceFleetPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceFleetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -846,18 +1074,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceFleetPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceFleetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceGroupEbsConfigProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceGroupEbsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceGroupEbsConfigProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceGroupEbsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceGroupEbsConfigPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceGroupEbsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceGroupEbsConfigPropertyList",
+		reflect.TypeOf((*TfCluster_CoreInstanceGroupEbsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -872,14 +1100,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceGroupEbsConfigPropertyList{}
+			j := jsiiProxy_TfCluster_CoreInstanceGroupEbsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceGroupEbsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceGroupEbsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceGroupEbsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceGroupEbsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -917,18 +1145,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesPerInstanceInput", GoGetter: "VolumesPerInstanceInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceGroupEbsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceGroupEbsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceGroupProperty",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceGroupProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceGroupProperty",
+		reflect.TypeOf((*TfCluster_CoreInstanceGroupProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.CoreInstanceGroupPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_CoreInstanceGroupPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.CoreInstanceGroupPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_CoreInstanceGroupPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoscalingPolicy", GoGetter: "AutoscalingPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "autoscalingPolicyInput", GoGetter: "AutoscalingPolicyInput"},
@@ -972,18 +1200,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_CoreInstanceGroupPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_CoreInstanceGroupPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.Ec2AttributesProperty",
-		reflect.TypeOf((*AwsEmrCluster_Ec2AttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.Ec2AttributesProperty",
+		reflect.TypeOf((*TfCluster_Ec2AttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.Ec2AttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_Ec2AttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.Ec2AttributesPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_Ec2AttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalMasterSecurityGroups", GoGetter: "AdditionalMasterSecurityGroups"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalMasterSecurityGroupsInput", GoGetter: "AdditionalMasterSecurityGroupsInput"},
@@ -1034,18 +1262,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_Ec2AttributesPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_Ec2AttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.HadoopJarStepProperty",
-		reflect.TypeOf((*AwsEmrCluster_HadoopJarStepProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.HadoopJarStepProperty",
+		reflect.TypeOf((*TfCluster_HadoopJarStepProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.HadoopJarStepPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_HadoopJarStepPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.HadoopJarStepPropertyList",
+		reflect.TypeOf((*TfCluster_HadoopJarStepPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1060,14 +1288,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_HadoopJarStepPropertyList{}
+			j := jsiiProxy_TfCluster_HadoopJarStepPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.HadoopJarStepPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_HadoopJarStepPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.HadoopJarStepPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_HadoopJarStepPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "args", GoGetter: "Args"},
 			_jsii_.MemberProperty{JsiiProperty: "argsInput", GoGetter: "ArgsInput"},
@@ -1104,18 +1332,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_HadoopJarStepPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_HadoopJarStepPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.KerberosAttributesProperty",
-		reflect.TypeOf((*AwsEmrCluster_KerberosAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.KerberosAttributesProperty",
+		reflect.TypeOf((*TfCluster_KerberosAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.KerberosAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_KerberosAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.KerberosAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_KerberosAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adDomainJoinPassword", GoGetter: "AdDomainJoinPassword"},
 			_jsii_.MemberProperty{JsiiProperty: "adDomainJoinPasswordInput", GoGetter: "AdDomainJoinPasswordInput"},
@@ -1153,18 +1381,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_KerberosAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_KerberosAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsConfigurationsProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsConfigurationsProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyList",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1179,14 +1407,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyList{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
 			_jsii_.MemberProperty{JsiiProperty: "classificationInput", GoGetter: "ClassificationInput"},
@@ -1217,18 +1445,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetInstanceTypeConfigsConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsEbsConfigProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsEbsConfigProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyList",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1243,14 +1471,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyList{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1285,18 +1513,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesPerInstanceInput", GoGetter: "VolumesPerInstanceInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetInstanceTypeConfigsEbsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsPropertyList",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1311,14 +1539,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsPropertyList{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetInstanceTypeConfigsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetInstanceTypeConfigsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetInstanceTypeConfigsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetInstanceTypeConfigsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
 			_jsii_.MemberProperty{JsiiProperty: "bidPriceAsPercentageOfOnDemandPrice", GoGetter: "BidPriceAsPercentageOfOnDemandPrice"},
@@ -1362,18 +1590,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightedCapacityInput", GoGetter: "WeightedCapacityInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetInstanceTypeConfigsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetInstanceTypeConfigsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1388,14 +1616,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -1422,18 +1650,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetLaunchSpecificationsOnDemandSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1466,18 +1694,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetLaunchSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsSpotSpecificationProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsSpotSpecificationProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1492,14 +1720,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -1533,18 +1761,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetLaunchSpecificationsSpotSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceFleetPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceFleetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceFleetPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceFleetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1589,18 +1817,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceFleetPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceFleetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceGroupEbsConfigProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceGroupEbsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceGroupEbsConfigProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceGroupEbsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceGroupEbsConfigPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceGroupEbsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceGroupEbsConfigPropertyList",
+		reflect.TypeOf((*TfCluster_MasterInstanceGroupEbsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1615,14 +1843,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceGroupEbsConfigPropertyList{}
+			j := jsiiProxy_TfCluster_MasterInstanceGroupEbsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceGroupEbsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceGroupEbsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceGroupEbsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceGroupEbsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1660,18 +1888,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesPerInstanceInput", GoGetter: "VolumesPerInstanceInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceGroupEbsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceGroupEbsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceGroupProperty",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceGroupProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceGroupProperty",
+		reflect.TypeOf((*TfCluster_MasterInstanceGroupProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.MasterInstanceGroupPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_MasterInstanceGroupPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.MasterInstanceGroupPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterInstanceGroupPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
 			_jsii_.MemberProperty{JsiiProperty: "bidPriceInput", GoGetter: "BidPriceInput"},
@@ -1712,18 +1940,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_MasterInstanceGroupPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterInstanceGroupPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.PlacementGroupConfigProperty",
-		reflect.TypeOf((*AwsEmrCluster_PlacementGroupConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.PlacementGroupConfigProperty",
+		reflect.TypeOf((*TfCluster_PlacementGroupConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.PlacementGroupConfigPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_PlacementGroupConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.PlacementGroupConfigPropertyList",
+		reflect.TypeOf((*TfCluster_PlacementGroupConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1738,14 +1966,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_PlacementGroupConfigPropertyList{}
+			j := jsiiProxy_TfCluster_PlacementGroupConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.PlacementGroupConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_PlacementGroupConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.PlacementGroupConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_PlacementGroupConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1776,18 +2004,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_PlacementGroupConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_PlacementGroupConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrCluster.StepProperty",
-		reflect.TypeOf((*AwsEmrCluster_StepProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.StepProperty",
+		reflect.TypeOf((*TfCluster_StepProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.StepPropertyList",
-		reflect.TypeOf((*AwsEmrCluster_StepPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.StepPropertyList",
+		reflect.TypeOf((*TfCluster_StepPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1802,14 +2030,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_StepPropertyList{}
+			j := jsiiProxy_TfCluster_StepPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrCluster.StepPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrCluster_StepPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfCluster.StepPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_StepPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionOnFailure", GoGetter: "ActionOnFailure"},
 			_jsii_.MemberProperty{JsiiProperty: "actionOnFailureInput", GoGetter: "ActionOnFailureInput"},
@@ -1844,18 +2072,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrCluster_StepPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_StepPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrClusterConfig",
-		reflect.TypeOf((*AwsEmrClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet",
-		reflect.TypeOf((*AwsEmrInstanceFleet)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet",
+		reflect.TypeOf((*TfInstanceFleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1930,18 +2158,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet{}
+			j := jsiiProxy_TfInstanceFleet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.ConfigurationsProperty",
-		reflect.TypeOf((*AwsEmrInstanceFleet_ConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.ConfigurationsProperty",
+		reflect.TypeOf((*TfInstanceFleet_ConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.ConfigurationsPropertyList",
-		reflect.TypeOf((*AwsEmrInstanceFleet_ConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.ConfigurationsPropertyList",
+		reflect.TypeOf((*TfInstanceFleet_ConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1956,14 +2184,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_ConfigurationsPropertyList{}
+			j := jsiiProxy_TfInstanceFleet_ConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.ConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceFleet_ConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.ConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceFleet_ConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classification", GoGetter: "Classification"},
 			_jsii_.MemberProperty{JsiiProperty: "classificationInput", GoGetter: "ClassificationInput"},
@@ -1994,18 +2222,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_ConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceFleet_ConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.EbsConfigProperty",
-		reflect.TypeOf((*AwsEmrInstanceFleet_EbsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.EbsConfigProperty",
+		reflect.TypeOf((*TfInstanceFleet_EbsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.EbsConfigPropertyList",
-		reflect.TypeOf((*AwsEmrInstanceFleet_EbsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.EbsConfigPropertyList",
+		reflect.TypeOf((*TfInstanceFleet_EbsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2020,14 +2248,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_EbsConfigPropertyList{}
+			j := jsiiProxy_TfInstanceFleet_EbsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.EbsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceFleet_EbsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.EbsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceFleet_EbsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2062,18 +2290,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesPerInstanceInput", GoGetter: "VolumesPerInstanceInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_EbsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceFleet_EbsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.InstanceTypeConfigsProperty",
-		reflect.TypeOf((*AwsEmrInstanceFleet_InstanceTypeConfigsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.InstanceTypeConfigsProperty",
+		reflect.TypeOf((*TfInstanceFleet_InstanceTypeConfigsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.InstanceTypeConfigsPropertyList",
-		reflect.TypeOf((*AwsEmrInstanceFleet_InstanceTypeConfigsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.InstanceTypeConfigsPropertyList",
+		reflect.TypeOf((*TfInstanceFleet_InstanceTypeConfigsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2088,14 +2316,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_InstanceTypeConfigsPropertyList{}
+			j := jsiiProxy_TfInstanceFleet_InstanceTypeConfigsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.InstanceTypeConfigsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceFleet_InstanceTypeConfigsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.InstanceTypeConfigsPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceFleet_InstanceTypeConfigsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bidPrice", GoGetter: "BidPrice"},
 			_jsii_.MemberProperty{JsiiProperty: "bidPriceAsPercentageOfOnDemandPrice", GoGetter: "BidPriceAsPercentageOfOnDemandPrice"},
@@ -2139,18 +2367,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightedCapacityInput", GoGetter: "WeightedCapacityInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_InstanceTypeConfigsPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceFleet_InstanceTypeConfigsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.LaunchSpecificationsProperty",
-		reflect.TypeOf((*AwsEmrInstanceFleet_LaunchSpecificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.LaunchSpecificationsProperty",
+		reflect.TypeOf((*TfInstanceFleet_LaunchSpecificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.LaunchSpecificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceFleet_LaunchSpecificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.LaunchSpecificationsPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceFleet_LaunchSpecificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2183,18 +2411,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_LaunchSpecificationsPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceFleet_LaunchSpecificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.OnDemandSpecificationProperty",
-		reflect.TypeOf((*AwsEmrInstanceFleet_OnDemandSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.OnDemandSpecificationProperty",
+		reflect.TypeOf((*TfInstanceFleet_OnDemandSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.OnDemandSpecificationPropertyList",
-		reflect.TypeOf((*AwsEmrInstanceFleet_OnDemandSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.OnDemandSpecificationPropertyList",
+		reflect.TypeOf((*TfInstanceFleet_OnDemandSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2209,14 +2437,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_OnDemandSpecificationPropertyList{}
+			j := jsiiProxy_TfInstanceFleet_OnDemandSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.OnDemandSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceFleet_OnDemandSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.OnDemandSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceFleet_OnDemandSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -2243,18 +2471,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_OnDemandSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceFleet_OnDemandSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.SpotSpecificationProperty",
-		reflect.TypeOf((*AwsEmrInstanceFleet_SpotSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.SpotSpecificationProperty",
+		reflect.TypeOf((*TfInstanceFleet_SpotSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.SpotSpecificationPropertyList",
-		reflect.TypeOf((*AwsEmrInstanceFleet_SpotSpecificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.SpotSpecificationPropertyList",
+		reflect.TypeOf((*TfInstanceFleet_SpotSpecificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2269,14 +2497,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_SpotSpecificationPropertyList{}
+			j := jsiiProxy_TfInstanceFleet_SpotSpecificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceFleet.SpotSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceFleet_SpotSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleet.SpotSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceFleet_SpotSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategy", GoGetter: "AllocationStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "allocationStrategyInput", GoGetter: "AllocationStrategyInput"},
@@ -2310,18 +2538,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceFleet_SpotSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceFleet_SpotSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceFleetConfig",
-		reflect.TypeOf((*AwsEmrInstanceFleetConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceFleetConfig",
+		reflect.TypeOf((*TfInstanceFleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceGroup",
-		reflect.TypeOf((*AwsEmrInstanceGroup)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceGroup",
+		reflect.TypeOf((*TfInstanceGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2403,18 +2631,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceGroup{}
+			j := jsiiProxy_TfInstanceGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceGroup.EbsConfigProperty",
-		reflect.TypeOf((*AwsEmrInstanceGroup_EbsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceGroup.EbsConfigProperty",
+		reflect.TypeOf((*TfInstanceGroup_EbsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceGroup.EbsConfigPropertyList",
-		reflect.TypeOf((*AwsEmrInstanceGroup_EbsConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceGroup.EbsConfigPropertyList",
+		reflect.TypeOf((*TfInstanceGroup_EbsConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2429,14 +2657,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceGroup_EbsConfigPropertyList{}
+			j := jsiiProxy_TfInstanceGroup_EbsConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrInstanceGroup.EbsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrInstanceGroup_EbsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceGroup.EbsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceGroup_EbsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2471,18 +2699,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "volumesPerInstanceInput", GoGetter: "VolumesPerInstanceInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrInstanceGroup_EbsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceGroup_EbsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrInstanceGroupConfig",
-		reflect.TypeOf((*AwsEmrInstanceGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfInstanceGroupConfig",
+		reflect.TypeOf((*TfInstanceGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrManagedScalingPolicy",
-		reflect.TypeOf((*AwsEmrManagedScalingPolicy)(nil)).Elem(),
+		"@cdktn/aws-emr.TfManagedScalingPolicy",
+		reflect.TypeOf((*TfManagedScalingPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2547,18 +2775,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrManagedScalingPolicy{}
+			j := jsiiProxy_TfManagedScalingPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrManagedScalingPolicy.ComputeLimitsProperty",
-		reflect.TypeOf((*AwsEmrManagedScalingPolicy_ComputeLimitsProperty)(nil)).Elem(),
+		"@cdktn/aws-emr.TfManagedScalingPolicy.ComputeLimitsProperty",
+		reflect.TypeOf((*TfManagedScalingPolicy_ComputeLimitsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrManagedScalingPolicy.ComputeLimitsPropertyList",
-		reflect.TypeOf((*AwsEmrManagedScalingPolicy_ComputeLimitsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-emr.TfManagedScalingPolicy.ComputeLimitsPropertyList",
+		reflect.TypeOf((*TfManagedScalingPolicy_ComputeLimitsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2573,14 +2801,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrManagedScalingPolicy_ComputeLimitsPropertyList{}
+			j := jsiiProxy_TfManagedScalingPolicy_ComputeLimitsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrManagedScalingPolicy.ComputeLimitsPropertyOutputReference",
-		reflect.TypeOf((*AwsEmrManagedScalingPolicy_ComputeLimitsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-emr.TfManagedScalingPolicy.ComputeLimitsPropertyOutputReference",
+		reflect.TypeOf((*TfManagedScalingPolicy_ComputeLimitsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2617,18 +2845,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unitTypeInput", GoGetter: "UnitTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrManagedScalingPolicy_ComputeLimitsPropertyOutputReference{}
+			j := jsiiProxy_TfManagedScalingPolicy_ComputeLimitsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrManagedScalingPolicyConfig",
-		reflect.TypeOf((*AwsEmrManagedScalingPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfManagedScalingPolicyConfig",
+		reflect.TypeOf((*TfManagedScalingPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrSecurityConfiguration",
-		reflect.TypeOf((*AwsEmrSecurityConfiguration)(nil)).Elem(),
+		"@cdktn/aws-emr.TfSecurityConfiguration",
+		reflect.TypeOf((*TfSecurityConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2691,18 +2919,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrSecurityConfiguration{}
+			j := jsiiProxy_TfSecurityConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrSecurityConfigurationConfig",
-		reflect.TypeOf((*AwsEmrSecurityConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfSecurityConfigurationConfig",
+		reflect.TypeOf((*TfSecurityConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrStudio",
-		reflect.TypeOf((*AwsEmrStudio)(nil)).Elem(),
+		"@cdktn/aws-emr.TfStudio",
+		reflect.TypeOf((*TfStudio)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2795,18 +3023,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workspaceSecurityGroupIdInput", GoGetter: "WorkspaceSecurityGroupIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrStudio{}
+			j := jsiiProxy_TfStudio{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrStudioConfig",
-		reflect.TypeOf((*AwsEmrStudioConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfStudioConfig",
+		reflect.TypeOf((*TfStudioConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.AwsEmrStudioSessionMapping",
-		reflect.TypeOf((*AwsEmrStudioSessionMapping)(nil)).Elem(),
+		"@cdktn/aws-emr.TfStudioSessionMapping",
+		reflect.TypeOf((*TfStudioSessionMapping)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2872,241 +3100,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEmrStudioSessionMapping{}
+			j := jsiiProxy_TfStudioSessionMapping{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.AwsEmrStudioSessionMappingConfig",
-		reflect.TypeOf((*AwsEmrStudioSessionMappingConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.DataAwsEmrReleaseLabels",
-		reflect.TypeOf((*DataAwsEmrReleaseLabels)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "filters", GoGetter: "Filters"},
-			_jsii_.MemberProperty{JsiiProperty: "filtersInput", GoGetter: "FiltersInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberMethod{JsiiMethod: "putFilters", GoMethod: "PutFilters"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberProperty{JsiiProperty: "releaseLabels", GoGetter: "ReleaseLabels"},
-			_jsii_.MemberMethod{JsiiMethod: "resetFilters", GoMethod: "ResetFilters"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsEmrReleaseLabels{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.DataAwsEmrReleaseLabels.FiltersProperty",
-		reflect.TypeOf((*DataAwsEmrReleaseLabels_FiltersProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.DataAwsEmrReleaseLabels.FiltersPropertyOutputReference",
-		reflect.TypeOf((*DataAwsEmrReleaseLabels_FiltersPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "application", GoGetter: "Application"},
-			_jsii_.MemberProperty{JsiiProperty: "applicationInput", GoGetter: "ApplicationInput"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "prefix", GoGetter: "Prefix"},
-			_jsii_.MemberProperty{JsiiProperty: "prefixInput", GoGetter: "PrefixInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetApplication", GoMethod: "ResetApplication"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPrefix", GoMethod: "ResetPrefix"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsEmrReleaseLabels_FiltersPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.DataAwsEmrReleaseLabelsConfig",
-		reflect.TypeOf((*DataAwsEmrReleaseLabelsConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.DataAwsEmrSupportedInstanceTypes",
-		reflect.TypeOf((*DataAwsEmrSupportedInstanceTypes)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberProperty{JsiiProperty: "releaseLabel", GoGetter: "ReleaseLabel"},
-			_jsii_.MemberProperty{JsiiProperty: "releaseLabelInput", GoGetter: "ReleaseLabelInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "supportedInstanceTypes", GoGetter: "SupportedInstanceTypes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsEmrSupportedInstanceTypes{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.DataAwsEmrSupportedInstanceTypes.SupportedInstanceTypesProperty",
-		reflect.TypeOf((*DataAwsEmrSupportedInstanceTypes_SupportedInstanceTypesProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.DataAwsEmrSupportedInstanceTypes.SupportedInstanceTypesPropertyList",
-		reflect.TypeOf((*DataAwsEmrSupportedInstanceTypes_SupportedInstanceTypesPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsEmrSupportedInstanceTypes_SupportedInstanceTypesPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-emr.DataAwsEmrSupportedInstanceTypes.SupportedInstanceTypesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsEmrSupportedInstanceTypes_SupportedInstanceTypesPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "architecture", GoGetter: "Architecture"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "ebsOptimizedAvailable", GoGetter: "EbsOptimizedAvailable"},
-			_jsii_.MemberProperty{JsiiProperty: "ebsOptimizedByDefault", GoGetter: "EbsOptimizedByDefault"},
-			_jsii_.MemberProperty{JsiiProperty: "ebsStorageOnly", GoGetter: "EbsStorageOnly"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceFamilyId", GoGetter: "InstanceFamilyId"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "is64BitsOnly", GoGetter: "Is64BitsOnly"},
-			_jsii_.MemberProperty{JsiiProperty: "memoryGb", GoGetter: "MemoryGb"},
-			_jsii_.MemberProperty{JsiiProperty: "numberOfDisks", GoGetter: "NumberOfDisks"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "storageGb", GoGetter: "StorageGb"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberProperty{JsiiProperty: "vcpu", GoGetter: "Vcpu"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsEmrSupportedInstanceTypes_SupportedInstanceTypesPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-emr.DataAwsEmrSupportedInstanceTypesConfig",
-		reflect.TypeOf((*DataAwsEmrSupportedInstanceTypesConfig)(nil)).Elem(),
+		"@cdktn/aws-emr.TfStudioSessionMappingConfig",
+		reflect.TypeOf((*TfStudioSessionMappingConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftAutoshiftObserverNotificationStatus",
-		reflect.TypeOf((*AwsArczonalshiftAutoshiftObserverNotificationStatus)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfAutoshiftObserverNotificationStatus",
+		reflect.TypeOf((*TfAutoshiftObserverNotificationStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,18 +64,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArczonalshiftAutoshiftObserverNotificationStatus{}
+			j := jsiiProxy_TfAutoshiftObserverNotificationStatus{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftAutoshiftObserverNotificationStatusConfig",
-		reflect.TypeOf((*AwsArczonalshiftAutoshiftObserverNotificationStatusConfig)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfAutoshiftObserverNotificationStatusConfig",
+		reflect.TypeOf((*TfAutoshiftObserverNotificationStatusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -147,18 +147,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zonalAutoshiftStatusInput", GoGetter: "ZonalAutoshiftStatusInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArczonalshiftZonalAutoshiftConfiguration{}
+			j := jsiiProxy_TfZonalAutoshiftConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration.BlockingAlarmsProperty",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration_BlockingAlarmsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration.BlockingAlarmsProperty",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration_BlockingAlarmsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration.BlockingAlarmsPropertyList",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration_BlockingAlarmsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration.BlockingAlarmsPropertyList",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration_BlockingAlarmsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -173,14 +173,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArczonalshiftZonalAutoshiftConfiguration_BlockingAlarmsPropertyList{}
+			j := jsiiProxy_TfZonalAutoshiftConfiguration_BlockingAlarmsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration.BlockingAlarmsPropertyOutputReference",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration_BlockingAlarmsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration.BlockingAlarmsPropertyOutputReference",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration_BlockingAlarmsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmIdentifier", GoGetter: "AlarmIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmIdentifierInput", GoGetter: "AlarmIdentifierInput"},
@@ -209,18 +209,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArczonalshiftZonalAutoshiftConfiguration_BlockingAlarmsPropertyOutputReference{}
+			j := jsiiProxy_TfZonalAutoshiftConfiguration_BlockingAlarmsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration.OutcomeAlarmsProperty",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration_OutcomeAlarmsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration.OutcomeAlarmsProperty",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration_OutcomeAlarmsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration.OutcomeAlarmsPropertyList",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration_OutcomeAlarmsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration.OutcomeAlarmsPropertyList",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration_OutcomeAlarmsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -235,14 +235,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArczonalshiftZonalAutoshiftConfiguration_OutcomeAlarmsPropertyList{}
+			j := jsiiProxy_TfZonalAutoshiftConfiguration_OutcomeAlarmsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfiguration.OutcomeAlarmsPropertyOutputReference",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfiguration_OutcomeAlarmsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfiguration.OutcomeAlarmsPropertyOutputReference",
+		reflect.TypeOf((*TfZonalAutoshiftConfiguration_OutcomeAlarmsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmIdentifier", GoGetter: "AlarmIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmIdentifierInput", GoGetter: "AlarmIdentifierInput"},
@@ -271,13 +271,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArczonalshiftZonalAutoshiftConfiguration_OutcomeAlarmsPropertyOutputReference{}
+			j := jsiiProxy_TfZonalAutoshiftConfiguration_OutcomeAlarmsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-zonal-shift.AwsArczonalshiftZonalAutoshiftConfigurationConfig",
-		reflect.TypeOf((*AwsArczonalshiftZonalAutoshiftConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-arc-zonal-shift.TfZonalAutoshiftConfigurationConfig",
+		reflect.TypeOf((*TfZonalAutoshiftConfigurationConfig)(nil)).Elem(),
 	)
 }

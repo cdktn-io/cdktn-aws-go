@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetInternalValueParameters(val *TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfOauth2CredentialProvider_Oauth2ProviderConfigSalesforceOauth2ProviderConfigOauthDiscoveryPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

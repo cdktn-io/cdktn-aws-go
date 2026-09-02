@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagents
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetMetadataFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetTextFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReference) validateSetVectorFieldParameters(val *string) error {
+	return nil
+}
+
+func validateNewTfKnowledgeBase_StorageConfigurationOpensearchServerlessConfigurationFieldMappingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

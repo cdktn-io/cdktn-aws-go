@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier",
+		reflect.TypeOf((*TfDocumentClassifier)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -107,18 +107,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier{}
+			j := jsiiProxy_TfDocumentClassifier{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.AugmentedManifestsProperty",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_AugmentedManifestsProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.AugmentedManifestsProperty",
+		reflect.TypeOf((*TfDocumentClassifier_AugmentedManifestsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.AugmentedManifestsPropertyList",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_AugmentedManifestsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.AugmentedManifestsPropertyList",
+		reflect.TypeOf((*TfDocumentClassifier_AugmentedManifestsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -133,14 +133,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier_AugmentedManifestsPropertyList{}
+			j := jsiiProxy_TfDocumentClassifier_AugmentedManifestsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.AugmentedManifestsPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_AugmentedManifestsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.AugmentedManifestsPropertyOutputReference",
+		reflect.TypeOf((*TfDocumentClassifier_AugmentedManifestsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotationDataS3Uri", GoGetter: "AnnotationDataS3Uri"},
 			_jsii_.MemberProperty{JsiiProperty: "annotationDataS3UriInput", GoGetter: "AnnotationDataS3UriInput"},
@@ -181,18 +181,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier_AugmentedManifestsPropertyOutputReference{}
+			j := jsiiProxy_TfDocumentClassifier_AugmentedManifestsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.InputDataConfigProperty",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_InputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.InputDataConfigProperty",
+		reflect.TypeOf((*TfDocumentClassifier_InputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.InputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_InputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.InputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDocumentClassifier_InputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "augmentedManifests", GoGetter: "AugmentedManifests"},
 			_jsii_.MemberProperty{JsiiProperty: "augmentedManifestsInput", GoGetter: "AugmentedManifestsInput"},
@@ -233,18 +233,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier_InputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDocumentClassifier_InputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.OutputDataConfigProperty",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_OutputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.OutputDataConfigProperty",
+		reflect.TypeOf((*TfDocumentClassifier_OutputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.OutputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_OutputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.OutputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDocumentClassifier_OutputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -275,18 +275,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier_OutputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDocumentClassifier_OutputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.TimeoutsProperty",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.TimeoutsProperty",
+		reflect.TypeOf((*TfDocumentClassifier_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDocumentClassifier_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -320,18 +320,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDocumentClassifier_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.VpcConfigProperty",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.VpcConfigProperty",
+		reflect.TypeOf((*TfDocumentClassifier_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifier.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendDocumentClassifier_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifier.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDocumentClassifier_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -360,18 +360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendDocumentClassifier_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDocumentClassifier_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendDocumentClassifierConfig",
-		reflect.TypeOf((*AwsComprehendDocumentClassifierConfig)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfDocumentClassifierConfig",
+		reflect.TypeOf((*TfDocumentClassifierConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer",
+		reflect.TypeOf((*TfEntityRecognizer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -461,18 +461,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer{}
+			j := jsiiProxy_TfEntityRecognizer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.AnnotationsProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_AnnotationsProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.AnnotationsProperty",
+		reflect.TypeOf((*TfEntityRecognizer_AnnotationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.AnnotationsPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_AnnotationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.AnnotationsPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_AnnotationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -502,18 +502,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_AnnotationsPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_AnnotationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.AugmentedManifestsProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_AugmentedManifestsProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.AugmentedManifestsProperty",
+		reflect.TypeOf((*TfEntityRecognizer_AugmentedManifestsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.AugmentedManifestsPropertyList",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_AugmentedManifestsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.AugmentedManifestsPropertyList",
+		reflect.TypeOf((*TfEntityRecognizer_AugmentedManifestsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -528,14 +528,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_AugmentedManifestsPropertyList{}
+			j := jsiiProxy_TfEntityRecognizer_AugmentedManifestsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.AugmentedManifestsPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_AugmentedManifestsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.AugmentedManifestsPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_AugmentedManifestsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotationDataS3Uri", GoGetter: "AnnotationDataS3Uri"},
 			_jsii_.MemberProperty{JsiiProperty: "annotationDataS3UriInput", GoGetter: "AnnotationDataS3UriInput"},
@@ -576,18 +576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_AugmentedManifestsPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_AugmentedManifestsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.DocumentsProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_DocumentsProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.DocumentsProperty",
+		reflect.TypeOf((*TfEntityRecognizer_DocumentsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.DocumentsPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_DocumentsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.DocumentsPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_DocumentsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -620,18 +620,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_DocumentsPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_DocumentsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.EntityListProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_EntityListProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.EntityListProperty",
+		reflect.TypeOf((*TfEntityRecognizer_EntityListProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.EntityListPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_EntityListPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.EntityListPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_EntityListPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -658,18 +658,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_EntityListPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_EntityListPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.EntityTypesProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_EntityTypesProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.EntityTypesProperty",
+		reflect.TypeOf((*TfEntityRecognizer_EntityTypesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.EntityTypesPropertyList",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_EntityTypesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.EntityTypesPropertyList",
+		reflect.TypeOf((*TfEntityRecognizer_EntityTypesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -684,14 +684,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_EntityTypesPropertyList{}
+			j := jsiiProxy_TfEntityRecognizer_EntityTypesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.EntityTypesPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_EntityTypesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.EntityTypesPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_EntityTypesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -718,18 +718,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_EntityTypesPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_EntityTypesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.InputDataConfigProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_InputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.InputDataConfigProperty",
+		reflect.TypeOf((*TfEntityRecognizer_InputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.InputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_InputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.InputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_InputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "annotations", GoGetter: "Annotations"},
 			_jsii_.MemberProperty{JsiiProperty: "annotationsInput", GoGetter: "AnnotationsInput"},
@@ -776,18 +776,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_InputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_InputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.TimeoutsProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.TimeoutsProperty",
+		reflect.TypeOf((*TfEntityRecognizer_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -821,18 +821,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.VpcConfigProperty",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.VpcConfigProperty",
+		reflect.TypeOf((*TfEntityRecognizer_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizer.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsComprehendEntityRecognizer_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizer.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEntityRecognizer_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -861,13 +861,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsComprehendEntityRecognizer_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEntityRecognizer_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-comprehend.AwsComprehendEntityRecognizerConfig",
-		reflect.TypeOf((*AwsComprehendEntityRecognizerConfig)(nil)).Elem(),
+		"@cdktn/aws-comprehend.TfEntityRecognizerConfig",
+		reflect.TypeOf((*TfEntityRecognizerConfig)(nil)).Elem(),
 	)
 }

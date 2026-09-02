@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awss3
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetInternalValueParameters(val *TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetKmsMasterKeyIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetSseAlgorithmParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfBucketServerSideEncryptionConfiguration_ApplyServerSideEncryptionByDefaultPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

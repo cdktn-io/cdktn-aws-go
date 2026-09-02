@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsConnection",
-		reflect.TypeOf((*AwsCodeconnectionsConnection)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfConnection",
+		reflect.TypeOf((*TfConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -81,18 +81,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodeconnectionsConnection{}
+			j := jsiiProxy_TfConnection{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsConnection.TimeoutsProperty",
-		reflect.TypeOf((*AwsCodeconnectionsConnection_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfConnection.TimeoutsProperty",
+		reflect.TypeOf((*TfConnection_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsConnection.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodeconnectionsConnection_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfConnection.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfConnection_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -126,18 +126,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodeconnectionsConnection_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfConnection_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsConnectionConfig",
-		reflect.TypeOf((*AwsCodeconnectionsConnectionConfig)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfConnectionConfig",
+		reflect.TypeOf((*TfConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHost",
-		reflect.TypeOf((*AwsCodeconnectionsHost)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHost",
+		reflect.TypeOf((*TfHost)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -208,18 +208,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodeconnectionsHost{}
+			j := jsiiProxy_TfHost{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHost.TimeoutsProperty",
-		reflect.TypeOf((*AwsCodeconnectionsHost_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHost.TimeoutsProperty",
+		reflect.TypeOf((*TfHost_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHost.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCodeconnectionsHost_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHost.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfHost_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -253,18 +253,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodeconnectionsHost_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfHost_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHost.VpcConfigurationProperty",
-		reflect.TypeOf((*AwsCodeconnectionsHost_VpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHost.VpcConfigurationProperty",
+		reflect.TypeOf((*TfHost_VpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHost.VpcConfigurationPropertyList",
-		reflect.TypeOf((*AwsCodeconnectionsHost_VpcConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHost.VpcConfigurationPropertyList",
+		reflect.TypeOf((*TfHost_VpcConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -279,14 +279,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodeconnectionsHost_VpcConfigurationPropertyList{}
+			j := jsiiProxy_TfHost_VpcConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHost.VpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCodeconnectionsHost_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHost.VpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfHost_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -320,13 +320,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodeconnectionsHost_VpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfHost_VpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codeconnections.AwsCodeconnectionsHostConfig",
-		reflect.TypeOf((*AwsCodeconnectionsHostConfig)(nil)).Elem(),
+		"@cdktn/aws-codeconnections.TfHostConfig",
+		reflect.TypeOf((*TfHostConfig)(nil)).Elem(),
 	)
 }

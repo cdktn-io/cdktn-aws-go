@@ -1,7 +1,0 @@
-package awswaf
-
-
-// Experimental.
-type AwsWafv2WebAclRule_StatementRateBasedStatementScopeDownStatementRegexPatternSetReferenceStatementFieldToMatchAllQueryArgumentsProperty struct {
-}
-

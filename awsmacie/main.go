@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2Account",
-		reflect.TypeOf((*AwsMacie2Account)(nil)).Elem(),
+		"@cdktn/aws-macie.TfAccount",
+		reflect.TypeOf((*TfAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,18 +73,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2Account{}
+			j := jsiiProxy_TfAccount{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2AccountConfig",
-		reflect.TypeOf((*AwsMacie2AccountConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfAccountConfig",
+		reflect.TypeOf((*TfAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationExportConfiguration",
-		reflect.TypeOf((*AwsMacie2ClassificationExportConfiguration)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationExportConfiguration",
+		reflect.TypeOf((*TfClassificationExportConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -141,18 +141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationExportConfiguration{}
+			j := jsiiProxy_TfClassificationExportConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationExportConfiguration.S3DestinationProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationExportConfiguration_S3DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationExportConfiguration.S3DestinationProperty",
+		reflect.TypeOf((*TfClassificationExportConfiguration_S3DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationExportConfiguration.S3DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationExportConfiguration_S3DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationExportConfiguration.S3DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationExportConfiguration_S3DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -184,18 +184,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationExportConfiguration_S3DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationExportConfiguration_S3DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationExportConfigurationConfig",
-		reflect.TypeOf((*AwsMacie2ClassificationExportConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationExportConfigurationConfig",
+		reflect.TypeOf((*TfClassificationExportConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob",
-		reflect.TypeOf((*AwsMacie2ClassificationJob)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob",
+		reflect.TypeOf((*TfClassificationJob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -293,18 +293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob{}
+			j := jsiiProxy_TfClassificationJob{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.BucketCriteriaProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_BucketCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.BucketCriteriaProperty",
+		reflect.TypeOf((*TfClassificationJob_BucketCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.BucketCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_BucketCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.BucketCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_BucketCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -337,18 +337,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_BucketCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_BucketCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.BucketDefinitionsProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_BucketDefinitionsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.BucketDefinitionsProperty",
+		reflect.TypeOf((*TfClassificationJob_BucketDefinitionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.BucketDefinitionsPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_BucketDefinitionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.BucketDefinitionsPropertyList",
+		reflect.TypeOf((*TfClassificationJob_BucketDefinitionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -363,14 +363,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_BucketDefinitionsPropertyList{}
+			j := jsiiProxy_TfClassificationJob_BucketDefinitionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.BucketDefinitionsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_BucketDefinitionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.BucketDefinitionsPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_BucketDefinitionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -399,18 +399,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_BucketDefinitionsPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_BucketDefinitionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -425,14 +425,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -465,18 +465,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -510,18 +510,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndSimpleCriterionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -553,18 +553,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -579,14 +579,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -617,18 +617,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaExcludesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaExcludesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -657,18 +657,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaExcludesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -683,14 +683,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -723,18 +723,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -768,18 +768,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndSimpleCriterionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -811,18 +811,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -837,14 +837,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -875,18 +875,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesAndTagCriterionTagValuesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionBucketCriteriaIncludesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionBucketCriteriaIncludesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -915,18 +915,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionBucketCriteriaIncludesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaIncludesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketCriteria", GoGetter: "BucketCriteria"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketCriteriaInput", GoGetter: "BucketCriteriaInput"},
@@ -963,18 +963,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -989,14 +989,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1029,18 +1029,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndSimpleScopeTermProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndSimpleScopeTermProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndSimpleScopeTermProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndSimpleScopeTermProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndSimpleScopeTermPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndSimpleScopeTermPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndSimpleScopeTermPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndSimpleScopeTermPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -1074,18 +1074,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndSimpleScopeTermPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesAndSimpleScopeTermPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -1123,18 +1123,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1149,14 +1149,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1187,18 +1187,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesAndTagScopeTermTagValuesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingExcludesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingExcludesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingExcludesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -1227,18 +1227,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingExcludesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingExcludesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1253,14 +1253,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1293,18 +1293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndSimpleScopeTermProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndSimpleScopeTermProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndSimpleScopeTermPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndSimpleScopeTermPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -1338,18 +1338,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparator", GoGetter: "Comparator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparatorInput", GoGetter: "ComparatorInput"},
@@ -1387,18 +1387,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyList",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1413,14 +1413,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyList{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1451,18 +1451,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermTagValuesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesProperty",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.S3JobDefinitionScopingIncludesPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.S3JobDefinitionScopingIncludesPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_S3JobDefinitionScopingIncludesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -1491,18 +1491,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_S3JobDefinitionScopingIncludesPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_S3JobDefinitionScopingIncludesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.ScheduleFrequencyProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_ScheduleFrequencyProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.ScheduleFrequencyProperty",
+		reflect.TypeOf((*TfClassificationJob_ScheduleFrequencyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.ScheduleFrequencyPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_ScheduleFrequencyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.ScheduleFrequencyPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_ScheduleFrequencyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1536,18 +1536,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weeklyScheduleInput", GoGetter: "WeeklyScheduleInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_ScheduleFrequencyPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_ScheduleFrequencyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.ScopingProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_ScopingProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.ScopingProperty",
+		reflect.TypeOf((*TfClassificationJob_ScopingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.ScopingPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_ScopingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.ScopingPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_ScopingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1580,18 +1580,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_ScopingPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_ScopingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.TimeoutsProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.TimeoutsProperty",
+		reflect.TypeOf((*TfClassificationJob_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1622,18 +1622,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.UserPausedDetailsProperty",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_UserPausedDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.UserPausedDetailsProperty",
+		reflect.TypeOf((*TfClassificationJob_UserPausedDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.UserPausedDetailsPropertyList",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_UserPausedDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.UserPausedDetailsPropertyList",
+		reflect.TypeOf((*TfClassificationJob_UserPausedDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1647,14 +1647,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_UserPausedDetailsPropertyList{}
+			j := jsiiProxy_TfClassificationJob_UserPausedDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJob.UserPausedDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2ClassificationJob_UserPausedDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJob.UserPausedDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfClassificationJob_UserPausedDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1682,18 +1682,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2ClassificationJob_UserPausedDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfClassificationJob_UserPausedDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2ClassificationJobConfig",
-		reflect.TypeOf((*AwsMacie2ClassificationJobConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfClassificationJobConfig",
+		reflect.TypeOf((*TfClassificationJobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2CustomDataIdentifier",
-		reflect.TypeOf((*AwsMacie2CustomDataIdentifier)(nil)).Elem(),
+		"@cdktn/aws-macie.TfCustomDataIdentifier",
+		reflect.TypeOf((*TfCustomDataIdentifier)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1780,18 +1780,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2CustomDataIdentifier{}
+			j := jsiiProxy_TfCustomDataIdentifier{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2CustomDataIdentifier.TimeoutsProperty",
-		reflect.TypeOf((*AwsMacie2CustomDataIdentifier_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfCustomDataIdentifier.TimeoutsProperty",
+		reflect.TypeOf((*TfCustomDataIdentifier_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2CustomDataIdentifier.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2CustomDataIdentifier_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfCustomDataIdentifier.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCustomDataIdentifier_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1819,18 +1819,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2CustomDataIdentifier_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCustomDataIdentifier_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2CustomDataIdentifierConfig",
-		reflect.TypeOf((*AwsMacie2CustomDataIdentifierConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfCustomDataIdentifierConfig",
+		reflect.TypeOf((*TfCustomDataIdentifierConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter",
-		reflect.TypeOf((*AwsMacie2FindingsFilter)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter",
+		reflect.TypeOf((*TfFindingsFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -1912,18 +1912,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2FindingsFilter{}
+			j := jsiiProxy_TfFindingsFilter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.CriterionProperty",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_CriterionProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.CriterionProperty",
+		reflect.TypeOf((*TfFindingsFilter_CriterionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.CriterionPropertyList",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_CriterionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.CriterionPropertyList",
+		reflect.TypeOf((*TfFindingsFilter_CriterionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1938,14 +1938,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2FindingsFilter_CriterionPropertyList{}
+			j := jsiiProxy_TfFindingsFilter_CriterionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.CriterionPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_CriterionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.CriterionPropertyOutputReference",
+		reflect.TypeOf((*TfFindingsFilter_CriterionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1993,18 +1993,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2FindingsFilter_CriterionPropertyOutputReference{}
+			j := jsiiProxy_TfFindingsFilter_CriterionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.FindingCriteriaProperty",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_FindingCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.FindingCriteriaProperty",
+		reflect.TypeOf((*TfFindingsFilter_FindingCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.FindingCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_FindingCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.FindingCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfFindingsFilter_FindingCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2033,18 +2033,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2FindingsFilter_FindingCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfFindingsFilter_FindingCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.TimeoutsProperty",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.TimeoutsProperty",
+		reflect.TypeOf((*TfFindingsFilter_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilter.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2FindingsFilter_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilter.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfFindingsFilter_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2072,18 +2072,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2FindingsFilter_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfFindingsFilter_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2FindingsFilterConfig",
-		reflect.TypeOf((*AwsMacie2FindingsFilterConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfFindingsFilterConfig",
+		reflect.TypeOf((*TfFindingsFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2InvitationAccepter",
-		reflect.TypeOf((*AwsMacie2InvitationAccepter)(nil)).Elem(),
+		"@cdktn/aws-macie.TfInvitationAccepter",
+		reflect.TypeOf((*TfInvitationAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2144,18 +2144,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2InvitationAccepter{}
+			j := jsiiProxy_TfInvitationAccepter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2InvitationAccepter.TimeoutsProperty",
-		reflect.TypeOf((*AwsMacie2InvitationAccepter_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfInvitationAccepter.TimeoutsProperty",
+		reflect.TypeOf((*TfInvitationAccepter_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2InvitationAccepter.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2InvitationAccepter_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfInvitationAccepter.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfInvitationAccepter_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2183,18 +2183,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2InvitationAccepter_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfInvitationAccepter_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2InvitationAccepterConfig",
-		reflect.TypeOf((*AwsMacie2InvitationAccepterConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfInvitationAccepterConfig",
+		reflect.TypeOf((*TfInvitationAccepterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2Member",
-		reflect.TypeOf((*AwsMacie2Member)(nil)).Elem(),
+		"@cdktn/aws-macie.TfMember",
+		reflect.TypeOf((*TfMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -2280,18 +2280,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2Member{}
+			j := jsiiProxy_TfMember{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2Member.TimeoutsProperty",
-		reflect.TypeOf((*AwsMacie2Member_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-macie.TfMember.TimeoutsProperty",
+		reflect.TypeOf((*TfMember_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2Member.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMacie2Member_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-macie.TfMember.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMember_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2322,18 +2322,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2Member_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMember_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2MemberConfig",
-		reflect.TypeOf((*AwsMacie2MemberConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfMemberConfig",
+		reflect.TypeOf((*TfMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2OrganizationAdminAccount",
-		reflect.TypeOf((*AwsMacie2OrganizationAdminAccount)(nil)).Elem(),
+		"@cdktn/aws-macie.TfOrganizationAdminAccount",
+		reflect.TypeOf((*TfOrganizationAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2389,18 +2389,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2OrganizationAdminAccount{}
+			j := jsiiProxy_TfOrganizationAdminAccount{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2OrganizationAdminAccountConfig",
-		reflect.TypeOf((*AwsMacie2OrganizationAdminAccountConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfOrganizationAdminAccountConfig",
+		reflect.TypeOf((*TfOrganizationAdminAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-macie.AwsMacie2OrganizationConfiguration",
-		reflect.TypeOf((*AwsMacie2OrganizationConfiguration)(nil)).Elem(),
+		"@cdktn/aws-macie.TfOrganizationConfiguration",
+		reflect.TypeOf((*TfOrganizationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2453,13 +2453,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMacie2OrganizationConfiguration{}
+			j := jsiiProxy_TfOrganizationConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-macie.AwsMacie2OrganizationConfigurationConfig",
-		reflect.TypeOf((*AwsMacie2OrganizationConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-macie.TfOrganizationConfigurationConfig",
+		reflect.TypeOf((*TfOrganizationConfigurationConfig)(nil)).Elem(),
 	)
 }

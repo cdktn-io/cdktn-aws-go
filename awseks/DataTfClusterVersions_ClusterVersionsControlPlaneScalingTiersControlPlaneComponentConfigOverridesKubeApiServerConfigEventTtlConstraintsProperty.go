@@ -1,0 +1,7 @@
+package awseks
+
+
+// Experimental.
+type DataTfClusterVersions_ClusterVersionsControlPlaneScalingTiersControlPlaneComponentConfigOverridesKubeApiServerConfigEventTtlConstraintsProperty struct {
+}
+

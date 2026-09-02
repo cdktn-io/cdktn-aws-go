@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointAdmChannel",
-		reflect.TypeOf((*AwsPinpointAdmChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfAdmChannel",
+		reflect.TypeOf((*TfAdmChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,18 +73,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointAdmChannel{}
+			j := jsiiProxy_TfAdmChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointAdmChannelConfig",
-		reflect.TypeOf((*AwsPinpointAdmChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfAdmChannelConfig",
+		reflect.TypeOf((*TfAdmChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsChannel",
-		reflect.TypeOf((*AwsPinpointApnsChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsChannel",
+		reflect.TypeOf((*TfApnsChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -164,18 +164,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApnsChannel{}
+			j := jsiiProxy_TfApnsChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsChannelConfig",
-		reflect.TypeOf((*AwsPinpointApnsChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsChannelConfig",
+		reflect.TypeOf((*TfApnsChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsSandboxChannel",
-		reflect.TypeOf((*AwsPinpointApnsSandboxChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsSandboxChannel",
+		reflect.TypeOf((*TfApnsSandboxChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -255,18 +255,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApnsSandboxChannel{}
+			j := jsiiProxy_TfApnsSandboxChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsSandboxChannelConfig",
-		reflect.TypeOf((*AwsPinpointApnsSandboxChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsSandboxChannelConfig",
+		reflect.TypeOf((*TfApnsSandboxChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsVoipChannel",
-		reflect.TypeOf((*AwsPinpointApnsVoipChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsVoipChannel",
+		reflect.TypeOf((*TfApnsVoipChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -346,18 +346,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApnsVoipChannel{}
+			j := jsiiProxy_TfApnsVoipChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsVoipChannelConfig",
-		reflect.TypeOf((*AwsPinpointApnsVoipChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsVoipChannelConfig",
+		reflect.TypeOf((*TfApnsVoipChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsVoipSandboxChannel",
-		reflect.TypeOf((*AwsPinpointApnsVoipSandboxChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsVoipSandboxChannel",
+		reflect.TypeOf((*TfApnsVoipSandboxChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -437,18 +437,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApnsVoipSandboxChannel{}
+			j := jsiiProxy_TfApnsVoipSandboxChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApnsVoipSandboxChannelConfig",
-		reflect.TypeOf((*AwsPinpointApnsVoipSandboxChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApnsVoipSandboxChannelConfig",
+		reflect.TypeOf((*TfApnsVoipSandboxChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp",
-		reflect.TypeOf((*AwsPinpointApp)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp",
+		reflect.TypeOf((*TfApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -528,18 +528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApp{}
+			j := jsiiProxy_TfApp{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp.CampaignHookProperty",
-		reflect.TypeOf((*AwsPinpointApp_CampaignHookProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp.CampaignHookProperty",
+		reflect.TypeOf((*TfApp_CampaignHookProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp.CampaignHookPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointApp_CampaignHookPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp.CampaignHookPropertyOutputReference",
+		reflect.TypeOf((*TfApp_CampaignHookPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -573,18 +573,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "webUrlInput", GoGetter: "WebUrlInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApp_CampaignHookPropertyOutputReference{}
+			j := jsiiProxy_TfApp_CampaignHookPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp.LimitsProperty",
-		reflect.TypeOf((*AwsPinpointApp_LimitsProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp.LimitsProperty",
+		reflect.TypeOf((*TfApp_LimitsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp.LimitsPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointApp_LimitsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp.LimitsPropertyOutputReference",
+		reflect.TypeOf((*TfApp_LimitsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -621,18 +621,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "totalInput", GoGetter: "TotalInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApp_LimitsPropertyOutputReference{}
+			j := jsiiProxy_TfApp_LimitsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp.QuietTimeProperty",
-		reflect.TypeOf((*AwsPinpointApp_QuietTimeProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp.QuietTimeProperty",
+		reflect.TypeOf((*TfApp_QuietTimeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointApp.QuietTimePropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointApp_QuietTimePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfApp.QuietTimePropertyOutputReference",
+		reflect.TypeOf((*TfApp_QuietTimePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -663,18 +663,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointApp_QuietTimePropertyOutputReference{}
+			j := jsiiProxy_TfApp_QuietTimePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointAppConfig",
-		reflect.TypeOf((*AwsPinpointAppConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfAppConfig",
+		reflect.TypeOf((*TfAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointBaiduChannel",
-		reflect.TypeOf((*AwsPinpointBaiduChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfBaiduChannel",
+		reflect.TypeOf((*TfBaiduChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -737,18 +737,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointBaiduChannel{}
+			j := jsiiProxy_TfBaiduChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointBaiduChannelConfig",
-		reflect.TypeOf((*AwsPinpointBaiduChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfBaiduChannelConfig",
+		reflect.TypeOf((*TfBaiduChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailChannel",
-		reflect.TypeOf((*AwsPinpointEmailChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailChannel",
+		reflect.TypeOf((*TfEmailChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -821,18 +821,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEmailChannel{}
+			j := jsiiProxy_TfEmailChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailChannelConfig",
-		reflect.TypeOf((*AwsPinpointEmailChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailChannelConfig",
+		reflect.TypeOf((*TfEmailChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate",
-		reflect.TypeOf((*AwsPinpointEmailTemplate)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate",
+		reflect.TypeOf((*TfEmailTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -894,18 +894,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEmailTemplate{}
+			j := jsiiProxy_TfEmailTemplate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate.EmailTemplateProperty",
-		reflect.TypeOf((*AwsPinpointEmailTemplate_EmailTemplateProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate.EmailTemplateProperty",
+		reflect.TypeOf((*TfEmailTemplate_EmailTemplateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate.EmailTemplatePropertyList",
-		reflect.TypeOf((*AwsPinpointEmailTemplate_EmailTemplatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate.EmailTemplatePropertyList",
+		reflect.TypeOf((*TfEmailTemplate_EmailTemplatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -920,14 +920,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEmailTemplate_EmailTemplatePropertyList{}
+			j := jsiiProxy_TfEmailTemplate_EmailTemplatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate.EmailTemplatePropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointEmailTemplate_EmailTemplatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate.EmailTemplatePropertyOutputReference",
+		reflect.TypeOf((*TfEmailTemplate_EmailTemplatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -974,18 +974,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEmailTemplate_EmailTemplatePropertyOutputReference{}
+			j := jsiiProxy_TfEmailTemplate_EmailTemplatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate.HeaderProperty",
-		reflect.TypeOf((*AwsPinpointEmailTemplate_HeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate.HeaderProperty",
+		reflect.TypeOf((*TfEmailTemplate_HeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate.HeaderPropertyList",
-		reflect.TypeOf((*AwsPinpointEmailTemplate_HeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate.HeaderPropertyList",
+		reflect.TypeOf((*TfEmailTemplate_HeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1000,14 +1000,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEmailTemplate_HeaderPropertyList{}
+			j := jsiiProxy_TfEmailTemplate_HeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplate.HeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsPinpointEmailTemplate_HeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplate.HeaderPropertyOutputReference",
+		reflect.TypeOf((*TfEmailTemplate_HeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1038,18 +1038,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEmailTemplate_HeaderPropertyOutputReference{}
+			j := jsiiProxy_TfEmailTemplate_HeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEmailTemplateConfig",
-		reflect.TypeOf((*AwsPinpointEmailTemplateConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEmailTemplateConfig",
+		reflect.TypeOf((*TfEmailTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEventStream",
-		reflect.TypeOf((*AwsPinpointEventStream)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEventStream",
+		reflect.TypeOf((*TfEventStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1109,18 +1109,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointEventStream{}
+			j := jsiiProxy_TfEventStream{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointEventStreamConfig",
-		reflect.TypeOf((*AwsPinpointEventStreamConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfEventStreamConfig",
+		reflect.TypeOf((*TfEventStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointGcmChannel",
-		reflect.TypeOf((*AwsPinpointGcmChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfGcmChannel",
+		reflect.TypeOf((*TfGcmChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1188,18 +1188,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointGcmChannel{}
+			j := jsiiProxy_TfGcmChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointGcmChannelConfig",
-		reflect.TypeOf((*AwsPinpointGcmChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfGcmChannelConfig",
+		reflect.TypeOf((*TfGcmChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-end-user-messaging.AwsPinpointSmsChannel",
-		reflect.TypeOf((*AwsPinpointSmsChannel)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfSmsChannel",
+		reflect.TypeOf((*TfSmsChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1266,13 +1266,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsPinpointSmsChannel{}
+			j := jsiiProxy_TfSmsChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-end-user-messaging.AwsPinpointSmsChannelConfig",
-		reflect.TypeOf((*AwsPinpointSmsChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-end-user-messaging.TfSmsChannelConfig",
+		reflect.TypeOf((*TfSmsChannelConfig)(nil)).Elem(),
 	)
 }

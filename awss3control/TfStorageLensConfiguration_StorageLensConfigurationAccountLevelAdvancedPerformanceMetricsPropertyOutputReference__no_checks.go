@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awss3control
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateSetInternalValueParameters(val *TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfStorageLensConfiguration_StorageLensConfigurationAccountLevelAdvancedPerformanceMetricsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

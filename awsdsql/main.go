@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlCluster",
-		reflect.TypeOf((*AwsDsqlCluster)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -86,18 +86,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlCluster.EncryptionDetailsProperty",
-		reflect.TypeOf((*AwsDsqlCluster_EncryptionDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.EncryptionDetailsProperty",
+		reflect.TypeOf((*TfCluster_EncryptionDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlCluster.EncryptionDetailsPropertyList",
-		reflect.TypeOf((*AwsDsqlCluster_EncryptionDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.EncryptionDetailsPropertyList",
+		reflect.TypeOf((*TfCluster_EncryptionDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -111,14 +111,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlCluster_EncryptionDetailsPropertyList{}
+			j := jsiiProxy_TfCluster_EncryptionDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlCluster.EncryptionDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsDsqlCluster_EncryptionDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.EncryptionDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_EncryptionDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -145,18 +145,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlCluster_EncryptionDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_EncryptionDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlCluster.MultiRegionPropertiesProperty",
-		reflect.TypeOf((*AwsDsqlCluster_MultiRegionPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.MultiRegionPropertiesProperty",
+		reflect.TypeOf((*TfCluster_MultiRegionPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlCluster.MultiRegionPropertiesPropertyList",
-		reflect.TypeOf((*AwsDsqlCluster_MultiRegionPropertiesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.MultiRegionPropertiesPropertyList",
+		reflect.TypeOf((*TfCluster_MultiRegionPropertiesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -171,14 +171,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlCluster_MultiRegionPropertiesPropertyList{}
+			j := jsiiProxy_TfCluster_MultiRegionPropertiesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlCluster.MultiRegionPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsDsqlCluster_MultiRegionPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.MultiRegionPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MultiRegionPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusters", GoGetter: "Clusters"},
 			_jsii_.MemberProperty{JsiiProperty: "clustersInput", GoGetter: "ClustersInput"},
@@ -209,18 +209,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "witnessRegionInput", GoGetter: "WitnessRegionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlCluster_MultiRegionPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MultiRegionPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsDsqlCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDsqlCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -254,18 +254,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlClusterConfig",
-		reflect.TypeOf((*AwsDsqlClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlClusterPeering",
-		reflect.TypeOf((*AwsDsqlClusterPeering)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPeering",
+		reflect.TypeOf((*TfClusterPeering)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -326,18 +326,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "witnessRegionInput", GoGetter: "WitnessRegionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlClusterPeering{}
+			j := jsiiProxy_TfClusterPeering{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlClusterPeering.TimeoutsProperty",
-		reflect.TypeOf((*AwsDsqlClusterPeering_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPeering.TimeoutsProperty",
+		reflect.TypeOf((*TfClusterPeering_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlClusterPeering.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDsqlClusterPeering_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPeering.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClusterPeering_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -365,18 +365,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlClusterPeering_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClusterPeering_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlClusterPeeringConfig",
-		reflect.TypeOf((*AwsDsqlClusterPeeringConfig)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPeeringConfig",
+		reflect.TypeOf((*TfClusterPeeringConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlClusterPolicy",
-		reflect.TypeOf((*AwsDsqlClusterPolicy)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPolicy",
+		reflect.TypeOf((*TfClusterPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -439,18 +439,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlClusterPolicy{}
+			j := jsiiProxy_TfClusterPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlClusterPolicy.TimeoutsProperty",
-		reflect.TypeOf((*AwsDsqlClusterPolicy_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPolicy.TimeoutsProperty",
+		reflect.TypeOf((*TfClusterPolicy_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dsql.AwsDsqlClusterPolicy.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDsqlClusterPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPolicy.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClusterPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -484,13 +484,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDsqlClusterPolicy_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClusterPolicy_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dsql.AwsDsqlClusterPolicyConfig",
-		reflect.TypeOf((*AwsDsqlClusterPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-dsql.TfClusterPolicyConfig",
+		reflect.TypeOf((*TfClusterPolicyConfig)(nil)).Elem(),
 	)
 }

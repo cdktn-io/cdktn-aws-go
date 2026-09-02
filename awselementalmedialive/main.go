@@ -9,8 +9,374 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel",
-		reflect.TypeOf((*AwsMedialiveChannel)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.DataTfInput",
+		reflect.TypeOf((*DataTfInput)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "attachedChannels", GoGetter: "AttachedChannels"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "destinations", GoGetter: "Destinations"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "inputClass", GoGetter: "InputClass"},
+			_jsii_.MemberProperty{JsiiProperty: "inputDevices", GoGetter: "InputDevices"},
+			_jsii_.MemberProperty{JsiiProperty: "inputPartnerIds", GoGetter: "InputPartnerIds"},
+			_jsii_.MemberProperty{JsiiProperty: "inputSourceType", GoGetter: "InputSourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "mediaConnectFlows", GoGetter: "MediaConnectFlows"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
+			_jsii_.MemberProperty{JsiiProperty: "securityGroups", GoGetter: "SecurityGroups"},
+			_jsii_.MemberProperty{JsiiProperty: "sources", GoGetter: "Sources"},
+			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-elemental-medialive.DataTfInput.DestinationsProperty",
+		reflect.TypeOf((*DataTfInput_DestinationsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.DestinationsPropertyList",
+		reflect.TypeOf((*DataTfInput_DestinationsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_DestinationsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.DestinationsPropertyOutputReference",
+		reflect.TypeOf((*DataTfInput_DestinationsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "ip", GoGetter: "Ip"},
+			_jsii_.MemberProperty{JsiiProperty: "port", GoGetter: "Port"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
+			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_DestinationsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-elemental-medialive.DataTfInput.InputDevicesProperty",
+		reflect.TypeOf((*DataTfInput_InputDevicesProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.InputDevicesPropertyList",
+		reflect.TypeOf((*DataTfInput_InputDevicesPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_InputDevicesPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.InputDevicesPropertyOutputReference",
+		reflect.TypeOf((*DataTfInput_InputDevicesPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_InputDevicesPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-elemental-medialive.DataTfInput.MediaConnectFlowsProperty",
+		reflect.TypeOf((*DataTfInput_MediaConnectFlowsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.MediaConnectFlowsPropertyList",
+		reflect.TypeOf((*DataTfInput_MediaConnectFlowsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_MediaConnectFlowsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.MediaConnectFlowsPropertyOutputReference",
+		reflect.TypeOf((*DataTfInput_MediaConnectFlowsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "flowArn", GoGetter: "FlowArn"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_MediaConnectFlowsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-elemental-medialive.DataTfInput.SourcesProperty",
+		reflect.TypeOf((*DataTfInput_SourcesProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.SourcesPropertyList",
+		reflect.TypeOf((*DataTfInput_SourcesPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_SourcesPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.SourcesPropertyOutputReference",
+		reflect.TypeOf((*DataTfInput_SourcesPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "passwordParam", GoGetter: "PasswordParam"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
+			_jsii_.MemberProperty{JsiiProperty: "username", GoGetter: "Username"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_SourcesPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-elemental-medialive.DataTfInput.VpcProperty",
+		reflect.TypeOf((*DataTfInput_VpcProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.VpcPropertyList",
+		reflect.TypeOf((*DataTfInput_VpcPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_VpcPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.DataTfInput.VpcPropertyOutputReference",
+		reflect.TypeOf((*DataTfInput_VpcPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "networkInterfaceId", GoGetter: "NetworkInterfaceId"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfInput_VpcPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-elemental-medialive.DataTfInputConfig",
+		reflect.TypeOf((*DataTfInputConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-elemental-medialive.TfChannel",
+		reflect.TypeOf((*TfChannel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -113,18 +479,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel{}
+			j := jsiiProxy_TfChannel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AacSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AacSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AacSettingsProperty",
+		reflect.TypeOf((*TfChannel_AacSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AacSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AacSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AacSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AacSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitrate", GoGetter: "Bitrate"},
 			_jsii_.MemberProperty{JsiiProperty: "bitrateInput", GoGetter: "BitrateInput"},
@@ -176,18 +542,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vbrQualityInput", GoGetter: "VbrQualityInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AacSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AacSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Ac3SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Ac3SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Ac3SettingsProperty",
+		reflect.TypeOf((*TfChannel_Ac3SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Ac3SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Ac3SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Ac3SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Ac3SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitrate", GoGetter: "Bitrate"},
 			_jsii_.MemberProperty{JsiiProperty: "bitrateInput", GoGetter: "BitrateInput"},
@@ -233,18 +599,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Ac3SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Ac3SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AncillarySourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AncillarySourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AncillarySourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_AncillarySourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AncillarySourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AncillarySourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AncillarySourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AncillarySourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -272,18 +638,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AncillarySourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AncillarySourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveCdnSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveCdnSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveCdnSettingsProperty",
+		reflect.TypeOf((*TfChannel_ArchiveCdnSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveCdnSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveCdnSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveCdnSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ArchiveCdnSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveS3Settings", GoGetter: "ArchiveS3Settings"},
 			_jsii_.MemberProperty{JsiiProperty: "archiveS3SettingsInput", GoGetter: "ArchiveS3SettingsInput"},
@@ -312,18 +678,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ArchiveCdnSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ArchiveCdnSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_ArchiveGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveGroupSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveGroupSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveGroupSettingsPropertyList",
+		reflect.TypeOf((*TfChannel_ArchiveGroupSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -338,14 +704,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ArchiveGroupSettingsPropertyList{}
+			j := jsiiProxy_TfChannel_ArchiveGroupSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ArchiveGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveCdnSettings", GoGetter: "ArchiveCdnSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "archiveCdnSettingsInput", GoGetter: "ArchiveCdnSettingsInput"},
@@ -380,18 +746,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ArchiveGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ArchiveGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_ArchiveOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ArchiveOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -426,18 +792,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ArchiveOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ArchiveOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveS3SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveS3SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveS3SettingsProperty",
+		reflect.TypeOf((*TfChannel_ArchiveS3SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ArchiveS3SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ArchiveS3SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ArchiveS3SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ArchiveS3SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cannedAcl", GoGetter: "CannedAcl"},
 			_jsii_.MemberProperty{JsiiProperty: "cannedAclInput", GoGetter: "CannedAclInput"},
@@ -465,18 +831,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ArchiveS3SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ArchiveS3SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AribDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AribDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AribDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_AribDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AribDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AribDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AribDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AribDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -501,18 +867,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AribDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AribDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AribSourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AribSourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AribSourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_AribSourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AribSourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AribSourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AribSourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AribSourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -537,18 +903,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AribSourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AribSourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioDescriptionsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioDescriptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioDescriptionsProperty",
+		reflect.TypeOf((*TfChannel_AudioDescriptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioDescriptionsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioDescriptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioDescriptionsPropertyList",
+		reflect.TypeOf((*TfChannel_AudioDescriptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -563,14 +929,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioDescriptionsPropertyList{}
+			j := jsiiProxy_TfChannel_AudioDescriptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioDescriptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioDescriptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioDescriptionsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioDescriptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioNormalizationSettings", GoGetter: "AudioNormalizationSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "audioNormalizationSettingsInput", GoGetter: "AudioNormalizationSettingsInput"},
@@ -630,18 +996,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioDescriptionsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioDescriptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioHlsRenditionSelectionProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioHlsRenditionSelectionProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioHlsRenditionSelectionProperty",
+		reflect.TypeOf((*TfChannel_AudioHlsRenditionSelectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioHlsRenditionSelectionPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioHlsRenditionSelectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioHlsRenditionSelectionPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioHlsRenditionSelectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -670,18 +1036,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioHlsRenditionSelectionPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioHlsRenditionSelectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioLanguageSelectionProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioLanguageSelectionProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioLanguageSelectionProperty",
+		reflect.TypeOf((*TfChannel_AudioLanguageSelectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioLanguageSelectionPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioLanguageSelectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioLanguageSelectionPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioLanguageSelectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -711,18 +1077,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioLanguageSelectionPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioLanguageSelectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioNormalizationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioNormalizationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioNormalizationSettingsProperty",
+		reflect.TypeOf((*TfChannel_AudioNormalizationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioNormalizationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioNormalizationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioNormalizationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioNormalizationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "algorithm", GoGetter: "Algorithm"},
 			_jsii_.MemberProperty{JsiiProperty: "algorithmControl", GoGetter: "AlgorithmControl"},
@@ -756,18 +1122,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioNormalizationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioNormalizationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioOnlyHlsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioOnlyHlsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioOnlyHlsSettingsProperty",
+		reflect.TypeOf((*TfChannel_AudioOnlyHlsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioOnlyHlsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioOnlyHlsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioOnlyHlsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioOnlyHlsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioGroupId", GoGetter: "AudioGroupId"},
 			_jsii_.MemberProperty{JsiiProperty: "audioGroupIdInput", GoGetter: "AudioGroupIdInput"},
@@ -805,18 +1171,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioOnlyHlsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioOnlyHlsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioOnlyImageProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioOnlyImageProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioOnlyImageProperty",
+		reflect.TypeOf((*TfChannel_AudioOnlyImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioOnlyImagePropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioOnlyImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioOnlyImagePropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioOnlyImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -849,18 +1215,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioOnlyImagePropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioOnlyImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioPidSelectionProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioPidSelectionProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioPidSelectionProperty",
+		reflect.TypeOf((*TfChannel_AudioPidSelectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioPidSelectionPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioPidSelectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioPidSelectionPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioPidSelectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -887,18 +1253,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioPidSelectionPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioPidSelectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioSelectorProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioSelectorProperty",
+		reflect.TypeOf((*TfChannel_AudioSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioSelectorPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioSelectorPropertyList",
+		reflect.TypeOf((*TfChannel_AudioSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -913,14 +1279,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioSelectorPropertyList{}
+			j := jsiiProxy_TfChannel_AudioSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -951,18 +1317,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioSilenceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioSilenceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioSilenceSettingsProperty",
+		reflect.TypeOf((*TfChannel_AudioSilenceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioSilenceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioSilenceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioSilenceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioSilenceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioSelectorName", GoGetter: "AudioSelectorName"},
 			_jsii_.MemberProperty{JsiiProperty: "audioSelectorNameInput", GoGetter: "AudioSelectorNameInput"},
@@ -992,18 +1358,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioSilenceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioSilenceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioTrackSelectionProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioTrackSelectionProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioTrackSelectionProperty",
+		reflect.TypeOf((*TfChannel_AudioTrackSelectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioTrackSelectionPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioTrackSelectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioTrackSelectionPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioTrackSelectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1035,18 +1401,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tracksInput", GoGetter: "TracksInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioTrackSelectionPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioTrackSelectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioWatermarkSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioWatermarkSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioWatermarkSettingsProperty",
+		reflect.TypeOf((*TfChannel_AudioWatermarkSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AudioWatermarkSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AudioWatermarkSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AudioWatermarkSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AudioWatermarkSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1075,18 +1441,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AudioWatermarkSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AudioWatermarkSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AutomaticInputFailoverSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AutomaticInputFailoverSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AutomaticInputFailoverSettingsProperty",
+		reflect.TypeOf((*TfChannel_AutomaticInputFailoverSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AutomaticInputFailoverSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AutomaticInputFailoverSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AutomaticInputFailoverSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AutomaticInputFailoverSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1123,18 +1489,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AutomaticInputFailoverSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AutomaticInputFailoverSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AvailBlankingImageProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AvailBlankingImageProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AvailBlankingImageProperty",
+		reflect.TypeOf((*TfChannel_AvailBlankingImageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AvailBlankingImagePropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AvailBlankingImagePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AvailBlankingImagePropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AvailBlankingImagePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1167,18 +1533,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AvailBlankingImagePropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AvailBlankingImagePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AvailBlankingProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_AvailBlankingProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AvailBlankingProperty",
+		reflect.TypeOf((*TfChannel_AvailBlankingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.AvailBlankingPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_AvailBlankingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.AvailBlankingPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_AvailBlankingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availBlankingImage", GoGetter: "AvailBlankingImage"},
 			_jsii_.MemberProperty{JsiiProperty: "availBlankingImageInput", GoGetter: "AvailBlankingImageInput"},
@@ -1210,18 +1576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_AvailBlankingPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_AvailBlankingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.BurnInDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_BurnInDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.BurnInDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_BurnInDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.BurnInDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_BurnInDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.BurnInDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_BurnInDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alignment", GoGetter: "Alignment"},
 			_jsii_.MemberProperty{JsiiProperty: "alignmentInput", GoGetter: "AlignmentInput"},
@@ -1296,18 +1662,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "yPositionInput", GoGetter: "YPositionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_BurnInDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_BurnInDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionDescriptionsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionDescriptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionDescriptionsProperty",
+		reflect.TypeOf((*TfChannel_CaptionDescriptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionDescriptionsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionDescriptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionDescriptionsPropertyList",
+		reflect.TypeOf((*TfChannel_CaptionDescriptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1322,14 +1688,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CaptionDescriptionsPropertyList{}
+			j := jsiiProxy_TfChannel_CaptionDescriptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionDescriptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionDescriptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionDescriptionsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_CaptionDescriptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessibility", GoGetter: "Accessibility"},
 			_jsii_.MemberProperty{JsiiProperty: "accessibilityInput", GoGetter: "AccessibilityInput"},
@@ -1371,18 +1737,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CaptionDescriptionsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_CaptionDescriptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionLanguageMappingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionLanguageMappingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionLanguageMappingsProperty",
+		reflect.TypeOf((*TfChannel_CaptionLanguageMappingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionLanguageMappingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionLanguageMappingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionLanguageMappingsPropertyList",
+		reflect.TypeOf((*TfChannel_CaptionLanguageMappingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1397,14 +1763,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CaptionLanguageMappingsPropertyList{}
+			j := jsiiProxy_TfChannel_CaptionLanguageMappingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionLanguageMappingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionLanguageMappingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionLanguageMappingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_CaptionLanguageMappingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "captionChannel", GoGetter: "CaptionChannel"},
 			_jsii_.MemberProperty{JsiiProperty: "captionChannelInput", GoGetter: "CaptionChannelInput"},
@@ -1435,18 +1801,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CaptionLanguageMappingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_CaptionLanguageMappingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionSelectorProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionSelectorProperty",
+		reflect.TypeOf((*TfChannel_CaptionSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionSelectorPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionSelectorPropertyList",
+		reflect.TypeOf((*TfChannel_CaptionSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1461,14 +1827,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CaptionSelectorPropertyList{}
+			j := jsiiProxy_TfChannel_CaptionSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CaptionSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_CaptionSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CaptionSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_CaptionSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1502,18 +1868,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CaptionSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_CaptionSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CdiInputSpecificationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_CdiInputSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CdiInputSpecificationProperty",
+		reflect.TypeOf((*TfChannel_CdiInputSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.CdiInputSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_CdiInputSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.CdiInputSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_CdiInputSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1540,18 +1906,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_CdiInputSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_CdiInputSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ChannelMappingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ChannelMappingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ChannelMappingsProperty",
+		reflect.TypeOf((*TfChannel_ChannelMappingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ChannelMappingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_ChannelMappingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ChannelMappingsPropertyList",
+		reflect.TypeOf((*TfChannel_ChannelMappingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1566,14 +1932,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ChannelMappingsPropertyList{}
+			j := jsiiProxy_TfChannel_ChannelMappingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ChannelMappingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ChannelMappingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ChannelMappingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ChannelMappingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1603,18 +1969,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ChannelMappingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ChannelMappingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ColorSpacePassthroughSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ColorSpacePassthroughSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ColorSpacePassthroughSettingsProperty",
+		reflect.TypeOf((*TfChannel_ColorSpacePassthroughSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ColorSpacePassthroughSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ColorSpacePassthroughSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ColorSpacePassthroughSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ColorSpacePassthroughSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1639,18 +2005,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ColorSpacePassthroughSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ColorSpacePassthroughSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ColorSpaceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_ColorSpaceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ColorSpaceSettingsProperty",
+		reflect.TypeOf((*TfChannel_ColorSpaceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.ColorSpaceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_ColorSpaceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.ColorSpaceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_ColorSpaceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colorSpacePassthroughSettings", GoGetter: "ColorSpacePassthroughSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "colorSpacePassthroughSettingsInput", GoGetter: "ColorSpacePassthroughSettingsInput"},
@@ -1695,18 +2061,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_ColorSpaceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_ColorSpaceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_DestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_DestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_DestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_DestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aribDestinationSettings", GoGetter: "AribDestinationSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "aribDestinationSettingsInput", GoGetter: "AribDestinationSettingsInput"},
@@ -1783,18 +2149,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "webvttDestinationSettingsInput", GoGetter: "WebvttDestinationSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_DestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DestinationsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_DestinationsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DestinationsProperty",
+		reflect.TypeOf((*TfChannel_DestinationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DestinationsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_DestinationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DestinationsPropertyList",
+		reflect.TypeOf((*TfChannel_DestinationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1809,14 +2175,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DestinationsPropertyList{}
+			j := jsiiProxy_TfChannel_DestinationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DestinationsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_DestinationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DestinationsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_DestinationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1855,18 +2221,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DestinationsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_DestinationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DolbyEDecodeProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_DolbyEDecodeProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DolbyEDecodeProperty",
+		reflect.TypeOf((*TfChannel_DolbyEDecodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DolbyEDecodePropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_DolbyEDecodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DolbyEDecodePropertyOutputReference",
+		reflect.TypeOf((*TfChannel_DolbyEDecodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1893,18 +2259,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DolbyEDecodePropertyOutputReference{}
+			j := jsiiProxy_TfChannel_DolbyEDecodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DolbyVision81SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_DolbyVision81SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DolbyVision81SettingsProperty",
+		reflect.TypeOf((*TfChannel_DolbyVision81SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DolbyVision81SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_DolbyVision81SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DolbyVision81SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_DolbyVision81SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1929,18 +2295,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DolbyVision81SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_DolbyVision81SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DvbSubDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_DvbSubDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DvbSubDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_DvbSubDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DvbSubDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_DvbSubDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DvbSubDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_DvbSubDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alignment", GoGetter: "Alignment"},
 			_jsii_.MemberProperty{JsiiProperty: "alignmentInput", GoGetter: "AlignmentInput"},
@@ -2017,18 +2383,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "yPositionInput", GoGetter: "YPositionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DvbSubDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_DvbSubDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DvbSubSourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_DvbSubSourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DvbSubSourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_DvbSubSourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.DvbSubSourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_DvbSubSourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.DvbSubSourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_DvbSubSourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2059,18 +2425,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_DvbSubSourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_DvbSubSourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Eac3AtmosSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Eac3AtmosSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Eac3AtmosSettingsProperty",
+		reflect.TypeOf((*TfChannel_Eac3AtmosSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Eac3AtmosSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Eac3AtmosSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Eac3AtmosSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Eac3AtmosSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitrate", GoGetter: "Bitrate"},
 			_jsii_.MemberProperty{JsiiProperty: "bitrateInput", GoGetter: "BitrateInput"},
@@ -2116,18 +2482,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Eac3AtmosSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Eac3AtmosSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Eac3SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Eac3SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Eac3SettingsProperty",
+		reflect.TypeOf((*TfChannel_Eac3SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Eac3SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Eac3SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Eac3SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Eac3SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attenuationControl", GoGetter: "AttenuationControl"},
 			_jsii_.MemberProperty{JsiiProperty: "attenuationControlInput", GoGetter: "AttenuationControlInput"},
@@ -2212,18 +2578,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Eac3SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Eac3SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EbuTtDDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EbuTtDDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EbuTtDDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_EbuTtDDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EbuTtDDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EbuTtDDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EbuTtDDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EbuTtDDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2260,18 +2626,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EbuTtDDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EbuTtDDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EmbeddedDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EmbeddedDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EmbeddedDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_EmbeddedDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EmbeddedDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EmbeddedDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EmbeddedDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EmbeddedDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2296,18 +2662,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EmbeddedDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EmbeddedDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EmbeddedPlusScte20DestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EmbeddedPlusScte20DestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EmbeddedPlusScte20DestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_EmbeddedPlusScte20DestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EmbeddedPlusScte20DestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EmbeddedPlusScte20DestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EmbeddedPlusScte20DestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EmbeddedPlusScte20DestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2332,18 +2698,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EmbeddedPlusScte20DestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EmbeddedPlusScte20DestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EmbeddedSourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EmbeddedSourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EmbeddedSourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_EmbeddedSourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EmbeddedSourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EmbeddedSourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EmbeddedSourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EmbeddedSourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2377,18 +2743,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EmbeddedSourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EmbeddedSourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsAudioDescriptionsCodecSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsAudioDescriptionsCodecSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsAudioDescriptionsCodecSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aacSettings", GoGetter: "AacSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "aacSettingsInput", GoGetter: "AacSettingsInput"},
@@ -2441,18 +2807,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wavSettingsInput", GoGetter: "WavSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsAudioDescriptionsCodecSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2485,18 +2851,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2529,18 +2895,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsDvbSubDestinationSettingsFontPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2567,18 +2933,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsArchiveGroupSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2605,18 +2971,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsFrameCaptureGroupSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2643,18 +3009,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2681,18 +3047,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2719,18 +3085,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMsSmoothGroupSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2762,18 +3128,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2810,18 +3176,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2849,18 +3215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "absentInputAudioBehavior", GoGetter: "AbsentInputAudioBehavior"},
 			_jsii_.MemberProperty{JsiiProperty: "absentInputAudioBehaviorInput", GoGetter: "AbsentInputAudioBehaviorInput"},
@@ -3029,18 +3395,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoPidInput", GoGetter: "VideoPidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3073,18 +3439,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsArchiveOutputSettingsContainerSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3111,18 +3477,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsMultiplexOutputSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3149,18 +3515,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsRtmpOutputSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3192,18 +3558,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbNitSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3240,18 +3606,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbSdtSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3279,18 +3645,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsDvbTdtSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "absentInputAudioBehavior", GoGetter: "AbsentInputAudioBehavior"},
 			_jsii_.MemberProperty{JsiiProperty: "absentInputAudioBehaviorInput", GoGetter: "AbsentInputAudioBehaviorInput"},
@@ -3459,18 +3825,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoPidInput", GoGetter: "VideoPidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsM2tsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3499,18 +3865,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsContainerSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3537,18 +3903,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsOutputGroupsOutputsOutputSettingsUdpOutputSettingsDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioDescriptions", GoGetter: "AudioDescriptions"},
 			_jsii_.MemberProperty{JsiiProperty: "audioDescriptionsInput", GoGetter: "AudioDescriptionsInput"},
@@ -3607,18 +3973,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoDescriptionsInput", GoGetter: "VideoDescriptionsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3647,18 +4013,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3689,18 +4055,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3729,18 +4095,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3771,18 +4137,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH265SettingsFilterSettingsTemporalFilterSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsProperty",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.EncoderSettingsVideoDescriptionsCodecSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.EncoderSettingsVideoDescriptionsCodecSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3819,18 +4185,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_EncoderSettingsVideoDescriptionsCodecSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FailoverConditionProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FailoverConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FailoverConditionProperty",
+		reflect.TypeOf((*TfChannel_FailoverConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FailoverConditionPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_FailoverConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FailoverConditionPropertyList",
+		reflect.TypeOf((*TfChannel_FailoverConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3845,14 +4211,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FailoverConditionPropertyList{}
+			j := jsiiProxy_TfChannel_FailoverConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FailoverConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FailoverConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FailoverConditionPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FailoverConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3881,18 +4247,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FailoverConditionPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FailoverConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FailoverConditionSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FailoverConditionSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FailoverConditionSettingsProperty",
+		reflect.TypeOf((*TfChannel_FailoverConditionSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FailoverConditionSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FailoverConditionSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FailoverConditionSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FailoverConditionSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioSilenceSettings", GoGetter: "AudioSilenceSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "audioSilenceSettingsInput", GoGetter: "AudioSilenceSettingsInput"},
@@ -3929,18 +4295,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoBlackSettingsInput", GoGetter: "VideoBlackSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FailoverConditionSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FailoverConditionSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FecOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FecOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FecOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_FecOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FecOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FecOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FecOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FecOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "columnDepth", GoGetter: "ColumnDepth"},
 			_jsii_.MemberProperty{JsiiProperty: "columnDepthInput", GoGetter: "ColumnDepthInput"},
@@ -3974,18 +4340,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FecOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FecOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Fmp4HlsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Fmp4HlsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Fmp4HlsSettingsProperty",
+		reflect.TypeOf((*TfChannel_Fmp4HlsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Fmp4HlsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Fmp4HlsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Fmp4HlsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Fmp4HlsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioRenditionSets", GoGetter: "AudioRenditionSets"},
 			_jsii_.MemberProperty{JsiiProperty: "audioRenditionSetsInput", GoGetter: "AudioRenditionSetsInput"},
@@ -4019,18 +4385,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Fmp4HlsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Fmp4HlsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureCdnSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureCdnSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureCdnSettingsProperty",
+		reflect.TypeOf((*TfChannel_FrameCaptureCdnSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureCdnSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureCdnSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureCdnSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FrameCaptureCdnSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4059,18 +4425,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FrameCaptureCdnSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FrameCaptureCdnSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_FrameCaptureGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FrameCaptureGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4102,18 +4468,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FrameCaptureGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FrameCaptureGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureHlsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureHlsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureHlsSettingsProperty",
+		reflect.TypeOf((*TfChannel_FrameCaptureHlsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureHlsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureHlsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureHlsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FrameCaptureHlsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4138,18 +4504,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FrameCaptureHlsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FrameCaptureHlsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_FrameCaptureOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FrameCaptureOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4177,18 +4543,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FrameCaptureOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FrameCaptureOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureS3SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureS3SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureS3SettingsProperty",
+		reflect.TypeOf((*TfChannel_FrameCaptureS3SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureS3SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureS3SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureS3SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FrameCaptureS3SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cannedAcl", GoGetter: "CannedAcl"},
 			_jsii_.MemberProperty{JsiiProperty: "cannedAclInput", GoGetter: "CannedAclInput"},
@@ -4216,18 +4582,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FrameCaptureS3SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FrameCaptureS3SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureSettingsProperty",
+		reflect.TypeOf((*TfChannel_FrameCaptureSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.FrameCaptureSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_FrameCaptureSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.FrameCaptureSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_FrameCaptureSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "captureInterval", GoGetter: "CaptureInterval"},
 			_jsii_.MemberProperty{JsiiProperty: "captureIntervalInput", GoGetter: "CaptureIntervalInput"},
@@ -4258,18 +4624,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_FrameCaptureSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_FrameCaptureSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.GlobalConfigurationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_GlobalConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.GlobalConfigurationProperty",
+		reflect.TypeOf((*TfChannel_GlobalConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.GlobalConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_GlobalConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.GlobalConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_GlobalConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4313,18 +4679,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_GlobalConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_GlobalConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.H264SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_H264SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.H264SettingsProperty",
+		reflect.TypeOf((*TfChannel_H264SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.H264SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_H264SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.H264SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_H264SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adaptiveQuantization", GoGetter: "AdaptiveQuantization"},
 			_jsii_.MemberProperty{JsiiProperty: "adaptiveQuantizationInput", GoGetter: "AdaptiveQuantizationInput"},
@@ -4470,18 +4836,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_H264SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_H264SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.H265SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_H265SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.H265SettingsProperty",
+		reflect.TypeOf((*TfChannel_H265SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.H265SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_H265SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.H265SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_H265SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adaptiveQuantization", GoGetter: "AdaptiveQuantization"},
 			_jsii_.MemberProperty{JsiiProperty: "adaptiveQuantizationInput", GoGetter: "AdaptiveQuantizationInput"},
@@ -4617,18 +4983,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "treeblockSizeInput", GoGetter: "TreeblockSizeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_H265SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_H265SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Hdr10SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Hdr10SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Hdr10SettingsProperty",
+		reflect.TypeOf((*TfChannel_Hdr10SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Hdr10SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Hdr10SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Hdr10SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Hdr10SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4659,18 +5025,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Hdr10SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Hdr10SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsAkamaiSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsAkamaiSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsAkamaiSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsAkamaiSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsAkamaiSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsAkamaiSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsAkamaiSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsAkamaiSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4716,18 +5082,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsAkamaiSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsAkamaiSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsBasicPutSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsBasicPutSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsBasicPutSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsBasicPutSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsBasicPutSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsBasicPutSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsBasicPutSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsBasicPutSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4764,18 +5130,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsBasicPutSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsBasicPutSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsCdnSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsCdnSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsCdnSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsCdnSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsCdnSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsCdnSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsCdnSettingsPropertyList",
+		reflect.TypeOf((*TfChannel_HlsCdnSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4790,14 +5156,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsCdnSettingsPropertyList{}
+			j := jsiiProxy_TfChannel_HlsCdnSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsCdnSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsCdnSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsCdnSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsCdnSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4842,18 +5208,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsCdnSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsCdnSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adMarkers", GoGetter: "AdMarkers"},
 			_jsii_.MemberProperty{JsiiProperty: "adMarkersInput", GoGetter: "AdMarkersInput"},
@@ -5007,18 +5373,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tsFileModeInput", GoGetter: "TsFileModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsInputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsInputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsInputSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsInputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsInputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsInputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsInputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsInputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bandwidth", GoGetter: "Bandwidth"},
 			_jsii_.MemberProperty{JsiiProperty: "bandwidthInput", GoGetter: "BandwidthInput"},
@@ -5058,18 +5424,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsInputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsInputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsMediaStoreSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsMediaStoreSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsMediaStoreSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsMediaStoreSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsMediaStoreSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsMediaStoreSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsMediaStoreSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsMediaStoreSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5109,18 +5475,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsMediaStoreSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsMediaStoreSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5157,18 +5523,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsS3SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsS3SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsS3SettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsS3SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsS3SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsS3SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsS3SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsS3SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cannedAcl", GoGetter: "CannedAcl"},
 			_jsii_.MemberProperty{JsiiProperty: "cannedAclInput", GoGetter: "CannedAclInput"},
@@ -5196,18 +5562,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsS3SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsS3SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioOnlyHlsSettings", GoGetter: "AudioOnlyHlsSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "audioOnlyHlsSettingsInput", GoGetter: "AudioOnlyHlsSettingsInput"},
@@ -5248,18 +5614,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsWebdavSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsWebdavSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsWebdavSettingsProperty",
+		reflect.TypeOf((*TfChannel_HlsWebdavSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HlsWebdavSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HlsWebdavSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HlsWebdavSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HlsWebdavSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5299,18 +5665,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HlsWebdavSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HlsWebdavSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HtmlMotionGraphicsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_HtmlMotionGraphicsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HtmlMotionGraphicsSettingsProperty",
+		reflect.TypeOf((*TfChannel_HtmlMotionGraphicsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.HtmlMotionGraphicsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_HtmlMotionGraphicsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.HtmlMotionGraphicsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_HtmlMotionGraphicsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5335,18 +5701,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_HtmlMotionGraphicsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_HtmlMotionGraphicsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsInputSettingsAudioSelectorSelectorSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsInputSettingsAudioSelectorSelectorSettingsProperty",
+		reflect.TypeOf((*TfChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioHlsRenditionSelection", GoGetter: "AudioHlsRenditionSelection"},
 			_jsii_.MemberProperty{JsiiProperty: "audioHlsRenditionSelectionInput", GoGetter: "AudioHlsRenditionSelectionInput"},
@@ -5387,18 +5753,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsProperty",
+		reflect.TypeOf((*TfChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "ancillarySourceSettings", GoGetter: "AncillarySourceSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "ancillarySourceSettingsInput", GoGetter: "AncillarySourceSettingsInput"},
@@ -5451,18 +5817,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputAttachmentsInputSettingsCaptionSelectorSelectorSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsProperty",
+		reflect.TypeOf((*TfChannel_InputAttachmentsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsPropertyList",
+		reflect.TypeOf((*TfChannel_InputAttachmentsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5477,14 +5843,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputAttachmentsPropertyList{}
+			j := jsiiProxy_TfChannel_InputAttachmentsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputAttachmentsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputAttachmentsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputAttachmentsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputAttachmentsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "automaticInputFailoverSettings", GoGetter: "AutomaticInputFailoverSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "automaticInputFailoverSettingsInput", GoGetter: "AutomaticInputFailoverSettingsInput"},
@@ -5521,18 +5887,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputAttachmentsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputAttachmentsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputChannelLevelsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputChannelLevelsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputChannelLevelsProperty",
+		reflect.TypeOf((*TfChannel_InputChannelLevelsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputChannelLevelsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_InputChannelLevelsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputChannelLevelsPropertyList",
+		reflect.TypeOf((*TfChannel_InputChannelLevelsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5547,14 +5913,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputChannelLevelsPropertyList{}
+			j := jsiiProxy_TfChannel_InputChannelLevelsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputChannelLevelsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputChannelLevelsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputChannelLevelsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputChannelLevelsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5583,18 +5949,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputChannelLevelsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputChannelLevelsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputLossBehaviorProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputLossBehaviorProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputLossBehaviorProperty",
+		reflect.TypeOf((*TfChannel_InputLossBehaviorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputLossBehaviorPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputLossBehaviorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputLossBehaviorPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputLossBehaviorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blackFrameMsec", GoGetter: "BlackFrameMsec"},
 			_jsii_.MemberProperty{JsiiProperty: "blackFrameMsecInput", GoGetter: "BlackFrameMsecInput"},
@@ -5635,18 +6001,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputLossBehaviorPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputLossBehaviorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputLossImageSlateProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputLossImageSlateProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputLossImageSlateProperty",
+		reflect.TypeOf((*TfChannel_InputLossImageSlateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputLossImageSlatePropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputLossImageSlatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputLossImageSlatePropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputLossImageSlatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5679,18 +6045,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputLossImageSlatePropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputLossImageSlatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputLossSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputLossSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputLossSettingsProperty",
+		reflect.TypeOf((*TfChannel_InputLossSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputLossSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputLossSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputLossSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputLossSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5718,18 +6084,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputLossSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputLossSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputSettingsProperty",
+		reflect.TypeOf((*TfChannel_InputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioSelector", GoGetter: "AudioSelector"},
 			_jsii_.MemberProperty{JsiiProperty: "audioSelectorInput", GoGetter: "AudioSelectorInput"},
@@ -5791,18 +6157,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoSelectorInput", GoGetter: "VideoSelectorInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputSpecificationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_InputSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputSpecificationProperty",
+		reflect.TypeOf((*TfChannel_InputSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.InputSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_InputSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.InputSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_InputSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codec", GoGetter: "Codec"},
 			_jsii_.MemberProperty{JsiiProperty: "codecInput", GoGetter: "CodecInput"},
@@ -5833,18 +6199,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_InputSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_InputSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.KeyProviderServerProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_KeyProviderServerProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.KeyProviderServerProperty",
+		reflect.TypeOf((*TfChannel_KeyProviderServerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.KeyProviderServerPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_KeyProviderServerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.KeyProviderServerPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_KeyProviderServerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5877,18 +6243,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_KeyProviderServerPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_KeyProviderServerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.KeyProviderSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_KeyProviderSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.KeyProviderSettingsProperty",
+		reflect.TypeOf((*TfChannel_KeyProviderSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.KeyProviderSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_KeyProviderSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.KeyProviderSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_KeyProviderSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5917,18 +6283,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_KeyProviderSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_KeyProviderSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.M3u8SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_M3u8SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.M3u8SettingsProperty",
+		reflect.TypeOf((*TfChannel_M3u8SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.M3u8SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_M3u8SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.M3u8SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_M3u8SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioFramesPerPes", GoGetter: "AudioFramesPerPes"},
 			_jsii_.MemberProperty{JsiiProperty: "audioFramesPerPesInput", GoGetter: "AudioFramesPerPesInput"},
@@ -6004,18 +6370,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoPidInput", GoGetter: "VideoPidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_M3u8SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_M3u8SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MaintenanceProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MaintenanceProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MaintenanceProperty",
+		reflect.TypeOf((*TfChannel_MaintenanceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MaintenancePropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MaintenancePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MaintenancePropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MaintenancePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6044,18 +6410,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MaintenancePropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MaintenancePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_MediaPackageGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MediaPackageGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6083,18 +6449,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MediaPackageGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MediaPackageGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_MediaPackageOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MediaPackageOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6119,18 +6485,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MediaPackageOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MediaPackageOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageSettingsProperty",
+		reflect.TypeOf((*TfChannel_MediaPackageSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageSettingsPropertyList",
+		reflect.TypeOf((*TfChannel_MediaPackageSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6145,14 +6511,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MediaPackageSettingsPropertyList{}
+			j := jsiiProxy_TfChannel_MediaPackageSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MediaPackageSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MediaPackageSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MediaPackageSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MediaPackageSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelId", GoGetter: "ChannelId"},
 			_jsii_.MemberProperty{JsiiProperty: "channelIdInput", GoGetter: "ChannelIdInput"},
@@ -6179,18 +6545,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MediaPackageSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MediaPackageSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MotionGraphicsConfigurationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MotionGraphicsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MotionGraphicsConfigurationProperty",
+		reflect.TypeOf((*TfChannel_MotionGraphicsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MotionGraphicsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MotionGraphicsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MotionGraphicsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MotionGraphicsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6221,18 +6587,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MotionGraphicsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MotionGraphicsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MotionGraphicsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MotionGraphicsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MotionGraphicsSettingsProperty",
+		reflect.TypeOf((*TfChannel_MotionGraphicsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MotionGraphicsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MotionGraphicsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MotionGraphicsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MotionGraphicsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6261,18 +6627,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MotionGraphicsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MotionGraphicsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Mp2SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Mp2SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Mp2SettingsProperty",
+		reflect.TypeOf((*TfChannel_Mp2SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Mp2SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Mp2SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Mp2SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Mp2SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitrate", GoGetter: "Bitrate"},
 			_jsii_.MemberProperty{JsiiProperty: "bitrateInput", GoGetter: "BitrateInput"},
@@ -6306,18 +6672,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Mp2SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Mp2SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MsSmoothGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MsSmoothGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MsSmoothGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_MsSmoothGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MsSmoothGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MsSmoothGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MsSmoothGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MsSmoothGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acquisitionPointId", GoGetter: "AcquisitionPointId"},
 			_jsii_.MemberProperty{JsiiProperty: "acquisitionPointIdInput", GoGetter: "AcquisitionPointIdInput"},
@@ -6399,18 +6765,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MsSmoothGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MsSmoothGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MsSmoothOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MsSmoothOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MsSmoothOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_MsSmoothOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MsSmoothOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MsSmoothOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MsSmoothOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MsSmoothOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6441,18 +6807,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MsSmoothOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MsSmoothOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MultiplexGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MultiplexGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MultiplexGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_MultiplexGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MultiplexGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MultiplexGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MultiplexGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MultiplexGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6477,18 +6843,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MultiplexGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MultiplexGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MultiplexOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MultiplexOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MultiplexOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_MultiplexOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MultiplexOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MultiplexOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MultiplexOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MultiplexOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6516,18 +6882,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MultiplexOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MultiplexOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MultiplexSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_MultiplexSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MultiplexSettingsProperty",
+		reflect.TypeOf((*TfChannel_MultiplexSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.MultiplexSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_MultiplexSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.MultiplexSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_MultiplexSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6556,18 +6922,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_MultiplexSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_MultiplexSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NetworkInputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_NetworkInputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NetworkInputSettingsProperty",
+		reflect.TypeOf((*TfChannel_NetworkInputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NetworkInputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_NetworkInputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NetworkInputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_NetworkInputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6599,18 +6965,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_NetworkInputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_NetworkInputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenCbetSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenCbetSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenCbetSettingsProperty",
+		reflect.TypeOf((*TfChannel_NielsenCbetSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenCbetSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenCbetSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenCbetSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_NielsenCbetSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cbetCheckDigitString", GoGetter: "CbetCheckDigitString"},
 			_jsii_.MemberProperty{JsiiProperty: "cbetCheckDigitStringInput", GoGetter: "CbetCheckDigitStringInput"},
@@ -6641,18 +7007,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_NielsenCbetSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_NielsenCbetSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenConfigurationProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenConfigurationProperty",
+		reflect.TypeOf((*TfChannel_NielsenConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_NielsenConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6683,18 +7049,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_NielsenConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_NielsenConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenNaesIiNwSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenNaesIiNwSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenNaesIiNwSettingsProperty",
+		reflect.TypeOf((*TfChannel_NielsenNaesIiNwSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenNaesIiNwSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenNaesIiNwSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenNaesIiNwSettingsPropertyList",
+		reflect.TypeOf((*TfChannel_NielsenNaesIiNwSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6709,14 +7075,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_NielsenNaesIiNwSettingsPropertyList{}
+			j := jsiiProxy_TfChannel_NielsenNaesIiNwSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenNaesIiNwSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenNaesIiNwSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenNaesIiNwSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_NielsenNaesIiNwSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "checkDigitString", GoGetter: "CheckDigitString"},
 			_jsii_.MemberProperty{JsiiProperty: "checkDigitStringInput", GoGetter: "CheckDigitStringInput"},
@@ -6745,18 +7111,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_NielsenNaesIiNwSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_NielsenNaesIiNwSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenWatermarksSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenWatermarksSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenWatermarksSettingsProperty",
+		reflect.TypeOf((*TfChannel_NielsenWatermarksSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.NielsenWatermarksSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_NielsenWatermarksSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.NielsenWatermarksSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_NielsenWatermarksSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6792,18 +7158,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_NielsenWatermarksSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_NielsenWatermarksSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_OutputGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_OutputGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveGroupSettings", GoGetter: "ArchiveGroupSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "archiveGroupSettingsInput", GoGetter: "ArchiveGroupSettingsInput"},
@@ -6860,18 +7226,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "udpGroupSettingsInput", GoGetter: "UdpGroupSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_OutputGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputGroupsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputGroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputGroupsProperty",
+		reflect.TypeOf((*TfChannel_OutputGroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputGroupsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputGroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputGroupsPropertyList",
+		reflect.TypeOf((*TfChannel_OutputGroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -6886,14 +7252,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputGroupsPropertyList{}
+			j := jsiiProxy_TfChannel_OutputGroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputGroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputGroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputGroupsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_OutputGroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6927,18 +7293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputGroupsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_OutputGroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputRectangleProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputRectangleProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputRectangleProperty",
+		reflect.TypeOf((*TfChannel_OutputRectangleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputRectanglePropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputRectanglePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputRectanglePropertyOutputReference",
+		reflect.TypeOf((*TfChannel_OutputRectanglePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -6971,18 +7337,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "widthInput", GoGetter: "WidthInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputRectanglePropertyOutputReference{}
+			j := jsiiProxy_TfChannel_OutputRectanglePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_OutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_OutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveOutputSettings", GoGetter: "ArchiveOutputSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "archiveOutputSettingsInput", GoGetter: "ArchiveOutputSettingsInput"},
@@ -7039,18 +7405,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "udpOutputSettingsInput", GoGetter: "UdpOutputSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_OutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputsProperty",
+		reflect.TypeOf((*TfChannel_OutputsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputsPropertyList",
+		reflect.TypeOf((*TfChannel_OutputsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7065,14 +7431,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputsPropertyList{}
+			j := jsiiProxy_TfChannel_OutputsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.OutputsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_OutputsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.OutputsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_OutputsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioDescriptionNames", GoGetter: "AudioDescriptionNames"},
 			_jsii_.MemberProperty{JsiiProperty: "audioDescriptionNamesInput", GoGetter: "AudioDescriptionNamesInput"},
@@ -7112,18 +7478,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoDescriptionNameInput", GoGetter: "VideoDescriptionNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_OutputsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_OutputsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.PassThroughSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_PassThroughSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.PassThroughSettingsProperty",
+		reflect.TypeOf((*TfChannel_PassThroughSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.PassThroughSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_PassThroughSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.PassThroughSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_PassThroughSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7148,18 +7514,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_PassThroughSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_PassThroughSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RawSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_RawSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RawSettingsProperty",
+		reflect.TypeOf((*TfChannel_RawSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RawSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_RawSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RawSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_RawSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7184,18 +7550,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_RawSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_RawSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Rec601SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Rec601SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Rec601SettingsProperty",
+		reflect.TypeOf((*TfChannel_Rec601SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Rec601SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Rec601SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Rec601SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Rec601SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7220,18 +7586,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Rec601SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Rec601SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Rec709SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Rec709SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Rec709SettingsProperty",
+		reflect.TypeOf((*TfChannel_Rec709SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Rec709SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Rec709SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Rec709SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Rec709SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7256,18 +7622,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Rec709SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Rec709SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RemixSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_RemixSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RemixSettingsProperty",
+		reflect.TypeOf((*TfChannel_RemixSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RemixSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_RemixSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RemixSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_RemixSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channelMappings", GoGetter: "ChannelMappings"},
 			_jsii_.MemberProperty{JsiiProperty: "channelMappingsInput", GoGetter: "ChannelMappingsInput"},
@@ -7301,18 +7667,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_RemixSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_RemixSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RtmpCaptionInfoDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_RtmpCaptionInfoDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RtmpCaptionInfoDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_RtmpCaptionInfoDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RtmpCaptionInfoDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_RtmpCaptionInfoDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RtmpCaptionInfoDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_RtmpCaptionInfoDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7337,18 +7703,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_RtmpCaptionInfoDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_RtmpCaptionInfoDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RtmpGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_RtmpGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RtmpGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_RtmpGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RtmpGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_RtmpGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RtmpGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_RtmpGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "adMarkers", GoGetter: "AdMarkers"},
 			_jsii_.MemberProperty{JsiiProperty: "adMarkersInput", GoGetter: "AdMarkersInput"},
@@ -7394,18 +7760,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_RtmpGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_RtmpGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RtmpOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_RtmpOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RtmpOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_RtmpOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.RtmpOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_RtmpOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.RtmpOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_RtmpOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateMode", GoGetter: "CertificateMode"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateModeInput", GoGetter: "CertificateModeInput"},
@@ -7442,18 +7808,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_RtmpOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_RtmpOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte20PlusEmbeddedDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte20PlusEmbeddedDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte20PlusEmbeddedDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_Scte20PlusEmbeddedDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte20PlusEmbeddedDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte20PlusEmbeddedDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte20PlusEmbeddedDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Scte20PlusEmbeddedDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7478,18 +7844,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Scte20PlusEmbeddedDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Scte20PlusEmbeddedDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte20SourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte20SourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte20SourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_Scte20SourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte20SourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte20SourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte20SourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Scte20SourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7520,18 +7886,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Scte20SourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Scte20SourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte27DestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte27DestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte27DestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_Scte27DestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte27DestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte27DestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte27DestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Scte27DestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7556,18 +7922,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Scte27DestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Scte27DestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte27SourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte27SourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte27SourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_Scte27SourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.Scte27SourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_Scte27SourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.Scte27SourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_Scte27SourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7598,18 +7964,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_Scte27SourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_Scte27SourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.SettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.SettingsProperty",
+		reflect.TypeOf((*TfChannel_SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.SettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_SettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.SettingsPropertyList",
+		reflect.TypeOf((*TfChannel_SettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7624,14 +7990,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_SettingsPropertyList{}
+			j := jsiiProxy_TfChannel_SettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7668,18 +8034,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.SmpteTtDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_SmpteTtDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.SmpteTtDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_SmpteTtDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.SmpteTtDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_SmpteTtDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.SmpteTtDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_SmpteTtDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7704,18 +8070,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_SmpteTtDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_SmpteTtDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.StandardHlsSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_StandardHlsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.StandardHlsSettingsProperty",
+		reflect.TypeOf((*TfChannel_StandardHlsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.StandardHlsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_StandardHlsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.StandardHlsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_StandardHlsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioRenditionSets", GoGetter: "AudioRenditionSets"},
 			_jsii_.MemberProperty{JsiiProperty: "audioRenditionSetsInput", GoGetter: "AudioRenditionSetsInput"},
@@ -7746,18 +8112,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_StandardHlsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_StandardHlsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.StaticKeySettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_StaticKeySettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.StaticKeySettingsProperty",
+		reflect.TypeOf((*TfChannel_StaticKeySettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.StaticKeySettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_StaticKeySettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.StaticKeySettingsPropertyList",
+		reflect.TypeOf((*TfChannel_StaticKeySettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -7772,14 +8138,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_StaticKeySettingsPropertyList{}
+			j := jsiiProxy_TfChannel_StaticKeySettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.StaticKeySettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_StaticKeySettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.StaticKeySettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_StaticKeySettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7810,18 +8176,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_StaticKeySettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_StaticKeySettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TeletextDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TeletextDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TeletextDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_TeletextDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TeletextDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TeletextDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TeletextDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TeletextDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7846,18 +8212,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TeletextDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TeletextDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TeletextSourceSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TeletextSourceSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TeletextSourceSettingsProperty",
+		reflect.TypeOf((*TfChannel_TeletextSourceSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TeletextSourceSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TeletextSourceSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TeletextSourceSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TeletextSourceSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7889,18 +8255,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TeletextSourceSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TeletextSourceSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TimecodeBurninSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TimecodeBurninSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TimecodeBurninSettingsProperty",
+		reflect.TypeOf((*TfChannel_TimecodeBurninSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TimecodeBurninSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TimecodeBurninSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TimecodeBurninSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TimecodeBurninSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7934,18 +8300,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TimecodeBurninSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TimecodeBurninSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TimecodeConfigProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TimecodeConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TimecodeConfigProperty",
+		reflect.TypeOf((*TfChannel_TimecodeConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TimecodeConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TimecodeConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TimecodeConfigPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TimecodeConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -7975,18 +8341,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TimecodeConfigPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TimecodeConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TimeoutsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TimeoutsProperty",
+		reflect.TypeOf((*TfChannel_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8020,18 +8386,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TracksProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TracksProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TracksProperty",
+		reflect.TypeOf((*TfChannel_TracksProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TracksPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_TracksPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TracksPropertyList",
+		reflect.TypeOf((*TfChannel_TracksPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8046,14 +8412,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TracksPropertyList{}
+			j := jsiiProxy_TfChannel_TracksPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TracksPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TracksPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TracksPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TracksPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8080,18 +8446,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trackInput", GoGetter: "TrackInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TracksPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TracksPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TtmlDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_TtmlDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TtmlDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_TtmlDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.TtmlDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_TtmlDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.TtmlDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_TtmlDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8118,18 +8484,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_TtmlDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_TtmlDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.UdpGroupSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_UdpGroupSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.UdpGroupSettingsProperty",
+		reflect.TypeOf((*TfChannel_UdpGroupSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.UdpGroupSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_UdpGroupSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.UdpGroupSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_UdpGroupSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8163,18 +8529,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_UdpGroupSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_UdpGroupSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.UdpOutputSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_UdpOutputSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.UdpOutputSettingsProperty",
+		reflect.TypeOf((*TfChannel_UdpOutputSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.UdpOutputSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_UdpOutputSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.UdpOutputSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_UdpOutputSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bufferMsec", GoGetter: "BufferMsec"},
 			_jsii_.MemberProperty{JsiiProperty: "bufferMsecInput", GoGetter: "BufferMsecInput"},
@@ -8212,18 +8578,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_UdpOutputSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_UdpOutputSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoBlackSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoBlackSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoBlackSettingsProperty",
+		reflect.TypeOf((*TfChannel_VideoBlackSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoBlackSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoBlackSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoBlackSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_VideoBlackSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blackDetectThreshold", GoGetter: "BlackDetectThreshold"},
 			_jsii_.MemberProperty{JsiiProperty: "blackDetectThresholdInput", GoGetter: "BlackDetectThresholdInput"},
@@ -8254,18 +8620,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoBlackThresholdMsecInput", GoGetter: "VideoBlackThresholdMsecInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_VideoBlackSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_VideoBlackSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoDescriptionsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoDescriptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoDescriptionsProperty",
+		reflect.TypeOf((*TfChannel_VideoDescriptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoDescriptionsPropertyList",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoDescriptionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoDescriptionsPropertyList",
+		reflect.TypeOf((*TfChannel_VideoDescriptionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8280,14 +8646,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_VideoDescriptionsPropertyList{}
+			j := jsiiProxy_TfChannel_VideoDescriptionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoDescriptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoDescriptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoDescriptionsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_VideoDescriptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codecSettings", GoGetter: "CodecSettings"},
 			_jsii_.MemberProperty{JsiiProperty: "codecSettingsInput", GoGetter: "CodecSettingsInput"},
@@ -8333,18 +8699,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "widthInput", GoGetter: "WidthInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_VideoDescriptionsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_VideoDescriptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoSelectorProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoSelectorProperty",
+		reflect.TypeOf((*TfChannel_VideoSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VideoSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_VideoSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VideoSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_VideoSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "colorSpace", GoGetter: "ColorSpace"},
 			_jsii_.MemberProperty{JsiiProperty: "colorSpaceInput", GoGetter: "ColorSpaceInput"},
@@ -8375,18 +8741,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_VideoSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_VideoSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VpcProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_VpcProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VpcProperty",
+		reflect.TypeOf((*TfChannel_VpcProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.VpcPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_VpcPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.VpcPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_VpcPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -8420,18 +8786,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_VpcPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_VpcPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.WavSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_WavSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.WavSettingsProperty",
+		reflect.TypeOf((*TfChannel_WavSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.WavSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_WavSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.WavSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_WavSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitDepth", GoGetter: "BitDepth"},
 			_jsii_.MemberProperty{JsiiProperty: "bitDepthInput", GoGetter: "BitDepthInput"},
@@ -8465,18 +8831,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_WavSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_WavSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.WebvttDestinationSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveChannel_WebvttDestinationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.WebvttDestinationSettingsProperty",
+		reflect.TypeOf((*TfChannel_WebvttDestinationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannel.WebvttDestinationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveChannel_WebvttDestinationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannel.WebvttDestinationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfChannel_WebvttDestinationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8503,18 +8869,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveChannel_WebvttDestinationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfChannel_WebvttDestinationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveChannelConfig",
-		reflect.TypeOf((*AwsMedialiveChannelConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfChannelConfig",
+		reflect.TypeOf((*TfChannelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput",
-		reflect.TypeOf((*AwsMedialiveInput)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput",
+		reflect.TypeOf((*TfInput)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -8613,18 +8979,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput{}
+			j := jsiiProxy_TfInput{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.DestinationsProperty",
-		reflect.TypeOf((*AwsMedialiveInput_DestinationsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.DestinationsProperty",
+		reflect.TypeOf((*TfInput_DestinationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.DestinationsPropertyList",
-		reflect.TypeOf((*AwsMedialiveInput_DestinationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.DestinationsPropertyList",
+		reflect.TypeOf((*TfInput_DestinationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8639,14 +9005,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_DestinationsPropertyList{}
+			j := jsiiProxy_TfInput_DestinationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.DestinationsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInput_DestinationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.DestinationsPropertyOutputReference",
+		reflect.TypeOf((*TfInput_DestinationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8673,18 +9039,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_DestinationsPropertyOutputReference{}
+			j := jsiiProxy_TfInput_DestinationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.InputDevicesProperty",
-		reflect.TypeOf((*AwsMedialiveInput_InputDevicesProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.InputDevicesProperty",
+		reflect.TypeOf((*TfInput_InputDevicesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.InputDevicesPropertyList",
-		reflect.TypeOf((*AwsMedialiveInput_InputDevicesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.InputDevicesPropertyList",
+		reflect.TypeOf((*TfInput_InputDevicesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8699,14 +9065,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_InputDevicesPropertyList{}
+			j := jsiiProxy_TfInput_InputDevicesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.InputDevicesPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInput_InputDevicesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.InputDevicesPropertyOutputReference",
+		reflect.TypeOf((*TfInput_InputDevicesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8733,18 +9099,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_InputDevicesPropertyOutputReference{}
+			j := jsiiProxy_TfInput_InputDevicesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.MediaConnectFlowsProperty",
-		reflect.TypeOf((*AwsMedialiveInput_MediaConnectFlowsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.MediaConnectFlowsProperty",
+		reflect.TypeOf((*TfInput_MediaConnectFlowsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.MediaConnectFlowsPropertyList",
-		reflect.TypeOf((*AwsMedialiveInput_MediaConnectFlowsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.MediaConnectFlowsPropertyList",
+		reflect.TypeOf((*TfInput_MediaConnectFlowsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8759,14 +9125,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_MediaConnectFlowsPropertyList{}
+			j := jsiiProxy_TfInput_MediaConnectFlowsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.MediaConnectFlowsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInput_MediaConnectFlowsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.MediaConnectFlowsPropertyOutputReference",
+		reflect.TypeOf((*TfInput_MediaConnectFlowsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8793,18 +9159,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_MediaConnectFlowsPropertyOutputReference{}
+			j := jsiiProxy_TfInput_MediaConnectFlowsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.SourcesProperty",
-		reflect.TypeOf((*AwsMedialiveInput_SourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.SourcesProperty",
+		reflect.TypeOf((*TfInput_SourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.SourcesPropertyList",
-		reflect.TypeOf((*AwsMedialiveInput_SourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.SourcesPropertyList",
+		reflect.TypeOf((*TfInput_SourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -8819,14 +9185,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_SourcesPropertyList{}
+			j := jsiiProxy_TfInput_SourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.SourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInput_SourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.SourcesPropertyOutputReference",
+		reflect.TypeOf((*TfInput_SourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8857,18 +9223,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_SourcesPropertyOutputReference{}
+			j := jsiiProxy_TfInput_SourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.TimeoutsProperty",
-		reflect.TypeOf((*AwsMedialiveInput_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.TimeoutsProperty",
+		reflect.TypeOf((*TfInput_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInput_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfInput_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8902,18 +9268,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfInput_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.VpcProperty",
-		reflect.TypeOf((*AwsMedialiveInput_VpcProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.VpcProperty",
+		reflect.TypeOf((*TfInput_VpcProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInput.VpcPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInput_VpcPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInput.VpcPropertyOutputReference",
+		reflect.TypeOf((*TfInput_VpcPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -8943,18 +9309,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInput_VpcPropertyOutputReference{}
+			j := jsiiProxy_TfInput_VpcPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputConfig",
-		reflect.TypeOf((*AwsMedialiveInputConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputConfig",
+		reflect.TypeOf((*TfInputConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroup",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroup)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroup",
+		reflect.TypeOf((*TfInputSecurityGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -9023,18 +9389,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInputSecurityGroup{}
+			j := jsiiProxy_TfInputSecurityGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroup.TimeoutsProperty",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroup_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroup.TimeoutsProperty",
+		reflect.TypeOf((*TfInputSecurityGroup_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroup.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroup.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfInputSecurityGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9068,18 +9434,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInputSecurityGroup_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfInputSecurityGroup_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroup.WhitelistRulesProperty",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroup_WhitelistRulesProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroup.WhitelistRulesProperty",
+		reflect.TypeOf((*TfInputSecurityGroup_WhitelistRulesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroup.WhitelistRulesPropertyList",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroup_WhitelistRulesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroup.WhitelistRulesPropertyList",
+		reflect.TypeOf((*TfInputSecurityGroup_WhitelistRulesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9094,14 +9460,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInputSecurityGroup_WhitelistRulesPropertyList{}
+			j := jsiiProxy_TfInputSecurityGroup_WhitelistRulesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroup.WhitelistRulesPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroup_WhitelistRulesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroup.WhitelistRulesPropertyOutputReference",
+		reflect.TypeOf((*TfInputSecurityGroup_WhitelistRulesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
 			_jsii_.MemberProperty{JsiiProperty: "cidrInput", GoGetter: "CidrInput"},
@@ -9128,18 +9494,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveInputSecurityGroup_WhitelistRulesPropertyOutputReference{}
+			j := jsiiProxy_TfInputSecurityGroup_WhitelistRulesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveInputSecurityGroupConfig",
-		reflect.TypeOf((*AwsMedialiveInputSecurityGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfInputSecurityGroupConfig",
+		reflect.TypeOf((*TfInputSecurityGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplex",
-		reflect.TypeOf((*AwsMedialiveMultiplex)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplex",
+		reflect.TypeOf((*TfMultiplex)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -9215,18 +9581,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplex{}
+			j := jsiiProxy_TfMultiplex{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplex.MultiplexSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplex_MultiplexSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplex.MultiplexSettingsProperty",
+		reflect.TypeOf((*TfMultiplex_MultiplexSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplex.MultiplexSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplex_MultiplexSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplex.MultiplexSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplex_MultiplexSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9261,18 +9627,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transportStreamReservedBitrateInput", GoGetter: "TransportStreamReservedBitrateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplex_MultiplexSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplex_MultiplexSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplex.TimeoutsProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplex_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplex.TimeoutsProperty",
+		reflect.TypeOf((*TfMultiplex_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplex.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplex_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplex.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplex_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9306,18 +9672,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplex_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplex_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexConfig",
-		reflect.TypeOf((*AwsMedialiveMultiplexConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexConfig",
+		reflect.TypeOf((*TfMultiplexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram",
+		reflect.TypeOf((*TfMultiplexProgram)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -9381,18 +9747,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram{}
+			j := jsiiProxy_TfMultiplexProgram{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.MultiplexProgramSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_MultiplexProgramSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.MultiplexProgramSettingsProperty",
+		reflect.TypeOf((*TfMultiplexProgram_MultiplexProgramSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.MultiplexProgramSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_MultiplexProgramSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.MultiplexProgramSettingsPropertyList",
+		reflect.TypeOf((*TfMultiplexProgram_MultiplexProgramSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9407,14 +9773,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_MultiplexProgramSettingsPropertyList{}
+			j := jsiiProxy_TfMultiplexProgram_MultiplexProgramSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.MultiplexProgramSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_MultiplexProgramSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.MultiplexProgramSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplexProgram_MultiplexProgramSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9451,18 +9817,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "videoSettingsInput", GoGetter: "VideoSettingsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_MultiplexProgramSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplexProgram_MultiplexProgramSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.ServiceDescriptorProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_ServiceDescriptorProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.ServiceDescriptorProperty",
+		reflect.TypeOf((*TfMultiplexProgram_ServiceDescriptorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.ServiceDescriptorPropertyList",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_ServiceDescriptorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.ServiceDescriptorPropertyList",
+		reflect.TypeOf((*TfMultiplexProgram_ServiceDescriptorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9477,14 +9843,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_ServiceDescriptorPropertyList{}
+			j := jsiiProxy_TfMultiplexProgram_ServiceDescriptorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.ServiceDescriptorPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_ServiceDescriptorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.ServiceDescriptorPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplexProgram_ServiceDescriptorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9513,18 +9879,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_ServiceDescriptorPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplexProgram_ServiceDescriptorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.StatmuxSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_StatmuxSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.StatmuxSettingsProperty",
+		reflect.TypeOf((*TfMultiplexProgram_StatmuxSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.StatmuxSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_StatmuxSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.StatmuxSettingsPropertyList",
+		reflect.TypeOf((*TfMultiplexProgram_StatmuxSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9539,14 +9905,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_StatmuxSettingsPropertyList{}
+			j := jsiiProxy_TfMultiplexProgram_StatmuxSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.StatmuxSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_StatmuxSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.StatmuxSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplexProgram_StatmuxSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9580,18 +9946,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_StatmuxSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplexProgram_StatmuxSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.TimeoutsProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.TimeoutsProperty",
+		reflect.TypeOf((*TfMultiplexProgram_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplexProgram_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9619,18 +9985,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplexProgram_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.VideoSettingsProperty",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_VideoSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.VideoSettingsProperty",
+		reflect.TypeOf((*TfMultiplexProgram_VideoSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.VideoSettingsPropertyList",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_VideoSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.VideoSettingsPropertyList",
+		reflect.TypeOf((*TfMultiplexProgram_VideoSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -9645,14 +10011,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_VideoSettingsPropertyList{}
+			j := jsiiProxy_TfMultiplexProgram_VideoSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgram.VideoSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgram_VideoSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgram.VideoSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfMultiplexProgram_VideoSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -9684,379 +10050,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMedialiveMultiplexProgram_VideoSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfMultiplexProgram_VideoSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.AwsMedialiveMultiplexProgramConfig",
-		reflect.TypeOf((*AwsMedialiveMultiplexProgramConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput",
-		reflect.TypeOf((*DataAwsMedialiveInput)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "attachedChannels", GoGetter: "AttachedChannels"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "destinations", GoGetter: "Destinations"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "inputClass", GoGetter: "InputClass"},
-			_jsii_.MemberProperty{JsiiProperty: "inputDevices", GoGetter: "InputDevices"},
-			_jsii_.MemberProperty{JsiiProperty: "inputPartnerIds", GoGetter: "InputPartnerIds"},
-			_jsii_.MemberProperty{JsiiProperty: "inputSourceType", GoGetter: "InputSourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "mediaConnectFlows", GoGetter: "MediaConnectFlows"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "roleArn", GoGetter: "RoleArn"},
-			_jsii_.MemberProperty{JsiiProperty: "securityGroups", GoGetter: "SecurityGroups"},
-			_jsii_.MemberProperty{JsiiProperty: "sources", GoGetter: "Sources"},
-			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.DestinationsProperty",
-		reflect.TypeOf((*DataAwsMedialiveInput_DestinationsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.DestinationsPropertyList",
-		reflect.TypeOf((*DataAwsMedialiveInput_DestinationsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_DestinationsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.DestinationsPropertyOutputReference",
-		reflect.TypeOf((*DataAwsMedialiveInput_DestinationsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "ip", GoGetter: "Ip"},
-			_jsii_.MemberProperty{JsiiProperty: "port", GoGetter: "Port"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
-			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_DestinationsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.InputDevicesProperty",
-		reflect.TypeOf((*DataAwsMedialiveInput_InputDevicesProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.InputDevicesPropertyList",
-		reflect.TypeOf((*DataAwsMedialiveInput_InputDevicesPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_InputDevicesPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.InputDevicesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsMedialiveInput_InputDevicesPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_InputDevicesPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.MediaConnectFlowsProperty",
-		reflect.TypeOf((*DataAwsMedialiveInput_MediaConnectFlowsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.MediaConnectFlowsPropertyList",
-		reflect.TypeOf((*DataAwsMedialiveInput_MediaConnectFlowsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_MediaConnectFlowsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.MediaConnectFlowsPropertyOutputReference",
-		reflect.TypeOf((*DataAwsMedialiveInput_MediaConnectFlowsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "flowArn", GoGetter: "FlowArn"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_MediaConnectFlowsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.SourcesProperty",
-		reflect.TypeOf((*DataAwsMedialiveInput_SourcesProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.SourcesPropertyList",
-		reflect.TypeOf((*DataAwsMedialiveInput_SourcesPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_SourcesPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.SourcesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsMedialiveInput_SourcesPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "passwordParam", GoGetter: "PasswordParam"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
-			_jsii_.MemberProperty{JsiiProperty: "username", GoGetter: "Username"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_SourcesPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.VpcProperty",
-		reflect.TypeOf((*DataAwsMedialiveInput_VpcProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.VpcPropertyList",
-		reflect.TypeOf((*DataAwsMedialiveInput_VpcPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_VpcPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInput.VpcPropertyOutputReference",
-		reflect.TypeOf((*DataAwsMedialiveInput_VpcPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "availabilityZone", GoGetter: "AvailabilityZone"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "networkInterfaceId", GoGetter: "NetworkInterfaceId"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsMedialiveInput_VpcPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-medialive.DataAwsMedialiveInputConfig",
-		reflect.TypeOf((*DataAwsMedialiveInputConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-medialive.TfMultiplexProgramConfig",
+		reflect.TypeOf((*TfMultiplexProgramConfig)(nil)).Elem(),
 	)
 }

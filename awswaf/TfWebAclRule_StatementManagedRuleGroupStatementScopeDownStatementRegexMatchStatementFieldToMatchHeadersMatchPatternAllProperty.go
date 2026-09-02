@@ -1,0 +1,7 @@
+package awswaf
+
+
+// Experimental.
+type TfWebAclRule_StatementManagedRuleGroupStatementScopeDownStatementRegexMatchStatementFieldToMatchHeadersMatchPatternAllProperty struct {
+}
+

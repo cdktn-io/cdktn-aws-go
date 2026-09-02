@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediastore.AwsMediaStoreContainer",
-		reflect.TypeOf((*AwsMediaStoreContainer)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediastore.TfContainer",
+		reflect.TypeOf((*TfContainer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,18 +74,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaStoreContainer{}
+			j := jsiiProxy_TfContainer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-mediastore.AwsMediaStoreContainerConfig",
-		reflect.TypeOf((*AwsMediaStoreContainerConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediastore.TfContainerConfig",
+		reflect.TypeOf((*TfContainerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediastore.AwsMediaStoreContainerPolicy",
-		reflect.TypeOf((*AwsMediaStoreContainerPolicy)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediastore.TfContainerPolicy",
+		reflect.TypeOf((*TfContainerPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -143,13 +143,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaStoreContainerPolicy{}
+			j := jsiiProxy_TfContainerPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-mediastore.AwsMediaStoreContainerPolicyConfig",
-		reflect.TypeOf((*AwsMediaStoreContainerPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediastore.TfContainerPolicyConfig",
+		reflect.TypeOf((*TfContainerPolicyConfig)(nil)).Elem(),
 	)
 }

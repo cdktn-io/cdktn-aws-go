@@ -9,8 +9,138 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneAssetType",
-		reflect.TypeOf((*AwsDatazoneAssetType)(nil)).Elem(),
+		"@cdktn/aws-datazone.DataTfDomain",
+		reflect.TypeOf((*DataTfDomain)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "domainVersion", GoGetter: "DomainVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lastUpdatedAt", GoGetter: "LastUpdatedAt"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "managedAccountId", GoGetter: "ManagedAccountId"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "portalUrl", GoGetter: "PortalUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "rootDomainUnitId", GoGetter: "RootDomainUnitId"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDomain{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-datazone.DataTfDomainConfig",
+		reflect.TypeOf((*DataTfDomainConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-datazone.DataTfEnvironmentBlueprint",
+		reflect.TypeOf((*DataTfEnvironmentBlueprint)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "blueprintProvider", GoGetter: "BlueprintProvider"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "domainId", GoGetter: "DomainId"},
+			_jsii_.MemberProperty{JsiiProperty: "domainIdInput", GoGetter: "DomainIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "managed", GoGetter: "Managed"},
+			_jsii_.MemberProperty{JsiiProperty: "managedInput", GoGetter: "ManagedInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfEnvironmentBlueprint{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-datazone.DataTfEnvironmentBlueprintConfig",
+		reflect.TypeOf((*DataTfEnvironmentBlueprintConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-datazone.TfAssetType",
+		reflect.TypeOf((*TfAssetType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -81,18 +211,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneAssetType{}
+			j := jsiiProxy_TfAssetType{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneAssetType.FormsInputProperty",
-		reflect.TypeOf((*AwsDatazoneAssetType_FormsInputProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfAssetType.FormsInputProperty",
+		reflect.TypeOf((*TfAssetType_FormsInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneAssetType.FormsInputPropertyList",
-		reflect.TypeOf((*AwsDatazoneAssetType_FormsInputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfAssetType.FormsInputPropertyList",
+		reflect.TypeOf((*TfAssetType_FormsInputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -107,14 +237,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneAssetType_FormsInputPropertyList{}
+			j := jsiiProxy_TfAssetType_FormsInputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneAssetType.FormsInputPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneAssetType_FormsInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfAssetType.FormsInputPropertyOutputReference",
+		reflect.TypeOf((*TfAssetType_FormsInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -148,18 +278,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeRevisionInput", GoGetter: "TypeRevisionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneAssetType_FormsInputPropertyOutputReference{}
+			j := jsiiProxy_TfAssetType_FormsInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneAssetType.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneAssetType_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfAssetType.TimeoutsProperty",
+		reflect.TypeOf((*TfAssetType_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneAssetType.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneAssetType_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfAssetType.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAssetType_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -187,18 +317,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneAssetType_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAssetType_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneAssetTypeConfig",
-		reflect.TypeOf((*AwsDatazoneAssetTypeConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfAssetTypeConfig",
+		reflect.TypeOf((*TfAssetTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneDomain",
-		reflect.TypeOf((*AwsDatazoneDomain)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -284,18 +414,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneDomain.SingleSignOnProperty",
-		reflect.TypeOf((*AwsDatazoneDomain_SingleSignOnProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomain.SingleSignOnProperty",
+		reflect.TypeOf((*TfDomain_SingleSignOnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneDomain.SingleSignOnPropertyList",
-		reflect.TypeOf((*AwsDatazoneDomain_SingleSignOnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomain.SingleSignOnPropertyList",
+		reflect.TypeOf((*TfDomain_SingleSignOnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -310,14 +440,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneDomain_SingleSignOnPropertyList{}
+			j := jsiiProxy_TfDomain_SingleSignOnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneDomain.SingleSignOnPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneDomain_SingleSignOnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomain.SingleSignOnPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_SingleSignOnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -348,18 +478,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userAssignmentInput", GoGetter: "UserAssignmentInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneDomain_SingleSignOnPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_SingleSignOnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneDomain.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneDomain_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomain.TimeoutsProperty",
+		reflect.TypeOf((*TfDomain_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneDomain.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneDomain_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomain.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -390,18 +520,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneDomain_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneDomainConfig",
-		reflect.TypeOf((*AwsDatazoneDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment",
-		reflect.TypeOf((*AwsDatazoneEnvironment)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment",
+		reflect.TypeOf((*TfEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountIdentifier", GoGetter: "AccountIdentifier"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdentifierInput", GoGetter: "AccountIdentifierInput"},
@@ -489,18 +619,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment{}
+			j := jsiiProxy_TfEnvironment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.FailureReasonsProperty",
-		reflect.TypeOf((*AwsDatazoneEnvironment_FailureReasonsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.FailureReasonsProperty",
+		reflect.TypeOf((*TfEnvironment_FailureReasonsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.FailureReasonsPropertyList",
-		reflect.TypeOf((*AwsDatazoneEnvironment_FailureReasonsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.FailureReasonsPropertyList",
+		reflect.TypeOf((*TfEnvironment_FailureReasonsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -514,14 +644,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_FailureReasonsPropertyList{}
+			j := jsiiProxy_TfEnvironment_FailureReasonsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.FailureReasonsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneEnvironment_FailureReasonsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.FailureReasonsPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_FailureReasonsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -548,18 +678,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_FailureReasonsPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_FailureReasonsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.LastDeploymentProperty",
-		reflect.TypeOf((*AwsDatazoneEnvironment_LastDeploymentProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.LastDeploymentProperty",
+		reflect.TypeOf((*TfEnvironment_LastDeploymentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.LastDeploymentPropertyList",
-		reflect.TypeOf((*AwsDatazoneEnvironment_LastDeploymentPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.LastDeploymentPropertyList",
+		reflect.TypeOf((*TfEnvironment_LastDeploymentPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -573,14 +703,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_LastDeploymentPropertyList{}
+			j := jsiiProxy_TfEnvironment_LastDeploymentPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.LastDeploymentPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneEnvironment_LastDeploymentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.LastDeploymentPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_LastDeploymentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -611,18 +741,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_LastDeploymentPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_LastDeploymentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.ProvisionedResourcesProperty",
-		reflect.TypeOf((*AwsDatazoneEnvironment_ProvisionedResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.ProvisionedResourcesProperty",
+		reflect.TypeOf((*TfEnvironment_ProvisionedResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.ProvisionedResourcesPropertyList",
-		reflect.TypeOf((*AwsDatazoneEnvironment_ProvisionedResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.ProvisionedResourcesPropertyList",
+		reflect.TypeOf((*TfEnvironment_ProvisionedResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -636,14 +766,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_ProvisionedResourcesPropertyList{}
+			j := jsiiProxy_TfEnvironment_ProvisionedResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.ProvisionedResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneEnvironment_ProvisionedResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.ProvisionedResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_ProvisionedResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -672,18 +802,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_ProvisionedResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_ProvisionedResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneEnvironment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.TimeoutsProperty",
+		reflect.TypeOf((*TfEnvironment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneEnvironment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -717,18 +847,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.UserParametersProperty",
-		reflect.TypeOf((*AwsDatazoneEnvironment_UserParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.UserParametersProperty",
+		reflect.TypeOf((*TfEnvironment_UserParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.UserParametersPropertyList",
-		reflect.TypeOf((*AwsDatazoneEnvironment_UserParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.UserParametersPropertyList",
+		reflect.TypeOf((*TfEnvironment_UserParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -743,14 +873,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_UserParametersPropertyList{}
+			j := jsiiProxy_TfEnvironment_UserParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironment.UserParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneEnvironment_UserParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironment.UserParametersPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_UserParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -781,14 +911,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironment_UserParametersPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_UserParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentBlueprintConfiguration",
-		reflect.TypeOf((*AwsDatazoneEnvironmentBlueprintConfiguration)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentBlueprintConfiguration",
+		reflect.TypeOf((*TfEnvironmentBlueprintConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -857,22 +987,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironmentBlueprintConfiguration{}
+			j := jsiiProxy_TfEnvironmentBlueprintConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentBlueprintConfigurationConfig",
-		reflect.TypeOf((*AwsDatazoneEnvironmentBlueprintConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentBlueprintConfigurationConfig",
+		reflect.TypeOf((*TfEnvironmentBlueprintConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentConfig",
-		reflect.TypeOf((*AwsDatazoneEnvironmentConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentConfig",
+		reflect.TypeOf((*TfEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentProfile",
-		reflect.TypeOf((*AwsDatazoneEnvironmentProfile)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentProfile",
+		reflect.TypeOf((*TfEnvironmentProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -947,18 +1077,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironmentProfile{}
+			j := jsiiProxy_TfEnvironmentProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentProfile.UserParametersProperty",
-		reflect.TypeOf((*AwsDatazoneEnvironmentProfile_UserParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentProfile.UserParametersProperty",
+		reflect.TypeOf((*TfEnvironmentProfile_UserParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentProfile.UserParametersPropertyList",
-		reflect.TypeOf((*AwsDatazoneEnvironmentProfile_UserParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentProfile.UserParametersPropertyList",
+		reflect.TypeOf((*TfEnvironmentProfile_UserParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -973,14 +1103,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironmentProfile_UserParametersPropertyList{}
+			j := jsiiProxy_TfEnvironmentProfile_UserParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentProfile.UserParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneEnvironmentProfile_UserParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentProfile.UserParametersPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironmentProfile_UserParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1011,18 +1141,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneEnvironmentProfile_UserParametersPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironmentProfile_UserParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneEnvironmentProfileConfig",
-		reflect.TypeOf((*AwsDatazoneEnvironmentProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfEnvironmentProfileConfig",
+		reflect.TypeOf((*TfEnvironmentProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneFormType",
-		reflect.TypeOf((*AwsDatazoneFormType)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType",
+		reflect.TypeOf((*TfFormType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1099,18 +1229,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneFormType{}
+			j := jsiiProxy_TfFormType{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.ImportsProperty",
-		reflect.TypeOf((*AwsDatazoneFormType_ImportsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.ImportsProperty",
+		reflect.TypeOf((*TfFormType_ImportsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.ImportsPropertyList",
-		reflect.TypeOf((*AwsDatazoneFormType_ImportsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.ImportsPropertyList",
+		reflect.TypeOf((*TfFormType_ImportsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1124,14 +1254,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneFormType_ImportsPropertyList{}
+			j := jsiiProxy_TfFormType_ImportsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.ImportsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneFormType_ImportsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.ImportsPropertyOutputReference",
+		reflect.TypeOf((*TfFormType_ImportsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1158,18 +1288,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneFormType_ImportsPropertyOutputReference{}
+			j := jsiiProxy_TfFormType_ImportsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.ModelProperty",
-		reflect.TypeOf((*AwsDatazoneFormType_ModelProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.ModelProperty",
+		reflect.TypeOf((*TfFormType_ModelProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.ModelPropertyList",
-		reflect.TypeOf((*AwsDatazoneFormType_ModelPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.ModelPropertyList",
+		reflect.TypeOf((*TfFormType_ModelPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1184,14 +1314,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneFormType_ModelPropertyList{}
+			j := jsiiProxy_TfFormType_ModelPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.ModelPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneFormType_ModelPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.ModelPropertyOutputReference",
+		reflect.TypeOf((*TfFormType_ModelPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1218,18 +1348,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneFormType_ModelPropertyOutputReference{}
+			j := jsiiProxy_TfFormType_ModelPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneFormType_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.TimeoutsProperty",
+		reflect.TypeOf((*TfFormType_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneFormType.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneFormType_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormType.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfFormType_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1257,18 +1387,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneFormType_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfFormType_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneFormTypeConfig",
-		reflect.TypeOf((*AwsDatazoneFormTypeConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfFormTypeConfig",
+		reflect.TypeOf((*TfFormTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneGlossary",
-		reflect.TypeOf((*AwsDatazoneGlossary)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossary",
+		reflect.TypeOf((*TfGlossary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1332,18 +1462,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneGlossary{}
+			j := jsiiProxy_TfGlossary{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryConfig",
-		reflect.TypeOf((*AwsDatazoneGlossaryConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryConfig",
+		reflect.TypeOf((*TfGlossaryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTerm",
-		reflect.TypeOf((*AwsDatazoneGlossaryTerm)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTerm",
+		reflect.TypeOf((*TfGlossaryTerm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1421,18 +1551,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneGlossaryTerm{}
+			j := jsiiProxy_TfGlossaryTerm{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTerm.TermRelationsProperty",
-		reflect.TypeOf((*AwsDatazoneGlossaryTerm_TermRelationsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTerm.TermRelationsProperty",
+		reflect.TypeOf((*TfGlossaryTerm_TermRelationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTerm.TermRelationsPropertyList",
-		reflect.TypeOf((*AwsDatazoneGlossaryTerm_TermRelationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTerm.TermRelationsPropertyList",
+		reflect.TypeOf((*TfGlossaryTerm_TermRelationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1447,14 +1577,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneGlossaryTerm_TermRelationsPropertyList{}
+			j := jsiiProxy_TfGlossaryTerm_TermRelationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTerm.TermRelationsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneGlossaryTerm_TermRelationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTerm.TermRelationsPropertyOutputReference",
+		reflect.TypeOf((*TfGlossaryTerm_TermRelationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "classifies", GoGetter: "Classifies"},
 			_jsii_.MemberProperty{JsiiProperty: "classifiesInput", GoGetter: "ClassifiesInput"},
@@ -1485,18 +1615,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneGlossaryTerm_TermRelationsPropertyOutputReference{}
+			j := jsiiProxy_TfGlossaryTerm_TermRelationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTerm.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneGlossaryTerm_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTerm.TimeoutsProperty",
+		reflect.TypeOf((*TfGlossaryTerm_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTerm.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneGlossaryTerm_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTerm.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGlossaryTerm_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1524,18 +1654,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneGlossaryTerm_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGlossaryTerm_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneGlossaryTermConfig",
-		reflect.TypeOf((*AwsDatazoneGlossaryTermConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfGlossaryTermConfig",
+		reflect.TypeOf((*TfGlossaryTermConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneProject",
-		reflect.TypeOf((*AwsDatazoneProject)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProject",
+		reflect.TypeOf((*TfProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1609,18 +1739,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneProject{}
+			j := jsiiProxy_TfProject{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneProject.FailureReasonsProperty",
-		reflect.TypeOf((*AwsDatazoneProject_FailureReasonsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProject.FailureReasonsProperty",
+		reflect.TypeOf((*TfProject_FailureReasonsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneProject.FailureReasonsPropertyList",
-		reflect.TypeOf((*AwsDatazoneProject_FailureReasonsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProject.FailureReasonsPropertyList",
+		reflect.TypeOf((*TfProject_FailureReasonsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1634,14 +1764,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneProject_FailureReasonsPropertyList{}
+			j := jsiiProxy_TfProject_FailureReasonsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneProject.FailureReasonsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneProject_FailureReasonsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProject.FailureReasonsPropertyOutputReference",
+		reflect.TypeOf((*TfProject_FailureReasonsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1668,18 +1798,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneProject_FailureReasonsPropertyOutputReference{}
+			j := jsiiProxy_TfProject_FailureReasonsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneProject.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneProject_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProject.TimeoutsProperty",
+		reflect.TypeOf((*TfProject_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneProject.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneProject_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProject.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfProject_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1710,18 +1840,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneProject_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfProject_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneProjectConfig",
-		reflect.TypeOf((*AwsDatazoneProjectConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfProjectConfig",
+		reflect.TypeOf((*TfProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile",
-		reflect.TypeOf((*AwsDatazoneUserProfile)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile",
+		reflect.TypeOf((*TfUserProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1789,18 +1919,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile{}
+			j := jsiiProxy_TfUserProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.DetailsProperty",
-		reflect.TypeOf((*AwsDatazoneUserProfile_DetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.DetailsProperty",
+		reflect.TypeOf((*TfUserProfile_DetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.DetailsPropertyList",
-		reflect.TypeOf((*AwsDatazoneUserProfile_DetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.DetailsPropertyList",
+		reflect.TypeOf((*TfUserProfile_DetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1814,14 +1944,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_DetailsPropertyList{}
+			j := jsiiProxy_TfUserProfile_DetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.DetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneUserProfile_DetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.DetailsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_DetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1848,18 +1978,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_DetailsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_DetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.IamProperty",
-		reflect.TypeOf((*AwsDatazoneUserProfile_IamProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.IamProperty",
+		reflect.TypeOf((*TfUserProfile_IamProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.IamPropertyList",
-		reflect.TypeOf((*AwsDatazoneUserProfile_IamPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.IamPropertyList",
+		reflect.TypeOf((*TfUserProfile_IamPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1873,14 +2003,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_IamPropertyList{}
+			j := jsiiProxy_TfUserProfile_IamPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.IamPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneUserProfile_IamPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.IamPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_IamPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1906,18 +2036,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_IamPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_IamPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.SsoProperty",
-		reflect.TypeOf((*AwsDatazoneUserProfile_SsoProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.SsoProperty",
+		reflect.TypeOf((*TfUserProfile_SsoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.SsoPropertyList",
-		reflect.TypeOf((*AwsDatazoneUserProfile_SsoPropertyList)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.SsoPropertyList",
+		reflect.TypeOf((*TfUserProfile_SsoPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1931,14 +2061,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_SsoPropertyList{}
+			j := jsiiProxy_TfUserProfile_SsoPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.SsoPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneUserProfile_SsoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.SsoPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_SsoPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1966,18 +2096,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userName", GoGetter: "UserName"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_SsoPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_SsoPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatazoneUserProfile_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.TimeoutsProperty",
+		reflect.TypeOf((*TfUserProfile_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfile.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatazoneUserProfile_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfile.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfUserProfile_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2008,143 +2138,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatazoneUserProfile_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfUserProfile_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.AwsDatazoneUserProfileConfig",
-		reflect.TypeOf((*AwsDatazoneUserProfileConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.DataAwsDatazoneDomain",
-		reflect.TypeOf((*DataAwsDatazoneDomain)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "createdAt", GoGetter: "CreatedAt"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "domainVersion", GoGetter: "DomainVersion"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lastUpdatedAt", GoGetter: "LastUpdatedAt"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "managedAccountId", GoGetter: "ManagedAccountId"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "portalUrl", GoGetter: "PortalUrl"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "rootDomainUnitId", GoGetter: "RootDomainUnitId"},
-			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsDatazoneDomain{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.DataAwsDatazoneDomainConfig",
-		reflect.TypeOf((*DataAwsDatazoneDomainConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-datazone.DataAwsDatazoneEnvironmentBlueprint",
-		reflect.TypeOf((*DataAwsDatazoneEnvironmentBlueprint)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "blueprintProvider", GoGetter: "BlueprintProvider"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "domainId", GoGetter: "DomainId"},
-			_jsii_.MemberProperty{JsiiProperty: "domainIdInput", GoGetter: "DomainIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "managed", GoGetter: "Managed"},
-			_jsii_.MemberProperty{JsiiProperty: "managedInput", GoGetter: "ManagedInput"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsDatazoneEnvironmentBlueprint{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-datazone.DataAwsDatazoneEnvironmentBlueprintConfig",
-		reflect.TypeOf((*DataAwsDatazoneEnvironmentBlueprintConfig)(nil)).Elem(),
+		"@cdktn/aws-datazone.TfUserProfileConfig",
+		reflect.TypeOf((*TfUserProfileConfig)(nil)).Elem(),
 	)
 }

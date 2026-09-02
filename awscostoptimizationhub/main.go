@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cost-optimization-hub.AwsCostoptimizationhubEnrollmentStatus",
-		reflect.TypeOf((*AwsCostoptimizationhubEnrollmentStatus)(nil)).Elem(),
+		"@cdktn/aws-cost-optimization-hub.TfEnrollmentStatus",
+		reflect.TypeOf((*TfEnrollmentStatus)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -63,18 +63,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCostoptimizationhubEnrollmentStatus{}
+			j := jsiiProxy_TfEnrollmentStatus{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cost-optimization-hub.AwsCostoptimizationhubEnrollmentStatusConfig",
-		reflect.TypeOf((*AwsCostoptimizationhubEnrollmentStatusConfig)(nil)).Elem(),
+		"@cdktn/aws-cost-optimization-hub.TfEnrollmentStatusConfig",
+		reflect.TypeOf((*TfEnrollmentStatusConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cost-optimization-hub.AwsCostoptimizationhubPreferences",
-		reflect.TypeOf((*AwsCostoptimizationhubPreferences)(nil)).Elem(),
+		"@cdktn/aws-cost-optimization-hub.TfPreferences",
+		reflect.TypeOf((*TfPreferences)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -129,13 +129,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCostoptimizationhubPreferences{}
+			j := jsiiProxy_TfPreferences{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cost-optimization-hub.AwsCostoptimizationhubPreferencesConfig",
-		reflect.TypeOf((*AwsCostoptimizationhubPreferencesConfig)(nil)).Elem(),
+		"@cdktn/aws-cost-optimization-hub.TfPreferencesConfig",
+		reflect.TypeOf((*TfPreferencesConfig)(nil)).Elem(),
 	)
 }

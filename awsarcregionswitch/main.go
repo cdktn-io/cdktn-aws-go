@@ -9,8 +9,192 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan",
-		reflect.TypeOf((*AwsArcregionswitchPlan)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.DataTfPlan",
+		reflect.TypeOf((*DataTfPlan)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
+			_jsii_.MemberProperty{JsiiProperty: "executionRole", GoGetter: "ExecutionRole"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "owner", GoGetter: "Owner"},
+			_jsii_.MemberProperty{JsiiProperty: "primaryRegion", GoGetter: "PrimaryRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "recoveryApproach", GoGetter: "RecoveryApproach"},
+			_jsii_.MemberProperty{JsiiProperty: "recoveryTimeObjectiveMinutes", GoGetter: "RecoveryTimeObjectiveMinutes"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "regions", GoGetter: "Regions"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "updatedAt", GoGetter: "UpdatedAt"},
+			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfPlan{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-arc-region-switch.DataTfPlanConfig",
+		reflect.TypeOf((*DataTfPlanConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-arc-region-switch.DataTfRoute53HealthChecks",
+		reflect.TypeOf((*DataTfRoute53HealthChecks)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "healthChecks", GoGetter: "HealthChecks"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "planArn", GoGetter: "PlanArn"},
+			_jsii_.MemberProperty{JsiiProperty: "planArnInput", GoGetter: "PlanArnInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfRoute53HealthChecks{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-arc-region-switch.DataTfRoute53HealthChecks.HealthChecksProperty",
+		reflect.TypeOf((*DataTfRoute53HealthChecks_HealthChecksProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-arc-region-switch.DataTfRoute53HealthChecks.HealthChecksPropertyList",
+		reflect.TypeOf((*DataTfRoute53HealthChecks_HealthChecksPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfRoute53HealthChecks_HealthChecksPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-arc-region-switch.DataTfRoute53HealthChecks.HealthChecksPropertyOutputReference",
+		reflect.TypeOf((*DataTfRoute53HealthChecks_HealthChecksPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "healthCheckId", GoGetter: "HealthCheckId"},
+			_jsii_.MemberProperty{JsiiProperty: "hostedZoneId", GoGetter: "HostedZoneId"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "recordName", GoGetter: "RecordName"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfRoute53HealthChecks_HealthChecksPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-arc-region-switch.DataTfRoute53HealthChecksConfig",
+		reflect.TypeOf((*DataTfRoute53HealthChecksConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-arc-region-switch.TfPlan",
+		reflect.TypeOf((*TfPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -103,18 +287,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workflowInput", GoGetter: "WorkflowInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan{}
+			j := jsiiProxy_TfPlan{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.AssociatedAlarmsProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_AssociatedAlarmsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.AssociatedAlarmsProperty",
+		reflect.TypeOf((*TfPlan_AssociatedAlarmsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.AssociatedAlarmsPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_AssociatedAlarmsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.AssociatedAlarmsPropertyList",
+		reflect.TypeOf((*TfPlan_AssociatedAlarmsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -129,14 +313,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_AssociatedAlarmsPropertyList{}
+			j := jsiiProxy_TfPlan_AssociatedAlarmsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.AssociatedAlarmsPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_AssociatedAlarmsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.AssociatedAlarmsPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_AssociatedAlarmsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmType", GoGetter: "AlarmType"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmTypeInput", GoGetter: "AlarmTypeInput"},
@@ -173,18 +357,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_AssociatedAlarmsPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_AssociatedAlarmsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ConditionsProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ConditionsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ConditionsProperty",
+		reflect.TypeOf((*TfPlan_ConditionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ConditionsPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ConditionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ConditionsPropertyList",
+		reflect.TypeOf((*TfPlan_ConditionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -199,14 +383,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ConditionsPropertyList{}
+			j := jsiiProxy_TfPlan_ConditionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ConditionsPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ConditionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ConditionsPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_ConditionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "associatedAlarmName", GoGetter: "AssociatedAlarmName"},
 			_jsii_.MemberProperty{JsiiProperty: "associatedAlarmNameInput", GoGetter: "AssociatedAlarmNameInput"},
@@ -235,18 +419,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ConditionsPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_ConditionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ParallelConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ParallelConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ParallelConfigProperty",
+		reflect.TypeOf((*TfPlan_ParallelConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ParallelConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ParallelConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ParallelConfigPropertyList",
+		reflect.TypeOf((*TfPlan_ParallelConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -261,14 +445,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ParallelConfigPropertyList{}
+			j := jsiiProxy_TfPlan_ParallelConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ParallelConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ParallelConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ParallelConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_ParallelConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -297,18 +481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ParallelConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_ParallelConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ReportConfigurationProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ReportConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ReportConfigurationProperty",
+		reflect.TypeOf((*TfPlan_ReportConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ReportConfigurationPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ReportConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ReportConfigurationPropertyList",
+		reflect.TypeOf((*TfPlan_ReportConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -323,14 +507,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ReportConfigurationPropertyList{}
+			j := jsiiProxy_TfPlan_ReportConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ReportConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ReportConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ReportConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_ReportConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -359,18 +543,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ReportConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_ReportConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ReportOutputProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ReportOutputProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ReportOutputProperty",
+		reflect.TypeOf((*TfPlan_ReportOutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ReportOutputPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ReportOutputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ReportOutputPropertyList",
+		reflect.TypeOf((*TfPlan_ReportOutputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -385,14 +569,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ReportOutputPropertyList{}
+			j := jsiiProxy_TfPlan_ReportOutputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.ReportOutputPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_ReportOutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.ReportOutputPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_ReportOutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -421,18 +605,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_ReportOutputPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_ReportOutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.S3ConfigurationProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_S3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.S3ConfigurationProperty",
+		reflect.TypeOf((*TfPlan_S3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.S3ConfigurationPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_S3ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.S3ConfigurationPropertyList",
+		reflect.TypeOf((*TfPlan_S3ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -447,14 +631,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_S3ConfigurationPropertyList{}
+			j := jsiiProxy_TfPlan_S3ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.S3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.S3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwner", GoGetter: "BucketOwner"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketOwnerInput", GoGetter: "BucketOwnerInput"},
@@ -483,18 +667,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_S3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_S3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.TimeoutsProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.TimeoutsProperty",
+		reflect.TypeOf((*TfPlan_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -528,18 +712,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.TriggersProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_TriggersProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.TriggersProperty",
+		reflect.TypeOf((*TfPlan_TriggersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.TriggersPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_TriggersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.TriggersPropertyList",
+		reflect.TypeOf((*TfPlan_TriggersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -554,14 +738,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_TriggersPropertyList{}
+			j := jsiiProxy_TfPlan_TriggersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.TriggersPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_TriggersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.TriggersPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_TriggersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -599,18 +783,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_TriggersPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_TriggersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowProperty",
+		reflect.TypeOf((*TfPlan_WorkflowProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -625,14 +809,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -669,18 +853,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workflowTargetRegionInput", GoGetter: "WorkflowTargetRegionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -695,14 +879,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepArcRoutingControlConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -740,18 +924,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepArcRoutingControlConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -766,14 +950,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -804,18 +988,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -830,14 +1014,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -866,18 +1050,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepAuroraProvisionedScalingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepAuroraProvisionedScalingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepAuroraProvisionedScalingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepAuroraProvisionedScalingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepAuroraProvisionedScalingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepAuroraProvisionedScalingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -892,14 +1076,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepAuroraProvisionedScalingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepAuroraProvisionedScalingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -939,18 +1123,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepAuroraProvisionedScalingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepAuroraServerlessScalingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepAuroraServerlessScalingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepAuroraServerlessScalingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepAuroraServerlessScalingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepAuroraServerlessScalingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepAuroraServerlessScalingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepAuroraServerlessScalingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepAuroraServerlessScalingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -965,14 +1149,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepAuroraServerlessScalingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepAuroraServerlessScalingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepAuroraServerlessScalingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepAuroraServerlessScalingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepAuroraServerlessScalingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepAuroraServerlessScalingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1013,18 +1197,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepAuroraServerlessScalingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepAuroraServerlessScalingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigLambdaProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigLambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigLambdaProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigLambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigLambdaPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigLambdaPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1039,14 +1223,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigLambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigLambdaPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -1079,18 +1263,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepCustomActionLambdaConfigLambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1105,14 +1289,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepCustomActionLambdaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1152,18 +1336,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepCustomActionLambdaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1178,14 +1362,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepCustomActionLambdaConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepCustomActionLambdaConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -1212,18 +1396,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepCustomActionLambdaConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepDocumentDbConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepDocumentDbConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepDocumentDbConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepDocumentDbConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepDocumentDbConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepDocumentDbConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1238,14 +1422,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepDocumentDbConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepDocumentDbConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepDocumentDbConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepDocumentDbConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -1289,18 +1473,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepDocumentDbConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepDocumentDbConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepDocumentDbConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepDocumentDbConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepDocumentDbConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepDocumentDbConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepDocumentDbConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1315,14 +1499,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepDocumentDbConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepDocumentDbConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepDocumentDbConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepDocumentDbConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1349,18 +1533,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepDocumentDbConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepDocumentDbConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigAsgProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigAsgProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1375,14 +1559,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -1415,18 +1599,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1441,14 +1625,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asg", GoGetter: "Asg"},
 			_jsii_.MemberProperty{JsiiProperty: "asgInput", GoGetter: "AsgInput"},
@@ -1489,18 +1673,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1515,14 +1699,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1549,18 +1733,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1575,14 +1759,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproach", GoGetter: "CapacityMonitoringApproach"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproachInput", GoGetter: "CapacityMonitoringApproachInput"},
@@ -1623,18 +1807,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEcsCapacityIncreaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigServiceProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigServiceProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigServiceProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigServiceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigServicePropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigServicePropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1649,14 +1833,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigServicePropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigServicePropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterArn", GoGetter: "ClusterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterArnInput", GoGetter: "ClusterArnInput"},
@@ -1691,18 +1875,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEcsCapacityIncreaseConfigServicePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1717,14 +1901,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1751,18 +1935,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigEksClustersProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigEksClustersProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigEksClustersProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigEksClustersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigEksClustersPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigEksClustersPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1777,14 +1961,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigEksClustersPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigEksClustersPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterArn", GoGetter: "ClusterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterArnInput", GoGetter: "ClusterArnInput"},
@@ -1817,18 +2001,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigEksClustersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigKubernetesResourceTypeProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypeProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigKubernetesResourceTypeProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1843,14 +2027,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiVersion", GoGetter: "ApiVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "apiVersionInput", GoGetter: "ApiVersionInput"},
@@ -1879,18 +2063,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1905,14 +2089,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproach", GoGetter: "CapacityMonitoringApproach"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproachInput", GoGetter: "CapacityMonitoringApproachInput"},
@@ -1960,18 +2144,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigScalingResourcesProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigScalingResourcesProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigScalingResourcesPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigScalingResourcesPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1986,14 +2170,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigScalingResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigScalingResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2024,18 +2208,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigScalingResourcesResourcesProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigScalingResourcesResourcesProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2050,14 +2234,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2091,18 +2275,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2117,14 +2301,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepEksResourceScalingConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepEksResourceScalingConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2151,18 +2335,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepEksResourceScalingConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepExecutionApprovalConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepExecutionApprovalConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepExecutionApprovalConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepExecutionApprovalConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepExecutionApprovalConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepExecutionApprovalConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepExecutionApprovalConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepExecutionApprovalConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2177,14 +2361,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepExecutionApprovalConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepExecutionApprovalConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepExecutionApprovalConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepExecutionApprovalConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepExecutionApprovalConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepExecutionApprovalConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approvalRole", GoGetter: "ApprovalRole"},
 			_jsii_.MemberProperty{JsiiProperty: "approvalRoleInput", GoGetter: "ApprovalRoleInput"},
@@ -2214,18 +2398,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepExecutionApprovalConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepExecutionApprovalConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepGlobalAuroraConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepGlobalAuroraConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepGlobalAuroraConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepGlobalAuroraConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepGlobalAuroraConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepGlobalAuroraConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2240,14 +2424,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepGlobalAuroraConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepGlobalAuroraConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepGlobalAuroraConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepGlobalAuroraConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -2291,18 +2475,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepGlobalAuroraConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepGlobalAuroraConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepGlobalAuroraConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepGlobalAuroraConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepGlobalAuroraConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepGlobalAuroraConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2317,14 +2501,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepGlobalAuroraConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepGlobalAuroraConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2351,18 +2535,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepGlobalAuroraConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2377,14 +2561,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -2422,18 +2606,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepLambdaEventSourceMappingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2448,14 +2632,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -2490,18 +2674,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2516,14 +2700,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -2550,18 +2734,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepNeptuneGlobalDatabaseConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepNeptuneGlobalDatabaseConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepNeptuneGlobalDatabaseConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepNeptuneGlobalDatabaseConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2576,14 +2760,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepNeptuneGlobalDatabaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepNeptuneGlobalDatabaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -2627,18 +2811,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepNeptuneGlobalDatabaseConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepNeptuneGlobalDatabaseConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2653,14 +2837,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2687,18 +2871,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2713,14 +2897,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2758,18 +2942,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2784,14 +2968,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2822,18 +3006,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2848,14 +3032,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2884,18 +3068,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2910,14 +3094,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2957,18 +3141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepAuroraProvisionedScalingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepAuroraServerlessScalingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepAuroraServerlessScalingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2983,14 +3167,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3031,18 +3215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepAuroraServerlessScalingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3057,14 +3241,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -3097,18 +3281,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigLambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3123,14 +3307,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3170,18 +3354,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3196,14 +3380,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -3230,18 +3414,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepCustomActionLambdaConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepDocumentDbConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepDocumentDbConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepDocumentDbConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepDocumentDbConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3256,14 +3440,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepDocumentDbConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepDocumentDbConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -3307,18 +3491,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepDocumentDbConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepDocumentDbConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3333,14 +3517,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3367,18 +3551,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepDocumentDbConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3393,14 +3577,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -3433,18 +3617,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigAsgPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3459,14 +3643,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "asg", GoGetter: "Asg"},
 			_jsii_.MemberProperty{JsiiProperty: "asgInput", GoGetter: "AsgInput"},
@@ -3507,18 +3691,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3533,14 +3717,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3567,18 +3751,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEc2AsgCapacityIncreaseConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3593,14 +3777,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproach", GoGetter: "CapacityMonitoringApproach"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproachInput", GoGetter: "CapacityMonitoringApproachInput"},
@@ -3641,18 +3825,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServiceProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServiceProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServiceProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServiceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3667,14 +3851,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterArn", GoGetter: "ClusterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterArnInput", GoGetter: "ClusterArnInput"},
@@ -3709,18 +3893,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigServicePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3735,14 +3919,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3769,18 +3953,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEcsCapacityIncreaseConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3795,14 +3979,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clusterArn", GoGetter: "ClusterArn"},
 			_jsii_.MemberProperty{JsiiProperty: "clusterArnInput", GoGetter: "ClusterArnInput"},
@@ -3835,18 +4019,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigEksClustersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypeProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypeProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypeProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3861,14 +4045,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiVersion", GoGetter: "ApiVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "apiVersionInput", GoGetter: "ApiVersionInput"},
@@ -3897,18 +4081,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigKubernetesResourceTypePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3923,14 +4107,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproach", GoGetter: "CapacityMonitoringApproach"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityMonitoringApproachInput", GoGetter: "CapacityMonitoringApproachInput"},
@@ -3978,18 +4162,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4004,14 +4188,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4042,18 +4226,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4068,14 +4252,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4109,18 +4293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4135,14 +4319,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4169,18 +4353,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepExecutionApprovalConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepExecutionApprovalConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4195,14 +4379,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "approvalRole", GoGetter: "ApprovalRole"},
 			_jsii_.MemberProperty{JsiiProperty: "approvalRoleInput", GoGetter: "ApprovalRoleInput"},
@@ -4232,18 +4416,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepExecutionApprovalConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4258,14 +4442,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -4309,18 +4493,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4335,14 +4519,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4369,18 +4553,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepGlobalAuroraConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4395,14 +4579,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -4440,18 +4624,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4466,14 +4650,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -4508,18 +4692,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigRegionEventSourceMappingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4534,14 +4718,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -4568,18 +4752,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepLambdaEventSourceMappingConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4594,14 +4778,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -4645,18 +4829,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4671,14 +4855,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4705,18 +4889,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ungracefulInput", GoGetter: "UngracefulInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepNeptuneGlobalDatabaseConfigUngracefulPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4731,14 +4915,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arcRoutingControlConfig", GoGetter: "ArcRoutingControlConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "arcRoutingControlConfigInput", GoGetter: "ArcRoutingControlConfigInput"},
@@ -4834,18 +5018,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4860,14 +5044,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4903,18 +5087,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4929,14 +5113,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4972,18 +5156,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRdsPromoteReadReplicaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRegionSwitchPlanConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRegionSwitchPlanConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4998,14 +5182,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -5038,18 +5222,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRegionSwitchPlanConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5064,14 +5248,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5113,18 +5297,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5139,14 +5323,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5175,18 +5359,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5201,14 +5385,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arcRoutingControlConfig", GoGetter: "ArcRoutingControlConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "arcRoutingControlConfigInput", GoGetter: "ArcRoutingControlConfigInput"},
@@ -5308,18 +5492,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRdsCreateCrossRegionReadReplicaConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRdsCreateCrossRegionReadReplicaConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5334,14 +5518,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5377,18 +5561,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepRdsCreateCrossRegionReadReplicaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRdsPromoteReadReplicaConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRdsPromoteReadReplicaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRdsPromoteReadReplicaConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepRdsPromoteReadReplicaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRdsPromoteReadReplicaConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRdsPromoteReadReplicaConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5403,14 +5587,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRdsPromoteReadReplicaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRdsPromoteReadReplicaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5446,18 +5630,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepRdsPromoteReadReplicaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRegionSwitchPlanConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRegionSwitchPlanConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRegionSwitchPlanConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepRegionSwitchPlanConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRegionSwitchPlanConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRegionSwitchPlanConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRegionSwitchPlanConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepRegionSwitchPlanConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5472,14 +5656,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRegionSwitchPlanConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepRegionSwitchPlanConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRegionSwitchPlanConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRegionSwitchPlanConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRegionSwitchPlanConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepRegionSwitchPlanConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -5512,18 +5696,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRegionSwitchPlanConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepRegionSwitchPlanConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRoute53HealthCheckConfigProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRoute53HealthCheckConfigProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepRoute53HealthCheckConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRoute53HealthCheckConfigPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRoute53HealthCheckConfigPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepRoute53HealthCheckConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5538,14 +5722,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepRoute53HealthCheckConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRoute53HealthCheckConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRoute53HealthCheckConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepRoute53HealthCheckConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5587,18 +5771,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepRoute53HealthCheckConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRoute53HealthCheckConfigRecordSetProperty",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigRecordSetProperty)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRoute53HealthCheckConfigRecordSetProperty",
+		reflect.TypeOf((*TfPlan_WorkflowStepRoute53HealthCheckConfigRecordSetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRoute53HealthCheckConfigRecordSetPropertyList",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRoute53HealthCheckConfigRecordSetPropertyList",
+		reflect.TypeOf((*TfPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5613,14 +5797,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyList{}
+			j := jsiiProxy_TfPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlan.WorkflowStepRoute53HealthCheckConfigRecordSetPropertyOutputReference",
-		reflect.TypeOf((*AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlan.WorkflowStepRoute53HealthCheckConfigRecordSetPropertyOutputReference",
+		reflect.TypeOf((*TfPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5649,197 +5833,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsArcregionswitchPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyOutputReference{}
+			j := jsiiProxy_TfPlan_WorkflowStepRoute53HealthCheckConfigRecordSetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.AwsArcregionswitchPlanConfig",
-		reflect.TypeOf((*AwsArcregionswitchPlanConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchPlan",
-		reflect.TypeOf((*DataAwsArcregionswitchPlan)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "description", GoGetter: "Description"},
-			_jsii_.MemberProperty{JsiiProperty: "executionRole", GoGetter: "ExecutionRole"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "owner", GoGetter: "Owner"},
-			_jsii_.MemberProperty{JsiiProperty: "primaryRegion", GoGetter: "PrimaryRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "recoveryApproach", GoGetter: "RecoveryApproach"},
-			_jsii_.MemberProperty{JsiiProperty: "recoveryTimeObjectiveMinutes", GoGetter: "RecoveryTimeObjectiveMinutes"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "regions", GoGetter: "Regions"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "updatedAt", GoGetter: "UpdatedAt"},
-			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsArcregionswitchPlan{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchPlanConfig",
-		reflect.TypeOf((*DataAwsArcregionswitchPlanConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchRoute53HealthChecks",
-		reflect.TypeOf((*DataAwsArcregionswitchRoute53HealthChecks)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "healthChecks", GoGetter: "HealthChecks"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "planArn", GoGetter: "PlanArn"},
-			_jsii_.MemberProperty{JsiiProperty: "planArnInput", GoGetter: "PlanArnInput"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsArcregionswitchRoute53HealthChecks{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchRoute53HealthChecks.HealthChecksProperty",
-		reflect.TypeOf((*DataAwsArcregionswitchRoute53HealthChecks_HealthChecksProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchRoute53HealthChecks.HealthChecksPropertyList",
-		reflect.TypeOf((*DataAwsArcregionswitchRoute53HealthChecks_HealthChecksPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsArcregionswitchRoute53HealthChecks_HealthChecksPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchRoute53HealthChecks.HealthChecksPropertyOutputReference",
-		reflect.TypeOf((*DataAwsArcregionswitchRoute53HealthChecks_HealthChecksPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "healthCheckId", GoGetter: "HealthCheckId"},
-			_jsii_.MemberProperty{JsiiProperty: "hostedZoneId", GoGetter: "HostedZoneId"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "recordName", GoGetter: "RecordName"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsArcregionswitchRoute53HealthChecks_HealthChecksPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-arc-region-switch.DataAwsArcregionswitchRoute53HealthChecksConfig",
-		reflect.TypeOf((*DataAwsArcregionswitchRoute53HealthChecksConfig)(nil)).Elem(),
+		"@cdktn/aws-arc-region-switch.TfPlanConfig",
+		reflect.TypeOf((*TfPlanConfig)(nil)).Elem(),
 	)
 }

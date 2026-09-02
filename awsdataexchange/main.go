@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeDataSet",
-		reflect.TypeOf((*AwsDataexchangeDataSet)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfDataSet",
+		reflect.TypeOf((*TfDataSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -77,18 +77,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeDataSet{}
+			j := jsiiProxy_TfDataSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeDataSetConfig",
-		reflect.TypeOf((*AwsDataexchangeDataSetConfig)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfDataSetConfig",
+		reflect.TypeOf((*TfDataSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction",
-		reflect.TypeOf((*AwsDataexchangeEventAction)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction",
+		reflect.TypeOf((*TfEventAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -151,18 +151,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction{}
+			j := jsiiProxy_TfEventAction{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.ActionProperty",
-		reflect.TypeOf((*AwsDataexchangeEventAction_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.ActionProperty",
+		reflect.TypeOf((*TfEventAction_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.ActionPropertyList",
-		reflect.TypeOf((*AwsDataexchangeEventAction_ActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.ActionPropertyList",
+		reflect.TypeOf((*TfEventAction_ActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -177,14 +177,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_ActionPropertyList{}
+			j := jsiiProxy_TfEventAction_ActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeEventAction_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfEventAction_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -213,18 +213,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfEventAction_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.EncryptionProperty",
-		reflect.TypeOf((*AwsDataexchangeEventAction_EncryptionProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.EncryptionProperty",
+		reflect.TypeOf((*TfEventAction_EncryptionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.EncryptionPropertyList",
-		reflect.TypeOf((*AwsDataexchangeEventAction_EncryptionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.EncryptionPropertyList",
+		reflect.TypeOf((*TfEventAction_EncryptionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -239,14 +239,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_EncryptionPropertyList{}
+			j := jsiiProxy_TfEventAction_EncryptionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.EncryptionPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeEventAction_EncryptionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.EncryptionPropertyOutputReference",
+		reflect.TypeOf((*TfEventAction_EncryptionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -277,18 +277,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_EncryptionPropertyOutputReference{}
+			j := jsiiProxy_TfEventAction_EncryptionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.EventProperty",
-		reflect.TypeOf((*AwsDataexchangeEventAction_EventProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.EventProperty",
+		reflect.TypeOf((*TfEventAction_EventProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.EventPropertyList",
-		reflect.TypeOf((*AwsDataexchangeEventAction_EventPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.EventPropertyList",
+		reflect.TypeOf((*TfEventAction_EventPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -303,14 +303,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_EventPropertyList{}
+			j := jsiiProxy_TfEventAction_EventPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.EventPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeEventAction_EventPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.EventPropertyOutputReference",
+		reflect.TypeOf((*TfEventAction_EventPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -339,18 +339,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_EventPropertyOutputReference{}
+			j := jsiiProxy_TfEventAction_EventPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.ExportRevisionToS3Property",
-		reflect.TypeOf((*AwsDataexchangeEventAction_ExportRevisionToS3Property)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.ExportRevisionToS3Property",
+		reflect.TypeOf((*TfEventAction_ExportRevisionToS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.ExportRevisionToS3PropertyList",
-		reflect.TypeOf((*AwsDataexchangeEventAction_ExportRevisionToS3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.ExportRevisionToS3PropertyList",
+		reflect.TypeOf((*TfEventAction_ExportRevisionToS3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -365,14 +365,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_ExportRevisionToS3PropertyList{}
+			j := jsiiProxy_TfEventAction_ExportRevisionToS3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.ExportRevisionToS3PropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeEventAction_ExportRevisionToS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.ExportRevisionToS3PropertyOutputReference",
+		reflect.TypeOf((*TfEventAction_ExportRevisionToS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -405,18 +405,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_ExportRevisionToS3PropertyOutputReference{}
+			j := jsiiProxy_TfEventAction_ExportRevisionToS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.RevisionDestinationProperty",
-		reflect.TypeOf((*AwsDataexchangeEventAction_RevisionDestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.RevisionDestinationProperty",
+		reflect.TypeOf((*TfEventAction_RevisionDestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.RevisionDestinationPropertyList",
-		reflect.TypeOf((*AwsDataexchangeEventAction_RevisionDestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.RevisionDestinationPropertyList",
+		reflect.TypeOf((*TfEventAction_RevisionDestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -431,14 +431,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_RevisionDestinationPropertyList{}
+			j := jsiiProxy_TfEventAction_RevisionDestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.RevisionDestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeEventAction_RevisionDestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.RevisionDestinationPropertyOutputReference",
+		reflect.TypeOf((*TfEventAction_RevisionDestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -468,18 +468,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_RevisionDestinationPropertyOutputReference{}
+			j := jsiiProxy_TfEventAction_RevisionDestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.RevisionPublishedProperty",
-		reflect.TypeOf((*AwsDataexchangeEventAction_RevisionPublishedProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.RevisionPublishedProperty",
+		reflect.TypeOf((*TfEventAction_RevisionPublishedProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.RevisionPublishedPropertyList",
-		reflect.TypeOf((*AwsDataexchangeEventAction_RevisionPublishedPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.RevisionPublishedPropertyList",
+		reflect.TypeOf((*TfEventAction_RevisionPublishedPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -494,14 +494,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_RevisionPublishedPropertyList{}
+			j := jsiiProxy_TfEventAction_RevisionPublishedPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventAction.RevisionPublishedPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeEventAction_RevisionPublishedPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventAction.RevisionPublishedPropertyOutputReference",
+		reflect.TypeOf((*TfEventAction_RevisionPublishedPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -528,18 +528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeEventAction_RevisionPublishedPropertyOutputReference{}
+			j := jsiiProxy_TfEventAction_RevisionPublishedPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeEventActionConfig",
-		reflect.TypeOf((*AwsDataexchangeEventActionConfig)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfEventActionConfig",
+		reflect.TypeOf((*TfEventActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevision",
-		reflect.TypeOf((*AwsDataexchangeRevision)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevision",
+		reflect.TypeOf((*TfRevision)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -606,14 +606,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevision{}
+			j := jsiiProxy_TfRevision{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets",
+		reflect.TypeOf((*TfRevisionAssets)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -691,18 +691,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets{}
+			j := jsiiProxy_TfRevisionAssets{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetCreateS3DataAccessFromS3BucketAssetSourceProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetCreateS3DataAccessFromS3BucketAssetSourceProperty",
+		reflect.TypeOf((*TfRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyList",
+		reflect.TypeOf((*TfRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -717,14 +717,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyList{}
+			j := jsiiProxy_TfRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -761,18 +761,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_AssetCreateS3DataAccessFromS3BucketAssetSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetImportAssetsFromS3AssetSourceProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetImportAssetsFromS3AssetSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetImportAssetsFromS3AssetSourceProperty",
+		reflect.TypeOf((*TfRevisionAssets_AssetImportAssetsFromS3AssetSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetImportAssetsFromS3AssetSourcePropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetImportAssetsFromS3AssetSourcePropertyList",
+		reflect.TypeOf((*TfRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -787,14 +787,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyList{}
+			j := jsiiProxy_TfRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetImportAssetsFromS3AssetSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetImportAssetsFromS3AssetSourcePropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -823,18 +823,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_AssetImportAssetsFromS3AssetSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetProperty",
+		reflect.TypeOf((*TfRevisionAssets_AssetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetPropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetPropertyList",
+		reflect.TypeOf((*TfRevisionAssets_AssetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -849,14 +849,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_AssetPropertyList{}
+			j := jsiiProxy_TfRevisionAssets_AssetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.AssetPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_AssetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.AssetPropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_AssetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -898,18 +898,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updatedAt", GoGetter: "UpdatedAt"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_AssetPropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_AssetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.CreateS3DataAccessFromS3BucketProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_CreateS3DataAccessFromS3BucketProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.CreateS3DataAccessFromS3BucketProperty",
+		reflect.TypeOf((*TfRevisionAssets_CreateS3DataAccessFromS3BucketProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.CreateS3DataAccessFromS3BucketPropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_CreateS3DataAccessFromS3BucketPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.CreateS3DataAccessFromS3BucketPropertyList",
+		reflect.TypeOf((*TfRevisionAssets_CreateS3DataAccessFromS3BucketPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -924,14 +924,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_CreateS3DataAccessFromS3BucketPropertyList{}
+			j := jsiiProxy_TfRevisionAssets_CreateS3DataAccessFromS3BucketPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.CreateS3DataAccessFromS3BucketPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_CreateS3DataAccessFromS3BucketPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.CreateS3DataAccessFromS3BucketPropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_CreateS3DataAccessFromS3BucketPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointAlias", GoGetter: "AccessPointAlias"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
@@ -962,18 +962,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_CreateS3DataAccessFromS3BucketPropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_CreateS3DataAccessFromS3BucketPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.ImportAssetsFromS3Property",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_ImportAssetsFromS3Property)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.ImportAssetsFromS3Property",
+		reflect.TypeOf((*TfRevisionAssets_ImportAssetsFromS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.ImportAssetsFromS3PropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_ImportAssetsFromS3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.ImportAssetsFromS3PropertyList",
+		reflect.TypeOf((*TfRevisionAssets_ImportAssetsFromS3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -988,14 +988,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_ImportAssetsFromS3PropertyList{}
+			j := jsiiProxy_TfRevisionAssets_ImportAssetsFromS3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.ImportAssetsFromS3PropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_ImportAssetsFromS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.ImportAssetsFromS3PropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_ImportAssetsFromS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assetSource", GoGetter: "AssetSource"},
 			_jsii_.MemberProperty{JsiiProperty: "assetSourceInput", GoGetter: "AssetSourceInput"},
@@ -1024,18 +1024,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_ImportAssetsFromS3PropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_ImportAssetsFromS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.ImportAssetsFromSignedUrlProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_ImportAssetsFromSignedUrlProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.ImportAssetsFromSignedUrlProperty",
+		reflect.TypeOf((*TfRevisionAssets_ImportAssetsFromSignedUrlProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.ImportAssetsFromSignedUrlPropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_ImportAssetsFromSignedUrlPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.ImportAssetsFromSignedUrlPropertyList",
+		reflect.TypeOf((*TfRevisionAssets_ImportAssetsFromSignedUrlPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1050,14 +1050,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_ImportAssetsFromSignedUrlPropertyList{}
+			j := jsiiProxy_TfRevisionAssets_ImportAssetsFromSignedUrlPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.ImportAssetsFromSignedUrlPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_ImportAssetsFromSignedUrlPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.ImportAssetsFromSignedUrlPropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_ImportAssetsFromSignedUrlPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1084,18 +1084,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_ImportAssetsFromSignedUrlPropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_ImportAssetsFromSignedUrlPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.KmsKeysToGrantProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_KmsKeysToGrantProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.KmsKeysToGrantProperty",
+		reflect.TypeOf((*TfRevisionAssets_KmsKeysToGrantProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.KmsKeysToGrantPropertyList",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_KmsKeysToGrantPropertyList)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.KmsKeysToGrantPropertyList",
+		reflect.TypeOf((*TfRevisionAssets_KmsKeysToGrantPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1110,14 +1110,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_KmsKeysToGrantPropertyList{}
+			j := jsiiProxy_TfRevisionAssets_KmsKeysToGrantPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.KmsKeysToGrantPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_KmsKeysToGrantPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.KmsKeysToGrantPropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_KmsKeysToGrantPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1144,18 +1144,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_KmsKeysToGrantPropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_KmsKeysToGrantPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.TimeoutsProperty",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.TimeoutsProperty",
+		reflect.TypeOf((*TfRevisionAssets_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssets.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssets_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssets.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRevisionAssets_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1183,17 +1183,17 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDataexchangeRevisionAssets_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRevisionAssets_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionAssetsConfig",
-		reflect.TypeOf((*AwsDataexchangeRevisionAssetsConfig)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionAssetsConfig",
+		reflect.TypeOf((*TfRevisionAssetsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-data-exchange.AwsDataexchangeRevisionConfig",
-		reflect.TypeOf((*AwsDataexchangeRevisionConfig)(nil)).Elem(),
+		"@cdktn/aws-data-exchange.TfRevisionConfig",
+		reflect.TypeOf((*TfRevisionConfig)(nil)).Elem(),
 	)
 }

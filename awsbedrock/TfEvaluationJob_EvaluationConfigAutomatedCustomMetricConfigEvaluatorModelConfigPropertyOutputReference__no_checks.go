@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsbedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validatePutBedrockEvaluatorModelParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfEvaluationJob_EvaluationConfigAutomatedCustomMetricConfigEvaluatorModelConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

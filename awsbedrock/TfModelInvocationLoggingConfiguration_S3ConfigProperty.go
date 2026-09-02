@@ -1,0 +1,13 @@
+package awsbedrock
+
+
+// Experimental.
+type TfModelInvocationLoggingConfiguration_S3ConfigProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_model_invocation_logging_configuration#bucket_name TfModelInvocationLoggingConfiguration#bucket_name}.
+	// Experimental.
+	BucketName *string `field:"required" json:"bucketName" yaml:"bucketName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrock_model_invocation_logging_configuration#key_prefix TfModelInvocationLoggingConfiguration#key_prefix}.
+	// Experimental.
+	KeyPrefix *string `field:"optional" json:"keyPrefix" yaml:"keyPrefix"`
+}
+

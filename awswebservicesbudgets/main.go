@@ -9,8 +9,631 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget",
-		reflect.TypeOf((*AwsBudgetsBudget)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.DataTfBudget",
+		reflect.TypeOf((*DataTfBudget)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
+			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "autoAdjustData", GoGetter: "AutoAdjustData"},
+			_jsii_.MemberProperty{JsiiProperty: "billingViewArn", GoGetter: "BillingViewArn"},
+			_jsii_.MemberProperty{JsiiProperty: "budgetExceeded", GoGetter: "BudgetExceeded"},
+			_jsii_.MemberProperty{JsiiProperty: "budgetLimit", GoGetter: "BudgetLimit"},
+			_jsii_.MemberProperty{JsiiProperty: "budgetType", GoGetter: "BudgetType"},
+			_jsii_.MemberProperty{JsiiProperty: "calculatedSpend", GoGetter: "CalculatedSpend"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "costFilter", GoGetter: "CostFilter"},
+			_jsii_.MemberProperty{JsiiProperty: "costTypes", GoGetter: "CostTypes"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "namePrefix", GoGetter: "NamePrefix"},
+			_jsii_.MemberProperty{JsiiProperty: "namePrefixInput", GoGetter: "NamePrefixInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberProperty{JsiiProperty: "notification", GoGetter: "Notification"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "plannedLimit", GoGetter: "PlannedLimit"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetAccountId", GoMethod: "ResetAccountId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetNamePrefix", GoMethod: "ResetNamePrefix"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberProperty{JsiiProperty: "timePeriodEnd", GoGetter: "TimePeriodEnd"},
+			_jsii_.MemberProperty{JsiiProperty: "timePeriodStart", GoGetter: "TimePeriodStart"},
+			_jsii_.MemberProperty{JsiiProperty: "timeUnit", GoGetter: "TimeUnit"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.ActualSpendProperty",
+		reflect.TypeOf((*DataTfBudget_ActualSpendProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.ActualSpendPropertyList",
+		reflect.TypeOf((*DataTfBudget_ActualSpendPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_ActualSpendPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.ActualSpendPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_ActualSpendPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_ActualSpendPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.AutoAdjustDataProperty",
+		reflect.TypeOf((*DataTfBudget_AutoAdjustDataProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.AutoAdjustDataPropertyList",
+		reflect.TypeOf((*DataTfBudget_AutoAdjustDataPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_AutoAdjustDataPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.AutoAdjustDataPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_AutoAdjustDataPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "autoAdjustType", GoGetter: "AutoAdjustType"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "historicalOptions", GoGetter: "HistoricalOptions"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lastAutoAdjustTime", GoGetter: "LastAutoAdjustTime"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_AutoAdjustDataPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.BudgetLimitProperty",
+		reflect.TypeOf((*DataTfBudget_BudgetLimitProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.BudgetLimitPropertyList",
+		reflect.TypeOf((*DataTfBudget_BudgetLimitPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_BudgetLimitPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.BudgetLimitPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_BudgetLimitPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_BudgetLimitPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CalculatedSpendProperty",
+		reflect.TypeOf((*DataTfBudget_CalculatedSpendProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CalculatedSpendPropertyList",
+		reflect.TypeOf((*DataTfBudget_CalculatedSpendPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_CalculatedSpendPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CalculatedSpendPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_CalculatedSpendPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "actualSpend", GoGetter: "ActualSpend"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_CalculatedSpendPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CostFilterProperty",
+		reflect.TypeOf((*DataTfBudget_CostFilterProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CostFilterPropertyList",
+		reflect.TypeOf((*DataTfBudget_CostFilterPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_CostFilterPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CostFilterPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_CostFilterPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "values", GoGetter: "Values"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_CostFilterPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CostTypesProperty",
+		reflect.TypeOf((*DataTfBudget_CostTypesProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CostTypesPropertyList",
+		reflect.TypeOf((*DataTfBudget_CostTypesPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_CostTypesPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.CostTypesPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_CostTypesPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "includeCredit", GoGetter: "IncludeCredit"},
+			_jsii_.MemberProperty{JsiiProperty: "includeDiscount", GoGetter: "IncludeDiscount"},
+			_jsii_.MemberProperty{JsiiProperty: "includeOtherSubscription", GoGetter: "IncludeOtherSubscription"},
+			_jsii_.MemberProperty{JsiiProperty: "includeRecurring", GoGetter: "IncludeRecurring"},
+			_jsii_.MemberProperty{JsiiProperty: "includeRefund", GoGetter: "IncludeRefund"},
+			_jsii_.MemberProperty{JsiiProperty: "includeSubscription", GoGetter: "IncludeSubscription"},
+			_jsii_.MemberProperty{JsiiProperty: "includeSupport", GoGetter: "IncludeSupport"},
+			_jsii_.MemberProperty{JsiiProperty: "includeTax", GoGetter: "IncludeTax"},
+			_jsii_.MemberProperty{JsiiProperty: "includeUpfront", GoGetter: "IncludeUpfront"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "useAmortized", GoGetter: "UseAmortized"},
+			_jsii_.MemberProperty{JsiiProperty: "useBlended", GoGetter: "UseBlended"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_CostTypesPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.HistoricalOptionsProperty",
+		reflect.TypeOf((*DataTfBudget_HistoricalOptionsProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.HistoricalOptionsPropertyList",
+		reflect.TypeOf((*DataTfBudget_HistoricalOptionsPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_HistoricalOptionsPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.HistoricalOptionsPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_HistoricalOptionsPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "budgetAdjustmentPeriod", GoGetter: "BudgetAdjustmentPeriod"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lookbackAvailablePeriods", GoGetter: "LookbackAvailablePeriods"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_HistoricalOptionsPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.NotificationProperty",
+		reflect.TypeOf((*DataTfBudget_NotificationProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.NotificationPropertyList",
+		reflect.TypeOf((*DataTfBudget_NotificationPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_NotificationPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.NotificationPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_NotificationPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "comparisonOperator", GoGetter: "ComparisonOperator"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "notificationType", GoGetter: "NotificationType"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "subscriberEmailAddresses", GoGetter: "SubscriberEmailAddresses"},
+			_jsii_.MemberProperty{JsiiProperty: "subscriberSnsTopicArns", GoGetter: "SubscriberSnsTopicArns"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberProperty{JsiiProperty: "threshold", GoGetter: "Threshold"},
+			_jsii_.MemberProperty{JsiiProperty: "thresholdType", GoGetter: "ThresholdType"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_NotificationPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.PlannedLimitProperty",
+		reflect.TypeOf((*DataTfBudget_PlannedLimitProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.PlannedLimitPropertyList",
+		reflect.TypeOf((*DataTfBudget_PlannedLimitPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_PlannedLimitPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.DataTfBudget.PlannedLimitPropertyOutputReference",
+		reflect.TypeOf((*DataTfBudget_PlannedLimitPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "startTime", GoGetter: "StartTime"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfBudget_PlannedLimitPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-web-services-budgets.DataTfBudgetConfig",
+		reflect.TypeOf((*DataTfBudgetConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-web-services-budgets.TfBudget",
+		reflect.TypeOf((*TfBudget)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -123,18 +746,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget{}
+			j := jsiiProxy_TfBudget{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.AutoAdjustDataProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_AutoAdjustDataProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.AutoAdjustDataProperty",
+		reflect.TypeOf((*TfBudget_AutoAdjustDataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.AutoAdjustDataPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_AutoAdjustDataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.AutoAdjustDataPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_AutoAdjustDataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoAdjustType", GoGetter: "AutoAdjustType"},
 			_jsii_.MemberProperty{JsiiProperty: "autoAdjustTypeInput", GoGetter: "AutoAdjustTypeInput"},
@@ -166,18 +789,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_AutoAdjustDataPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_AutoAdjustDataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.CostFilterProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_CostFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.CostFilterProperty",
+		reflect.TypeOf((*TfBudget_CostFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.CostFilterPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_CostFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.CostFilterPropertyList",
+		reflect.TypeOf((*TfBudget_CostFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -192,14 +815,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_CostFilterPropertyList{}
+			j := jsiiProxy_TfBudget_CostFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.CostFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_CostFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.CostFilterPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_CostFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -228,18 +851,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_CostFilterPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_CostFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.CostTypesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_CostTypesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.CostTypesProperty",
+		reflect.TypeOf((*TfBudget_CostTypesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.CostTypesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_CostTypesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.CostTypesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_CostTypesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -297,18 +920,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useBlendedInput", GoGetter: "UseBlendedInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_CostTypesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_CostTypesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -342,18 +965,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndAndCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndAndCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -385,18 +1008,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndAndDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndAndDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -411,14 +1034,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndAndPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -455,18 +1078,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndAndPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndAndTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndAndTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndAndTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndAndTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -500,18 +1123,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndAndTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndAndTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -545,18 +1168,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -588,18 +1211,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -633,18 +1256,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndNotCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndNotCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -676,18 +1299,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndNotDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndNotDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -724,18 +1347,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndNotPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndNotPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndNotTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndNotTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndNotTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndNotTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -769,18 +1392,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndNotTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndNotTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -814,18 +1437,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndOrCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndOrCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -857,18 +1480,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndOrDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndOrDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -883,14 +1506,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndOrPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndOrPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -927,18 +1550,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndOrPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndOrPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndOrTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndOrTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndOrTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndOrTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -972,18 +1595,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndOrTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndOrTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -998,14 +1621,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -1054,18 +1677,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionAndTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionAndTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionAndTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionAndTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1099,18 +1722,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionAndTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionAndTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1144,18 +1767,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1187,18 +1810,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1232,18 +1855,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotAndCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotAndCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1275,18 +1898,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotAndDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotAndDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1301,14 +1924,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotAndPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1345,18 +1968,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotAndPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotAndTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotAndTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotAndTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotAndTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1390,18 +2013,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotAndTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotAndTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1435,18 +2058,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1478,18 +2101,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1523,18 +2146,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotNotCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotNotCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1566,18 +2189,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotNotDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotNotDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1614,18 +2237,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotNotPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotNotPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotNotTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotNotTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotNotTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotNotTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1659,18 +2282,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotNotTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotNotTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1704,18 +2327,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotOrCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotOrCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1747,18 +2370,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotOrDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotOrDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1773,14 +2396,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotOrPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotOrPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1817,18 +2440,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotOrPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotOrPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotOrTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotOrTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotOrTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotOrTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1862,18 +2485,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotOrTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotOrTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -1922,18 +2545,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionNotTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionNotTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionNotTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionNotTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1967,18 +2590,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionNotTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionNotTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2012,18 +2635,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrAndCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrAndCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2055,18 +2678,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrAndDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrAndDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2081,14 +2704,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrAndPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrAndPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2125,18 +2748,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrAndPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrAndPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrAndTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrAndTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrAndTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrAndTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2170,18 +2793,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrAndTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrAndTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2215,18 +2838,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2258,18 +2881,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2303,18 +2926,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrNotCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrNotCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2346,18 +2969,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrNotDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrNotDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2394,18 +3017,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrNotPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrNotPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrNotTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrNotTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrNotTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrNotTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2439,18 +3062,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrNotTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrNotTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrCostCategoriesProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrCostCategoriesProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrCostCategoriesProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrCostCategoriesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrCostCategoriesPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrCostCategoriesPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrCostCategoriesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2484,18 +3107,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrOrCostCategoriesPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrOrCostCategoriesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrDimensionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrDimensionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrDimensionsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrDimensionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrDimensionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrDimensionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrDimensionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrDimensionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2527,18 +3150,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrOrDimensionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrOrDimensionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2553,14 +3176,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrOrPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrOrPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2597,18 +3220,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrOrPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrOrPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrOrTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrOrTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrOrTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrOrTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2642,18 +3265,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrOrTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrOrTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrPropertyList",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2668,14 +3291,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrPropertyList{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -2724,18 +3347,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionOrTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionOrTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionOrTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionOrTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2769,18 +3392,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionOrTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionOrTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "and", GoGetter: "And"},
 			_jsii_.MemberProperty{JsiiProperty: "andInput", GoGetter: "AndInput"},
@@ -2829,18 +3452,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionTagsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionTagsProperty",
+		reflect.TypeOf((*TfBudget_FilterExpressionTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.FilterExpressionTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_FilterExpressionTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.FilterExpressionTagsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_FilterExpressionTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2874,18 +3497,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_FilterExpressionTagsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_FilterExpressionTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.HistoricalOptionsProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_HistoricalOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.HistoricalOptionsProperty",
+		reflect.TypeOf((*TfBudget_HistoricalOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.HistoricalOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_HistoricalOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.HistoricalOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_HistoricalOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "budgetAdjustmentPeriod", GoGetter: "BudgetAdjustmentPeriod"},
 			_jsii_.MemberProperty{JsiiProperty: "budgetAdjustmentPeriodInput", GoGetter: "BudgetAdjustmentPeriodInput"},
@@ -2913,18 +3536,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_HistoricalOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_HistoricalOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.NotificationProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_NotificationProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.NotificationProperty",
+		reflect.TypeOf((*TfBudget_NotificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.NotificationPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_NotificationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.NotificationPropertyList",
+		reflect.TypeOf((*TfBudget_NotificationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2939,14 +3562,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_NotificationPropertyList{}
+			j := jsiiProxy_TfBudget_NotificationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.NotificationPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_NotificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.NotificationPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_NotificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparisonOperator", GoGetter: "ComparisonOperator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparisonOperatorInput", GoGetter: "ComparisonOperatorInput"},
@@ -2985,18 +3608,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_NotificationPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_NotificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.PlannedLimitProperty",
-		reflect.TypeOf((*AwsBudgetsBudget_PlannedLimitProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.PlannedLimitProperty",
+		reflect.TypeOf((*TfBudget_PlannedLimitProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.PlannedLimitPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudget_PlannedLimitPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.PlannedLimitPropertyList",
+		reflect.TypeOf((*TfBudget_PlannedLimitPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3011,14 +3634,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_PlannedLimitPropertyList{}
+			j := jsiiProxy_TfBudget_PlannedLimitPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudget.PlannedLimitPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudget_PlannedLimitPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudget.PlannedLimitPropertyOutputReference",
+		reflect.TypeOf((*TfBudget_PlannedLimitPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
 			_jsii_.MemberProperty{JsiiProperty: "amountInput", GoGetter: "AmountInput"},
@@ -3049,14 +3672,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unitInput", GoGetter: "UnitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudget_PlannedLimitPropertyOutputReference{}
+			j := jsiiProxy_TfBudget_PlannedLimitPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction",
-		reflect.TypeOf((*AwsBudgetsBudgetAction)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction",
+		reflect.TypeOf((*TfBudgetAction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -3142,18 +3765,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction{}
+			j := jsiiProxy_TfBudgetAction{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.ActionThresholdProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_ActionThresholdProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.ActionThresholdProperty",
+		reflect.TypeOf((*TfBudgetAction_ActionThresholdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.ActionThresholdPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_ActionThresholdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.ActionThresholdPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_ActionThresholdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionThresholdType", GoGetter: "ActionThresholdType"},
 			_jsii_.MemberProperty{JsiiProperty: "actionThresholdTypeInput", GoGetter: "ActionThresholdTypeInput"},
@@ -3182,18 +3805,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_ActionThresholdPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_ActionThresholdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.DefinitionProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_DefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.DefinitionProperty",
+		reflect.TypeOf((*TfBudgetAction_DefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.DefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_DefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.DefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_DefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3230,18 +3853,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_DefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_DefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.IamActionDefinitionProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_IamActionDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.IamActionDefinitionProperty",
+		reflect.TypeOf((*TfBudgetAction_IamActionDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.IamActionDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_IamActionDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.IamActionDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_IamActionDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3277,18 +3900,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usersInput", GoGetter: "UsersInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_IamActionDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_IamActionDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.ScpActionDefinitionProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_ScpActionDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.ScpActionDefinitionProperty",
+		reflect.TypeOf((*TfBudgetAction_ScpActionDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.ScpActionDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_ScpActionDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.ScpActionDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_ScpActionDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3317,18 +3940,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_ScpActionDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_ScpActionDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.SsmActionDefinitionProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_SsmActionDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.SsmActionDefinitionProperty",
+		reflect.TypeOf((*TfBudgetAction_SsmActionDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.SsmActionDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_SsmActionDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.SsmActionDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_SsmActionDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionSubType", GoGetter: "ActionSubType"},
 			_jsii_.MemberProperty{JsiiProperty: "actionSubTypeInput", GoGetter: "ActionSubTypeInput"},
@@ -3359,18 +3982,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_SsmActionDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_SsmActionDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.SubscriberProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_SubscriberProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.SubscriberProperty",
+		reflect.TypeOf((*TfBudgetAction_SubscriberProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.SubscriberPropertyList",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_SubscriberPropertyList)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.SubscriberPropertyList",
+		reflect.TypeOf((*TfBudgetAction_SubscriberPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3385,14 +4008,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_SubscriberPropertyList{}
+			j := jsiiProxy_TfBudgetAction_SubscriberPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.SubscriberPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_SubscriberPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.SubscriberPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_SubscriberPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
 			_jsii_.MemberProperty{JsiiProperty: "addressInput", GoGetter: "AddressInput"},
@@ -3421,18 +4044,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_SubscriberPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_SubscriberPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.TimeoutsProperty",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.TimeoutsProperty",
+		reflect.TypeOf((*TfBudgetAction_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetAction.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBudgetsBudgetAction_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetAction.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfBudgetAction_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3466,640 +4089,17 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBudgetsBudgetAction_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfBudgetAction_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetActionConfig",
-		reflect.TypeOf((*AwsBudgetsBudgetActionConfig)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetActionConfig",
+		reflect.TypeOf((*TfBudgetActionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.AwsBudgetsBudgetConfig",
-		reflect.TypeOf((*AwsBudgetsBudgetConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget",
-		reflect.TypeOf((*DataAwsBudgetsBudget)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
-			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "autoAdjustData", GoGetter: "AutoAdjustData"},
-			_jsii_.MemberProperty{JsiiProperty: "billingViewArn", GoGetter: "BillingViewArn"},
-			_jsii_.MemberProperty{JsiiProperty: "budgetExceeded", GoGetter: "BudgetExceeded"},
-			_jsii_.MemberProperty{JsiiProperty: "budgetLimit", GoGetter: "BudgetLimit"},
-			_jsii_.MemberProperty{JsiiProperty: "budgetType", GoGetter: "BudgetType"},
-			_jsii_.MemberProperty{JsiiProperty: "calculatedSpend", GoGetter: "CalculatedSpend"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "costFilter", GoGetter: "CostFilter"},
-			_jsii_.MemberProperty{JsiiProperty: "costTypes", GoGetter: "CostTypes"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "namePrefix", GoGetter: "NamePrefix"},
-			_jsii_.MemberProperty{JsiiProperty: "namePrefixInput", GoGetter: "NamePrefixInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberProperty{JsiiProperty: "notification", GoGetter: "Notification"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "plannedLimit", GoGetter: "PlannedLimit"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetAccountId", GoMethod: "ResetAccountId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetNamePrefix", GoMethod: "ResetNamePrefix"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberProperty{JsiiProperty: "timePeriodEnd", GoGetter: "TimePeriodEnd"},
-			_jsii_.MemberProperty{JsiiProperty: "timePeriodStart", GoGetter: "TimePeriodStart"},
-			_jsii_.MemberProperty{JsiiProperty: "timeUnit", GoGetter: "TimeUnit"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.ActualSpendProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_ActualSpendProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.ActualSpendPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_ActualSpendPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_ActualSpendPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.ActualSpendPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_ActualSpendPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_ActualSpendPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.AutoAdjustDataProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_AutoAdjustDataProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.AutoAdjustDataPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_AutoAdjustDataPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_AutoAdjustDataPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.AutoAdjustDataPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_AutoAdjustDataPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "autoAdjustType", GoGetter: "AutoAdjustType"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "historicalOptions", GoGetter: "HistoricalOptions"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lastAutoAdjustTime", GoGetter: "LastAutoAdjustTime"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_AutoAdjustDataPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.BudgetLimitProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_BudgetLimitProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.BudgetLimitPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_BudgetLimitPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_BudgetLimitPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.BudgetLimitPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_BudgetLimitPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_BudgetLimitPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CalculatedSpendProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CalculatedSpendProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CalculatedSpendPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CalculatedSpendPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_CalculatedSpendPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CalculatedSpendPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CalculatedSpendPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "actualSpend", GoGetter: "ActualSpend"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_CalculatedSpendPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CostFilterProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CostFilterProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CostFilterPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CostFilterPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_CostFilterPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CostFilterPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CostFilterPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "values", GoGetter: "Values"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_CostFilterPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CostTypesProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CostTypesProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CostTypesPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CostTypesPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_CostTypesPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.CostTypesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_CostTypesPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "includeCredit", GoGetter: "IncludeCredit"},
-			_jsii_.MemberProperty{JsiiProperty: "includeDiscount", GoGetter: "IncludeDiscount"},
-			_jsii_.MemberProperty{JsiiProperty: "includeOtherSubscription", GoGetter: "IncludeOtherSubscription"},
-			_jsii_.MemberProperty{JsiiProperty: "includeRecurring", GoGetter: "IncludeRecurring"},
-			_jsii_.MemberProperty{JsiiProperty: "includeRefund", GoGetter: "IncludeRefund"},
-			_jsii_.MemberProperty{JsiiProperty: "includeSubscription", GoGetter: "IncludeSubscription"},
-			_jsii_.MemberProperty{JsiiProperty: "includeSupport", GoGetter: "IncludeSupport"},
-			_jsii_.MemberProperty{JsiiProperty: "includeTax", GoGetter: "IncludeTax"},
-			_jsii_.MemberProperty{JsiiProperty: "includeUpfront", GoGetter: "IncludeUpfront"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "useAmortized", GoGetter: "UseAmortized"},
-			_jsii_.MemberProperty{JsiiProperty: "useBlended", GoGetter: "UseBlended"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_CostTypesPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.HistoricalOptionsProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_HistoricalOptionsProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.HistoricalOptionsPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_HistoricalOptionsPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_HistoricalOptionsPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.HistoricalOptionsPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_HistoricalOptionsPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "budgetAdjustmentPeriod", GoGetter: "BudgetAdjustmentPeriod"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lookbackAvailablePeriods", GoGetter: "LookbackAvailablePeriods"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_HistoricalOptionsPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.NotificationProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_NotificationProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.NotificationPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_NotificationPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_NotificationPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.NotificationPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_NotificationPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "comparisonOperator", GoGetter: "ComparisonOperator"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "notificationType", GoGetter: "NotificationType"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "subscriberEmailAddresses", GoGetter: "SubscriberEmailAddresses"},
-			_jsii_.MemberProperty{JsiiProperty: "subscriberSnsTopicArns", GoGetter: "SubscriberSnsTopicArns"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberProperty{JsiiProperty: "threshold", GoGetter: "Threshold"},
-			_jsii_.MemberProperty{JsiiProperty: "thresholdType", GoGetter: "ThresholdType"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_NotificationPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.PlannedLimitProperty",
-		reflect.TypeOf((*DataAwsBudgetsBudget_PlannedLimitProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.PlannedLimitPropertyList",
-		reflect.TypeOf((*DataAwsBudgetsBudget_PlannedLimitPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_PlannedLimitPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudget.PlannedLimitPropertyOutputReference",
-		reflect.TypeOf((*DataAwsBudgetsBudget_PlannedLimitPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "amount", GoGetter: "Amount"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "startTime", GoGetter: "StartTime"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "unit", GoGetter: "Unit"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsBudgetsBudget_PlannedLimitPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-web-services-budgets.DataAwsBudgetsBudgetConfig",
-		reflect.TypeOf((*DataAwsBudgetsBudgetConfig)(nil)).Elem(),
+		"@cdktn/aws-web-services-budgets.TfBudgetConfig",
+		reflect.TypeOf((*TfBudgetConfig)(nil)).Elem(),
 	)
 }

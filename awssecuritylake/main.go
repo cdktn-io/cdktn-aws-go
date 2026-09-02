@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeAwsLogSource",
-		reflect.TypeOf((*AwsSecuritylakeAwsLogSource)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfAwsLogSource",
+		reflect.TypeOf((*TfAwsLogSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,18 +66,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeAwsLogSource{}
+			j := jsiiProxy_TfAwsLogSource{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeAwsLogSource.SourceProperty",
-		reflect.TypeOf((*AwsSecuritylakeAwsLogSource_SourceProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfAwsLogSource.SourceProperty",
+		reflect.TypeOf((*TfAwsLogSource_SourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeAwsLogSource.SourcePropertyList",
-		reflect.TypeOf((*AwsSecuritylakeAwsLogSource_SourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfAwsLogSource.SourcePropertyList",
+		reflect.TypeOf((*TfAwsLogSource_SourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -92,14 +92,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeAwsLogSource_SourcePropertyList{}
+			j := jsiiProxy_TfAwsLogSource_SourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeAwsLogSource.SourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeAwsLogSource_SourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfAwsLogSource.SourcePropertyOutputReference",
+		reflect.TypeOf((*TfAwsLogSource_SourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accounts", GoGetter: "Accounts"},
 			_jsii_.MemberProperty{JsiiProperty: "accountsInput", GoGetter: "AccountsInput"},
@@ -134,18 +134,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeAwsLogSource_SourcePropertyOutputReference{}
+			j := jsiiProxy_TfAwsLogSource_SourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeAwsLogSourceConfig",
-		reflect.TypeOf((*AwsSecuritylakeAwsLogSourceConfig)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfAwsLogSourceConfig",
+		reflect.TypeOf((*TfAwsLogSourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource",
+		reflect.TypeOf((*TfCustomLogSource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -211,18 +211,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource{}
+			j := jsiiProxy_TfCustomLogSource{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.AttributesProperty",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_AttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.AttributesProperty",
+		reflect.TypeOf((*TfCustomLogSource_AttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.AttributesPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_AttributesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.AttributesPropertyList",
+		reflect.TypeOf((*TfCustomLogSource_AttributesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -236,14 +236,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_AttributesPropertyList{}
+			j := jsiiProxy_TfCustomLogSource_AttributesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.AttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_AttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.AttributesPropertyOutputReference",
+		reflect.TypeOf((*TfCustomLogSource_AttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -271,18 +271,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_AttributesPropertyOutputReference{}
+			j := jsiiProxy_TfCustomLogSource_AttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ConfigurationProperty",
+		reflect.TypeOf((*TfCustomLogSource_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ConfigurationPropertyList",
+		reflect.TypeOf((*TfCustomLogSource_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -297,14 +297,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_ConfigurationPropertyList{}
+			j := jsiiProxy_TfCustomLogSource_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCustomLogSource_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -337,18 +337,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCustomLogSource_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.CrawlerConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_CrawlerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.CrawlerConfigurationProperty",
+		reflect.TypeOf((*TfCustomLogSource_CrawlerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.CrawlerConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_CrawlerConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.CrawlerConfigurationPropertyList",
+		reflect.TypeOf((*TfCustomLogSource_CrawlerConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -363,14 +363,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_CrawlerConfigurationPropertyList{}
+			j := jsiiProxy_TfCustomLogSource_CrawlerConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.CrawlerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_CrawlerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.CrawlerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCustomLogSource_CrawlerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -397,18 +397,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_CrawlerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCustomLogSource_CrawlerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ProviderDetailsProperty",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ProviderDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ProviderDetailsProperty",
+		reflect.TypeOf((*TfCustomLogSource_ProviderDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ProviderDetailsPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ProviderDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ProviderDetailsPropertyList",
+		reflect.TypeOf((*TfCustomLogSource_ProviderDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -422,14 +422,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_ProviderDetailsPropertyList{}
+			j := jsiiProxy_TfCustomLogSource_ProviderDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ProviderDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ProviderDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ProviderDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfCustomLogSource_ProviderDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -456,18 +456,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_ProviderDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfCustomLogSource_ProviderDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ProviderIdentityProperty",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ProviderIdentityProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ProviderIdentityProperty",
+		reflect.TypeOf((*TfCustomLogSource_ProviderIdentityProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ProviderIdentityPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ProviderIdentityPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ProviderIdentityPropertyList",
+		reflect.TypeOf((*TfCustomLogSource_ProviderIdentityPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -482,14 +482,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_ProviderIdentityPropertyList{}
+			j := jsiiProxy_TfCustomLogSource_ProviderIdentityPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSource.ProviderIdentityPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSource_ProviderIdentityPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSource.ProviderIdentityPropertyOutputReference",
+		reflect.TypeOf((*TfCustomLogSource_ProviderIdentityPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -518,18 +518,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeCustomLogSource_ProviderIdentityPropertyOutputReference{}
+			j := jsiiProxy_TfCustomLogSource_ProviderIdentityPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeCustomLogSourceConfig",
-		reflect.TypeOf((*AwsSecuritylakeCustomLogSourceConfig)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfCustomLogSourceConfig",
+		reflect.TypeOf((*TfCustomLogSourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake",
-		reflect.TypeOf((*AwsSecuritylakeDataLake)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake",
+		reflect.TypeOf((*TfDataLake)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -597,18 +597,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake{}
+			j := jsiiProxy_TfDataLake{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ConfigurationProperty",
+		reflect.TypeOf((*TfDataLake_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ConfigurationPropertyList",
+		reflect.TypeOf((*TfDataLake_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -623,14 +623,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_ConfigurationPropertyList{}
+			j := jsiiProxy_TfDataLake_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -669,18 +669,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfDataLake_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.EncryptionConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_EncryptionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.EncryptionConfigurationPropertyList",
+		reflect.TypeOf((*TfDataLake_EncryptionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -695,14 +695,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_EncryptionConfigurationPropertyList{}
+			j := jsiiProxy_TfDataLake_EncryptionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -730,18 +730,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ExpirationProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ExpirationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ExpirationProperty",
+		reflect.TypeOf((*TfDataLake_ExpirationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ExpirationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ExpirationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ExpirationPropertyList",
+		reflect.TypeOf((*TfDataLake_ExpirationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -756,14 +756,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_ExpirationPropertyList{}
+			j := jsiiProxy_TfDataLake_ExpirationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ExpirationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ExpirationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ExpirationPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_ExpirationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -791,18 +791,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_ExpirationPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_ExpirationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.LifecycleConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_LifecycleConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.LifecycleConfigurationProperty",
+		reflect.TypeOf((*TfDataLake_LifecycleConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.LifecycleConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_LifecycleConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.LifecycleConfigurationPropertyList",
+		reflect.TypeOf((*TfDataLake_LifecycleConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -817,14 +817,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_LifecycleConfigurationPropertyList{}
+			j := jsiiProxy_TfDataLake_LifecycleConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.LifecycleConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_LifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.LifecycleConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_LifecycleConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -857,18 +857,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "transitionInput", GoGetter: "TransitionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_LifecycleConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_LifecycleConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ReplicationConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ReplicationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ReplicationConfigurationProperty",
+		reflect.TypeOf((*TfDataLake_ReplicationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ReplicationConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ReplicationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ReplicationConfigurationPropertyList",
+		reflect.TypeOf((*TfDataLake_ReplicationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -883,14 +883,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_ReplicationConfigurationPropertyList{}
+			j := jsiiProxy_TfDataLake_ReplicationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.ReplicationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_ReplicationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.ReplicationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_ReplicationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -921,18 +921,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_ReplicationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_ReplicationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.TimeoutsProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.TimeoutsProperty",
+		reflect.TypeOf((*TfDataLake_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -966,18 +966,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.TransitionProperty",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_TransitionProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.TransitionProperty",
+		reflect.TypeOf((*TfDataLake_TransitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.TransitionPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_TransitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.TransitionPropertyList",
+		reflect.TypeOf((*TfDataLake_TransitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -992,14 +992,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_TransitionPropertyList{}
+			j := jsiiProxy_TfDataLake_TransitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLake.TransitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeDataLake_TransitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLake.TransitionPropertyOutputReference",
+		reflect.TypeOf((*TfDataLake_TransitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1030,18 +1030,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeDataLake_TransitionPropertyOutputReference{}
+			j := jsiiProxy_TfDataLake_TransitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeDataLakeConfig",
-		reflect.TypeOf((*AwsSecuritylakeDataLakeConfig)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfDataLakeConfig",
+		reflect.TypeOf((*TfDataLakeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber",
+		reflect.TypeOf((*TfSubscriber)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessType", GoGetter: "AccessType"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTypeInput", GoGetter: "AccessTypeInput"},
@@ -1125,18 +1125,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber{}
+			j := jsiiProxy_TfSubscriber{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.AttributesProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_AttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.AttributesProperty",
+		reflect.TypeOf((*TfSubscriber_AttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.AttributesPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_AttributesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.AttributesPropertyList",
+		reflect.TypeOf((*TfSubscriber_AttributesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1150,14 +1150,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_AttributesPropertyList{}
+			j := jsiiProxy_TfSubscriber_AttributesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.AttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_AttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.AttributesPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_AttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1185,18 +1185,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_AttributesPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_AttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.AwsLogSourceResourceProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_AwsLogSourceResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.AwsLogSourceResourceProperty",
+		reflect.TypeOf((*TfSubscriber_AwsLogSourceResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.AwsLogSourceResourcePropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_AwsLogSourceResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.AwsLogSourceResourcePropertyList",
+		reflect.TypeOf((*TfSubscriber_AwsLogSourceResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1211,14 +1211,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_AwsLogSourceResourcePropertyList{}
+			j := jsiiProxy_TfSubscriber_AwsLogSourceResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.AwsLogSourceResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_AwsLogSourceResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.AwsLogSourceResourcePropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_AwsLogSourceResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1248,18 +1248,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_AwsLogSourceResourcePropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_AwsLogSourceResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.CustomLogSourceResourceProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_CustomLogSourceResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.CustomLogSourceResourceProperty",
+		reflect.TypeOf((*TfSubscriber_CustomLogSourceResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.CustomLogSourceResourcePropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_CustomLogSourceResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.CustomLogSourceResourcePropertyList",
+		reflect.TypeOf((*TfSubscriber_CustomLogSourceResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1274,14 +1274,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_CustomLogSourceResourcePropertyList{}
+			j := jsiiProxy_TfSubscriber_CustomLogSourceResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.CustomLogSourceResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_CustomLogSourceResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.CustomLogSourceResourcePropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_CustomLogSourceResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributes", GoGetter: "Attributes"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1313,18 +1313,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_CustomLogSourceResourcePropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_CustomLogSourceResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.ProviderProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_ProviderProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.ProviderProperty",
+		reflect.TypeOf((*TfSubscriber_ProviderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.ProviderPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_ProviderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.ProviderPropertyList",
+		reflect.TypeOf((*TfSubscriber_ProviderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1338,14 +1338,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_ProviderPropertyList{}
+			j := jsiiProxy_TfSubscriber_ProviderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.ProviderPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_ProviderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.ProviderPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_ProviderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1372,18 +1372,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_ProviderPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_ProviderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.SourceProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_SourceProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.SourceProperty",
+		reflect.TypeOf((*TfSubscriber_SourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.SourcePropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_SourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.SourcePropertyList",
+		reflect.TypeOf((*TfSubscriber_SourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1398,14 +1398,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_SourcePropertyList{}
+			j := jsiiProxy_TfSubscriber_SourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.SourcePropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_SourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.SourcePropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_SourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsLogSourceResource", GoGetter: "AwsLogSourceResource"},
 			_jsii_.MemberProperty{JsiiProperty: "awsLogSourceResourceInput", GoGetter: "AwsLogSourceResourceInput"},
@@ -1438,18 +1438,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_SourcePropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_SourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.SubscriberIdentityProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_SubscriberIdentityProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.SubscriberIdentityProperty",
+		reflect.TypeOf((*TfSubscriber_SubscriberIdentityProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.SubscriberIdentityPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_SubscriberIdentityPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.SubscriberIdentityPropertyList",
+		reflect.TypeOf((*TfSubscriber_SubscriberIdentityPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1464,14 +1464,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_SubscriberIdentityPropertyList{}
+			j := jsiiProxy_TfSubscriber_SubscriberIdentityPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.SubscriberIdentityPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_SubscriberIdentityPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.SubscriberIdentityPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_SubscriberIdentityPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1500,18 +1500,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_SubscriberIdentityPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_SubscriberIdentityPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.TimeoutsProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.TimeoutsProperty",
+		reflect.TypeOf((*TfSubscriber_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriber.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriber_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriber.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriber_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1545,18 +1545,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriber_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriber_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberConfig",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberConfig)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberConfig",
+		reflect.TypeOf((*TfSubscriberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification",
+		reflect.TypeOf((*TfSubscriberNotification)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1616,18 +1616,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification{}
+			j := jsiiProxy_TfSubscriberNotification{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.ConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.ConfigurationProperty",
+		reflect.TypeOf((*TfSubscriberNotification_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.ConfigurationPropertyList",
+		reflect.TypeOf((*TfSubscriberNotification_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1642,14 +1642,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification_ConfigurationPropertyList{}
+			j := jsiiProxy_TfSubscriberNotification_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriberNotification_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1682,18 +1682,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriberNotification_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.HttpsNotificationConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_HttpsNotificationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.HttpsNotificationConfigurationProperty",
+		reflect.TypeOf((*TfSubscriberNotification_HttpsNotificationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.HttpsNotificationConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_HttpsNotificationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.HttpsNotificationConfigurationPropertyList",
+		reflect.TypeOf((*TfSubscriberNotification_HttpsNotificationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1708,14 +1708,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification_HttpsNotificationConfigurationPropertyList{}
+			j := jsiiProxy_TfSubscriberNotification_HttpsNotificationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.HttpsNotificationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_HttpsNotificationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.HttpsNotificationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriberNotification_HttpsNotificationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationApiKeyName", GoGetter: "AuthorizationApiKeyName"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationApiKeyNameInput", GoGetter: "AuthorizationApiKeyNameInput"},
@@ -1753,18 +1753,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification_HttpsNotificationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriberNotification_HttpsNotificationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.SqsNotificationConfigurationProperty",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_SqsNotificationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.SqsNotificationConfigurationProperty",
+		reflect.TypeOf((*TfSubscriberNotification_SqsNotificationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.SqsNotificationConfigurationPropertyList",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_SqsNotificationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.SqsNotificationConfigurationPropertyList",
+		reflect.TypeOf((*TfSubscriberNotification_SqsNotificationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1779,14 +1779,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification_SqsNotificationConfigurationPropertyList{}
+			j := jsiiProxy_TfSubscriberNotification_SqsNotificationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotification.SqsNotificationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotification_SqsNotificationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotification.SqsNotificationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfSubscriberNotification_SqsNotificationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1811,13 +1811,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSecuritylakeSubscriberNotification_SqsNotificationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfSubscriberNotification_SqsNotificationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-security-lake.AwsSecuritylakeSubscriberNotificationConfig",
-		reflect.TypeOf((*AwsSecuritylakeSubscriberNotificationConfig)(nil)).Elem(),
+		"@cdktn/aws-security-lake.TfSubscriberNotificationConfig",
+		reflect.TypeOf((*TfSubscriberNotificationConfig)(nil)).Elem(),
 	)
 }

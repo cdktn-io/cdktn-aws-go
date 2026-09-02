@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain",
-		reflect.TypeOf((*AwsCloudsearchDomain)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -89,18 +89,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.EndpointOptionsProperty",
-		reflect.TypeOf((*AwsCloudsearchDomain_EndpointOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.EndpointOptionsProperty",
+		reflect.TypeOf((*TfDomain_EndpointOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.EndpointOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudsearchDomain_EndpointOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.EndpointOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_EndpointOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -131,18 +131,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomain_EndpointOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_EndpointOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.IndexFieldProperty",
-		reflect.TypeOf((*AwsCloudsearchDomain_IndexFieldProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.IndexFieldProperty",
+		reflect.TypeOf((*TfDomain_IndexFieldProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.IndexFieldPropertyList",
-		reflect.TypeOf((*AwsCloudsearchDomain_IndexFieldPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.IndexFieldPropertyList",
+		reflect.TypeOf((*TfDomain_IndexFieldPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -157,14 +157,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomain_IndexFieldPropertyList{}
+			j := jsiiProxy_TfDomain_IndexFieldPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.IndexFieldPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudsearchDomain_IndexFieldPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.IndexFieldPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_IndexFieldPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysisScheme", GoGetter: "AnalysisScheme"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisSchemeInput", GoGetter: "AnalysisSchemeInput"},
@@ -217,18 +217,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomain_IndexFieldPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_IndexFieldPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.ScalingParametersProperty",
-		reflect.TypeOf((*AwsCloudsearchDomain_ScalingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.ScalingParametersProperty",
+		reflect.TypeOf((*TfDomain_ScalingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.ScalingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudsearchDomain_ScalingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.ScalingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_ScalingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -262,18 +262,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomain_ScalingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_ScalingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.TimeoutsProperty",
-		reflect.TypeOf((*AwsCloudsearchDomain_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.TimeoutsProperty",
+		reflect.TypeOf((*TfDomain_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomain.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudsearchDomain_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomain.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -307,18 +307,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomain_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomainConfig",
-		reflect.TypeOf((*AwsCloudsearchDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomainServiceAccessPolicy",
-		reflect.TypeOf((*AwsCloudsearchDomainServiceAccessPolicy)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomainServiceAccessPolicy",
+		reflect.TypeOf((*TfDomainServiceAccessPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicy", GoGetter: "AccessPolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPolicyInput", GoGetter: "AccessPolicyInput"},
@@ -380,18 +380,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomainServiceAccessPolicy{}
+			j := jsiiProxy_TfDomainServiceAccessPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomainServiceAccessPolicy.TimeoutsProperty",
-		reflect.TypeOf((*AwsCloudsearchDomainServiceAccessPolicy_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomainServiceAccessPolicy.TimeoutsProperty",
+		reflect.TypeOf((*TfDomainServiceAccessPolicy_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomainServiceAccessPolicy.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudsearchDomainServiceAccessPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomainServiceAccessPolicy.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDomainServiceAccessPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -422,13 +422,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudsearchDomainServiceAccessPolicy_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDomainServiceAccessPolicy_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudsearch.AwsCloudsearchDomainServiceAccessPolicyConfig",
-		reflect.TypeOf((*AwsCloudsearchDomainServiceAccessPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudsearch.TfDomainServiceAccessPolicyConfig",
+		reflect.TypeOf((*TfDomainServiceAccessPolicyConfig)(nil)).Elem(),
 	)
 }

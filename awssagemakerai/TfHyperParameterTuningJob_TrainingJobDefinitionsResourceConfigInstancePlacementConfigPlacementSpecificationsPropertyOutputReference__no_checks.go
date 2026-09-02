@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetInstanceCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReference) validateSetUltraServerIdParameters(val *string) error {
+	return nil
+}
+
+func validateNewTfHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPlacementSpecificationsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

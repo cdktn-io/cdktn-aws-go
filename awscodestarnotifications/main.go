@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codestar-notifications.AwsCodestarnotificationsNotificationRule",
-		reflect.TypeOf((*AwsCodestarnotificationsNotificationRule)(nil)).Elem(),
+		"@cdktn/aws-codestar-notifications.TfNotificationRule",
+		reflect.TypeOf((*TfNotificationRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -86,18 +86,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodestarnotificationsNotificationRule{}
+			j := jsiiProxy_TfNotificationRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codestar-notifications.AwsCodestarnotificationsNotificationRule.TargetProperty",
-		reflect.TypeOf((*AwsCodestarnotificationsNotificationRule_TargetProperty)(nil)).Elem(),
+		"@cdktn/aws-codestar-notifications.TfNotificationRule.TargetProperty",
+		reflect.TypeOf((*TfNotificationRule_TargetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codestar-notifications.AwsCodestarnotificationsNotificationRule.TargetPropertyList",
-		reflect.TypeOf((*AwsCodestarnotificationsNotificationRule_TargetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-codestar-notifications.TfNotificationRule.TargetPropertyList",
+		reflect.TypeOf((*TfNotificationRule_TargetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -112,14 +112,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodestarnotificationsNotificationRule_TargetPropertyList{}
+			j := jsiiProxy_TfNotificationRule_TargetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-codestar-notifications.AwsCodestarnotificationsNotificationRule.TargetPropertyOutputReference",
-		reflect.TypeOf((*AwsCodestarnotificationsNotificationRule_TargetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-codestar-notifications.TfNotificationRule.TargetPropertyOutputReference",
+		reflect.TypeOf((*TfNotificationRule_TargetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
 			_jsii_.MemberProperty{JsiiProperty: "addressInput", GoGetter: "AddressInput"},
@@ -150,13 +150,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCodestarnotificationsNotificationRule_TargetPropertyOutputReference{}
+			j := jsiiProxy_TfNotificationRule_TargetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-codestar-notifications.AwsCodestarnotificationsNotificationRuleConfig",
-		reflect.TypeOf((*AwsCodestarnotificationsNotificationRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-codestar-notifications.TfNotificationRuleConfig",
+		reflect.TypeOf((*TfNotificationRuleConfig)(nil)).Elem(),
 	)
 }

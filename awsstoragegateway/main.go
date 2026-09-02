@@ -9,8 +9,73 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayCache",
-		reflect.TypeOf((*AwsStoragegatewayCache)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.DataTfLocalDisk",
+		reflect.TypeOf((*DataTfLocalDisk)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "diskId", GoGetter: "DiskId"},
+			_jsii_.MemberProperty{JsiiProperty: "diskNode", GoGetter: "DiskNode"},
+			_jsii_.MemberProperty{JsiiProperty: "diskNodeInput", GoGetter: "DiskNodeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "diskPath", GoGetter: "DiskPath"},
+			_jsii_.MemberProperty{JsiiProperty: "diskPathInput", GoGetter: "DiskPathInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberProperty{JsiiProperty: "gatewayArn", GoGetter: "GatewayArn"},
+			_jsii_.MemberProperty{JsiiProperty: "gatewayArnInput", GoGetter: "GatewayArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskNode", GoMethod: "ResetDiskNode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDiskPath", GoMethod: "ResetDiskPath"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfLocalDisk{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-storage-gateway.DataTfLocalDiskConfig",
+		reflect.TypeOf((*DataTfLocalDiskConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-storage-gateway.TfCache",
+		reflect.TypeOf((*TfCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -68,18 +133,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayCache{}
+			j := jsiiProxy_TfCache{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayCacheConfig",
-		reflect.TypeOf((*AwsStoragegatewayCacheConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfCacheConfig",
+		reflect.TypeOf((*TfCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayCachedIscsiVolume",
-		reflect.TypeOf((*AwsStoragegatewayCachedIscsiVolume)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfCachedIscsiVolume",
+		reflect.TypeOf((*TfCachedIscsiVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -166,18 +231,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayCachedIscsiVolume{}
+			j := jsiiProxy_TfCachedIscsiVolume{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayCachedIscsiVolumeConfig",
-		reflect.TypeOf((*AwsStoragegatewayCachedIscsiVolumeConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfCachedIscsiVolumeConfig",
+		reflect.TypeOf((*TfCachedIscsiVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayFileSystemAssociation",
-		reflect.TypeOf((*AwsStoragegatewayFileSystemAssociation)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfFileSystemAssociation",
+		reflect.TypeOf((*TfFileSystemAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -257,18 +322,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayFileSystemAssociation{}
+			j := jsiiProxy_TfFileSystemAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayFileSystemAssociation.CacheAttributesProperty",
-		reflect.TypeOf((*AwsStoragegatewayFileSystemAssociation_CacheAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfFileSystemAssociation.CacheAttributesProperty",
+		reflect.TypeOf((*TfFileSystemAssociation_CacheAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayFileSystemAssociation.CacheAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayFileSystemAssociation_CacheAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfFileSystemAssociation.CacheAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfFileSystemAssociation_CacheAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheStaleTimeoutInSeconds", GoGetter: "CacheStaleTimeoutInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "cacheStaleTimeoutInSecondsInput", GoGetter: "CacheStaleTimeoutInSecondsInput"},
@@ -296,18 +361,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayFileSystemAssociation_CacheAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfFileSystemAssociation_CacheAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayFileSystemAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsStoragegatewayFileSystemAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfFileSystemAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfFileSystemAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayFileSystemAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayFileSystemAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfFileSystemAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfFileSystemAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -341,18 +406,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayFileSystemAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfFileSystemAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayFileSystemAssociationConfig",
-		reflect.TypeOf((*AwsStoragegatewayFileSystemAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfFileSystemAssociationConfig",
+		reflect.TypeOf((*TfFileSystemAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway",
-		reflect.TypeOf((*AwsStoragegatewayGateway)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway",
+		reflect.TypeOf((*TfGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationKey", GoGetter: "ActivationKey"},
 			_jsii_.MemberProperty{JsiiProperty: "activationKeyInput", GoGetter: "ActivationKeyInput"},
@@ -470,18 +535,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayGateway{}
+			j := jsiiProxy_TfGateway{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.GatewayNetworkInterfaceProperty",
-		reflect.TypeOf((*AwsStoragegatewayGateway_GatewayNetworkInterfaceProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.GatewayNetworkInterfaceProperty",
+		reflect.TypeOf((*TfGateway_GatewayNetworkInterfaceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.GatewayNetworkInterfacePropertyList",
-		reflect.TypeOf((*AwsStoragegatewayGateway_GatewayNetworkInterfacePropertyList)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.GatewayNetworkInterfacePropertyList",
+		reflect.TypeOf((*TfGateway_GatewayNetworkInterfacePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -495,14 +560,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayGateway_GatewayNetworkInterfacePropertyList{}
+			j := jsiiProxy_TfGateway_GatewayNetworkInterfacePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.GatewayNetworkInterfacePropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayGateway_GatewayNetworkInterfacePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.GatewayNetworkInterfacePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_GatewayNetworkInterfacePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -528,18 +593,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayGateway_GatewayNetworkInterfacePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_GatewayNetworkInterfacePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.MaintenanceStartTimeProperty",
-		reflect.TypeOf((*AwsStoragegatewayGateway_MaintenanceStartTimeProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.MaintenanceStartTimeProperty",
+		reflect.TypeOf((*TfGateway_MaintenanceStartTimeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.MaintenanceStartTimePropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayGateway_MaintenanceStartTimePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.MaintenanceStartTimePropertyOutputReference",
+		reflect.TypeOf((*TfGateway_MaintenanceStartTimePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -575,18 +640,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayGateway_MaintenanceStartTimePropertyOutputReference{}
+			j := jsiiProxy_TfGateway_MaintenanceStartTimePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.SmbActiveDirectorySettingsProperty",
-		reflect.TypeOf((*AwsStoragegatewayGateway_SmbActiveDirectorySettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.SmbActiveDirectorySettingsProperty",
+		reflect.TypeOf((*TfGateway_SmbActiveDirectorySettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.SmbActiveDirectorySettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayGateway_SmbActiveDirectorySettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.SmbActiveDirectorySettingsPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_SmbActiveDirectorySettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDirectoryStatus", GoGetter: "ActiveDirectoryStatus"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -627,18 +692,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayGateway_SmbActiveDirectorySettingsPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_SmbActiveDirectorySettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.TimeoutsProperty",
-		reflect.TypeOf((*AwsStoragegatewayGateway_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.TimeoutsProperty",
+		reflect.TypeOf((*TfGateway_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGateway.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayGateway_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGateway.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGateway_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -666,18 +731,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayGateway_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGateway_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayGatewayConfig",
-		reflect.TypeOf((*AwsStoragegatewayGatewayConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfGatewayConfig",
+		reflect.TypeOf((*TfGatewayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare",
+		reflect.TypeOf((*TfNfsFileShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -799,18 +864,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayNfsFileShare{}
+			j := jsiiProxy_TfNfsFileShare{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare.CacheAttributesProperty",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare_CacheAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare.CacheAttributesProperty",
+		reflect.TypeOf((*TfNfsFileShare_CacheAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare.CacheAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare_CacheAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare.CacheAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfNfsFileShare_CacheAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheStaleTimeoutInSeconds", GoGetter: "CacheStaleTimeoutInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "cacheStaleTimeoutInSecondsInput", GoGetter: "CacheStaleTimeoutInSecondsInput"},
@@ -838,18 +903,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayNfsFileShare_CacheAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfNfsFileShare_CacheAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare.NfsFileShareDefaultsProperty",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare_NfsFileShareDefaultsProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare.NfsFileShareDefaultsProperty",
+		reflect.TypeOf((*TfNfsFileShare_NfsFileShareDefaultsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare.NfsFileShareDefaultsPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare_NfsFileShareDefaultsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare.NfsFileShareDefaultsPropertyOutputReference",
+		reflect.TypeOf((*TfNfsFileShare_NfsFileShareDefaultsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -886,18 +951,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayNfsFileShare_NfsFileShareDefaultsPropertyOutputReference{}
+			j := jsiiProxy_TfNfsFileShare_NfsFileShareDefaultsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare.TimeoutsProperty",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare.TimeoutsProperty",
+		reflect.TypeOf((*TfNfsFileShare_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShare.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShare_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShare.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfNfsFileShare_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -931,18 +996,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayNfsFileShare_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfNfsFileShare_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayNfsFileShareConfig",
-		reflect.TypeOf((*AwsStoragegatewayNfsFileShareConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfNfsFileShareConfig",
+		reflect.TypeOf((*TfNfsFileShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewaySmbFileShare",
-		reflect.TypeOf((*AwsStoragegatewaySmbFileShare)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfSmbFileShare",
+		reflect.TypeOf((*TfSmbFileShare)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessBasedEnumeration", GoGetter: "AccessBasedEnumeration"},
 			_jsii_.MemberProperty{JsiiProperty: "accessBasedEnumerationInput", GoGetter: "AccessBasedEnumerationInput"},
@@ -1079,18 +1144,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewaySmbFileShare{}
+			j := jsiiProxy_TfSmbFileShare{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewaySmbFileShare.CacheAttributesProperty",
-		reflect.TypeOf((*AwsStoragegatewaySmbFileShare_CacheAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfSmbFileShare.CacheAttributesProperty",
+		reflect.TypeOf((*TfSmbFileShare_CacheAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewaySmbFileShare.CacheAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewaySmbFileShare_CacheAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfSmbFileShare.CacheAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfSmbFileShare_CacheAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cacheStaleTimeoutInSeconds", GoGetter: "CacheStaleTimeoutInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "cacheStaleTimeoutInSecondsInput", GoGetter: "CacheStaleTimeoutInSecondsInput"},
@@ -1118,18 +1183,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewaySmbFileShare_CacheAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfSmbFileShare_CacheAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewaySmbFileShare.TimeoutsProperty",
-		reflect.TypeOf((*AwsStoragegatewaySmbFileShare_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfSmbFileShare.TimeoutsProperty",
+		reflect.TypeOf((*TfSmbFileShare_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewaySmbFileShare.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsStoragegatewaySmbFileShare_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfSmbFileShare.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfSmbFileShare_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1163,18 +1228,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewaySmbFileShare_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfSmbFileShare_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewaySmbFileShareConfig",
-		reflect.TypeOf((*AwsStoragegatewaySmbFileShareConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfSmbFileShareConfig",
+		reflect.TypeOf((*TfSmbFileShareConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayStoredIscsiVolume",
-		reflect.TypeOf((*AwsStoragegatewayStoredIscsiVolume)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfStoredIscsiVolume",
+		reflect.TypeOf((*TfStoredIscsiVolume)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1263,18 +1328,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayStoredIscsiVolume{}
+			j := jsiiProxy_TfStoredIscsiVolume{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayStoredIscsiVolumeConfig",
-		reflect.TypeOf((*AwsStoragegatewayStoredIscsiVolumeConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfStoredIscsiVolumeConfig",
+		reflect.TypeOf((*TfStoredIscsiVolumeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayTapePool",
-		reflect.TypeOf((*AwsStoragegatewayTapePool)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfTapePool",
+		reflect.TypeOf((*TfTapePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1345,18 +1410,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayTapePool{}
+			j := jsiiProxy_TfTapePool{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayTapePoolConfig",
-		reflect.TypeOf((*AwsStoragegatewayTapePoolConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfTapePoolConfig",
+		reflect.TypeOf((*TfTapePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayUploadBuffer",
-		reflect.TypeOf((*AwsStoragegatewayUploadBuffer)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfUploadBuffer",
+		reflect.TypeOf((*TfUploadBuffer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1418,18 +1483,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayUploadBuffer{}
+			j := jsiiProxy_TfUploadBuffer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayUploadBufferConfig",
-		reflect.TypeOf((*AwsStoragegatewayUploadBufferConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfUploadBufferConfig",
+		reflect.TypeOf((*TfUploadBufferConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayWorkingStorage",
-		reflect.TypeOf((*AwsStoragegatewayWorkingStorage)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfWorkingStorage",
+		reflect.TypeOf((*TfWorkingStorage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1487,78 +1552,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsStoragegatewayWorkingStorage{}
+			j := jsiiProxy_TfWorkingStorage{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.AwsStoragegatewayWorkingStorageConfig",
-		reflect.TypeOf((*AwsStoragegatewayWorkingStorageConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-storage-gateway.DataAwsStoragegatewayLocalDisk",
-		reflect.TypeOf((*DataAwsStoragegatewayLocalDisk)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "diskId", GoGetter: "DiskId"},
-			_jsii_.MemberProperty{JsiiProperty: "diskNode", GoGetter: "DiskNode"},
-			_jsii_.MemberProperty{JsiiProperty: "diskNodeInput", GoGetter: "DiskNodeInput"},
-			_jsii_.MemberProperty{JsiiProperty: "diskPath", GoGetter: "DiskPath"},
-			_jsii_.MemberProperty{JsiiProperty: "diskPathInput", GoGetter: "DiskPathInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberProperty{JsiiProperty: "gatewayArn", GoGetter: "GatewayArn"},
-			_jsii_.MemberProperty{JsiiProperty: "gatewayArnInput", GoGetter: "GatewayArnInput"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDiskNode", GoMethod: "ResetDiskNode"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDiskPath", GoMethod: "ResetDiskPath"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsStoragegatewayLocalDisk{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-storage-gateway.DataAwsStoragegatewayLocalDiskConfig",
-		reflect.TypeOf((*DataAwsStoragegatewayLocalDiskConfig)(nil)).Elem(),
+		"@cdktn/aws-storage-gateway.TfWorkingStorageConfig",
+		reflect.TypeOf((*TfWorkingStorageConfig)(nil)).Elem(),
 	)
 }

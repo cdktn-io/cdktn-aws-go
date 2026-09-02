@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint",
+		reflect.TypeOf((*TfEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -121,18 +121,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint{}
+			j := jsiiProxy_TfEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.CidrOptionsPortRangeProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_CidrOptionsPortRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.CidrOptionsPortRangeProperty",
+		reflect.TypeOf((*TfEndpoint_CidrOptionsPortRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.CidrOptionsPortRangePropertyList",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_CidrOptionsPortRangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.CidrOptionsPortRangePropertyList",
+		reflect.TypeOf((*TfEndpoint_CidrOptionsPortRangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -147,14 +147,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_CidrOptionsPortRangePropertyList{}
+			j := jsiiProxy_TfEndpoint_CidrOptionsPortRangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.CidrOptionsPortRangePropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_CidrOptionsPortRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.CidrOptionsPortRangePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_CidrOptionsPortRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -183,18 +183,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_CidrOptionsPortRangePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_CidrOptionsPortRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.CidrOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_CidrOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.CidrOptionsProperty",
+		reflect.TypeOf((*TfEndpoint_CidrOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.CidrOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_CidrOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.CidrOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_CidrOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cidr", GoGetter: "Cidr"},
 			_jsii_.MemberProperty{JsiiProperty: "cidrInput", GoGetter: "CidrInput"},
@@ -230,18 +230,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_CidrOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_CidrOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.LoadBalancerOptionsPortRangeProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_LoadBalancerOptionsPortRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.LoadBalancerOptionsPortRangeProperty",
+		reflect.TypeOf((*TfEndpoint_LoadBalancerOptionsPortRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.LoadBalancerOptionsPortRangePropertyList",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_LoadBalancerOptionsPortRangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.LoadBalancerOptionsPortRangePropertyList",
+		reflect.TypeOf((*TfEndpoint_LoadBalancerOptionsPortRangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -256,14 +256,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_LoadBalancerOptionsPortRangePropertyList{}
+			j := jsiiProxy_TfEndpoint_LoadBalancerOptionsPortRangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.LoadBalancerOptionsPortRangePropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_LoadBalancerOptionsPortRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.LoadBalancerOptionsPortRangePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_LoadBalancerOptionsPortRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -292,18 +292,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_LoadBalancerOptionsPortRangePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_LoadBalancerOptionsPortRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.LoadBalancerOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_LoadBalancerOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.LoadBalancerOptionsProperty",
+		reflect.TypeOf((*TfEndpoint_LoadBalancerOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.LoadBalancerOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_LoadBalancerOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.LoadBalancerOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_LoadBalancerOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -344,18 +344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_LoadBalancerOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_LoadBalancerOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.NetworkInterfaceOptionsPortRangeProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPortRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.NetworkInterfaceOptionsPortRangeProperty",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfaceOptionsPortRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.NetworkInterfaceOptionsPortRangePropertyList",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPortRangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.NetworkInterfaceOptionsPortRangePropertyList",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfaceOptionsPortRangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -370,14 +370,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPortRangePropertyList{}
+			j := jsiiProxy_TfEndpoint_NetworkInterfaceOptionsPortRangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.NetworkInterfaceOptionsPortRangePropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPortRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.NetworkInterfaceOptionsPortRangePropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfaceOptionsPortRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -406,18 +406,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPortRangePropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_NetworkInterfaceOptionsPortRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.NetworkInterfaceOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.NetworkInterfaceOptionsProperty",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfaceOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.NetworkInterfaceOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.NetworkInterfaceOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfaceOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -455,18 +455,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_NetworkInterfaceOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_NetworkInterfaceOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.RdsOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_RdsOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.RdsOptionsProperty",
+		reflect.TypeOf((*TfEndpoint_RdsOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.RdsOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_RdsOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.RdsOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_RdsOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -512,18 +512,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_RdsOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_RdsOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.SseSpecificationProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_SseSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.SseSpecificationProperty",
+		reflect.TypeOf((*TfEndpoint_SseSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.SseSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_SseSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.SseSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_SseSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -554,18 +554,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_SseSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_SseSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.TimeoutsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.TimeoutsProperty",
+		reflect.TypeOf((*TfEndpoint_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpoint.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpoint.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -599,18 +599,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessEndpoint_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessEndpointConfig",
-		reflect.TypeOf((*AwsVerifiedaccessEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfEndpointConfig",
+		reflect.TypeOf((*TfEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessGroup",
-		reflect.TypeOf((*AwsVerifiedaccessGroup)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfGroup",
+		reflect.TypeOf((*TfGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -688,18 +688,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessGroup{}
+			j := jsiiProxy_TfGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessGroup.SseConfigurationProperty",
-		reflect.TypeOf((*AwsVerifiedaccessGroup_SseConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfGroup.SseConfigurationProperty",
+		reflect.TypeOf((*TfGroup_SseConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessGroup.SseConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessGroup_SseConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfGroup.SseConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGroup_SseConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -730,18 +730,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessGroup_SseConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGroup_SseConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessGroupConfig",
-		reflect.TypeOf((*AwsVerifiedaccessGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfGroupConfig",
+		reflect.TypeOf((*TfGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstance",
-		reflect.TypeOf((*AwsVerifiedaccessInstance)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstance",
+		reflect.TypeOf((*TfInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -814,18 +814,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstance{}
+			j := jsiiProxy_TfInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstance.VerifiedAccessTrustProvidersProperty",
-		reflect.TypeOf((*AwsVerifiedaccessInstance_VerifiedAccessTrustProvidersProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstance.VerifiedAccessTrustProvidersProperty",
+		reflect.TypeOf((*TfInstance_VerifiedAccessTrustProvidersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstance.VerifiedAccessTrustProvidersPropertyList",
-		reflect.TypeOf((*AwsVerifiedaccessInstance_VerifiedAccessTrustProvidersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstance.VerifiedAccessTrustProvidersPropertyList",
+		reflect.TypeOf((*TfInstance_VerifiedAccessTrustProvidersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -839,14 +839,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstance_VerifiedAccessTrustProvidersPropertyList{}
+			j := jsiiProxy_TfInstance_VerifiedAccessTrustProvidersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstance.VerifiedAccessTrustProvidersPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessInstance_VerifiedAccessTrustProvidersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstance.VerifiedAccessTrustProvidersPropertyOutputReference",
+		reflect.TypeOf((*TfInstance_VerifiedAccessTrustProvidersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -876,18 +876,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verifiedAccessTrustProviderId", GoGetter: "VerifiedAccessTrustProviderId"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstance_VerifiedAccessTrustProvidersPropertyOutputReference{}
+			j := jsiiProxy_TfInstance_VerifiedAccessTrustProvidersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceConfig",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceConfig",
+		reflect.TypeOf((*TfInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessLogs", GoGetter: "AccessLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "accessLogsInput", GoGetter: "AccessLogsInput"},
@@ -946,18 +946,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstanceLoggingConfiguration{}
+			j := jsiiProxy_TfInstanceLoggingConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.AccessLogsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_AccessLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.AccessLogsProperty",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_AccessLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.AccessLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_AccessLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.AccessLogsPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_AccessLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogs", GoGetter: "CloudwatchLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsInput", GoGetter: "CloudwatchLogsInput"},
@@ -1000,18 +1000,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstanceLoggingConfiguration_AccessLogsPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceLoggingConfiguration_AccessLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.CloudwatchLogsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_CloudwatchLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.CloudwatchLogsProperty",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_CloudwatchLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.CloudwatchLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.CloudwatchLogsPropertyOutputReference",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1041,18 +1041,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstanceLoggingConfiguration_CloudwatchLogsPropertyOutputReference{}
+			j := jsiiProxy_TfInstanceLoggingConfiguration_CloudwatchLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.KinesisDataFirehoseProperty",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_KinesisDataFirehoseProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.KinesisDataFirehoseProperty",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_KinesisDataFirehoseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.KinesisDataFirehosePropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_KinesisDataFirehosePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.KinesisDataFirehosePropertyOutputReference",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_KinesisDataFirehosePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1082,18 +1082,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstanceLoggingConfiguration_KinesisDataFirehosePropertyOutputReference{}
+			j := jsiiProxy_TfInstanceLoggingConfiguration_KinesisDataFirehosePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.S3Property",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_S3Property)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.S3Property",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfiguration.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfiguration_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfiguration.S3PropertyOutputReference",
+		reflect.TypeOf((*TfInstanceLoggingConfiguration_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -1129,18 +1129,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstanceLoggingConfiguration_S3PropertyOutputReference{}
+			j := jsiiProxy_TfInstanceLoggingConfiguration_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceLoggingConfigurationConfig",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceLoggingConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceLoggingConfigurationConfig",
+		reflect.TypeOf((*TfInstanceLoggingConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceTrustProviderAttachment",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceTrustProviderAttachment)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceTrustProviderAttachment",
+		reflect.TypeOf((*TfInstanceTrustProviderAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1198,18 +1198,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessInstanceTrustProviderAttachment{}
+			j := jsiiProxy_TfInstanceTrustProviderAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessInstanceTrustProviderAttachmentConfig",
-		reflect.TypeOf((*AwsVerifiedaccessInstanceTrustProviderAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfInstanceTrustProviderAttachmentConfig",
+		reflect.TypeOf((*TfInstanceTrustProviderAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider",
+		reflect.TypeOf((*TfTrustProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1302,18 +1302,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessTrustProvider{}
+			j := jsiiProxy_TfTrustProvider{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.DeviceOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_DeviceOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.DeviceOptionsProperty",
+		reflect.TypeOf((*TfTrustProvider_DeviceOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.DeviceOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_DeviceOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.DeviceOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfTrustProvider_DeviceOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1341,18 +1341,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessTrustProvider_DeviceOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfTrustProvider_DeviceOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.NativeApplicationOidcOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_NativeApplicationOidcOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.NativeApplicationOidcOptionsProperty",
+		reflect.TypeOf((*TfTrustProvider_NativeApplicationOidcOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.NativeApplicationOidcOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_NativeApplicationOidcOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.NativeApplicationOidcOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfTrustProvider_NativeApplicationOidcOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpointInput", GoGetter: "AuthorizationEndpointInput"},
@@ -1400,18 +1400,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userInfoEndpointInput", GoGetter: "UserInfoEndpointInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessTrustProvider_NativeApplicationOidcOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfTrustProvider_NativeApplicationOidcOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.OidcOptionsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_OidcOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.OidcOptionsProperty",
+		reflect.TypeOf((*TfTrustProvider_OidcOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.OidcOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_OidcOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.OidcOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfTrustProvider_OidcOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpoint", GoGetter: "AuthorizationEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationEndpointInput", GoGetter: "AuthorizationEndpointInput"},
@@ -1456,18 +1456,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userInfoEndpointInput", GoGetter: "UserInfoEndpointInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessTrustProvider_OidcOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfTrustProvider_OidcOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.SseSpecificationProperty",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_SseSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.SseSpecificationProperty",
+		reflect.TypeOf((*TfTrustProvider_SseSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.SseSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_SseSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.SseSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfTrustProvider_SseSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1498,18 +1498,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessTrustProvider_SseSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfTrustProvider_SseSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.TimeoutsProperty",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.TimeoutsProperty",
+		reflect.TypeOf((*TfTrustProvider_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProvider.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProvider_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProvider.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTrustProvider_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1543,13 +1543,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsVerifiedaccessTrustProvider_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTrustProvider_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-verified-access.AwsVerifiedaccessTrustProviderConfig",
-		reflect.TypeOf((*AwsVerifiedaccessTrustProviderConfig)(nil)).Elem(),
+		"@cdktn/aws-verified-access.TfTrustProviderConfig",
+		reflect.TypeOf((*TfTrustProviderConfig)(nil)).Elem(),
 	)
 }

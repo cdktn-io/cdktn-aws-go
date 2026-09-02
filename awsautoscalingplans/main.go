@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan",
+		reflect.TypeOf((*TfScalingPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -73,18 +73,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan{}
+			j := jsiiProxy_TfScalingPlan{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.ApplicationSourceProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_ApplicationSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.ApplicationSourceProperty",
+		reflect.TypeOf((*TfScalingPlan_ApplicationSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.ApplicationSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_ApplicationSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.ApplicationSourcePropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_ApplicationSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudformationStackArn", GoGetter: "CloudformationStackArn"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudformationStackArnInput", GoGetter: "CloudformationStackArnInput"},
@@ -116,18 +116,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_ApplicationSourcePropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_ApplicationSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.CustomizedLoadMetricSpecificationProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_CustomizedLoadMetricSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.CustomizedLoadMetricSpecificationProperty",
+		reflect.TypeOf((*TfScalingPlan_CustomizedLoadMetricSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.CustomizedLoadMetricSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_CustomizedLoadMetricSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.CustomizedLoadMetricSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_CustomizedLoadMetricSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -164,18 +164,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unitInput", GoGetter: "UnitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_CustomizedLoadMetricSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_CustomizedLoadMetricSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.CustomizedScalingMetricSpecificationProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_CustomizedScalingMetricSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.CustomizedScalingMetricSpecificationProperty",
+		reflect.TypeOf((*TfScalingPlan_CustomizedScalingMetricSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.CustomizedScalingMetricSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_CustomizedScalingMetricSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.CustomizedScalingMetricSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_CustomizedScalingMetricSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -212,18 +212,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unitInput", GoGetter: "UnitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_CustomizedScalingMetricSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_CustomizedScalingMetricSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.PredefinedLoadMetricSpecificationProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_PredefinedLoadMetricSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.PredefinedLoadMetricSpecificationProperty",
+		reflect.TypeOf((*TfScalingPlan_PredefinedLoadMetricSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.PredefinedLoadMetricSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_PredefinedLoadMetricSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.PredefinedLoadMetricSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_PredefinedLoadMetricSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -253,18 +253,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_PredefinedLoadMetricSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_PredefinedLoadMetricSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.PredefinedScalingMetricSpecificationProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_PredefinedScalingMetricSpecificationProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.PredefinedScalingMetricSpecificationProperty",
+		reflect.TypeOf((*TfScalingPlan_PredefinedScalingMetricSpecificationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.PredefinedScalingMetricSpecificationPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_PredefinedScalingMetricSpecificationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.PredefinedScalingMetricSpecificationPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_PredefinedScalingMetricSpecificationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -294,18 +294,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_PredefinedScalingMetricSpecificationPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_PredefinedScalingMetricSpecificationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.ScalingInstructionProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_ScalingInstructionProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.ScalingInstructionProperty",
+		reflect.TypeOf((*TfScalingPlan_ScalingInstructionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.ScalingInstructionPropertyList",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_ScalingInstructionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.ScalingInstructionPropertyList",
+		reflect.TypeOf((*TfScalingPlan_ScalingInstructionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -320,14 +320,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_ScalingInstructionPropertyList{}
+			j := jsiiProxy_TfScalingPlan_ScalingInstructionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.ScalingInstructionPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_ScalingInstructionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.ScalingInstructionPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_ScalingInstructionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -391,18 +391,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_ScalingInstructionPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_ScalingInstructionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.TagFilterProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_TagFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.TagFilterProperty",
+		reflect.TypeOf((*TfScalingPlan_TagFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.TagFilterPropertyList",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_TagFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.TagFilterPropertyList",
+		reflect.TypeOf((*TfScalingPlan_TagFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -417,14 +417,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_TagFilterPropertyList{}
+			j := jsiiProxy_TfScalingPlan_TagFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.TagFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_TagFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.TagFilterPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_TagFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -454,18 +454,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_TagFilterPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_TagFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.TargetTrackingConfigurationProperty",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_TargetTrackingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.TargetTrackingConfigurationProperty",
+		reflect.TypeOf((*TfScalingPlan_TargetTrackingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.TargetTrackingConfigurationPropertyList",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_TargetTrackingConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.TargetTrackingConfigurationPropertyList",
+		reflect.TypeOf((*TfScalingPlan_TargetTrackingConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -480,14 +480,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_TargetTrackingConfigurationPropertyList{}
+			j := jsiiProxy_TfScalingPlan_TargetTrackingConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlan.TargetTrackingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlan_TargetTrackingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlan.TargetTrackingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScalingPlan_TargetTrackingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -534,13 +534,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAutoscalingplansScalingPlan_TargetTrackingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScalingPlan_TargetTrackingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-auto-scaling-plans.AwsAutoscalingplansScalingPlanConfig",
-		reflect.TypeOf((*AwsAutoscalingplansScalingPlanConfig)(nil)).Elem(),
+		"@cdktn/aws-auto-scaling-plans.TfScalingPlanConfig",
+		reflect.TypeOf((*TfScalingPlanConfig)(nil)).Elem(),
 	)
 }

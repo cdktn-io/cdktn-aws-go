@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsmacie
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReference) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func validateNewTfClassificationJob_S3JobDefinitionBucketCriteriaExcludesAndTagCriterionTagValuesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -9,8 +9,62 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerAutoScalingConfigurationVersion",
-		reflect.TypeOf((*AwsApprunnerAutoScalingConfigurationVersion)(nil)).Elem(),
+		"@cdktn/aws-app-runner.DataTfHostedZoneId",
+		reflect.TypeOf((*DataTfHostedZoneId)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfHostedZoneId{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-app-runner.DataTfHostedZoneIdConfig",
+		reflect.TypeOf((*DataTfHostedZoneIdConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-app-runner.TfAutoScalingConfigurationVersion",
+		reflect.TypeOf((*TfAutoScalingConfigurationVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -87,18 +141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerAutoScalingConfigurationVersion{}
+			j := jsiiProxy_TfAutoScalingConfigurationVersion{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerAutoScalingConfigurationVersionConfig",
-		reflect.TypeOf((*AwsApprunnerAutoScalingConfigurationVersionConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfAutoScalingConfigurationVersionConfig",
+		reflect.TypeOf((*TfAutoScalingConfigurationVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerConnection",
-		reflect.TypeOf((*AwsApprunnerConnection)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfConnection",
+		reflect.TypeOf((*TfConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -164,18 +218,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerConnection{}
+			j := jsiiProxy_TfConnection{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerConnectionConfig",
-		reflect.TypeOf((*AwsApprunnerConnectionConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfConnectionConfig",
+		reflect.TypeOf((*TfConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerCustomDomainAssociation",
-		reflect.TypeOf((*AwsApprunnerCustomDomainAssociation)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfCustomDomainAssociation",
+		reflect.TypeOf((*TfCustomDomainAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -239,18 +293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerCustomDomainAssociation{}
+			j := jsiiProxy_TfCustomDomainAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerCustomDomainAssociation.CertificateValidationRecordsProperty",
-		reflect.TypeOf((*AwsApprunnerCustomDomainAssociation_CertificateValidationRecordsProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfCustomDomainAssociation.CertificateValidationRecordsProperty",
+		reflect.TypeOf((*TfCustomDomainAssociation_CertificateValidationRecordsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerCustomDomainAssociation.CertificateValidationRecordsPropertyList",
-		reflect.TypeOf((*AwsApprunnerCustomDomainAssociation_CertificateValidationRecordsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfCustomDomainAssociation.CertificateValidationRecordsPropertyList",
+		reflect.TypeOf((*TfCustomDomainAssociation_CertificateValidationRecordsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -264,14 +318,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerCustomDomainAssociation_CertificateValidationRecordsPropertyList{}
+			j := jsiiProxy_TfCustomDomainAssociation_CertificateValidationRecordsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerCustomDomainAssociation.CertificateValidationRecordsPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerCustomDomainAssociation_CertificateValidationRecordsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfCustomDomainAssociation.CertificateValidationRecordsPropertyOutputReference",
+		reflect.TypeOf((*TfCustomDomainAssociation_CertificateValidationRecordsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -300,18 +354,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerCustomDomainAssociation_CertificateValidationRecordsPropertyOutputReference{}
+			j := jsiiProxy_TfCustomDomainAssociation_CertificateValidationRecordsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerCustomDomainAssociationConfig",
-		reflect.TypeOf((*AwsApprunnerCustomDomainAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfCustomDomainAssociationConfig",
+		reflect.TypeOf((*TfCustomDomainAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerDefaultAutoScalingConfigurationVersion",
-		reflect.TypeOf((*AwsApprunnerDefaultAutoScalingConfigurationVersion)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfDefaultAutoScalingConfigurationVersion",
+		reflect.TypeOf((*TfDefaultAutoScalingConfigurationVersion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -365,18 +419,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerDefaultAutoScalingConfigurationVersion{}
+			j := jsiiProxy_TfDefaultAutoScalingConfigurationVersion{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerDefaultAutoScalingConfigurationVersionConfig",
-		reflect.TypeOf((*AwsApprunnerDefaultAutoScalingConfigurationVersionConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfDefaultAutoScalingConfigurationVersionConfig",
+		reflect.TypeOf((*TfDefaultAutoScalingConfigurationVersionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerDeployment",
-		reflect.TypeOf((*AwsApprunnerDeployment)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfDeployment",
+		reflect.TypeOf((*TfDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -436,18 +490,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerDeployment{}
+			j := jsiiProxy_TfDeployment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerDeployment.TimeoutsProperty",
-		reflect.TypeOf((*AwsApprunnerDeployment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfDeployment.TimeoutsProperty",
+		reflect.TypeOf((*TfDeployment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerDeployment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerDeployment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfDeployment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDeployment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -475,18 +529,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerDeployment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDeployment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerDeploymentConfig",
-		reflect.TypeOf((*AwsApprunnerDeploymentConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfDeploymentConfig",
+		reflect.TypeOf((*TfDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerObservabilityConfiguration",
-		reflect.TypeOf((*AwsApprunnerObservabilityConfiguration)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfObservabilityConfiguration",
+		reflect.TypeOf((*TfObservabilityConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -556,18 +610,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerObservabilityConfiguration{}
+			j := jsiiProxy_TfObservabilityConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerObservabilityConfiguration.TraceConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerObservabilityConfiguration_TraceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfObservabilityConfiguration.TraceConfigurationProperty",
+		reflect.TypeOf((*TfObservabilityConfiguration_TraceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerObservabilityConfiguration.TraceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerObservabilityConfiguration_TraceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfObservabilityConfiguration.TraceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfObservabilityConfiguration_TraceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -595,18 +649,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vendorInput", GoGetter: "VendorInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerObservabilityConfiguration_TraceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfObservabilityConfiguration_TraceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerObservabilityConfigurationConfig",
-		reflect.TypeOf((*AwsApprunnerObservabilityConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfObservabilityConfigurationConfig",
+		reflect.TypeOf((*TfObservabilityConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService",
-		reflect.TypeOf((*AwsApprunnerService)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService",
+		reflect.TypeOf((*TfService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -698,18 +752,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService{}
+			j := jsiiProxy_TfService{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.AuthenticationConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_AuthenticationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.AuthenticationConfigurationProperty",
+		reflect.TypeOf((*TfService_AuthenticationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.AuthenticationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_AuthenticationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.AuthenticationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_AuthenticationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRoleArn", GoGetter: "AccessRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "accessRoleArnInput", GoGetter: "AccessRoleArnInput"},
@@ -740,18 +794,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_AuthenticationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_AuthenticationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.CodeConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_CodeConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.CodeConfigurationProperty",
+		reflect.TypeOf((*TfService_CodeConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.CodeConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_CodeConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.CodeConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_CodeConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeConfigurationValues", GoGetter: "CodeConfigurationValues"},
 			_jsii_.MemberProperty{JsiiProperty: "codeConfigurationValuesInput", GoGetter: "CodeConfigurationValuesInput"},
@@ -782,18 +836,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_CodeConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_CodeConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.CodeConfigurationValuesProperty",
-		reflect.TypeOf((*AwsApprunnerService_CodeConfigurationValuesProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.CodeConfigurationValuesProperty",
+		reflect.TypeOf((*TfService_CodeConfigurationValuesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.CodeConfigurationValuesPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_CodeConfigurationValuesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.CodeConfigurationValuesPropertyOutputReference",
+		reflect.TypeOf((*TfService_CodeConfigurationValuesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buildCommand", GoGetter: "BuildCommand"},
 			_jsii_.MemberProperty{JsiiProperty: "buildCommandInput", GoGetter: "BuildCommandInput"},
@@ -835,18 +889,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_CodeConfigurationValuesPropertyOutputReference{}
+			j := jsiiProxy_TfService_CodeConfigurationValuesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.CodeRepositoryProperty",
-		reflect.TypeOf((*AwsApprunnerService_CodeRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.CodeRepositoryProperty",
+		reflect.TypeOf((*TfService_CodeRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.CodeRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_CodeRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.CodeRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfService_CodeRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeConfiguration", GoGetter: "CodeConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "codeConfigurationInput", GoGetter: "CodeConfigurationInput"},
@@ -883,18 +937,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_CodeRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfService_CodeRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.EgressConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_EgressConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.EgressConfigurationProperty",
+		reflect.TypeOf((*TfService_EgressConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.EgressConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_EgressConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.EgressConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_EgressConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -925,18 +979,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConnectorArnInput", GoGetter: "VpcConnectorArnInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_EgressConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_EgressConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfService_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -963,18 +1017,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.HealthCheckConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_HealthCheckConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.HealthCheckConfigurationProperty",
+		reflect.TypeOf((*TfService_HealthCheckConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.HealthCheckConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_HealthCheckConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.HealthCheckConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_HealthCheckConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1017,18 +1071,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unhealthyThresholdInput", GoGetter: "UnhealthyThresholdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_HealthCheckConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_HealthCheckConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.ImageConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_ImageConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.ImageConfigurationProperty",
+		reflect.TypeOf((*TfService_ImageConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.ImageConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_ImageConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.ImageConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_ImageConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1065,18 +1119,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_ImageConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_ImageConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.ImageRepositoryProperty",
-		reflect.TypeOf((*AwsApprunnerService_ImageRepositoryProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.ImageRepositoryProperty",
+		reflect.TypeOf((*TfService_ImageRepositoryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.ImageRepositoryPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_ImageRepositoryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.ImageRepositoryPropertyOutputReference",
+		reflect.TypeOf((*TfService_ImageRepositoryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1109,18 +1163,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_ImageRepositoryPropertyOutputReference{}
+			j := jsiiProxy_TfService_ImageRepositoryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.IngressConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_IngressConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.IngressConfigurationProperty",
+		reflect.TypeOf((*TfService_IngressConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.IngressConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_IngressConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.IngressConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_IngressConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1148,18 +1202,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_IngressConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_IngressConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.InstanceConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_InstanceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.InstanceConfigurationProperty",
+		reflect.TypeOf((*TfService_InstanceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.InstanceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_InstanceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.InstanceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_InstanceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1193,18 +1247,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_InstanceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_InstanceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfService_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1240,18 +1294,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.ObservabilityConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_ObservabilityConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.ObservabilityConfigurationProperty",
+		reflect.TypeOf((*TfService_ObservabilityConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.ObservabilityConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_ObservabilityConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.ObservabilityConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_ObservabilityConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1281,18 +1335,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_ObservabilityConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_ObservabilityConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.SourceCodeVersionProperty",
-		reflect.TypeOf((*AwsApprunnerService_SourceCodeVersionProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.SourceCodeVersionProperty",
+		reflect.TypeOf((*TfService_SourceCodeVersionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.SourceCodeVersionPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_SourceCodeVersionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.SourceCodeVersionPropertyOutputReference",
+		reflect.TypeOf((*TfService_SourceCodeVersionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1321,18 +1375,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_SourceCodeVersionPropertyOutputReference{}
+			j := jsiiProxy_TfService_SourceCodeVersionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerService.SourceConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerService_SourceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.SourceConfigurationProperty",
+		reflect.TypeOf((*TfService_SourceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerService.SourceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerService_SourceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfService.SourceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfService_SourceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationConfiguration", GoGetter: "AuthenticationConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "authenticationConfigurationInput", GoGetter: "AuthenticationConfigurationInput"},
@@ -1372,18 +1426,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerService_SourceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfService_SourceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerServiceConfig",
-		reflect.TypeOf((*AwsApprunnerServiceConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfServiceConfig",
+		reflect.TypeOf((*TfServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerVpcConnector",
-		reflect.TypeOf((*AwsApprunnerVpcConnector)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfVpcConnector",
+		reflect.TypeOf((*TfVpcConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1452,18 +1506,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerVpcConnector{}
+			j := jsiiProxy_TfVpcConnector{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerVpcConnectorConfig",
-		reflect.TypeOf((*AwsApprunnerVpcConnectorConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfVpcConnectorConfig",
+		reflect.TypeOf((*TfVpcConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerVpcIngressConnection",
-		reflect.TypeOf((*AwsApprunnerVpcIngressConnection)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfVpcIngressConnection",
+		reflect.TypeOf((*TfVpcIngressConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1533,18 +1587,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerVpcIngressConnection{}
+			j := jsiiProxy_TfVpcIngressConnection{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerVpcIngressConnection.IngressVpcConfigurationProperty",
-		reflect.TypeOf((*AwsApprunnerVpcIngressConnection_IngressVpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfVpcIngressConnection.IngressVpcConfigurationProperty",
+		reflect.TypeOf((*TfVpcIngressConnection_IngressVpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.AwsApprunnerVpcIngressConnection.IngressVpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsApprunnerVpcIngressConnection_IngressVpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfVpcIngressConnection.IngressVpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfVpcIngressConnection_IngressVpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1575,67 +1629,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApprunnerVpcIngressConnection_IngressVpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfVpcIngressConnection_IngressVpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.AwsApprunnerVpcIngressConnectionConfig",
-		reflect.TypeOf((*AwsApprunnerVpcIngressConnectionConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-app-runner.DataAwsApprunnerHostedZoneId",
-		reflect.TypeOf((*DataAwsApprunnerHostedZoneId)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsApprunnerHostedZoneId{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-app-runner.DataAwsApprunnerHostedZoneIdConfig",
-		reflect.TypeOf((*DataAwsApprunnerHostedZoneIdConfig)(nil)).Elem(),
+		"@cdktn/aws-app-runner.TfVpcIngressConnectionConfig",
+		reflect.TypeOf((*TfVpcIngressConnectionConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessCell",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessCell)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfCell",
+		reflect.TypeOf((*TfCell)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -78,18 +78,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessCell{}
+			j := jsiiProxy_TfCell{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessCell.TimeoutsProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessCell_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfCell.TimeoutsProperty",
+		reflect.TypeOf((*TfCell_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessCell.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessCell_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfCell.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCell_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -117,18 +117,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessCell_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCell_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessCellConfig",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessCellConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfCellConfig",
+		reflect.TypeOf((*TfCellConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessReadinessCheck",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessReadinessCheck)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfReadinessCheck",
+		reflect.TypeOf((*TfReadinessCheck)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -194,18 +194,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessReadinessCheck{}
+			j := jsiiProxy_TfReadinessCheck{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessReadinessCheck.TimeoutsProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessReadinessCheck_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfReadinessCheck.TimeoutsProperty",
+		reflect.TypeOf((*TfReadinessCheck_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessReadinessCheck.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessReadinessCheck_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfReadinessCheck.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfReadinessCheck_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -233,18 +233,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessReadinessCheck_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfReadinessCheck_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessReadinessCheckConfig",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessReadinessCheckConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfReadinessCheckConfig",
+		reflect.TypeOf((*TfReadinessCheckConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessRecoveryGroup",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessRecoveryGroup)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfRecoveryGroup",
+		reflect.TypeOf((*TfRecoveryGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -311,18 +311,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessRecoveryGroup{}
+			j := jsiiProxy_TfRecoveryGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessRecoveryGroup.TimeoutsProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessRecoveryGroup_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfRecoveryGroup.TimeoutsProperty",
+		reflect.TypeOf((*TfRecoveryGroup_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessRecoveryGroup.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessRecoveryGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfRecoveryGroup.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRecoveryGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -350,18 +350,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessRecoveryGroup_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRecoveryGroup_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessRecoveryGroupConfig",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessRecoveryGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfRecoveryGroupConfig",
+		reflect.TypeOf((*TfRecoveryGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet",
+		reflect.TypeOf((*TfResourceSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -430,18 +430,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet{}
+			j := jsiiProxy_TfResourceSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.DnsTargetResourceProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_DnsTargetResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.DnsTargetResourceProperty",
+		reflect.TypeOf((*TfResourceSet_DnsTargetResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.DnsTargetResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_DnsTargetResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.DnsTargetResourcePropertyOutputReference",
+		reflect.TypeOf((*TfResourceSet_DnsTargetResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -481,18 +481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_DnsTargetResourcePropertyOutputReference{}
+			j := jsiiProxy_TfResourceSet_DnsTargetResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.NlbResourceProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_NlbResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.NlbResourceProperty",
+		reflect.TypeOf((*TfResourceSet_NlbResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.NlbResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_NlbResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.NlbResourcePropertyOutputReference",
+		reflect.TypeOf((*TfResourceSet_NlbResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -520,18 +520,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_NlbResourcePropertyOutputReference{}
+			j := jsiiProxy_TfResourceSet_NlbResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.R53ResourceProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_R53ResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.R53ResourceProperty",
+		reflect.TypeOf((*TfResourceSet_R53ResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.R53ResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_R53ResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.R53ResourcePropertyOutputReference",
+		reflect.TypeOf((*TfResourceSet_R53ResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -562,18 +562,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_R53ResourcePropertyOutputReference{}
+			j := jsiiProxy_TfResourceSet_R53ResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.ResourcesProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_ResourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.ResourcesProperty",
+		reflect.TypeOf((*TfResourceSet_ResourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.ResourcesPropertyList",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_ResourcesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.ResourcesPropertyList",
+		reflect.TypeOf((*TfResourceSet_ResourcesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -588,14 +588,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_ResourcesPropertyList{}
+			j := jsiiProxy_TfResourceSet_ResourcesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.ResourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_ResourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.ResourcesPropertyOutputReference",
+		reflect.TypeOf((*TfResourceSet_ResourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -631,18 +631,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_ResourcesPropertyOutputReference{}
+			j := jsiiProxy_TfResourceSet_ResourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.TargetResourceProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_TargetResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.TargetResourceProperty",
+		reflect.TypeOf((*TfResourceSet_TargetResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.TargetResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_TargetResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.TargetResourcePropertyOutputReference",
+		reflect.TypeOf((*TfResourceSet_TargetResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -675,18 +675,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_TargetResourcePropertyOutputReference{}
+			j := jsiiProxy_TfResourceSet_TargetResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.TimeoutsProperty",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.TimeoutsProperty",
+		reflect.TypeOf((*TfResourceSet_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSet.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSet_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSet.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfResourceSet_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -714,13 +714,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRoute53RecoveryreadinessResourceSet_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfResourceSet_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-route-53-recovery-readiness.AwsRoute53RecoveryreadinessResourceSetConfig",
-		reflect.TypeOf((*AwsRoute53RecoveryreadinessResourceSetConfig)(nil)).Elem(),
+		"@cdktn/aws-route-53-recovery-readiness.TfResourceSetConfig",
+		reflect.TypeOf((*TfResourceSetConfig)(nil)).Elem(),
 	)
 }

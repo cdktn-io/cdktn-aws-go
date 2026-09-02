@@ -9,8 +9,125 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotAuthorizer",
-		reflect.TypeOf((*AwsIotAuthorizer)(nil)).Elem(),
+		"@cdktn/aws-iot-core.DataTfEndpoint",
+		reflect.TypeOf((*DataTfEndpoint)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointAddress", GoGetter: "EndpointAddress"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointType", GoGetter: "EndpointType"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointTypeInput", GoGetter: "EndpointTypeInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEndpointType", GoMethod: "ResetEndpointType"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfEndpoint{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-iot-core.DataTfEndpointConfig",
+		reflect.TypeOf((*DataTfEndpointConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-iot-core.DataTfRegistrationCode",
+		reflect.TypeOf((*DataTfRegistrationCode)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberProperty{JsiiProperty: "registrationCode", GoGetter: "RegistrationCode"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfRegistrationCode{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-iot-core.DataTfRegistrationCodeConfig",
+		reflect.TypeOf((*DataTfRegistrationCodeConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-iot-core.TfAuthorizer",
+		reflect.TypeOf((*TfAuthorizer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -90,18 +207,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotAuthorizer{}
+			j := jsiiProxy_TfAuthorizer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotAuthorizerConfig",
-		reflect.TypeOf((*AwsIotAuthorizerConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfAuthorizerConfig",
+		reflect.TypeOf((*TfAuthorizerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup",
-		reflect.TypeOf((*AwsIotBillingGroup)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup",
+		reflect.TypeOf((*TfBillingGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -166,18 +283,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotBillingGroup{}
+			j := jsiiProxy_TfBillingGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup.MetadataProperty",
-		reflect.TypeOf((*AwsIotBillingGroup_MetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup.MetadataProperty",
+		reflect.TypeOf((*TfBillingGroup_MetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup.MetadataPropertyList",
-		reflect.TypeOf((*AwsIotBillingGroup_MetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup.MetadataPropertyList",
+		reflect.TypeOf((*TfBillingGroup_MetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -191,14 +308,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotBillingGroup_MetadataPropertyList{}
+			j := jsiiProxy_TfBillingGroup_MetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup.MetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsIotBillingGroup_MetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup.MetadataPropertyOutputReference",
+		reflect.TypeOf((*TfBillingGroup_MetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -224,18 +341,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotBillingGroup_MetadataPropertyOutputReference{}
+			j := jsiiProxy_TfBillingGroup_MetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup.PropertiesProperty",
-		reflect.TypeOf((*AwsIotBillingGroup_PropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup.PropertiesProperty",
+		reflect.TypeOf((*TfBillingGroup_PropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup.PropertiesPropertyList",
-		reflect.TypeOf((*AwsIotBillingGroup_PropertiesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup.PropertiesPropertyList",
+		reflect.TypeOf((*TfBillingGroup_PropertiesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -250,14 +367,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotBillingGroup_PropertiesPropertyList{}
+			j := jsiiProxy_TfBillingGroup_PropertiesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotBillingGroup.PropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsIotBillingGroup_PropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroup.PropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfBillingGroup_PropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -285,18 +402,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotBillingGroup_PropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfBillingGroup_PropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotBillingGroupConfig",
-		reflect.TypeOf((*AwsIotBillingGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfBillingGroupConfig",
+		reflect.TypeOf((*TfBillingGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotCaCertificate",
-		reflect.TypeOf((*AwsIotCaCertificate)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificate",
+		reflect.TypeOf((*TfCaCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
 			_jsii_.MemberProperty{JsiiProperty: "activeInput", GoGetter: "ActiveInput"},
@@ -376,18 +493,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotCaCertificate{}
+			j := jsiiProxy_TfCaCertificate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotCaCertificate.RegistrationConfigProperty",
-		reflect.TypeOf((*AwsIotCaCertificate_RegistrationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificate.RegistrationConfigProperty",
+		reflect.TypeOf((*TfCaCertificate_RegistrationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotCaCertificate.RegistrationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsIotCaCertificate_RegistrationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificate.RegistrationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfCaCertificate_RegistrationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -421,18 +538,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotCaCertificate_RegistrationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfCaCertificate_RegistrationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotCaCertificate.ValidityProperty",
-		reflect.TypeOf((*AwsIotCaCertificate_ValidityProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificate.ValidityProperty",
+		reflect.TypeOf((*TfCaCertificate_ValidityProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotCaCertificate.ValidityPropertyList",
-		reflect.TypeOf((*AwsIotCaCertificate_ValidityPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificate.ValidityPropertyList",
+		reflect.TypeOf((*TfCaCertificate_ValidityPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -446,14 +563,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotCaCertificate_ValidityPropertyList{}
+			j := jsiiProxy_TfCaCertificate_ValidityPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotCaCertificate.ValidityPropertyOutputReference",
-		reflect.TypeOf((*AwsIotCaCertificate_ValidityPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificate.ValidityPropertyOutputReference",
+		reflect.TypeOf((*TfCaCertificate_ValidityPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -480,18 +597,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotCaCertificate_ValidityPropertyOutputReference{}
+			j := jsiiProxy_TfCaCertificate_ValidityPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotCaCertificateConfig",
-		reflect.TypeOf((*AwsIotCaCertificateConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCaCertificateConfig",
+		reflect.TypeOf((*TfCaCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotCertificate",
-		reflect.TypeOf((*AwsIotCertificate)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCertificate",
+		reflect.TypeOf((*TfCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "active", GoGetter: "Active"},
 			_jsii_.MemberProperty{JsiiProperty: "activeInput", GoGetter: "ActiveInput"},
@@ -560,18 +677,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotCertificate{}
+			j := jsiiProxy_TfCertificate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotCertificateConfig",
-		reflect.TypeOf((*AwsIotCertificateConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfCertificateConfig",
+		reflect.TypeOf((*TfCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotDomainConfiguration",
-		reflect.TypeOf((*AwsIotDomainConfiguration)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfDomainConfiguration",
+		reflect.TypeOf((*TfDomainConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -664,18 +781,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotDomainConfiguration{}
+			j := jsiiProxy_TfDomainConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotDomainConfiguration.AuthorizerConfigProperty",
-		reflect.TypeOf((*AwsIotDomainConfiguration_AuthorizerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfDomainConfiguration.AuthorizerConfigProperty",
+		reflect.TypeOf((*TfDomainConfiguration_AuthorizerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotDomainConfiguration.AuthorizerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsIotDomainConfiguration_AuthorizerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfDomainConfiguration.AuthorizerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomainConfiguration_AuthorizerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowAuthorizerOverride", GoGetter: "AllowAuthorizerOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "allowAuthorizerOverrideInput", GoGetter: "AllowAuthorizerOverrideInput"},
@@ -706,18 +823,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotDomainConfiguration_AuthorizerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomainConfiguration_AuthorizerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotDomainConfiguration.TlsConfigProperty",
-		reflect.TypeOf((*AwsIotDomainConfiguration_TlsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfDomainConfiguration.TlsConfigProperty",
+		reflect.TypeOf((*TfDomainConfiguration_TlsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotDomainConfiguration.TlsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsIotDomainConfiguration_TlsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfDomainConfiguration.TlsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomainConfiguration_TlsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -745,18 +862,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotDomainConfiguration_TlsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomainConfiguration_TlsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotDomainConfigurationConfig",
-		reflect.TypeOf((*AwsIotDomainConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfDomainConfigurationConfig",
+		reflect.TypeOf((*TfDomainConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotEventConfigurations",
-		reflect.TypeOf((*AwsIotEventConfigurations)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfEventConfigurations",
+		reflect.TypeOf((*TfEventConfigurations)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -812,18 +929,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotEventConfigurations{}
+			j := jsiiProxy_TfEventConfigurations{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotEventConfigurationsConfig",
-		reflect.TypeOf((*AwsIotEventConfigurationsConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfEventConfigurationsConfig",
+		reflect.TypeOf((*TfEventConfigurationsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration",
-		reflect.TypeOf((*AwsIotIndexingConfiguration)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration",
+		reflect.TypeOf((*TfIndexingConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -885,18 +1002,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration{}
+			j := jsiiProxy_TfIndexingConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.FilterProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.FilterProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.FilterPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.FilterPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -924,18 +1041,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_FilterPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationCustomFieldProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationCustomFieldProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationCustomFieldPropertyList",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationCustomFieldPropertyList",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -950,14 +1067,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyList{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationCustomFieldPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationCustomFieldPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -988,18 +1105,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingGroupIndexingConfigurationCustomFieldPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationManagedFieldProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationManagedFieldProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationManagedFieldPropertyList",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationManagedFieldPropertyList",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1014,14 +1131,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyList{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationManagedFieldPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationManagedFieldPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1052,18 +1169,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingGroupIndexingConfigurationManagedFieldPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingGroupIndexingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingGroupIndexingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingGroupIndexingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1098,18 +1215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingGroupIndexingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingGroupIndexingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationCustomFieldProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationCustomFieldProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationCustomFieldProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationCustomFieldProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationCustomFieldPropertyList",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationCustomFieldPropertyList",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1124,14 +1241,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyList{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationCustomFieldPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationCustomFieldPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1162,18 +1279,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingIndexingConfigurationCustomFieldPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationManagedFieldProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationManagedFieldProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationManagedFieldProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationManagedFieldProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationManagedFieldPropertyList",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationManagedFieldPropertyList",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1188,14 +1305,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyList{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationManagedFieldPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationManagedFieldPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1226,18 +1343,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingIndexingConfigurationManagedFieldPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationProperty",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationProperty",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfiguration.ThingIndexingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsIotIndexingConfiguration_ThingIndexingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfiguration.ThingIndexingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingConfiguration_ThingIndexingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1285,18 +1402,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotIndexingConfiguration_ThingIndexingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingConfiguration_ThingIndexingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotIndexingConfigurationConfig",
-		reflect.TypeOf((*AwsIotIndexingConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfIndexingConfigurationConfig",
+		reflect.TypeOf((*TfIndexingConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotLoggingOptions",
-		reflect.TypeOf((*AwsIotLoggingOptions)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfLoggingOptions",
+		reflect.TypeOf((*TfLoggingOptions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1357,18 +1474,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotLoggingOptions{}
+			j := jsiiProxy_TfLoggingOptions{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotLoggingOptionsConfig",
-		reflect.TypeOf((*AwsIotLoggingOptionsConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfLoggingOptionsConfig",
+		reflect.TypeOf((*TfLoggingOptionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotPolicy",
-		reflect.TypeOf((*AwsIotPolicy)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfPolicy",
+		reflect.TypeOf((*TfPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1438,18 +1555,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotPolicy{}
+			j := jsiiProxy_TfPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotPolicy.TimeoutsProperty",
-		reflect.TypeOf((*AwsIotPolicy_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfPolicy.TimeoutsProperty",
+		reflect.TypeOf((*TfPolicy_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotPolicy.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfPolicy.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1480,14 +1597,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotPolicy_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPolicy_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotPolicyAttachment",
-		reflect.TypeOf((*AwsIotPolicyAttachment)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfPolicyAttachment",
+		reflect.TypeOf((*TfPolicyAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1545,22 +1662,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotPolicyAttachment{}
+			j := jsiiProxy_TfPolicyAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotPolicyAttachmentConfig",
-		reflect.TypeOf((*AwsIotPolicyAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfPolicyAttachmentConfig",
+		reflect.TypeOf((*TfPolicyAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotPolicyConfig",
-		reflect.TypeOf((*AwsIotPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfPolicyConfig",
+		reflect.TypeOf((*TfPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotProvisioningTemplate",
-		reflect.TypeOf((*AwsIotProvisioningTemplate)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfProvisioningTemplate",
+		reflect.TypeOf((*TfProvisioningTemplate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1641,18 +1758,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotProvisioningTemplate{}
+			j := jsiiProxy_TfProvisioningTemplate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotProvisioningTemplate.PreProvisioningHookProperty",
-		reflect.TypeOf((*AwsIotProvisioningTemplate_PreProvisioningHookProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfProvisioningTemplate.PreProvisioningHookProperty",
+		reflect.TypeOf((*TfProvisioningTemplate_PreProvisioningHookProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotProvisioningTemplate.PreProvisioningHookPropertyOutputReference",
-		reflect.TypeOf((*AwsIotProvisioningTemplate_PreProvisioningHookPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfProvisioningTemplate.PreProvisioningHookPropertyOutputReference",
+		reflect.TypeOf((*TfProvisioningTemplate_PreProvisioningHookPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1682,18 +1799,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotProvisioningTemplate_PreProvisioningHookPropertyOutputReference{}
+			j := jsiiProxy_TfProvisioningTemplate_PreProvisioningHookPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotProvisioningTemplateConfig",
-		reflect.TypeOf((*AwsIotProvisioningTemplateConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfProvisioningTemplateConfig",
+		reflect.TypeOf((*TfProvisioningTemplateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotRoleAlias",
-		reflect.TypeOf((*AwsIotRoleAlias)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfRoleAlias",
+		reflect.TypeOf((*TfRoleAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1761,18 +1878,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotRoleAlias{}
+			j := jsiiProxy_TfRoleAlias{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotRoleAliasConfig",
-		reflect.TypeOf((*AwsIotRoleAliasConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfRoleAliasConfig",
+		reflect.TypeOf((*TfRoleAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThing",
-		reflect.TypeOf((*AwsIotThing)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThing",
+		reflect.TypeOf((*TfThing)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1837,18 +1954,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThing{}
+			j := jsiiProxy_TfThing{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingConfig",
-		reflect.TypeOf((*AwsIotThingConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingConfig",
+		reflect.TypeOf((*TfThingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup",
-		reflect.TypeOf((*AwsIotThingGroup)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup",
+		reflect.TypeOf((*TfThingGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1920,18 +2037,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup{}
+			j := jsiiProxy_TfThingGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.AttributePayloadProperty",
-		reflect.TypeOf((*AwsIotThingGroup_AttributePayloadProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.AttributePayloadProperty",
+		reflect.TypeOf((*TfThingGroup_AttributePayloadProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.AttributePayloadPropertyOutputReference",
-		reflect.TypeOf((*AwsIotThingGroup_AttributePayloadPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.AttributePayloadPropertyOutputReference",
+		reflect.TypeOf((*TfThingGroup_AttributePayloadPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributes", GoGetter: "Attributes"},
 			_jsii_.MemberProperty{JsiiProperty: "attributesInput", GoGetter: "AttributesInput"},
@@ -1959,18 +2076,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup_AttributePayloadPropertyOutputReference{}
+			j := jsiiProxy_TfThingGroup_AttributePayloadPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.MetadataProperty",
-		reflect.TypeOf((*AwsIotThingGroup_MetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.MetadataProperty",
+		reflect.TypeOf((*TfThingGroup_MetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.MetadataPropertyList",
-		reflect.TypeOf((*AwsIotThingGroup_MetadataPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.MetadataPropertyList",
+		reflect.TypeOf((*TfThingGroup_MetadataPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1984,14 +2101,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup_MetadataPropertyList{}
+			j := jsiiProxy_TfThingGroup_MetadataPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.MetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsIotThingGroup_MetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.MetadataPropertyOutputReference",
+		reflect.TypeOf((*TfThingGroup_MetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2019,18 +2136,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup_MetadataPropertyOutputReference{}
+			j := jsiiProxy_TfThingGroup_MetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.PropertiesProperty",
-		reflect.TypeOf((*AwsIotThingGroup_PropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.PropertiesProperty",
+		reflect.TypeOf((*TfThingGroup_PropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.PropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsIotThingGroup_PropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.PropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfThingGroup_PropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributePayload", GoGetter: "AttributePayload"},
 			_jsii_.MemberProperty{JsiiProperty: "attributePayloadInput", GoGetter: "AttributePayloadInput"},
@@ -2062,18 +2179,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup_PropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfThingGroup_PropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.RootToParentGroupsProperty",
-		reflect.TypeOf((*AwsIotThingGroup_RootToParentGroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.RootToParentGroupsProperty",
+		reflect.TypeOf((*TfThingGroup_RootToParentGroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.RootToParentGroupsPropertyList",
-		reflect.TypeOf((*AwsIotThingGroup_RootToParentGroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.RootToParentGroupsPropertyList",
+		reflect.TypeOf((*TfThingGroup_RootToParentGroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2087,14 +2204,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup_RootToParentGroupsPropertyList{}
+			j := jsiiProxy_TfThingGroup_RootToParentGroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroup.RootToParentGroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotThingGroup_RootToParentGroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroup.RootToParentGroupsPropertyOutputReference",
+		reflect.TypeOf((*TfThingGroup_RootToParentGroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2121,18 +2238,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroup_RootToParentGroupsPropertyOutputReference{}
+			j := jsiiProxy_TfThingGroup_RootToParentGroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingGroupConfig",
-		reflect.TypeOf((*AwsIotThingGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroupConfig",
+		reflect.TypeOf((*TfThingGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingGroupMembership",
-		reflect.TypeOf((*AwsIotThingGroupMembership)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroupMembership",
+		reflect.TypeOf((*TfThingGroupMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2193,18 +2310,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingGroupMembership{}
+			j := jsiiProxy_TfThingGroupMembership{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingGroupMembershipConfig",
-		reflect.TypeOf((*AwsIotThingGroupMembershipConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingGroupMembershipConfig",
+		reflect.TypeOf((*TfThingGroupMembershipConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingPrincipalAttachment",
-		reflect.TypeOf((*AwsIotThingPrincipalAttachment)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingPrincipalAttachment",
+		reflect.TypeOf((*TfThingPrincipalAttachment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2265,18 +2382,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingPrincipalAttachment{}
+			j := jsiiProxy_TfThingPrincipalAttachment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingPrincipalAttachmentConfig",
-		reflect.TypeOf((*AwsIotThingPrincipalAttachmentConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingPrincipalAttachmentConfig",
+		reflect.TypeOf((*TfThingPrincipalAttachmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingType",
-		reflect.TypeOf((*AwsIotThingType)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingType",
+		reflect.TypeOf((*TfThingType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2346,18 +2463,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingType{}
+			j := jsiiProxy_TfThingType{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingType.PropertiesProperty",
-		reflect.TypeOf((*AwsIotThingType_PropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingType.PropertiesProperty",
+		reflect.TypeOf((*TfThingType_PropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotThingType.PropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsIotThingType_PropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingType.PropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfThingType_PropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2388,18 +2505,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotThingType_PropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfThingType_PropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotThingTypeConfig",
-		reflect.TypeOf((*AwsIotThingTypeConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfThingTypeConfig",
+		reflect.TypeOf((*TfThingTypeConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule",
-		reflect.TypeOf((*AwsIotTopicRule)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule",
+		reflect.TypeOf((*TfTopicRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2551,18 +2668,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule{}
+			j := jsiiProxy_TfTopicRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchAlarmProperty",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchAlarmProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchAlarmProperty",
+		reflect.TypeOf((*TfTopicRule_CloudwatchAlarmProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchAlarmPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchAlarmPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchAlarmPropertyList",
+		reflect.TypeOf((*TfTopicRule_CloudwatchAlarmPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2577,14 +2694,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_CloudwatchAlarmPropertyList{}
+			j := jsiiProxy_TfTopicRule_CloudwatchAlarmPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchAlarmPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchAlarmPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchAlarmPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_CloudwatchAlarmPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmName", GoGetter: "AlarmName"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmNameInput", GoGetter: "AlarmNameInput"},
@@ -2617,18 +2734,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_CloudwatchAlarmPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_CloudwatchAlarmPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchLogsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchLogsProperty",
+		reflect.TypeOf((*TfTopicRule_CloudwatchLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchLogsPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchLogsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchLogsPropertyList",
+		reflect.TypeOf((*TfTopicRule_CloudwatchLogsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2643,14 +2760,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_CloudwatchLogsPropertyList{}
+			j := jsiiProxy_TfTopicRule_CloudwatchLogsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchLogsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -2682,18 +2799,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_CloudwatchLogsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_CloudwatchLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchMetricProperty",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchMetricProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchMetricProperty",
+		reflect.TypeOf((*TfTopicRule_CloudwatchMetricProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchMetricPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchMetricPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchMetricPropertyList",
+		reflect.TypeOf((*TfTopicRule_CloudwatchMetricPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2708,14 +2825,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_CloudwatchMetricPropertyList{}
+			j := jsiiProxy_TfTopicRule_CloudwatchMetricPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.CloudwatchMetricPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_CloudwatchMetricPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.CloudwatchMetricPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_CloudwatchMetricPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2753,18 +2870,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_CloudwatchMetricPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_CloudwatchMetricPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.DynamodbProperty",
-		reflect.TypeOf((*AwsIotTopicRule_DynamodbProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.DynamodbProperty",
+		reflect.TypeOf((*TfTopicRule_DynamodbProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.DynamodbPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_DynamodbPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.DynamodbPropertyList",
+		reflect.TypeOf((*TfTopicRule_DynamodbPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2779,14 +2896,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_DynamodbPropertyList{}
+			j := jsiiProxy_TfTopicRule_DynamodbPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.DynamodbPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_DynamodbPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.DynamodbPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_DynamodbPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2837,18 +2954,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_DynamodbPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_DynamodbPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.Dynamodbv2Property",
-		reflect.TypeOf((*AwsIotTopicRule_Dynamodbv2Property)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.Dynamodbv2Property",
+		reflect.TypeOf((*TfTopicRule_Dynamodbv2Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.Dynamodbv2PropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_Dynamodbv2PropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.Dynamodbv2PropertyList",
+		reflect.TypeOf((*TfTopicRule_Dynamodbv2PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2863,14 +2980,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_Dynamodbv2PropertyList{}
+			j := jsiiProxy_TfTopicRule_Dynamodbv2PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.Dynamodbv2PropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_Dynamodbv2PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.Dynamodbv2PropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_Dynamodbv2PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2901,18 +3018,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_Dynamodbv2PropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_Dynamodbv2PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.Dynamodbv2PutItemProperty",
-		reflect.TypeOf((*AwsIotTopicRule_Dynamodbv2PutItemProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.Dynamodbv2PutItemProperty",
+		reflect.TypeOf((*TfTopicRule_Dynamodbv2PutItemProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.Dynamodbv2PutItemPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_Dynamodbv2PutItemPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.Dynamodbv2PutItemPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_Dynamodbv2PutItemPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2939,18 +3056,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_Dynamodbv2PutItemPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_Dynamodbv2PutItemPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ElasticsearchProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ElasticsearchProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ElasticsearchProperty",
+		reflect.TypeOf((*TfTopicRule_ElasticsearchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ElasticsearchPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_ElasticsearchPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ElasticsearchPropertyList",
+		reflect.TypeOf((*TfTopicRule_ElasticsearchPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2965,14 +3082,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ElasticsearchPropertyList{}
+			j := jsiiProxy_TfTopicRule_ElasticsearchPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ElasticsearchPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ElasticsearchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ElasticsearchPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ElasticsearchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3007,18 +3124,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ElasticsearchPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ElasticsearchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionCloudwatchAlarmProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionCloudwatchAlarmProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionCloudwatchAlarmProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionCloudwatchAlarmProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionCloudwatchAlarmPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionCloudwatchAlarmPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionCloudwatchAlarmPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionCloudwatchAlarmPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmName", GoGetter: "AlarmName"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmNameInput", GoGetter: "AlarmNameInput"},
@@ -3051,18 +3168,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionCloudwatchAlarmPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionCloudwatchAlarmPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionCloudwatchLogsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionCloudwatchLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionCloudwatchLogsProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionCloudwatchLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionCloudwatchLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionCloudwatchLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionCloudwatchLogsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionCloudwatchLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -3094,18 +3211,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionCloudwatchLogsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionCloudwatchLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionCloudwatchMetricProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionCloudwatchMetricProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionCloudwatchMetricProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionCloudwatchMetricProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionCloudwatchMetricPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionCloudwatchMetricPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionCloudwatchMetricPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionCloudwatchMetricPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3143,18 +3260,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionCloudwatchMetricPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionCloudwatchMetricPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionDynamodbProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionDynamodbProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionDynamodbProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionDynamodbProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionDynamodbPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionDynamodbPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionDynamodbPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionDynamodbPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3205,18 +3322,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionDynamodbPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionDynamodbPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionDynamodbv2Property",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionDynamodbv2Property)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionDynamodbv2Property",
+		reflect.TypeOf((*TfTopicRule_ErrorActionDynamodbv2Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionDynamodbv2PropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionDynamodbv2PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionDynamodbv2PropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionDynamodbv2PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3247,18 +3364,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionDynamodbv2PropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionDynamodbv2PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionDynamodbv2PutItemProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionDynamodbv2PutItemProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionDynamodbv2PutItemProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionDynamodbv2PutItemProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionDynamodbv2PutItemPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionDynamodbv2PutItemPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionDynamodbv2PutItemPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionDynamodbv2PutItemPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3285,18 +3402,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionDynamodbv2PutItemPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionDynamodbv2PutItemPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionElasticsearchProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionElasticsearchProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionElasticsearchProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionElasticsearchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionElasticsearchPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionElasticsearchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionElasticsearchPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionElasticsearchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3331,18 +3448,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionElasticsearchPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionElasticsearchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionFirehoseProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionFirehoseProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionFirehoseProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionFirehoseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionFirehosePropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionFirehosePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionFirehosePropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionFirehosePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -3377,18 +3494,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionFirehosePropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionFirehosePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionHttpHttpHeaderProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionHttpHttpHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionHttpHttpHeaderProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionHttpHttpHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionHttpHttpHeaderPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionHttpHttpHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionHttpHttpHeaderPropertyList",
+		reflect.TypeOf((*TfTopicRule_ErrorActionHttpHttpHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3403,14 +3520,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionHttpHttpHeaderPropertyList{}
+			j := jsiiProxy_TfTopicRule_ErrorActionHttpHttpHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionHttpHttpHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionHttpHttpHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionHttpHttpHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionHttpHttpHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3439,18 +3556,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionHttpHttpHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionHttpHttpHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionHttpProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionHttpProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionHttpProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionHttpProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionHttpPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionHttpPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionHttpPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionHttpPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3484,18 +3601,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlInput", GoGetter: "UrlInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionHttpPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionHttpPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionIotAnalyticsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionIotAnalyticsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionIotAnalyticsProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionIotAnalyticsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionIotAnalyticsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionIotAnalyticsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionIotAnalyticsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionIotAnalyticsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -3527,18 +3644,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionIotAnalyticsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionIotAnalyticsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionIotEventsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionIotEventsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionIotEventsProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionIotEventsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionIotEventsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionIotEventsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionIotEventsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionIotEventsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -3573,18 +3690,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionIotEventsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionIotEventsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKafkaHeaderProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKafkaHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKafkaHeaderProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKafkaHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKafkaHeaderPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKafkaHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKafkaHeaderPropertyList",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKafkaHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3599,14 +3716,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionKafkaHeaderPropertyList{}
+			j := jsiiProxy_TfTopicRule_ErrorActionKafkaHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKafkaHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKafkaHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKafkaHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKafkaHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3635,18 +3752,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionKafkaHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionKafkaHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKafkaProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKafkaProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKafkaProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKafkaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKafkaPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKafkaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKafkaPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKafkaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientProperties", GoGetter: "ClientProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "clientPropertiesInput", GoGetter: "ClientPropertiesInput"},
@@ -3687,18 +3804,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionKafkaPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionKafkaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKinesisProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKinesisProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKinesisProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKinesisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionKinesisPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionKinesisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionKinesisPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionKinesisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3730,18 +3847,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionKinesisPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionKinesisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionLambdaProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionLambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionLambdaProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionLambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionLambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionLambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionLambdaPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionLambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3768,18 +3885,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionLambdaPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionLambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchAlarm", GoGetter: "CloudwatchAlarm"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchAlarmInput", GoGetter: "CloudwatchAlarmInput"},
@@ -3880,18 +3997,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionRepublishProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionRepublishProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionRepublishProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionRepublishProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionRepublishPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionRepublishPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionRepublishPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionRepublishPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3923,18 +4040,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionRepublishPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionRepublishPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionS3Property",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionS3Property)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionS3Property",
+		reflect.TypeOf((*TfTopicRule_ErrorActionS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionS3PropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionS3PropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3968,18 +4085,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionS3PropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionSnsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionSnsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionSnsProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionSnsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionSnsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionSnsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionSnsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionSnsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4011,18 +4128,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionSnsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionSnsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionSqsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionSqsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionSqsProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionSqsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionSqsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionSqsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionSqsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionSqsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4053,18 +4170,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useBase64Input", GoGetter: "UseBase64Input"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionSqsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionSqsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionStepFunctionsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionStepFunctionsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionStepFunctionsProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionStepFunctionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionStepFunctionsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionStepFunctionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionStepFunctionsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionStepFunctionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4096,18 +4213,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionStepFunctionsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionStepFunctionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamDimensionProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamDimensionProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamDimensionProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamDimensionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamDimensionPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamDimensionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamDimensionPropertyList",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamDimensionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4122,14 +4239,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionTimestreamDimensionPropertyList{}
+			j := jsiiProxy_TfTopicRule_ErrorActionTimestreamDimensionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamDimensionPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamDimensionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamDimensionPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamDimensionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4158,18 +4275,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionTimestreamDimensionPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionTimestreamDimensionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4207,18 +4324,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionTimestreamPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionTimestreamPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamTimestampProperty",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamTimestampProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamTimestampProperty",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamTimestampProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.ErrorActionTimestreamTimestampPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_ErrorActionTimestreamTimestampPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.ErrorActionTimestreamTimestampPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_ErrorActionTimestreamTimestampPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4247,18 +4364,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_ErrorActionTimestreamTimestampPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_ErrorActionTimestreamTimestampPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.FirehoseProperty",
-		reflect.TypeOf((*AwsIotTopicRule_FirehoseProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.FirehoseProperty",
+		reflect.TypeOf((*TfTopicRule_FirehoseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.FirehosePropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_FirehosePropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.FirehosePropertyList",
+		reflect.TypeOf((*TfTopicRule_FirehosePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4273,14 +4390,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_FirehosePropertyList{}
+			j := jsiiProxy_TfTopicRule_FirehosePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.FirehosePropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_FirehosePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.FirehosePropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_FirehosePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -4315,18 +4432,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_FirehosePropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_FirehosePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.HttpHttpHeaderProperty",
-		reflect.TypeOf((*AwsIotTopicRule_HttpHttpHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.HttpHttpHeaderProperty",
+		reflect.TypeOf((*TfTopicRule_HttpHttpHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.HttpHttpHeaderPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_HttpHttpHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.HttpHttpHeaderPropertyList",
+		reflect.TypeOf((*TfTopicRule_HttpHttpHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4341,14 +4458,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_HttpHttpHeaderPropertyList{}
+			j := jsiiProxy_TfTopicRule_HttpHttpHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.HttpHttpHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_HttpHttpHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.HttpHttpHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_HttpHttpHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4377,18 +4494,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_HttpHttpHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_HttpHttpHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.HttpProperty",
-		reflect.TypeOf((*AwsIotTopicRule_HttpProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.HttpProperty",
+		reflect.TypeOf((*TfTopicRule_HttpProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.HttpPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_HttpPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.HttpPropertyList",
+		reflect.TypeOf((*TfTopicRule_HttpPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4403,14 +4520,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_HttpPropertyList{}
+			j := jsiiProxy_TfTopicRule_HttpPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.HttpPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_HttpPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.HttpPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_HttpPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4444,18 +4561,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlInput", GoGetter: "UrlInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_HttpPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_HttpPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.IotAnalyticsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_IotAnalyticsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.IotAnalyticsProperty",
+		reflect.TypeOf((*TfTopicRule_IotAnalyticsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.IotAnalyticsPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_IotAnalyticsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.IotAnalyticsPropertyList",
+		reflect.TypeOf((*TfTopicRule_IotAnalyticsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4470,14 +4587,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_IotAnalyticsPropertyList{}
+			j := jsiiProxy_TfTopicRule_IotAnalyticsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.IotAnalyticsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_IotAnalyticsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.IotAnalyticsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_IotAnalyticsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -4509,18 +4626,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_IotAnalyticsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_IotAnalyticsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.IotEventsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_IotEventsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.IotEventsProperty",
+		reflect.TypeOf((*TfTopicRule_IotEventsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.IotEventsPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_IotEventsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.IotEventsPropertyList",
+		reflect.TypeOf((*TfTopicRule_IotEventsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4535,14 +4652,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_IotEventsPropertyList{}
+			j := jsiiProxy_TfTopicRule_IotEventsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.IotEventsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_IotEventsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.IotEventsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_IotEventsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "batchMode", GoGetter: "BatchMode"},
 			_jsii_.MemberProperty{JsiiProperty: "batchModeInput", GoGetter: "BatchModeInput"},
@@ -4577,18 +4694,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_IotEventsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_IotEventsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KafkaHeaderProperty",
-		reflect.TypeOf((*AwsIotTopicRule_KafkaHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KafkaHeaderProperty",
+		reflect.TypeOf((*TfTopicRule_KafkaHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KafkaHeaderPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_KafkaHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KafkaHeaderPropertyList",
+		reflect.TypeOf((*TfTopicRule_KafkaHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4603,14 +4720,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_KafkaHeaderPropertyList{}
+			j := jsiiProxy_TfTopicRule_KafkaHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KafkaHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_KafkaHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KafkaHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_KafkaHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4639,18 +4756,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_KafkaHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_KafkaHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KafkaProperty",
-		reflect.TypeOf((*AwsIotTopicRule_KafkaProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KafkaProperty",
+		reflect.TypeOf((*TfTopicRule_KafkaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KafkaPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_KafkaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KafkaPropertyList",
+		reflect.TypeOf((*TfTopicRule_KafkaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4665,14 +4782,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_KafkaPropertyList{}
+			j := jsiiProxy_TfTopicRule_KafkaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KafkaPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_KafkaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KafkaPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_KafkaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientProperties", GoGetter: "ClientProperties"},
 			_jsii_.MemberProperty{JsiiProperty: "clientPropertiesInput", GoGetter: "ClientPropertiesInput"},
@@ -4713,18 +4830,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_KafkaPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_KafkaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KinesisProperty",
-		reflect.TypeOf((*AwsIotTopicRule_KinesisProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KinesisProperty",
+		reflect.TypeOf((*TfTopicRule_KinesisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KinesisPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_KinesisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KinesisPropertyList",
+		reflect.TypeOf((*TfTopicRule_KinesisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4739,14 +4856,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_KinesisPropertyList{}
+			j := jsiiProxy_TfTopicRule_KinesisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.KinesisPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_KinesisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.KinesisPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_KinesisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4778,18 +4895,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_KinesisPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_KinesisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.LambdaProperty",
-		reflect.TypeOf((*AwsIotTopicRule_LambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.LambdaProperty",
+		reflect.TypeOf((*TfTopicRule_LambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.LambdaPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_LambdaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.LambdaPropertyList",
+		reflect.TypeOf((*TfTopicRule_LambdaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4804,14 +4921,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_LambdaPropertyList{}
+			j := jsiiProxy_TfTopicRule_LambdaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.LambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_LambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.LambdaPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_LambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4838,18 +4955,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_LambdaPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_LambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.RepublishProperty",
-		reflect.TypeOf((*AwsIotTopicRule_RepublishProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.RepublishProperty",
+		reflect.TypeOf((*TfTopicRule_RepublishProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.RepublishPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_RepublishPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.RepublishPropertyList",
+		reflect.TypeOf((*TfTopicRule_RepublishPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4864,14 +4981,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_RepublishPropertyList{}
+			j := jsiiProxy_TfTopicRule_RepublishPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.RepublishPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_RepublishPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.RepublishPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_RepublishPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4903,18 +5020,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_RepublishPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_RepublishPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.S3Property",
-		reflect.TypeOf((*AwsIotTopicRule_S3Property)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.S3Property",
+		reflect.TypeOf((*TfTopicRule_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.S3PropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_S3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.S3PropertyList",
+		reflect.TypeOf((*TfTopicRule_S3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4929,14 +5046,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_S3PropertyList{}
+			j := jsiiProxy_TfTopicRule_S3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.S3PropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -4970,18 +5087,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_S3PropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.SnsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_SnsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.SnsProperty",
+		reflect.TypeOf((*TfTopicRule_SnsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.SnsPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_SnsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.SnsPropertyList",
+		reflect.TypeOf((*TfTopicRule_SnsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4996,14 +5113,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_SnsPropertyList{}
+			j := jsiiProxy_TfTopicRule_SnsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.SnsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_SnsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.SnsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_SnsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5035,18 +5152,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_SnsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_SnsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.SqsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_SqsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.SqsProperty",
+		reflect.TypeOf((*TfTopicRule_SqsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.SqsPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_SqsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.SqsPropertyList",
+		reflect.TypeOf((*TfTopicRule_SqsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5061,14 +5178,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_SqsPropertyList{}
+			j := jsiiProxy_TfTopicRule_SqsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.SqsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_SqsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.SqsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_SqsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5099,18 +5216,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useBase64Input", GoGetter: "UseBase64Input"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_SqsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_SqsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.StepFunctionsProperty",
-		reflect.TypeOf((*AwsIotTopicRule_StepFunctionsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.StepFunctionsProperty",
+		reflect.TypeOf((*TfTopicRule_StepFunctionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.StepFunctionsPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_StepFunctionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.StepFunctionsPropertyList",
+		reflect.TypeOf((*TfTopicRule_StepFunctionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5125,14 +5242,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_StepFunctionsPropertyList{}
+			j := jsiiProxy_TfTopicRule_StepFunctionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.StepFunctionsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_StepFunctionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.StepFunctionsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_StepFunctionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5164,18 +5281,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_StepFunctionsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_StepFunctionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamDimensionProperty",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamDimensionProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamDimensionProperty",
+		reflect.TypeOf((*TfTopicRule_TimestreamDimensionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamDimensionPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamDimensionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamDimensionPropertyList",
+		reflect.TypeOf((*TfTopicRule_TimestreamDimensionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5190,14 +5307,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_TimestreamDimensionPropertyList{}
+			j := jsiiProxy_TfTopicRule_TimestreamDimensionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamDimensionPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamDimensionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamDimensionPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_TimestreamDimensionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5226,18 +5343,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_TimestreamDimensionPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_TimestreamDimensionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamProperty",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamProperty",
+		reflect.TypeOf((*TfTopicRule_TimestreamProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamPropertyList",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamPropertyList",
+		reflect.TypeOf((*TfTopicRule_TimestreamPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5252,14 +5369,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_TimestreamPropertyList{}
+			j := jsiiProxy_TfTopicRule_TimestreamPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_TimestreamPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5297,18 +5414,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_TimestreamPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_TimestreamPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamTimestampProperty",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamTimestampProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamTimestampProperty",
+		reflect.TypeOf((*TfTopicRule_TimestreamTimestampProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRule.TimestreamTimestampPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRule_TimestreamTimestampPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRule.TimestreamTimestampPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRule_TimestreamTimestampPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5337,18 +5454,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRule_TimestreamTimestampPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRule_TimestreamTimestampPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleConfig",
-		reflect.TypeOf((*AwsIotTopicRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleConfig",
+		reflect.TypeOf((*TfTopicRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleDestination",
-		reflect.TypeOf((*AwsIotTopicRuleDestination)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleDestination",
+		reflect.TypeOf((*TfTopicRuleDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -5413,18 +5530,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRuleDestination{}
+			j := jsiiProxy_TfTopicRuleDestination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleDestination.TimeoutsProperty",
-		reflect.TypeOf((*AwsIotTopicRuleDestination_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleDestination.TimeoutsProperty",
+		reflect.TypeOf((*TfTopicRuleDestination_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleDestination.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRuleDestination_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleDestination.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRuleDestination_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5458,18 +5575,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRuleDestination_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRuleDestination_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleDestination.VpcConfigurationProperty",
-		reflect.TypeOf((*AwsIotTopicRuleDestination_VpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleDestination.VpcConfigurationProperty",
+		reflect.TypeOf((*TfTopicRuleDestination_VpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleDestination.VpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsIotTopicRuleDestination_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleDestination.VpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfTopicRuleDestination_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5503,130 +5620,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIotTopicRuleDestination_VpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfTopicRuleDestination_VpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.AwsIotTopicRuleDestinationConfig",
-		reflect.TypeOf((*AwsIotTopicRuleDestinationConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.DataAwsIotEndpoint",
-		reflect.TypeOf((*DataAwsIotEndpoint)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "endpointAddress", GoGetter: "EndpointAddress"},
-			_jsii_.MemberProperty{JsiiProperty: "endpointType", GoGetter: "EndpointType"},
-			_jsii_.MemberProperty{JsiiProperty: "endpointTypeInput", GoGetter: "EndpointTypeInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEndpointType", GoMethod: "ResetEndpointType"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsIotEndpoint{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.DataAwsIotEndpointConfig",
-		reflect.TypeOf((*DataAwsIotEndpointConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-iot-core.DataAwsIotRegistrationCode",
-		reflect.TypeOf((*DataAwsIotRegistrationCode)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberProperty{JsiiProperty: "registrationCode", GoGetter: "RegistrationCode"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsIotRegistrationCode{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-iot-core.DataAwsIotRegistrationCodeConfig",
-		reflect.TypeOf((*DataAwsIotRegistrationCodeConfig)(nil)).Elem(),
+		"@cdktn/aws-iot-core.TfTopicRuleDestinationConfig",
+		reflect.TypeOf((*TfTopicRuleDestinationConfig)(nil)).Elem(),
 	)
 }

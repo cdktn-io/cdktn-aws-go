@@ -9,8 +9,67 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.DataTfDeliveryStream",
+		reflect.TypeOf((*DataTfDeliveryStream)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDeliveryStream{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-kinesis-firehose.DataTfDeliveryStreamConfig",
+		reflect.TypeOf((*DataTfDeliveryStreamConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream",
+		reflect.TypeOf((*TfDeliveryStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -135,18 +194,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream{}
+			j := jsiiProxy_TfDeliveryStream{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.AuthenticationConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_AuthenticationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.AuthenticationConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_AuthenticationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.AuthenticationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_AuthenticationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.AuthenticationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_AuthenticationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -175,18 +234,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_AuthenticationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_AuthenticationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.CommonAttributesProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_CommonAttributesProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.CommonAttributesProperty",
+		reflect.TypeOf((*TfDeliveryStream_CommonAttributesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.CommonAttributesPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_CommonAttributesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.CommonAttributesPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_CommonAttributesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -201,14 +260,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_CommonAttributesPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_CommonAttributesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.CommonAttributesPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_CommonAttributesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.CommonAttributesPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_CommonAttributesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -237,18 +296,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_CommonAttributesPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_CommonAttributesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DataFormatConversionConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DataFormatConversionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DataFormatConversionConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_DataFormatConversionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DataFormatConversionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DataFormatConversionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DataFormatConversionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_DataFormatConversionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -285,18 +344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_DataFormatConversionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_DataFormatConversionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DeserializerProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DeserializerProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DeserializerProperty",
+		reflect.TypeOf((*TfDeliveryStream_DeserializerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DeserializerPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DeserializerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DeserializerPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_DeserializerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -329,18 +388,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_DeserializerPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_DeserializerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DestinationTableConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DestinationTableConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DestinationTableConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_DestinationTableConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DestinationTableConfigurationPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DestinationTableConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DestinationTableConfigurationPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_DestinationTableConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -355,14 +414,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_DestinationTableConfigurationPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_DestinationTableConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DestinationTableConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DestinationTableConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DestinationTableConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_DestinationTableConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -397,18 +456,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uniqueKeysInput", GoGetter: "UniqueKeysInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_DestinationTableConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_DestinationTableConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DocumentIdOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DocumentIdOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DocumentIdOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_DocumentIdOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DocumentIdOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DocumentIdOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DocumentIdOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_DocumentIdOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -435,18 +494,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_DocumentIdOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_DocumentIdOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DynamicPartitioningConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DynamicPartitioningConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DynamicPartitioningConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_DynamicPartitioningConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.DynamicPartitioningConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_DynamicPartitioningConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.DynamicPartitioningConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_DynamicPartitioningConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -477,18 +536,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_DynamicPartitioningConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_DynamicPartitioningConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -522,18 +581,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -548,14 +607,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -584,18 +643,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -610,14 +669,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -648,18 +707,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -691,18 +750,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bufferingInterval", GoGetter: "BufferingInterval"},
 			_jsii_.MemberProperty{JsiiProperty: "bufferingIntervalInput", GoGetter: "BufferingIntervalInput"},
@@ -770,18 +829,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -815,18 +874,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -877,18 +936,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationVpcConfigProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationVpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationVpcConfigProperty",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationVpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ElasticsearchConfigurationVpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationVpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ElasticsearchConfigurationVpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ElasticsearchConfigurationVpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -920,18 +979,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ElasticsearchConfigurationVpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ElasticsearchConfigurationVpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -965,18 +1024,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -991,14 +1050,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1027,18 +1086,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1053,14 +1112,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1091,18 +1150,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1134,18 +1193,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -1221,18 +1280,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1266,18 +1325,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ExtendedS3ConfigurationS3BackupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -1328,18 +1387,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ExtendedS3ConfigurationS3BackupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HiveJsonSerDeProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HiveJsonSerDeProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HiveJsonSerDeProperty",
+		reflect.TypeOf((*TfDeliveryStream_HiveJsonSerDeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HiveJsonSerDePropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HiveJsonSerDePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HiveJsonSerDePropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HiveJsonSerDePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1367,18 +1426,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HiveJsonSerDePropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HiveJsonSerDePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1412,18 +1471,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1438,14 +1497,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1474,18 +1533,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1500,14 +1559,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1538,18 +1597,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1581,18 +1640,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyInput", GoGetter: "AccessKeyInput"},
@@ -1659,18 +1718,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "urlInput", GoGetter: "UrlInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1704,18 +1763,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -1766,18 +1825,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationSecretsManagerConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationSecretsManagerConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1811,18 +1870,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_HttpEndpointConfigurationSecretsManagerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1856,18 +1915,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1882,14 +1941,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1918,18 +1977,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1944,14 +2003,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1982,18 +2041,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2025,18 +2084,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appendOnly", GoGetter: "AppendOnly"},
 			_jsii_.MemberProperty{JsiiProperty: "appendOnlyInput", GoGetter: "AppendOnlyInput"},
@@ -2095,18 +2154,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2140,18 +2199,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.IcebergConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_IcebergConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.IcebergConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_IcebergConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -2202,18 +2261,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_IcebergConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.InputFormatConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_InputFormatConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.InputFormatConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_InputFormatConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.InputFormatConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_InputFormatConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.InputFormatConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_InputFormatConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2241,18 +2300,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_InputFormatConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_InputFormatConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.KinesisSourceConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_KinesisSourceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.KinesisSourceConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_KinesisSourceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.KinesisSourceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_KinesisSourceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.KinesisSourceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_KinesisSourceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2281,18 +2340,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_KinesisSourceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_KinesisSourceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.MskSourceConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_MskSourceConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.MskSourceConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_MskSourceConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.MskSourceConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_MskSourceConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.MskSourceConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_MskSourceConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationConfiguration", GoGetter: "AuthenticationConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "authenticationConfigurationInput", GoGetter: "AuthenticationConfigurationInput"},
@@ -2327,18 +2386,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_MskSourceConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_MskSourceConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpenXJsonSerDeProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpenXJsonSerDeProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpenXJsonSerDeProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpenXJsonSerDeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpenXJsonSerDePropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpenXJsonSerDePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpenXJsonSerDePropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpenXJsonSerDePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caseInsensitive", GoGetter: "CaseInsensitive"},
 			_jsii_.MemberProperty{JsiiProperty: "caseInsensitiveInput", GoGetter: "CaseInsensitiveInput"},
@@ -2372,18 +2431,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpenXJsonSerDePropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpenXJsonSerDePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2417,18 +2476,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2443,14 +2502,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2479,18 +2538,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2505,14 +2564,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2543,18 +2602,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2586,18 +2645,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bufferingInterval", GoGetter: "BufferingInterval"},
 			_jsii_.MemberProperty{JsiiProperty: "bufferingIntervalInput", GoGetter: "BufferingIntervalInput"},
@@ -2669,18 +2728,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2714,18 +2773,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -2776,18 +2835,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationVpcConfigProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationVpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationVpcConfigProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationVpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchConfigurationVpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationVpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchConfigurationVpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchConfigurationVpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2819,18 +2878,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchConfigurationVpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchConfigurationVpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2864,18 +2923,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2890,14 +2949,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2926,18 +2985,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2952,14 +3011,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2990,18 +3049,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3033,18 +3092,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bufferingInterval", GoGetter: "BufferingInterval"},
 			_jsii_.MemberProperty{JsiiProperty: "bufferingIntervalInput", GoGetter: "BufferingIntervalInput"},
@@ -3102,18 +3161,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigInput", GoGetter: "VpcConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3147,18 +3206,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -3209,18 +3268,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationVpcConfigProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationVpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationVpcConfigProperty",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationVpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OpensearchserverlessConfigurationVpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationVpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OpensearchserverlessConfigurationVpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OpensearchserverlessConfigurationVpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3252,18 +3311,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OpensearchserverlessConfigurationVpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OpensearchserverlessConfigurationVpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OrcSerDeProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OrcSerDeProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OrcSerDeProperty",
+		reflect.TypeOf((*TfDeliveryStream_OrcSerDeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OrcSerDePropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OrcSerDePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OrcSerDePropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OrcSerDePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blockSizeBytes", GoGetter: "BlockSizeBytes"},
 			_jsii_.MemberProperty{JsiiProperty: "blockSizeBytesInput", GoGetter: "BlockSizeBytesInput"},
@@ -3318,18 +3377,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OrcSerDePropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OrcSerDePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OutputFormatConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OutputFormatConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OutputFormatConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_OutputFormatConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.OutputFormatConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_OutputFormatConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.OutputFormatConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_OutputFormatConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3357,18 +3416,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_OutputFormatConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_OutputFormatConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ParquetSerDeProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ParquetSerDeProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ParquetSerDeProperty",
+		reflect.TypeOf((*TfDeliveryStream_ParquetSerDeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ParquetSerDePropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ParquetSerDePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ParquetSerDePropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ParquetSerDePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "blockSizeBytes", GoGetter: "BlockSizeBytes"},
 			_jsii_.MemberProperty{JsiiProperty: "blockSizeBytesInput", GoGetter: "BlockSizeBytesInput"},
@@ -3411,18 +3470,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writerVersionInput", GoGetter: "WriterVersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ParquetSerDePropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ParquetSerDePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3456,18 +3515,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3482,14 +3541,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3518,18 +3577,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3544,14 +3603,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3582,18 +3641,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3625,18 +3684,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLoggingOptions", GoGetter: "CloudwatchLoggingOptions"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLoggingOptionsInput", GoGetter: "CloudwatchLoggingOptionsInput"},
@@ -3704,18 +3763,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3749,18 +3808,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationS3BackupConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3BackupConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3BackupConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3BackupConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3BackupConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3BackupConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -3811,18 +3870,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationS3BackupConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3856,18 +3915,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -3918,18 +3977,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationSecretsManagerConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationSecretsManagerConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RedshiftConfigurationSecretsManagerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RedshiftConfigurationSecretsManagerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RedshiftConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3963,18 +4022,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RedshiftConfigurationSecretsManagerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RedshiftConfigurationSecretsManagerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RequestConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RequestConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RequestConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_RequestConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.RequestConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_RequestConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.RequestConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_RequestConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "commonAttributes", GoGetter: "CommonAttributes"},
 			_jsii_.MemberProperty{JsiiProperty: "commonAttributesInput", GoGetter: "CommonAttributesInput"},
@@ -4006,18 +4065,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_RequestConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_RequestConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SchemaConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SchemaConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SchemaConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SchemaConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SchemaConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SchemaConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SchemaConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SchemaConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "catalogId", GoGetter: "CatalogId"},
 			_jsii_.MemberProperty{JsiiProperty: "catalogIdInput", GoGetter: "CatalogIdInput"},
@@ -4057,18 +4116,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionIdInput", GoGetter: "VersionIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SchemaConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SchemaConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SerializerProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SerializerProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SerializerProperty",
+		reflect.TypeOf((*TfDeliveryStream_SerializerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SerializerPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SerializerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SerializerPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SerializerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4101,18 +4160,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SerializerPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SerializerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ServerSideEncryptionProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ServerSideEncryptionProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ServerSideEncryptionProperty",
+		reflect.TypeOf((*TfDeliveryStream_ServerSideEncryptionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.ServerSideEncryptionPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_ServerSideEncryptionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.ServerSideEncryptionPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_ServerSideEncryptionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4146,18 +4205,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_ServerSideEncryptionPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_ServerSideEncryptionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4191,18 +4250,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4217,14 +4276,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4253,18 +4312,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4279,14 +4338,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4317,18 +4376,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4360,18 +4419,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountUrl", GoGetter: "AccountUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "accountUrlInput", GoGetter: "AccountUrlInput"},
@@ -4459,18 +4518,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userInput", GoGetter: "UserInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4504,18 +4563,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -4566,18 +4625,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationSecretsManagerConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationSecretsManagerConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeConfigurationSecretsManagerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeConfigurationSecretsManagerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4611,18 +4670,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeConfigurationSecretsManagerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeConfigurationSecretsManagerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeRoleConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeRoleConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeRoleConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeRoleConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeRoleConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeRoleConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeRoleConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeRoleConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4653,18 +4712,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeRoleConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeRoleConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeVpcConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeVpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeVpcConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeVpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SnowflakeVpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SnowflakeVpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SnowflakeVpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SnowflakeVpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4691,18 +4750,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SnowflakeVpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SnowflakeVpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4736,18 +4795,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsParametersProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsParametersProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4762,14 +4821,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4798,18 +4857,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsPropertyList",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsPropertyList",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4824,14 +4883,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyList{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProcessorsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4862,18 +4921,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationProcessingConfigurationProcessorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4905,18 +4964,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bufferingInterval", GoGetter: "BufferingInterval"},
 			_jsii_.MemberProperty{JsiiProperty: "bufferingIntervalInput", GoGetter: "BufferingIntervalInput"},
@@ -4979,18 +5038,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5024,18 +5083,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationS3ConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationS3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationS3ConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationS3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationS3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationS3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationS3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -5086,18 +5145,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationS3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationSecretsManagerConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationSecretsManagerConfigurationProperty",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationSecretsManagerConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.SplunkConfigurationSecretsManagerConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_SplunkConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.SplunkConfigurationSecretsManagerConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_SplunkConfigurationSecretsManagerConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5131,18 +5190,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_SplunkConfigurationSecretsManagerConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_SplunkConfigurationSecretsManagerConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.TimeoutsProperty",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.TimeoutsProperty",
+		reflect.TypeOf((*TfDeliveryStream_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStream.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStream_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStream.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDeliveryStream_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5176,72 +5235,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisFirehoseDeliveryStream_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDeliveryStream_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.AwsKinesisFirehoseDeliveryStreamConfig",
-		reflect.TypeOf((*AwsKinesisFirehoseDeliveryStreamConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-firehose.DataAwsKinesisFirehoseDeliveryStream",
-		reflect.TypeOf((*DataAwsKinesisFirehoseDeliveryStream)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsKinesisFirehoseDeliveryStream{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-firehose.DataAwsKinesisFirehoseDeliveryStreamConfig",
-		reflect.TypeOf((*DataAwsKinesisFirehoseDeliveryStreamConfig)(nil)).Elem(),
+		"@cdktn/aws-kinesis-firehose.TfDeliveryStreamConfig",
+		reflect.TypeOf((*TfDeliveryStreamConfig)(nil)).Elem(),
 	)
 }

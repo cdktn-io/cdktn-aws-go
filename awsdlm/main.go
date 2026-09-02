@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy",
+		reflect.TypeOf((*TfLifecyclePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -84,18 +84,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy{}
+			j := jsiiProxy_TfLifecyclePolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ActionProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ActionProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -125,18 +125,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ArchiveRetainRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ArchiveRetainRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ArchiveRetainRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ArchiveRetainRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ArchiveRetainRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ArchiveRetainRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ArchiveRetainRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_ArchiveRetainRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -164,18 +164,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_ArchiveRetainRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_ArchiveRetainRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ArchiveRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ArchiveRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ArchiveRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ArchiveRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ArchiveRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ArchiveRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ArchiveRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_ArchiveRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveRetainRule", GoGetter: "ArchiveRetainRule"},
 			_jsii_.MemberProperty{JsiiProperty: "archiveRetainRuleInput", GoGetter: "ArchiveRetainRuleInput"},
@@ -203,18 +203,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_ArchiveRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_ArchiveRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CreateRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CreateRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CreateRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_CreateRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CreateRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CreateRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CreateRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_CreateRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -258,18 +258,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_CreateRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_CreateRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CrossRegionCopyProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CrossRegionCopyProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CrossRegionCopyProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_CrossRegionCopyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CrossRegionCopyPropertyList",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CrossRegionCopyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CrossRegionCopyPropertyList",
+		reflect.TypeOf((*TfLifecyclePolicy_CrossRegionCopyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -284,14 +284,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_CrossRegionCopyPropertyList{}
+			j := jsiiProxy_TfLifecyclePolicy_CrossRegionCopyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CrossRegionCopyPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CrossRegionCopyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CrossRegionCopyPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_CrossRegionCopyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -325,18 +325,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_CrossRegionCopyPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_CrossRegionCopyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CrossRegionCopyRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CrossRegionCopyRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CrossRegionCopyRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_CrossRegionCopyRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CrossRegionCopyRulePropertyList",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CrossRegionCopyRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CrossRegionCopyRulePropertyList",
+		reflect.TypeOf((*TfLifecyclePolicy_CrossRegionCopyRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -351,14 +351,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_CrossRegionCopyRulePropertyList{}
+			j := jsiiProxy_TfLifecyclePolicy_CrossRegionCopyRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.CrossRegionCopyRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_CrossRegionCopyRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.CrossRegionCopyRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_CrossRegionCopyRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cmkArn", GoGetter: "CmkArn"},
 			_jsii_.MemberProperty{JsiiProperty: "cmkArnInput", GoGetter: "CmkArnInput"},
@@ -405,18 +405,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_CrossRegionCopyRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_CrossRegionCopyRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cmkArn", GoGetter: "CmkArn"},
 			_jsii_.MemberProperty{JsiiProperty: "cmkArnInput", GoGetter: "CmkArnInput"},
@@ -447,18 +447,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.EventSourceProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_EventSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.EventSourceProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_EventSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.EventSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_EventSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.EventSourcePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_EventSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -488,18 +488,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_EventSourcePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_EventSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ExclusionsProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ExclusionsProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ExclusionsProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ExclusionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ExclusionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ExclusionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ExclusionsPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_ExclusionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -533,18 +533,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_ExclusionsPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_ExclusionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.FastRestoreRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_FastRestoreRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.FastRestoreRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_FastRestoreRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.FastRestoreRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_FastRestoreRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.FastRestoreRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_FastRestoreRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
 			_jsii_.MemberProperty{JsiiProperty: "availabilityZonesInput", GoGetter: "AvailabilityZonesInput"},
@@ -580,18 +580,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_FastRestoreRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_FastRestoreRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsActionCrossRegionCopyRetainRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsActionCrossRegionCopyRetainRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsActionCrossRegionCopyRetainRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsActionCrossRegionCopyRetainRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsActionCrossRegionCopyRetainRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsActionCrossRegionCopyRetainRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsActionCrossRegionCopyRetainRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsActionCrossRegionCopyRetainRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -620,18 +620,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsActionCrossRegionCopyRetainRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsActionCrossRegionCopyRetainRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsEventSourceParametersProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsEventSourceParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsEventSourceParametersProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsEventSourceParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsEventSourceParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsEventSourceParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsEventSourceParametersPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsEventSourceParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -662,18 +662,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsEventSourceParametersPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsEventSourceParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsParametersProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsParametersProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -707,18 +707,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -793,18 +793,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -833,18 +833,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleDeprecateRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleRetainRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleRetainRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleRetainRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleRetainRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleRetainRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleRetainRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleCrossRegionCopyRuleRetainRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleRetainRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -873,63 +873,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleRetainRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsScheduleCrossRegionCopyRuleRetainRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleDeprecateRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleDeprecateRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleDeprecateRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleDeprecateRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleDeprecateRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleDeprecateRulePropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "countInput", GoGetter: "CountInput"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "interval", GoGetter: "Interval"},
-			_jsii_.MemberProperty{JsiiProperty: "intervalInput", GoGetter: "IntervalInput"},
-			_jsii_.MemberProperty{JsiiProperty: "intervalUnit", GoGetter: "IntervalUnit"},
-			_jsii_.MemberProperty{JsiiProperty: "intervalUnitInput", GoGetter: "IntervalUnitInput"},
-			_jsii_.MemberMethod{JsiiMethod: "resetCount", GoMethod: "ResetCount"},
-			_jsii_.MemberMethod{JsiiMethod: "resetInterval", GoMethod: "ResetInterval"},
-			_jsii_.MemberMethod{JsiiMethod: "resetIntervalUnit", GoMethod: "ResetIntervalUnit"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsScheduleDeprecateRulePropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleRetainRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleRetainRuleProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.PolicyDetailsScheduleRetainRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_PolicyDetailsScheduleRetainRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleDeprecateRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleDeprecateRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -963,18 +918,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_PolicyDetailsScheduleRetainRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsScheduleDeprecateRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.RetentionArchiveTierProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_RetentionArchiveTierProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleRetainRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleRetainRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.RetentionArchiveTierPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_RetentionArchiveTierPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.PolicyDetailsScheduleRetainRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_PolicyDetailsScheduleRetainRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1008,18 +963,63 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_RetentionArchiveTierPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_PolicyDetailsScheduleRetainRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ScheduleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ScheduleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.RetentionArchiveTierProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_RetentionArchiveTierProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.SchedulePropertyList",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_SchedulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.RetentionArchiveTierPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_RetentionArchiveTierPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "countInput", GoGetter: "CountInput"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "interval", GoGetter: "Interval"},
+			_jsii_.MemberProperty{JsiiProperty: "intervalInput", GoGetter: "IntervalInput"},
+			_jsii_.MemberProperty{JsiiProperty: "intervalUnit", GoGetter: "IntervalUnit"},
+			_jsii_.MemberProperty{JsiiProperty: "intervalUnitInput", GoGetter: "IntervalUnitInput"},
+			_jsii_.MemberMethod{JsiiMethod: "resetCount", GoMethod: "ResetCount"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInterval", GoMethod: "ResetInterval"},
+			_jsii_.MemberMethod{JsiiMethod: "resetIntervalUnit", GoMethod: "ResetIntervalUnit"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfLifecyclePolicy_RetentionArchiveTierPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ScheduleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ScheduleProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-dlm.TfLifecyclePolicy.SchedulePropertyList",
+		reflect.TypeOf((*TfLifecyclePolicy_SchedulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1034,14 +1034,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_SchedulePropertyList{}
+			j := jsiiProxy_TfLifecyclePolicy_SchedulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.SchedulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_SchedulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.SchedulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_SchedulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "archiveRule", GoGetter: "ArchiveRule"},
 			_jsii_.MemberProperty{JsiiProperty: "archiveRuleInput", GoGetter: "ArchiveRuleInput"},
@@ -1103,18 +1103,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "variableTagsInput", GoGetter: "VariableTagsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_SchedulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_SchedulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ScriptsProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ScriptsProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ScriptsProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ScriptsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ScriptsPropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ScriptsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ScriptsPropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_ScriptsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1156,18 +1156,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_ScriptsPropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_ScriptsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ShareRuleProperty",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ShareRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ShareRuleProperty",
+		reflect.TypeOf((*TfLifecyclePolicy_ShareRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicy.ShareRulePropertyOutputReference",
-		reflect.TypeOf((*AwsDlmLifecyclePolicy_ShareRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicy.ShareRulePropertyOutputReference",
+		reflect.TypeOf((*TfLifecyclePolicy_ShareRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1200,13 +1200,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unshareIntervalUnitInput", GoGetter: "UnshareIntervalUnitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDlmLifecyclePolicy_ShareRulePropertyOutputReference{}
+			j := jsiiProxy_TfLifecyclePolicy_ShareRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-dlm.AwsDlmLifecyclePolicyConfig",
-		reflect.TypeOf((*AwsDlmLifecyclePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-dlm.TfLifecyclePolicyConfig",
+		reflect.TypeOf((*TfLifecyclePolicyConfig)(nil)).Elem(),
 	)
 }

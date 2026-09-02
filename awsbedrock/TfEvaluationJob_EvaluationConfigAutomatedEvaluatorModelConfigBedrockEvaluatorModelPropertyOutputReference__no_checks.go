@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awsbedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetModelIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereProfile",
-		reflect.TypeOf((*AwsRolesanywhereProfile)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfProfile",
+		reflect.TypeOf((*TfProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acceptRoleSessionName", GoGetter: "AcceptRoleSessionName"},
 			_jsii_.MemberProperty{JsiiProperty: "acceptRoleSessionNameInput", GoGetter: "AcceptRoleSessionNameInput"},
@@ -91,18 +91,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRolesanywhereProfile{}
+			j := jsiiProxy_TfProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereProfileConfig",
-		reflect.TypeOf((*AwsRolesanywhereProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfProfileConfig",
+		reflect.TypeOf((*TfProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor",
+		reflect.TypeOf((*TfTrustAnchor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -172,18 +172,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRolesanywhereTrustAnchor{}
+			j := jsiiProxy_TfTrustAnchor{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.NotificationSettingsProperty",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_NotificationSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.NotificationSettingsProperty",
+		reflect.TypeOf((*TfTrustAnchor_NotificationSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.NotificationSettingsPropertyList",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_NotificationSettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.NotificationSettingsPropertyList",
+		reflect.TypeOf((*TfTrustAnchor_NotificationSettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -198,14 +198,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRolesanywhereTrustAnchor_NotificationSettingsPropertyList{}
+			j := jsiiProxy_TfTrustAnchor_NotificationSettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.NotificationSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_NotificationSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.NotificationSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfTrustAnchor_NotificationSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "channel", GoGetter: "Channel"},
 			_jsii_.MemberProperty{JsiiProperty: "channelInput", GoGetter: "ChannelInput"},
@@ -243,18 +243,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRolesanywhereTrustAnchor_NotificationSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfTrustAnchor_NotificationSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.SourceDataProperty",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_SourceDataProperty)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.SourceDataProperty",
+		reflect.TypeOf((*TfTrustAnchor_SourceDataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.SourceDataPropertyOutputReference",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_SourceDataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.SourceDataPropertyOutputReference",
+		reflect.TypeOf((*TfTrustAnchor_SourceDataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "acmPcaArn", GoGetter: "AcmPcaArn"},
 			_jsii_.MemberProperty{JsiiProperty: "acmPcaArnInput", GoGetter: "AcmPcaArnInput"},
@@ -285,18 +285,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "x509CertificateDataInput", GoGetter: "X509CertificateDataInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRolesanywhereTrustAnchor_SourceDataPropertyOutputReference{}
+			j := jsiiProxy_TfTrustAnchor_SourceDataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.SourceProperty",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_SourceProperty)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.SourceProperty",
+		reflect.TypeOf((*TfTrustAnchor_SourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchor.SourcePropertyOutputReference",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchor_SourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchor.SourcePropertyOutputReference",
+		reflect.TypeOf((*TfTrustAnchor_SourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -326,13 +326,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRolesanywhereTrustAnchor_SourcePropertyOutputReference{}
+			j := jsiiProxy_TfTrustAnchor_SourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-roles-anywhere.AwsRolesanywhereTrustAnchorConfig",
-		reflect.TypeOf((*AwsRolesanywhereTrustAnchorConfig)(nil)).Elem(),
+		"@cdktn/aws-roles-anywhere.TfTrustAnchorConfig",
+		reflect.TypeOf((*TfTrustAnchorConfig)(nil)).Elem(),
 	)
 }

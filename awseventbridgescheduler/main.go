@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule",
-		reflect.TypeOf((*AwsSchedulerSchedule)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule",
+		reflect.TypeOf((*TfSchedule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionAfterCompletion", GoGetter: "ActionAfterCompletion"},
 			_jsii_.MemberProperty{JsiiProperty: "actionAfterCompletionInput", GoGetter: "ActionAfterCompletionInput"},
@@ -103,18 +103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule{}
+			j := jsiiProxy_TfSchedule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.CapacityProviderStrategyProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_CapacityProviderStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.CapacityProviderStrategyProperty",
+		reflect.TypeOf((*TfSchedule_CapacityProviderStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.CapacityProviderStrategyPropertyList",
-		reflect.TypeOf((*AwsSchedulerSchedule_CapacityProviderStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.CapacityProviderStrategyPropertyList",
+		reflect.TypeOf((*TfSchedule_CapacityProviderStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -129,14 +129,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_CapacityProviderStrategyPropertyList{}
+			j := jsiiProxy_TfSchedule_CapacityProviderStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.CapacityProviderStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_CapacityProviderStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.CapacityProviderStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_CapacityProviderStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "base", GoGetter: "Base"},
 			_jsii_.MemberProperty{JsiiProperty: "baseInput", GoGetter: "BaseInput"},
@@ -169,18 +169,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightInput", GoGetter: "WeightInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_CapacityProviderStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_CapacityProviderStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.DeadLetterConfigProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_DeadLetterConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.DeadLetterConfigProperty",
+		reflect.TypeOf((*TfSchedule_DeadLetterConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.DeadLetterConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_DeadLetterConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.DeadLetterConfigPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_DeadLetterConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -207,18 +207,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_DeadLetterConfigPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_DeadLetterConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.EcsParametersProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_EcsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.EcsParametersProperty",
+		reflect.TypeOf((*TfSchedule_EcsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.EcsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_EcsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.EcsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_EcsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderStrategy", GoGetter: "CapacityProviderStrategy"},
 			_jsii_.MemberProperty{JsiiProperty: "capacityProviderStrategyInput", GoGetter: "CapacityProviderStrategyInput"},
@@ -288,18 +288,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_EcsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_EcsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.EventbridgeParametersProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_EventbridgeParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.EventbridgeParametersProperty",
+		reflect.TypeOf((*TfSchedule_EventbridgeParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.EventbridgeParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_EventbridgeParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.EventbridgeParametersPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_EventbridgeParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -328,18 +328,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_EventbridgeParametersPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_EventbridgeParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.FlexibleTimeWindowProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_FlexibleTimeWindowProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.FlexibleTimeWindowProperty",
+		reflect.TypeOf((*TfSchedule_FlexibleTimeWindowProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.FlexibleTimeWindowPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_FlexibleTimeWindowPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.FlexibleTimeWindowPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_FlexibleTimeWindowPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -369,18 +369,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_FlexibleTimeWindowPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_FlexibleTimeWindowPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.KinesisParametersProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_KinesisParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.KinesisParametersProperty",
+		reflect.TypeOf((*TfSchedule_KinesisParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.KinesisParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_KinesisParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.KinesisParametersPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_KinesisParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -407,18 +407,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_KinesisParametersPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_KinesisParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfSchedule_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIp", GoGetter: "AssignPublicIp"},
 			_jsii_.MemberProperty{JsiiProperty: "assignPublicIpInput", GoGetter: "AssignPublicIpInput"},
@@ -451,18 +451,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PipelineParameterProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_PipelineParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PipelineParameterProperty",
+		reflect.TypeOf((*TfSchedule_PipelineParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PipelineParameterPropertyList",
-		reflect.TypeOf((*AwsSchedulerSchedule_PipelineParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PipelineParameterPropertyList",
+		reflect.TypeOf((*TfSchedule_PipelineParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -477,14 +477,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_PipelineParameterPropertyList{}
+			j := jsiiProxy_TfSchedule_PipelineParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PipelineParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_PipelineParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PipelineParameterPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_PipelineParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -513,18 +513,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_PipelineParameterPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_PipelineParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PlacementConstraintsProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_PlacementConstraintsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PlacementConstraintsProperty",
+		reflect.TypeOf((*TfSchedule_PlacementConstraintsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PlacementConstraintsPropertyList",
-		reflect.TypeOf((*AwsSchedulerSchedule_PlacementConstraintsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PlacementConstraintsPropertyList",
+		reflect.TypeOf((*TfSchedule_PlacementConstraintsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -539,14 +539,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_PlacementConstraintsPropertyList{}
+			j := jsiiProxy_TfSchedule_PlacementConstraintsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PlacementConstraintsPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_PlacementConstraintsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PlacementConstraintsPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_PlacementConstraintsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -576,18 +576,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_PlacementConstraintsPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_PlacementConstraintsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PlacementStrategyProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_PlacementStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PlacementStrategyProperty",
+		reflect.TypeOf((*TfSchedule_PlacementStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PlacementStrategyPropertyList",
-		reflect.TypeOf((*AwsSchedulerSchedule_PlacementStrategyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PlacementStrategyPropertyList",
+		reflect.TypeOf((*TfSchedule_PlacementStrategyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -602,14 +602,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_PlacementStrategyPropertyList{}
+			j := jsiiProxy_TfSchedule_PlacementStrategyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.PlacementStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_PlacementStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.PlacementStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_PlacementStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -639,18 +639,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_PlacementStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_PlacementStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.RetryPolicyProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_RetryPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.RetryPolicyProperty",
+		reflect.TypeOf((*TfSchedule_RetryPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.RetryPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_RetryPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.RetryPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_RetryPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -681,18 +681,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_RetryPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_RetryPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.SagemakerPipelineParametersProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_SagemakerPipelineParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.SagemakerPipelineParametersProperty",
+		reflect.TypeOf((*TfSchedule_SagemakerPipelineParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.SagemakerPipelineParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_SagemakerPipelineParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.SagemakerPipelineParametersPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_SagemakerPipelineParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -721,18 +721,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_SagemakerPipelineParametersPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_SagemakerPipelineParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.SqsParametersProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_SqsParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.SqsParametersProperty",
+		reflect.TypeOf((*TfSchedule_SqsParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.SqsParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_SqsParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.SqsParametersPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_SqsParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -760,18 +760,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_SqsParametersPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_SqsParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.TargetProperty",
-		reflect.TypeOf((*AwsSchedulerSchedule_TargetProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.TargetProperty",
+		reflect.TypeOf((*TfSchedule_TargetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerSchedule.TargetPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerSchedule_TargetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfSchedule.TargetPropertyOutputReference",
+		reflect.TypeOf((*TfSchedule_TargetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -831,18 +831,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerSchedule_TargetPropertyOutputReference{}
+			j := jsiiProxy_TfSchedule_TargetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerScheduleConfig",
-		reflect.TypeOf((*AwsSchedulerScheduleConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfScheduleConfig",
+		reflect.TypeOf((*TfScheduleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerScheduleGroup",
-		reflect.TypeOf((*AwsSchedulerScheduleGroup)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfScheduleGroup",
+		reflect.TypeOf((*TfScheduleGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -916,18 +916,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerScheduleGroup{}
+			j := jsiiProxy_TfScheduleGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerScheduleGroup.TimeoutsProperty",
-		reflect.TypeOf((*AwsSchedulerScheduleGroup_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfScheduleGroup.TimeoutsProperty",
+		reflect.TypeOf((*TfScheduleGroup_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerScheduleGroup.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSchedulerScheduleGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfScheduleGroup.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfScheduleGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -958,13 +958,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchedulerScheduleGroup_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfScheduleGroup_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-scheduler.AwsSchedulerScheduleGroupConfig",
-		reflect.TypeOf((*AwsSchedulerScheduleGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-scheduler.TfScheduleGroupConfig",
+		reflect.TypeOf((*TfScheduleGroupConfig)(nil)).Elem(),
 	)
 }

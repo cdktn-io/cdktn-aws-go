@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-application-insights.AwsApplicationinsightsApplication",
-		reflect.TypeOf((*AwsApplicationinsightsApplication)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-application-insights.TfApplication",
+		reflect.TypeOf((*TfApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -91,13 +91,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsApplicationinsightsApplication{}
+			j := jsiiProxy_TfApplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-application-insights.AwsApplicationinsightsApplicationConfig",
-		reflect.TypeOf((*AwsApplicationinsightsApplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-application-insights.TfApplicationConfig",
+		reflect.TypeOf((*TfApplicationConfig)(nil)).Elem(),
 	)
 }

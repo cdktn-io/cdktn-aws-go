@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasDiscoverer",
-		reflect.TypeOf((*AwsSchemasDiscoverer)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfDiscoverer",
+		reflect.TypeOf((*TfDiscoverer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -76,18 +76,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchemasDiscoverer{}
+			j := jsiiProxy_TfDiscoverer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasDiscovererConfig",
-		reflect.TypeOf((*AwsSchemasDiscovererConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfDiscovererConfig",
+		reflect.TypeOf((*TfDiscovererConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasRegistry",
-		reflect.TypeOf((*AwsSchemasRegistry)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfRegistry",
+		reflect.TypeOf((*TfRegistry)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -153,18 +153,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchemasRegistry{}
+			j := jsiiProxy_TfRegistry{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasRegistryConfig",
-		reflect.TypeOf((*AwsSchemasRegistryConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfRegistryConfig",
+		reflect.TypeOf((*TfRegistryConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasRegistryPolicy",
-		reflect.TypeOf((*AwsSchemasRegistryPolicy)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfRegistryPolicy",
+		reflect.TypeOf((*TfRegistryPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -222,18 +222,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchemasRegistryPolicy{}
+			j := jsiiProxy_TfRegistryPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasRegistryPolicyConfig",
-		reflect.TypeOf((*AwsSchemasRegistryPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfRegistryPolicyConfig",
+		reflect.TypeOf((*TfRegistryPolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasSchema",
-		reflect.TypeOf((*AwsSchemasSchema)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfSchema",
+		reflect.TypeOf((*TfSchema)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -308,13 +308,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSchemasSchema{}
+			j := jsiiProxy_TfSchema{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-eventbridge-schemas.AwsSchemasSchemaConfig",
-		reflect.TypeOf((*AwsSchemasSchemaConfig)(nil)).Elem(),
+		"@cdktn/aws-eventbridge-schemas.TfSchemaConfig",
+		reflect.TypeOf((*TfSchemaConfig)(nil)).Elem(),
 	)
 }

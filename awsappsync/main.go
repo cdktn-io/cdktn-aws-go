@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi",
-		reflect.TypeOf((*AwsAppsyncApi)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi",
+		reflect.TypeOf((*TfApi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,18 +79,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "xrayEnabled", GoGetter: "XrayEnabled"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi{}
+			j := jsiiProxy_TfApi{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.AuthProviderProperty",
-		reflect.TypeOf((*AwsAppsyncApi_AuthProviderProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.AuthProviderProperty",
+		reflect.TypeOf((*TfApi_AuthProviderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.AuthProviderPropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_AuthProviderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.AuthProviderPropertyList",
+		reflect.TypeOf((*TfApi_AuthProviderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -105,14 +105,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_AuthProviderPropertyList{}
+			j := jsiiProxy_TfApi_AuthProviderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.AuthProviderPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_AuthProviderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.AuthProviderPropertyOutputReference",
+		reflect.TypeOf((*TfApi_AuthProviderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
 			_jsii_.MemberProperty{JsiiProperty: "authTypeInput", GoGetter: "AuthTypeInput"},
@@ -151,18 +151,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_AuthProviderPropertyOutputReference{}
+			j := jsiiProxy_TfApi_AuthProviderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.CognitoConfigProperty",
-		reflect.TypeOf((*AwsAppsyncApi_CognitoConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.CognitoConfigProperty",
+		reflect.TypeOf((*TfApi_CognitoConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.CognitoConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_CognitoConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.CognitoConfigPropertyList",
+		reflect.TypeOf((*TfApi_CognitoConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -177,14 +177,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_CognitoConfigPropertyList{}
+			j := jsiiProxy_TfApi_CognitoConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.CognitoConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_CognitoConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.CognitoConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApi_CognitoConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegex", GoGetter: "AppIdClientRegex"},
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegexInput", GoGetter: "AppIdClientRegexInput"},
@@ -216,18 +216,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolIdInput", GoGetter: "UserPoolIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_CognitoConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApi_CognitoConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.ConnectionAuthModeProperty",
-		reflect.TypeOf((*AwsAppsyncApi_ConnectionAuthModeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.ConnectionAuthModeProperty",
+		reflect.TypeOf((*TfApi_ConnectionAuthModeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.ConnectionAuthModePropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_ConnectionAuthModePropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.ConnectionAuthModePropertyList",
+		reflect.TypeOf((*TfApi_ConnectionAuthModePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -242,14 +242,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_ConnectionAuthModePropertyList{}
+			j := jsiiProxy_TfApi_ConnectionAuthModePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.ConnectionAuthModePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_ConnectionAuthModePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.ConnectionAuthModePropertyOutputReference",
+		reflect.TypeOf((*TfApi_ConnectionAuthModePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
 			_jsii_.MemberProperty{JsiiProperty: "authTypeInput", GoGetter: "AuthTypeInput"},
@@ -276,18 +276,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_ConnectionAuthModePropertyOutputReference{}
+			j := jsiiProxy_TfApi_ConnectionAuthModePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.DefaultPublishAuthModeProperty",
-		reflect.TypeOf((*AwsAppsyncApi_DefaultPublishAuthModeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.DefaultPublishAuthModeProperty",
+		reflect.TypeOf((*TfApi_DefaultPublishAuthModeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.DefaultPublishAuthModePropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_DefaultPublishAuthModePropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.DefaultPublishAuthModePropertyList",
+		reflect.TypeOf((*TfApi_DefaultPublishAuthModePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -302,14 +302,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_DefaultPublishAuthModePropertyList{}
+			j := jsiiProxy_TfApi_DefaultPublishAuthModePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.DefaultPublishAuthModePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_DefaultPublishAuthModePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.DefaultPublishAuthModePropertyOutputReference",
+		reflect.TypeOf((*TfApi_DefaultPublishAuthModePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
 			_jsii_.MemberProperty{JsiiProperty: "authTypeInput", GoGetter: "AuthTypeInput"},
@@ -336,18 +336,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_DefaultPublishAuthModePropertyOutputReference{}
+			j := jsiiProxy_TfApi_DefaultPublishAuthModePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.DefaultSubscribeAuthModeProperty",
-		reflect.TypeOf((*AwsAppsyncApi_DefaultSubscribeAuthModeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.DefaultSubscribeAuthModeProperty",
+		reflect.TypeOf((*TfApi_DefaultSubscribeAuthModeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.DefaultSubscribeAuthModePropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_DefaultSubscribeAuthModePropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.DefaultSubscribeAuthModePropertyList",
+		reflect.TypeOf((*TfApi_DefaultSubscribeAuthModePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -362,14 +362,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_DefaultSubscribeAuthModePropertyList{}
+			j := jsiiProxy_TfApi_DefaultSubscribeAuthModePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.DefaultSubscribeAuthModePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_DefaultSubscribeAuthModePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.DefaultSubscribeAuthModePropertyOutputReference",
+		reflect.TypeOf((*TfApi_DefaultSubscribeAuthModePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
 			_jsii_.MemberProperty{JsiiProperty: "authTypeInput", GoGetter: "AuthTypeInput"},
@@ -396,18 +396,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_DefaultSubscribeAuthModePropertyOutputReference{}
+			j := jsiiProxy_TfApi_DefaultSubscribeAuthModePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.EventConfigProperty",
-		reflect.TypeOf((*AwsAppsyncApi_EventConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.EventConfigProperty",
+		reflect.TypeOf((*TfApi_EventConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.EventConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_EventConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.EventConfigPropertyList",
+		reflect.TypeOf((*TfApi_EventConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -422,14 +422,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_EventConfigPropertyList{}
+			j := jsiiProxy_TfApi_EventConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.EventConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_EventConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.EventConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApi_EventConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authProvider", GoGetter: "AuthProvider"},
 			_jsii_.MemberProperty{JsiiProperty: "authProviderInput", GoGetter: "AuthProviderInput"},
@@ -474,18 +474,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_EventConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApi_EventConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.LambdaAuthorizerConfigProperty",
-		reflect.TypeOf((*AwsAppsyncApi_LambdaAuthorizerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.LambdaAuthorizerConfigProperty",
+		reflect.TypeOf((*TfApi_LambdaAuthorizerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.LambdaAuthorizerConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_LambdaAuthorizerConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.LambdaAuthorizerConfigPropertyList",
+		reflect.TypeOf((*TfApi_LambdaAuthorizerConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -500,14 +500,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_LambdaAuthorizerConfigPropertyList{}
+			j := jsiiProxy_TfApi_LambdaAuthorizerConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.LambdaAuthorizerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_LambdaAuthorizerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.LambdaAuthorizerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApi_LambdaAuthorizerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSeconds", GoGetter: "AuthorizerResultTtlInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSecondsInput", GoGetter: "AuthorizerResultTtlInSecondsInput"},
@@ -540,18 +540,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_LambdaAuthorizerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApi_LambdaAuthorizerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.LogConfigProperty",
-		reflect.TypeOf((*AwsAppsyncApi_LogConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.LogConfigProperty",
+		reflect.TypeOf((*TfApi_LogConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.LogConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_LogConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.LogConfigPropertyList",
+		reflect.TypeOf((*TfApi_LogConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -566,14 +566,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_LogConfigPropertyList{}
+			j := jsiiProxy_TfApi_LogConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.LogConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_LogConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.LogConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApi_LogConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsRoleArn", GoGetter: "CloudwatchLogsRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsRoleArnInput", GoGetter: "CloudwatchLogsRoleArnInput"},
@@ -602,18 +602,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_LogConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApi_LogConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApi.OpenidConnectConfigProperty",
-		reflect.TypeOf((*AwsAppsyncApi_OpenidConnectConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.OpenidConnectConfigProperty",
+		reflect.TypeOf((*TfApi_OpenidConnectConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.OpenidConnectConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncApi_OpenidConnectConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.OpenidConnectConfigPropertyList",
+		reflect.TypeOf((*TfApi_OpenidConnectConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -628,14 +628,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_OpenidConnectConfigPropertyList{}
+			j := jsiiProxy_TfApi_OpenidConnectConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApi.OpenidConnectConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncApi_OpenidConnectConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApi.OpenidConnectConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApi_OpenidConnectConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authTtl", GoGetter: "AuthTtl"},
 			_jsii_.MemberProperty{JsiiProperty: "authTtlInput", GoGetter: "AuthTtlInput"},
@@ -671,14 +671,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApi_OpenidConnectConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApi_OpenidConnectConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApiCache",
-		reflect.TypeOf((*AwsAppsyncApiCache)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApiCache",
+		reflect.TypeOf((*TfApiCache)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -746,22 +746,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApiCache{}
+			j := jsiiProxy_TfApiCache{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApiCacheConfig",
-		reflect.TypeOf((*AwsAppsyncApiCacheConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApiCacheConfig",
+		reflect.TypeOf((*TfApiCacheConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApiConfig",
-		reflect.TypeOf((*AwsAppsyncApiConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApiConfig",
+		reflect.TypeOf((*TfApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncApiKey",
-		reflect.TypeOf((*AwsAppsyncApiKey)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApiKey",
+		reflect.TypeOf((*TfApiKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -825,18 +825,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncApiKey{}
+			j := jsiiProxy_TfApiKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncApiKeyConfig",
-		reflect.TypeOf((*AwsAppsyncApiKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfApiKeyConfig",
+		reflect.TypeOf((*TfApiKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace",
+		reflect.TypeOf((*TfChannelNamespace)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -911,18 +911,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace{}
+			j := jsiiProxy_TfChannelNamespace{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnPublishIntegrationLambdaConfigProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnPublishIntegrationLambdaConfigProperty",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnPublishIntegrationLambdaConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnPublishIntegrationLambdaConfigPropertyList",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -937,14 +937,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyList{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnPublishIntegrationLambdaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnPublishIntegrationLambdaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -972,18 +972,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnPublishIntegrationLambdaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnPublishIntegrationProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnPublishIntegrationProperty",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnPublishIntegrationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnPublishIntegrationPropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnPublishIntegrationPropertyList",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -998,14 +998,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyList{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnPublishIntegrationPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnPublishIntegrationPropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1036,18 +1036,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnPublishIntegrationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnSubscribeIntegrationLambdaConfigProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnSubscribeIntegrationLambdaConfigProperty",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyList",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1062,14 +1062,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyList{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1097,18 +1097,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationLambdaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnSubscribeIntegrationProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnSubscribeIntegrationProperty",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnSubscribeIntegrationPropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnSubscribeIntegrationPropertyList",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1123,14 +1123,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyList{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsOnSubscribeIntegrationPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsOnSubscribeIntegrationPropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1161,18 +1161,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsOnSubscribeIntegrationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsProperty",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsPropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsPropertyList",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1187,14 +1187,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsPropertyList{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.HandlerConfigsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_HandlerConfigsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.HandlerConfigsPropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_HandlerConfigsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1227,18 +1227,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_HandlerConfigsPropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_HandlerConfigsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.OnPublishProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_OnPublishProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.OnPublishProperty",
+		reflect.TypeOf((*TfChannelNamespace_OnPublishProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.OnPublishPropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_OnPublishPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.OnPublishPropertyList",
+		reflect.TypeOf((*TfChannelNamespace_OnPublishPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1253,14 +1253,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_OnPublishPropertyList{}
+			j := jsiiProxy_TfChannelNamespace_OnPublishPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.OnPublishPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_OnPublishPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.OnPublishPropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_OnPublishPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -1291,18 +1291,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_OnPublishPropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_OnPublishPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.OnSubscribeProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_OnSubscribeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.OnSubscribeProperty",
+		reflect.TypeOf((*TfChannelNamespace_OnSubscribeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.OnSubscribePropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_OnSubscribePropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.OnSubscribePropertyList",
+		reflect.TypeOf((*TfChannelNamespace_OnSubscribePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1317,14 +1317,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_OnSubscribePropertyList{}
+			j := jsiiProxy_TfChannelNamespace_OnSubscribePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.OnSubscribePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_OnSubscribePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.OnSubscribePropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_OnSubscribePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "behavior", GoGetter: "Behavior"},
 			_jsii_.MemberProperty{JsiiProperty: "behaviorInput", GoGetter: "BehaviorInput"},
@@ -1355,18 +1355,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_OnSubscribePropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_OnSubscribePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.PublishAuthModeProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_PublishAuthModeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.PublishAuthModeProperty",
+		reflect.TypeOf((*TfChannelNamespace_PublishAuthModeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.PublishAuthModePropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_PublishAuthModePropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.PublishAuthModePropertyList",
+		reflect.TypeOf((*TfChannelNamespace_PublishAuthModePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1381,14 +1381,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_PublishAuthModePropertyList{}
+			j := jsiiProxy_TfChannelNamespace_PublishAuthModePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.PublishAuthModePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_PublishAuthModePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.PublishAuthModePropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_PublishAuthModePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
 			_jsii_.MemberProperty{JsiiProperty: "authTypeInput", GoGetter: "AuthTypeInput"},
@@ -1415,18 +1415,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_PublishAuthModePropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_PublishAuthModePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.SubscribeAuthModeProperty",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_SubscribeAuthModeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.SubscribeAuthModeProperty",
+		reflect.TypeOf((*TfChannelNamespace_SubscribeAuthModeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.SubscribeAuthModePropertyList",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_SubscribeAuthModePropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.SubscribeAuthModePropertyList",
+		reflect.TypeOf((*TfChannelNamespace_SubscribeAuthModePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1441,14 +1441,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_SubscribeAuthModePropertyList{}
+			j := jsiiProxy_TfChannelNamespace_SubscribeAuthModePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespace.SubscribeAuthModePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncChannelNamespace_SubscribeAuthModePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespace.SubscribeAuthModePropertyOutputReference",
+		reflect.TypeOf((*TfChannelNamespace_SubscribeAuthModePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authType", GoGetter: "AuthType"},
 			_jsii_.MemberProperty{JsiiProperty: "authTypeInput", GoGetter: "AuthTypeInput"},
@@ -1475,18 +1475,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncChannelNamespace_SubscribeAuthModePropertyOutputReference{}
+			j := jsiiProxy_TfChannelNamespace_SubscribeAuthModePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncChannelNamespaceConfig",
-		reflect.TypeOf((*AwsAppsyncChannelNamespaceConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfChannelNamespaceConfig",
+		reflect.TypeOf((*TfChannelNamespaceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource",
-		reflect.TypeOf((*AwsAppsyncDatasource)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource",
+		reflect.TypeOf((*TfDatasource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1581,18 +1581,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource{}
+			j := jsiiProxy_TfDatasource{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.AuthorizationConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_AuthorizationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.AuthorizationConfigProperty",
+		reflect.TypeOf((*TfDatasource_AuthorizationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.AuthorizationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_AuthorizationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.AuthorizationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_AuthorizationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationType", GoGetter: "AuthorizationType"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationTypeInput", GoGetter: "AuthorizationTypeInput"},
@@ -1624,18 +1624,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_AuthorizationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_AuthorizationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.AwsIamConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_AwsIamConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.AwsIamConfigProperty",
+		reflect.TypeOf((*TfDatasource_AwsIamConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.AwsIamConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_AwsIamConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.AwsIamConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_AwsIamConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1666,18 +1666,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_AwsIamConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_AwsIamConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.DeltaSyncConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_DeltaSyncConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.DeltaSyncConfigProperty",
+		reflect.TypeOf((*TfDatasource_DeltaSyncConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.DeltaSyncConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_DeltaSyncConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.DeltaSyncConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_DeltaSyncConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "baseTableTtl", GoGetter: "BaseTableTtl"},
 			_jsii_.MemberProperty{JsiiProperty: "baseTableTtlInput", GoGetter: "BaseTableTtlInput"},
@@ -1710,18 +1710,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_DeltaSyncConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_DeltaSyncConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.DynamodbConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_DynamodbConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.DynamodbConfigProperty",
+		reflect.TypeOf((*TfDatasource_DynamodbConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.DynamodbConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_DynamodbConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.DynamodbConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_DynamodbConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1761,18 +1761,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionedInput", GoGetter: "VersionedInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_DynamodbConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_DynamodbConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.ElasticsearchConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_ElasticsearchConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.ElasticsearchConfigProperty",
+		reflect.TypeOf((*TfDatasource_ElasticsearchConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.ElasticsearchConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_ElasticsearchConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.ElasticsearchConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_ElasticsearchConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1802,18 +1802,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_ElasticsearchConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_ElasticsearchConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.EventBridgeConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_EventBridgeConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.EventBridgeConfigProperty",
+		reflect.TypeOf((*TfDatasource_EventBridgeConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.EventBridgeConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_EventBridgeConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.EventBridgeConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_EventBridgeConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1840,18 +1840,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_EventBridgeConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_EventBridgeConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.HttpConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_HttpConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.HttpConfigProperty",
+		reflect.TypeOf((*TfDatasource_HttpConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.HttpConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_HttpConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.HttpConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_HttpConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizationConfig", GoGetter: "AuthorizationConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizationConfigInput", GoGetter: "AuthorizationConfigInput"},
@@ -1882,18 +1882,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_HttpConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_HttpConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.HttpEndpointConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_HttpEndpointConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.HttpEndpointConfigProperty",
+		reflect.TypeOf((*TfDatasource_HttpEndpointConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.HttpEndpointConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_HttpEndpointConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.HttpEndpointConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_HttpEndpointConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsSecretStoreArn", GoGetter: "AwsSecretStoreArn"},
 			_jsii_.MemberProperty{JsiiProperty: "awsSecretStoreArnInput", GoGetter: "AwsSecretStoreArnInput"},
@@ -1931,18 +1931,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_HttpEndpointConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_HttpEndpointConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.LambdaConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_LambdaConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.LambdaConfigProperty",
+		reflect.TypeOf((*TfDatasource_LambdaConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.LambdaConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_LambdaConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.LambdaConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_LambdaConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1969,18 +1969,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_LambdaConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_LambdaConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.OpensearchserviceConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_OpensearchserviceConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.OpensearchserviceConfigProperty",
+		reflect.TypeOf((*TfDatasource_OpensearchserviceConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.OpensearchserviceConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_OpensearchserviceConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.OpensearchserviceConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_OpensearchserviceConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2010,18 +2010,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_OpensearchserviceConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_OpensearchserviceConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.RelationalDatabaseConfigProperty",
-		reflect.TypeOf((*AwsAppsyncDatasource_RelationalDatabaseConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.RelationalDatabaseConfigProperty",
+		reflect.TypeOf((*TfDatasource_RelationalDatabaseConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDatasource.RelationalDatabaseConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncDatasource_RelationalDatabaseConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasource.RelationalDatabaseConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDatasource_RelationalDatabaseConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2053,18 +2053,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDatasource_RelationalDatabaseConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDatasource_RelationalDatabaseConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDatasourceConfig",
-		reflect.TypeOf((*AwsAppsyncDatasourceConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDatasourceConfig",
+		reflect.TypeOf((*TfDatasourceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDomainName",
-		reflect.TypeOf((*AwsAppsyncDomainName)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDomainName",
+		reflect.TypeOf((*TfDomainName)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2127,14 +2127,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDomainName{}
+			j := jsiiProxy_TfDomainName{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncDomainNameApiAssociation",
-		reflect.TypeOf((*AwsAppsyncDomainNameApiAssociation)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDomainNameApiAssociation",
+		reflect.TypeOf((*TfDomainNameApiAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2192,22 +2192,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncDomainNameApiAssociation{}
+			j := jsiiProxy_TfDomainNameApiAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDomainNameApiAssociationConfig",
-		reflect.TypeOf((*AwsAppsyncDomainNameApiAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDomainNameApiAssociationConfig",
+		reflect.TypeOf((*TfDomainNameApiAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncDomainNameConfig",
-		reflect.TypeOf((*AwsAppsyncDomainNameConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfDomainNameConfig",
+		reflect.TypeOf((*TfDomainNameConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncFunction",
-		reflect.TypeOf((*AwsAppsyncFunction)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction",
+		reflect.TypeOf((*TfFunction)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2295,18 +2295,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncFunction{}
+			j := jsiiProxy_TfFunction{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncFunction.LambdaConflictHandlerConfigProperty",
-		reflect.TypeOf((*AwsAppsyncFunction_LambdaConflictHandlerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction.LambdaConflictHandlerConfigProperty",
+		reflect.TypeOf((*TfFunction_LambdaConflictHandlerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncFunction.LambdaConflictHandlerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncFunction_LambdaConflictHandlerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction.LambdaConflictHandlerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFunction_LambdaConflictHandlerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2334,18 +2334,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncFunction_LambdaConflictHandlerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFunction_LambdaConflictHandlerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncFunction.RuntimeProperty",
-		reflect.TypeOf((*AwsAppsyncFunction_RuntimeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction.RuntimeProperty",
+		reflect.TypeOf((*TfFunction_RuntimeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncFunction.RuntimePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncFunction_RuntimePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction.RuntimePropertyOutputReference",
+		reflect.TypeOf((*TfFunction_RuntimePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2374,18 +2374,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncFunction_RuntimePropertyOutputReference{}
+			j := jsiiProxy_TfFunction_RuntimePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncFunction.SyncConfigProperty",
-		reflect.TypeOf((*AwsAppsyncFunction_SyncConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction.SyncConfigProperty",
+		reflect.TypeOf((*TfFunction_SyncConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncFunction.SyncConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncFunction_SyncConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunction.SyncConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFunction_SyncConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2420,18 +2420,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncFunction_SyncConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFunction_SyncConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncFunctionConfig",
-		reflect.TypeOf((*AwsAppsyncFunctionConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfFunctionConfig",
+		reflect.TypeOf((*TfFunctionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi",
+		reflect.TypeOf((*TfGraphqlApi)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalAuthenticationProvider", GoGetter: "AdditionalAuthenticationProvider"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalAuthenticationProviderInput", GoGetter: "AdditionalAuthenticationProviderInput"},
@@ -2545,18 +2545,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "xrayEnabledInput", GoGetter: "XrayEnabledInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi{}
+			j := jsiiProxy_TfGraphqlApi{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderLambdaAuthorizerConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderLambdaAuthorizerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderLambdaAuthorizerConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderLambdaAuthorizerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderLambdaAuthorizerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderLambdaAuthorizerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderLambdaAuthorizerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderLambdaAuthorizerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSeconds", GoGetter: "AuthorizerResultTtlInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSecondsInput", GoGetter: "AuthorizerResultTtlInSecondsInput"},
@@ -2589,18 +2589,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderLambdaAuthorizerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_AdditionalAuthenticationProviderLambdaAuthorizerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderOpenidConnectConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderOpenidConnectConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderOpenidConnectConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderOpenidConnectConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderOpenidConnectConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderOpenidConnectConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderOpenidConnectConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderOpenidConnectConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authTtl", GoGetter: "AuthTtl"},
 			_jsii_.MemberProperty{JsiiProperty: "authTtlInput", GoGetter: "AuthTtlInput"},
@@ -2636,18 +2636,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderOpenidConnectConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_AdditionalAuthenticationProviderOpenidConnectConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderProperty",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderPropertyList",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderPropertyList",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2662,14 +2662,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderPropertyList{}
+			j := jsiiProxy_TfGraphqlApi_AdditionalAuthenticationProviderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authenticationType", GoGetter: "AuthenticationType"},
 			_jsii_.MemberProperty{JsiiProperty: "authenticationTypeInput", GoGetter: "AuthenticationTypeInput"},
@@ -2708,18 +2708,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolConfigInput", GoGetter: "UserPoolConfigInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_AdditionalAuthenticationProviderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderUserPoolConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderUserPoolConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderUserPoolConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderUserPoolConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.AdditionalAuthenticationProviderUserPoolConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderUserPoolConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.AdditionalAuthenticationProviderUserPoolConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_AdditionalAuthenticationProviderUserPoolConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegex", GoGetter: "AppIdClientRegex"},
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegexInput", GoGetter: "AppIdClientRegexInput"},
@@ -2752,18 +2752,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolIdInput", GoGetter: "UserPoolIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_AdditionalAuthenticationProviderUserPoolConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_AdditionalAuthenticationProviderUserPoolConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.EnhancedMetricsConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_EnhancedMetricsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.EnhancedMetricsConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_EnhancedMetricsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.EnhancedMetricsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_EnhancedMetricsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.EnhancedMetricsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_EnhancedMetricsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2794,18 +2794,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_EnhancedMetricsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_EnhancedMetricsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.LambdaAuthorizerConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_LambdaAuthorizerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.LambdaAuthorizerConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_LambdaAuthorizerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.LambdaAuthorizerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_LambdaAuthorizerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.LambdaAuthorizerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_LambdaAuthorizerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSeconds", GoGetter: "AuthorizerResultTtlInSeconds"},
 			_jsii_.MemberProperty{JsiiProperty: "authorizerResultTtlInSecondsInput", GoGetter: "AuthorizerResultTtlInSecondsInput"},
@@ -2838,18 +2838,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_LambdaAuthorizerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_LambdaAuthorizerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.LogConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_LogConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.LogConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_LogConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.LogConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_LogConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.LogConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_LogConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsRoleArn", GoGetter: "CloudwatchLogsRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsRoleArnInput", GoGetter: "CloudwatchLogsRoleArnInput"},
@@ -2881,18 +2881,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_LogConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_LogConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.OpenidConnectConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_OpenidConnectConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.OpenidConnectConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_OpenidConnectConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.OpenidConnectConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_OpenidConnectConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.OpenidConnectConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_OpenidConnectConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authTtl", GoGetter: "AuthTtl"},
 			_jsii_.MemberProperty{JsiiProperty: "authTtlInput", GoGetter: "AuthTtlInput"},
@@ -2928,18 +2928,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_OpenidConnectConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_OpenidConnectConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.UserPoolConfigProperty",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_UserPoolConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.UserPoolConfigProperty",
+		reflect.TypeOf((*TfGraphqlApi_UserPoolConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApi.UserPoolConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncGraphqlApi_UserPoolConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApi.UserPoolConfigPropertyOutputReference",
+		reflect.TypeOf((*TfGraphqlApi_UserPoolConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegex", GoGetter: "AppIdClientRegex"},
 			_jsii_.MemberProperty{JsiiProperty: "appIdClientRegexInput", GoGetter: "AppIdClientRegexInput"},
@@ -2974,18 +2974,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userPoolIdInput", GoGetter: "UserPoolIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncGraphqlApi_UserPoolConfigPropertyOutputReference{}
+			j := jsiiProxy_TfGraphqlApi_UserPoolConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncGraphqlApiConfig",
-		reflect.TypeOf((*AwsAppsyncGraphqlApiConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfGraphqlApiConfig",
+		reflect.TypeOf((*TfGraphqlApiConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncResolver",
-		reflect.TypeOf((*AwsAppsyncResolver)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver",
+		reflect.TypeOf((*TfResolver)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3080,18 +3080,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncResolver{}
+			j := jsiiProxy_TfResolver{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.CachingConfigProperty",
-		reflect.TypeOf((*AwsAppsyncResolver_CachingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.CachingConfigProperty",
+		reflect.TypeOf((*TfResolver_CachingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.CachingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncResolver_CachingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.CachingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfResolver_CachingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cachingKeys", GoGetter: "CachingKeys"},
 			_jsii_.MemberProperty{JsiiProperty: "cachingKeysInput", GoGetter: "CachingKeysInput"},
@@ -3122,18 +3122,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "ttlInput", GoGetter: "TtlInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncResolver_CachingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfResolver_CachingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.LambdaConflictHandlerConfigProperty",
-		reflect.TypeOf((*AwsAppsyncResolver_LambdaConflictHandlerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.LambdaConflictHandlerConfigProperty",
+		reflect.TypeOf((*TfResolver_LambdaConflictHandlerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.LambdaConflictHandlerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncResolver_LambdaConflictHandlerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.LambdaConflictHandlerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfResolver_LambdaConflictHandlerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3161,18 +3161,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncResolver_LambdaConflictHandlerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfResolver_LambdaConflictHandlerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.PipelineConfigProperty",
-		reflect.TypeOf((*AwsAppsyncResolver_PipelineConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.PipelineConfigProperty",
+		reflect.TypeOf((*TfResolver_PipelineConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.PipelineConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncResolver_PipelineConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.PipelineConfigPropertyOutputReference",
+		reflect.TypeOf((*TfResolver_PipelineConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3200,18 +3200,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncResolver_PipelineConfigPropertyOutputReference{}
+			j := jsiiProxy_TfResolver_PipelineConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.RuntimeProperty",
-		reflect.TypeOf((*AwsAppsyncResolver_RuntimeProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.RuntimeProperty",
+		reflect.TypeOf((*TfResolver_RuntimeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.RuntimePropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncResolver_RuntimePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.RuntimePropertyOutputReference",
+		reflect.TypeOf((*TfResolver_RuntimePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3240,18 +3240,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncResolver_RuntimePropertyOutputReference{}
+			j := jsiiProxy_TfResolver_RuntimePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.SyncConfigProperty",
-		reflect.TypeOf((*AwsAppsyncResolver_SyncConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.SyncConfigProperty",
+		reflect.TypeOf((*TfResolver_SyncConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncResolver.SyncConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncResolver_SyncConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolver.SyncConfigPropertyOutputReference",
+		reflect.TypeOf((*TfResolver_SyncConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3286,18 +3286,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncResolver_SyncConfigPropertyOutputReference{}
+			j := jsiiProxy_TfResolver_SyncConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncResolverConfig",
-		reflect.TypeOf((*AwsAppsyncResolverConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfResolverConfig",
+		reflect.TypeOf((*TfResolverConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociation",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociation)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociation",
+		reflect.TypeOf((*TfSourceApiAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3374,18 +3374,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncSourceApiAssociation{}
+			j := jsiiProxy_TfSourceApiAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociation.SourceApiAssociationConfigProperty",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociation_SourceApiAssociationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociation.SourceApiAssociationConfigProperty",
+		reflect.TypeOf((*TfSourceApiAssociation_SourceApiAssociationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociation.SourceApiAssociationConfigPropertyList",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociation_SourceApiAssociationConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociation.SourceApiAssociationConfigPropertyList",
+		reflect.TypeOf((*TfSourceApiAssociation_SourceApiAssociationConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3400,14 +3400,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncSourceApiAssociation_SourceApiAssociationConfigPropertyList{}
+			j := jsiiProxy_TfSourceApiAssociation_SourceApiAssociationConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociation.SourceApiAssociationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociation_SourceApiAssociationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociation.SourceApiAssociationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfSourceApiAssociation_SourceApiAssociationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3435,18 +3435,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncSourceApiAssociation_SourceApiAssociationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfSourceApiAssociation_SourceApiAssociationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfSourceApiAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfSourceApiAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3480,18 +3480,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncSourceApiAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfSourceApiAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncSourceApiAssociationConfig",
-		reflect.TypeOf((*AwsAppsyncSourceApiAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfSourceApiAssociationConfig",
+		reflect.TypeOf((*TfSourceApiAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appsync.AwsAppsyncType",
-		reflect.TypeOf((*AwsAppsyncType)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfType",
+		reflect.TypeOf((*TfType)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3554,13 +3554,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppsyncType{}
+			j := jsiiProxy_TfType{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appsync.AwsAppsyncTypeConfig",
-		reflect.TypeOf((*AwsAppsyncTypeConfig)(nil)).Elem(),
+		"@cdktn/aws-appsync.TfTypeConfig",
+		reflect.TypeOf((*TfTypeConfig)(nil)).Elem(),
 	)
 }

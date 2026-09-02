@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication",
-		reflect.TypeOf((*AwsQbusinessApplication)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication",
+		reflect.TypeOf((*TfApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -89,18 +89,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsQbusinessApplication{}
+			j := jsiiProxy_TfApplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.AttachmentsConfigurationProperty",
-		reflect.TypeOf((*AwsQbusinessApplication_AttachmentsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.AttachmentsConfigurationProperty",
+		reflect.TypeOf((*TfApplication_AttachmentsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.AttachmentsConfigurationPropertyList",
-		reflect.TypeOf((*AwsQbusinessApplication_AttachmentsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.AttachmentsConfigurationPropertyList",
+		reflect.TypeOf((*TfApplication_AttachmentsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -115,14 +115,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsQbusinessApplication_AttachmentsConfigurationPropertyList{}
+			j := jsiiProxy_TfApplication_AttachmentsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.AttachmentsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsQbusinessApplication_AttachmentsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.AttachmentsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_AttachmentsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attachmentsControlMode", GoGetter: "AttachmentsControlMode"},
 			_jsii_.MemberProperty{JsiiProperty: "attachmentsControlModeInput", GoGetter: "AttachmentsControlModeInput"},
@@ -149,18 +149,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsQbusinessApplication_AttachmentsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_AttachmentsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsQbusinessApplication_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfApplication_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.EncryptionConfigurationPropertyList",
-		reflect.TypeOf((*AwsQbusinessApplication_EncryptionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.EncryptionConfigurationPropertyList",
+		reflect.TypeOf((*TfApplication_EncryptionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -175,14 +175,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsQbusinessApplication_EncryptionConfigurationPropertyList{}
+			j := jsiiProxy_TfApplication_EncryptionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsQbusinessApplication_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -209,18 +209,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsQbusinessApplication_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.TimeoutsProperty",
-		reflect.TypeOf((*AwsQbusinessApplication_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.TimeoutsProperty",
+		reflect.TypeOf((*TfApplication_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplication.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsQbusinessApplication_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplication.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -254,13 +254,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsQbusinessApplication_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amazon-q-business.AwsQbusinessApplicationConfig",
-		reflect.TypeOf((*AwsQbusinessApplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-amazon-q-business.TfApplicationConfig",
+		reflect.TypeOf((*TfApplicationConfig)(nil)).Elem(),
 	)
 }

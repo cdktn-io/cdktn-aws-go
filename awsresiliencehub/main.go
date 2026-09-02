@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy",
+		reflect.TypeOf((*TfResiliencyPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,18 +85,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy{}
+			j := jsiiProxy_TfResiliencyPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.AzProperty",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_AzProperty)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.AzProperty",
+		reflect.TypeOf((*TfResiliencyPolicy_AzProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.AzPropertyList",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_AzPropertyList)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.AzPropertyList",
+		reflect.TypeOf((*TfResiliencyPolicy_AzPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -111,14 +111,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_AzPropertyList{}
+			j := jsiiProxy_TfResiliencyPolicy_AzPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.AzPropertyOutputReference",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_AzPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.AzPropertyOutputReference",
+		reflect.TypeOf((*TfResiliencyPolicy_AzPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -147,18 +147,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_AzPropertyOutputReference{}
+			j := jsiiProxy_TfResiliencyPolicy_AzPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.HardwareProperty",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_HardwareProperty)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.HardwareProperty",
+		reflect.TypeOf((*TfResiliencyPolicy_HardwareProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.HardwarePropertyList",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_HardwarePropertyList)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.HardwarePropertyList",
+		reflect.TypeOf((*TfResiliencyPolicy_HardwarePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -173,14 +173,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_HardwarePropertyList{}
+			j := jsiiProxy_TfResiliencyPolicy_HardwarePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.HardwarePropertyOutputReference",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_HardwarePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.HardwarePropertyOutputReference",
+		reflect.TypeOf((*TfResiliencyPolicy_HardwarePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -209,18 +209,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_HardwarePropertyOutputReference{}
+			j := jsiiProxy_TfResiliencyPolicy_HardwarePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.PolicyProperty",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_PolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.PolicyProperty",
+		reflect.TypeOf((*TfResiliencyPolicy_PolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.PolicyPropertyList",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_PolicyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.PolicyPropertyList",
+		reflect.TypeOf((*TfResiliencyPolicy_PolicyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -235,14 +235,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_PolicyPropertyList{}
+			j := jsiiProxy_TfResiliencyPolicy_PolicyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.PolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_PolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.PolicyPropertyOutputReference",
+		reflect.TypeOf((*TfResiliencyPolicy_PolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "az", GoGetter: "Az"},
 			_jsii_.MemberProperty{JsiiProperty: "azInput", GoGetter: "AzInput"},
@@ -283,18 +283,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_PolicyPropertyOutputReference{}
+			j := jsiiProxy_TfResiliencyPolicy_PolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.RegionProperty",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_RegionProperty)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.RegionProperty",
+		reflect.TypeOf((*TfResiliencyPolicy_RegionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.RegionPropertyList",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_RegionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.RegionPropertyList",
+		reflect.TypeOf((*TfResiliencyPolicy_RegionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -309,14 +309,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_RegionPropertyList{}
+			j := jsiiProxy_TfResiliencyPolicy_RegionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.RegionPropertyOutputReference",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_RegionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.RegionPropertyOutputReference",
+		reflect.TypeOf((*TfResiliencyPolicy_RegionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -347,18 +347,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_RegionPropertyOutputReference{}
+			j := jsiiProxy_TfResiliencyPolicy_RegionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.SoftwareProperty",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_SoftwareProperty)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.SoftwareProperty",
+		reflect.TypeOf((*TfResiliencyPolicy_SoftwareProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.SoftwarePropertyList",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_SoftwarePropertyList)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.SoftwarePropertyList",
+		reflect.TypeOf((*TfResiliencyPolicy_SoftwarePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -373,14 +373,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_SoftwarePropertyList{}
+			j := jsiiProxy_TfResiliencyPolicy_SoftwarePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.SoftwarePropertyOutputReference",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_SoftwarePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.SoftwarePropertyOutputReference",
+		reflect.TypeOf((*TfResiliencyPolicy_SoftwarePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -409,18 +409,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_SoftwarePropertyOutputReference{}
+			j := jsiiProxy_TfResiliencyPolicy_SoftwarePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.TimeoutsProperty",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.TimeoutsProperty",
+		reflect.TypeOf((*TfResiliencyPolicy_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicy.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicy.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfResiliencyPolicy_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -454,13 +454,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResiliencehubResiliencyPolicy_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfResiliencyPolicy_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resilience-hub.AwsResiliencehubResiliencyPolicyConfig",
-		reflect.TypeOf((*AwsResiliencehubResiliencyPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-resilience-hub.TfResiliencyPolicyConfig",
+		reflect.TypeOf((*TfResiliencyPolicyConfig)(nil)).Elem(),
 	)
 }

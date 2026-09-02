@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery",
+		reflect.TypeOf((*TfScheduledQuery)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -107,18 +107,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery{}
+			j := jsiiProxy_TfScheduledQuery{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.DimensionMappingProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_DimensionMappingProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.DimensionMappingProperty",
+		reflect.TypeOf((*TfScheduledQuery_DimensionMappingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.DimensionMappingPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_DimensionMappingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.DimensionMappingPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_DimensionMappingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -133,14 +133,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_DimensionMappingPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_DimensionMappingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.DimensionMappingPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_DimensionMappingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.DimensionMappingPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_DimensionMappingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -169,18 +169,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_DimensionMappingPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_DimensionMappingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.ErrorReportConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_ErrorReportConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.ErrorReportConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_ErrorReportConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.ErrorReportConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_ErrorReportConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.ErrorReportConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_ErrorReportConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -195,14 +195,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_ErrorReportConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_ErrorReportConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.ErrorReportConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_ErrorReportConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.ErrorReportConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_ErrorReportConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -231,18 +231,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_ErrorReportConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_ErrorReportConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryErrorReportLocationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryErrorReportLocationProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryErrorReportLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryErrorReportLocationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryErrorReportLocationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryErrorReportLocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -257,14 +257,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryErrorReportLocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryErrorReportLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryErrorReportLocationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryErrorReportLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -293,18 +293,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryErrorReportLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryErrorReportLocationS3ReportLocationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryErrorReportLocationS3ReportLocationProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryErrorReportLocationS3ReportLocationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryErrorReportLocationS3ReportLocationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -319,14 +319,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryErrorReportLocationS3ReportLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryErrorReportLocationS3ReportLocationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -353,18 +353,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryErrorReportLocationS3ReportLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryExecutionStatsProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryExecutionStatsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryExecutionStatsProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryExecutionStatsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryExecutionStatsPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryExecutionStatsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryExecutionStatsPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryExecutionStatsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -379,14 +379,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryExecutionStatsPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryExecutionStatsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryExecutionStatsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryExecutionStatsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryExecutionStatsPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryExecutionStatsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bytesMetered", GoGetter: "BytesMetered"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -417,18 +417,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryExecutionStatsPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryExecutionStatsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -443,14 +443,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -491,18 +491,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerTime", GoGetter: "TriggerTime"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponsePropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponsePropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -517,14 +517,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponsePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponsePropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -560,18 +560,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponsePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -586,14 +586,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -621,18 +621,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoverageProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoverageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -647,14 +647,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -683,18 +683,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -709,14 +709,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -743,18 +743,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangeProperty",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyList",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -769,14 +769,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyList{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -805,18 +805,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_LastRunSummaryQueryInsightsResponseQueryTemporalRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.MixedMeasureMappingProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_MixedMeasureMappingProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.MixedMeasureMappingProperty",
+		reflect.TypeOf((*TfScheduledQuery_MixedMeasureMappingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.MixedMeasureMappingPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_MixedMeasureMappingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.MixedMeasureMappingPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_MixedMeasureMappingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -831,14 +831,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_MixedMeasureMappingPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_MixedMeasureMappingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.MixedMeasureMappingPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_MixedMeasureMappingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.MixedMeasureMappingPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_MixedMeasureMappingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -878,18 +878,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_MixedMeasureMappingPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_MixedMeasureMappingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.MultiMeasureMappingsProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_MultiMeasureMappingsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.MultiMeasureMappingsProperty",
+		reflect.TypeOf((*TfScheduledQuery_MultiMeasureMappingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.MultiMeasureMappingsPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_MultiMeasureMappingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.MultiMeasureMappingsPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_MultiMeasureMappingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -904,14 +904,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_MultiMeasureMappingsPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_MultiMeasureMappingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.MultiMeasureMappingsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_MultiMeasureMappingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.MultiMeasureMappingsPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_MultiMeasureMappingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -943,18 +943,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_MultiMeasureMappingsPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_MultiMeasureMappingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.NotificationConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_NotificationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.NotificationConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_NotificationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.NotificationConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_NotificationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.NotificationConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_NotificationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -969,14 +969,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_NotificationConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_NotificationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.NotificationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_NotificationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.NotificationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_NotificationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1005,18 +1005,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_NotificationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_NotificationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsErrorReportLocationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsErrorReportLocationProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsErrorReportLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsErrorReportLocationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsErrorReportLocationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1031,14 +1031,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsErrorReportLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsErrorReportLocationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1067,18 +1067,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsErrorReportLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsErrorReportLocationS3ReportLocationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsErrorReportLocationS3ReportLocationProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1093,14 +1093,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1127,18 +1127,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsErrorReportLocationS3ReportLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsExecutionStatsProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsExecutionStatsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsExecutionStatsProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsExecutionStatsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsExecutionStatsPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsExecutionStatsPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1153,14 +1153,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsExecutionStatsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsExecutionStatsPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bytesMetered", GoGetter: "BytesMetered"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1191,18 +1191,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsExecutionStatsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1217,14 +1217,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1265,18 +1265,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerTime", GoGetter: "TriggerTime"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponsePropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponsePropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1291,14 +1291,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponsePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponsePropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1334,18 +1334,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponsePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1360,14 +1360,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1395,18 +1395,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1421,14 +1421,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1457,18 +1457,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoveragePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1483,14 +1483,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1517,18 +1517,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeProperty",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyList",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1543,14 +1543,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyList{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1579,18 +1579,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.S3ConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_S3ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.S3ConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_S3ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.S3ConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_S3ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.S3ConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_S3ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1605,14 +1605,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_S3ConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_S3ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.S3ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.S3ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_S3ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -1645,18 +1645,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_S3ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_S3ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.ScheduleConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_ScheduleConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.ScheduleConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_ScheduleConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.ScheduleConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_ScheduleConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.ScheduleConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_ScheduleConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1671,14 +1671,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_ScheduleConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_ScheduleConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.ScheduleConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_ScheduleConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.ScheduleConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_ScheduleConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1705,18 +1705,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_ScheduleConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_ScheduleConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.SnsConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_SnsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.SnsConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_SnsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.SnsConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_SnsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.SnsConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_SnsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1731,14 +1731,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_SnsConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_SnsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.SnsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_SnsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.SnsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_SnsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1765,18 +1765,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_SnsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_SnsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1791,14 +1791,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TargetConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_TargetConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1827,18 +1827,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TargetConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_TargetConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingProperty",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1853,14 +1853,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1892,18 +1892,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_TargetConfigurationTimestreamConfigurationMixedMeasureMappingMultiMeasureAttributeMappingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingProperty",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1918,14 +1918,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1957,18 +1957,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_TargetConfigurationTimestreamConfigurationMultiMeasureMappingsMultiMeasureAttributeMappingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TimeoutsProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TimeoutsProperty",
+		reflect.TypeOf((*TfScheduledQuery_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2002,18 +2002,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TimestreamConfigurationProperty",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TimestreamConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TimestreamConfigurationProperty",
+		reflect.TypeOf((*TfScheduledQuery_TimestreamConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TimestreamConfigurationPropertyList",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TimestreamConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TimestreamConfigurationPropertyList",
+		reflect.TypeOf((*TfScheduledQuery_TimestreamConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2028,14 +2028,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TimestreamConfigurationPropertyList{}
+			j := jsiiProxy_TfScheduledQuery_TimestreamConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQuery.TimestreamConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQuery_TimestreamConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQuery.TimestreamConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfScheduledQuery_TimestreamConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2081,13 +2081,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTimestreamqueryScheduledQuery_TimestreamConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfScheduledQuery_TimestreamConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-timestream-query.AwsTimestreamqueryScheduledQueryConfig",
-		reflect.TypeOf((*AwsTimestreamqueryScheduledQueryConfig)(nil)).Elem(),
+		"@cdktn/aws-timestream-query.TfScheduledQueryConfig",
+		reflect.TypeOf((*TfScheduledQueryConfig)(nil)).Elem(),
 	)
 }

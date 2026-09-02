@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector",
+		reflect.TypeOf((*TfNetworkConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,18 +74,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdacoreNetworkConnector{}
+			j := jsiiProxy_TfNetworkConnector{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.ConfigurationProperty",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.ConfigurationProperty",
+		reflect.TypeOf((*TfNetworkConnector_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.ConfigurationPropertyList",
+		reflect.TypeOf((*TfNetworkConnector_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -100,14 +100,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdacoreNetworkConnector_ConfigurationPropertyList{}
+			j := jsiiProxy_TfNetworkConnector_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfNetworkConnector_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -136,18 +136,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEgressConfigurationInput", GoGetter: "VpcEgressConfigurationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdacoreNetworkConnector_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfNetworkConnector_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.TimeoutsProperty",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.TimeoutsProperty",
+		reflect.TypeOf((*TfNetworkConnector_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfNetworkConnector_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -181,18 +181,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdacoreNetworkConnector_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfNetworkConnector_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.VpcEgressConfigurationProperty",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_VpcEgressConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.VpcEgressConfigurationProperty",
+		reflect.TypeOf((*TfNetworkConnector_VpcEgressConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.VpcEgressConfigurationPropertyList",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_VpcEgressConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.VpcEgressConfigurationPropertyList",
+		reflect.TypeOf((*TfNetworkConnector_VpcEgressConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -207,14 +207,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdacoreNetworkConnector_VpcEgressConfigurationPropertyList{}
+			j := jsiiProxy_TfNetworkConnector_VpcEgressConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnector.VpcEgressConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnector_VpcEgressConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnector.VpcEgressConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfNetworkConnector_VpcEgressConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "associatedComputeResourceTypes", GoGetter: "AssociatedComputeResourceTypes"},
 			_jsii_.MemberProperty{JsiiProperty: "associatedComputeResourceTypesInput", GoGetter: "AssociatedComputeResourceTypesInput"},
@@ -248,13 +248,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdacoreNetworkConnector_VpcEgressConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfNetworkConnector_VpcEgressConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-core.AwsLambdacoreNetworkConnectorConfig",
-		reflect.TypeOf((*AwsLambdacoreNetworkConnectorConfig)(nil)).Elem(),
+		"@cdktn/aws-lambda-core.TfNetworkConnectorConfig",
+		reflect.TypeOf((*TfNetworkConnectorConfig)(nil)).Elem(),
 	)
 }

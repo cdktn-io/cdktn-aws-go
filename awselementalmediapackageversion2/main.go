@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elemental-mediapackage-version-2.AwsMediaPackagev2ChannelGroup",
-		reflect.TypeOf((*AwsMediaPackagev2ChannelGroup)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage-version-2.TfChannelGroup",
+		reflect.TypeOf((*TfChannelGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,13 +72,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMediaPackagev2ChannelGroup{}
+			j := jsiiProxy_TfChannelGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elemental-mediapackage-version-2.AwsMediaPackagev2ChannelGroupConfig",
-		reflect.TypeOf((*AwsMediaPackagev2ChannelGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-elemental-mediapackage-version-2.TfChannelGroupConfig",
+		reflect.TypeOf((*TfChannelGroupConfig)(nil)).Elem(),
 	)
 }

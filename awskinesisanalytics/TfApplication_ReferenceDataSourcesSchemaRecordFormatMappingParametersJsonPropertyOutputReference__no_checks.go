@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awskinesisanalytics
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateSetInternalValueParameters(val *TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateSetRecordRowPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersJsonPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex",
-		reflect.TypeOf((*AwsS3VectorsIndex)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex",
+		reflect.TypeOf((*TfIndex)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,18 +85,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsIndex{}
+			j := jsiiProxy_TfIndex{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsS3VectorsIndex_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfIndex_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex.EncryptionConfigurationPropertyList",
-		reflect.TypeOf((*AwsS3VectorsIndex_EncryptionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex.EncryptionConfigurationPropertyList",
+		reflect.TypeOf((*TfIndex_EncryptionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -111,14 +111,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsIndex_EncryptionConfigurationPropertyList{}
+			j := jsiiProxy_TfIndex_EncryptionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3VectorsIndex_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIndex_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -149,18 +149,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsIndex_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIndex_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex.MetadataConfigurationProperty",
-		reflect.TypeOf((*AwsS3VectorsIndex_MetadataConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex.MetadataConfigurationProperty",
+		reflect.TypeOf((*TfIndex_MetadataConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex.MetadataConfigurationPropertyList",
-		reflect.TypeOf((*AwsS3VectorsIndex_MetadataConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex.MetadataConfigurationPropertyList",
+		reflect.TypeOf((*TfIndex_MetadataConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -175,14 +175,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsIndex_MetadataConfigurationPropertyList{}
+			j := jsiiProxy_TfIndex_MetadataConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndex.MetadataConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3VectorsIndex_MetadataConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndex.MetadataConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIndex_MetadataConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -209,18 +209,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsIndex_MetadataConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIndex_MetadataConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsIndexConfig",
-		reflect.TypeOf((*AwsS3VectorsIndexConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfIndexConfig",
+		reflect.TypeOf((*TfIndexConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucket",
-		reflect.TypeOf((*AwsS3VectorsVectorBucket)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucket",
+		reflect.TypeOf((*TfVectorBucket)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -286,18 +286,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsVectorBucket{}
+			j := jsiiProxy_TfVectorBucket{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucket.EncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsS3VectorsVectorBucket_EncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucket.EncryptionConfigurationProperty",
+		reflect.TypeOf((*TfVectorBucket_EncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucket.EncryptionConfigurationPropertyList",
-		reflect.TypeOf((*AwsS3VectorsVectorBucket_EncryptionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucket.EncryptionConfigurationPropertyList",
+		reflect.TypeOf((*TfVectorBucket_EncryptionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -312,14 +312,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsVectorBucket_EncryptionConfigurationPropertyList{}
+			j := jsiiProxy_TfVectorBucket_EncryptionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucket.EncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsS3VectorsVectorBucket_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucket.EncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfVectorBucket_EncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -350,18 +350,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsVectorBucket_EncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfVectorBucket_EncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucketConfig",
-		reflect.TypeOf((*AwsS3VectorsVectorBucketConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucketConfig",
+		reflect.TypeOf((*TfVectorBucketConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucketPolicy",
-		reflect.TypeOf((*AwsS3VectorsVectorBucketPolicy)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucketPolicy",
+		reflect.TypeOf((*TfVectorBucketPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -416,13 +416,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3VectorsVectorBucketPolicy{}
+			j := jsiiProxy_TfVectorBucketPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-vectors.AwsS3VectorsVectorBucketPolicyConfig",
-		reflect.TypeOf((*AwsS3VectorsVectorBucketPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-vectors.TfVectorBucketPolicyConfig",
+		reflect.TypeOf((*TfVectorBucketPolicyConfig)(nil)).Elem(),
 	)
 }

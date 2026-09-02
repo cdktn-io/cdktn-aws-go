@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebBrowserSettings",
-		reflect.TypeOf((*AwsWorkspaceswebBrowserSettings)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfBrowserSettings",
+		reflect.TypeOf((*TfBrowserSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContextInput", GoGetter: "AdditionalEncryptionContextInput"},
@@ -75,14 +75,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebBrowserSettings{}
+			j := jsiiProxy_TfBrowserSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebBrowserSettingsAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebBrowserSettingsAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfBrowserSettingsAssociation",
+		reflect.TypeOf((*TfBrowserSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -137,22 +137,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebBrowserSettingsAssociation{}
+			j := jsiiProxy_TfBrowserSettingsAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebBrowserSettingsAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebBrowserSettingsAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfBrowserSettingsAssociationConfig",
+		reflect.TypeOf((*TfBrowserSettingsAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebBrowserSettingsConfig",
-		reflect.TypeOf((*AwsWorkspaceswebBrowserSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfBrowserSettingsConfig",
+		reflect.TypeOf((*TfBrowserSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings",
+		reflect.TypeOf((*TfDataProtectionSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContextInput", GoGetter: "AdditionalEncryptionContextInput"},
@@ -224,18 +224,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings{}
+			j := jsiiProxy_TfDataProtectionSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.CustomPatternProperty",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_CustomPatternProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.CustomPatternProperty",
+		reflect.TypeOf((*TfDataProtectionSettings_CustomPatternProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.CustomPatternPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_CustomPatternPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.CustomPatternPropertyList",
+		reflect.TypeOf((*TfDataProtectionSettings_CustomPatternPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -250,14 +250,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_CustomPatternPropertyList{}
+			j := jsiiProxy_TfDataProtectionSettings_CustomPatternPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.CustomPatternPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_CustomPatternPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.CustomPatternPropertyOutputReference",
+		reflect.TypeOf((*TfDataProtectionSettings_CustomPatternPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -292,18 +292,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_CustomPatternPropertyOutputReference{}
+			j := jsiiProxy_TfDataProtectionSettings_CustomPatternPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.InlineRedactionConfigurationProperty",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_InlineRedactionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.InlineRedactionConfigurationProperty",
+		reflect.TypeOf((*TfDataProtectionSettings_InlineRedactionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.InlineRedactionConfigurationPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_InlineRedactionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.InlineRedactionConfigurationPropertyList",
+		reflect.TypeOf((*TfDataProtectionSettings_InlineRedactionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -318,14 +318,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_InlineRedactionConfigurationPropertyList{}
+			j := jsiiProxy_TfDataProtectionSettings_InlineRedactionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.InlineRedactionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_InlineRedactionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.InlineRedactionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDataProtectionSettings_InlineRedactionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -363,18 +363,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_InlineRedactionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDataProtectionSettings_InlineRedactionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.InlineRedactionPatternProperty",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_InlineRedactionPatternProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.InlineRedactionPatternProperty",
+		reflect.TypeOf((*TfDataProtectionSettings_InlineRedactionPatternProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.InlineRedactionPatternPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_InlineRedactionPatternPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.InlineRedactionPatternPropertyList",
+		reflect.TypeOf((*TfDataProtectionSettings_InlineRedactionPatternPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -389,14 +389,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_InlineRedactionPatternPropertyList{}
+			j := jsiiProxy_TfDataProtectionSettings_InlineRedactionPatternPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.InlineRedactionPatternPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_InlineRedactionPatternPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.InlineRedactionPatternPropertyOutputReference",
+		reflect.TypeOf((*TfDataProtectionSettings_InlineRedactionPatternPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "builtInPatternId", GoGetter: "BuiltInPatternId"},
 			_jsii_.MemberProperty{JsiiProperty: "builtInPatternIdInput", GoGetter: "BuiltInPatternIdInput"},
@@ -441,18 +441,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_InlineRedactionPatternPropertyOutputReference{}
+			j := jsiiProxy_TfDataProtectionSettings_InlineRedactionPatternPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.RedactionPlaceHolderProperty",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_RedactionPlaceHolderProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.RedactionPlaceHolderProperty",
+		reflect.TypeOf((*TfDataProtectionSettings_RedactionPlaceHolderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.RedactionPlaceHolderPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_RedactionPlaceHolderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.RedactionPlaceHolderPropertyList",
+		reflect.TypeOf((*TfDataProtectionSettings_RedactionPlaceHolderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -467,14 +467,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_RedactionPlaceHolderPropertyList{}
+			j := jsiiProxy_TfDataProtectionSettings_RedactionPlaceHolderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettings.RedactionPlaceHolderPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettings_RedactionPlaceHolderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettings.RedactionPlaceHolderPropertyOutputReference",
+		reflect.TypeOf((*TfDataProtectionSettings_RedactionPlaceHolderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -504,14 +504,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettings_RedactionPlaceHolderPropertyOutputReference{}
+			j := jsiiProxy_TfDataProtectionSettings_RedactionPlaceHolderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettingsAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettingsAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettingsAssociation",
+		reflect.TypeOf((*TfDataProtectionSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -566,22 +566,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebDataProtectionSettingsAssociation{}
+			j := jsiiProxy_TfDataProtectionSettingsAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettingsAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettingsAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettingsAssociationConfig",
+		reflect.TypeOf((*TfDataProtectionSettingsAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebDataProtectionSettingsConfig",
-		reflect.TypeOf((*AwsWorkspaceswebDataProtectionSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfDataProtectionSettingsConfig",
+		reflect.TypeOf((*TfDataProtectionSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIdentityProvider",
-		reflect.TypeOf((*AwsWorkspaceswebIdentityProvider)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIdentityProvider",
+		reflect.TypeOf((*TfIdentityProvider)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -645,18 +645,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebIdentityProvider{}
+			j := jsiiProxy_TfIdentityProvider{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIdentityProviderConfig",
-		reflect.TypeOf((*AwsWorkspaceswebIdentityProviderConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIdentityProviderConfig",
+		reflect.TypeOf((*TfIdentityProviderConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettings",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettings)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettings",
+		reflect.TypeOf((*TfIpAccessSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContextInput", GoGetter: "AdditionalEncryptionContextInput"},
@@ -728,18 +728,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebIpAccessSettings{}
+			j := jsiiProxy_TfIpAccessSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettings.IpRuleProperty",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettings_IpRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettings.IpRuleProperty",
+		reflect.TypeOf((*TfIpAccessSettings_IpRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettings.IpRulePropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettings_IpRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettings.IpRulePropertyList",
+		reflect.TypeOf((*TfIpAccessSettings_IpRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -754,14 +754,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebIpAccessSettings_IpRulePropertyList{}
+			j := jsiiProxy_TfIpAccessSettings_IpRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettings.IpRulePropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettings_IpRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettings.IpRulePropertyOutputReference",
+		reflect.TypeOf((*TfIpAccessSettings_IpRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -791,14 +791,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebIpAccessSettings_IpRulePropertyOutputReference{}
+			j := jsiiProxy_TfIpAccessSettings_IpRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettingsAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettingsAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettingsAssociation",
+		reflect.TypeOf((*TfIpAccessSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -853,22 +853,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebIpAccessSettingsAssociation{}
+			j := jsiiProxy_TfIpAccessSettingsAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettingsAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettingsAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettingsAssociationConfig",
+		reflect.TypeOf((*TfIpAccessSettingsAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebIpAccessSettingsConfig",
-		reflect.TypeOf((*AwsWorkspaceswebIpAccessSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfIpAccessSettingsConfig",
+		reflect.TypeOf((*TfIpAccessSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebNetworkSettings",
-		reflect.TypeOf((*AwsWorkspaceswebNetworkSettings)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfNetworkSettings",
+		reflect.TypeOf((*TfNetworkSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -931,14 +931,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebNetworkSettings{}
+			j := jsiiProxy_TfNetworkSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebNetworkSettingsAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebNetworkSettingsAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfNetworkSettingsAssociation",
+		reflect.TypeOf((*TfNetworkSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -993,22 +993,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebNetworkSettingsAssociation{}
+			j := jsiiProxy_TfNetworkSettingsAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebNetworkSettingsAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebNetworkSettingsAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfNetworkSettingsAssociationConfig",
+		reflect.TypeOf((*TfNetworkSettingsAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebNetworkSettingsConfig",
-		reflect.TypeOf((*AwsWorkspaceswebNetworkSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfNetworkSettingsConfig",
+		reflect.TypeOf((*TfNetworkSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebPortal",
-		reflect.TypeOf((*AwsWorkspaceswebPortal)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfPortal",
+		reflect.TypeOf((*TfPortal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContextInput", GoGetter: "AdditionalEncryptionContextInput"},
@@ -1102,18 +1102,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebPortal{}
+			j := jsiiProxy_TfPortal{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebPortal.TimeoutsProperty",
-		reflect.TypeOf((*AwsWorkspaceswebPortal_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfPortal.TimeoutsProperty",
+		reflect.TypeOf((*TfPortal_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebPortal.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebPortal_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfPortal.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfPortal_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1147,18 +1147,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebPortal_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfPortal_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebPortalConfig",
-		reflect.TypeOf((*AwsWorkspaceswebPortalConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfPortalConfig",
+		reflect.TypeOf((*TfPortalConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger",
+		reflect.TypeOf((*TfSessionLogger)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContextInput", GoGetter: "AdditionalEncryptionContextInput"},
@@ -1232,18 +1232,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger{}
+			j := jsiiProxy_TfSessionLogger{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.AllProperty",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_AllProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.AllProperty",
+		reflect.TypeOf((*TfSessionLogger_AllProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.AllPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_AllPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.AllPropertyList",
+		reflect.TypeOf((*TfSessionLogger_AllPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1258,14 +1258,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_AllPropertyList{}
+			j := jsiiProxy_TfSessionLogger_AllPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.AllPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_AllPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.AllPropertyOutputReference",
+		reflect.TypeOf((*TfSessionLogger_AllPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1290,18 +1290,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_AllPropertyOutputReference{}
+			j := jsiiProxy_TfSessionLogger_AllPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.EventFilterProperty",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_EventFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.EventFilterProperty",
+		reflect.TypeOf((*TfSessionLogger_EventFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.EventFilterPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_EventFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.EventFilterPropertyList",
+		reflect.TypeOf((*TfSessionLogger_EventFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1316,14 +1316,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_EventFilterPropertyList{}
+			j := jsiiProxy_TfSessionLogger_EventFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.EventFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_EventFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.EventFilterPropertyOutputReference",
+		reflect.TypeOf((*TfSessionLogger_EventFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "all", GoGetter: "All"},
 			_jsii_.MemberProperty{JsiiProperty: "allInput", GoGetter: "AllInput"},
@@ -1355,18 +1355,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_EventFilterPropertyOutputReference{}
+			j := jsiiProxy_TfSessionLogger_EventFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.LogConfigurationProperty",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_LogConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.LogConfigurationProperty",
+		reflect.TypeOf((*TfSessionLogger_LogConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.LogConfigurationPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_LogConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.LogConfigurationPropertyList",
+		reflect.TypeOf((*TfSessionLogger_LogConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1381,14 +1381,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_LogConfigurationPropertyList{}
+			j := jsiiProxy_TfSessionLogger_LogConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.LogConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_LogConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.LogConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfSessionLogger_LogConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1417,18 +1417,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_LogConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfSessionLogger_LogConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.S3Property",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_S3Property)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.S3Property",
+		reflect.TypeOf((*TfSessionLogger_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.S3PropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_S3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.S3PropertyList",
+		reflect.TypeOf((*TfSessionLogger_S3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1443,14 +1443,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_S3PropertyList{}
+			j := jsiiProxy_TfSessionLogger_S3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLogger.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLogger_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLogger.S3PropertyOutputReference",
+		reflect.TypeOf((*TfSessionLogger_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -1487,14 +1487,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLogger_S3PropertyOutputReference{}
+			j := jsiiProxy_TfSessionLogger_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLoggerAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLoggerAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLoggerAssociation",
+		reflect.TypeOf((*TfSessionLoggerAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1549,22 +1549,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebSessionLoggerAssociation{}
+			j := jsiiProxy_TfSessionLoggerAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLoggerAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLoggerAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLoggerAssociationConfig",
+		reflect.TypeOf((*TfSessionLoggerAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebSessionLoggerConfig",
-		reflect.TypeOf((*AwsWorkspaceswebSessionLoggerConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfSessionLoggerConfig",
+		reflect.TypeOf((*TfSessionLoggerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStore",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStore)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStore",
+		reflect.TypeOf((*TfTrustStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1625,18 +1625,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebTrustStore{}
+			j := jsiiProxy_TfTrustStore{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStore.CertificateProperty",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStore_CertificateProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStore.CertificateProperty",
+		reflect.TypeOf((*TfTrustStore_CertificateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStore.CertificatePropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStore_CertificatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStore.CertificatePropertyList",
+		reflect.TypeOf((*TfTrustStore_CertificatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1651,14 +1651,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebTrustStore_CertificatePropertyList{}
+			j := jsiiProxy_TfTrustStore_CertificatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStore.CertificatePropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStore_CertificatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStore.CertificatePropertyOutputReference",
+		reflect.TypeOf((*TfTrustStore_CertificatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "body", GoGetter: "Body"},
 			_jsii_.MemberProperty{JsiiProperty: "bodyInput", GoGetter: "BodyInput"},
@@ -1690,14 +1690,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebTrustStore_CertificatePropertyOutputReference{}
+			j := jsiiProxy_TfTrustStore_CertificatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStoreAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStoreAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStoreAssociation",
+		reflect.TypeOf((*TfTrustStoreAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1752,22 +1752,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebTrustStoreAssociation{}
+			j := jsiiProxy_TfTrustStoreAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStoreAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStoreAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStoreAssociationConfig",
+		reflect.TypeOf((*TfTrustStoreAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebTrustStoreConfig",
-		reflect.TypeOf((*AwsWorkspaceswebTrustStoreConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfTrustStoreConfig",
+		reflect.TypeOf((*TfTrustStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserAccessLoggingSettings",
-		reflect.TypeOf((*AwsWorkspaceswebUserAccessLoggingSettings)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserAccessLoggingSettings",
+		reflect.TypeOf((*TfUserAccessLoggingSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1826,14 +1826,14 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserAccessLoggingSettings{}
+			j := jsiiProxy_TfUserAccessLoggingSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserAccessLoggingSettingsAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebUserAccessLoggingSettingsAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserAccessLoggingSettingsAssociation",
+		reflect.TypeOf((*TfUserAccessLoggingSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1888,22 +1888,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserAccessLoggingSettingsAssociation{}
+			j := jsiiProxy_TfUserAccessLoggingSettingsAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserAccessLoggingSettingsAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebUserAccessLoggingSettingsAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserAccessLoggingSettingsAssociationConfig",
+		reflect.TypeOf((*TfUserAccessLoggingSettingsAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserAccessLoggingSettingsConfig",
-		reflect.TypeOf((*AwsWorkspaceswebUserAccessLoggingSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserAccessLoggingSettingsConfig",
+		reflect.TypeOf((*TfUserAccessLoggingSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings",
+		reflect.TypeOf((*TfUserSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContext", GoGetter: "AdditionalEncryptionContext"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalEncryptionContextInput", GoGetter: "AdditionalEncryptionContextInput"},
@@ -1993,18 +1993,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings{}
+			j := jsiiProxy_TfUserSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.AllowlistProperty",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_AllowlistProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.AllowlistProperty",
+		reflect.TypeOf((*TfUserSettings_AllowlistProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.AllowlistPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_AllowlistPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.AllowlistPropertyList",
+		reflect.TypeOf((*TfUserSettings_AllowlistPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2019,14 +2019,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_AllowlistPropertyList{}
+			j := jsiiProxy_TfUserSettings_AllowlistPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.AllowlistPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_AllowlistPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.AllowlistPropertyOutputReference",
+		reflect.TypeOf((*TfUserSettings_AllowlistPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2059,18 +2059,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_AllowlistPropertyOutputReference{}
+			j := jsiiProxy_TfUserSettings_AllowlistPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.BlocklistProperty",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_BlocklistProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.BlocklistProperty",
+		reflect.TypeOf((*TfUserSettings_BlocklistProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.BlocklistPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_BlocklistPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.BlocklistPropertyList",
+		reflect.TypeOf((*TfUserSettings_BlocklistPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2085,14 +2085,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_BlocklistPropertyList{}
+			j := jsiiProxy_TfUserSettings_BlocklistPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.BlocklistPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_BlocklistPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.BlocklistPropertyOutputReference",
+		reflect.TypeOf((*TfUserSettings_BlocklistPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2125,18 +2125,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_BlocklistPropertyOutputReference{}
+			j := jsiiProxy_TfUserSettings_BlocklistPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.CookieSynchronizationConfigurationProperty",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_CookieSynchronizationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.CookieSynchronizationConfigurationProperty",
+		reflect.TypeOf((*TfUserSettings_CookieSynchronizationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.CookieSynchronizationConfigurationPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_CookieSynchronizationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.CookieSynchronizationConfigurationPropertyList",
+		reflect.TypeOf((*TfUserSettings_CookieSynchronizationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2151,14 +2151,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_CookieSynchronizationConfigurationPropertyList{}
+			j := jsiiProxy_TfUserSettings_CookieSynchronizationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.CookieSynchronizationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_CookieSynchronizationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.CookieSynchronizationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfUserSettings_CookieSynchronizationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowlist", GoGetter: "Allowlist"},
 			_jsii_.MemberProperty{JsiiProperty: "allowlistInput", GoGetter: "AllowlistInput"},
@@ -2191,18 +2191,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_CookieSynchronizationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfUserSettings_CookieSynchronizationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.ToolbarConfigurationProperty",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_ToolbarConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.ToolbarConfigurationProperty",
+		reflect.TypeOf((*TfUserSettings_ToolbarConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.ToolbarConfigurationPropertyList",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_ToolbarConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.ToolbarConfigurationPropertyList",
+		reflect.TypeOf((*TfUserSettings_ToolbarConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2217,14 +2217,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_ToolbarConfigurationPropertyList{}
+			j := jsiiProxy_TfUserSettings_ToolbarConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettings.ToolbarConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettings_ToolbarConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettings.ToolbarConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfUserSettings_ToolbarConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2261,14 +2261,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "visualModeInput", GoGetter: "VisualModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettings_ToolbarConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfUserSettings_ToolbarConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettingsAssociation",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettingsAssociation)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettingsAssociation",
+		reflect.TypeOf((*TfUserSettingsAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2323,17 +2323,17 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkspaceswebUserSettingsAssociation{}
+			j := jsiiProxy_TfUserSettingsAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettingsAssociationConfig",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettingsAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettingsAssociationConfig",
+		reflect.TypeOf((*TfUserSettingsAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workspaces-web.AwsWorkspaceswebUserSettingsConfig",
-		reflect.TypeOf((*AwsWorkspaceswebUserSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-workspaces-web.TfUserSettingsConfig",
+		reflect.TypeOf((*TfUserSettingsConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain",
-		reflect.TypeOf((*AwsCustomerprofilesDomain)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -89,18 +89,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.AttributeTypesSelectorProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_AttributeTypesSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.AttributeTypesSelectorProperty",
+		reflect.TypeOf((*TfDomain_AttributeTypesSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.AttributeTypesSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_AttributeTypesSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.AttributeTypesSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_AttributeTypesSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address", GoGetter: "Address"},
 			_jsii_.MemberProperty{JsiiProperty: "addressInput", GoGetter: "AddressInput"},
@@ -136,18 +136,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_AttributeTypesSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_AttributeTypesSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.AutoMergingProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_AutoMergingProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.AutoMergingProperty",
+		reflect.TypeOf((*TfDomain_AutoMergingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.AutoMergingPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_AutoMergingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.AutoMergingPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_AutoMergingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -185,18 +185,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_AutoMergingPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_AutoMergingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.ConsolidationProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_ConsolidationProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.ConsolidationProperty",
+		reflect.TypeOf((*TfDomain_ConsolidationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.ConsolidationPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_ConsolidationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.ConsolidationPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_ConsolidationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -223,18 +223,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_ConsolidationPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_ConsolidationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.JobScheduleProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_JobScheduleProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.JobScheduleProperty",
+		reflect.TypeOf((*TfDomain_JobScheduleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.JobSchedulePropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_JobSchedulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.JobSchedulePropertyOutputReference",
+		reflect.TypeOf((*TfDomain_JobSchedulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -263,18 +263,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_JobSchedulePropertyOutputReference{}
+			j := jsiiProxy_TfDomain_JobSchedulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingAutoMergingConflictResolutionProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingAutoMergingConflictResolutionProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingAutoMergingConflictResolutionProperty",
+		reflect.TypeOf((*TfDomain_MatchingAutoMergingConflictResolutionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingAutoMergingConflictResolutionPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingAutoMergingConflictResolutionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingAutoMergingConflictResolutionPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_MatchingAutoMergingConflictResolutionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -304,18 +304,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_MatchingAutoMergingConflictResolutionPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_MatchingAutoMergingConflictResolutionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingExportingConfigProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingExportingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingExportingConfigProperty",
+		reflect.TypeOf((*TfDomain_MatchingExportingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingExportingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingExportingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingExportingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_MatchingExportingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -344,18 +344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_MatchingExportingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_MatchingExportingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingExportingConfigS3ExportingProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingExportingConfigS3ExportingProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingExportingConfigS3ExportingProperty",
+		reflect.TypeOf((*TfDomain_MatchingExportingConfigS3ExportingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingExportingConfigS3ExportingPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingExportingConfigS3ExportingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingExportingConfigS3ExportingPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_MatchingExportingConfigS3ExportingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -385,18 +385,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_MatchingExportingConfigS3ExportingPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_MatchingExportingConfigS3ExportingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingProperty",
+		reflect.TypeOf((*TfDomain_MatchingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_MatchingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoMerging", GoGetter: "AutoMerging"},
 			_jsii_.MemberProperty{JsiiProperty: "autoMergingInput", GoGetter: "AutoMergingInput"},
@@ -435,18 +435,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_MatchingPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_MatchingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingRulesProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingRulesProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingRulesProperty",
+		reflect.TypeOf((*TfDomain_MatchingRulesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingRulesPropertyList",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingRulesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingRulesPropertyList",
+		reflect.TypeOf((*TfDomain_MatchingRulesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -461,14 +461,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_MatchingRulesPropertyList{}
+			j := jsiiProxy_TfDomain_MatchingRulesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.MatchingRulesPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_MatchingRulesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.MatchingRulesPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_MatchingRulesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -495,18 +495,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_MatchingRulesPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_MatchingRulesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingConflictResolutionProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingConflictResolutionProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingConflictResolutionProperty",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingConflictResolutionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingConflictResolutionPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingConflictResolutionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingConflictResolutionPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingConflictResolutionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -536,18 +536,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_RuleBasedMatchingConflictResolutionPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RuleBasedMatchingConflictResolutionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingExportingConfigProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingExportingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingExportingConfigProperty",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingExportingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingExportingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingExportingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingExportingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingExportingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -576,18 +576,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_RuleBasedMatchingExportingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RuleBasedMatchingExportingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingExportingConfigS3ExportingProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingExportingConfigS3ExportingProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingExportingConfigS3ExportingProperty",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingExportingConfigS3ExportingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingExportingConfigS3ExportingPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingExportingConfigS3ExportingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingExportingConfigS3ExportingPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingExportingConfigS3ExportingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -617,18 +617,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_RuleBasedMatchingExportingConfigS3ExportingPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RuleBasedMatchingExportingConfigS3ExportingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingProperty",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingProperty",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomain.RuleBasedMatchingPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesDomain_RuleBasedMatchingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomain.RuleBasedMatchingPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RuleBasedMatchingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attributeTypesSelector", GoGetter: "AttributeTypesSelector"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeTypesSelectorInput", GoGetter: "AttributeTypesSelectorInput"},
@@ -680,18 +680,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesDomain_RuleBasedMatchingPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RuleBasedMatchingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesDomainConfig",
-		reflect.TypeOf((*AwsCustomerprofilesDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile",
-		reflect.TypeOf((*AwsCustomerprofilesProfile)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile",
+		reflect.TypeOf((*TfProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountNumber", GoGetter: "AccountNumber"},
 			_jsii_.MemberProperty{JsiiProperty: "accountNumberInput", GoGetter: "AccountNumberInput"},
@@ -814,18 +814,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesProfile{}
+			j := jsiiProxy_TfProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.AddressProperty",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_AddressProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.AddressProperty",
+		reflect.TypeOf((*TfProfile_AddressProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.AddressPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_AddressPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.AddressPropertyOutputReference",
+		reflect.TypeOf((*TfProfile_AddressPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
 			_jsii_.MemberProperty{JsiiProperty: "address1Input", GoGetter: "Address1Input"},
@@ -880,18 +880,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesProfile_AddressPropertyOutputReference{}
+			j := jsiiProxy_TfProfile_AddressPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.BillingAddressProperty",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_BillingAddressProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.BillingAddressProperty",
+		reflect.TypeOf((*TfProfile_BillingAddressProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.BillingAddressPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_BillingAddressPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.BillingAddressPropertyOutputReference",
+		reflect.TypeOf((*TfProfile_BillingAddressPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
 			_jsii_.MemberProperty{JsiiProperty: "address1Input", GoGetter: "Address1Input"},
@@ -946,18 +946,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesProfile_BillingAddressPropertyOutputReference{}
+			j := jsiiProxy_TfProfile_BillingAddressPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.MailingAddressProperty",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_MailingAddressProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.MailingAddressProperty",
+		reflect.TypeOf((*TfProfile_MailingAddressProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.MailingAddressPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_MailingAddressPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.MailingAddressPropertyOutputReference",
+		reflect.TypeOf((*TfProfile_MailingAddressPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
 			_jsii_.MemberProperty{JsiiProperty: "address1Input", GoGetter: "Address1Input"},
@@ -1012,18 +1012,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesProfile_MailingAddressPropertyOutputReference{}
+			j := jsiiProxy_TfProfile_MailingAddressPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.ShippingAddressProperty",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_ShippingAddressProperty)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.ShippingAddressProperty",
+		reflect.TypeOf((*TfProfile_ShippingAddressProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfile.ShippingAddressPropertyOutputReference",
-		reflect.TypeOf((*AwsCustomerprofilesProfile_ShippingAddressPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfile.ShippingAddressPropertyOutputReference",
+		reflect.TypeOf((*TfProfile_ShippingAddressPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "address1", GoGetter: "Address1"},
 			_jsii_.MemberProperty{JsiiProperty: "address1Input", GoGetter: "Address1Input"},
@@ -1078,13 +1078,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCustomerprofilesProfile_ShippingAddressPropertyOutputReference{}
+			j := jsiiProxy_TfProfile_ShippingAddressPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-connect-customer-profiles.AwsCustomerprofilesProfileConfig",
-		reflect.TypeOf((*AwsCustomerprofilesProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-connect-customer-profiles.TfProfileConfig",
+		reflect.TypeOf((*TfProfileConfig)(nil)).Elem(),
 	)
 }

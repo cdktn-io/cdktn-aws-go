@@ -1,7 +1,0 @@
-package awsbedrockagentcore
-
-
-// Experimental.
-type AwsBedrockagentcoreOauth2CredentialProvider_Oauth2ProviderConfigGoogleOauth2ProviderConfigOauthDiscoveryProperty struct {
-}
-

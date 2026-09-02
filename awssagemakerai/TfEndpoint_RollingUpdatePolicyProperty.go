@@ -1,0 +1,23 @@
+package awssagemakerai
+
+
+// Experimental.
+type TfEndpoint_RollingUpdatePolicyProperty struct {
+	// maximum_batch_size block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint#maximum_batch_size TfEndpoint#maximum_batch_size}
+	// Experimental.
+	MaximumBatchSize *TfEndpoint_MaximumBatchSizeProperty `field:"required" json:"maximumBatchSize" yaml:"maximumBatchSize"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint#wait_interval_in_seconds TfEndpoint#wait_interval_in_seconds}.
+	// Experimental.
+	WaitIntervalInSeconds *float64 `field:"required" json:"waitIntervalInSeconds" yaml:"waitIntervalInSeconds"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint#maximum_execution_timeout_in_seconds TfEndpoint#maximum_execution_timeout_in_seconds}.
+	// Experimental.
+	MaximumExecutionTimeoutInSeconds *float64 `field:"optional" json:"maximumExecutionTimeoutInSeconds" yaml:"maximumExecutionTimeoutInSeconds"`
+	// rollback_maximum_batch_size block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/sagemaker_endpoint#rollback_maximum_batch_size TfEndpoint#rollback_maximum_batch_size}
+	// Experimental.
+	RollbackMaximumBatchSize *TfEndpoint_RollbackMaximumBatchSizeProperty `field:"optional" json:"rollbackMaximumBatchSize" yaml:"rollbackMaximumBatchSize"`
+}
+

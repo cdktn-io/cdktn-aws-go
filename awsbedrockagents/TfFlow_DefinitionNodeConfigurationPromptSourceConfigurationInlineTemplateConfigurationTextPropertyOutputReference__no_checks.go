@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagents
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validatePutCachePointParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validatePutInputVariableParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReference) validateSetTextParameters(val *string) error {
+	return nil
+}
+
+func validateNewTfFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineTemplateConfigurationTextPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

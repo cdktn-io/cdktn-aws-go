@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor",
+		reflect.TypeOf((*TfMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -82,18 +82,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorMonitor{}
+			j := jsiiProxy_TfMonitor{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.LocalResourceProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_LocalResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.LocalResourceProperty",
+		reflect.TypeOf((*TfMonitor_LocalResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.LocalResourcePropertyList",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_LocalResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.LocalResourcePropertyList",
+		reflect.TypeOf((*TfMonitor_LocalResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -108,14 +108,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorMonitor_LocalResourcePropertyList{}
+			j := jsiiProxy_TfMonitor_LocalResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.LocalResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_LocalResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.LocalResourcePropertyOutputReference",
+		reflect.TypeOf((*TfMonitor_LocalResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -144,18 +144,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorMonitor_LocalResourcePropertyOutputReference{}
+			j := jsiiProxy_TfMonitor_LocalResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.RemoteResourceProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_RemoteResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.RemoteResourceProperty",
+		reflect.TypeOf((*TfMonitor_RemoteResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.RemoteResourcePropertyList",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_RemoteResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.RemoteResourcePropertyList",
+		reflect.TypeOf((*TfMonitor_RemoteResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -170,14 +170,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorMonitor_RemoteResourcePropertyList{}
+			j := jsiiProxy_TfMonitor_RemoteResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.RemoteResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_RemoteResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.RemoteResourcePropertyOutputReference",
+		reflect.TypeOf((*TfMonitor_RemoteResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -206,18 +206,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorMonitor_RemoteResourcePropertyOutputReference{}
+			j := jsiiProxy_TfMonitor_RemoteResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.TimeoutsProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.TimeoutsProperty",
+		reflect.TypeOf((*TfMonitor_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitor.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitor_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitor.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMonitor_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -251,18 +251,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorMonitor_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMonitor_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorMonitorConfig",
-		reflect.TypeOf((*AwsNetworkflowmonitorMonitorConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfMonitorConfig",
+		reflect.TypeOf((*TfMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope",
+		reflect.TypeOf((*TfScope)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -327,18 +327,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope{}
+			j := jsiiProxy_TfScope{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetIdProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetIdProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetIdProperty",
+		reflect.TypeOf((*TfScope_TargetIdProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetIdPropertyList",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetIdPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetIdPropertyList",
+		reflect.TypeOf((*TfScope_TargetIdPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -353,14 +353,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TargetIdPropertyList{}
+			j := jsiiProxy_TfScope_TargetIdPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetIdPropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetIdPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetIdPropertyOutputReference",
+		reflect.TypeOf((*TfScope_TargetIdPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -387,18 +387,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TargetIdPropertyOutputReference{}
+			j := jsiiProxy_TfScope_TargetIdPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetIdentifierProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetIdentifierProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetIdentifierProperty",
+		reflect.TypeOf((*TfScope_TargetIdentifierProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetIdentifierPropertyList",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetIdentifierPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetIdentifierPropertyList",
+		reflect.TypeOf((*TfScope_TargetIdentifierPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -413,14 +413,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TargetIdentifierPropertyList{}
+			j := jsiiProxy_TfScope_TargetIdentifierPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetIdentifierPropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetIdentifierPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetIdentifierPropertyOutputReference",
+		reflect.TypeOf((*TfScope_TargetIdentifierPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -451,18 +451,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TargetIdentifierPropertyOutputReference{}
+			j := jsiiProxy_TfScope_TargetIdentifierPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetProperty",
+		reflect.TypeOf((*TfScope_TargetProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetPropertyList",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetPropertyList",
+		reflect.TypeOf((*TfScope_TargetPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -477,14 +477,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TargetPropertyList{}
+			j := jsiiProxy_TfScope_TargetPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TargetPropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TargetPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TargetPropertyOutputReference",
+		reflect.TypeOf((*TfScope_TargetPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -515,18 +515,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TargetPropertyOutputReference{}
+			j := jsiiProxy_TfScope_TargetPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TimeoutsProperty",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TimeoutsProperty",
+		reflect.TypeOf((*TfScope_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScope.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNetworkflowmonitorScope_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScope.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfScope_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -560,13 +560,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkflowmonitorScope_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfScope_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-networkflow-monitor.AwsNetworkflowmonitorScopeConfig",
-		reflect.TypeOf((*AwsNetworkflowmonitorScopeConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-networkflow-monitor.TfScopeConfig",
+		reflect.TypeOf((*TfScopeConfig)(nil)).Elem(),
 	)
 }

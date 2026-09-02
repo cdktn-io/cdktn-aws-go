@@ -1,0 +1,10 @@
+package awslightsail
+
+
+// Experimental.
+type TfContainerService_EcrImagePullerRoleProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/lightsail_container_service#is_active TfContainerService#is_active}.
+	// Experimental.
+	IsActive interface{} `field:"optional" json:"isActive" yaml:"isActive"`
+}
+

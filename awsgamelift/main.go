@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftAlias",
-		reflect.TypeOf((*AwsGameliftAlias)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfAlias",
+		reflect.TypeOf((*TfAlias)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,18 +79,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftAlias{}
+			j := jsiiProxy_TfAlias{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftAlias.RoutingStrategyProperty",
-		reflect.TypeOf((*AwsGameliftAlias_RoutingStrategyProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfAlias.RoutingStrategyProperty",
+		reflect.TypeOf((*TfAlias_RoutingStrategyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftAlias.RoutingStrategyPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftAlias_RoutingStrategyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfAlias.RoutingStrategyPropertyOutputReference",
+		reflect.TypeOf((*TfAlias_RoutingStrategyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -123,18 +123,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftAlias_RoutingStrategyPropertyOutputReference{}
+			j := jsiiProxy_TfAlias_RoutingStrategyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftAliasConfig",
-		reflect.TypeOf((*AwsGameliftAliasConfig)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfAliasConfig",
+		reflect.TypeOf((*TfAliasConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftBuild",
-		reflect.TypeOf((*AwsGameliftBuild)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfBuild",
+		reflect.TypeOf((*TfBuild)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -205,18 +205,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftBuild{}
+			j := jsiiProxy_TfBuild{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftBuild.StorageLocationProperty",
-		reflect.TypeOf((*AwsGameliftBuild_StorageLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfBuild.StorageLocationProperty",
+		reflect.TypeOf((*TfBuild_StorageLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftBuild.StorageLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftBuild_StorageLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfBuild.StorageLocationPropertyOutputReference",
+		reflect.TypeOf((*TfBuild_StorageLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -250,18 +250,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftBuild_StorageLocationPropertyOutputReference{}
+			j := jsiiProxy_TfBuild_StorageLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftBuildConfig",
-		reflect.TypeOf((*AwsGameliftBuildConfig)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfBuildConfig",
+		reflect.TypeOf((*TfBuildConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet",
-		reflect.TypeOf((*AwsGameliftFleet)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet",
+		reflect.TypeOf((*TfFleet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -371,18 +371,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet{}
+			j := jsiiProxy_TfFleet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.CertificateConfigurationProperty",
-		reflect.TypeOf((*AwsGameliftFleet_CertificateConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.CertificateConfigurationProperty",
+		reflect.TypeOf((*TfFleet_CertificateConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.CertificateConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftFleet_CertificateConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.CertificateConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfFleet_CertificateConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateType", GoGetter: "CertificateType"},
 			_jsii_.MemberProperty{JsiiProperty: "certificateTypeInput", GoGetter: "CertificateTypeInput"},
@@ -410,18 +410,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_CertificateConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfFleet_CertificateConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.Ec2InboundPermissionProperty",
-		reflect.TypeOf((*AwsGameliftFleet_Ec2InboundPermissionProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.Ec2InboundPermissionProperty",
+		reflect.TypeOf((*TfFleet_Ec2InboundPermissionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.Ec2InboundPermissionPropertyList",
-		reflect.TypeOf((*AwsGameliftFleet_Ec2InboundPermissionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.Ec2InboundPermissionPropertyList",
+		reflect.TypeOf((*TfFleet_Ec2InboundPermissionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -436,14 +436,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_Ec2InboundPermissionPropertyList{}
+			j := jsiiProxy_TfFleet_Ec2InboundPermissionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.Ec2InboundPermissionPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftFleet_Ec2InboundPermissionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.Ec2InboundPermissionPropertyOutputReference",
+		reflect.TypeOf((*TfFleet_Ec2InboundPermissionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -476,18 +476,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_Ec2InboundPermissionPropertyOutputReference{}
+			j := jsiiProxy_TfFleet_Ec2InboundPermissionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.ResourceCreationLimitPolicyProperty",
-		reflect.TypeOf((*AwsGameliftFleet_ResourceCreationLimitPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.ResourceCreationLimitPolicyProperty",
+		reflect.TypeOf((*TfFleet_ResourceCreationLimitPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.ResourceCreationLimitPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftFleet_ResourceCreationLimitPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.ResourceCreationLimitPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfFleet_ResourceCreationLimitPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -518,18 +518,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_ResourceCreationLimitPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfFleet_ResourceCreationLimitPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.RuntimeConfigurationProperty",
-		reflect.TypeOf((*AwsGameliftFleet_RuntimeConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.RuntimeConfigurationProperty",
+		reflect.TypeOf((*TfFleet_RuntimeConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.RuntimeConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftFleet_RuntimeConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.RuntimeConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfFleet_RuntimeConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -564,18 +564,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_RuntimeConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfFleet_RuntimeConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.ServerProcessProperty",
-		reflect.TypeOf((*AwsGameliftFleet_ServerProcessProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.ServerProcessProperty",
+		reflect.TypeOf((*TfFleet_ServerProcessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.ServerProcessPropertyList",
-		reflect.TypeOf((*AwsGameliftFleet_ServerProcessPropertyList)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.ServerProcessPropertyList",
+		reflect.TypeOf((*TfFleet_ServerProcessPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -590,14 +590,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_ServerProcessPropertyList{}
+			j := jsiiProxy_TfFleet_ServerProcessPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.ServerProcessPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftFleet_ServerProcessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.ServerProcessPropertyOutputReference",
+		reflect.TypeOf((*TfFleet_ServerProcessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -629,18 +629,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_ServerProcessPropertyOutputReference{}
+			j := jsiiProxy_TfFleet_ServerProcessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.TimeoutsProperty",
-		reflect.TypeOf((*AwsGameliftFleet_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.TimeoutsProperty",
+		reflect.TypeOf((*TfFleet_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftFleet.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftFleet_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleet.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfFleet_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -671,18 +671,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftFleet_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfFleet_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftFleetConfig",
-		reflect.TypeOf((*AwsGameliftFleetConfig)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfFleetConfig",
+		reflect.TypeOf((*TfFleetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup",
-		reflect.TypeOf((*AwsGameliftGameServerGroup)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup",
+		reflect.TypeOf((*TfGameServerGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -775,18 +775,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup{}
+			j := jsiiProxy_TfGameServerGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.AutoScalingPolicyProperty",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_AutoScalingPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.AutoScalingPolicyProperty",
+		reflect.TypeOf((*TfGameServerGroup_AutoScalingPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.AutoScalingPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_AutoScalingPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.AutoScalingPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfGameServerGroup_AutoScalingPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -817,18 +817,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup_AutoScalingPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfGameServerGroup_AutoScalingPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.InstanceDefinitionProperty",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_InstanceDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.InstanceDefinitionProperty",
+		reflect.TypeOf((*TfGameServerGroup_InstanceDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.InstanceDefinitionPropertyList",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_InstanceDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.InstanceDefinitionPropertyList",
+		reflect.TypeOf((*TfGameServerGroup_InstanceDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -843,14 +843,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup_InstanceDefinitionPropertyList{}
+			j := jsiiProxy_TfGameServerGroup_InstanceDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.InstanceDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_InstanceDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.InstanceDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfGameServerGroup_InstanceDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -880,18 +880,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightedCapacityInput", GoGetter: "WeightedCapacityInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup_InstanceDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfGameServerGroup_InstanceDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.LaunchTemplateProperty",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_LaunchTemplateProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.LaunchTemplateProperty",
+		reflect.TypeOf((*TfGameServerGroup_LaunchTemplateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.LaunchTemplatePropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_LaunchTemplatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.LaunchTemplatePropertyOutputReference",
+		reflect.TypeOf((*TfGameServerGroup_LaunchTemplatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -925,18 +925,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup_LaunchTemplatePropertyOutputReference{}
+			j := jsiiProxy_TfGameServerGroup_LaunchTemplatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.TargetTrackingConfigurationProperty",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_TargetTrackingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.TargetTrackingConfigurationProperty",
+		reflect.TypeOf((*TfGameServerGroup_TargetTrackingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.TargetTrackingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_TargetTrackingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.TargetTrackingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGameServerGroup_TargetTrackingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -963,18 +963,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup_TargetTrackingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGameServerGroup_TargetTrackingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.TimeoutsProperty",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.TimeoutsProperty",
+		reflect.TypeOf((*TfGameServerGroup_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroup.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftGameServerGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroup.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGameServerGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1005,18 +1005,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameServerGroup_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGameServerGroup_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameServerGroupConfig",
-		reflect.TypeOf((*AwsGameliftGameServerGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameServerGroupConfig",
+		reflect.TypeOf((*TfGameServerGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameSessionQueue",
-		reflect.TypeOf((*AwsGameliftGameSessionQueue)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameSessionQueue",
+		reflect.TypeOf((*TfGameSessionQueue)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1095,18 +1095,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameSessionQueue{}
+			j := jsiiProxy_TfGameSessionQueue{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameSessionQueue.PlayerLatencyPolicyProperty",
-		reflect.TypeOf((*AwsGameliftGameSessionQueue_PlayerLatencyPolicyProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameSessionQueue.PlayerLatencyPolicyProperty",
+		reflect.TypeOf((*TfGameSessionQueue_PlayerLatencyPolicyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameSessionQueue.PlayerLatencyPolicyPropertyList",
-		reflect.TypeOf((*AwsGameliftGameSessionQueue_PlayerLatencyPolicyPropertyList)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameSessionQueue.PlayerLatencyPolicyPropertyList",
+		reflect.TypeOf((*TfGameSessionQueue_PlayerLatencyPolicyPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1121,14 +1121,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameSessionQueue_PlayerLatencyPolicyPropertyList{}
+			j := jsiiProxy_TfGameSessionQueue_PlayerLatencyPolicyPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftGameSessionQueue.PlayerLatencyPolicyPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftGameSessionQueue_PlayerLatencyPolicyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameSessionQueue.PlayerLatencyPolicyPropertyOutputReference",
+		reflect.TypeOf((*TfGameSessionQueue_PlayerLatencyPolicyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1158,18 +1158,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftGameSessionQueue_PlayerLatencyPolicyPropertyOutputReference{}
+			j := jsiiProxy_TfGameSessionQueue_PlayerLatencyPolicyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftGameSessionQueueConfig",
-		reflect.TypeOf((*AwsGameliftGameSessionQueueConfig)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfGameSessionQueueConfig",
+		reflect.TypeOf((*TfGameSessionQueueConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftScript",
-		reflect.TypeOf((*AwsGameliftScript)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfScript",
+		reflect.TypeOf((*TfScript)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1242,18 +1242,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zipFileInput", GoGetter: "ZipFileInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftScript{}
+			j := jsiiProxy_TfScript{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftScript.StorageLocationProperty",
-		reflect.TypeOf((*AwsGameliftScript_StorageLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfScript.StorageLocationProperty",
+		reflect.TypeOf((*TfScript_StorageLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-gamelift.AwsGameliftScript.StorageLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsGameliftScript_StorageLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfScript.StorageLocationPropertyOutputReference",
+		reflect.TypeOf((*TfScript_StorageLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -1287,13 +1287,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGameliftScript_StorageLocationPropertyOutputReference{}
+			j := jsiiProxy_TfScript_StorageLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-gamelift.AwsGameliftScriptConfig",
-		reflect.TypeOf((*AwsGameliftScriptConfig)(nil)).Elem(),
+		"@cdktn/aws-gamelift.TfScriptConfig",
+		reflect.TypeOf((*TfScriptConfig)(nil)).Elem(),
 	)
 }

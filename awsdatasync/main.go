@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncAgent",
-		reflect.TypeOf((*AwsDatasyncAgent)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfAgent",
+		reflect.TypeOf((*TfAgent)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activationKey", GoGetter: "ActivationKey"},
 			_jsii_.MemberProperty{JsiiProperty: "activationKeyInput", GoGetter: "ActivationKeyInput"},
@@ -96,18 +96,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncAgent{}
+			j := jsiiProxy_TfAgent{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncAgent.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatasyncAgent_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfAgent.TimeoutsProperty",
+		reflect.TypeOf((*TfAgent_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncAgent.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncAgent_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfAgent.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAgent_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -135,18 +135,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncAgent_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAgent_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncAgentConfig",
-		reflect.TypeOf((*AwsDatasyncAgentConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfAgentConfig",
+		reflect.TypeOf((*TfAgentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationAzureBlob",
-		reflect.TypeOf((*AwsDatasyncLocationAzureBlob)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationAzureBlob",
+		reflect.TypeOf((*TfLocationAzureBlob)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessTier", GoGetter: "AccessTier"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTierInput", GoGetter: "AccessTierInput"},
@@ -227,18 +227,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationAzureBlob{}
+			j := jsiiProxy_TfLocationAzureBlob{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationAzureBlob.SasConfigurationProperty",
-		reflect.TypeOf((*AwsDatasyncLocationAzureBlob_SasConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationAzureBlob.SasConfigurationProperty",
+		reflect.TypeOf((*TfLocationAzureBlob_SasConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationAzureBlob.SasConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationAzureBlob_SasConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationAzureBlob.SasConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfLocationAzureBlob_SasConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -265,18 +265,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationAzureBlob_SasConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfLocationAzureBlob_SasConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationAzureBlobConfig",
-		reflect.TypeOf((*AwsDatasyncLocationAzureBlobConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationAzureBlobConfig",
+		reflect.TypeOf((*TfLocationAzureBlobConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationEfs",
-		reflect.TypeOf((*AwsDatasyncLocationEfs)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationEfs",
+		reflect.TypeOf((*TfLocationEfs)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArn", GoGetter: "AccessPointArn"},
 			_jsii_.MemberProperty{JsiiProperty: "accessPointArnInput", GoGetter: "AccessPointArnInput"},
@@ -355,18 +355,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationEfs{}
+			j := jsiiProxy_TfLocationEfs{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationEfs.Ec2ConfigProperty",
-		reflect.TypeOf((*AwsDatasyncLocationEfs_Ec2ConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationEfs.Ec2ConfigProperty",
+		reflect.TypeOf((*TfLocationEfs_Ec2ConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationEfs.Ec2ConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationEfs_Ec2ConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationEfs.Ec2ConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLocationEfs_Ec2ConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -395,18 +395,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationEfs_Ec2ConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLocationEfs_Ec2ConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationEfsConfig",
-		reflect.TypeOf((*AwsDatasyncLocationEfsConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationEfsConfig",
+		reflect.TypeOf((*TfLocationEfsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxLustreFileSystem",
-		reflect.TypeOf((*AwsDatasyncLocationFsxLustreFileSystem)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxLustreFileSystem",
+		reflect.TypeOf((*TfLocationFsxLustreFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -476,18 +476,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxLustreFileSystem{}
+			j := jsiiProxy_TfLocationFsxLustreFileSystem{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxLustreFileSystemConfig",
-		reflect.TypeOf((*AwsDatasyncLocationFsxLustreFileSystemConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxLustreFileSystemConfig",
+		reflect.TypeOf((*TfLocationFsxLustreFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -561,18 +561,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOntapFileSystem{}
+			j := jsiiProxy_TfLocationFsxOntapFileSystem{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.NfsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_NfsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.NfsProperty",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_NfsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.NfsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_NfsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.NfsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_NfsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -600,18 +600,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOntapFileSystem_NfsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOntapFileSystem_NfsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.ProtocolNfsMountOptionsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_ProtocolNfsMountOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.ProtocolNfsMountOptionsProperty",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_ProtocolNfsMountOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.ProtocolNfsMountOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_ProtocolNfsMountOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.ProtocolNfsMountOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_ProtocolNfsMountOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -639,18 +639,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOntapFileSystem_ProtocolNfsMountOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOntapFileSystem_ProtocolNfsMountOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.ProtocolProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_ProtocolProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.ProtocolProperty",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_ProtocolProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.ProtocolPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_ProtocolPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.ProtocolPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_ProtocolPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -683,18 +683,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOntapFileSystem_ProtocolPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOntapFileSystem_ProtocolPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.ProtocolSmbMountOptionsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_ProtocolSmbMountOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.ProtocolSmbMountOptionsProperty",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_ProtocolSmbMountOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.ProtocolSmbMountOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_ProtocolSmbMountOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.ProtocolSmbMountOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_ProtocolSmbMountOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -722,18 +722,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOntapFileSystem_ProtocolSmbMountOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOntapFileSystem_ProtocolSmbMountOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.SmbProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_SmbProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.SmbProperty",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_SmbProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystem.SmbPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystem_SmbPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystem.SmbPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystem_SmbPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -768,18 +768,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userInput", GoGetter: "UserInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOntapFileSystem_SmbPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOntapFileSystem_SmbPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOntapFileSystemConfig",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOntapFileSystemConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOntapFileSystemConfig",
+		reflect.TypeOf((*TfLocationFsxOntapFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -852,18 +852,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOpenzfsFileSystem{}
+			j := jsiiProxy_TfLocationFsxOpenzfsFileSystem{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem.MountOptionsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem_MountOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem.MountOptionsProperty",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem_MountOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem.MountOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem_MountOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem.MountOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem_MountOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -891,18 +891,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOpenzfsFileSystem_MountOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOpenzfsFileSystem_MountOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem.NfsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem_NfsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem.NfsProperty",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem_NfsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem.NfsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem_NfsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem.NfsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem_NfsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -930,18 +930,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOpenzfsFileSystem_NfsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOpenzfsFileSystem_NfsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem.ProtocolProperty",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem_ProtocolProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem.ProtocolProperty",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem_ProtocolProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystem.ProtocolPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystem_ProtocolPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystem.ProtocolPropertyOutputReference",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystem_ProtocolPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -969,18 +969,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxOpenzfsFileSystem_ProtocolPropertyOutputReference{}
+			j := jsiiProxy_TfLocationFsxOpenzfsFileSystem_ProtocolPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxOpenzfsFileSystemConfig",
-		reflect.TypeOf((*AwsDatasyncLocationFsxOpenzfsFileSystemConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxOpenzfsFileSystemConfig",
+		reflect.TypeOf((*TfLocationFsxOpenzfsFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxWindowsFileSystem",
-		reflect.TypeOf((*AwsDatasyncLocationFsxWindowsFileSystem)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxWindowsFileSystem",
+		reflect.TypeOf((*TfLocationFsxWindowsFileSystem)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1057,18 +1057,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationFsxWindowsFileSystem{}
+			j := jsiiProxy_TfLocationFsxWindowsFileSystem{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationFsxWindowsFileSystemConfig",
-		reflect.TypeOf((*AwsDatasyncLocationFsxWindowsFileSystemConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationFsxWindowsFileSystemConfig",
+		reflect.TypeOf((*TfLocationFsxWindowsFileSystemConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfs",
-		reflect.TypeOf((*AwsDatasyncLocationHdfs)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfs",
+		reflect.TypeOf((*TfLocationHdfs)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1172,18 +1172,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationHdfs{}
+			j := jsiiProxy_TfLocationHdfs{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfs.NameNodeProperty",
-		reflect.TypeOf((*AwsDatasyncLocationHdfs_NameNodeProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfs.NameNodeProperty",
+		reflect.TypeOf((*TfLocationHdfs_NameNodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfs.NameNodePropertyList",
-		reflect.TypeOf((*AwsDatasyncLocationHdfs_NameNodePropertyList)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfs.NameNodePropertyList",
+		reflect.TypeOf((*TfLocationHdfs_NameNodePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1198,14 +1198,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationHdfs_NameNodePropertyList{}
+			j := jsiiProxy_TfLocationHdfs_NameNodePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfs.NameNodePropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationHdfs_NameNodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfs.NameNodePropertyOutputReference",
+		reflect.TypeOf((*TfLocationHdfs_NameNodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1234,18 +1234,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationHdfs_NameNodePropertyOutputReference{}
+			j := jsiiProxy_TfLocationHdfs_NameNodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfs.QopConfigurationProperty",
-		reflect.TypeOf((*AwsDatasyncLocationHdfs_QopConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfs.QopConfigurationProperty",
+		reflect.TypeOf((*TfLocationHdfs_QopConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfs.QopConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationHdfs_QopConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfs.QopConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfLocationHdfs_QopConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1276,18 +1276,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationHdfs_QopConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfLocationHdfs_QopConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationHdfsConfig",
-		reflect.TypeOf((*AwsDatasyncLocationHdfsConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationHdfsConfig",
+		reflect.TypeOf((*TfLocationHdfsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationNfs",
-		reflect.TypeOf((*AwsDatasyncLocationNfs)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationNfs",
+		reflect.TypeOf((*TfLocationNfs)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1360,18 +1360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationNfs{}
+			j := jsiiProxy_TfLocationNfs{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationNfs.MountOptionsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationNfs_MountOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationNfs.MountOptionsProperty",
+		reflect.TypeOf((*TfLocationNfs_MountOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationNfs.MountOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationNfs_MountOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationNfs.MountOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationNfs_MountOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1399,18 +1399,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationNfs_MountOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationNfs_MountOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationNfs.OnPremConfigProperty",
-		reflect.TypeOf((*AwsDatasyncLocationNfs_OnPremConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationNfs.OnPremConfigProperty",
+		reflect.TypeOf((*TfLocationNfs_OnPremConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationNfs.OnPremConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationNfs_OnPremConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationNfs.OnPremConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLocationNfs_OnPremConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "agentArns", GoGetter: "AgentArns"},
 			_jsii_.MemberProperty{JsiiProperty: "agentArnsInput", GoGetter: "AgentArnsInput"},
@@ -1437,18 +1437,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationNfs_OnPremConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLocationNfs_OnPremConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationNfsConfig",
-		reflect.TypeOf((*AwsDatasyncLocationNfsConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationNfsConfig",
+		reflect.TypeOf((*TfLocationNfsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationObjectStorage",
-		reflect.TypeOf((*AwsDatasyncLocationObjectStorage)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationObjectStorage",
+		reflect.TypeOf((*TfLocationObjectStorage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKey", GoGetter: "AccessKey"},
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyInput", GoGetter: "AccessKeyInput"},
@@ -1535,18 +1535,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationObjectStorage{}
+			j := jsiiProxy_TfLocationObjectStorage{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationObjectStorageConfig",
-		reflect.TypeOf((*AwsDatasyncLocationObjectStorageConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationObjectStorageConfig",
+		reflect.TypeOf((*TfLocationObjectStorageConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationS3",
-		reflect.TypeOf((*AwsDatasyncLocationS3)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationS3",
+		reflect.TypeOf((*TfLocationS3)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1621,18 +1621,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationS3{}
+			j := jsiiProxy_TfLocationS3{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationS3.S3ConfigProperty",
-		reflect.TypeOf((*AwsDatasyncLocationS3_S3ConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationS3.S3ConfigProperty",
+		reflect.TypeOf((*TfLocationS3_S3ConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationS3.S3ConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationS3_S3ConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationS3.S3ConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLocationS3_S3ConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketAccessRoleArn", GoGetter: "BucketAccessRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketAccessRoleArnInput", GoGetter: "BucketAccessRoleArnInput"},
@@ -1659,18 +1659,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationS3_S3ConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLocationS3_S3ConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationS3Config",
-		reflect.TypeOf((*AwsDatasyncLocationS3Config)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationS3Config",
+		reflect.TypeOf((*TfLocationS3Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationSmb",
-		reflect.TypeOf((*AwsDatasyncLocationSmb)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationSmb",
+		reflect.TypeOf((*TfLocationSmb)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1749,18 +1749,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationSmb{}
+			j := jsiiProxy_TfLocationSmb{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationSmb.MountOptionsProperty",
-		reflect.TypeOf((*AwsDatasyncLocationSmb_MountOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationSmb.MountOptionsProperty",
+		reflect.TypeOf((*TfLocationSmb_MountOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncLocationSmb.MountOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncLocationSmb_MountOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationSmb.MountOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfLocationSmb_MountOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1788,18 +1788,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncLocationSmb_MountOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfLocationSmb_MountOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncLocationSmbConfig",
-		reflect.TypeOf((*AwsDatasyncLocationSmbConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfLocationSmbConfig",
+		reflect.TypeOf((*TfLocationSmbConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask",
-		reflect.TypeOf((*AwsDatasyncTask)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask",
+		reflect.TypeOf((*TfTask)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1897,18 +1897,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask{}
+			j := jsiiProxy_TfTask{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.ExcludesProperty",
-		reflect.TypeOf((*AwsDatasyncTask_ExcludesProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.ExcludesProperty",
+		reflect.TypeOf((*TfTask_ExcludesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.ExcludesPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_ExcludesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.ExcludesPropertyOutputReference",
+		reflect.TypeOf((*TfTask_ExcludesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1939,18 +1939,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_ExcludesPropertyOutputReference{}
+			j := jsiiProxy_TfTask_ExcludesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.IncludesProperty",
-		reflect.TypeOf((*AwsDatasyncTask_IncludesProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.IncludesProperty",
+		reflect.TypeOf((*TfTask_IncludesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.IncludesPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_IncludesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.IncludesPropertyOutputReference",
+		reflect.TypeOf((*TfTask_IncludesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1981,18 +1981,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_IncludesPropertyOutputReference{}
+			j := jsiiProxy_TfTask_IncludesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.OptionsProperty",
-		reflect.TypeOf((*AwsDatasyncTask_OptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.OptionsProperty",
+		reflect.TypeOf((*TfTask_OptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.OptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_OptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.OptionsPropertyOutputReference",
+		reflect.TypeOf((*TfTask_OptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "atime", GoGetter: "Atime"},
 			_jsii_.MemberProperty{JsiiProperty: "atimeInput", GoGetter: "AtimeInput"},
@@ -2062,18 +2062,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verifyModeInput", GoGetter: "VerifyModeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_OptionsPropertyOutputReference{}
+			j := jsiiProxy_TfTask_OptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.ReportOverridesProperty",
-		reflect.TypeOf((*AwsDatasyncTask_ReportOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.ReportOverridesProperty",
+		reflect.TypeOf((*TfTask_ReportOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.ReportOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_ReportOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.ReportOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfTask_ReportOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2110,18 +2110,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verifiedOverrideInput", GoGetter: "VerifiedOverrideInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_ReportOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfTask_ReportOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.S3DestinationProperty",
-		reflect.TypeOf((*AwsDatasyncTask_S3DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.S3DestinationProperty",
+		reflect.TypeOf((*TfTask_S3DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.S3DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_S3DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.S3DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfTask_S3DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketAccessRoleArn", GoGetter: "BucketAccessRoleArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketAccessRoleArnInput", GoGetter: "BucketAccessRoleArnInput"},
@@ -2153,18 +2153,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_S3DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfTask_S3DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.ScheduleProperty",
-		reflect.TypeOf((*AwsDatasyncTask_ScheduleProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.ScheduleProperty",
+		reflect.TypeOf((*TfTask_ScheduleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.SchedulePropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_SchedulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.SchedulePropertyOutputReference",
+		reflect.TypeOf((*TfTask_SchedulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2194,18 +2194,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_SchedulePropertyOutputReference{}
+			j := jsiiProxy_TfTask_SchedulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.TaskReportConfigProperty",
-		reflect.TypeOf((*AwsDatasyncTask_TaskReportConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.TaskReportConfigProperty",
+		reflect.TypeOf((*TfTask_TaskReportConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.TaskReportConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_TaskReportConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.TaskReportConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTask_TaskReportConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2246,18 +2246,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_TaskReportConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTask_TaskReportConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTask.TimeoutsProperty",
-		reflect.TypeOf((*AwsDatasyncTask_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.TimeoutsProperty",
+		reflect.TypeOf((*TfTask_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-datasync.AwsDatasyncTask.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDatasyncTask_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTask.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTask_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2285,13 +2285,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDatasyncTask_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTask_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-datasync.AwsDatasyncTaskConfig",
-		reflect.TypeOf((*AwsDatasyncTaskConfig)(nil)).Elem(),
+		"@cdktn/aws-datasync.TfTaskConfig",
+		reflect.TypeOf((*TfTaskConfig)(nil)).Elem(),
 	)
 }

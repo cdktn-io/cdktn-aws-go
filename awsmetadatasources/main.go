@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsArn",
-		reflect.TypeOf((*DataAwsArn)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfArn",
+		reflect.TypeOf((*DataTfArn)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "account", GoGetter: "Account"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -59,18 +59,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsArn{}
+			j := jsiiProxy_DataTfArn{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsArnConfig",
-		reflect.TypeOf((*DataAwsArnConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfArnConfig",
+		reflect.TypeOf((*DataTfArnConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsDefaultTags",
-		reflect.TypeOf((*DataAwsDefaultTags)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfDefaultTags",
+		reflect.TypeOf((*DataTfDefaultTags)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -113,18 +113,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsDefaultTags{}
+			j := jsiiProxy_DataTfDefaultTags{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsDefaultTagsConfig",
-		reflect.TypeOf((*DataAwsDefaultTagsConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfDefaultTagsConfig",
+		reflect.TypeOf((*DataTfDefaultTagsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsIpRanges",
-		reflect.TypeOf((*DataAwsIpRanges)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfIpRanges",
+		reflect.TypeOf((*DataTfIpRanges)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -178,18 +178,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsIpRanges{}
+			j := jsiiProxy_DataTfIpRanges{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsIpRangesConfig",
-		reflect.TypeOf((*DataAwsIpRangesConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfIpRangesConfig",
+		reflect.TypeOf((*DataTfIpRangesConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsPartition",
-		reflect.TypeOf((*DataAwsPartition)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfPartition",
+		reflect.TypeOf((*DataTfPartition)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -234,18 +234,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPartition{}
+			j := jsiiProxy_DataTfPartition{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsPartitionConfig",
-		reflect.TypeOf((*DataAwsPartitionConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfPartitionConfig",
+		reflect.TypeOf((*DataTfPartitionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsRegion",
-		reflect.TypeOf((*DataAwsRegion)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegion",
+		reflect.TypeOf((*DataTfRegion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -297,18 +297,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsRegion{}
+			j := jsiiProxy_DataTfRegion{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsRegionConfig",
-		reflect.TypeOf((*DataAwsRegionConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegionConfig",
+		reflect.TypeOf((*DataTfRegionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsRegions",
-		reflect.TypeOf((*DataAwsRegions)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegions",
+		reflect.TypeOf((*DataTfRegions)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "allRegions", GoGetter: "AllRegions"},
@@ -358,18 +358,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsRegions{}
+			j := jsiiProxy_DataTfRegions{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsRegions.FilterProperty",
-		reflect.TypeOf((*DataAwsRegions_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegions.FilterProperty",
+		reflect.TypeOf((*DataTfRegions_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsRegions.FilterPropertyList",
-		reflect.TypeOf((*DataAwsRegions_FilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegions.FilterPropertyList",
+		reflect.TypeOf((*DataTfRegions_FilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -384,14 +384,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsRegions_FilterPropertyList{}
+			j := jsiiProxy_DataTfRegions_FilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsRegions.FilterPropertyOutputReference",
-		reflect.TypeOf((*DataAwsRegions_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegions.FilterPropertyOutputReference",
+		reflect.TypeOf((*DataTfRegions_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -420,18 +420,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsRegions_FilterPropertyOutputReference{}
+			j := jsiiProxy_DataTfRegions_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsRegionsConfig",
-		reflect.TypeOf((*DataAwsRegionsConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfRegionsConfig",
+		reflect.TypeOf((*DataTfRegionsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsService",
-		reflect.TypeOf((*DataAwsService)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfService",
+		reflect.TypeOf((*DataTfService)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -490,18 +490,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsService{}
+			j := jsiiProxy_DataTfService{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsServiceConfig",
-		reflect.TypeOf((*DataAwsServiceConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfServiceConfig",
+		reflect.TypeOf((*DataTfServiceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-meta-data-sources.DataAwsServicePrincipal",
-		reflect.TypeOf((*DataAwsServicePrincipal)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfServicePrincipal",
+		reflect.TypeOf((*DataTfServicePrincipal)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -548,13 +548,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsServicePrincipal{}
+			j := jsiiProxy_DataTfServicePrincipal{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-meta-data-sources.DataAwsServicePrincipalConfig",
-		reflect.TypeOf((*DataAwsServicePrincipalConfig)(nil)).Elem(),
+		"@cdktn/aws-meta-data-sources.DataTfServicePrincipalConfig",
+		reflect.TypeOf((*DataTfServicePrincipalConfig)(nil)).Elem(),
 	)
 }

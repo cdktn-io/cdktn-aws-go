@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sts.DataAwsCallerIdentity",
-		reflect.TypeOf((*DataAwsCallerIdentity)(nil)).Elem(),
+		"@cdktn/aws-sts.DataTfCallerIdentity",
+		reflect.TypeOf((*DataTfCallerIdentity)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -55,18 +55,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsCallerIdentity{}
+			j := jsiiProxy_DataTfCallerIdentity{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sts.DataAwsCallerIdentityConfig",
-		reflect.TypeOf((*DataAwsCallerIdentityConfig)(nil)).Elem(),
+		"@cdktn/aws-sts.DataTfCallerIdentityConfig",
+		reflect.TypeOf((*DataTfCallerIdentityConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-sts.EphemeralAwsStsWebIdentityToken",
-		reflect.TypeOf((*EphemeralAwsStsWebIdentityToken)(nil)).Elem(),
+		"@cdktn/aws-sts.EphemeralTfWebIdentityToken",
+		reflect.TypeOf((*EphemeralTfWebIdentityToken)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "audience", GoGetter: "Audience"},
@@ -117,13 +117,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_EphemeralAwsStsWebIdentityToken{}
+			j := jsiiProxy_EphemeralTfWebIdentityToken{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformEphemeralResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-sts.EphemeralAwsStsWebIdentityTokenConfig",
-		reflect.TypeOf((*EphemeralAwsStsWebIdentityTokenConfig)(nil)).Elem(),
+		"@cdktn/aws-sts.EphemeralTfWebIdentityTokenConfig",
+		reflect.TypeOf((*EphemeralTfWebIdentityTokenConfig)(nil)).Elem(),
 	)
 }

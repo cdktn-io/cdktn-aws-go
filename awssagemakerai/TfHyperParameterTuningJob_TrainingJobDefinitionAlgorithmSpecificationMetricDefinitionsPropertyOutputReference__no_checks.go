@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetRegexParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfHyperParameterTuningJob_TrainingJobDefinitionAlgorithmSpecificationMetricDefinitionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

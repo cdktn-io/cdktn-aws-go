@@ -9,8 +9,389 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferAccess",
-		reflect.TypeOf((*AwsTransferAccess)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.DataTfConnector",
+		reflect.TypeOf((*DataTfConnector)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "as2Config", GoGetter: "As2Config"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "egressConfig", GoGetter: "EgressConfig"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "loggingRole", GoGetter: "LoggingRole"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "securityPolicyName", GoGetter: "SecurityPolicyName"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceManagedEgressIpAddresses", GoGetter: "ServiceManagedEgressIpAddresses"},
+			_jsii_.MemberProperty{JsiiProperty: "sftpConfig", GoGetter: "SftpConfig"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-transfer-family.DataTfConnector.As2ConfigProperty",
+		reflect.TypeOf((*DataTfConnector_As2ConfigProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.As2ConfigPropertyList",
+		reflect.TypeOf((*DataTfConnector_As2ConfigPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_As2ConfigPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.As2ConfigPropertyOutputReference",
+		reflect.TypeOf((*DataTfConnector_As2ConfigPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "basicAuthSecretId", GoGetter: "BasicAuthSecretId"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberProperty{JsiiProperty: "compression", GoGetter: "Compression"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "encryptionAlgorithm", GoGetter: "EncryptionAlgorithm"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "localProfileId", GoGetter: "LocalProfileId"},
+			_jsii_.MemberProperty{JsiiProperty: "mdnResponse", GoGetter: "MdnResponse"},
+			_jsii_.MemberProperty{JsiiProperty: "mdnSigningAlgorithm", GoGetter: "MdnSigningAlgorithm"},
+			_jsii_.MemberProperty{JsiiProperty: "messageSubject", GoGetter: "MessageSubject"},
+			_jsii_.MemberProperty{JsiiProperty: "partnerProfileId", GoGetter: "PartnerProfileId"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "singingAlgorithm", GoGetter: "SingingAlgorithm"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_As2ConfigPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-transfer-family.DataTfConnector.EgressConfigProperty",
+		reflect.TypeOf((*DataTfConnector_EgressConfigProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.EgressConfigPropertyList",
+		reflect.TypeOf((*DataTfConnector_EgressConfigPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_EgressConfigPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.EgressConfigPropertyOutputReference",
+		reflect.TypeOf((*DataTfConnector_EgressConfigPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcLattice", GoGetter: "VpcLattice"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_EgressConfigPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-transfer-family.DataTfConnector.SftpConfigProperty",
+		reflect.TypeOf((*DataTfConnector_SftpConfigProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.SftpConfigPropertyList",
+		reflect.TypeOf((*DataTfConnector_SftpConfigPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_SftpConfigPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.SftpConfigPropertyOutputReference",
+		reflect.TypeOf((*DataTfConnector_SftpConfigPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "trustedHostKeys", GoGetter: "TrustedHostKeys"},
+			_jsii_.MemberProperty{JsiiProperty: "userSecretId", GoGetter: "UserSecretId"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_SftpConfigPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-transfer-family.DataTfConnector.VpcLatticeProperty",
+		reflect.TypeOf((*DataTfConnector_VpcLatticeProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.VpcLatticePropertyList",
+		reflect.TypeOf((*DataTfConnector_VpcLatticePropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_VpcLatticePropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfConnector.VpcLatticePropertyOutputReference",
+		reflect.TypeOf((*DataTfConnector_VpcLatticePropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "portNumber", GoGetter: "PortNumber"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceConfigurationArn", GoGetter: "ResourceConfigurationArn"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfConnector_VpcLatticePropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-transfer-family.DataTfConnectorConfig",
+		reflect.TypeOf((*DataTfConnectorConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.DataTfServer",
+		reflect.TypeOf((*DataTfServer)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "domain", GoGetter: "Domain"},
+			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
+			_jsii_.MemberProperty{JsiiProperty: "endpointType", GoGetter: "EndpointType"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "identityProviderType", GoGetter: "IdentityProviderType"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "invocationRole", GoGetter: "InvocationRole"},
+			_jsii_.MemberProperty{JsiiProperty: "ipAddressType", GoGetter: "IpAddressType"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "loggingRole", GoGetter: "LoggingRole"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "protocols", GoGetter: "Protocols"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberProperty{JsiiProperty: "securityPolicyName", GoGetter: "SecurityPolicyName"},
+			_jsii_.MemberProperty{JsiiProperty: "serverId", GoGetter: "ServerId"},
+			_jsii_.MemberProperty{JsiiProperty: "serverIdInput", GoGetter: "ServerIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "structuredLogDestinations", GoGetter: "StructuredLogDestinations"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfServer{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-transfer-family.DataTfServerConfig",
+		reflect.TypeOf((*DataTfServerConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-transfer-family.TfAccess",
+		reflect.TypeOf((*TfAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -88,18 +469,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferAccess{}
+			j := jsiiProxy_TfAccess{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferAccess.HomeDirectoryMappingsProperty",
-		reflect.TypeOf((*AwsTransferAccess_HomeDirectoryMappingsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAccess.HomeDirectoryMappingsProperty",
+		reflect.TypeOf((*TfAccess_HomeDirectoryMappingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferAccess.HomeDirectoryMappingsPropertyList",
-		reflect.TypeOf((*AwsTransferAccess_HomeDirectoryMappingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAccess.HomeDirectoryMappingsPropertyList",
+		reflect.TypeOf((*TfAccess_HomeDirectoryMappingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -114,14 +495,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferAccess_HomeDirectoryMappingsPropertyList{}
+			j := jsiiProxy_TfAccess_HomeDirectoryMappingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferAccess.HomeDirectoryMappingsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferAccess_HomeDirectoryMappingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAccess.HomeDirectoryMappingsPropertyOutputReference",
+		reflect.TypeOf((*TfAccess_HomeDirectoryMappingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -150,18 +531,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferAccess_HomeDirectoryMappingsPropertyOutputReference{}
+			j := jsiiProxy_TfAccess_HomeDirectoryMappingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferAccess.PosixProfileProperty",
-		reflect.TypeOf((*AwsTransferAccess_PosixProfileProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAccess.PosixProfileProperty",
+		reflect.TypeOf((*TfAccess_PosixProfileProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferAccess.PosixProfilePropertyOutputReference",
-		reflect.TypeOf((*AwsTransferAccess_PosixProfilePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAccess.PosixProfilePropertyOutputReference",
+		reflect.TypeOf((*TfAccess_PosixProfilePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -193,18 +574,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uidInput", GoGetter: "UidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferAccess_PosixProfilePropertyOutputReference{}
+			j := jsiiProxy_TfAccess_PosixProfilePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferAccessConfig",
-		reflect.TypeOf((*AwsTransferAccessConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAccessConfig",
+		reflect.TypeOf((*TfAccessConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferAgreement",
-		reflect.TypeOf((*AwsTransferAgreement)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAgreement",
+		reflect.TypeOf((*TfAgreement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
 			_jsii_.MemberProperty{JsiiProperty: "accessRoleInput", GoGetter: "AccessRoleInput"},
@@ -280,18 +661,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferAgreement{}
+			j := jsiiProxy_TfAgreement{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferAgreementConfig",
-		reflect.TypeOf((*AwsTransferAgreementConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfAgreementConfig",
+		reflect.TypeOf((*TfAgreementConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferCertificate",
-		reflect.TypeOf((*AwsTransferCertificate)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfCertificate",
+		reflect.TypeOf((*TfCertificate)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeDate", GoGetter: "ActiveDate"},
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -368,18 +749,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferCertificate{}
+			j := jsiiProxy_TfCertificate{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferCertificateConfig",
-		reflect.TypeOf((*AwsTransferCertificateConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfCertificateConfig",
+		reflect.TypeOf((*TfCertificateConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferConnector",
-		reflect.TypeOf((*AwsTransferConnector)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector",
+		reflect.TypeOf((*TfConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
 			_jsii_.MemberProperty{JsiiProperty: "accessRoleInput", GoGetter: "AccessRoleInput"},
@@ -468,18 +849,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferConnector{}
+			j := jsiiProxy_TfConnector{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.As2ConfigProperty",
-		reflect.TypeOf((*AwsTransferConnector_As2ConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.As2ConfigProperty",
+		reflect.TypeOf((*TfConnector_As2ConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.As2ConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferConnector_As2ConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.As2ConfigPropertyOutputReference",
+		reflect.TypeOf((*TfConnector_As2ConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -522,18 +903,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferConnector_As2ConfigPropertyOutputReference{}
+			j := jsiiProxy_TfConnector_As2ConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.EgressConfigProperty",
-		reflect.TypeOf((*AwsTransferConnector_EgressConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.EgressConfigProperty",
+		reflect.TypeOf((*TfConnector_EgressConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.EgressConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferConnector_EgressConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.EgressConfigPropertyOutputReference",
+		reflect.TypeOf((*TfConnector_EgressConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -562,18 +943,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcLatticeInput", GoGetter: "VpcLatticeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferConnector_EgressConfigPropertyOutputReference{}
+			j := jsiiProxy_TfConnector_EgressConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.SftpConfigProperty",
-		reflect.TypeOf((*AwsTransferConnector_SftpConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.SftpConfigProperty",
+		reflect.TypeOf((*TfConnector_SftpConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.SftpConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferConnector_SftpConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.SftpConfigPropertyOutputReference",
+		reflect.TypeOf((*TfConnector_SftpConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -604,18 +985,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userSecretIdInput", GoGetter: "UserSecretIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferConnector_SftpConfigPropertyOutputReference{}
+			j := jsiiProxy_TfConnector_SftpConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.TimeoutsProperty",
-		reflect.TypeOf((*AwsTransferConnector_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.TimeoutsProperty",
+		reflect.TypeOf((*TfConnector_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferConnector_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfConnector_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -649,18 +1030,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferConnector_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfConnector_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.VpcLatticeProperty",
-		reflect.TypeOf((*AwsTransferConnector_VpcLatticeProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.VpcLatticeProperty",
+		reflect.TypeOf((*TfConnector_VpcLatticeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferConnector.VpcLatticePropertyOutputReference",
-		reflect.TypeOf((*AwsTransferConnector_VpcLatticePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnector.VpcLatticePropertyOutputReference",
+		reflect.TypeOf((*TfConnector_VpcLatticePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -690,18 +1071,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferConnector_VpcLatticePropertyOutputReference{}
+			j := jsiiProxy_TfConnector_VpcLatticePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferConnectorConfig",
-		reflect.TypeOf((*AwsTransferConnectorConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfConnectorConfig",
+		reflect.TypeOf((*TfConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferHostKey",
-		reflect.TypeOf((*AwsTransferHostKey)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfHostKey",
+		reflect.TypeOf((*TfHostKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -770,18 +1151,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferHostKey{}
+			j := jsiiProxy_TfHostKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferHostKeyConfig",
-		reflect.TypeOf((*AwsTransferHostKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfHostKeyConfig",
+		reflect.TypeOf((*TfHostKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferProfile",
-		reflect.TypeOf((*AwsTransferProfile)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfProfile",
+		reflect.TypeOf((*TfProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -850,18 +1231,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferProfile{}
+			j := jsiiProxy_TfProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferProfileConfig",
-		reflect.TypeOf((*AwsTransferProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfProfileConfig",
+		reflect.TypeOf((*TfProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer",
-		reflect.TypeOf((*AwsTransferServer)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer",
+		reflect.TypeOf((*TfServer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -994,18 +1375,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workflowDetailsInput", GoGetter: "WorkflowDetailsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer{}
+			j := jsiiProxy_TfServer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServer.EndpointDetailsProperty",
-		reflect.TypeOf((*AwsTransferServer_EndpointDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.EndpointDetailsProperty",
+		reflect.TypeOf((*TfServer_EndpointDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer.EndpointDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferServer_EndpointDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.EndpointDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfServer_EndpointDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressAllocationIds", GoGetter: "AddressAllocationIds"},
 			_jsii_.MemberProperty{JsiiProperty: "addressAllocationIdsInput", GoGetter: "AddressAllocationIdsInput"},
@@ -1045,18 +1426,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer_EndpointDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfServer_EndpointDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServer.OnPartialUploadProperty",
-		reflect.TypeOf((*AwsTransferServer_OnPartialUploadProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.OnPartialUploadProperty",
+		reflect.TypeOf((*TfServer_OnPartialUploadProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer.OnPartialUploadPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferServer_OnPartialUploadPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.OnPartialUploadPropertyOutputReference",
+		reflect.TypeOf((*TfServer_OnPartialUploadPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1085,18 +1466,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workflowIdInput", GoGetter: "WorkflowIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer_OnPartialUploadPropertyOutputReference{}
+			j := jsiiProxy_TfServer_OnPartialUploadPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServer.OnUploadProperty",
-		reflect.TypeOf((*AwsTransferServer_OnUploadProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.OnUploadProperty",
+		reflect.TypeOf((*TfServer_OnUploadProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer.OnUploadPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferServer_OnUploadPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.OnUploadPropertyOutputReference",
+		reflect.TypeOf((*TfServer_OnUploadPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1125,18 +1506,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workflowIdInput", GoGetter: "WorkflowIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer_OnUploadPropertyOutputReference{}
+			j := jsiiProxy_TfServer_OnUploadPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServer.ProtocolDetailsProperty",
-		reflect.TypeOf((*AwsTransferServer_ProtocolDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.ProtocolDetailsProperty",
+		reflect.TypeOf((*TfServer_ProtocolDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer.ProtocolDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferServer_ProtocolDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.ProtocolDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfServer_ProtocolDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "as2Transports", GoGetter: "As2Transports"},
 			_jsii_.MemberProperty{JsiiProperty: "as2TransportsInput", GoGetter: "As2TransportsInput"},
@@ -1173,18 +1554,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer_ProtocolDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfServer_ProtocolDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServer.S3StorageOptionsProperty",
-		reflect.TypeOf((*AwsTransferServer_S3StorageOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.S3StorageOptionsProperty",
+		reflect.TypeOf((*TfServer_S3StorageOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer.S3StorageOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferServer_S3StorageOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.S3StorageOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfServer_S3StorageOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1212,18 +1593,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer_S3StorageOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfServer_S3StorageOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServer.WorkflowDetailsProperty",
-		reflect.TypeOf((*AwsTransferServer_WorkflowDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.WorkflowDetailsProperty",
+		reflect.TypeOf((*TfServer_WorkflowDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferServer.WorkflowDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferServer_WorkflowDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServer.WorkflowDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfServer_WorkflowDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1256,18 +1637,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferServer_WorkflowDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfServer_WorkflowDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferServerConfig",
-		reflect.TypeOf((*AwsTransferServerConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfServerConfig",
+		reflect.TypeOf((*TfServerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferSshKey",
-		reflect.TypeOf((*AwsTransferSshKey)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfSshKey",
+		reflect.TypeOf((*TfSshKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1328,18 +1709,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferSshKey{}
+			j := jsiiProxy_TfSshKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferSshKeyConfig",
-		reflect.TypeOf((*AwsTransferSshKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfSshKeyConfig",
+		reflect.TypeOf((*TfSshKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferTag",
-		reflect.TypeOf((*AwsTransferTag)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfTag",
+		reflect.TypeOf((*TfTag)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1399,18 +1780,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferTag{}
+			j := jsiiProxy_TfTag{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferTagConfig",
-		reflect.TypeOf((*AwsTransferTagConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfTagConfig",
+		reflect.TypeOf((*TfTagConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferUser",
-		reflect.TypeOf((*AwsTransferUser)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser",
+		reflect.TypeOf((*TfUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1498,18 +1879,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferUser{}
+			j := jsiiProxy_TfUser{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferUser.HomeDirectoryMappingsProperty",
-		reflect.TypeOf((*AwsTransferUser_HomeDirectoryMappingsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.HomeDirectoryMappingsProperty",
+		reflect.TypeOf((*TfUser_HomeDirectoryMappingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferUser.HomeDirectoryMappingsPropertyList",
-		reflect.TypeOf((*AwsTransferUser_HomeDirectoryMappingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.HomeDirectoryMappingsPropertyList",
+		reflect.TypeOf((*TfUser_HomeDirectoryMappingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1524,14 +1905,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferUser_HomeDirectoryMappingsPropertyList{}
+			j := jsiiProxy_TfUser_HomeDirectoryMappingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferUser.HomeDirectoryMappingsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferUser_HomeDirectoryMappingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.HomeDirectoryMappingsPropertyOutputReference",
+		reflect.TypeOf((*TfUser_HomeDirectoryMappingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1560,18 +1941,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferUser_HomeDirectoryMappingsPropertyOutputReference{}
+			j := jsiiProxy_TfUser_HomeDirectoryMappingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferUser.PosixProfileProperty",
-		reflect.TypeOf((*AwsTransferUser_PosixProfileProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.PosixProfileProperty",
+		reflect.TypeOf((*TfUser_PosixProfileProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferUser.PosixProfilePropertyOutputReference",
-		reflect.TypeOf((*AwsTransferUser_PosixProfilePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.PosixProfilePropertyOutputReference",
+		reflect.TypeOf((*TfUser_PosixProfilePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1603,18 +1984,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uidInput", GoGetter: "UidInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferUser_PosixProfilePropertyOutputReference{}
+			j := jsiiProxy_TfUser_PosixProfilePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferUser.TimeoutsProperty",
-		reflect.TypeOf((*AwsTransferUser_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.TimeoutsProperty",
+		reflect.TypeOf((*TfUser_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferUser.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferUser_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUser.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfUser_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1642,18 +2023,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferUser_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfUser_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferUserConfig",
-		reflect.TypeOf((*AwsTransferUserConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfUserConfig",
+		reflect.TypeOf((*TfUserConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp",
-		reflect.TypeOf((*AwsTransferWebApp)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp",
+		reflect.TypeOf((*TfWebApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessEndpoint", GoGetter: "AccessEndpoint"},
 			_jsii_.MemberProperty{JsiiProperty: "accessEndpointInput", GoGetter: "AccessEndpointInput"},
@@ -1728,18 +2109,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp{}
+			j := jsiiProxy_TfWebApp{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.EndpointDetailsProperty",
-		reflect.TypeOf((*AwsTransferWebApp_EndpointDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.EndpointDetailsProperty",
+		reflect.TypeOf((*TfWebApp_EndpointDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.EndpointDetailsPropertyList",
-		reflect.TypeOf((*AwsTransferWebApp_EndpointDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.EndpointDetailsPropertyList",
+		reflect.TypeOf((*TfWebApp_EndpointDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1754,14 +2135,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_EndpointDetailsPropertyList{}
+			j := jsiiProxy_TfWebApp_EndpointDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.EndpointDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWebApp_EndpointDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.EndpointDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWebApp_EndpointDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1790,18 +2171,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_EndpointDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWebApp_EndpointDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.IdentityCenterConfigProperty",
-		reflect.TypeOf((*AwsTransferWebApp_IdentityCenterConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.IdentityCenterConfigProperty",
+		reflect.TypeOf((*TfWebApp_IdentityCenterConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.IdentityCenterConfigPropertyList",
-		reflect.TypeOf((*AwsTransferWebApp_IdentityCenterConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.IdentityCenterConfigPropertyList",
+		reflect.TypeOf((*TfWebApp_IdentityCenterConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1816,14 +2197,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_IdentityCenterConfigPropertyList{}
+			j := jsiiProxy_TfWebApp_IdentityCenterConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.IdentityCenterConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWebApp_IdentityCenterConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.IdentityCenterConfigPropertyOutputReference",
+		reflect.TypeOf((*TfWebApp_IdentityCenterConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationArn", GoGetter: "ApplicationArn"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -1855,18 +2236,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_IdentityCenterConfigPropertyOutputReference{}
+			j := jsiiProxy_TfWebApp_IdentityCenterConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.IdentityProviderDetailsProperty",
-		reflect.TypeOf((*AwsTransferWebApp_IdentityProviderDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.IdentityProviderDetailsProperty",
+		reflect.TypeOf((*TfWebApp_IdentityProviderDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.IdentityProviderDetailsPropertyList",
-		reflect.TypeOf((*AwsTransferWebApp_IdentityProviderDetailsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.IdentityProviderDetailsPropertyList",
+		reflect.TypeOf((*TfWebApp_IdentityProviderDetailsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1881,14 +2262,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_IdentityProviderDetailsPropertyList{}
+			j := jsiiProxy_TfWebApp_IdentityProviderDetailsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.IdentityProviderDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWebApp_IdentityProviderDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.IdentityProviderDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWebApp_IdentityProviderDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1917,18 +2298,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_IdentityProviderDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWebApp_IdentityProviderDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.VpcProperty",
-		reflect.TypeOf((*AwsTransferWebApp_VpcProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.VpcProperty",
+		reflect.TypeOf((*TfWebApp_VpcProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.VpcPropertyList",
-		reflect.TypeOf((*AwsTransferWebApp_VpcPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.VpcPropertyList",
+		reflect.TypeOf((*TfWebApp_VpcPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1943,14 +2324,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_VpcPropertyList{}
+			j := jsiiProxy_TfWebApp_VpcPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.VpcPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWebApp_VpcPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.VpcPropertyOutputReference",
+		reflect.TypeOf((*TfWebApp_VpcPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1983,18 +2364,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_VpcPropertyOutputReference{}
+			j := jsiiProxy_TfWebApp_VpcPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.WebAppUnitsProperty",
-		reflect.TypeOf((*AwsTransferWebApp_WebAppUnitsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.WebAppUnitsProperty",
+		reflect.TypeOf((*TfWebApp_WebAppUnitsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.WebAppUnitsPropertyList",
-		reflect.TypeOf((*AwsTransferWebApp_WebAppUnitsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.WebAppUnitsPropertyList",
+		reflect.TypeOf((*TfWebApp_WebAppUnitsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2009,14 +2390,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_WebAppUnitsPropertyList{}
+			j := jsiiProxy_TfWebApp_WebAppUnitsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebApp.WebAppUnitsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWebApp_WebAppUnitsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebApp.WebAppUnitsPropertyOutputReference",
+		reflect.TypeOf((*TfWebApp_WebAppUnitsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2044,18 +2425,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebApp_WebAppUnitsPropertyOutputReference{}
+			j := jsiiProxy_TfWebApp_WebAppUnitsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebAppConfig",
-		reflect.TypeOf((*AwsTransferWebAppConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebAppConfig",
+		reflect.TypeOf((*TfWebAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWebAppCustomization",
-		reflect.TypeOf((*AwsTransferWebAppCustomization)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebAppCustomization",
+		reflect.TypeOf((*TfWebAppCustomization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2117,18 +2498,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWebAppCustomization{}
+			j := jsiiProxy_TfWebAppCustomization{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWebAppCustomizationConfig",
-		reflect.TypeOf((*AwsTransferWebAppCustomizationConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWebAppCustomizationConfig",
+		reflect.TypeOf((*TfWebAppCustomizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow",
-		reflect.TypeOf((*AwsTransferWorkflow)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow",
+		reflect.TypeOf((*TfWorkflow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2199,18 +2580,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow{}
+			j := jsiiProxy_TfWorkflow{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2241,18 +2622,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2285,18 +2666,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -2327,18 +2708,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCopyStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCopyStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCopyStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2376,18 +2757,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsCopyStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsCopyStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCustomStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCustomStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCustomStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCustomStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsCustomStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsCustomStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsCustomStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsCustomStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2424,18 +2805,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsCustomStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsCustomStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2466,18 +2847,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2510,18 +2891,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -2552,18 +2933,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDecryptStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDecryptStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDecryptStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2603,18 +2984,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsDecryptStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDeleteStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDeleteStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDeleteStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDeleteStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsDeleteStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsDeleteStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsDeleteStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsDeleteStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2645,18 +3026,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsDeleteStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsDeleteStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsPropertyList",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsPropertyList",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2671,14 +3052,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsPropertyList{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2725,18 +3106,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsTagStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsTagStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsTagStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsTagStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsTagStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsTagStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsTagStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsTagStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2771,18 +3152,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsTagStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsTagStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsTagStepDetailsTagsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsTagStepDetailsTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsTagStepDetailsTagsProperty",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsTagStepDetailsTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsTagStepDetailsTagsPropertyList",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsTagStepDetailsTagsPropertyList",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2797,14 +3178,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyList{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.OnExceptionStepsTagStepDetailsTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.OnExceptionStepsTagStepDetailsTagsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2833,18 +3214,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_OnExceptionStepsTagStepDetailsTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2875,18 +3256,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsCopyStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsDestinationFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsDestinationFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsDestinationFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsDestinationFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2919,18 +3300,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsCopyStepDetailsDestinationFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -2961,18 +3342,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsCopyStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCopyStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCopyStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCopyStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsCopyStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3010,18 +3391,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsCopyStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsCopyStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCustomStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCustomStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCustomStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsCustomStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsCustomStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsCustomStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsCustomStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsCustomStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3058,18 +3439,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsCustomStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsCustomStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3100,18 +3481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsDestinationFileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsDestinationFileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3144,18 +3525,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -3186,18 +3567,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsDecryptStepDetailsDestinationFileLocationS3FileLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDecryptStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDecryptStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDecryptStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsDecryptStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3237,18 +3618,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsDecryptStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsDecryptStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDeleteStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDeleteStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDeleteStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsDeleteStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsDeleteStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsDeleteStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsDeleteStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsDeleteStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3279,18 +3660,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsDeleteStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsDeleteStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsPropertyList",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsPropertyList",
+		reflect.TypeOf((*TfWorkflow_StepsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3305,14 +3686,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsPropertyList{}
+			j := jsiiProxy_TfWorkflow_StepsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3359,18 +3740,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsTagStepDetailsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsTagStepDetailsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsTagStepDetailsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsTagStepDetailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsTagStepDetailsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsTagStepDetailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsTagStepDetailsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsTagStepDetailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3405,18 +3786,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsTagStepDetailsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsTagStepDetailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsTagStepDetailsTagsProperty",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsTagStepDetailsTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsTagStepDetailsTagsProperty",
+		reflect.TypeOf((*TfWorkflow_StepsTagStepDetailsTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsTagStepDetailsTagsPropertyList",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsTagStepDetailsTagsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsTagStepDetailsTagsPropertyList",
+		reflect.TypeOf((*TfWorkflow_StepsTagStepDetailsTagsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3431,14 +3812,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsTagStepDetailsTagsPropertyList{}
+			j := jsiiProxy_TfWorkflow_StepsTagStepDetailsTagsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflow.StepsTagStepDetailsTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsTransferWorkflow_StepsTagStepDetailsTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflow.StepsTagStepDetailsTagsPropertyOutputReference",
+		reflect.TypeOf((*TfWorkflow_StepsTagStepDetailsTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3467,394 +3848,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTransferWorkflow_StepsTagStepDetailsTagsPropertyOutputReference{}
+			j := jsiiProxy_TfWorkflow_StepsTagStepDetailsTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.AwsTransferWorkflowConfig",
-		reflect.TypeOf((*AwsTransferWorkflowConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector",
-		reflect.TypeOf((*DataAwsTransferConnector)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "accessRole", GoGetter: "AccessRole"},
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "as2Config", GoGetter: "As2Config"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "egressConfig", GoGetter: "EgressConfig"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "loggingRole", GoGetter: "LoggingRole"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "securityPolicyName", GoGetter: "SecurityPolicyName"},
-			_jsii_.MemberProperty{JsiiProperty: "serviceManagedEgressIpAddresses", GoGetter: "ServiceManagedEgressIpAddresses"},
-			_jsii_.MemberProperty{JsiiProperty: "sftpConfig", GoGetter: "SftpConfig"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.As2ConfigProperty",
-		reflect.TypeOf((*DataAwsTransferConnector_As2ConfigProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.As2ConfigPropertyList",
-		reflect.TypeOf((*DataAwsTransferConnector_As2ConfigPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_As2ConfigPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.As2ConfigPropertyOutputReference",
-		reflect.TypeOf((*DataAwsTransferConnector_As2ConfigPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "basicAuthSecretId", GoGetter: "BasicAuthSecretId"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberProperty{JsiiProperty: "compression", GoGetter: "Compression"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "encryptionAlgorithm", GoGetter: "EncryptionAlgorithm"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "localProfileId", GoGetter: "LocalProfileId"},
-			_jsii_.MemberProperty{JsiiProperty: "mdnResponse", GoGetter: "MdnResponse"},
-			_jsii_.MemberProperty{JsiiProperty: "mdnSigningAlgorithm", GoGetter: "MdnSigningAlgorithm"},
-			_jsii_.MemberProperty{JsiiProperty: "messageSubject", GoGetter: "MessageSubject"},
-			_jsii_.MemberProperty{JsiiProperty: "partnerProfileId", GoGetter: "PartnerProfileId"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "singingAlgorithm", GoGetter: "SingingAlgorithm"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_As2ConfigPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.EgressConfigProperty",
-		reflect.TypeOf((*DataAwsTransferConnector_EgressConfigProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.EgressConfigPropertyList",
-		reflect.TypeOf((*DataAwsTransferConnector_EgressConfigPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_EgressConfigPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.EgressConfigPropertyOutputReference",
-		reflect.TypeOf((*DataAwsTransferConnector_EgressConfigPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "vpcLattice", GoGetter: "VpcLattice"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_EgressConfigPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.SftpConfigProperty",
-		reflect.TypeOf((*DataAwsTransferConnector_SftpConfigProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.SftpConfigPropertyList",
-		reflect.TypeOf((*DataAwsTransferConnector_SftpConfigPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_SftpConfigPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.SftpConfigPropertyOutputReference",
-		reflect.TypeOf((*DataAwsTransferConnector_SftpConfigPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "trustedHostKeys", GoGetter: "TrustedHostKeys"},
-			_jsii_.MemberProperty{JsiiProperty: "userSecretId", GoGetter: "UserSecretId"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_SftpConfigPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.VpcLatticeProperty",
-		reflect.TypeOf((*DataAwsTransferConnector_VpcLatticeProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.VpcLatticePropertyList",
-		reflect.TypeOf((*DataAwsTransferConnector_VpcLatticePropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_VpcLatticePropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnector.VpcLatticePropertyOutputReference",
-		reflect.TypeOf((*DataAwsTransferConnector_VpcLatticePropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "portNumber", GoGetter: "PortNumber"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceConfigurationArn", GoGetter: "ResourceConfigurationArn"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferConnector_VpcLatticePropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.DataAwsTransferConnectorConfig",
-		reflect.TypeOf((*DataAwsTransferConnectorConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-transfer-family.DataAwsTransferServer",
-		reflect.TypeOf((*DataAwsTransferServer)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "certificate", GoGetter: "Certificate"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "domain", GoGetter: "Domain"},
-			_jsii_.MemberProperty{JsiiProperty: "endpoint", GoGetter: "Endpoint"},
-			_jsii_.MemberProperty{JsiiProperty: "endpointType", GoGetter: "EndpointType"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "identityProviderType", GoGetter: "IdentityProviderType"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "invocationRole", GoGetter: "InvocationRole"},
-			_jsii_.MemberProperty{JsiiProperty: "ipAddressType", GoGetter: "IpAddressType"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "loggingRole", GoGetter: "LoggingRole"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "protocols", GoGetter: "Protocols"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
-			_jsii_.MemberProperty{JsiiProperty: "securityPolicyName", GoGetter: "SecurityPolicyName"},
-			_jsii_.MemberProperty{JsiiProperty: "serverId", GoGetter: "ServerId"},
-			_jsii_.MemberProperty{JsiiProperty: "serverIdInput", GoGetter: "ServerIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "structuredLogDestinations", GoGetter: "StructuredLogDestinations"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "url", GoGetter: "Url"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsTransferServer{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-transfer-family.DataAwsTransferServerConfig",
-		reflect.TypeOf((*DataAwsTransferServerConfig)(nil)).Elem(),
+		"@cdktn/aws-transfer-family.TfWorkflowConfig",
+		reflect.TypeOf((*TfWorkflowConfig)(nil)).Elem(),
 	)
 }

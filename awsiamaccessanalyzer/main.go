@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer",
+		reflect.TypeOf((*TfAnalyzer)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,18 +80,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer{}
+			j := jsiiProxy_TfAnalyzer{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ConfigurationInternalAccessAnalysisRuleProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ConfigurationInternalAccessAnalysisRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ConfigurationInternalAccessAnalysisRuleProperty",
+		reflect.TypeOf((*TfAnalyzer_ConfigurationInternalAccessAnalysisRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ConfigurationInternalAccessAnalysisRulePropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ConfigurationInternalAccessAnalysisRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ConfigurationInternalAccessAnalysisRulePropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_ConfigurationInternalAccessAnalysisRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -120,18 +120,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_ConfigurationInternalAccessAnalysisRulePropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_ConfigurationInternalAccessAnalysisRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ConfigurationProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ConfigurationProperty",
+		reflect.TypeOf((*TfAnalyzer_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -164,18 +164,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unusedAccessInput", GoGetter: "UnusedAccessInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ConfigurationUnusedAccessAnalysisRuleProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ConfigurationUnusedAccessAnalysisRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ConfigurationUnusedAccessAnalysisRuleProperty",
+		reflect.TypeOf((*TfAnalyzer_ConfigurationUnusedAccessAnalysisRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ConfigurationUnusedAccessAnalysisRulePropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ConfigurationUnusedAccessAnalysisRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ConfigurationUnusedAccessAnalysisRulePropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_ConfigurationUnusedAccessAnalysisRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -204,18 +204,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_ConfigurationUnusedAccessAnalysisRulePropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_ConfigurationUnusedAccessAnalysisRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ExclusionProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ExclusionProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ExclusionProperty",
+		reflect.TypeOf((*TfAnalyzer_ExclusionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ExclusionPropertyList",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ExclusionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ExclusionPropertyList",
+		reflect.TypeOf((*TfAnalyzer_ExclusionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -230,14 +230,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_ExclusionPropertyList{}
+			j := jsiiProxy_TfAnalyzer_ExclusionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.ExclusionPropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_ExclusionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.ExclusionPropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_ExclusionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountIds", GoGetter: "AccountIds"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdsInput", GoGetter: "AccountIdsInput"},
@@ -268,18 +268,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_ExclusionPropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_ExclusionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.InclusionProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_InclusionProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.InclusionProperty",
+		reflect.TypeOf((*TfAnalyzer_InclusionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.InclusionPropertyList",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_InclusionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.InclusionPropertyList",
+		reflect.TypeOf((*TfAnalyzer_InclusionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -294,14 +294,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_InclusionPropertyList{}
+			j := jsiiProxy_TfAnalyzer_InclusionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.InclusionPropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_InclusionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.InclusionPropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_InclusionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountIds", GoGetter: "AccountIds"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdsInput", GoGetter: "AccountIdsInput"},
@@ -335,18 +335,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_InclusionPropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_InclusionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.InternalAccessProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_InternalAccessProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.InternalAccessProperty",
+		reflect.TypeOf((*TfAnalyzer_InternalAccessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.InternalAccessPropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_InternalAccessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.InternalAccessPropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_InternalAccessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysisRule", GoGetter: "AnalysisRule"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisRuleInput", GoGetter: "AnalysisRuleInput"},
@@ -375,18 +375,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_InternalAccessPropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_InternalAccessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.UnusedAccessProperty",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_UnusedAccessProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.UnusedAccessProperty",
+		reflect.TypeOf((*TfAnalyzer_UnusedAccessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzer.UnusedAccessPropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzer_UnusedAccessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzer.UnusedAccessPropertyOutputReference",
+		reflect.TypeOf((*TfAnalyzer_UnusedAccessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysisRule", GoGetter: "AnalysisRule"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisRuleInput", GoGetter: "AnalysisRuleInput"},
@@ -418,18 +418,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unusedAccessAgeInput", GoGetter: "UnusedAccessAgeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerAnalyzer_UnusedAccessPropertyOutputReference{}
+			j := jsiiProxy_TfAnalyzer_UnusedAccessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerAnalyzerConfig",
-		reflect.TypeOf((*AwsAccessanalyzerAnalyzerConfig)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfAnalyzerConfig",
+		reflect.TypeOf((*TfAnalyzerConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerArchiveRule",
-		reflect.TypeOf((*AwsAccessanalyzerArchiveRule)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfArchiveRule",
+		reflect.TypeOf((*TfArchiveRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -490,18 +490,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerArchiveRule{}
+			j := jsiiProxy_TfArchiveRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerArchiveRule.FilterProperty",
-		reflect.TypeOf((*AwsAccessanalyzerArchiveRule_FilterProperty)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfArchiveRule.FilterProperty",
+		reflect.TypeOf((*TfArchiveRule_FilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerArchiveRule.FilterPropertyList",
-		reflect.TypeOf((*AwsAccessanalyzerArchiveRule_FilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfArchiveRule.FilterPropertyList",
+		reflect.TypeOf((*TfArchiveRule_FilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -516,14 +516,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerArchiveRule_FilterPropertyList{}
+			j := jsiiProxy_TfArchiveRule_FilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerArchiveRule.FilterPropertyOutputReference",
-		reflect.TypeOf((*AwsAccessanalyzerArchiveRule_FilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfArchiveRule.FilterPropertyOutputReference",
+		reflect.TypeOf((*TfArchiveRule_FilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -562,13 +562,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAccessanalyzerArchiveRule_FilterPropertyOutputReference{}
+			j := jsiiProxy_TfArchiveRule_FilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-iam-access-analyzer.AwsAccessanalyzerArchiveRuleConfig",
-		reflect.TypeOf((*AwsAccessanalyzerArchiveRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-iam-access-analyzer.TfArchiveRuleConfig",
+		reflect.TypeOf((*TfArchiveRuleConfig)(nil)).Elem(),
 	)
 }

@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

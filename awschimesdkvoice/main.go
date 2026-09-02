@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceGlobalSettings",
-		reflect.TypeOf((*AwsChimesdkvoiceGlobalSettings)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfGlobalSettings",
+		reflect.TypeOf((*TfGlobalSettings)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -64,18 +64,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceGlobalSettings{}
+			j := jsiiProxy_TfGlobalSettings{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceGlobalSettings.VoiceConnectorProperty",
-		reflect.TypeOf((*AwsChimesdkvoiceGlobalSettings_VoiceConnectorProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfGlobalSettings.VoiceConnectorProperty",
+		reflect.TypeOf((*TfGlobalSettings_VoiceConnectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceGlobalSettings.VoiceConnectorPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkvoiceGlobalSettings_VoiceConnectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfGlobalSettings.VoiceConnectorPropertyOutputReference",
+		reflect.TypeOf((*TfGlobalSettings_VoiceConnectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cdrBucket", GoGetter: "CdrBucket"},
 			_jsii_.MemberProperty{JsiiProperty: "cdrBucketInput", GoGetter: "CdrBucketInput"},
@@ -103,18 +103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceGlobalSettings_VoiceConnectorPropertyOutputReference{}
+			j := jsiiProxy_TfGlobalSettings_VoiceConnectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceGlobalSettingsConfig",
-		reflect.TypeOf((*AwsChimesdkvoiceGlobalSettingsConfig)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfGlobalSettingsConfig",
+		reflect.TypeOf((*TfGlobalSettingsConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipMediaApplication",
-		reflect.TypeOf((*AwsChimesdkvoiceSipMediaApplication)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipMediaApplication",
+		reflect.TypeOf((*TfSipMediaApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -182,18 +182,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceSipMediaApplication{}
+			j := jsiiProxy_TfSipMediaApplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipMediaApplication.EndpointsProperty",
-		reflect.TypeOf((*AwsChimesdkvoiceSipMediaApplication_EndpointsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipMediaApplication.EndpointsProperty",
+		reflect.TypeOf((*TfSipMediaApplication_EndpointsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipMediaApplication.EndpointsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkvoiceSipMediaApplication_EndpointsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipMediaApplication.EndpointsPropertyOutputReference",
+		reflect.TypeOf((*TfSipMediaApplication_EndpointsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -220,18 +220,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceSipMediaApplication_EndpointsPropertyOutputReference{}
+			j := jsiiProxy_TfSipMediaApplication_EndpointsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipMediaApplicationConfig",
-		reflect.TypeOf((*AwsChimesdkvoiceSipMediaApplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipMediaApplicationConfig",
+		reflect.TypeOf((*TfSipMediaApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipRule",
-		reflect.TypeOf((*AwsChimesdkvoiceSipRule)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipRule",
+		reflect.TypeOf((*TfSipRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -297,18 +297,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceSipRule{}
+			j := jsiiProxy_TfSipRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipRule.TargetApplicationsProperty",
-		reflect.TypeOf((*AwsChimesdkvoiceSipRule_TargetApplicationsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipRule.TargetApplicationsProperty",
+		reflect.TypeOf((*TfSipRule_TargetApplicationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipRule.TargetApplicationsPropertyList",
-		reflect.TypeOf((*AwsChimesdkvoiceSipRule_TargetApplicationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipRule.TargetApplicationsPropertyList",
+		reflect.TypeOf((*TfSipRule_TargetApplicationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -323,14 +323,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceSipRule_TargetApplicationsPropertyList{}
+			j := jsiiProxy_TfSipRule_TargetApplicationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipRule.TargetApplicationsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkvoiceSipRule_TargetApplicationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipRule.TargetApplicationsPropertyOutputReference",
+		reflect.TypeOf((*TfSipRule_TargetApplicationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "awsRegion", GoGetter: "AwsRegion"},
 			_jsii_.MemberProperty{JsiiProperty: "awsRegionInput", GoGetter: "AwsRegionInput"},
@@ -361,18 +361,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceSipRule_TargetApplicationsPropertyOutputReference{}
+			j := jsiiProxy_TfSipRule_TargetApplicationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceSipRuleConfig",
-		reflect.TypeOf((*AwsChimesdkvoiceSipRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfSipRuleConfig",
+		reflect.TypeOf((*TfSipRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceVoiceProfileDomain",
-		reflect.TypeOf((*AwsChimesdkvoiceVoiceProfileDomain)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfVoiceProfileDomain",
+		reflect.TypeOf((*TfVoiceProfileDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -443,18 +443,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceVoiceProfileDomain{}
+			j := jsiiProxy_TfVoiceProfileDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceVoiceProfileDomain.ServerSideEncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkvoiceVoiceProfileDomain_ServerSideEncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfVoiceProfileDomain.ServerSideEncryptionConfigurationProperty",
+		reflect.TypeOf((*TfVoiceProfileDomain_ServerSideEncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceVoiceProfileDomain.ServerSideEncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkvoiceVoiceProfileDomain_ServerSideEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfVoiceProfileDomain.ServerSideEncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfVoiceProfileDomain_ServerSideEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -481,18 +481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceVoiceProfileDomain_ServerSideEncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfVoiceProfileDomain_ServerSideEncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceVoiceProfileDomain.TimeoutsProperty",
-		reflect.TypeOf((*AwsChimesdkvoiceVoiceProfileDomain_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfVoiceProfileDomain.TimeoutsProperty",
+		reflect.TypeOf((*TfVoiceProfileDomain_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceVoiceProfileDomain.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkvoiceVoiceProfileDomain_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfVoiceProfileDomain.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfVoiceProfileDomain_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -526,13 +526,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkvoiceVoiceProfileDomain_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfVoiceProfileDomain_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-voice.AwsChimesdkvoiceVoiceProfileDomainConfig",
-		reflect.TypeOf((*AwsChimesdkvoiceVoiceProfileDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-voice.TfVoiceProfileDomainConfig",
+		reflect.TypeOf((*TfVoiceProfileDomainConfig)(nil)).Elem(),
 	)
 }

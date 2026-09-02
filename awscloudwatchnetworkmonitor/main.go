@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-network-monitor.AwsNetworkmonitorMonitor",
-		reflect.TypeOf((*AwsNetworkmonitorMonitor)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-network-monitor.TfMonitor",
+		reflect.TypeOf((*TfMonitor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,18 +72,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkmonitorMonitor{}
+			j := jsiiProxy_TfMonitor{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-network-monitor.AwsNetworkmonitorMonitorConfig",
-		reflect.TypeOf((*AwsNetworkmonitorMonitorConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-network-monitor.TfMonitorConfig",
+		reflect.TypeOf((*TfMonitorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-network-monitor.AwsNetworkmonitorProbe",
-		reflect.TypeOf((*AwsNetworkmonitorProbe)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-network-monitor.TfProbe",
+		reflect.TypeOf((*TfProbe)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -157,13 +157,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNetworkmonitorProbe{}
+			j := jsiiProxy_TfProbe{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-network-monitor.AwsNetworkmonitorProbeConfig",
-		reflect.TypeOf((*AwsNetworkmonitorProbeConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-network-monitor.TfProbeConfig",
+		reflect.TypeOf((*TfProbeConfig)(nil)).Elem(),
 	)
 }

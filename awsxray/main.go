@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayEncryptionConfig",
-		reflect.TypeOf((*AwsXrayEncryptionConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfEncryptionConfig",
+		reflect.TypeOf((*TfEncryptionConfig)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -69,18 +69,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayEncryptionConfig{}
+			j := jsiiProxy_TfEncryptionConfig{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayEncryptionConfigConfig",
-		reflect.TypeOf((*AwsXrayEncryptionConfigConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfEncryptionConfigConfig",
+		reflect.TypeOf((*TfEncryptionConfigConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayGroup",
-		reflect.TypeOf((*AwsXrayGroup)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfGroup",
+		reflect.TypeOf((*TfGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -149,18 +149,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayGroup{}
+			j := jsiiProxy_TfGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayGroup.InsightsConfigurationProperty",
-		reflect.TypeOf((*AwsXrayGroup_InsightsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfGroup.InsightsConfigurationProperty",
+		reflect.TypeOf((*TfGroup_InsightsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayGroup.InsightsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsXrayGroup_InsightsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfGroup.InsightsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGroup_InsightsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -190,18 +190,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayGroup_InsightsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGroup_InsightsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayGroupConfig",
-		reflect.TypeOf((*AwsXrayGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfGroupConfig",
+		reflect.TypeOf((*TfGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule",
-		reflect.TypeOf((*AwsXrayIndexingRule)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule",
+		reflect.TypeOf((*TfIndexingRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -258,18 +258,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayIndexingRule{}
+			j := jsiiProxy_TfIndexingRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule.ProbabilisticProperty",
-		reflect.TypeOf((*AwsXrayIndexingRule_ProbabilisticProperty)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule.ProbabilisticProperty",
+		reflect.TypeOf((*TfIndexingRule_ProbabilisticProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule.ProbabilisticPropertyList",
-		reflect.TypeOf((*AwsXrayIndexingRule_ProbabilisticPropertyList)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule.ProbabilisticPropertyList",
+		reflect.TypeOf((*TfIndexingRule_ProbabilisticPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -284,14 +284,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayIndexingRule_ProbabilisticPropertyList{}
+			j := jsiiProxy_TfIndexingRule_ProbabilisticPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule.ProbabilisticPropertyOutputReference",
-		reflect.TypeOf((*AwsXrayIndexingRule_ProbabilisticPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule.ProbabilisticPropertyOutputReference",
+		reflect.TypeOf((*TfIndexingRule_ProbabilisticPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actualSamplingPercentage", GoGetter: "ActualSamplingPercentage"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -319,18 +319,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayIndexingRule_ProbabilisticPropertyOutputReference{}
+			j := jsiiProxy_TfIndexingRule_ProbabilisticPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule.RuleProperty",
-		reflect.TypeOf((*AwsXrayIndexingRule_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule.RuleProperty",
+		reflect.TypeOf((*TfIndexingRule_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule.RulePropertyList",
-		reflect.TypeOf((*AwsXrayIndexingRule_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule.RulePropertyList",
+		reflect.TypeOf((*TfIndexingRule_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -345,14 +345,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayIndexingRule_RulePropertyList{}
+			j := jsiiProxy_TfIndexingRule_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRule.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsXrayIndexingRule_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRule.RulePropertyOutputReference",
+		reflect.TypeOf((*TfIndexingRule_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -381,18 +381,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayIndexingRule_RulePropertyOutputReference{}
+			j := jsiiProxy_TfIndexingRule_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayIndexingRuleConfig",
-		reflect.TypeOf((*AwsXrayIndexingRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfIndexingRuleConfig",
+		reflect.TypeOf((*TfIndexingRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayResourcePolicy",
-		reflect.TypeOf((*AwsXrayResourcePolicy)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfResourcePolicy",
+		reflect.TypeOf((*TfResourcePolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -454,18 +454,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayResourcePolicy{}
+			j := jsiiProxy_TfResourcePolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayResourcePolicyConfig",
-		reflect.TypeOf((*AwsXrayResourcePolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfResourcePolicyConfig",
+		reflect.TypeOf((*TfResourcePolicyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXraySamplingRule",
-		reflect.TypeOf((*AwsXraySamplingRule)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfSamplingRule",
+		reflect.TypeOf((*TfSamplingRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -552,18 +552,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXraySamplingRule{}
+			j := jsiiProxy_TfSamplingRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXraySamplingRuleConfig",
-		reflect.TypeOf((*AwsXraySamplingRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfSamplingRuleConfig",
+		reflect.TypeOf((*TfSamplingRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayTraceSegmentDestination",
-		reflect.TypeOf((*AwsXrayTraceSegmentDestination)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfTraceSegmentDestination",
+		reflect.TypeOf((*TfTraceSegmentDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -621,18 +621,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayTraceSegmentDestination{}
+			j := jsiiProxy_TfTraceSegmentDestination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayTraceSegmentDestination.TimeoutsProperty",
-		reflect.TypeOf((*AwsXrayTraceSegmentDestination_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfTraceSegmentDestination.TimeoutsProperty",
+		reflect.TypeOf((*TfTraceSegmentDestination_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-x-ray.AwsXrayTraceSegmentDestination.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsXrayTraceSegmentDestination_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfTraceSegmentDestination.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfTraceSegmentDestination_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -663,13 +663,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsXrayTraceSegmentDestination_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfTraceSegmentDestination_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-x-ray.AwsXrayTraceSegmentDestinationConfig",
-		reflect.TypeOf((*AwsXrayTraceSegmentDestinationConfig)(nil)).Elem(),
+		"@cdktn/aws-x-ray.TfTraceSegmentDestinationConfig",
+		reflect.TypeOf((*TfTraceSegmentDestinationConfig)(nil)).Elem(),
 	)
 }

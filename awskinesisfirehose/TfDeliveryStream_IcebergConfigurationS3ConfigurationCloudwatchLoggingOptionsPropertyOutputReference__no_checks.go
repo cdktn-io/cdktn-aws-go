@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetInternalValueParameters(val *TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetLogGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetLogStreamNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfDeliveryStream_IcebergConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

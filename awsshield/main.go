@@ -9,8 +9,67 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldApplicationLayerAutomaticResponse",
-		reflect.TypeOf((*AwsShieldApplicationLayerAutomaticResponse)(nil)).Elem(),
+		"@cdktn/aws-shield.DataTfProtection",
+		reflect.TypeOf((*DataTfProtection)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "protectionArn", GoGetter: "ProtectionArn"},
+			_jsii_.MemberProperty{JsiiProperty: "protectionId", GoGetter: "ProtectionId"},
+			_jsii_.MemberProperty{JsiiProperty: "protectionIdInput", GoGetter: "ProtectionIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetProtectionId", GoMethod: "ResetProtectionId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetResourceArn", GoMethod: "ResetResourceArn"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceArnInput", GoGetter: "ResourceArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfProtection{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-shield.DataTfProtectionConfig",
+		reflect.TypeOf((*DataTfProtectionConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-shield.TfApplicationLayerAutomaticResponse",
+		reflect.TypeOf((*TfApplicationLayerAutomaticResponse)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -67,18 +126,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldApplicationLayerAutomaticResponse{}
+			j := jsiiProxy_TfApplicationLayerAutomaticResponse{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldApplicationLayerAutomaticResponse.TimeoutsProperty",
-		reflect.TypeOf((*AwsShieldApplicationLayerAutomaticResponse_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-shield.TfApplicationLayerAutomaticResponse.TimeoutsProperty",
+		reflect.TypeOf((*TfApplicationLayerAutomaticResponse_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldApplicationLayerAutomaticResponse.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsShieldApplicationLayerAutomaticResponse_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-shield.TfApplicationLayerAutomaticResponse.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfApplicationLayerAutomaticResponse_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -112,18 +171,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldApplicationLayerAutomaticResponse_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfApplicationLayerAutomaticResponse_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldApplicationLayerAutomaticResponseConfig",
-		reflect.TypeOf((*AwsShieldApplicationLayerAutomaticResponseConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfApplicationLayerAutomaticResponseConfig",
+		reflect.TypeOf((*TfApplicationLayerAutomaticResponseConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldDrtAccessLogBucketAssociation",
-		reflect.TypeOf((*AwsShieldDrtAccessLogBucketAssociation)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessLogBucketAssociation",
+		reflect.TypeOf((*TfDrtAccessLogBucketAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -180,18 +239,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldDrtAccessLogBucketAssociation{}
+			j := jsiiProxy_TfDrtAccessLogBucketAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldDrtAccessLogBucketAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsShieldDrtAccessLogBucketAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessLogBucketAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfDrtAccessLogBucketAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldDrtAccessLogBucketAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsShieldDrtAccessLogBucketAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessLogBucketAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDrtAccessLogBucketAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -222,18 +281,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldDrtAccessLogBucketAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDrtAccessLogBucketAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldDrtAccessLogBucketAssociationConfig",
-		reflect.TypeOf((*AwsShieldDrtAccessLogBucketAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessLogBucketAssociationConfig",
+		reflect.TypeOf((*TfDrtAccessLogBucketAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldDrtAccessRoleArnAssociation",
-		reflect.TypeOf((*AwsShieldDrtAccessRoleArnAssociation)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessRoleArnAssociation",
+		reflect.TypeOf((*TfDrtAccessRoleArnAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -288,18 +347,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldDrtAccessRoleArnAssociation{}
+			j := jsiiProxy_TfDrtAccessRoleArnAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldDrtAccessRoleArnAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsShieldDrtAccessRoleArnAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessRoleArnAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfDrtAccessRoleArnAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldDrtAccessRoleArnAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsShieldDrtAccessRoleArnAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessRoleArnAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDrtAccessRoleArnAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -333,18 +392,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldDrtAccessRoleArnAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDrtAccessRoleArnAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldDrtAccessRoleArnAssociationConfig",
-		reflect.TypeOf((*AwsShieldDrtAccessRoleArnAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfDrtAccessRoleArnAssociationConfig",
+		reflect.TypeOf((*TfDrtAccessRoleArnAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldProactiveEngagement",
-		reflect.TypeOf((*AwsShieldProactiveEngagement)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProactiveEngagement",
+		reflect.TypeOf((*TfProactiveEngagement)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -399,18 +458,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldProactiveEngagement{}
+			j := jsiiProxy_TfProactiveEngagement{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldProactiveEngagement.EmergencyContactProperty",
-		reflect.TypeOf((*AwsShieldProactiveEngagement_EmergencyContactProperty)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProactiveEngagement.EmergencyContactProperty",
+		reflect.TypeOf((*TfProactiveEngagement_EmergencyContactProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldProactiveEngagement.EmergencyContactPropertyList",
-		reflect.TypeOf((*AwsShieldProactiveEngagement_EmergencyContactPropertyList)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProactiveEngagement.EmergencyContactPropertyList",
+		reflect.TypeOf((*TfProactiveEngagement_EmergencyContactPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -425,14 +484,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldProactiveEngagement_EmergencyContactPropertyList{}
+			j := jsiiProxy_TfProactiveEngagement_EmergencyContactPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldProactiveEngagement.EmergencyContactPropertyOutputReference",
-		reflect.TypeOf((*AwsShieldProactiveEngagement_EmergencyContactPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProactiveEngagement.EmergencyContactPropertyOutputReference",
+		reflect.TypeOf((*TfProactiveEngagement_EmergencyContactPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -465,18 +524,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldProactiveEngagement_EmergencyContactPropertyOutputReference{}
+			j := jsiiProxy_TfProactiveEngagement_EmergencyContactPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldProactiveEngagementConfig",
-		reflect.TypeOf((*AwsShieldProactiveEngagementConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProactiveEngagementConfig",
+		reflect.TypeOf((*TfProactiveEngagementConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldProtection",
-		reflect.TypeOf((*AwsShieldProtection)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProtection",
+		reflect.TypeOf((*TfProtection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -538,18 +597,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldProtection{}
+			j := jsiiProxy_TfProtection{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldProtectionConfig",
-		reflect.TypeOf((*AwsShieldProtectionConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProtectionConfig",
+		reflect.TypeOf((*TfProtectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldProtectionGroup",
-		reflect.TypeOf((*AwsShieldProtectionGroup)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProtectionGroup",
+		reflect.TypeOf((*TfProtectionGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -619,18 +678,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldProtectionGroup{}
+			j := jsiiProxy_TfProtectionGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldProtectionGroupConfig",
-		reflect.TypeOf((*AwsShieldProtectionGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProtectionGroupConfig",
+		reflect.TypeOf((*TfProtectionGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldProtectionHealthCheckAssociation",
-		reflect.TypeOf((*AwsShieldProtectionHealthCheckAssociation)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProtectionHealthCheckAssociation",
+		reflect.TypeOf((*TfProtectionHealthCheckAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -685,18 +744,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldProtectionHealthCheckAssociation{}
+			j := jsiiProxy_TfProtectionHealthCheckAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldProtectionHealthCheckAssociationConfig",
-		reflect.TypeOf((*AwsShieldProtectionHealthCheckAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfProtectionHealthCheckAssociationConfig",
+		reflect.TypeOf((*TfProtectionHealthCheckAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.AwsShieldSubscription",
-		reflect.TypeOf((*AwsShieldSubscription)(nil)).Elem(),
+		"@cdktn/aws-shield.TfSubscription",
+		reflect.TypeOf((*TfSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -751,72 +810,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsShieldSubscription{}
+			j := jsiiProxy_TfSubscription{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.AwsShieldSubscriptionConfig",
-		reflect.TypeOf((*AwsShieldSubscriptionConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-shield.DataAwsShieldProtection",
-		reflect.TypeOf((*DataAwsShieldProtection)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "protectionArn", GoGetter: "ProtectionArn"},
-			_jsii_.MemberProperty{JsiiProperty: "protectionId", GoGetter: "ProtectionId"},
-			_jsii_.MemberProperty{JsiiProperty: "protectionIdInput", GoGetter: "ProtectionIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetProtectionId", GoMethod: "ResetProtectionId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetResourceArn", GoMethod: "ResetResourceArn"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceArnInput", GoGetter: "ResourceArnInput"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsShieldProtection{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-shield.DataAwsShieldProtectionConfig",
-		reflect.TypeOf((*DataAwsShieldProtectionConfig)(nil)).Elem(),
+		"@cdktn/aws-shield.TfSubscriptionConfig",
+		reflect.TypeOf((*TfSubscriptionConfig)(nil)).Elem(),
 	)
 }

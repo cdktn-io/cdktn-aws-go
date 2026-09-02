@@ -1,0 +1,1583 @@
+package awsvpc
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-aws-go/awsvpc/jsii"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdktn-io/cdktn-aws-go/awsvpc/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route aws_route}.
+// Experimental.
+type DataTfRoute interface {
+	cdktn.TerraformDataSource
+	// Experimental.
+	CarrierGatewayId() *string
+	// Experimental.
+	SetCarrierGatewayId(val *string)
+	// Experimental.
+	CarrierGatewayIdInput() *string
+	// Experimental.
+	CdktfStack() cdktn.TerraformStack
+	// Experimental.
+	ConstructNodeMetadata() *map[string]interface{}
+	// Experimental.
+	CoreNetworkArn() *string
+	// Experimental.
+	SetCoreNetworkArn(val *string)
+	// Experimental.
+	CoreNetworkArnInput() *string
+	// Experimental.
+	Count() interface{}
+	// Experimental.
+	SetCount(val interface{})
+	// Experimental.
+	DependsOn() *[]*string
+	// Experimental.
+	SetDependsOn(val *[]*string)
+	// Experimental.
+	DestinationCidrBlock() *string
+	// Experimental.
+	SetDestinationCidrBlock(val *string)
+	// Experimental.
+	DestinationCidrBlockInput() *string
+	// Experimental.
+	DestinationIpv6CidrBlock() *string
+	// Experimental.
+	SetDestinationIpv6CidrBlock(val *string)
+	// Experimental.
+	DestinationIpv6CidrBlockInput() *string
+	// Experimental.
+	DestinationPrefixListId() *string
+	// Experimental.
+	SetDestinationPrefixListId(val *string)
+	// Experimental.
+	DestinationPrefixListIdInput() *string
+	// Experimental.
+	EgressOnlyGatewayId() *string
+	// Experimental.
+	SetEgressOnlyGatewayId(val *string)
+	// Experimental.
+	EgressOnlyGatewayIdInput() *string
+	// Experimental.
+	ForEach() cdktn.ITerraformIterator
+	// Experimental.
+	SetForEach(val cdktn.ITerraformIterator)
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	FriendlyUniqueId() *string
+	// Experimental.
+	GatewayId() *string
+	// Experimental.
+	SetGatewayId(val *string)
+	// Experimental.
+	GatewayIdInput() *string
+	// Experimental.
+	Id() *string
+	// Experimental.
+	SetId(val *string)
+	// Experimental.
+	IdInput() *string
+	// Experimental.
+	InstanceId() *string
+	// Experimental.
+	SetInstanceId(val *string)
+	// Experimental.
+	InstanceIdInput() *string
+	// Experimental.
+	Lifecycle() *cdktn.TerraformResourceLifecycle
+	// Experimental.
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	// Experimental.
+	LocalGatewayId() *string
+	// Experimental.
+	SetLocalGatewayId(val *string)
+	// Experimental.
+	LocalGatewayIdInput() *string
+	// Experimental.
+	NatGatewayId() *string
+	// Experimental.
+	SetNatGatewayId(val *string)
+	// Experimental.
+	NatGatewayIdInput() *string
+	// Experimental.
+	NetworkInterfaceId() *string
+	// Experimental.
+	SetNetworkInterfaceId(val *string)
+	// Experimental.
+	NetworkInterfaceIdInput() *string
+	// The tree node.
+	// Experimental.
+	Node() constructs.Node
+	// Experimental.
+	OdbNetworkArn() *string
+	// Experimental.
+	SetOdbNetworkArn(val *string)
+	// Experimental.
+	OdbNetworkArnInput() *string
+	// Experimental.
+	Provider() cdktn.TerraformProvider
+	// Experimental.
+	SetProvider(val cdktn.TerraformProvider)
+	// Experimental.
+	RawOverrides() interface{}
+	// Experimental.
+	Region() *string
+	// Experimental.
+	SetRegion(val *string)
+	// Experimental.
+	RegionInput() *string
+	// Experimental.
+	RouteTableId() *string
+	// Experimental.
+	SetRouteTableId(val *string)
+	// Experimental.
+	RouteTableIdInput() *string
+	// Experimental.
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	// Experimental.
+	TerraformMetaArguments() *map[string]interface{}
+	// Experimental.
+	TerraformResourceType() *string
+	// Experimental.
+	Timeouts() DataTfRoute_TimeoutsPropertyOutputReference
+	// Experimental.
+	TimeoutsInput() interface{}
+	// Experimental.
+	TransitGatewayId() *string
+	// Experimental.
+	SetTransitGatewayId(val *string)
+	// Experimental.
+	TransitGatewayIdInput() *string
+	// Experimental.
+	VpcPeeringConnectionId() *string
+	// Experimental.
+	SetVpcPeeringConnectionId(val *string)
+	// Experimental.
+	VpcPeeringConnectionIdInput() *string
+	// Experimental.
+	AddOverride(path *string, value interface{})
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Overrides the auto-generated logical ID with a specific ID.
+	// Experimental.
+	OverrideLogicalId(newLogicalId *string)
+	// Experimental.
+	PutTimeouts(value *DataTfRoute_TimeoutsProperty)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	// Experimental.
+	ResetCarrierGatewayId()
+	// Experimental.
+	ResetCoreNetworkArn()
+	// Experimental.
+	ResetDestinationCidrBlock()
+	// Experimental.
+	ResetDestinationIpv6CidrBlock()
+	// Experimental.
+	ResetDestinationPrefixListId()
+	// Experimental.
+	ResetEgressOnlyGatewayId()
+	// Experimental.
+	ResetGatewayId()
+	// Experimental.
+	ResetId()
+	// Experimental.
+	ResetInstanceId()
+	// Experimental.
+	ResetLocalGatewayId()
+	// Experimental.
+	ResetNatGatewayId()
+	// Experimental.
+	ResetNetworkInterfaceId()
+	// Experimental.
+	ResetOdbNetworkArn()
+	// Resets a previously passed logical Id to use the auto-generated logical id again.
+	// Experimental.
+	ResetOverrideLogicalId()
+	// Experimental.
+	ResetRegion()
+	// Experimental.
+	ResetTimeouts()
+	// Experimental.
+	ResetTransitGatewayId()
+	// Experimental.
+	ResetVpcPeeringConnectionId()
+	// Experimental.
+	SynthesizeAttributes() *map[string]interface{}
+	// Experimental.
+	SynthesizeHclAttributes() *map[string]interface{}
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToHclTerraform() interface{}
+	// Experimental.
+	ToMetadata() interface{}
+	// Returns a string representation of this construct.
+	// Experimental.
+	ToString() *string
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	// Experimental.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
+}
+
+// The jsii proxy struct for DataTfRoute
+type jsiiProxy_DataTfRoute struct {
+	internal.Type__cdktnTerraformDataSource
+}
+
+func (j *jsiiProxy_DataTfRoute) CarrierGatewayId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"carrierGatewayId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) CarrierGatewayIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"carrierGatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
+	_jsii_.Get(
+		j,
+		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) ConstructNodeMetadata() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) CoreNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"coreNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) CoreNetworkArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"coreNetworkArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Count() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DependsOn() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DestinationCidrBlock() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationCidrBlock",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DestinationCidrBlockInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationCidrBlockInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DestinationIpv6CidrBlock() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationIpv6CidrBlock",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DestinationIpv6CidrBlockInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationIpv6CidrBlockInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DestinationPrefixListId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationPrefixListId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) DestinationPrefixListIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"destinationPrefixListIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) EgressOnlyGatewayId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"egressOnlyGatewayId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) EgressOnlyGatewayIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"egressOnlyGatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
+	_jsii_.Get(
+		j,
+		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) FriendlyUniqueId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) GatewayId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gatewayId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) GatewayIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"gatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) IdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) InstanceId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instanceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) InstanceIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"instanceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
+	_jsii_.Get(
+		j,
+		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) LocalGatewayId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"localGatewayId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) LocalGatewayIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"localGatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) NatGatewayId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewayId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) NatGatewayIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"natGatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) NetworkInterfaceId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkInterfaceId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) NetworkInterfaceIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"networkInterfaceIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) OdbNetworkArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) OdbNetworkArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"odbNetworkArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
+	_jsii_.Get(
+		j,
+		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) RawOverrides() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Region() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"region",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) RegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) RouteTableId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) RouteTableIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"routeTableIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
+	_jsii_.Get(
+		j,
+		"terraformGeneratorMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) TerraformMetaArguments() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"terraformMetaArguments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) TerraformResourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) Timeouts() DataTfRoute_TimeoutsPropertyOutputReference {
+	var returns DataTfRoute_TimeoutsPropertyOutputReference
+	_jsii_.Get(
+		j,
+		"timeouts",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) TimeoutsInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"timeoutsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) TransitGatewayId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"transitGatewayId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) TransitGatewayIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"transitGatewayIdInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) VpcPeeringConnectionId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcPeeringConnectionId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataTfRoute) VpcPeeringConnectionIdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"vpcPeeringConnectionIdInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route aws_route} Data Source.
+// Experimental.
+func NewDataTfRoute(scope constructs.Construct, id *string, config *DataTfRouteConfig) DataTfRoute {
+	_init_.Initialize()
+
+	if err := validateNewDataTfRouteParameters(scope, id, config); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataTfRoute{}
+
+	_jsii_.Create(
+		"@cdktn/aws-vpc.DataTfRoute",
+		[]interface{}{scope, id, config},
+		&j,
+	)
+
+	return &j
+}
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/data-sources/route aws_route} Data Source.
+// Experimental.
+func NewDataTfRoute_Override(d DataTfRoute, scope constructs.Construct, id *string, config *DataTfRouteConfig) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/aws-vpc.DataTfRoute",
+		[]interface{}{scope, id, config},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetCarrierGatewayId(val *string) {
+	if err := j.validateSetCarrierGatewayIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"carrierGatewayId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetCoreNetworkArn(val *string) {
+	if err := j.validateSetCoreNetworkArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"coreNetworkArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetDependsOn(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetDestinationCidrBlock(val *string) {
+	if err := j.validateSetDestinationCidrBlockParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"destinationCidrBlock",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetDestinationIpv6CidrBlock(val *string) {
+	if err := j.validateSetDestinationIpv6CidrBlockParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"destinationIpv6CidrBlock",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetDestinationPrefixListId(val *string) {
+	if err := j.validateSetDestinationPrefixListIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"destinationPrefixListId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetEgressOnlyGatewayId(val *string) {
+	if err := j.validateSetEgressOnlyGatewayIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"egressOnlyGatewayId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetForEach(val cdktn.ITerraformIterator) {
+	_jsii_.Set(
+		j,
+		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetGatewayId(val *string) {
+	if err := j.validateSetGatewayIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"gatewayId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetId(val *string) {
+	if err := j.validateSetIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetInstanceId(val *string) {
+	if err := j.validateSetInstanceIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"instanceId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
+	if err := j.validateSetLifecycleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetLocalGatewayId(val *string) {
+	if err := j.validateSetLocalGatewayIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"localGatewayId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetNatGatewayId(val *string) {
+	if err := j.validateSetNatGatewayIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"natGatewayId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetNetworkInterfaceId(val *string) {
+	if err := j.validateSetNetworkInterfaceIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"networkInterfaceId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetOdbNetworkArn(val *string) {
+	if err := j.validateSetOdbNetworkArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"odbNetworkArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetProvider(val cdktn.TerraformProvider) {
+	_jsii_.Set(
+		j,
+		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetRegion(val *string) {
+	if err := j.validateSetRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetRouteTableId(val *string) {
+	if err := j.validateSetRouteTableIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"routeTableId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetTransitGatewayId(val *string) {
+	if err := j.validateSetTransitGatewayIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"transitGatewayId",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataTfRoute)SetVpcPeeringConnectionId(val *string) {
+	if err := j.validateSetVpcPeeringConnectionIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"vpcPeeringConnectionId",
+		val,
+	)
+}
+
+// Generates CDKTN code for importing a DataTfRoute resource upon running "cdktn plan <stack-name>".
+// Experimental.
+func DataTfRoute_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
+	_init_.Initialize()
+
+	if err := validateDataTfRoute_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktn.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-vpc.DataTfRoute",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
+}
+
+// Checks if `x` is a construct.
+//
+// Use this method instead of `instanceof` to properly detect `Construct`
+// instances, even when the construct library is symlinked.
+//
+// Explanation: in JavaScript, multiple copies of the `constructs` library on
+// disk are seen as independent, completely different libraries. As a
+// consequence, the class `Construct` in each copy of the `constructs` library
+// is seen as a different class, and an instance of one class will not test as
+// `instanceof` the other class. `npm install` will not create installations
+// like this, but users may manually symlink construct libraries together or
+// use a monorepo tool: in those cases, multiple copies of the `constructs`
+// library can be accidentally installed, and `instanceof` will behave
+// unpredictably. It is safest to avoid using `instanceof`, and using
+// this type-testing method instead.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+// Experimental.
+func DataTfRoute_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataTfRoute_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-vpc.DataTfRoute",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataTfRoute_IsTerraformDataSource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataTfRoute_IsTerraformDataSourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-vpc.DataTfRoute",
+		"isTerraformDataSource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func DataTfRoute_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateDataTfRoute_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-vpc.DataTfRoute",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+func DataTfRoute_TfResourceType() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdktn/aws-vpc.DataTfRoute",
+		"tfResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) AddOverride(path *string, value interface{}) {
+	if err := d.validateAddOverrideParameters(path, value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"addOverride",
+		[]interface{}{path, value},
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := d.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := d.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := d.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		d,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := d.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := d.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := d.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetStringAttribute(terraformAttribute *string) *string {
+	if err := d.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := d.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		d,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) OverrideLogicalId(newLogicalId *string) {
+	if err := d.validateOverrideLogicalIdParameters(newLogicalId); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"overrideLogicalId",
+		[]interface{}{newLogicalId},
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) PutTimeouts(value *DataTfRoute_TimeoutsProperty) {
+	if err := d.validatePutTimeoutsParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"putTimeouts",
+		[]interface{}{value},
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := d.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		d,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetCarrierGatewayId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCarrierGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetCoreNetworkArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetCoreNetworkArn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetDestinationCidrBlock() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDestinationCidrBlock",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetDestinationIpv6CidrBlock() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDestinationIpv6CidrBlock",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetDestinationPrefixListId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetDestinationPrefixListId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetEgressOnlyGatewayId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetEgressOnlyGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetGatewayId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetInstanceId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetInstanceId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetLocalGatewayId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetLocalGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetNatGatewayId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetNatGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetNetworkInterfaceId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetNetworkInterfaceId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetOdbNetworkArn() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOdbNetworkArn",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetOverrideLogicalId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetRegion() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetTimeouts() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTimeouts",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetTransitGatewayId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetTransitGatewayId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) ResetVpcPeeringConnectionId() {
+	_jsii_.InvokeVoid(
+		d,
+		"resetVpcPeeringConnectionId",
+		nil, // no parameters
+	)
+}
+
+func (d *jsiiProxy_DataTfRoute) SynthesizeAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"synthesizeAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) SynthesizeHclAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"synthesizeHclAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) ToHclTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toHclTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) ToMetadata() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toMetadata",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) ToTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"toTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataTfRoute) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		d,
+		"with",
+		args,
+		&returns,
+	)
+
+	return returns
+}
+

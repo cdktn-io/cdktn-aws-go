@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile",
-		reflect.TypeOf((*AwsAppflowConnectorProfile)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile",
+		reflect.TypeOf((*TfConnectorProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -81,18 +81,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile{}
+			j := jsiiProxy_TfConnectorProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ApiKeyProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ApiKeyProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ApiKeyProperty",
+		reflect.TypeOf((*TfConnectorProfile_ApiKeyProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ApiKeyPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ApiKeyPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ApiKeyPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ApiKeyPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -122,18 +122,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ApiKeyPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ApiKeyPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.BasicAuthCredentialsProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_BasicAuthCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.BasicAuthCredentialsProperty",
+		reflect.TypeOf((*TfConnectorProfile_BasicAuthCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.BasicAuthCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_BasicAuthCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.BasicAuthCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_BasicAuthCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -162,18 +162,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_BasicAuthCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_BasicAuthCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.BasicProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_BasicProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.BasicProperty",
+		reflect.TypeOf((*TfConnectorProfile_BasicProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.BasicPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_BasicPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.BasicPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_BasicPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -202,18 +202,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_BasicPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_BasicPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsAmplitudeProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsAmplitudeProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsAmplitudePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsAmplitudePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -242,18 +242,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -284,18 +284,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorOauth2OauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -338,18 +338,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDatadogProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDatadogProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDatadogPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDatadogPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -378,18 +378,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDynatraceProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatraceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDynatraceProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatraceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDynatracePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatracePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsDynatracePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatracePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiToken", GoGetter: "ApiToken"},
 			_jsii_.MemberProperty{JsiiProperty: "apiTokenInput", GoGetter: "ApiTokenInput"},
@@ -416,18 +416,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatracePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatracePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -458,18 +458,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -508,18 +508,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -550,18 +550,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodeProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodeProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsHoneycodePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -596,18 +596,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsInforNexusProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsInforNexusProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsInforNexusPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsInforNexusPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyId", GoGetter: "AccessKeyId"},
 			_jsii_.MemberProperty{JsiiProperty: "accessKeyIdInput", GoGetter: "AccessKeyIdInput"},
@@ -640,18 +640,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "userIdInput", GoGetter: "UserIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -682,18 +682,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsMarketoPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -729,18 +729,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsRedshiftProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsRedshiftProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsRedshiftPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsRedshiftPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -769,18 +769,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -811,18 +811,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforceProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforceProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforcePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSalesforcePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -866,18 +866,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforcePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -908,18 +908,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataOauthCredentialsOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthCredentials", GoGetter: "BasicAuthCredentials"},
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthCredentialsInput", GoGetter: "BasicAuthCredentialsInput"},
@@ -952,18 +952,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -992,18 +992,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSingularProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSingularProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -1030,18 +1030,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -1072,18 +1072,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSlackPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -1119,18 +1119,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSnowflakeProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSnowflakeProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSnowflakePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsSnowflakePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1159,18 +1159,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiSecretKey", GoGetter: "ApiSecretKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiSecretKeyInput", GoGetter: "ApiSecretKeyInput"},
@@ -1197,18 +1197,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1237,18 +1237,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCode", GoGetter: "AuthCode"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeInput", GoGetter: "AuthCodeInput"},
@@ -1279,18 +1279,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskOauthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfileCredentialsZendeskPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -1326,18 +1326,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesAmplitudeProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesAmplitudeProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesAmplitudePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesAmplitudePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1362,18 +1362,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesAmplitudePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1405,18 +1405,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesCustomConnectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDatadogProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDatadogProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDatadogPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDatadogPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1443,18 +1443,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDatadogPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDynatraceProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatraceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDynatraceProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatraceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDynatracePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatracePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesDynatracePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatracePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1481,18 +1481,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatracePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesDynatracePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1517,18 +1517,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesGoogleAnalyticsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesHoneycodeProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesHoneycodeProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesHoneycodePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesHoneycodePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1553,56 +1553,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesHoneycodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesInforNexusProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesInforNexusProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesInforNexusPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceUrl", GoGetter: "InstanceUrl"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceUrlInput", GoGetter: "InstanceUrlInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesMarketoProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesInforNexusPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1629,18 +1591,56 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesInforNexusPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesRedshiftProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesMarketoProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesRedshiftPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceUrl", GoGetter: "InstanceUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceUrlInput", GoGetter: "InstanceUrlInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesMarketoPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesRedshiftProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesRedshiftPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -1684,18 +1684,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesRedshiftPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSalesforceProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSalesforceProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSalesforcePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSalesforcePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1729,18 +1729,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usePrivatelinkForMetadataAndAuthorizationInput", GoGetter: "UsePrivatelinkForMetadataAndAuthorizationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforcePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSalesforcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSapoDataProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSapoDataProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSapoDataPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSapoDataPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationHostUrl", GoGetter: "ApplicationHostUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "applicationHostUrlInput", GoGetter: "ApplicationHostUrlInput"},
@@ -1783,18 +1783,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSapoDataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesServiceNowProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesServiceNowProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesServiceNowPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesServiceNowPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1821,18 +1821,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesServiceNowPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSingularProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSingularProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSingularPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSingularPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1857,18 +1857,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSingularPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSlackProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSlackProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1895,18 +1895,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSnowflakeProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSnowflakeProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSnowflakePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesSnowflakePropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountName", GoGetter: "AccountName"},
 			_jsii_.MemberProperty{JsiiProperty: "accountNameInput", GoGetter: "AccountNameInput"},
@@ -1949,18 +1949,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "warehouseInput", GoGetter: "WarehouseInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakePropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSnowflakePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesTrendmicroProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesTrendmicroProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesTrendmicroPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesTrendmicroPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1985,56 +1985,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesTrendmicroPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesVeevaProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesVeevaProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceUrl", GoGetter: "InstanceUrl"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceUrlInput", GoGetter: "InstanceUrlInput"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesZendeskProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesZendeskPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2061,18 +2023,56 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesZendeskProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigConnectorProfilePropertiesZendeskPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceUrl", GoGetter: "InstanceUrl"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceUrlInput", GoGetter: "InstanceUrlInput"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesZendeskPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileConfigPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2103,18 +2103,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileConfigPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileCredentialsProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileCredentialsProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfileCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfileCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amplitude", GoGetter: "Amplitude"},
 			_jsii_.MemberProperty{JsiiProperty: "amplitudeInput", GoGetter: "AmplitudeInput"},
@@ -2211,18 +2211,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zendeskInput", GoGetter: "ZendeskInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfilePropertiesProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfilePropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfilePropertiesProperty",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfilePropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.ConnectorProfilePropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.ConnectorProfilePropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amplitude", GoGetter: "Amplitude"},
 			_jsii_.MemberProperty{JsiiProperty: "amplitudeInput", GoGetter: "AmplitudeInput"},
@@ -2319,18 +2319,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zendeskInput", GoGetter: "ZendeskInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_ConnectorProfilePropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.CustomProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_CustomProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.CustomProperty",
+		reflect.TypeOf((*TfConnectorProfile_CustomProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.CustomPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_CustomPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.CustomPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_CustomPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2360,18 +2360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_CustomPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_CustomPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.Oauth2PropertiesProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_Oauth2PropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.Oauth2PropertiesProperty",
+		reflect.TypeOf((*TfConnectorProfile_Oauth2PropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.Oauth2PropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_Oauth2PropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.Oauth2PropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_Oauth2PropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2403,18 +2403,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_Oauth2PropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_Oauth2PropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.Oauth2Property",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_Oauth2Property)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.Oauth2Property",
+		reflect.TypeOf((*TfConnectorProfile_Oauth2Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.Oauth2PropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_Oauth2PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.Oauth2PropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_Oauth2PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -2455,18 +2455,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_Oauth2PropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_Oauth2PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.OauthCredentialsProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_OauthCredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.OauthCredentialsProperty",
+		reflect.TypeOf((*TfConnectorProfile_OauthCredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.OauthCredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_OauthCredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.OauthCredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_OauthCredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -2505,18 +2505,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_OauthCredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_OauthCredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.OauthPropertiesProperty",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_OauthPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.OauthPropertiesProperty",
+		reflect.TypeOf((*TfConnectorProfile_OauthPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfile.OauthPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowConnectorProfile_OauthPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfile.OauthPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfConnectorProfile_OauthPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "authCodeUrl", GoGetter: "AuthCodeUrl"},
 			_jsii_.MemberProperty{JsiiProperty: "authCodeUrlInput", GoGetter: "AuthCodeUrlInput"},
@@ -2547,18 +2547,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowConnectorProfile_OauthPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfConnectorProfile_OauthPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowConnectorProfileConfig",
-		reflect.TypeOf((*AwsAppflowConnectorProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfConnectorProfileConfig",
+		reflect.TypeOf((*TfConnectorProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow",
-		reflect.TypeOf((*AwsAppflowFlow)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow",
+		reflect.TypeOf((*TfFlow)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2644,18 +2644,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow{}
+			j := jsiiProxy_TfFlow{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.AmplitudeProperty",
-		reflect.TypeOf((*AwsAppflowFlow_AmplitudeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.AmplitudeProperty",
+		reflect.TypeOf((*TfFlow_AmplitudeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.AmplitudePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_AmplitudePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.AmplitudePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_AmplitudePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2682,18 +2682,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_AmplitudePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_AmplitudePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ConnectorOperatorProperty",
-		reflect.TypeOf((*AwsAppflowFlow_ConnectorOperatorProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ConnectorOperatorProperty",
+		reflect.TypeOf((*TfFlow_ConnectorOperatorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ConnectorOperatorPropertyList",
-		reflect.TypeOf((*AwsAppflowFlow_ConnectorOperatorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ConnectorOperatorPropertyList",
+		reflect.TypeOf((*TfFlow_ConnectorOperatorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2708,14 +2708,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_ConnectorOperatorPropertyList{}
+			j := jsiiProxy_TfFlow_ConnectorOperatorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ConnectorOperatorPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_ConnectorOperatorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ConnectorOperatorPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_ConnectorOperatorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amplitude", GoGetter: "Amplitude"},
 			_jsii_.MemberProperty{JsiiProperty: "amplitudeInput", GoGetter: "AmplitudeInput"},
@@ -2788,18 +2788,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zendeskInput", GoGetter: "ZendeskInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_ConnectorOperatorPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_ConnectorOperatorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.CustomerProfilesProperty",
-		reflect.TypeOf((*AwsAppflowFlow_CustomerProfilesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.CustomerProfilesProperty",
+		reflect.TypeOf((*TfFlow_CustomerProfilesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.CustomerProfilesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_CustomerProfilesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.CustomerProfilesPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_CustomerProfilesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2829,18 +2829,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_CustomerProfilesPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_CustomerProfilesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DatadogProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DatadogProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DatadogProperty",
+		reflect.TypeOf((*TfFlow_DatadogProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DatadogPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DatadogPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DatadogPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DatadogPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2867,18 +2867,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DatadogPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DatadogPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationConnectorPropertiesProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationConnectorPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationConnectorPropertiesProperty",
+		reflect.TypeOf((*TfFlow_DestinationConnectorPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationConnectorPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationConnectorPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationConnectorPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationConnectorPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2955,18 +2955,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zendeskInput", GoGetter: "ZendeskInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationConnectorPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationConnectorPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3000,18 +3000,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3051,18 +3051,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeOperationTypeInput", GoGetter: "WriteOperationTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesCustomConnectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3096,18 +3096,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3141,18 +3141,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesHoneycodeErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3186,18 +3186,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesMarketoPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3228,18 +3228,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesMarketoPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3273,18 +3273,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3Property",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3Property)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3Property",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3PropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3PropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3318,18 +3318,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3PropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregationType", GoGetter: "AggregationType"},
 			_jsii_.MemberProperty{JsiiProperty: "aggregationTypeInput", GoGetter: "AggregationTypeInput"},
@@ -3360,18 +3360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigAggregationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3405,18 +3405,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPrefixConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregationConfig", GoGetter: "AggregationConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "aggregationConfigInput", GoGetter: "AggregationConfigInput"},
@@ -3455,18 +3455,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesS3S3OutputFormatConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3500,18 +3500,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforceProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforceProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforcePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSalesforcePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3551,18 +3551,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeOperationTypeInput", GoGetter: "WriteOperationTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforcePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSalesforcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3596,18 +3596,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSapoDataPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3648,18 +3648,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeOperationTypeInput", GoGetter: "WriteOperationTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3693,18 +3693,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregationType", GoGetter: "AggregationType"},
 			_jsii_.MemberProperty{JsiiProperty: "aggregationTypeInput", GoGetter: "AggregationTypeInput"},
@@ -3732,18 +3732,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigAggregationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3776,18 +3776,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPrefixConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aggregationConfig", GoGetter: "AggregationConfig"},
 			_jsii_.MemberProperty{JsiiProperty: "aggregationConfigInput", GoGetter: "AggregationConfigInput"},
@@ -3822,18 +3822,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesUpsolverS3OutputFormatConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -3867,18 +3867,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskErrorHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigDestinationConnectorPropertiesZendeskPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3915,18 +3915,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeOperationTypeInput", GoGetter: "WriteOperationTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigDestinationConnectorPropertiesZendeskPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigProperty",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigPropertyList",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigPropertyList",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3941,14 +3941,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigPropertyList{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DestinationFlowConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DestinationFlowConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DestinationFlowConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DestinationFlowConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiVersion", GoGetter: "ApiVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "apiVersionInput", GoGetter: "ApiVersionInput"},
@@ -3984,18 +3984,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DestinationFlowConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DestinationFlowConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DynatraceProperty",
-		reflect.TypeOf((*AwsAppflowFlow_DynatraceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DynatraceProperty",
+		reflect.TypeOf((*TfFlow_DynatraceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.DynatracePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_DynatracePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.DynatracePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_DynatracePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4022,18 +4022,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_DynatracePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_DynatracePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.EventBridgeProperty",
-		reflect.TypeOf((*AwsAppflowFlow_EventBridgeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.EventBridgeProperty",
+		reflect.TypeOf((*TfFlow_EventBridgeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.EventBridgePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_EventBridgePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.EventBridgePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_EventBridgePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4064,18 +4064,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_EventBridgePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_EventBridgePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.GlueDataCatalogProperty",
-		reflect.TypeOf((*AwsAppflowFlow_GlueDataCatalogProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.GlueDataCatalogProperty",
+		reflect.TypeOf((*TfFlow_GlueDataCatalogProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.GlueDataCatalogPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_GlueDataCatalogPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.GlueDataCatalogPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_GlueDataCatalogPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4106,18 +4106,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_GlueDataCatalogPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_GlueDataCatalogPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.GoogleAnalyticsProperty",
-		reflect.TypeOf((*AwsAppflowFlow_GoogleAnalyticsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.GoogleAnalyticsProperty",
+		reflect.TypeOf((*TfFlow_GoogleAnalyticsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.GoogleAnalyticsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_GoogleAnalyticsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.GoogleAnalyticsPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_GoogleAnalyticsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4144,18 +4144,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_GoogleAnalyticsPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_GoogleAnalyticsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.HoneycodeProperty",
-		reflect.TypeOf((*AwsAppflowFlow_HoneycodeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.HoneycodeProperty",
+		reflect.TypeOf((*TfFlow_HoneycodeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.HoneycodePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_HoneycodePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.HoneycodePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_HoneycodePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4186,18 +4186,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_HoneycodePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_HoneycodePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.IncrementalPullConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_IncrementalPullConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.IncrementalPullConfigProperty",
+		reflect.TypeOf((*TfFlow_IncrementalPullConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.IncrementalPullConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_IncrementalPullConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.IncrementalPullConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_IncrementalPullConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4225,18 +4225,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_IncrementalPullConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_IncrementalPullConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.InforNexusProperty",
-		reflect.TypeOf((*AwsAppflowFlow_InforNexusProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.InforNexusProperty",
+		reflect.TypeOf((*TfFlow_InforNexusProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.InforNexusPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_InforNexusPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.InforNexusPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_InforNexusPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4263,18 +4263,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_InforNexusPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_InforNexusPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.LookoutMetricsProperty",
-		reflect.TypeOf((*AwsAppflowFlow_LookoutMetricsProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.LookoutMetricsProperty",
+		reflect.TypeOf((*TfFlow_LookoutMetricsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.LookoutMetricsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_LookoutMetricsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.LookoutMetricsPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_LookoutMetricsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4299,18 +4299,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_LookoutMetricsPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_LookoutMetricsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.MetadataCatalogConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_MetadataCatalogConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.MetadataCatalogConfigProperty",
+		reflect.TypeOf((*TfFlow_MetadataCatalogConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.MetadataCatalogConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_MetadataCatalogConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.MetadataCatalogConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_MetadataCatalogConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4339,18 +4339,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_MetadataCatalogConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_MetadataCatalogConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.PaginationConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_PaginationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.PaginationConfigProperty",
+		reflect.TypeOf((*TfFlow_PaginationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.PaginationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_PaginationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.PaginationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_PaginationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4377,18 +4377,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_PaginationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_PaginationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ParallelismConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_ParallelismConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ParallelismConfigProperty",
+		reflect.TypeOf((*TfFlow_ParallelismConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ParallelismConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_ParallelismConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ParallelismConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_ParallelismConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4415,18 +4415,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_ParallelismConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_ParallelismConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.RedshiftProperty",
-		reflect.TypeOf((*AwsAppflowFlow_RedshiftProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.RedshiftProperty",
+		reflect.TypeOf((*TfFlow_RedshiftProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.RedshiftPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_RedshiftPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.RedshiftPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_RedshiftPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketPrefix", GoGetter: "BucketPrefix"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketPrefixInput", GoGetter: "BucketPrefixInput"},
@@ -4462,18 +4462,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_RedshiftPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_RedshiftPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.S3InputFormatConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_S3InputFormatConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.S3InputFormatConfigProperty",
+		reflect.TypeOf((*TfFlow_S3InputFormatConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.S3InputFormatConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_S3InputFormatConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.S3InputFormatConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_S3InputFormatConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4501,18 +4501,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_S3InputFormatConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_S3InputFormatConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ScheduledProperty",
-		reflect.TypeOf((*AwsAppflowFlow_ScheduledProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ScheduledProperty",
+		reflect.TypeOf((*TfFlow_ScheduledProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ScheduledPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_ScheduledPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ScheduledPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_ScheduledPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4557,18 +4557,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_ScheduledPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_ScheduledPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ServiceNowProperty",
-		reflect.TypeOf((*AwsAppflowFlow_ServiceNowProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ServiceNowProperty",
+		reflect.TypeOf((*TfFlow_ServiceNowProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.ServiceNowPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_ServiceNowPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.ServiceNowPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_ServiceNowPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4595,18 +4595,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_ServiceNowPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_ServiceNowPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SingularProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SingularProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SingularProperty",
+		reflect.TypeOf((*TfFlow_SingularProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SingularPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SingularPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SingularPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SingularPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4633,18 +4633,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SingularPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SingularPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SlackProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SlackProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SlackProperty",
+		reflect.TypeOf((*TfFlow_SlackProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SlackPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SlackPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SlackPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SlackPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4671,18 +4671,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SlackPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SlackPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SnowflakeProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SnowflakeProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SnowflakeProperty",
+		reflect.TypeOf((*TfFlow_SnowflakeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SnowflakePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SnowflakePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SnowflakePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SnowflakePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketPrefix", GoGetter: "BucketPrefix"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketPrefixInput", GoGetter: "BucketPrefixInput"},
@@ -4718,18 +4718,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SnowflakePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SnowflakePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceConnectorPropertiesProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceConnectorPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceConnectorPropertiesProperty",
+		reflect.TypeOf((*TfFlow_SourceConnectorPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceConnectorPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceConnectorPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceConnectorPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceConnectorPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amplitude", GoGetter: "Amplitude"},
 			_jsii_.MemberProperty{JsiiProperty: "amplitudeInput", GoGetter: "AmplitudeInput"},
@@ -4818,18 +4818,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zendeskInput", GoGetter: "ZendeskInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceConnectorPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceConnectorPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigProperty",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiVersion", GoGetter: "ApiVersion"},
 			_jsii_.MemberProperty{JsiiProperty: "apiVersionInput", GoGetter: "ApiVersionInput"},
@@ -4869,18 +4869,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesCustomConnectorProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesCustomConnectorProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesCustomConnectorProperty",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesCustomConnectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesCustomConnectorPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesCustomConnectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesCustomConnectorPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesCustomConnectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4910,18 +4910,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesCustomConnectorPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigSourceConnectorPropertiesCustomConnectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesMarketoProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesMarketoProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesMarketoProperty",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesMarketoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesMarketoPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesMarketoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesMarketoPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesMarketoPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4948,18 +4948,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesMarketoPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigSourceConnectorPropertiesMarketoPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesS3Property",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesS3Property)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesS3Property",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesS3PropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesS3PropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -4992,18 +4992,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesS3PropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigSourceConnectorPropertiesS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesSalesforceProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesSalesforceProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesSalesforceProperty",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesSalesforceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesSalesforcePropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesSalesforcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesSalesforcePropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesSalesforcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5039,18 +5039,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesSalesforcePropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigSourceConnectorPropertiesSalesforcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesSapoDataProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesSapoDataProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesSapoDataProperty",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesSapoDataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesSapoDataPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesSapoDataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesSapoDataPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesSapoDataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5085,18 +5085,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesSapoDataPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigSourceConnectorPropertiesSapoDataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesZendeskProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesZendeskProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesZendeskProperty",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesZendeskProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SourceFlowConfigSourceConnectorPropertiesZendeskPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesZendeskPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SourceFlowConfigSourceConnectorPropertiesZendeskPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SourceFlowConfigSourceConnectorPropertiesZendeskPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5123,18 +5123,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SourceFlowConfigSourceConnectorPropertiesZendeskPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SourceFlowConfigSourceConnectorPropertiesZendeskPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SuccessResponseHandlingConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_SuccessResponseHandlingConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SuccessResponseHandlingConfigProperty",
+		reflect.TypeOf((*TfFlow_SuccessResponseHandlingConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.SuccessResponseHandlingConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_SuccessResponseHandlingConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.SuccessResponseHandlingConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_SuccessResponseHandlingConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -5165,18 +5165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_SuccessResponseHandlingConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_SuccessResponseHandlingConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TaskProperty",
-		reflect.TypeOf((*AwsAppflowFlow_TaskProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TaskProperty",
+		reflect.TypeOf((*TfFlow_TaskProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TaskPropertyList",
-		reflect.TypeOf((*AwsAppflowFlow_TaskPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TaskPropertyList",
+		reflect.TypeOf((*TfFlow_TaskPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -5191,14 +5191,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_TaskPropertyList{}
+			j := jsiiProxy_TfFlow_TaskPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TaskPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_TaskPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TaskPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_TaskPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5238,18 +5238,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_TaskPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_TaskPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TrendmicroProperty",
-		reflect.TypeOf((*AwsAppflowFlow_TrendmicroProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TrendmicroProperty",
+		reflect.TypeOf((*TfFlow_TrendmicroProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TrendmicroPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_TrendmicroPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TrendmicroPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_TrendmicroPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5276,18 +5276,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_TrendmicroPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_TrendmicroPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TriggerConfigProperty",
-		reflect.TypeOf((*AwsAppflowFlow_TriggerConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TriggerConfigProperty",
+		reflect.TypeOf((*TfFlow_TriggerConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TriggerConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_TriggerConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TriggerConfigPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_TriggerConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5318,18 +5318,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "triggerTypeInput", GoGetter: "TriggerTypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_TriggerConfigPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_TriggerConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TriggerPropertiesProperty",
-		reflect.TypeOf((*AwsAppflowFlow_TriggerPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TriggerPropertiesProperty",
+		reflect.TypeOf((*TfFlow_TriggerPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.TriggerPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_TriggerPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.TriggerPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_TriggerPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5358,18 +5358,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_TriggerPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_TriggerPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.UpsolverProperty",
-		reflect.TypeOf((*AwsAppflowFlow_UpsolverProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.UpsolverProperty",
+		reflect.TypeOf((*TfFlow_UpsolverProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.UpsolverPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_UpsolverPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.UpsolverPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_UpsolverPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -5402,18 +5402,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_UpsolverPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_UpsolverPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlow.VeevaProperty",
-		reflect.TypeOf((*AwsAppflowFlow_VeevaProperty)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.VeevaProperty",
+		reflect.TypeOf((*TfFlow_VeevaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appflow.AwsAppflowFlow.VeevaPropertyOutputReference",
-		reflect.TypeOf((*AwsAppflowFlow_VeevaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlow.VeevaPropertyOutputReference",
+		reflect.TypeOf((*TfFlow_VeevaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -5452,13 +5452,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppflowFlow_VeevaPropertyOutputReference{}
+			j := jsiiProxy_TfFlow_VeevaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appflow.AwsAppflowFlowConfig",
-		reflect.TypeOf((*AwsAppflowFlowConfig)(nil)).Elem(),
+		"@cdktn/aws-appflow.TfFlowConfig",
+		reflect.TypeOf((*TfFlowConfig)(nil)).Elem(),
 	)
 }

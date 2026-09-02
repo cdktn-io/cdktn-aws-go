@@ -9,8 +9,156 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbCluster",
-		reflect.TypeOf((*AwsDocdbCluster)(nil)).Elem(),
+		"@cdktn/aws-documentdb.DataTfEngineVersion",
+		reflect.TypeOf((*DataTfEngineVersion)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
+			_jsii_.MemberProperty{JsiiProperty: "engineDescription", GoGetter: "EngineDescription"},
+			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
+			_jsii_.MemberProperty{JsiiProperty: "exportableLogTypes", GoGetter: "ExportableLogTypes"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamily", GoGetter: "ParameterGroupFamily"},
+			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamilyInput", GoGetter: "ParameterGroupFamilyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredVersions", GoGetter: "PreferredVersions"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredVersionsInput", GoGetter: "PreferredVersionsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetParameterGroupFamily", GoMethod: "ResetParameterGroupFamily"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreferredVersions", GoMethod: "ResetPreferredVersions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVersion", GoMethod: "ResetVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsLogExportsToCloudwatch", GoGetter: "SupportsLogExportsToCloudwatch"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "validUpgradeTargets", GoGetter: "ValidUpgradeTargets"},
+			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberProperty{JsiiProperty: "versionDescription", GoGetter: "VersionDescription"},
+			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfEngineVersion{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-documentdb.DataTfEngineVersionConfig",
+		reflect.TypeOf((*DataTfEngineVersionConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-documentdb.DataTfOrderableDbInstance",
+		reflect.TypeOf((*DataTfOrderableDbInstance)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
+			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
+			_jsii_.MemberProperty{JsiiProperty: "engineVersion", GoGetter: "EngineVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "engineVersionInput", GoGetter: "EngineVersionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceClass", GoGetter: "InstanceClass"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceClassInput", GoGetter: "InstanceClassInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "licenseModel", GoGetter: "LicenseModel"},
+			_jsii_.MemberProperty{JsiiProperty: "licenseModelInput", GoGetter: "LicenseModelInput"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClasses", GoGetter: "PreferredInstanceClasses"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClassesInput", GoGetter: "PreferredInstanceClassesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEngineVersion", GoMethod: "ResetEngineVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInstanceClass", GoMethod: "ResetInstanceClass"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLicenseModel", GoMethod: "ResetLicenseModel"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreferredInstanceClasses", GoMethod: "ResetPreferredInstanceClasses"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpc", GoMethod: "ResetVpc"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfOrderableDbInstance{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-documentdb.DataTfOrderableDbInstanceConfig",
+		reflect.TypeOf((*DataTfOrderableDbInstanceConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-documentdb.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -178,18 +326,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.MasterUserSecretProperty",
-		reflect.TypeOf((*AwsDocdbCluster_MasterUserSecretProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.MasterUserSecretProperty",
+		reflect.TypeOf((*TfCluster_MasterUserSecretProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.MasterUserSecretPropertyList",
-		reflect.TypeOf((*AwsDocdbCluster_MasterUserSecretPropertyList)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.MasterUserSecretPropertyList",
+		reflect.TypeOf((*TfCluster_MasterUserSecretPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -203,14 +351,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbCluster_MasterUserSecretPropertyList{}
+			j := jsiiProxy_TfCluster_MasterUserSecretPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.MasterUserSecretPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbCluster_MasterUserSecretPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.MasterUserSecretPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_MasterUserSecretPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -238,18 +386,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbCluster_MasterUserSecretPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_MasterUserSecretPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.RestoreToPointInTimeProperty",
-		reflect.TypeOf((*AwsDocdbCluster_RestoreToPointInTimeProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.RestoreToPointInTimeProperty",
+		reflect.TypeOf((*TfCluster_RestoreToPointInTimeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.RestoreToPointInTimePropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbCluster_RestoreToPointInTimePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.RestoreToPointInTimePropertyOutputReference",
+		reflect.TypeOf((*TfCluster_RestoreToPointInTimePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -285,18 +433,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "useLatestRestorableTimeInput", GoGetter: "UseLatestRestorableTimeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbCluster_RestoreToPointInTimePropertyOutputReference{}
+			j := jsiiProxy_TfCluster_RestoreToPointInTimePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.ServerlessV2ScalingConfigurationProperty",
-		reflect.TypeOf((*AwsDocdbCluster_ServerlessV2ScalingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.ServerlessV2ScalingConfigurationProperty",
+		reflect.TypeOf((*TfCluster_ServerlessV2ScalingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.ServerlessV2ScalingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbCluster_ServerlessV2ScalingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.ServerlessV2ScalingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_ServerlessV2ScalingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -325,18 +473,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbCluster_ServerlessV2ScalingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_ServerlessV2ScalingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsDocdbCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -370,18 +518,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterConfig",
-		reflect.TypeOf((*AwsDocdbClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterInstance",
-		reflect.TypeOf((*AwsDocdbClusterInstance)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterInstance",
+		reflect.TypeOf((*TfClusterInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -499,18 +647,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writer", GoGetter: "Writer"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterInstance{}
+			j := jsiiProxy_TfClusterInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterInstance.TimeoutsProperty",
-		reflect.TypeOf((*AwsDocdbClusterInstance_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterInstance.TimeoutsProperty",
+		reflect.TypeOf((*TfClusterInstance_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterInstance.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbClusterInstance_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterInstance.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClusterInstance_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -544,18 +692,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterInstance_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClusterInstance_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterInstanceConfig",
-		reflect.TypeOf((*AwsDocdbClusterInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterInstanceConfig",
+		reflect.TypeOf((*TfClusterInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterParameterGroup",
-		reflect.TypeOf((*AwsDocdbClusterParameterGroup)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterParameterGroup",
+		reflect.TypeOf((*TfClusterParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -631,18 +779,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterParameterGroup{}
+			j := jsiiProxy_TfClusterParameterGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterParameterGroup.ParameterProperty",
-		reflect.TypeOf((*AwsDocdbClusterParameterGroup_ParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterParameterGroup.ParameterProperty",
+		reflect.TypeOf((*TfClusterParameterGroup_ParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterParameterGroup.ParameterPropertyList",
-		reflect.TypeOf((*AwsDocdbClusterParameterGroup_ParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterParameterGroup.ParameterPropertyList",
+		reflect.TypeOf((*TfClusterParameterGroup_ParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -657,14 +805,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterParameterGroup_ParameterPropertyList{}
+			j := jsiiProxy_TfClusterParameterGroup_ParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterParameterGroup.ParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbClusterParameterGroup_ParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterParameterGroup.ParameterPropertyOutputReference",
+		reflect.TypeOf((*TfClusterParameterGroup_ParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},
 			_jsii_.MemberProperty{JsiiProperty: "applyMethodInput", GoGetter: "ApplyMethodInput"},
@@ -696,18 +844,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterParameterGroup_ParameterPropertyOutputReference{}
+			j := jsiiProxy_TfClusterParameterGroup_ParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterParameterGroupConfig",
-		reflect.TypeOf((*AwsDocdbClusterParameterGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterParameterGroupConfig",
+		reflect.TypeOf((*TfClusterParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterSnapshot",
-		reflect.TypeOf((*AwsDocdbClusterSnapshot)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterSnapshot",
+		reflect.TypeOf((*TfClusterSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -780,18 +928,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterSnapshot{}
+			j := jsiiProxy_TfClusterSnapshot{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterSnapshot.TimeoutsProperty",
-		reflect.TypeOf((*AwsDocdbClusterSnapshot_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterSnapshot.TimeoutsProperty",
+		reflect.TypeOf((*TfClusterSnapshot_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbClusterSnapshot.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbClusterSnapshot_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterSnapshot.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClusterSnapshot_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -819,18 +967,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbClusterSnapshot_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClusterSnapshot_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbClusterSnapshotConfig",
-		reflect.TypeOf((*AwsDocdbClusterSnapshotConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfClusterSnapshotConfig",
+		reflect.TypeOf((*TfClusterSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbEventSubscription",
-		reflect.TypeOf((*AwsDocdbEventSubscription)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfEventSubscription",
+		reflect.TypeOf((*TfEventSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -916,18 +1064,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbEventSubscription{}
+			j := jsiiProxy_TfEventSubscription{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbEventSubscription.TimeoutsProperty",
-		reflect.TypeOf((*AwsDocdbEventSubscription_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfEventSubscription.TimeoutsProperty",
+		reflect.TypeOf((*TfEventSubscription_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbEventSubscription.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbEventSubscription_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfEventSubscription.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEventSubscription_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -961,18 +1109,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbEventSubscription_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEventSubscription_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbEventSubscriptionConfig",
-		reflect.TypeOf((*AwsDocdbEventSubscriptionConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfEventSubscriptionConfig",
+		reflect.TypeOf((*TfEventSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalCluster",
-		reflect.TypeOf((*AwsDocdbGlobalCluster)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalCluster",
+		reflect.TypeOf((*TfGlobalCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1054,18 +1202,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbGlobalCluster{}
+			j := jsiiProxy_TfGlobalCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalCluster.GlobalClusterMembersProperty",
-		reflect.TypeOf((*AwsDocdbGlobalCluster_GlobalClusterMembersProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalCluster.GlobalClusterMembersProperty",
+		reflect.TypeOf((*TfGlobalCluster_GlobalClusterMembersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalCluster.GlobalClusterMembersPropertyList",
-		reflect.TypeOf((*AwsDocdbGlobalCluster_GlobalClusterMembersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalCluster.GlobalClusterMembersPropertyList",
+		reflect.TypeOf((*TfGlobalCluster_GlobalClusterMembersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1079,14 +1227,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbGlobalCluster_GlobalClusterMembersPropertyList{}
+			j := jsiiProxy_TfGlobalCluster_GlobalClusterMembersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalCluster.GlobalClusterMembersPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbGlobalCluster_GlobalClusterMembersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalCluster.GlobalClusterMembersPropertyOutputReference",
+		reflect.TypeOf((*TfGlobalCluster_GlobalClusterMembersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1113,18 +1261,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbGlobalCluster_GlobalClusterMembersPropertyOutputReference{}
+			j := jsiiProxy_TfGlobalCluster_GlobalClusterMembersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsDocdbGlobalCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfGlobalCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsDocdbGlobalCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGlobalCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1158,18 +1306,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbGlobalCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGlobalCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbGlobalClusterConfig",
-		reflect.TypeOf((*AwsDocdbGlobalClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfGlobalClusterConfig",
+		reflect.TypeOf((*TfGlobalClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.AwsDocdbSubnetGroup",
-		reflect.TypeOf((*AwsDocdbSubnetGroup)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfSubnetGroup",
+		reflect.TypeOf((*TfSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1242,161 +1390,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDocdbSubnetGroup{}
+			j := jsiiProxy_TfSubnetGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.AwsDocdbSubnetGroupConfig",
-		reflect.TypeOf((*AwsDocdbSubnetGroupConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.DataAwsDocdbEngineVersion",
-		reflect.TypeOf((*DataAwsDocdbEngineVersion)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
-			_jsii_.MemberProperty{JsiiProperty: "engineDescription", GoGetter: "EngineDescription"},
-			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
-			_jsii_.MemberProperty{JsiiProperty: "exportableLogTypes", GoGetter: "ExportableLogTypes"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamily", GoGetter: "ParameterGroupFamily"},
-			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamilyInput", GoGetter: "ParameterGroupFamilyInput"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredVersions", GoGetter: "PreferredVersions"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredVersionsInput", GoGetter: "PreferredVersionsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetParameterGroupFamily", GoMethod: "ResetParameterGroupFamily"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPreferredVersions", GoMethod: "ResetPreferredVersions"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVersion", GoMethod: "ResetVersion"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsLogExportsToCloudwatch", GoGetter: "SupportsLogExportsToCloudwatch"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "validUpgradeTargets", GoGetter: "ValidUpgradeTargets"},
-			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
-			_jsii_.MemberProperty{JsiiProperty: "versionDescription", GoGetter: "VersionDescription"},
-			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsDocdbEngineVersion{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.DataAwsDocdbEngineVersionConfig",
-		reflect.TypeOf((*DataAwsDocdbEngineVersionConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-documentdb.DataAwsDocdbOrderableDbInstance",
-		reflect.TypeOf((*DataAwsDocdbOrderableDbInstance)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
-			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
-			_jsii_.MemberProperty{JsiiProperty: "engineVersion", GoGetter: "EngineVersion"},
-			_jsii_.MemberProperty{JsiiProperty: "engineVersionInput", GoGetter: "EngineVersionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceClass", GoGetter: "InstanceClass"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceClassInput", GoGetter: "InstanceClassInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "licenseModel", GoGetter: "LicenseModel"},
-			_jsii_.MemberProperty{JsiiProperty: "licenseModelInput", GoGetter: "LicenseModelInput"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClasses", GoGetter: "PreferredInstanceClasses"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClassesInput", GoGetter: "PreferredInstanceClassesInput"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEngineVersion", GoMethod: "ResetEngineVersion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetInstanceClass", GoMethod: "ResetInstanceClass"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLicenseModel", GoMethod: "ResetLicenseModel"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPreferredInstanceClasses", GoMethod: "ResetPreferredInstanceClasses"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVpc", GoMethod: "ResetVpc"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
-			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsDocdbOrderableDbInstance{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-documentdb.DataAwsDocdbOrderableDbInstanceConfig",
-		reflect.TypeOf((*DataAwsDocdbOrderableDbInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-documentdb.TfSubnetGroupConfig",
+		reflect.TypeOf((*TfSubnetGroupConfig)(nil)).Elem(),
 	)
 }

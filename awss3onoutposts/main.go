@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-on-outposts.AwsS3OutpostsEndpoint",
-		reflect.TypeOf((*AwsS3OutpostsEndpoint)(nil)).Elem(),
+		"@cdktn/aws-s3-on-outposts.TfEndpoint",
+		reflect.TypeOf((*TfEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessType", GoGetter: "AccessType"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTypeInput", GoGetter: "AccessTypeInput"},
@@ -80,18 +80,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3OutpostsEndpoint{}
+			j := jsiiProxy_TfEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-on-outposts.AwsS3OutpostsEndpoint.NetworkInterfacesProperty",
-		reflect.TypeOf((*AwsS3OutpostsEndpoint_NetworkInterfacesProperty)(nil)).Elem(),
+		"@cdktn/aws-s3-on-outposts.TfEndpoint.NetworkInterfacesProperty",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfacesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-on-outposts.AwsS3OutpostsEndpoint.NetworkInterfacesPropertyList",
-		reflect.TypeOf((*AwsS3OutpostsEndpoint_NetworkInterfacesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-s3-on-outposts.TfEndpoint.NetworkInterfacesPropertyList",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfacesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -105,14 +105,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3OutpostsEndpoint_NetworkInterfacesPropertyList{}
+			j := jsiiProxy_TfEndpoint_NetworkInterfacesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-s3-on-outposts.AwsS3OutpostsEndpoint.NetworkInterfacesPropertyOutputReference",
-		reflect.TypeOf((*AwsS3OutpostsEndpoint_NetworkInterfacesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-s3-on-outposts.TfEndpoint.NetworkInterfacesPropertyOutputReference",
+		reflect.TypeOf((*TfEndpoint_NetworkInterfacesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -138,13 +138,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsS3OutpostsEndpoint_NetworkInterfacesPropertyOutputReference{}
+			j := jsiiProxy_TfEndpoint_NetworkInterfacesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-s3-on-outposts.AwsS3OutpostsEndpointConfig",
-		reflect.TypeOf((*AwsS3OutpostsEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-s3-on-outposts.TfEndpointConfig",
+		reflect.TypeOf((*TfEndpointConfig)(nil)).Elem(),
 	)
 }

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package awselementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validatePutTemporalFilterSettingsParameters(value *TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsTemporalFilterSettingsProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateSetInternalValueParameters(val *TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfChannel_EncoderSettingsVideoDescriptionsCodecSettingsH264SettingsFilterSettingsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp",
-		reflect.TypeOf((*AwsAmplifyApp)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp",
+		reflect.TypeOf((*TfApp)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accessToken", GoGetter: "AccessToken"},
 			_jsii_.MemberProperty{JsiiProperty: "accessTokenInput", GoGetter: "AccessTokenInput"},
@@ -139,18 +139,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp{}
+			j := jsiiProxy_TfApp{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyApp.AutoBranchCreationConfigProperty",
-		reflect.TypeOf((*AwsAmplifyApp_AutoBranchCreationConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.AutoBranchCreationConfigProperty",
+		reflect.TypeOf((*TfApp_AutoBranchCreationConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.AutoBranchCreationConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyApp_AutoBranchCreationConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.AutoBranchCreationConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApp_AutoBranchCreationConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthCredentials", GoGetter: "BasicAuthCredentials"},
 			_jsii_.MemberProperty{JsiiProperty: "basicAuthCredentialsInput", GoGetter: "BasicAuthCredentialsInput"},
@@ -205,18 +205,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_AutoBranchCreationConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApp_AutoBranchCreationConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyApp.CacheConfigProperty",
-		reflect.TypeOf((*AwsAmplifyApp_CacheConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.CacheConfigProperty",
+		reflect.TypeOf((*TfApp_CacheConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.CacheConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyApp_CacheConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.CacheConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApp_CacheConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -243,18 +243,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_CacheConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApp_CacheConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyApp.CustomRuleProperty",
-		reflect.TypeOf((*AwsAmplifyApp_CustomRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.CustomRuleProperty",
+		reflect.TypeOf((*TfApp_CustomRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.CustomRulePropertyList",
-		reflect.TypeOf((*AwsAmplifyApp_CustomRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.CustomRulePropertyList",
+		reflect.TypeOf((*TfApp_CustomRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -269,14 +269,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_CustomRulePropertyList{}
+			j := jsiiProxy_TfApp_CustomRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.CustomRulePropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyApp_CustomRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.CustomRulePropertyOutputReference",
+		reflect.TypeOf((*TfApp_CustomRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -311,18 +311,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_CustomRulePropertyOutputReference{}
+			j := jsiiProxy_TfApp_CustomRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyApp.JobConfigProperty",
-		reflect.TypeOf((*AwsAmplifyApp_JobConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.JobConfigProperty",
+		reflect.TypeOf((*TfApp_JobConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.JobConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyApp_JobConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.JobConfigPropertyOutputReference",
+		reflect.TypeOf((*TfApp_JobConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "buildComputeType", GoGetter: "BuildComputeType"},
 			_jsii_.MemberProperty{JsiiProperty: "buildComputeTypeInput", GoGetter: "BuildComputeTypeInput"},
@@ -350,18 +350,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_JobConfigPropertyOutputReference{}
+			j := jsiiProxy_TfApp_JobConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyApp.ProductionBranchProperty",
-		reflect.TypeOf((*AwsAmplifyApp_ProductionBranchProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.ProductionBranchProperty",
+		reflect.TypeOf((*TfApp_ProductionBranchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.ProductionBranchPropertyList",
-		reflect.TypeOf((*AwsAmplifyApp_ProductionBranchPropertyList)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.ProductionBranchPropertyList",
+		reflect.TypeOf((*TfApp_ProductionBranchPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -375,14 +375,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_ProductionBranchPropertyList{}
+			j := jsiiProxy_TfApp_ProductionBranchPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyApp.ProductionBranchPropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyApp_ProductionBranchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfApp.ProductionBranchPropertyOutputReference",
+		reflect.TypeOf((*TfApp_ProductionBranchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branchName", GoGetter: "BranchName"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -411,18 +411,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyApp_ProductionBranchPropertyOutputReference{}
+			j := jsiiProxy_TfApp_ProductionBranchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyAppConfig",
-		reflect.TypeOf((*AwsAmplifyAppConfig)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfAppConfig",
+		reflect.TypeOf((*TfAppConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyBackendEnvironment",
-		reflect.TypeOf((*AwsAmplifyBackendEnvironment)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfBackendEnvironment",
+		reflect.TypeOf((*TfBackendEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -487,18 +487,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyBackendEnvironment{}
+			j := jsiiProxy_TfBackendEnvironment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyBackendEnvironmentConfig",
-		reflect.TypeOf((*AwsAmplifyBackendEnvironmentConfig)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfBackendEnvironmentConfig",
+		reflect.TypeOf((*TfBackendEnvironmentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyBranch",
-		reflect.TypeOf((*AwsAmplifyBranch)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfBranch",
+		reflect.TypeOf((*TfBranch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -612,18 +612,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyBranch{}
+			j := jsiiProxy_TfBranch{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyBranchConfig",
-		reflect.TypeOf((*AwsAmplifyBranchConfig)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfBranchConfig",
+		reflect.TypeOf((*TfBranchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociation",
-		reflect.TypeOf((*AwsAmplifyDomainAssociation)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociation",
+		reflect.TypeOf((*TfDomainAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -696,18 +696,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyDomainAssociation{}
+			j := jsiiProxy_TfDomainAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociation.CertificateSettingsProperty",
-		reflect.TypeOf((*AwsAmplifyDomainAssociation_CertificateSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociation.CertificateSettingsProperty",
+		reflect.TypeOf((*TfDomainAssociation_CertificateSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociation.CertificateSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyDomainAssociation_CertificateSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociation.CertificateSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfDomainAssociation_CertificateSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "certificateVerificationDnsRecord", GoGetter: "CertificateVerificationDnsRecord"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -738,18 +738,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyDomainAssociation_CertificateSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfDomainAssociation_CertificateSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociation.SubDomainProperty",
-		reflect.TypeOf((*AwsAmplifyDomainAssociation_SubDomainProperty)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociation.SubDomainProperty",
+		reflect.TypeOf((*TfDomainAssociation_SubDomainProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociation.SubDomainPropertyList",
-		reflect.TypeOf((*AwsAmplifyDomainAssociation_SubDomainPropertyList)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociation.SubDomainPropertyList",
+		reflect.TypeOf((*TfDomainAssociation_SubDomainPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -764,14 +764,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyDomainAssociation_SubDomainPropertyList{}
+			j := jsiiProxy_TfDomainAssociation_SubDomainPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociation.SubDomainPropertyOutputReference",
-		reflect.TypeOf((*AwsAmplifyDomainAssociation_SubDomainPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociation.SubDomainPropertyOutputReference",
+		reflect.TypeOf((*TfDomainAssociation_SubDomainPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "branchName", GoGetter: "BranchName"},
 			_jsii_.MemberProperty{JsiiProperty: "branchNameInput", GoGetter: "BranchNameInput"},
@@ -802,18 +802,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verified", GoGetter: "Verified"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyDomainAssociation_SubDomainPropertyOutputReference{}
+			j := jsiiProxy_TfDomainAssociation_SubDomainPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyDomainAssociationConfig",
-		reflect.TypeOf((*AwsAmplifyDomainAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfDomainAssociationConfig",
+		reflect.TypeOf((*TfDomainAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-amplify.AwsAmplifyWebhook",
-		reflect.TypeOf((*AwsAmplifyWebhook)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfWebhook",
+		reflect.TypeOf((*TfWebhook)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -876,13 +876,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAmplifyWebhook{}
+			j := jsiiProxy_TfWebhook{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-amplify.AwsAmplifyWebhookConfig",
-		reflect.TypeOf((*AwsAmplifyWebhookConfig)(nil)).Elem(),
+		"@cdktn/aws-amplify.TfWebhookConfig",
+		reflect.TypeOf((*TfWebhookConfig)(nil)).Elem(),
 	)
 }

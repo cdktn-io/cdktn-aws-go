@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-video.AwsKinesisVideoStream",
-		reflect.TypeOf((*AwsKinesisVideoStream)(nil)).Elem(),
+		"@cdktn/aws-kinesis-video.TfStream",
+		reflect.TypeOf((*TfStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -91,18 +91,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisVideoStream{}
+			j := jsiiProxy_TfStream{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-video.AwsKinesisVideoStream.TimeoutsProperty",
-		reflect.TypeOf((*AwsKinesisVideoStream_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-video.TfStream.TimeoutsProperty",
+		reflect.TypeOf((*TfStream_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-video.AwsKinesisVideoStream.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisVideoStream_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-video.TfStream.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfStream_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -136,13 +136,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisVideoStream_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfStream_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-video.AwsKinesisVideoStreamConfig",
-		reflect.TypeOf((*AwsKinesisVideoStreamConfig)(nil)).Elem(),
+		"@cdktn/aws-kinesis-video.TfStreamConfig",
+		reflect.TypeOf((*TfStreamConfig)(nil)).Elem(),
 	)
 }

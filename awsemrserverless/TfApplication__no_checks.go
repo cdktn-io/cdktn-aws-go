@@ -1,0 +1,194 @@
+//go:build no_runtime_type_checking
+
+package awsemrserverless
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfApplication) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutAutoStartConfigurationParameters(value *TfApplication_AutoStartConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutAutoStopConfigurationParameters(value *TfApplication_AutoStopConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutImageConfigurationParameters(value *TfApplication_ImageConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutInitialCapacityParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutInteractiveConfigurationParameters(value *TfApplication_InteractiveConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutJobLevelCostAllocationConfigurationParameters(value *TfApplication_JobLevelCostAllocationConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutMaximumCapacityParameters(value *TfApplication_MaximumCapacityProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutMonitoringConfigurationParameters(value *TfApplication_MonitoringConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutNetworkConfigurationParameters(value *TfApplication_NetworkConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutRuntimeConfigurationParameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validatePutSchedulerConfigurationParameters(value *TfApplication_SchedulerConfigurationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfApplication) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateTfApplication_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateTfApplication_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateTfApplication_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateTfApplication_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetArchitectureParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetReleaseLabelParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfApplication) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func validateNewTfApplicationParameters(scope constructs.Construct, id *string, config *TfApplicationConfig) error {
+	return nil
+}
+

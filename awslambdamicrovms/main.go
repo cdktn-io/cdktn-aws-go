@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage",
-		reflect.TypeOf((*AwsLambdamicrovmsImage)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage",
+		reflect.TypeOf((*TfImage)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalOsCapabilities", GoGetter: "AdditionalOsCapabilities"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalOsCapabilitiesInput", GoGetter: "AdditionalOsCapabilitiesInput"},
@@ -105,18 +105,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdamicrovmsImage{}
+			j := jsiiProxy_TfImage{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.CodeArtifactProperty",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_CodeArtifactProperty)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.CodeArtifactProperty",
+		reflect.TypeOf((*TfImage_CodeArtifactProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.CodeArtifactPropertyList",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_CodeArtifactPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.CodeArtifactPropertyList",
+		reflect.TypeOf((*TfImage_CodeArtifactPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -131,14 +131,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdamicrovmsImage_CodeArtifactPropertyList{}
+			j := jsiiProxy_TfImage_CodeArtifactPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.CodeArtifactPropertyOutputReference",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_CodeArtifactPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.CodeArtifactPropertyOutputReference",
+		reflect.TypeOf((*TfImage_CodeArtifactPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -165,18 +165,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdamicrovmsImage_CodeArtifactPropertyOutputReference{}
+			j := jsiiProxy_TfImage_CodeArtifactPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.CpuConfigurationProperty",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_CpuConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.CpuConfigurationProperty",
+		reflect.TypeOf((*TfImage_CpuConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.CpuConfigurationPropertyList",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_CpuConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.CpuConfigurationPropertyList",
+		reflect.TypeOf((*TfImage_CpuConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -191,14 +191,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdamicrovmsImage_CpuConfigurationPropertyList{}
+			j := jsiiProxy_TfImage_CpuConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.CpuConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_CpuConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.CpuConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfImage_CpuConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "architecture", GoGetter: "Architecture"},
 			_jsii_.MemberProperty{JsiiProperty: "architectureInput", GoGetter: "ArchitectureInput"},
@@ -225,18 +225,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdamicrovmsImage_CpuConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfImage_CpuConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.TimeoutsProperty",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.TimeoutsProperty",
+		reflect.TypeOf((*TfImage_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImage.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsLambdamicrovmsImage_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImage.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfImage_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -270,13 +270,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsLambdamicrovmsImage_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfImage_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-lambda-microvms.AwsLambdamicrovmsImageConfig",
-		reflect.TypeOf((*AwsLambdamicrovmsImageConfig)(nil)).Elem(),
+		"@cdktn/aws-lambda-microvms.TfImageConfig",
+		reflect.TypeOf((*TfImageConfig)(nil)).Elem(),
 	)
 }

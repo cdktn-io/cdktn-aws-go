@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package awsarcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetHpaNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetNamespaceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetResourceNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfPlan_WorkflowStepParallelConfigStepEksResourceScalingConfigScalingResourcesResourcesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,13 @@
+package awsdirectoryservice
+
+
+// Experimental.
+type TfSharedDirectoryAccepter_TimeoutsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/directory_service_shared_directory_accepter#create TfSharedDirectoryAccepter#create}.
+	// Experimental.
+	Create *string `field:"optional" json:"create" yaml:"create"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/directory_service_shared_directory_accepter#delete TfSharedDirectoryAccepter#delete}.
+	// Experimental.
+	Delete *string `field:"optional" json:"delete" yaml:"delete"`
+}
+

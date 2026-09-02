@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication",
+		reflect.TypeOf((*TfApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -105,18 +105,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application{}
+			j := jsiiProxy_TfApplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationCodeConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationCodeConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationCodeConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ApplicationCodeConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationCodeConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationCodeConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationCodeConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationCodeConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "codeContent", GoGetter: "CodeContent"},
 			_jsii_.MemberProperty{JsiiProperty: "codeContentInput", GoGetter: "CodeContentInput"},
@@ -147,18 +147,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationCodeConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationCodeConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationCodeConfiguration", GoGetter: "ApplicationCodeConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "applicationCodeConfigurationInput", GoGetter: "ApplicationCodeConfigurationInput"},
@@ -214,18 +214,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcConfigurationInput", GoGetter: "VpcConfigurationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyList",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyList",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -240,14 +240,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyList{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -279,18 +279,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordColumnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -319,18 +319,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -357,18 +357,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -401,18 +401,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatMappingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -442,18 +442,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationInputInputSchemaRecordFormatPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyList",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyList",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -468,14 +468,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyList{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -507,18 +507,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordColumnPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -547,18 +547,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersCsvMappingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -585,18 +585,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersJsonMappingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -629,18 +629,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatMappingParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatProperty",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -670,18 +670,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationEncryptionConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationEncryptionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationEncryptionConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ApplicationEncryptionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationEncryptionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationEncryptionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationEncryptionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -711,18 +711,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationEncryptionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationEncryptionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationRestoreConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationRestoreConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationRestoreConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ApplicationRestoreConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationRestoreConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationRestoreConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationRestoreConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationRestoreConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationRestoreType", GoGetter: "ApplicationRestoreType"},
 			_jsii_.MemberProperty{JsiiProperty: "applicationRestoreTypeInput", GoGetter: "ApplicationRestoreTypeInput"},
@@ -753,18 +753,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationRestoreConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationRestoreConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationSnapshotConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationSnapshotConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationSnapshotConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ApplicationSnapshotConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ApplicationSnapshotConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ApplicationSnapshotConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ApplicationSnapshotConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ApplicationSnapshotConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -791,18 +791,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ApplicationSnapshotConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ApplicationSnapshotConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.CheckpointConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_CheckpointConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.CheckpointConfigurationProperty",
+		reflect.TypeOf((*TfApplication_CheckpointConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.CheckpointConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_CheckpointConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.CheckpointConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_CheckpointConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "checkpointingEnabled", GoGetter: "CheckpointingEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "checkpointingEnabledInput", GoGetter: "CheckpointingEnabledInput"},
@@ -838,18 +838,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_CheckpointConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_CheckpointConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.CloudwatchLoggingOptionsProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_CloudwatchLoggingOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.CloudwatchLoggingOptionsProperty",
+		reflect.TypeOf((*TfApplication_CloudwatchLoggingOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.CloudwatchLoggingOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_CloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.CloudwatchLoggingOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_CloudwatchLoggingOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLoggingOptionId", GoGetter: "CloudwatchLoggingOptionId"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -877,18 +877,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_CloudwatchLoggingOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_CloudwatchLoggingOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.CodeContentProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_CodeContentProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.CodeContentProperty",
+		reflect.TypeOf((*TfApplication_CodeContentProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.CodeContentPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_CodeContentPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.CodeContentPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_CodeContentPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -920,18 +920,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_CodeContentPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_CodeContentPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.DestinationSchemaProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_DestinationSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.DestinationSchemaProperty",
+		reflect.TypeOf((*TfApplication_DestinationSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.DestinationSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_DestinationSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.DestinationSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_DestinationSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -958,18 +958,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_DestinationSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_DestinationSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.EnvironmentPropertiesProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_EnvironmentPropertiesProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.EnvironmentPropertiesProperty",
+		reflect.TypeOf((*TfApplication_EnvironmentPropertiesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.EnvironmentPropertiesPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_EnvironmentPropertiesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.EnvironmentPropertiesPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_EnvironmentPropertiesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -997,18 +997,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_EnvironmentPropertiesPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_EnvironmentPropertiesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.FlinkApplicationConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_FlinkApplicationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.FlinkApplicationConfigurationProperty",
+		reflect.TypeOf((*TfApplication_FlinkApplicationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.FlinkApplicationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_FlinkApplicationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.FlinkApplicationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_FlinkApplicationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "checkpointConfiguration", GoGetter: "CheckpointConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "checkpointConfigurationInput", GoGetter: "CheckpointConfigurationInput"},
@@ -1045,18 +1045,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_FlinkApplicationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_FlinkApplicationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.FlinkRunConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_FlinkRunConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.FlinkRunConfigurationProperty",
+		reflect.TypeOf((*TfApplication_FlinkRunConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.FlinkRunConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_FlinkRunConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.FlinkRunConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_FlinkRunConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowNonRestoredState", GoGetter: "AllowNonRestoredState"},
 			_jsii_.MemberProperty{JsiiProperty: "allowNonRestoredStateInput", GoGetter: "AllowNonRestoredStateInput"},
@@ -1084,18 +1084,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_FlinkRunConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_FlinkRunConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputLambdaProcessorProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputLambdaProcessorProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputLambdaProcessorProperty",
+		reflect.TypeOf((*TfApplication_InputLambdaProcessorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputLambdaProcessorPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputLambdaProcessorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputLambdaProcessorPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InputLambdaProcessorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1122,18 +1122,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputLambdaProcessorPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InputLambdaProcessorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputParallelismProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputParallelismProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputParallelismProperty",
+		reflect.TypeOf((*TfApplication_InputParallelismProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputParallelismPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputParallelismPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputParallelismPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InputParallelismPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1161,18 +1161,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputParallelismPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InputParallelismPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputProcessingConfigurationProperty",
+		reflect.TypeOf((*TfApplication_InputProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InputProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1200,18 +1200,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InputProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputProperty",
+		reflect.TypeOf((*TfApplication_InputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1263,18 +1263,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputSchemaProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputSchemaProperty",
+		reflect.TypeOf((*TfApplication_InputSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InputSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1308,18 +1308,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InputSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputStartingPositionConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputStartingPositionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputStartingPositionConfigurationProperty",
+		reflect.TypeOf((*TfApplication_InputStartingPositionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputStartingPositionConfigurationPropertyList",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputStartingPositionConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputStartingPositionConfigurationPropertyList",
+		reflect.TypeOf((*TfApplication_InputStartingPositionConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1334,14 +1334,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputStartingPositionConfigurationPropertyList{}
+			j := jsiiProxy_TfApplication_InputStartingPositionConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.InputStartingPositionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_InputStartingPositionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.InputStartingPositionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_InputStartingPositionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1369,18 +1369,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_InputStartingPositionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_InputStartingPositionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisFirehoseInputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisFirehoseInputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisFirehoseInputProperty",
+		reflect.TypeOf((*TfApplication_KinesisFirehoseInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisFirehoseInputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisFirehoseInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisFirehoseInputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_KinesisFirehoseInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1407,18 +1407,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_KinesisFirehoseInputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_KinesisFirehoseInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisFirehoseOutputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisFirehoseOutputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisFirehoseOutputProperty",
+		reflect.TypeOf((*TfApplication_KinesisFirehoseOutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisFirehoseOutputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisFirehoseOutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisFirehoseOutputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_KinesisFirehoseOutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1445,18 +1445,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_KinesisFirehoseOutputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_KinesisFirehoseOutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisStreamsInputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisStreamsInputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisStreamsInputProperty",
+		reflect.TypeOf((*TfApplication_KinesisStreamsInputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisStreamsInputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisStreamsInputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisStreamsInputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_KinesisStreamsInputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1483,18 +1483,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_KinesisStreamsInputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_KinesisStreamsInputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisStreamsOutputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisStreamsOutputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisStreamsOutputProperty",
+		reflect.TypeOf((*TfApplication_KinesisStreamsOutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.KinesisStreamsOutputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_KinesisStreamsOutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.KinesisStreamsOutputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_KinesisStreamsOutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1521,18 +1521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_KinesisStreamsOutputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_KinesisStreamsOutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.LambdaOutputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_LambdaOutputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.LambdaOutputProperty",
+		reflect.TypeOf((*TfApplication_LambdaOutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.LambdaOutputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_LambdaOutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.LambdaOutputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_LambdaOutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1559,18 +1559,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_LambdaOutputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_LambdaOutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.MonitoringConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_MonitoringConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.MonitoringConfigurationProperty",
+		reflect.TypeOf((*TfApplication_MonitoringConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.MonitoringConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.MonitoringConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_MonitoringConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1603,18 +1603,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_MonitoringConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_MonitoringConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.OutputProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_OutputProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.OutputProperty",
+		reflect.TypeOf((*TfApplication_OutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.OutputPropertyList",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_OutputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.OutputPropertyList",
+		reflect.TypeOf((*TfApplication_OutputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1629,14 +1629,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_OutputPropertyList{}
+			j := jsiiProxy_TfApplication_OutputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.OutputPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_OutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.OutputPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_OutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1679,18 +1679,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_OutputPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_OutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ParallelismConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ParallelismConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ParallelismConfigurationProperty",
+		reflect.TypeOf((*TfApplication_ParallelismConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ParallelismConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ParallelismConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ParallelismConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ParallelismConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoScalingEnabled", GoGetter: "AutoScalingEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "autoScalingEnabledInput", GoGetter: "AutoScalingEnabledInput"},
@@ -1726,18 +1726,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ParallelismConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ParallelismConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.PropertyGroupProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_PropertyGroupProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.PropertyGroupProperty",
+		reflect.TypeOf((*TfApplication_PropertyGroupProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.PropertyGroupPropertyList",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_PropertyGroupPropertyList)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.PropertyGroupPropertyList",
+		reflect.TypeOf((*TfApplication_PropertyGroupPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1752,14 +1752,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_PropertyGroupPropertyList{}
+			j := jsiiProxy_TfApplication_PropertyGroupPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.PropertyGroupPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_PropertyGroupPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.PropertyGroupPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_PropertyGroupPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1788,18 +1788,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_PropertyGroupPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_PropertyGroupPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ReferenceDataSourceProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ReferenceDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ReferenceDataSourceProperty",
+		reflect.TypeOf((*TfApplication_ReferenceDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ReferenceDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ReferenceDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ReferenceDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ReferenceDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1833,18 +1833,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ReferenceDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ReferenceDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ReferenceSchemaProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ReferenceSchemaProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ReferenceSchemaProperty",
+		reflect.TypeOf((*TfApplication_ReferenceSchemaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.ReferenceSchemaPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_ReferenceSchemaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.ReferenceSchemaPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_ReferenceSchemaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1878,18 +1878,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_ReferenceSchemaPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_ReferenceSchemaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.RunConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_RunConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.RunConfigurationProperty",
+		reflect.TypeOf((*TfApplication_RunConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.RunConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_RunConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.RunConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_RunConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applicationRestoreConfiguration", GoGetter: "ApplicationRestoreConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "applicationRestoreConfigurationInput", GoGetter: "ApplicationRestoreConfigurationInput"},
@@ -1922,18 +1922,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_RunConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_RunConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.S3ContentLocationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_S3ContentLocationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.S3ContentLocationProperty",
+		reflect.TypeOf((*TfApplication_S3ContentLocationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.S3ContentLocationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_S3ContentLocationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.S3ContentLocationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_S3ContentLocationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -1965,18 +1965,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_S3ContentLocationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_S3ContentLocationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.S3ReferenceDataSourceProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_S3ReferenceDataSourceProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.S3ReferenceDataSourceProperty",
+		reflect.TypeOf((*TfApplication_S3ReferenceDataSourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.S3ReferenceDataSourcePropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_S3ReferenceDataSourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.S3ReferenceDataSourcePropertyOutputReference",
+		reflect.TypeOf((*TfApplication_S3ReferenceDataSourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketArn", GoGetter: "BucketArn"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketArnInput", GoGetter: "BucketArnInput"},
@@ -2005,18 +2005,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_S3ReferenceDataSourcePropertyOutputReference{}
+			j := jsiiProxy_TfApplication_S3ReferenceDataSourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.SqlApplicationConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_SqlApplicationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.SqlApplicationConfigurationProperty",
+		reflect.TypeOf((*TfApplication_SqlApplicationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.SqlApplicationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_SqlApplicationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.SqlApplicationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_SqlApplicationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2053,18 +2053,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_SqlApplicationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_SqlApplicationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.TimeoutsProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.TimeoutsProperty",
+		reflect.TypeOf((*TfApplication_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2098,18 +2098,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.VpcConfigurationProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_VpcConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.VpcConfigurationProperty",
+		reflect.TypeOf((*TfApplication_VpcConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2Application.VpcConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2Application_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplication.VpcConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_VpcConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2140,18 +2140,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcId", GoGetter: "VpcId"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2Application_VpcConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_VpcConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2ApplicationConfig",
-		reflect.TypeOf((*AwsKinesisanalyticsv2ApplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplicationConfig",
+		reflect.TypeOf((*TfApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2ApplicationSnapshot",
-		reflect.TypeOf((*AwsKinesisanalyticsv2ApplicationSnapshot)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplicationSnapshot",
+		reflect.TypeOf((*TfApplicationSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2215,18 +2215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2ApplicationSnapshot{}
+			j := jsiiProxy_TfApplicationSnapshot{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2ApplicationSnapshot.TimeoutsProperty",
-		reflect.TypeOf((*AwsKinesisanalyticsv2ApplicationSnapshot_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplicationSnapshot.TimeoutsProperty",
+		reflect.TypeOf((*TfApplicationSnapshot_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2ApplicationSnapshot.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsKinesisanalyticsv2ApplicationSnapshot_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplicationSnapshot.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfApplicationSnapshot_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2257,13 +2257,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsKinesisanalyticsv2ApplicationSnapshot_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfApplicationSnapshot_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-kinesis-analytics-v2.AwsKinesisanalyticsv2ApplicationSnapshotConfig",
-		reflect.TypeOf((*AwsKinesisanalyticsv2ApplicationSnapshotConfig)(nil)).Elem(),
+		"@cdktn/aws-kinesis-analytics-v2.TfApplicationSnapshotConfig",
+		reflect.TypeOf((*TfApplicationSnapshotConfig)(nil)).Elem(),
 	)
 }

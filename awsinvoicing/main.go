@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnit",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnit)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnit",
+		reflect.TypeOf((*TfInvoiceUnit)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,18 +85,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInvoicingInvoiceUnit{}
+			j := jsiiProxy_TfInvoiceUnit{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnit.RuleProperty",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnit_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnit.RuleProperty",
+		reflect.TypeOf((*TfInvoiceUnit_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnit.RulePropertyList",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnit_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnit.RulePropertyList",
+		reflect.TypeOf((*TfInvoiceUnit_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -111,14 +111,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInvoicingInvoiceUnit_RulePropertyList{}
+			j := jsiiProxy_TfInvoiceUnit_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnit.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnit_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnit.RulePropertyOutputReference",
+		reflect.TypeOf((*TfInvoiceUnit_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -145,18 +145,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInvoicingInvoiceUnit_RulePropertyOutputReference{}
+			j := jsiiProxy_TfInvoiceUnit_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnit.TimeoutsProperty",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnit_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnit.TimeoutsProperty",
+		reflect.TypeOf((*TfInvoiceUnit_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnit.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnit_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnit.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfInvoiceUnit_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -190,13 +190,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsInvoicingInvoiceUnit_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfInvoiceUnit_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-invoicing.AwsInvoicingInvoiceUnitConfig",
-		reflect.TypeOf((*AwsInvoicingInvoiceUnitConfig)(nil)).Elem(),
+		"@cdktn/aws-invoicing.TfInvoiceUnitConfig",
+		reflect.TypeOf((*TfInvoiceUnitConfig)(nil)).Elem(),
 	)
 }

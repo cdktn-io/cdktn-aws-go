@@ -1,7 +1,0 @@
-package awss3control
-
-
-// Experimental.
-type AwsS3ControlStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationEncryptionSseS3Property struct {
-}
-

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKey",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKey)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKey",
+		reflect.TypeOf((*TfKey)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -66,18 +66,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudfrontkeyvaluestoreKey{}
+			j := jsiiProxy_TfKey{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKeyConfig",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKeyConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKeyConfig",
+		reflect.TypeOf((*TfKeyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKeysExclusive",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKeysExclusive)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKeysExclusive",
+		reflect.TypeOf((*TfKeysExclusive)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -135,18 +135,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudfrontkeyvaluestoreKeysExclusive{}
+			j := jsiiProxy_TfKeysExclusive{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKeysExclusive.ResourceKeyValuePairProperty",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKeysExclusive_ResourceKeyValuePairProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKeysExclusive.ResourceKeyValuePairProperty",
+		reflect.TypeOf((*TfKeysExclusive_ResourceKeyValuePairProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKeysExclusive.ResourceKeyValuePairPropertyList",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKeysExclusive_ResourceKeyValuePairPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKeysExclusive.ResourceKeyValuePairPropertyList",
+		reflect.TypeOf((*TfKeysExclusive_ResourceKeyValuePairPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -161,14 +161,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudfrontkeyvaluestoreKeysExclusive_ResourceKeyValuePairPropertyList{}
+			j := jsiiProxy_TfKeysExclusive_ResourceKeyValuePairPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKeysExclusive.ResourceKeyValuePairPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKeysExclusive_ResourceKeyValuePairPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKeysExclusive.ResourceKeyValuePairPropertyOutputReference",
+		reflect.TypeOf((*TfKeysExclusive_ResourceKeyValuePairPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -197,13 +197,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudfrontkeyvaluestoreKeysExclusive_ResourceKeyValuePairPropertyOutputReference{}
+			j := jsiiProxy_TfKeysExclusive_ResourceKeyValuePairPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudfront-keyvaluestore.AwsCloudfrontkeyvaluestoreKeysExclusiveConfig",
-		reflect.TypeOf((*AwsCloudfrontkeyvaluestoreKeysExclusiveConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudfront-keyvaluestore.TfKeysExclusiveConfig",
+		reflect.TypeOf((*TfKeysExclusiveConfig)(nil)).Elem(),
 	)
 }

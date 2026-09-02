@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature",
-		reflect.TypeOf((*AwsEvidentlyFeature)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature",
+		reflect.TypeOf((*TfFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -99,18 +99,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature{}
+			j := jsiiProxy_TfFeature{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.EvaluationRulesProperty",
-		reflect.TypeOf((*AwsEvidentlyFeature_EvaluationRulesProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.EvaluationRulesProperty",
+		reflect.TypeOf((*TfFeature_EvaluationRulesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.EvaluationRulesPropertyList",
-		reflect.TypeOf((*AwsEvidentlyFeature_EvaluationRulesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.EvaluationRulesPropertyList",
+		reflect.TypeOf((*TfFeature_EvaluationRulesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -124,14 +124,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature_EvaluationRulesPropertyList{}
+			j := jsiiProxy_TfFeature_EvaluationRulesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.EvaluationRulesPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyFeature_EvaluationRulesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.EvaluationRulesPropertyOutputReference",
+		reflect.TypeOf((*TfFeature_EvaluationRulesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -158,18 +158,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "type", GoGetter: "Type"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature_EvaluationRulesPropertyOutputReference{}
+			j := jsiiProxy_TfFeature_EvaluationRulesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.TimeoutsProperty",
-		reflect.TypeOf((*AwsEvidentlyFeature_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.TimeoutsProperty",
+		reflect.TypeOf((*TfFeature_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyFeature_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfFeature_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -203,18 +203,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfFeature_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.ValueProperty",
-		reflect.TypeOf((*AwsEvidentlyFeature_ValueProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.ValueProperty",
+		reflect.TypeOf((*TfFeature_ValueProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.ValuePropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyFeature_ValuePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.ValuePropertyOutputReference",
+		reflect.TypeOf((*TfFeature_ValuePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "boolValue", GoGetter: "BoolValue"},
 			_jsii_.MemberProperty{JsiiProperty: "boolValueInput", GoGetter: "BoolValueInput"},
@@ -251,18 +251,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature_ValuePropertyOutputReference{}
+			j := jsiiProxy_TfFeature_ValuePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.VariationsProperty",
-		reflect.TypeOf((*AwsEvidentlyFeature_VariationsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.VariationsProperty",
+		reflect.TypeOf((*TfFeature_VariationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.VariationsPropertyList",
-		reflect.TypeOf((*AwsEvidentlyFeature_VariationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.VariationsPropertyList",
+		reflect.TypeOf((*TfFeature_VariationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -277,14 +277,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature_VariationsPropertyList{}
+			j := jsiiProxy_TfFeature_VariationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeature.VariationsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyFeature_VariationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeature.VariationsPropertyOutputReference",
+		reflect.TypeOf((*TfFeature_VariationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -314,18 +314,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyFeature_VariationsPropertyOutputReference{}
+			j := jsiiProxy_TfFeature_VariationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyFeatureConfig",
-		reflect.TypeOf((*AwsEvidentlyFeatureConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfFeatureConfig",
+		reflect.TypeOf((*TfFeatureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch",
-		reflect.TypeOf((*AwsEvidentlyLaunch)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch",
+		reflect.TypeOf((*TfLaunch)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -417,18 +417,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch{}
+			j := jsiiProxy_TfLaunch{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.ExecutionProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_ExecutionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.ExecutionProperty",
+		reflect.TypeOf((*TfLaunch_ExecutionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.ExecutionPropertyList",
-		reflect.TypeOf((*AwsEvidentlyLaunch_ExecutionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.ExecutionPropertyList",
+		reflect.TypeOf((*TfLaunch_ExecutionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -442,14 +442,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_ExecutionPropertyList{}
+			j := jsiiProxy_TfLaunch_ExecutionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.ExecutionPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_ExecutionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.ExecutionPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_ExecutionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -476,18 +476,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_ExecutionPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_ExecutionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.GroupsProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_GroupsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.GroupsProperty",
+		reflect.TypeOf((*TfLaunch_GroupsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.GroupsPropertyList",
-		reflect.TypeOf((*AwsEvidentlyLaunch_GroupsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.GroupsPropertyList",
+		reflect.TypeOf((*TfLaunch_GroupsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -502,14 +502,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_GroupsPropertyList{}
+			j := jsiiProxy_TfLaunch_GroupsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.GroupsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_GroupsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.GroupsPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_GroupsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -543,18 +543,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "variationInput", GoGetter: "VariationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_GroupsPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_GroupsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.MetricDefinitionProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_MetricDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.MetricDefinitionProperty",
+		reflect.TypeOf((*TfLaunch_MetricDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.MetricDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_MetricDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.MetricDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_MetricDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -591,18 +591,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueKeyInput", GoGetter: "ValueKeyInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_MetricDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_MetricDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.MetricMonitorsProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_MetricMonitorsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.MetricMonitorsProperty",
+		reflect.TypeOf((*TfLaunch_MetricMonitorsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.MetricMonitorsPropertyList",
-		reflect.TypeOf((*AwsEvidentlyLaunch_MetricMonitorsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.MetricMonitorsPropertyList",
+		reflect.TypeOf((*TfLaunch_MetricMonitorsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -617,14 +617,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_MetricMonitorsPropertyList{}
+			j := jsiiProxy_TfLaunch_MetricMonitorsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.MetricMonitorsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_MetricMonitorsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.MetricMonitorsPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_MetricMonitorsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -652,18 +652,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_MetricMonitorsPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_MetricMonitorsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.ScheduledSplitsConfigProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_ScheduledSplitsConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.ScheduledSplitsConfigProperty",
+		reflect.TypeOf((*TfLaunch_ScheduledSplitsConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.ScheduledSplitsConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_ScheduledSplitsConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.ScheduledSplitsConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_ScheduledSplitsConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -691,18 +691,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_ScheduledSplitsConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_ScheduledSplitsConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.SegmentOverridesProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_SegmentOverridesProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.SegmentOverridesProperty",
+		reflect.TypeOf((*TfLaunch_SegmentOverridesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.SegmentOverridesPropertyList",
-		reflect.TypeOf((*AwsEvidentlyLaunch_SegmentOverridesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.SegmentOverridesPropertyList",
+		reflect.TypeOf((*TfLaunch_SegmentOverridesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -717,14 +717,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_SegmentOverridesPropertyList{}
+			j := jsiiProxy_TfLaunch_SegmentOverridesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.SegmentOverridesPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_SegmentOverridesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.SegmentOverridesPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_SegmentOverridesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -755,18 +755,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightsInput", GoGetter: "WeightsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_SegmentOverridesPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_SegmentOverridesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.StepsProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_StepsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.StepsProperty",
+		reflect.TypeOf((*TfLaunch_StepsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.StepsPropertyList",
-		reflect.TypeOf((*AwsEvidentlyLaunch_StepsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.StepsPropertyList",
+		reflect.TypeOf((*TfLaunch_StepsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -781,14 +781,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_StepsPropertyList{}
+			j := jsiiProxy_TfLaunch_StepsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.StepsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_StepsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.StepsPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_StepsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -821,18 +821,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_StepsPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_StepsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.TimeoutsProperty",
-		reflect.TypeOf((*AwsEvidentlyLaunch_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.TimeoutsProperty",
+		reflect.TypeOf((*TfLaunch_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunch.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyLaunch_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunch.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfLaunch_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -866,18 +866,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyLaunch_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfLaunch_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyLaunchConfig",
-		reflect.TypeOf((*AwsEvidentlyLaunchConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfLaunchConfig",
+		reflect.TypeOf((*TfLaunchConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject",
-		reflect.TypeOf((*AwsEvidentlyProject)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject",
+		reflect.TypeOf((*TfProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activeExperimentCount", GoGetter: "ActiveExperimentCount"},
 			_jsii_.MemberProperty{JsiiProperty: "activeLaunchCount", GoGetter: "ActiveLaunchCount"},
@@ -959,18 +959,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyProject{}
+			j := jsiiProxy_TfProject{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.CloudwatchLogsProperty",
-		reflect.TypeOf((*AwsEvidentlyProject_CloudwatchLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.CloudwatchLogsProperty",
+		reflect.TypeOf((*TfProject_CloudwatchLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.CloudwatchLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyProject_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.CloudwatchLogsPropertyOutputReference",
+		reflect.TypeOf((*TfProject_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -998,18 +998,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyProject_CloudwatchLogsPropertyOutputReference{}
+			j := jsiiProxy_TfProject_CloudwatchLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.DataDeliveryProperty",
-		reflect.TypeOf((*AwsEvidentlyProject_DataDeliveryProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.DataDeliveryProperty",
+		reflect.TypeOf((*TfProject_DataDeliveryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.DataDeliveryPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyProject_DataDeliveryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.DataDeliveryPropertyOutputReference",
+		reflect.TypeOf((*TfProject_DataDeliveryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogs", GoGetter: "CloudwatchLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsInput", GoGetter: "CloudwatchLogsInput"},
@@ -1042,18 +1042,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyProject_DataDeliveryPropertyOutputReference{}
+			j := jsiiProxy_TfProject_DataDeliveryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.S3DestinationProperty",
-		reflect.TypeOf((*AwsEvidentlyProject_S3DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.S3DestinationProperty",
+		reflect.TypeOf((*TfProject_S3DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.S3DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyProject_S3DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.S3DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfProject_S3DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -1084,18 +1084,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyProject_S3DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfProject_S3DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.TimeoutsProperty",
-		reflect.TypeOf((*AwsEvidentlyProject_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.TimeoutsProperty",
+		reflect.TypeOf((*TfProject_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProject.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsEvidentlyProject_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProject.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfProject_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1129,18 +1129,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlyProject_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfProject_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlyProjectConfig",
-		reflect.TypeOf((*AwsEvidentlyProjectConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfProjectConfig",
+		reflect.TypeOf((*TfProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlySegment",
-		reflect.TypeOf((*AwsEvidentlySegment)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfSegment",
+		reflect.TypeOf((*TfSegment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1212,13 +1212,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEvidentlySegment{}
+			j := jsiiProxy_TfSegment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch-evidently.AwsEvidentlySegmentConfig",
-		reflect.TypeOf((*AwsEvidentlySegmentConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch-evidently.TfSegmentConfig",
+		reflect.TypeOf((*TfSegmentConfig)(nil)).Elem(),
 	)
 }

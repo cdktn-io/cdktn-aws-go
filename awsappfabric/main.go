@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization",
+		reflect.TypeOf((*TfAppAuthorization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -89,18 +89,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization{}
+			j := jsiiProxy_TfAppAuthorization{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.ApiKeyCredentialProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_ApiKeyCredentialProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.ApiKeyCredentialProperty",
+		reflect.TypeOf((*TfAppAuthorization_ApiKeyCredentialProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.ApiKeyCredentialPropertyList",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_ApiKeyCredentialPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.ApiKeyCredentialPropertyList",
+		reflect.TypeOf((*TfAppAuthorization_ApiKeyCredentialPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -115,14 +115,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_ApiKeyCredentialPropertyList{}
+			j := jsiiProxy_TfAppAuthorization_ApiKeyCredentialPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.ApiKeyCredentialPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_ApiKeyCredentialPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.ApiKeyCredentialPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorization_ApiKeyCredentialPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKey", GoGetter: "ApiKey"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyInput", GoGetter: "ApiKeyInput"},
@@ -149,18 +149,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_ApiKeyCredentialPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorization_ApiKeyCredentialPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.CredentialProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_CredentialProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.CredentialProperty",
+		reflect.TypeOf((*TfAppAuthorization_CredentialProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.CredentialPropertyList",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_CredentialPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.CredentialPropertyList",
+		reflect.TypeOf((*TfAppAuthorization_CredentialPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -175,14 +175,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_CredentialPropertyList{}
+			j := jsiiProxy_TfAppAuthorization_CredentialPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.CredentialPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_CredentialPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.CredentialPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorization_CredentialPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyCredential", GoGetter: "ApiKeyCredential"},
 			_jsii_.MemberProperty{JsiiProperty: "apiKeyCredentialInput", GoGetter: "ApiKeyCredentialInput"},
@@ -215,18 +215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_CredentialPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorization_CredentialPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.Oauth2CredentialProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_Oauth2CredentialProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.Oauth2CredentialProperty",
+		reflect.TypeOf((*TfAppAuthorization_Oauth2CredentialProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.Oauth2CredentialPropertyList",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_Oauth2CredentialPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.Oauth2CredentialPropertyList",
+		reflect.TypeOf((*TfAppAuthorization_Oauth2CredentialPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -241,14 +241,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_Oauth2CredentialPropertyList{}
+			j := jsiiProxy_TfAppAuthorization_Oauth2CredentialPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.Oauth2CredentialPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_Oauth2CredentialPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.Oauth2CredentialPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorization_Oauth2CredentialPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "clientId", GoGetter: "ClientId"},
 			_jsii_.MemberProperty{JsiiProperty: "clientIdInput", GoGetter: "ClientIdInput"},
@@ -277,18 +277,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_Oauth2CredentialPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorization_Oauth2CredentialPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.TenantProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_TenantProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.TenantProperty",
+		reflect.TypeOf((*TfAppAuthorization_TenantProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.TenantPropertyList",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_TenantPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.TenantPropertyList",
+		reflect.TypeOf((*TfAppAuthorization_TenantPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -303,14 +303,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_TenantPropertyList{}
+			j := jsiiProxy_TfAppAuthorization_TenantPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.TenantPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_TenantPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.TenantPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorization_TenantPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -339,18 +339,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_TenantPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorization_TenantPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.TimeoutsProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.TimeoutsProperty",
+		reflect.TypeOf((*TfAppAuthorization_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorization.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorization_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorization.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorization_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -384,18 +384,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorization_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorization_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConfig",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConfig)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConfig",
+		reflect.TypeOf((*TfAppAuthorizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection",
+		reflect.TypeOf((*TfAppAuthorizationConnection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -461,18 +461,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorizationConnection{}
+			j := jsiiProxy_TfAppAuthorizationConnection{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.AuthRequestProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_AuthRequestProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.AuthRequestProperty",
+		reflect.TypeOf((*TfAppAuthorizationConnection_AuthRequestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.AuthRequestPropertyList",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_AuthRequestPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.AuthRequestPropertyList",
+		reflect.TypeOf((*TfAppAuthorizationConnection_AuthRequestPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -487,14 +487,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorizationConnection_AuthRequestPropertyList{}
+			j := jsiiProxy_TfAppAuthorizationConnection_AuthRequestPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.AuthRequestPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_AuthRequestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.AuthRequestPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorizationConnection_AuthRequestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "code", GoGetter: "Code"},
 			_jsii_.MemberProperty{JsiiProperty: "codeInput", GoGetter: "CodeInput"},
@@ -523,18 +523,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorizationConnection_AuthRequestPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorizationConnection_AuthRequestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.TenantProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_TenantProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.TenantProperty",
+		reflect.TypeOf((*TfAppAuthorizationConnection_TenantProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.TenantPropertyList",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_TenantPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.TenantPropertyList",
+		reflect.TypeOf((*TfAppAuthorizationConnection_TenantPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -548,14 +548,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorizationConnection_TenantPropertyList{}
+			j := jsiiProxy_TfAppAuthorizationConnection_TenantPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.TenantPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_TenantPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.TenantPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorizationConnection_TenantPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -582,18 +582,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorizationConnection_TenantPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorizationConnection_TenantPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.TimeoutsProperty",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.TimeoutsProperty",
+		reflect.TypeOf((*TfAppAuthorizationConnection_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnection.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnection_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnection.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfAppAuthorizationConnection_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -621,18 +621,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppAuthorizationConnection_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfAppAuthorizationConnection_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppAuthorizationConnectionConfig",
-		reflect.TypeOf((*AwsAppfabricAppAuthorizationConnectionConfig)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppAuthorizationConnectionConfig",
+		reflect.TypeOf((*TfAppAuthorizationConnectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricAppBundle",
-		reflect.TypeOf((*AwsAppfabricAppBundle)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppBundle",
+		reflect.TypeOf((*TfAppBundle)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -692,18 +692,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricAppBundle{}
+			j := jsiiProxy_TfAppBundle{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricAppBundleConfig",
-		reflect.TypeOf((*AwsAppfabricAppBundleConfig)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfAppBundleConfig",
+		reflect.TypeOf((*TfAppBundleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestion",
-		reflect.TypeOf((*AwsAppfabricIngestion)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestion",
+		reflect.TypeOf((*TfIngestion)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -768,18 +768,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestion{}
+			j := jsiiProxy_TfIngestion{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionConfig",
-		reflect.TypeOf((*AwsAppfabricIngestionConfig)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionConfig",
+		reflect.TypeOf((*TfIngestionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination",
+		reflect.TypeOf((*TfIngestionDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -852,18 +852,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination{}
+			j := jsiiProxy_TfIngestionDestination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationConfigurationAuditLogProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationConfigurationAuditLogProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationConfigurationAuditLogProperty",
+		reflect.TypeOf((*TfIngestionDestination_DestinationConfigurationAuditLogProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationConfigurationAuditLogPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationConfigurationAuditLogPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationConfigurationAuditLogPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_DestinationConfigurationAuditLogPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -878,14 +878,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_DestinationConfigurationAuditLogPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_DestinationConfigurationAuditLogPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationConfigurationAuditLogPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationConfigurationAuditLogPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationConfigurationAuditLogPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_DestinationConfigurationAuditLogPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -914,18 +914,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_DestinationConfigurationAuditLogPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_DestinationConfigurationAuditLogPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationConfigurationProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationConfigurationProperty",
+		reflect.TypeOf((*TfIngestionDestination_DestinationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationConfigurationPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationConfigurationPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_DestinationConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -940,14 +940,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_DestinationConfigurationPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_DestinationConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auditLog", GoGetter: "AuditLog"},
 			_jsii_.MemberProperty{JsiiProperty: "auditLogInput", GoGetter: "AuditLogInput"},
@@ -976,18 +976,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_DestinationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_DestinationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationProperty",
+		reflect.TypeOf((*TfIngestionDestination_DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_DestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1002,14 +1002,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_DestinationPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_DestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1042,18 +1042,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.FirehoseStreamProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_FirehoseStreamProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.FirehoseStreamProperty",
+		reflect.TypeOf((*TfIngestionDestination_FirehoseStreamProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.FirehoseStreamPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_FirehoseStreamPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.FirehoseStreamPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_FirehoseStreamPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1068,14 +1068,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_FirehoseStreamPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_FirehoseStreamPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.FirehoseStreamPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_FirehoseStreamPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.FirehoseStreamPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_FirehoseStreamPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1102,18 +1102,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_FirehoseStreamPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_FirehoseStreamPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.ProcessingConfigurationAuditLogProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_ProcessingConfigurationAuditLogProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.ProcessingConfigurationAuditLogProperty",
+		reflect.TypeOf((*TfIngestionDestination_ProcessingConfigurationAuditLogProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.ProcessingConfigurationAuditLogPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_ProcessingConfigurationAuditLogPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.ProcessingConfigurationAuditLogPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_ProcessingConfigurationAuditLogPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1128,14 +1128,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_ProcessingConfigurationAuditLogPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_ProcessingConfigurationAuditLogPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.ProcessingConfigurationAuditLogPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_ProcessingConfigurationAuditLogPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.ProcessingConfigurationAuditLogPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_ProcessingConfigurationAuditLogPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1164,18 +1164,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_ProcessingConfigurationAuditLogPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_ProcessingConfigurationAuditLogPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.ProcessingConfigurationProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_ProcessingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.ProcessingConfigurationProperty",
+		reflect.TypeOf((*TfIngestionDestination_ProcessingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.ProcessingConfigurationPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_ProcessingConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.ProcessingConfigurationPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_ProcessingConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1190,14 +1190,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_ProcessingConfigurationPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_ProcessingConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.ProcessingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_ProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.ProcessingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_ProcessingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auditLog", GoGetter: "AuditLog"},
 			_jsii_.MemberProperty{JsiiProperty: "auditLogInput", GoGetter: "AuditLogInput"},
@@ -1226,18 +1226,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_ProcessingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_ProcessingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.S3BucketProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_S3BucketProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.S3BucketProperty",
+		reflect.TypeOf((*TfIngestionDestination_S3BucketProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.S3BucketPropertyList",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_S3BucketPropertyList)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.S3BucketPropertyList",
+		reflect.TypeOf((*TfIngestionDestination_S3BucketPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1252,14 +1252,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_S3BucketPropertyList{}
+			j := jsiiProxy_TfIngestionDestination_S3BucketPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.S3BucketPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_S3BucketPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.S3BucketPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_S3BucketPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -1289,18 +1289,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_S3BucketPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_S3BucketPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.TimeoutsProperty",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.TimeoutsProperty",
+		reflect.TypeOf((*TfIngestionDestination_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestination.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsAppfabricIngestionDestination_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestination.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfIngestionDestination_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1334,13 +1334,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsAppfabricIngestionDestination_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfIngestionDestination_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-appfabric.AwsAppfabricIngestionDestinationConfig",
-		reflect.TypeOf((*AwsAppfabricIngestionDestinationConfig)(nil)).Elem(),
+		"@cdktn/aws-appfabric.TfIngestionDestinationConfig",
+		reflect.TypeOf((*TfIngestionDestinationConfig)(nil)).Elem(),
 	)
 }

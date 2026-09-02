@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package awskinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetInternalValueParameters(val *TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetLogGroupNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetLogStreamNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfDeliveryStream_SplunkConfigurationS3ConfigurationCloudwatchLoggingOptionsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

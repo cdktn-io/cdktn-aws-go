@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline",
-		reflect.TypeOf((*AwsElastictranscoderPipeline)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline",
+		reflect.TypeOf((*TfPipeline)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -98,18 +98,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline{}
+			j := jsiiProxy_TfPipeline{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ContentConfigPermissionsProperty",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ContentConfigPermissionsProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ContentConfigPermissionsProperty",
+		reflect.TypeOf((*TfPipeline_ContentConfigPermissionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ContentConfigPermissionsPropertyList",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ContentConfigPermissionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ContentConfigPermissionsPropertyList",
+		reflect.TypeOf((*TfPipeline_ContentConfigPermissionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -124,14 +124,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_ContentConfigPermissionsPropertyList{}
+			j := jsiiProxy_TfPipeline_ContentConfigPermissionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ContentConfigPermissionsPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ContentConfigPermissionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ContentConfigPermissionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_ContentConfigPermissionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
 			_jsii_.MemberProperty{JsiiProperty: "accessInput", GoGetter: "AccessInput"},
@@ -165,18 +165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_ContentConfigPermissionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_ContentConfigPermissionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ContentConfigProperty",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ContentConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ContentConfigProperty",
+		reflect.TypeOf((*TfPipeline_ContentConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ContentConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ContentConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ContentConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_ContentConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -207,18 +207,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_ContentConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_ContentConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.NotificationsProperty",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_NotificationsProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.NotificationsProperty",
+		reflect.TypeOf((*TfPipeline_NotificationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.NotificationsPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_NotificationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.NotificationsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_NotificationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "completed", GoGetter: "Completed"},
 			_jsii_.MemberProperty{JsiiProperty: "completedInput", GoGetter: "CompletedInput"},
@@ -255,18 +255,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "warningInput", GoGetter: "WarningInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_NotificationsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_NotificationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ThumbnailConfigPermissionsProperty",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ThumbnailConfigPermissionsProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ThumbnailConfigPermissionsProperty",
+		reflect.TypeOf((*TfPipeline_ThumbnailConfigPermissionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ThumbnailConfigPermissionsPropertyList",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ThumbnailConfigPermissionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ThumbnailConfigPermissionsPropertyList",
+		reflect.TypeOf((*TfPipeline_ThumbnailConfigPermissionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -281,14 +281,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_ThumbnailConfigPermissionsPropertyList{}
+			j := jsiiProxy_TfPipeline_ThumbnailConfigPermissionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ThumbnailConfigPermissionsPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ThumbnailConfigPermissionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ThumbnailConfigPermissionsPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_ThumbnailConfigPermissionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "access", GoGetter: "Access"},
 			_jsii_.MemberProperty{JsiiProperty: "accessInput", GoGetter: "AccessInput"},
@@ -322,18 +322,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_ThumbnailConfigPermissionsPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_ThumbnailConfigPermissionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ThumbnailConfigProperty",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ThumbnailConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ThumbnailConfigProperty",
+		reflect.TypeOf((*TfPipeline_ThumbnailConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipeline.ThumbnailConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPipeline_ThumbnailConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipeline.ThumbnailConfigPropertyOutputReference",
+		reflect.TypeOf((*TfPipeline_ThumbnailConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -364,18 +364,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPipeline_ThumbnailConfigPropertyOutputReference{}
+			j := jsiiProxy_TfPipeline_ThumbnailConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPipelineConfig",
-		reflect.TypeOf((*AwsElastictranscoderPipelineConfig)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPipelineConfig",
+		reflect.TypeOf((*TfPipelineConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset",
-		reflect.TypeOf((*AwsElastictranscoderPreset)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset",
+		reflect.TypeOf((*TfPreset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -464,18 +464,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset{}
+			j := jsiiProxy_TfPreset{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.AudioCodecOptionsProperty",
-		reflect.TypeOf((*AwsElastictranscoderPreset_AudioCodecOptionsProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.AudioCodecOptionsProperty",
+		reflect.TypeOf((*TfPreset_AudioCodecOptionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.AudioCodecOptionsPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPreset_AudioCodecOptionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.AudioCodecOptionsPropertyOutputReference",
+		reflect.TypeOf((*TfPreset_AudioCodecOptionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bitDepth", GoGetter: "BitDepth"},
 			_jsii_.MemberProperty{JsiiProperty: "bitDepthInput", GoGetter: "BitDepthInput"},
@@ -512,18 +512,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset_AudioCodecOptionsPropertyOutputReference{}
+			j := jsiiProxy_TfPreset_AudioCodecOptionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.AudioProperty",
-		reflect.TypeOf((*AwsElastictranscoderPreset_AudioProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.AudioProperty",
+		reflect.TypeOf((*TfPreset_AudioProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.AudioPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPreset_AudioPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.AudioPropertyOutputReference",
+		reflect.TypeOf((*TfPreset_AudioPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "audioPackingMode", GoGetter: "AudioPackingMode"},
 			_jsii_.MemberProperty{JsiiProperty: "audioPackingModeInput", GoGetter: "AudioPackingModeInput"},
@@ -563,18 +563,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset_AudioPropertyOutputReference{}
+			j := jsiiProxy_TfPreset_AudioPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.ThumbnailsProperty",
-		reflect.TypeOf((*AwsElastictranscoderPreset_ThumbnailsProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.ThumbnailsProperty",
+		reflect.TypeOf((*TfPreset_ThumbnailsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.ThumbnailsPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPreset_ThumbnailsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.ThumbnailsPropertyOutputReference",
+		reflect.TypeOf((*TfPreset_ThumbnailsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aspectRatio", GoGetter: "AspectRatio"},
 			_jsii_.MemberProperty{JsiiProperty: "aspectRatioInput", GoGetter: "AspectRatioInput"},
@@ -623,18 +623,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset_ThumbnailsPropertyOutputReference{}
+			j := jsiiProxy_TfPreset_ThumbnailsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.VideoProperty",
-		reflect.TypeOf((*AwsElastictranscoderPreset_VideoProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.VideoProperty",
+		reflect.TypeOf((*TfPreset_VideoProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.VideoPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPreset_VideoPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.VideoPropertyOutputReference",
+		reflect.TypeOf((*TfPreset_VideoPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "aspectRatio", GoGetter: "AspectRatio"},
 			_jsii_.MemberProperty{JsiiProperty: "aspectRatioInput", GoGetter: "AspectRatioInput"},
@@ -698,18 +698,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset_VideoPropertyOutputReference{}
+			j := jsiiProxy_TfPreset_VideoPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.VideoWatermarksProperty",
-		reflect.TypeOf((*AwsElastictranscoderPreset_VideoWatermarksProperty)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.VideoWatermarksProperty",
+		reflect.TypeOf((*TfPreset_VideoWatermarksProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.VideoWatermarksPropertyList",
-		reflect.TypeOf((*AwsElastictranscoderPreset_VideoWatermarksPropertyList)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.VideoWatermarksPropertyList",
+		reflect.TypeOf((*TfPreset_VideoWatermarksPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -724,14 +724,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset_VideoWatermarksPropertyList{}
+			j := jsiiProxy_TfPreset_VideoWatermarksPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPreset.VideoWatermarksPropertyOutputReference",
-		reflect.TypeOf((*AwsElastictranscoderPreset_VideoWatermarksPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPreset.VideoWatermarksPropertyOutputReference",
+		reflect.TypeOf((*TfPreset_VideoWatermarksPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -786,13 +786,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verticalOffsetInput", GoGetter: "VerticalOffsetInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsElastictranscoderPreset_VideoWatermarksPropertyOutputReference{}
+			j := jsiiProxy_TfPreset_VideoWatermarksPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-elastic-transcoder.AwsElastictranscoderPresetConfig",
-		reflect.TypeOf((*AwsElastictranscoderPresetConfig)(nil)).Elem(),
+		"@cdktn/aws-elastic-transcoder.TfPresetConfig",
+		reflect.TypeOf((*TfPresetConfig)(nil)).Elem(),
 	)
 }

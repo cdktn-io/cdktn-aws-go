@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-pricing-calculator.DataAwsPricingProduct",
-		reflect.TypeOf((*DataAwsPricingProduct)(nil)).Elem(),
+		"@cdktn/aws-pricing-calculator.DataTfProduct",
+		reflect.TypeOf((*DataTfProduct)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -58,18 +58,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPricingProduct{}
+			j := jsiiProxy_DataTfProduct{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-pricing-calculator.DataAwsPricingProduct.FiltersProperty",
-		reflect.TypeOf((*DataAwsPricingProduct_FiltersProperty)(nil)).Elem(),
+		"@cdktn/aws-pricing-calculator.DataTfProduct.FiltersProperty",
+		reflect.TypeOf((*DataTfProduct_FiltersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-pricing-calculator.DataAwsPricingProduct.FiltersPropertyList",
-		reflect.TypeOf((*DataAwsPricingProduct_FiltersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-pricing-calculator.DataTfProduct.FiltersPropertyList",
+		reflect.TypeOf((*DataTfProduct_FiltersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -84,14 +84,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPricingProduct_FiltersPropertyList{}
+			j := jsiiProxy_DataTfProduct_FiltersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-pricing-calculator.DataAwsPricingProduct.FiltersPropertyOutputReference",
-		reflect.TypeOf((*DataAwsPricingProduct_FiltersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-pricing-calculator.DataTfProduct.FiltersPropertyOutputReference",
+		reflect.TypeOf((*DataTfProduct_FiltersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -120,13 +120,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPricingProduct_FiltersPropertyOutputReference{}
+			j := jsiiProxy_DataTfProduct_FiltersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-pricing-calculator.DataAwsPricingProductConfig",
-		reflect.TypeOf((*DataAwsPricingProductConfig)(nil)).Elem(),
+		"@cdktn/aws-pricing-calculator.DataTfProductConfig",
+		reflect.TypeOf((*DataTfProductConfig)(nil)).Elem(),
 	)
 }

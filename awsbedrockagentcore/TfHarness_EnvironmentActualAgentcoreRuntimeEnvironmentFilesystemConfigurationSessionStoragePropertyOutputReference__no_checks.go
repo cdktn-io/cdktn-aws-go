@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsbedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetInternalValueParameters(val *TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStorageProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationSessionStoragePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

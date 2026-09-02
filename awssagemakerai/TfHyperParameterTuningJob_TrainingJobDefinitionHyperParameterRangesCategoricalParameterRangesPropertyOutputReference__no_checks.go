@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReference) validateSetValuesParameters(val *[]*string) error {
+	return nil
+}
+
+func validateNewTfHyperParameterTuningJob_TrainingJobDefinitionHyperParameterRangesCategoricalParameterRangesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

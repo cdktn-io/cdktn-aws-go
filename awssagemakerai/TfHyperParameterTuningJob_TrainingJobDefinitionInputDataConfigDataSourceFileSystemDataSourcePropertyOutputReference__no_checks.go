@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package awssagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetDirectoryPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetFileSystemAccessModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetFileSystemIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetFileSystemTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfHyperParameterTuningJob_TrainingJobDefinitionInputDataConfigDataSourceFileSystemDataSourcePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

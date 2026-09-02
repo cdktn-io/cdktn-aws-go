@@ -1,0 +1,146 @@
+//go:build no_runtime_type_checking
+
+package awsappflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutAmplitudeParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudeProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutCustomConnectorParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutDatadogParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutDynatraceParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatraceProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutGoogleAnalyticsParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutHoneycodeParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutInforNexusParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutMarketoParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutRedshiftParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSalesforceParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSapoDataParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutServiceNowParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSingularParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSlackParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSnowflakeParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakeProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutTrendmicroParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutVeevaParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutZendeskParameters(value *TfConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetInternalValueParameters(val *TfConnectorProfile_ConnectorProfileCredentialsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfConnectorProfile_ConnectorProfileCredentialsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

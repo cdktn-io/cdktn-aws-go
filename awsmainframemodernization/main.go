@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Application",
-		reflect.TypeOf((*AwsM2Application)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplication",
+		reflect.TypeOf((*TfApplication)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -90,18 +90,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Application{}
+			j := jsiiProxy_TfApplication{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Application.DefinitionProperty",
-		reflect.TypeOf((*AwsM2Application_DefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplication.DefinitionProperty",
+		reflect.TypeOf((*TfApplication_DefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Application.DefinitionPropertyList",
-		reflect.TypeOf((*AwsM2Application_DefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplication.DefinitionPropertyList",
+		reflect.TypeOf((*TfApplication_DefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -116,14 +116,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Application_DefinitionPropertyList{}
+			j := jsiiProxy_TfApplication_DefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Application.DefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Application_DefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplication.DefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_DefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -154,18 +154,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Application_DefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_DefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Application.TimeoutsProperty",
-		reflect.TypeOf((*AwsM2Application_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplication.TimeoutsProperty",
+		reflect.TypeOf((*TfApplication_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Application.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Application_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplication.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfApplication_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -199,18 +199,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Application_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfApplication_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2ApplicationConfig",
-		reflect.TypeOf((*AwsM2ApplicationConfig)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfApplicationConfig",
+		reflect.TypeOf((*TfApplicationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Deployment",
-		reflect.TypeOf((*AwsM2Deployment)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfDeployment",
+		reflect.TypeOf((*TfDeployment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -278,18 +278,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Deployment{}
+			j := jsiiProxy_TfDeployment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Deployment.TimeoutsProperty",
-		reflect.TypeOf((*AwsM2Deployment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfDeployment.TimeoutsProperty",
+		reflect.TypeOf((*TfDeployment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Deployment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Deployment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfDeployment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfDeployment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -323,18 +323,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Deployment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfDeployment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2DeploymentConfig",
-		reflect.TypeOf((*AwsM2DeploymentConfig)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfDeploymentConfig",
+		reflect.TypeOf((*TfDeploymentConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment",
-		reflect.TypeOf((*AwsM2Environment)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment",
+		reflect.TypeOf((*TfEnvironment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -438,18 +438,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment{}
+			j := jsiiProxy_TfEnvironment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.EfsProperty",
-		reflect.TypeOf((*AwsM2Environment_EfsProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.EfsProperty",
+		reflect.TypeOf((*TfEnvironment_EfsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.EfsPropertyList",
-		reflect.TypeOf((*AwsM2Environment_EfsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.EfsPropertyList",
+		reflect.TypeOf((*TfEnvironment_EfsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -464,14 +464,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_EfsPropertyList{}
+			j := jsiiProxy_TfEnvironment_EfsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.EfsPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Environment_EfsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.EfsPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_EfsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -500,18 +500,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_EfsPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_EfsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.FsxProperty",
-		reflect.TypeOf((*AwsM2Environment_FsxProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.FsxProperty",
+		reflect.TypeOf((*TfEnvironment_FsxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.FsxPropertyList",
-		reflect.TypeOf((*AwsM2Environment_FsxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.FsxPropertyList",
+		reflect.TypeOf((*TfEnvironment_FsxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -526,14 +526,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_FsxPropertyList{}
+			j := jsiiProxy_TfEnvironment_FsxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.FsxPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Environment_FsxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.FsxPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_FsxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -562,18 +562,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_FsxPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_FsxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.HighAvailabilityConfigProperty",
-		reflect.TypeOf((*AwsM2Environment_HighAvailabilityConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.HighAvailabilityConfigProperty",
+		reflect.TypeOf((*TfEnvironment_HighAvailabilityConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.HighAvailabilityConfigPropertyList",
-		reflect.TypeOf((*AwsM2Environment_HighAvailabilityConfigPropertyList)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.HighAvailabilityConfigPropertyList",
+		reflect.TypeOf((*TfEnvironment_HighAvailabilityConfigPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -588,14 +588,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_HighAvailabilityConfigPropertyList{}
+			j := jsiiProxy_TfEnvironment_HighAvailabilityConfigPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.HighAvailabilityConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Environment_HighAvailabilityConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.HighAvailabilityConfigPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_HighAvailabilityConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -622,18 +622,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_HighAvailabilityConfigPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_HighAvailabilityConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.StorageConfigurationProperty",
-		reflect.TypeOf((*AwsM2Environment_StorageConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.StorageConfigurationProperty",
+		reflect.TypeOf((*TfEnvironment_StorageConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.StorageConfigurationPropertyList",
-		reflect.TypeOf((*AwsM2Environment_StorageConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.StorageConfigurationPropertyList",
+		reflect.TypeOf((*TfEnvironment_StorageConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -648,14 +648,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_StorageConfigurationPropertyList{}
+			j := jsiiProxy_TfEnvironment_StorageConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.StorageConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Environment_StorageConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.StorageConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_StorageConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -688,18 +688,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_StorageConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_StorageConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.TimeoutsProperty",
-		reflect.TypeOf((*AwsM2Environment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.TimeoutsProperty",
+		reflect.TypeOf((*TfEnvironment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-mainframe-modernization.AwsM2Environment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsM2Environment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEnvironment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -733,13 +733,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsM2Environment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEnvironment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-mainframe-modernization.AwsM2EnvironmentConfig",
-		reflect.TypeOf((*AwsM2EnvironmentConfig)(nil)).Elem(),
+		"@cdktn/aws-mainframe-modernization.TfEnvironmentConfig",
+		reflect.TypeOf((*TfEnvironmentConfig)(nil)).Elem(),
 	)
 }

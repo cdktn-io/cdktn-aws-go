@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmDevicePool",
-		reflect.TypeOf((*AwsDevicefarmDevicePool)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfDevicePool",
+		reflect.TypeOf((*TfDevicePool)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -85,18 +85,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmDevicePool{}
+			j := jsiiProxy_TfDevicePool{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmDevicePool.RuleProperty",
-		reflect.TypeOf((*AwsDevicefarmDevicePool_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfDevicePool.RuleProperty",
+		reflect.TypeOf((*TfDevicePool_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmDevicePool.RulePropertyList",
-		reflect.TypeOf((*AwsDevicefarmDevicePool_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfDevicePool.RulePropertyList",
+		reflect.TypeOf((*TfDevicePool_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -111,14 +111,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmDevicePool_RulePropertyList{}
+			j := jsiiProxy_TfDevicePool_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmDevicePool.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsDevicefarmDevicePool_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfDevicePool.RulePropertyOutputReference",
+		reflect.TypeOf((*TfDevicePool_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -152,18 +152,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmDevicePool_RulePropertyOutputReference{}
+			j := jsiiProxy_TfDevicePool_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmDevicePoolConfig",
-		reflect.TypeOf((*AwsDevicefarmDevicePoolConfig)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfDevicePoolConfig",
+		reflect.TypeOf((*TfDevicePoolConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmInstanceProfile",
-		reflect.TypeOf((*AwsDevicefarmInstanceProfile)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfInstanceProfile",
+		reflect.TypeOf((*TfInstanceProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -238,18 +238,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmInstanceProfile{}
+			j := jsiiProxy_TfInstanceProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmInstanceProfileConfig",
-		reflect.TypeOf((*AwsDevicefarmInstanceProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfInstanceProfileConfig",
+		reflect.TypeOf((*TfInstanceProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmNetworkProfile",
-		reflect.TypeOf((*AwsDevicefarmNetworkProfile)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfNetworkProfile",
+		reflect.TypeOf((*TfNetworkProfile)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -344,18 +344,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmNetworkProfile{}
+			j := jsiiProxy_TfNetworkProfile{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmNetworkProfileConfig",
-		reflect.TypeOf((*AwsDevicefarmNetworkProfileConfig)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfNetworkProfileConfig",
+		reflect.TypeOf((*TfNetworkProfileConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmProject",
-		reflect.TypeOf((*AwsDevicefarmProject)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfProject",
+		reflect.TypeOf((*TfProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -421,18 +421,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmProject{}
+			j := jsiiProxy_TfProject{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmProjectConfig",
-		reflect.TypeOf((*AwsDevicefarmProjectConfig)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfProjectConfig",
+		reflect.TypeOf((*TfProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmTestGridProject",
-		reflect.TypeOf((*AwsDevicefarmTestGridProject)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfTestGridProject",
+		reflect.TypeOf((*TfTestGridProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -502,18 +502,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmTestGridProject{}
+			j := jsiiProxy_TfTestGridProject{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmTestGridProject.VpcConfigProperty",
-		reflect.TypeOf((*AwsDevicefarmTestGridProject_VpcConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfTestGridProject.VpcConfigProperty",
+		reflect.TypeOf((*TfTestGridProject_VpcConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmTestGridProject.VpcConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsDevicefarmTestGridProject_VpcConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfTestGridProject.VpcConfigPropertyOutputReference",
+		reflect.TypeOf((*TfTestGridProject_VpcConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -544,18 +544,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcIdInput", GoGetter: "VpcIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmTestGridProject_VpcConfigPropertyOutputReference{}
+			j := jsiiProxy_TfTestGridProject_VpcConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmTestGridProjectConfig",
-		reflect.TypeOf((*AwsDevicefarmTestGridProjectConfig)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfTestGridProjectConfig",
+		reflect.TypeOf((*TfTestGridProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-device-farm.AwsDevicefarmUpload",
-		reflect.TypeOf((*AwsDevicefarmUpload)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfUpload",
+		reflect.TypeOf((*TfUpload)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -622,13 +622,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsDevicefarmUpload{}
+			j := jsiiProxy_TfUpload{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-device-farm.AwsDevicefarmUploadConfig",
-		reflect.TypeOf((*AwsDevicefarmUploadConfig)(nil)).Elem(),
+		"@cdktn/aws-device-farm.TfUploadConfig",
+		reflect.TypeOf((*TfUploadConfig)(nil)).Elem(),
 	)
 }

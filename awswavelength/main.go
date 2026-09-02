@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-wavelength.AwsEc2CarrierGateway",
-		reflect.TypeOf((*AwsEc2CarrierGateway)(nil)).Elem(),
+		"@cdktn/aws-wavelength.TfCarrierGateway",
+		reflect.TypeOf((*TfCarrierGateway)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,13 +74,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsEc2CarrierGateway{}
+			j := jsiiProxy_TfCarrierGateway{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-wavelength.AwsEc2CarrierGatewayConfig",
-		reflect.TypeOf((*AwsEc2CarrierGatewayConfig)(nil)).Elem(),
+		"@cdktn/aws-wavelength.TfCarrierGatewayConfig",
+		reflect.TypeOf((*TfCarrierGatewayConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,302 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSet",
-		reflect.TypeOf((*AwsWafregionalByteMatchSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.DataTfIpset",
+		reflect.TypeOf((*DataTfIpset)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfIpset{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-waf-classic-regional.DataTfIpsetConfig",
+		reflect.TypeOf((*DataTfIpsetConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-waf-classic-regional.DataTfRateBasedRule",
+		reflect.TypeOf((*DataTfRateBasedRule)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfRateBasedRule{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-waf-classic-regional.DataTfRateBasedRuleConfig",
+		reflect.TypeOf((*DataTfRateBasedRuleConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-waf-classic-regional.DataTfRule",
+		reflect.TypeOf((*DataTfRule)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfRule{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-waf-classic-regional.DataTfRuleConfig",
+		reflect.TypeOf((*DataTfRuleConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-waf-classic-regional.DataTfSubscribedRuleGroup",
+		reflect.TypeOf((*DataTfSubscribedRuleGroup)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "metricName", GoGetter: "MetricName"},
+			_jsii_.MemberProperty{JsiiProperty: "metricNameInput", GoGetter: "MetricNameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetMetricName", GoMethod: "ResetMetricName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfSubscribedRuleGroup{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-waf-classic-regional.DataTfSubscribedRuleGroupConfig",
+		reflect.TypeOf((*DataTfSubscribedRuleGroupConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-waf-classic-regional.DataTfWebAcl",
+		reflect.TypeOf((*DataTfWebAcl)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfWebAcl{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-waf-classic-regional.DataTfWebAclConfig",
+		reflect.TypeOf((*DataTfWebAclConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSet",
+		reflect.TypeOf((*TfByteMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -70,18 +364,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalByteMatchSet{}
+			j := jsiiProxy_TfByteMatchSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSet.ByteMatchTuplesProperty",
-		reflect.TypeOf((*AwsWafregionalByteMatchSet_ByteMatchTuplesProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSet.ByteMatchTuplesProperty",
+		reflect.TypeOf((*TfByteMatchSet_ByteMatchTuplesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSet.ByteMatchTuplesPropertyList",
-		reflect.TypeOf((*AwsWafregionalByteMatchSet_ByteMatchTuplesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSet.ByteMatchTuplesPropertyList",
+		reflect.TypeOf((*TfByteMatchSet_ByteMatchTuplesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -96,14 +390,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalByteMatchSet_ByteMatchTuplesPropertyList{}
+			j := jsiiProxy_TfByteMatchSet_ByteMatchTuplesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSet.ByteMatchTuplesPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalByteMatchSet_ByteMatchTuplesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSet.ByteMatchTuplesPropertyOutputReference",
+		reflect.TypeOf((*TfByteMatchSet_ByteMatchTuplesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -138,18 +432,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalByteMatchSet_ByteMatchTuplesPropertyOutputReference{}
+			j := jsiiProxy_TfByteMatchSet_ByteMatchTuplesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSet.FieldToMatchProperty",
-		reflect.TypeOf((*AwsWafregionalByteMatchSet_FieldToMatchProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSet.FieldToMatchProperty",
+		reflect.TypeOf((*TfByteMatchSet_FieldToMatchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSet.FieldToMatchPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalByteMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSet.FieldToMatchPropertyOutputReference",
+		reflect.TypeOf((*TfByteMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -179,18 +473,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalByteMatchSet_FieldToMatchPropertyOutputReference{}
+			j := jsiiProxy_TfByteMatchSet_FieldToMatchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalByteMatchSetConfig",
-		reflect.TypeOf((*AwsWafregionalByteMatchSetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfByteMatchSetConfig",
+		reflect.TypeOf((*TfByteMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalGeoMatchSet",
-		reflect.TypeOf((*AwsWafregionalGeoMatchSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfGeoMatchSet",
+		reflect.TypeOf((*TfGeoMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -250,18 +544,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalGeoMatchSet{}
+			j := jsiiProxy_TfGeoMatchSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalGeoMatchSet.GeoMatchConstraintProperty",
-		reflect.TypeOf((*AwsWafregionalGeoMatchSet_GeoMatchConstraintProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfGeoMatchSet.GeoMatchConstraintProperty",
+		reflect.TypeOf((*TfGeoMatchSet_GeoMatchConstraintProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalGeoMatchSet.GeoMatchConstraintPropertyList",
-		reflect.TypeOf((*AwsWafregionalGeoMatchSet_GeoMatchConstraintPropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfGeoMatchSet.GeoMatchConstraintPropertyList",
+		reflect.TypeOf((*TfGeoMatchSet_GeoMatchConstraintPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -276,14 +570,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalGeoMatchSet_GeoMatchConstraintPropertyList{}
+			j := jsiiProxy_TfGeoMatchSet_GeoMatchConstraintPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalGeoMatchSet.GeoMatchConstraintPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalGeoMatchSet_GeoMatchConstraintPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfGeoMatchSet.GeoMatchConstraintPropertyOutputReference",
+		reflect.TypeOf((*TfGeoMatchSet_GeoMatchConstraintPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -312,18 +606,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalGeoMatchSet_GeoMatchConstraintPropertyOutputReference{}
+			j := jsiiProxy_TfGeoMatchSet_GeoMatchConstraintPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalGeoMatchSetConfig",
-		reflect.TypeOf((*AwsWafregionalGeoMatchSetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfGeoMatchSetConfig",
+		reflect.TypeOf((*TfGeoMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalIpset",
-		reflect.TypeOf((*AwsWafregionalIpset)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfIpset",
+		reflect.TypeOf((*TfIpset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -384,18 +678,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalIpset{}
+			j := jsiiProxy_TfIpset{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalIpset.IpSetDescriptorProperty",
-		reflect.TypeOf((*AwsWafregionalIpset_IpSetDescriptorProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfIpset.IpSetDescriptorProperty",
+		reflect.TypeOf((*TfIpset_IpSetDescriptorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalIpset.IpSetDescriptorPropertyList",
-		reflect.TypeOf((*AwsWafregionalIpset_IpSetDescriptorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfIpset.IpSetDescriptorPropertyList",
+		reflect.TypeOf((*TfIpset_IpSetDescriptorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -410,14 +704,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalIpset_IpSetDescriptorPropertyList{}
+			j := jsiiProxy_TfIpset_IpSetDescriptorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalIpset.IpSetDescriptorPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalIpset_IpSetDescriptorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfIpset.IpSetDescriptorPropertyOutputReference",
+		reflect.TypeOf((*TfIpset_IpSetDescriptorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -446,18 +740,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalIpset_IpSetDescriptorPropertyOutputReference{}
+			j := jsiiProxy_TfIpset_IpSetDescriptorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalIpsetConfig",
-		reflect.TypeOf((*AwsWafregionalIpsetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfIpsetConfig",
+		reflect.TypeOf((*TfIpsetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRateBasedRule",
-		reflect.TypeOf((*AwsWafregionalRateBasedRule)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRateBasedRule",
+		reflect.TypeOf((*TfRateBasedRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -530,18 +824,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRateBasedRule{}
+			j := jsiiProxy_TfRateBasedRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRateBasedRule.PredicateProperty",
-		reflect.TypeOf((*AwsWafregionalRateBasedRule_PredicateProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRateBasedRule.PredicateProperty",
+		reflect.TypeOf((*TfRateBasedRule_PredicateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRateBasedRule.PredicatePropertyList",
-		reflect.TypeOf((*AwsWafregionalRateBasedRule_PredicatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRateBasedRule.PredicatePropertyList",
+		reflect.TypeOf((*TfRateBasedRule_PredicatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -556,14 +850,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRateBasedRule_PredicatePropertyList{}
+			j := jsiiProxy_TfRateBasedRule_PredicatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRateBasedRule.PredicatePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalRateBasedRule_PredicatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRateBasedRule.PredicatePropertyOutputReference",
+		reflect.TypeOf((*TfRateBasedRule_PredicatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -594,18 +888,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRateBasedRule_PredicatePropertyOutputReference{}
+			j := jsiiProxy_TfRateBasedRule_PredicatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRateBasedRuleConfig",
-		reflect.TypeOf((*AwsWafregionalRateBasedRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRateBasedRuleConfig",
+		reflect.TypeOf((*TfRateBasedRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSet",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSet",
+		reflect.TypeOf((*TfRegexMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -665,18 +959,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRegexMatchSet{}
+			j := jsiiProxy_TfRegexMatchSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSet.FieldToMatchProperty",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSet_FieldToMatchProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSet.FieldToMatchProperty",
+		reflect.TypeOf((*TfRegexMatchSet_FieldToMatchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSet.FieldToMatchPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSet.FieldToMatchPropertyOutputReference",
+		reflect.TypeOf((*TfRegexMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -706,18 +1000,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRegexMatchSet_FieldToMatchPropertyOutputReference{}
+			j := jsiiProxy_TfRegexMatchSet_FieldToMatchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSet.RegexMatchTupleProperty",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSet_RegexMatchTupleProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSet.RegexMatchTupleProperty",
+		reflect.TypeOf((*TfRegexMatchSet_RegexMatchTupleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSet.RegexMatchTuplePropertyList",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSet_RegexMatchTuplePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSet.RegexMatchTuplePropertyList",
+		reflect.TypeOf((*TfRegexMatchSet_RegexMatchTuplePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -732,14 +1026,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRegexMatchSet_RegexMatchTuplePropertyList{}
+			j := jsiiProxy_TfRegexMatchSet_RegexMatchTuplePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSet.RegexMatchTuplePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSet_RegexMatchTuplePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSet.RegexMatchTuplePropertyOutputReference",
+		reflect.TypeOf((*TfRegexMatchSet_RegexMatchTuplePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -771,18 +1065,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRegexMatchSet_RegexMatchTuplePropertyOutputReference{}
+			j := jsiiProxy_TfRegexMatchSet_RegexMatchTuplePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexMatchSetConfig",
-		reflect.TypeOf((*AwsWafregionalRegexMatchSetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexMatchSetConfig",
+		reflect.TypeOf((*TfRegexMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexPatternSet",
-		reflect.TypeOf((*AwsWafregionalRegexPatternSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexPatternSet",
+		reflect.TypeOf((*TfRegexPatternSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -841,18 +1135,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRegexPatternSet{}
+			j := jsiiProxy_TfRegexPatternSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRegexPatternSetConfig",
-		reflect.TypeOf((*AwsWafregionalRegexPatternSetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRegexPatternSetConfig",
+		reflect.TypeOf((*TfRegexPatternSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRule",
-		reflect.TypeOf((*AwsWafregionalRule)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRule",
+		reflect.TypeOf((*TfRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -921,18 +1215,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRule{}
+			j := jsiiProxy_TfRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRule.PredicateProperty",
-		reflect.TypeOf((*AwsWafregionalRule_PredicateProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRule.PredicateProperty",
+		reflect.TypeOf((*TfRule_PredicateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRule.PredicatePropertyList",
-		reflect.TypeOf((*AwsWafregionalRule_PredicatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRule.PredicatePropertyList",
+		reflect.TypeOf((*TfRule_PredicatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -947,14 +1241,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRule_PredicatePropertyList{}
+			j := jsiiProxy_TfRule_PredicatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRule.PredicatePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalRule_PredicatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRule.PredicatePropertyOutputReference",
+		reflect.TypeOf((*TfRule_PredicatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -985,18 +1279,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRule_PredicatePropertyOutputReference{}
+			j := jsiiProxy_TfRule_PredicatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleConfig",
-		reflect.TypeOf((*AwsWafregionalRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleConfig",
+		reflect.TypeOf((*TfRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroup",
-		reflect.TypeOf((*AwsWafregionalRuleGroup)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroup",
+		reflect.TypeOf((*TfRuleGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activatedRule", GoGetter: "ActivatedRule"},
 			_jsii_.MemberProperty{JsiiProperty: "activatedRuleInput", GoGetter: "ActivatedRuleInput"},
@@ -1065,18 +1359,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRuleGroup{}
+			j := jsiiProxy_TfRuleGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroup.ActionProperty",
-		reflect.TypeOf((*AwsWafregionalRuleGroup_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroup.ActionProperty",
+		reflect.TypeOf((*TfRuleGroup_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroup.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalRuleGroup_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroup.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleGroup_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1103,18 +1397,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRuleGroup_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleGroup_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroup.ActivatedRuleProperty",
-		reflect.TypeOf((*AwsWafregionalRuleGroup_ActivatedRuleProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroup.ActivatedRuleProperty",
+		reflect.TypeOf((*TfRuleGroup_ActivatedRuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroup.ActivatedRulePropertyList",
-		reflect.TypeOf((*AwsWafregionalRuleGroup_ActivatedRulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroup.ActivatedRulePropertyList",
+		reflect.TypeOf((*TfRuleGroup_ActivatedRulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1129,14 +1423,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRuleGroup_ActivatedRulePropertyList{}
+			j := jsiiProxy_TfRuleGroup_ActivatedRulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroup.ActivatedRulePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalRuleGroup_ActivatedRulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroup.ActivatedRulePropertyOutputReference",
+		reflect.TypeOf((*TfRuleGroup_ActivatedRulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -1171,18 +1465,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalRuleGroup_ActivatedRulePropertyOutputReference{}
+			j := jsiiProxy_TfRuleGroup_ActivatedRulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalRuleGroupConfig",
-		reflect.TypeOf((*AwsWafregionalRuleGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfRuleGroupConfig",
+		reflect.TypeOf((*TfRuleGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSet",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSet",
+		reflect.TypeOf((*TfSizeConstraintSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1243,18 +1537,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSizeConstraintSet{}
+			j := jsiiProxy_TfSizeConstraintSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSet.FieldToMatchProperty",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSet_FieldToMatchProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSet.FieldToMatchProperty",
+		reflect.TypeOf((*TfSizeConstraintSet_FieldToMatchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSet.FieldToMatchPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSet.FieldToMatchPropertyOutputReference",
+		reflect.TypeOf((*TfSizeConstraintSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1284,18 +1578,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSizeConstraintSet_FieldToMatchPropertyOutputReference{}
+			j := jsiiProxy_TfSizeConstraintSet_FieldToMatchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSet.SizeConstraintsProperty",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSet_SizeConstraintsProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSet.SizeConstraintsProperty",
+		reflect.TypeOf((*TfSizeConstraintSet_SizeConstraintsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSet.SizeConstraintsPropertyList",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSet_SizeConstraintsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSet.SizeConstraintsPropertyList",
+		reflect.TypeOf((*TfSizeConstraintSet_SizeConstraintsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1310,14 +1604,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSizeConstraintSet_SizeConstraintsPropertyList{}
+			j := jsiiProxy_TfSizeConstraintSet_SizeConstraintsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSet.SizeConstraintsPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSet_SizeConstraintsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSet.SizeConstraintsPropertyOutputReference",
+		reflect.TypeOf((*TfSizeConstraintSet_SizeConstraintsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "comparisonOperator", GoGetter: "ComparisonOperator"},
 			_jsii_.MemberProperty{JsiiProperty: "comparisonOperatorInput", GoGetter: "ComparisonOperatorInput"},
@@ -1351,18 +1645,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSizeConstraintSet_SizeConstraintsPropertyOutputReference{}
+			j := jsiiProxy_TfSizeConstraintSet_SizeConstraintsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSizeConstraintSetConfig",
-		reflect.TypeOf((*AwsWafregionalSizeConstraintSetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSizeConstraintSetConfig",
+		reflect.TypeOf((*TfSizeConstraintSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSet",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSet",
+		reflect.TypeOf((*TfSqlInjectionMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1422,18 +1716,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSqlInjectionMatchSet{}
+			j := jsiiProxy_TfSqlInjectionMatchSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSet.FieldToMatchProperty",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSet_FieldToMatchProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSet.FieldToMatchProperty",
+		reflect.TypeOf((*TfSqlInjectionMatchSet_FieldToMatchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSet.FieldToMatchPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSet.FieldToMatchPropertyOutputReference",
+		reflect.TypeOf((*TfSqlInjectionMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1463,18 +1757,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSqlInjectionMatchSet_FieldToMatchPropertyOutputReference{}
+			j := jsiiProxy_TfSqlInjectionMatchSet_FieldToMatchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSet.SqlInjectionMatchTupleProperty",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSet_SqlInjectionMatchTupleProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSet.SqlInjectionMatchTupleProperty",
+		reflect.TypeOf((*TfSqlInjectionMatchSet_SqlInjectionMatchTupleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSet.SqlInjectionMatchTuplePropertyList",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSet.SqlInjectionMatchTuplePropertyList",
+		reflect.TypeOf((*TfSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1489,14 +1783,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyList{}
+			j := jsiiProxy_TfSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSet.SqlInjectionMatchTuplePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSet.SqlInjectionMatchTuplePropertyOutputReference",
+		reflect.TypeOf((*TfSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1526,18 +1820,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyOutputReference{}
+			j := jsiiProxy_TfSqlInjectionMatchSet_SqlInjectionMatchTuplePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalSqlInjectionMatchSetConfig",
-		reflect.TypeOf((*AwsWafregionalSqlInjectionMatchSetConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfSqlInjectionMatchSetConfig",
+		reflect.TypeOf((*TfSqlInjectionMatchSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl",
-		reflect.TypeOf((*AwsWafregionalWebAcl)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl",
+		reflect.TypeOf((*TfWebAcl)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1613,18 +1907,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl{}
+			j := jsiiProxy_TfWebAcl{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.ActionProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.ActionProperty",
+		reflect.TypeOf((*TfWebAcl_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1651,18 +1945,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.DefaultActionProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_DefaultActionProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.DefaultActionProperty",
+		reflect.TypeOf((*TfWebAcl_DefaultActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.DefaultActionPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_DefaultActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.DefaultActionPropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_DefaultActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1689,18 +1983,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_DefaultActionPropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_DefaultActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.FieldToMatchProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_FieldToMatchProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.FieldToMatchProperty",
+		reflect.TypeOf((*TfWebAcl_FieldToMatchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.FieldToMatchPropertyList",
-		reflect.TypeOf((*AwsWafregionalWebAcl_FieldToMatchPropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.FieldToMatchPropertyList",
+		reflect.TypeOf((*TfWebAcl_FieldToMatchPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1715,14 +2009,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_FieldToMatchPropertyList{}
+			j := jsiiProxy_TfWebAcl_FieldToMatchPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.FieldToMatchPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_FieldToMatchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.FieldToMatchPropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_FieldToMatchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1752,18 +2046,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_FieldToMatchPropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_FieldToMatchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.LoggingConfigurationProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_LoggingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.LoggingConfigurationProperty",
+		reflect.TypeOf((*TfWebAcl_LoggingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.LoggingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_LoggingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.LoggingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_LoggingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1794,18 +2088,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_LoggingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_LoggingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.OverrideActionProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_OverrideActionProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.OverrideActionProperty",
+		reflect.TypeOf((*TfWebAcl_OverrideActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.OverrideActionPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_OverrideActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.OverrideActionPropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_OverrideActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1832,18 +2126,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_OverrideActionPropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_OverrideActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.RedactedFieldsProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_RedactedFieldsProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.RedactedFieldsProperty",
+		reflect.TypeOf((*TfWebAcl_RedactedFieldsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.RedactedFieldsPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_RedactedFieldsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.RedactedFieldsPropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_RedactedFieldsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1871,18 +2165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_RedactedFieldsPropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_RedactedFieldsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.RuleProperty",
-		reflect.TypeOf((*AwsWafregionalWebAcl_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.RuleProperty",
+		reflect.TypeOf((*TfWebAcl_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.RulePropertyList",
-		reflect.TypeOf((*AwsWafregionalWebAcl_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.RulePropertyList",
+		reflect.TypeOf((*TfWebAcl_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1897,14 +2191,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_RulePropertyList{}
+			j := jsiiProxy_TfWebAcl_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAcl.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAcl_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAcl.RulePropertyOutputReference",
+		reflect.TypeOf((*TfWebAcl_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -1944,14 +2238,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAcl_RulePropertyOutputReference{}
+			j := jsiiProxy_TfWebAcl_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAclAssociation",
-		reflect.TypeOf((*AwsWafregionalWebAclAssociation)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAclAssociation",
+		reflect.TypeOf((*TfWebAclAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2013,18 +2307,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAclAssociation{}
+			j := jsiiProxy_TfWebAclAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAclAssociation.TimeoutsProperty",
-		reflect.TypeOf((*AwsWafregionalWebAclAssociation_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAclAssociation.TimeoutsProperty",
+		reflect.TypeOf((*TfWebAclAssociation_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAclAssociation.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalWebAclAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAclAssociation.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfWebAclAssociation_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2052,22 +2346,22 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalWebAclAssociation_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfWebAclAssociation_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAclAssociationConfig",
-		reflect.TypeOf((*AwsWafregionalWebAclAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAclAssociationConfig",
+		reflect.TypeOf((*TfWebAclAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalWebAclConfig",
-		reflect.TypeOf((*AwsWafregionalWebAclConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfWebAclConfig",
+		reflect.TypeOf((*TfWebAclConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSet",
-		reflect.TypeOf((*AwsWafregionalXssMatchSet)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSet",
+		reflect.TypeOf((*TfXssMatchSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2127,18 +2421,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "xssMatchTupleInput", GoGetter: "XssMatchTupleInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalXssMatchSet{}
+			j := jsiiProxy_TfXssMatchSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSet.FieldToMatchProperty",
-		reflect.TypeOf((*AwsWafregionalXssMatchSet_FieldToMatchProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSet.FieldToMatchProperty",
+		reflect.TypeOf((*TfXssMatchSet_FieldToMatchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSet.FieldToMatchPropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalXssMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSet.FieldToMatchPropertyOutputReference",
+		reflect.TypeOf((*TfXssMatchSet_FieldToMatchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2168,18 +2462,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalXssMatchSet_FieldToMatchPropertyOutputReference{}
+			j := jsiiProxy_TfXssMatchSet_FieldToMatchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSet.XssMatchTupleProperty",
-		reflect.TypeOf((*AwsWafregionalXssMatchSet_XssMatchTupleProperty)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSet.XssMatchTupleProperty",
+		reflect.TypeOf((*TfXssMatchSet_XssMatchTupleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSet.XssMatchTuplePropertyList",
-		reflect.TypeOf((*AwsWafregionalXssMatchSet_XssMatchTuplePropertyList)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSet.XssMatchTuplePropertyList",
+		reflect.TypeOf((*TfXssMatchSet_XssMatchTuplePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2194,14 +2488,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalXssMatchSet_XssMatchTuplePropertyList{}
+			j := jsiiProxy_TfXssMatchSet_XssMatchTuplePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSet.XssMatchTuplePropertyOutputReference",
-		reflect.TypeOf((*AwsWafregionalXssMatchSet_XssMatchTuplePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSet.XssMatchTuplePropertyOutputReference",
+		reflect.TypeOf((*TfXssMatchSet_XssMatchTuplePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2231,307 +2525,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWafregionalXssMatchSet_XssMatchTuplePropertyOutputReference{}
+			j := jsiiProxy_TfXssMatchSet_XssMatchTuplePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.AwsWafregionalXssMatchSetConfig",
-		reflect.TypeOf((*AwsWafregionalXssMatchSetConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalIpset",
-		reflect.TypeOf((*DataAwsWafregionalIpset)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsWafregionalIpset{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalIpsetConfig",
-		reflect.TypeOf((*DataAwsWafregionalIpsetConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalRateBasedRule",
-		reflect.TypeOf((*DataAwsWafregionalRateBasedRule)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsWafregionalRateBasedRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalRateBasedRuleConfig",
-		reflect.TypeOf((*DataAwsWafregionalRateBasedRuleConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalRule",
-		reflect.TypeOf((*DataAwsWafregionalRule)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsWafregionalRule{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalRuleConfig",
-		reflect.TypeOf((*DataAwsWafregionalRuleConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalSubscribedRuleGroup",
-		reflect.TypeOf((*DataAwsWafregionalSubscribedRuleGroup)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "metricName", GoGetter: "MetricName"},
-			_jsii_.MemberProperty{JsiiProperty: "metricNameInput", GoGetter: "MetricNameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetMetricName", GoMethod: "ResetMetricName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetName", GoMethod: "ResetName"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsWafregionalSubscribedRuleGroup{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalSubscribedRuleGroupConfig",
-		reflect.TypeOf((*DataAwsWafregionalSubscribedRuleGroupConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalWebAcl",
-		reflect.TypeOf((*DataAwsWafregionalWebAcl)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberProperty{JsiiProperty: "nameInput", GoGetter: "NameInput"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsWafregionalWebAcl{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-waf-classic-regional.DataAwsWafregionalWebAclConfig",
-		reflect.TypeOf((*DataAwsWafregionalWebAclConfig)(nil)).Elem(),
+		"@cdktn/aws-waf-classic-regional.TfXssMatchSetConfig",
+		reflect.TypeOf((*TfXssMatchSetConfig)(nil)).Elem(),
 	)
 }

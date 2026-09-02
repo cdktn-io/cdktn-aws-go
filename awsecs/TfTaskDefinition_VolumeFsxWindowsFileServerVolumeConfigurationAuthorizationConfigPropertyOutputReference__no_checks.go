@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awsecs
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetCredentialsParameterParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetDomainParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetInternalValueParameters(val *TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-polly.DataAwsPollyVoices",
-		reflect.TypeOf((*DataAwsPollyVoices)(nil)).Elem(),
+		"@cdktn/aws-polly.DataTfVoices",
+		reflect.TypeOf((*DataTfVoices)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
 			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
@@ -66,18 +66,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPollyVoices{}
+			j := jsiiProxy_DataTfVoices{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-polly.DataAwsPollyVoices.VoicesProperty",
-		reflect.TypeOf((*DataAwsPollyVoices_VoicesProperty)(nil)).Elem(),
+		"@cdktn/aws-polly.DataTfVoices.VoicesProperty",
+		reflect.TypeOf((*DataTfVoices_VoicesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-polly.DataAwsPollyVoices.VoicesPropertyList",
-		reflect.TypeOf((*DataAwsPollyVoices_VoicesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-polly.DataTfVoices.VoicesPropertyList",
+		reflect.TypeOf((*DataTfVoices_VoicesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -92,14 +92,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPollyVoices_VoicesPropertyList{}
+			j := jsiiProxy_DataTfVoices_VoicesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-polly.DataAwsPollyVoices.VoicesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsPollyVoices_VoicesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-polly.DataTfVoices.VoicesPropertyOutputReference",
+		reflect.TypeOf((*DataTfVoices_VoicesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalLanguageCodes", GoGetter: "AdditionalLanguageCodes"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
@@ -131,13 +131,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_DataAwsPollyVoices_VoicesPropertyOutputReference{}
+			j := jsiiProxy_DataTfVoices_VoicesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-polly.DataAwsPollyVoicesConfig",
-		reflect.TypeOf((*DataAwsPollyVoicesConfig)(nil)).Elem(),
+		"@cdktn/aws-polly.DataTfVoicesConfig",
+		reflect.TypeOf((*DataTfVoicesConfig)(nil)).Elem(),
 	)
 }

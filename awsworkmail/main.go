@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailDefaultDomain",
-		reflect.TypeOf((*AwsWorkmailDefaultDomain)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDefaultDomain",
+		reflect.TypeOf((*TfDefaultDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -65,18 +65,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailDefaultDomain{}
+			j := jsiiProxy_TfDefaultDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailDefaultDomainConfig",
-		reflect.TypeOf((*AwsWorkmailDefaultDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDefaultDomainConfig",
+		reflect.TypeOf((*TfDefaultDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailDomain",
-		reflect.TypeOf((*AwsWorkmailDomain)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -136,18 +136,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailDomain.RecordsProperty",
-		reflect.TypeOf((*AwsWorkmailDomain_RecordsProperty)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDomain.RecordsProperty",
+		reflect.TypeOf((*TfDomain_RecordsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailDomain.RecordsPropertyList",
-		reflect.TypeOf((*AwsWorkmailDomain_RecordsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDomain.RecordsPropertyList",
+		reflect.TypeOf((*TfDomain_RecordsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -161,14 +161,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailDomain_RecordsPropertyList{}
+			j := jsiiProxy_TfDomain_RecordsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailDomain.RecordsPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkmailDomain_RecordsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDomain.RecordsPropertyOutputReference",
+		reflect.TypeOf((*TfDomain_RecordsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -196,18 +196,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "value", GoGetter: "Value"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailDomain_RecordsPropertyOutputReference{}
+			j := jsiiProxy_TfDomain_RecordsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailDomainConfig",
-		reflect.TypeOf((*AwsWorkmailDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailGroup",
-		reflect.TypeOf((*AwsWorkmailGroup)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfGroup",
+		reflect.TypeOf((*TfGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -271,18 +271,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailGroup{}
+			j := jsiiProxy_TfGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailGroupConfig",
-		reflect.TypeOf((*AwsWorkmailGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfGroupConfig",
+		reflect.TypeOf((*TfGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailOrganization",
-		reflect.TypeOf((*AwsWorkmailOrganization)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfOrganization",
+		reflect.TypeOf((*TfOrganization)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -365,18 +365,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailOrganization{}
+			j := jsiiProxy_TfOrganization{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailOrganization.TimeoutsProperty",
-		reflect.TypeOf((*AwsWorkmailOrganization_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfOrganization.TimeoutsProperty",
+		reflect.TypeOf((*TfOrganization_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailOrganization.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsWorkmailOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfOrganization.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfOrganization_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -407,18 +407,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailOrganization_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfOrganization_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailOrganizationConfig",
-		reflect.TypeOf((*AwsWorkmailOrganizationConfig)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfOrganizationConfig",
+		reflect.TypeOf((*TfOrganizationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-workmail.AwsWorkmailUser",
-		reflect.TypeOf((*AwsWorkmailUser)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfUser",
+		reflect.TypeOf((*TfUser)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -532,13 +532,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "zipCodeInput", GoGetter: "ZipCodeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsWorkmailUser{}
+			j := jsiiProxy_TfUser{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-workmail.AwsWorkmailUserConfig",
-		reflect.TypeOf((*AwsWorkmailUserConfig)(nil)).Elem(),
+		"@cdktn/aws-workmail.TfUserConfig",
+		reflect.TypeOf((*TfUserConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,196 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneCluster",
-		reflect.TypeOf((*AwsNeptuneCluster)(nil)).Elem(),
+		"@cdktn/aws-neptune.DataTfEngineVersion",
+		reflect.TypeOf((*DataTfEngineVersion)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultCharacterSet", GoGetter: "DefaultCharacterSet"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultOnly", GoGetter: "DefaultOnly"},
+			_jsii_.MemberProperty{JsiiProperty: "defaultOnlyInput", GoGetter: "DefaultOnlyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
+			_jsii_.MemberProperty{JsiiProperty: "engineDescription", GoGetter: "EngineDescription"},
+			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
+			_jsii_.MemberProperty{JsiiProperty: "exportableLogTypes", GoGetter: "ExportableLogTypes"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "hasMajorTarget", GoGetter: "HasMajorTarget"},
+			_jsii_.MemberProperty{JsiiProperty: "hasMajorTargetInput", GoGetter: "HasMajorTargetInput"},
+			_jsii_.MemberProperty{JsiiProperty: "hasMinorTarget", GoGetter: "HasMinorTarget"},
+			_jsii_.MemberProperty{JsiiProperty: "hasMinorTargetInput", GoGetter: "HasMinorTargetInput"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "latest", GoGetter: "Latest"},
+			_jsii_.MemberProperty{JsiiProperty: "latestInput", GoGetter: "LatestInput"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamily", GoGetter: "ParameterGroupFamily"},
+			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamilyInput", GoGetter: "ParameterGroupFamilyInput"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredMajorTargets", GoGetter: "PreferredMajorTargets"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredMajorTargetsInput", GoGetter: "PreferredMajorTargetsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredUpgradeTargets", GoGetter: "PreferredUpgradeTargets"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredUpgradeTargetsInput", GoGetter: "PreferredUpgradeTargetsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredVersions", GoGetter: "PreferredVersions"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredVersionsInput", GoGetter: "PreferredVersionsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetDefaultOnly", GoMethod: "ResetDefaultOnly"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHasMajorTarget", GoMethod: "ResetHasMajorTarget"},
+			_jsii_.MemberMethod{JsiiMethod: "resetHasMinorTarget", GoMethod: "ResetHasMinorTarget"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLatest", GoMethod: "ResetLatest"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetParameterGroupFamily", GoMethod: "ResetParameterGroupFamily"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreferredMajorTargets", GoMethod: "ResetPreferredMajorTargets"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreferredUpgradeTargets", GoMethod: "ResetPreferredUpgradeTargets"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreferredVersions", GoMethod: "ResetPreferredVersions"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVersion", GoMethod: "ResetVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "supportedCharacterSets", GoGetter: "SupportedCharacterSets"},
+			_jsii_.MemberProperty{JsiiProperty: "supportedTimezones", GoGetter: "SupportedTimezones"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsGlobalDatabases", GoGetter: "SupportsGlobalDatabases"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsLogExportsToCloudwatch", GoGetter: "SupportsLogExportsToCloudwatch"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsReadReplica", GoGetter: "SupportsReadReplica"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "validMajorTargets", GoGetter: "ValidMajorTargets"},
+			_jsii_.MemberProperty{JsiiProperty: "validMinorTargets", GoGetter: "ValidMinorTargets"},
+			_jsii_.MemberProperty{JsiiProperty: "validUpgradeTargets", GoGetter: "ValidUpgradeTargets"},
+			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
+			_jsii_.MemberProperty{JsiiProperty: "versionActual", GoGetter: "VersionActual"},
+			_jsii_.MemberProperty{JsiiProperty: "versionDescription", GoGetter: "VersionDescription"},
+			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfEngineVersion{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-neptune.DataTfEngineVersionConfig",
+		reflect.TypeOf((*DataTfEngineVersionConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-neptune.DataTfOrderableDbInstance",
+		reflect.TypeOf((*DataTfOrderableDbInstance)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
+			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
+			_jsii_.MemberProperty{JsiiProperty: "engineVersion", GoGetter: "EngineVersion"},
+			_jsii_.MemberProperty{JsiiProperty: "engineVersionInput", GoGetter: "EngineVersionInput"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceClass", GoGetter: "InstanceClass"},
+			_jsii_.MemberProperty{JsiiProperty: "instanceClassInput", GoGetter: "InstanceClassInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "licenseModel", GoGetter: "LicenseModel"},
+			_jsii_.MemberProperty{JsiiProperty: "licenseModelInput", GoGetter: "LicenseModelInput"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "maxIopsPerDbInstance", GoGetter: "MaxIopsPerDbInstance"},
+			_jsii_.MemberProperty{JsiiProperty: "maxIopsPerGib", GoGetter: "MaxIopsPerGib"},
+			_jsii_.MemberProperty{JsiiProperty: "maxStorageSize", GoGetter: "MaxStorageSize"},
+			_jsii_.MemberProperty{JsiiProperty: "minIopsPerDbInstance", GoGetter: "MinIopsPerDbInstance"},
+			_jsii_.MemberProperty{JsiiProperty: "minIopsPerGib", GoGetter: "MinIopsPerGib"},
+			_jsii_.MemberProperty{JsiiProperty: "minStorageSize", GoGetter: "MinStorageSize"},
+			_jsii_.MemberProperty{JsiiProperty: "multiAzCapable", GoGetter: "MultiAzCapable"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClasses", GoGetter: "PreferredInstanceClasses"},
+			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClassesInput", GoGetter: "PreferredInstanceClassesInput"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "readReplicaCapable", GoGetter: "ReadReplicaCapable"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
+			_jsii_.MemberMethod{JsiiMethod: "resetEngineVersion", GoMethod: "ResetEngineVersion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetInstanceClass", GoMethod: "ResetInstanceClass"},
+			_jsii_.MemberMethod{JsiiMethod: "resetLicenseModel", GoMethod: "ResetLicenseModel"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetPreferredInstanceClasses", GoMethod: "ResetPreferredInstanceClasses"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetVpc", GoMethod: "ResetVpc"},
+			_jsii_.MemberProperty{JsiiProperty: "storageType", GoGetter: "StorageType"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsEnhancedMonitoring", GoGetter: "SupportsEnhancedMonitoring"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsIamDatabaseAuthentication", GoGetter: "SupportsIamDatabaseAuthentication"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsIops", GoGetter: "SupportsIops"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsPerformanceInsights", GoGetter: "SupportsPerformanceInsights"},
+			_jsii_.MemberProperty{JsiiProperty: "supportsStorageEncryption", GoGetter: "SupportsStorageEncryption"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
+			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfOrderableDbInstance{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-neptune.DataTfOrderableDbInstanceConfig",
+		reflect.TypeOf((*DataTfOrderableDbInstanceConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-neptune.TfCluster",
+		reflect.TypeOf((*TfCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -168,18 +356,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneCluster{}
+			j := jsiiProxy_TfCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneCluster.ServerlessV2ScalingConfigurationProperty",
-		reflect.TypeOf((*AwsNeptuneCluster_ServerlessV2ScalingConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfCluster.ServerlessV2ScalingConfigurationProperty",
+		reflect.TypeOf((*TfCluster_ServerlessV2ScalingConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneCluster.ServerlessV2ScalingConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneCluster_ServerlessV2ScalingConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfCluster.ServerlessV2ScalingConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_ServerlessV2ScalingConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -210,18 +398,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneCluster_ServerlessV2ScalingConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_ServerlessV2ScalingConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptuneCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -255,18 +443,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterConfig",
-		reflect.TypeOf((*AwsNeptuneClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterConfig",
+		reflect.TypeOf((*TfClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterEndpoint",
-		reflect.TypeOf((*AwsNeptuneClusterEndpoint)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterEndpoint",
+		reflect.TypeOf((*TfClusterEndpoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -340,18 +528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterEndpoint{}
+			j := jsiiProxy_TfClusterEndpoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterEndpointConfig",
-		reflect.TypeOf((*AwsNeptuneClusterEndpointConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterEndpointConfig",
+		reflect.TypeOf((*TfClusterEndpointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterInstance",
-		reflect.TypeOf((*AwsNeptuneClusterInstance)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterInstance",
+		reflect.TypeOf((*TfClusterInstance)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -472,18 +660,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writer", GoGetter: "Writer"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterInstance{}
+			j := jsiiProxy_TfClusterInstance{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterInstance.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptuneClusterInstance_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterInstance.TimeoutsProperty",
+		reflect.TypeOf((*TfClusterInstance_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterInstance.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneClusterInstance_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterInstance.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClusterInstance_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -517,18 +705,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterInstance_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClusterInstance_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterInstanceConfig",
-		reflect.TypeOf((*AwsNeptuneClusterInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterInstanceConfig",
+		reflect.TypeOf((*TfClusterInstanceConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterParameterGroup",
-		reflect.TypeOf((*AwsNeptuneClusterParameterGroup)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterParameterGroup",
+		reflect.TypeOf((*TfClusterParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -604,18 +792,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterParameterGroup{}
+			j := jsiiProxy_TfClusterParameterGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterParameterGroup.ParameterProperty",
-		reflect.TypeOf((*AwsNeptuneClusterParameterGroup_ParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterParameterGroup.ParameterProperty",
+		reflect.TypeOf((*TfClusterParameterGroup_ParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterParameterGroup.ParameterPropertyList",
-		reflect.TypeOf((*AwsNeptuneClusterParameterGroup_ParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterParameterGroup.ParameterPropertyList",
+		reflect.TypeOf((*TfClusterParameterGroup_ParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -630,14 +818,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterParameterGroup_ParameterPropertyList{}
+			j := jsiiProxy_TfClusterParameterGroup_ParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterParameterGroup.ParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneClusterParameterGroup_ParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterParameterGroup.ParameterPropertyOutputReference",
+		reflect.TypeOf((*TfClusterParameterGroup_ParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},
 			_jsii_.MemberProperty{JsiiProperty: "applyMethodInput", GoGetter: "ApplyMethodInput"},
@@ -669,18 +857,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterParameterGroup_ParameterPropertyOutputReference{}
+			j := jsiiProxy_TfClusterParameterGroup_ParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterParameterGroupConfig",
-		reflect.TypeOf((*AwsNeptuneClusterParameterGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterParameterGroupConfig",
+		reflect.TypeOf((*TfClusterParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterSnapshot",
-		reflect.TypeOf((*AwsNeptuneClusterSnapshot)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterSnapshot",
+		reflect.TypeOf((*TfClusterSnapshot)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -755,18 +943,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterSnapshot{}
+			j := jsiiProxy_TfClusterSnapshot{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterSnapshot.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptuneClusterSnapshot_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterSnapshot.TimeoutsProperty",
+		reflect.TypeOf((*TfClusterSnapshot_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneClusterSnapshot.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneClusterSnapshot_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterSnapshot.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfClusterSnapshot_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -794,18 +982,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneClusterSnapshot_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfClusterSnapshot_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneClusterSnapshotConfig",
-		reflect.TypeOf((*AwsNeptuneClusterSnapshotConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfClusterSnapshotConfig",
+		reflect.TypeOf((*TfClusterSnapshotConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneEventSubscription",
-		reflect.TypeOf((*AwsNeptuneEventSubscription)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfEventSubscription",
+		reflect.TypeOf((*TfEventSubscription)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -891,18 +1079,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneEventSubscription{}
+			j := jsiiProxy_TfEventSubscription{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneEventSubscription.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptuneEventSubscription_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfEventSubscription.TimeoutsProperty",
+		reflect.TypeOf((*TfEventSubscription_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneEventSubscription.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneEventSubscription_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfEventSubscription.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEventSubscription_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -936,18 +1124,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneEventSubscription_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEventSubscription_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneEventSubscriptionConfig",
-		reflect.TypeOf((*AwsNeptuneEventSubscriptionConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfEventSubscriptionConfig",
+		reflect.TypeOf((*TfEventSubscriptionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalCluster",
-		reflect.TypeOf((*AwsNeptuneGlobalCluster)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalCluster",
+		reflect.TypeOf((*TfGlobalCluster)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1026,18 +1214,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneGlobalCluster{}
+			j := jsiiProxy_TfGlobalCluster{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalCluster.GlobalClusterMembersProperty",
-		reflect.TypeOf((*AwsNeptuneGlobalCluster_GlobalClusterMembersProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalCluster.GlobalClusterMembersProperty",
+		reflect.TypeOf((*TfGlobalCluster_GlobalClusterMembersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalCluster.GlobalClusterMembersPropertyList",
-		reflect.TypeOf((*AwsNeptuneGlobalCluster_GlobalClusterMembersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalCluster.GlobalClusterMembersPropertyList",
+		reflect.TypeOf((*TfGlobalCluster_GlobalClusterMembersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1051,14 +1239,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneGlobalCluster_GlobalClusterMembersPropertyList{}
+			j := jsiiProxy_TfGlobalCluster_GlobalClusterMembersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalCluster.GlobalClusterMembersPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneGlobalCluster_GlobalClusterMembersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalCluster.GlobalClusterMembersPropertyOutputReference",
+		reflect.TypeOf((*TfGlobalCluster_GlobalClusterMembersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1085,18 +1273,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneGlobalCluster_GlobalClusterMembersPropertyOutputReference{}
+			j := jsiiProxy_TfGlobalCluster_GlobalClusterMembersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalCluster.TimeoutsProperty",
-		reflect.TypeOf((*AwsNeptuneGlobalCluster_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalCluster.TimeoutsProperty",
+		reflect.TypeOf((*TfGlobalCluster_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalCluster.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneGlobalCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalCluster.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGlobalCluster_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1130,18 +1318,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneGlobalCluster_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGlobalCluster_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneGlobalClusterConfig",
-		reflect.TypeOf((*AwsNeptuneGlobalClusterConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfGlobalClusterConfig",
+		reflect.TypeOf((*TfGlobalClusterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneParameterGroup",
-		reflect.TypeOf((*AwsNeptuneParameterGroup)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfParameterGroup",
+		reflect.TypeOf((*TfParameterGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1217,18 +1405,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneParameterGroup{}
+			j := jsiiProxy_TfParameterGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneParameterGroup.ParameterProperty",
-		reflect.TypeOf((*AwsNeptuneParameterGroup_ParameterProperty)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfParameterGroup.ParameterProperty",
+		reflect.TypeOf((*TfParameterGroup_ParameterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneParameterGroup.ParameterPropertyList",
-		reflect.TypeOf((*AwsNeptuneParameterGroup_ParameterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfParameterGroup.ParameterPropertyList",
+		reflect.TypeOf((*TfParameterGroup_ParameterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1243,14 +1431,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneParameterGroup_ParameterPropertyList{}
+			j := jsiiProxy_TfParameterGroup_ParameterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneParameterGroup.ParameterPropertyOutputReference",
-		reflect.TypeOf((*AwsNeptuneParameterGroup_ParameterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfParameterGroup.ParameterPropertyOutputReference",
+		reflect.TypeOf((*TfParameterGroup_ParameterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "applyMethod", GoGetter: "ApplyMethod"},
 			_jsii_.MemberProperty{JsiiProperty: "applyMethodInput", GoGetter: "ApplyMethodInput"},
@@ -1282,18 +1470,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneParameterGroup_ParameterPropertyOutputReference{}
+			j := jsiiProxy_TfParameterGroup_ParameterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneParameterGroupConfig",
-		reflect.TypeOf((*AwsNeptuneParameterGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfParameterGroupConfig",
+		reflect.TypeOf((*TfParameterGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.AwsNeptuneSubnetGroup",
-		reflect.TypeOf((*AwsNeptuneSubnetGroup)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfSubnetGroup",
+		reflect.TypeOf((*TfSubnetGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1365,201 +1553,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNeptuneSubnetGroup{}
+			j := jsiiProxy_TfSubnetGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.AwsNeptuneSubnetGroupConfig",
-		reflect.TypeOf((*AwsNeptuneSubnetGroupConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.DataAwsNeptuneEngineVersion",
-		reflect.TypeOf((*DataAwsNeptuneEngineVersion)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "defaultCharacterSet", GoGetter: "DefaultCharacterSet"},
-			_jsii_.MemberProperty{JsiiProperty: "defaultOnly", GoGetter: "DefaultOnly"},
-			_jsii_.MemberProperty{JsiiProperty: "defaultOnlyInput", GoGetter: "DefaultOnlyInput"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
-			_jsii_.MemberProperty{JsiiProperty: "engineDescription", GoGetter: "EngineDescription"},
-			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
-			_jsii_.MemberProperty{JsiiProperty: "exportableLogTypes", GoGetter: "ExportableLogTypes"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "hasMajorTarget", GoGetter: "HasMajorTarget"},
-			_jsii_.MemberProperty{JsiiProperty: "hasMajorTargetInput", GoGetter: "HasMajorTargetInput"},
-			_jsii_.MemberProperty{JsiiProperty: "hasMinorTarget", GoGetter: "HasMinorTarget"},
-			_jsii_.MemberProperty{JsiiProperty: "hasMinorTargetInput", GoGetter: "HasMinorTargetInput"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "latest", GoGetter: "Latest"},
-			_jsii_.MemberProperty{JsiiProperty: "latestInput", GoGetter: "LatestInput"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamily", GoGetter: "ParameterGroupFamily"},
-			_jsii_.MemberProperty{JsiiProperty: "parameterGroupFamilyInput", GoGetter: "ParameterGroupFamilyInput"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredMajorTargets", GoGetter: "PreferredMajorTargets"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredMajorTargetsInput", GoGetter: "PreferredMajorTargetsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredUpgradeTargets", GoGetter: "PreferredUpgradeTargets"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredUpgradeTargetsInput", GoGetter: "PreferredUpgradeTargetsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredVersions", GoGetter: "PreferredVersions"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredVersionsInput", GoGetter: "PreferredVersionsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetDefaultOnly", GoMethod: "ResetDefaultOnly"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
-			_jsii_.MemberMethod{JsiiMethod: "resetHasMajorTarget", GoMethod: "ResetHasMajorTarget"},
-			_jsii_.MemberMethod{JsiiMethod: "resetHasMinorTarget", GoMethod: "ResetHasMinorTarget"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLatest", GoMethod: "ResetLatest"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetParameterGroupFamily", GoMethod: "ResetParameterGroupFamily"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPreferredMajorTargets", GoMethod: "ResetPreferredMajorTargets"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPreferredUpgradeTargets", GoMethod: "ResetPreferredUpgradeTargets"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPreferredVersions", GoMethod: "ResetPreferredVersions"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVersion", GoMethod: "ResetVersion"},
-			_jsii_.MemberProperty{JsiiProperty: "supportedCharacterSets", GoGetter: "SupportedCharacterSets"},
-			_jsii_.MemberProperty{JsiiProperty: "supportedTimezones", GoGetter: "SupportedTimezones"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsGlobalDatabases", GoGetter: "SupportsGlobalDatabases"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsLogExportsToCloudwatch", GoGetter: "SupportsLogExportsToCloudwatch"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsReadReplica", GoGetter: "SupportsReadReplica"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "validMajorTargets", GoGetter: "ValidMajorTargets"},
-			_jsii_.MemberProperty{JsiiProperty: "validMinorTargets", GoGetter: "ValidMinorTargets"},
-			_jsii_.MemberProperty{JsiiProperty: "validUpgradeTargets", GoGetter: "ValidUpgradeTargets"},
-			_jsii_.MemberProperty{JsiiProperty: "version", GoGetter: "Version"},
-			_jsii_.MemberProperty{JsiiProperty: "versionActual", GoGetter: "VersionActual"},
-			_jsii_.MemberProperty{JsiiProperty: "versionDescription", GoGetter: "VersionDescription"},
-			_jsii_.MemberProperty{JsiiProperty: "versionInput", GoGetter: "VersionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsNeptuneEngineVersion{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.DataAwsNeptuneEngineVersionConfig",
-		reflect.TypeOf((*DataAwsNeptuneEngineVersionConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-neptune.DataAwsNeptuneOrderableDbInstance",
-		reflect.TypeOf((*DataAwsNeptuneOrderableDbInstance)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "availabilityZones", GoGetter: "AvailabilityZones"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "engine", GoGetter: "Engine"},
-			_jsii_.MemberProperty{JsiiProperty: "engineInput", GoGetter: "EngineInput"},
-			_jsii_.MemberProperty{JsiiProperty: "engineVersion", GoGetter: "EngineVersion"},
-			_jsii_.MemberProperty{JsiiProperty: "engineVersionInput", GoGetter: "EngineVersionInput"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceClass", GoGetter: "InstanceClass"},
-			_jsii_.MemberProperty{JsiiProperty: "instanceClassInput", GoGetter: "InstanceClassInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "licenseModel", GoGetter: "LicenseModel"},
-			_jsii_.MemberProperty{JsiiProperty: "licenseModelInput", GoGetter: "LicenseModelInput"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "maxIopsPerDbInstance", GoGetter: "MaxIopsPerDbInstance"},
-			_jsii_.MemberProperty{JsiiProperty: "maxIopsPerGib", GoGetter: "MaxIopsPerGib"},
-			_jsii_.MemberProperty{JsiiProperty: "maxStorageSize", GoGetter: "MaxStorageSize"},
-			_jsii_.MemberProperty{JsiiProperty: "minIopsPerDbInstance", GoGetter: "MinIopsPerDbInstance"},
-			_jsii_.MemberProperty{JsiiProperty: "minIopsPerGib", GoGetter: "MinIopsPerGib"},
-			_jsii_.MemberProperty{JsiiProperty: "minStorageSize", GoGetter: "MinStorageSize"},
-			_jsii_.MemberProperty{JsiiProperty: "multiAzCapable", GoGetter: "MultiAzCapable"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClasses", GoGetter: "PreferredInstanceClasses"},
-			_jsii_.MemberProperty{JsiiProperty: "preferredInstanceClassesInput", GoGetter: "PreferredInstanceClassesInput"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "readReplicaCapable", GoGetter: "ReadReplicaCapable"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEngine", GoMethod: "ResetEngine"},
-			_jsii_.MemberMethod{JsiiMethod: "resetEngineVersion", GoMethod: "ResetEngineVersion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetInstanceClass", GoMethod: "ResetInstanceClass"},
-			_jsii_.MemberMethod{JsiiMethod: "resetLicenseModel", GoMethod: "ResetLicenseModel"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetPreferredInstanceClasses", GoMethod: "ResetPreferredInstanceClasses"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetVpc", GoMethod: "ResetVpc"},
-			_jsii_.MemberProperty{JsiiProperty: "storageType", GoGetter: "StorageType"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsEnhancedMonitoring", GoGetter: "SupportsEnhancedMonitoring"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsIamDatabaseAuthentication", GoGetter: "SupportsIamDatabaseAuthentication"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsIops", GoGetter: "SupportsIops"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsPerformanceInsights", GoGetter: "SupportsPerformanceInsights"},
-			_jsii_.MemberProperty{JsiiProperty: "supportsStorageEncryption", GoGetter: "SupportsStorageEncryption"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberProperty{JsiiProperty: "vpc", GoGetter: "Vpc"},
-			_jsii_.MemberProperty{JsiiProperty: "vpcInput", GoGetter: "VpcInput"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsNeptuneOrderableDbInstance{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-neptune.DataAwsNeptuneOrderableDbInstanceConfig",
-		reflect.TypeOf((*DataAwsNeptuneOrderableDbInstanceConfig)(nil)).Elem(),
+		"@cdktn/aws-neptune.TfSubnetGroupConfig",
+		reflect.TypeOf((*TfSubnetGroupConfig)(nil)).Elem(),
 	)
 }

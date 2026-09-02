@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnector",
-		reflect.TypeOf((*AwsChimeVoiceConnector)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnector",
+		reflect.TypeOf((*TfVoiceConnector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -79,18 +79,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnector{}
+			j := jsiiProxy_TfVoiceConnector{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorConfig",
+		reflect.TypeOf((*TfVoiceConnectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorGroup",
-		reflect.TypeOf((*AwsChimeVoiceConnectorGroup)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorGroup",
+		reflect.TypeOf((*TfVoiceConnectorGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -150,18 +150,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorGroup{}
+			j := jsiiProxy_TfVoiceConnectorGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorGroup.ConnectorProperty",
-		reflect.TypeOf((*AwsChimeVoiceConnectorGroup_ConnectorProperty)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorGroup.ConnectorProperty",
+		reflect.TypeOf((*TfVoiceConnectorGroup_ConnectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorGroup.ConnectorPropertyList",
-		reflect.TypeOf((*AwsChimeVoiceConnectorGroup_ConnectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorGroup.ConnectorPropertyList",
+		reflect.TypeOf((*TfVoiceConnectorGroup_ConnectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -176,14 +176,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorGroup_ConnectorPropertyList{}
+			j := jsiiProxy_TfVoiceConnectorGroup_ConnectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorGroup.ConnectorPropertyOutputReference",
-		reflect.TypeOf((*AwsChimeVoiceConnectorGroup_ConnectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorGroup.ConnectorPropertyOutputReference",
+		reflect.TypeOf((*TfVoiceConnectorGroup_ConnectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -212,18 +212,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "voiceConnectorIdInput", GoGetter: "VoiceConnectorIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorGroup_ConnectorPropertyOutputReference{}
+			j := jsiiProxy_TfVoiceConnectorGroup_ConnectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorGroupConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorGroupConfig",
+		reflect.TypeOf((*TfVoiceConnectorGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorLogging",
-		reflect.TypeOf((*AwsChimeVoiceConnectorLogging)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorLogging",
+		reflect.TypeOf((*TfVoiceConnectorLogging)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -285,18 +285,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorLogging{}
+			j := jsiiProxy_TfVoiceConnectorLogging{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorLoggingConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorLoggingConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorLoggingConfig",
+		reflect.TypeOf((*TfVoiceConnectorLoggingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorOrigination",
-		reflect.TypeOf((*AwsChimeVoiceConnectorOrigination)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorOrigination",
+		reflect.TypeOf((*TfVoiceConnectorOrigination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -358,18 +358,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorOrigination{}
+			j := jsiiProxy_TfVoiceConnectorOrigination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorOrigination.RouteProperty",
-		reflect.TypeOf((*AwsChimeVoiceConnectorOrigination_RouteProperty)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorOrigination.RouteProperty",
+		reflect.TypeOf((*TfVoiceConnectorOrigination_RouteProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorOrigination.RoutePropertyList",
-		reflect.TypeOf((*AwsChimeVoiceConnectorOrigination_RoutePropertyList)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorOrigination.RoutePropertyList",
+		reflect.TypeOf((*TfVoiceConnectorOrigination_RoutePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -384,14 +384,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorOrigination_RoutePropertyList{}
+			j := jsiiProxy_TfVoiceConnectorOrigination_RoutePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorOrigination.RoutePropertyOutputReference",
-		reflect.TypeOf((*AwsChimeVoiceConnectorOrigination_RoutePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorOrigination.RoutePropertyOutputReference",
+		reflect.TypeOf((*TfVoiceConnectorOrigination_RoutePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -427,18 +427,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "weightInput", GoGetter: "WeightInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorOrigination_RoutePropertyOutputReference{}
+			j := jsiiProxy_TfVoiceConnectorOrigination_RoutePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorOriginationConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorOriginationConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorOriginationConfig",
+		reflect.TypeOf((*TfVoiceConnectorOriginationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorStreaming",
-		reflect.TypeOf((*AwsChimeVoiceConnectorStreaming)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorStreaming",
+		reflect.TypeOf((*TfVoiceConnectorStreaming)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -506,18 +506,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorStreaming{}
+			j := jsiiProxy_TfVoiceConnectorStreaming{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorStreaming.MediaInsightsConfigurationProperty",
-		reflect.TypeOf((*AwsChimeVoiceConnectorStreaming_MediaInsightsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorStreaming.MediaInsightsConfigurationProperty",
+		reflect.TypeOf((*TfVoiceConnectorStreaming_MediaInsightsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorStreaming.MediaInsightsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimeVoiceConnectorStreaming_MediaInsightsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorStreaming.MediaInsightsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfVoiceConnectorStreaming_MediaInsightsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -548,18 +548,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorStreaming_MediaInsightsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfVoiceConnectorStreaming_MediaInsightsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorStreamingConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorStreamingConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorStreamingConfig",
+		reflect.TypeOf((*TfVoiceConnectorStreamingConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTermination",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTermination)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTermination",
+		reflect.TypeOf((*TfVoiceConnectorTermination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -628,18 +628,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorTermination{}
+			j := jsiiProxy_TfVoiceConnectorTermination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTerminationConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTerminationConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTerminationConfig",
+		reflect.TypeOf((*TfVoiceConnectorTerminationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTerminationCredentials",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTerminationCredentials)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTerminationCredentials",
+		reflect.TypeOf((*TfVoiceConnectorTerminationCredentials)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -698,18 +698,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorTerminationCredentials{}
+			j := jsiiProxy_TfVoiceConnectorTerminationCredentials{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTerminationCredentials.CredentialsProperty",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTerminationCredentials_CredentialsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTerminationCredentials.CredentialsProperty",
+		reflect.TypeOf((*TfVoiceConnectorTerminationCredentials_CredentialsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTerminationCredentials.CredentialsPropertyList",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTerminationCredentials_CredentialsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTerminationCredentials.CredentialsPropertyList",
+		reflect.TypeOf((*TfVoiceConnectorTerminationCredentials_CredentialsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -724,14 +724,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorTerminationCredentials_CredentialsPropertyList{}
+			j := jsiiProxy_TfVoiceConnectorTerminationCredentials_CredentialsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTerminationCredentials.CredentialsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTerminationCredentials_CredentialsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTerminationCredentials.CredentialsPropertyOutputReference",
+		reflect.TypeOf((*TfVoiceConnectorTerminationCredentials_CredentialsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -760,13 +760,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "usernameInput", GoGetter: "UsernameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimeVoiceConnectorTerminationCredentials_CredentialsPropertyOutputReference{}
+			j := jsiiProxy_TfVoiceConnectorTerminationCredentials_CredentialsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime.AwsChimeVoiceConnectorTerminationCredentialsConfig",
-		reflect.TypeOf((*AwsChimeVoiceConnectorTerminationCredentialsConfig)(nil)).Elem(),
+		"@cdktn/aws-chime.TfVoiceConnectorTerminationCredentialsConfig",
+		reflect.TypeOf((*TfVoiceConnectorTerminationCredentialsConfig)(nil)).Elem(),
 	)
 }

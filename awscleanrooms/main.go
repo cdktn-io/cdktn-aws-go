@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration",
-		reflect.TypeOf((*AwsCleanroomsCollaboration)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration",
+		reflect.TypeOf((*TfCollaboration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -96,18 +96,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsCollaboration{}
+			j := jsiiProxy_TfCollaboration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.DataEncryptionMetadataProperty",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_DataEncryptionMetadataProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.DataEncryptionMetadataProperty",
+		reflect.TypeOf((*TfCollaboration_DataEncryptionMetadataProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.DataEncryptionMetadataPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_DataEncryptionMetadataPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.DataEncryptionMetadataPropertyOutputReference",
+		reflect.TypeOf((*TfCollaboration_DataEncryptionMetadataPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "allowClearText", GoGetter: "AllowClearText"},
 			_jsii_.MemberProperty{JsiiProperty: "allowClearTextInput", GoGetter: "AllowClearTextInput"},
@@ -140,18 +140,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsCollaboration_DataEncryptionMetadataPropertyOutputReference{}
+			j := jsiiProxy_TfCollaboration_DataEncryptionMetadataPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.MemberProperty",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_MemberProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.MemberProperty",
+		reflect.TypeOf((*TfCollaboration_MemberProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.MemberPropertyList",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_MemberPropertyList)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.MemberPropertyList",
+		reflect.TypeOf((*TfCollaboration_MemberPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -166,14 +166,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsCollaboration_MemberPropertyList{}
+			j := jsiiProxy_TfCollaboration_MemberPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.MemberPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_MemberPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.MemberPropertyOutputReference",
+		reflect.TypeOf((*TfCollaboration_MemberPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -205,18 +205,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsCollaboration_MemberPropertyOutputReference{}
+			j := jsiiProxy_TfCollaboration_MemberPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.TimeoutsProperty",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.TimeoutsProperty",
+		reflect.TypeOf((*TfCollaboration_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaboration.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsCollaboration_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaboration.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCollaboration_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -250,18 +250,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsCollaboration_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCollaboration_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsCollaborationConfig",
-		reflect.TypeOf((*AwsCleanroomsCollaborationConfig)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfCollaborationConfig",
+		reflect.TypeOf((*TfCollaborationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsConfiguredTable",
-		reflect.TypeOf((*AwsCleanroomsConfiguredTable)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfConfiguredTable",
+		reflect.TypeOf((*TfConfiguredTable)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -340,18 +340,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsConfiguredTable{}
+			j := jsiiProxy_TfConfiguredTable{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsConfiguredTable.TableReferenceProperty",
-		reflect.TypeOf((*AwsCleanroomsConfiguredTable_TableReferenceProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfConfiguredTable.TableReferenceProperty",
+		reflect.TypeOf((*TfConfiguredTable_TableReferenceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsConfiguredTable.TableReferencePropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsConfiguredTable_TableReferencePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfConfiguredTable.TableReferencePropertyOutputReference",
+		reflect.TypeOf((*TfConfiguredTable_TableReferencePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -380,18 +380,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsConfiguredTable_TableReferencePropertyOutputReference{}
+			j := jsiiProxy_TfConfiguredTable_TableReferencePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsConfiguredTable.TimeoutsProperty",
-		reflect.TypeOf((*AwsCleanroomsConfiguredTable_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfConfiguredTable.TimeoutsProperty",
+		reflect.TypeOf((*TfConfiguredTable_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsConfiguredTable.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsConfiguredTable_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfConfiguredTable.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfConfiguredTable_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -425,18 +425,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsConfiguredTable_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfConfiguredTable_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsConfiguredTableConfig",
-		reflect.TypeOf((*AwsCleanroomsConfiguredTableConfig)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfConfiguredTableConfig",
+		reflect.TypeOf((*TfConfiguredTableConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership",
-		reflect.TypeOf((*AwsCleanroomsMembership)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership",
+		reflect.TypeOf((*TfMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -513,18 +513,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership{}
+			j := jsiiProxy_TfMembership{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.DefaultResultConfigurationProperty",
-		reflect.TypeOf((*AwsCleanroomsMembership_DefaultResultConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.DefaultResultConfigurationProperty",
+		reflect.TypeOf((*TfMembership_DefaultResultConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.DefaultResultConfigurationPropertyList",
-		reflect.TypeOf((*AwsCleanroomsMembership_DefaultResultConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.DefaultResultConfigurationPropertyList",
+		reflect.TypeOf((*TfMembership_DefaultResultConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -539,14 +539,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_DefaultResultConfigurationPropertyList{}
+			j := jsiiProxy_TfMembership_DefaultResultConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.DefaultResultConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsMembership_DefaultResultConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.DefaultResultConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMembership_DefaultResultConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -578,18 +578,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_DefaultResultConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMembership_DefaultResultConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.OutputConfigurationProperty",
-		reflect.TypeOf((*AwsCleanroomsMembership_OutputConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.OutputConfigurationProperty",
+		reflect.TypeOf((*TfMembership_OutputConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.OutputConfigurationPropertyList",
-		reflect.TypeOf((*AwsCleanroomsMembership_OutputConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.OutputConfigurationPropertyList",
+		reflect.TypeOf((*TfMembership_OutputConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -604,14 +604,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_OutputConfigurationPropertyList{}
+			j := jsiiProxy_TfMembership_OutputConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.OutputConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsMembership_OutputConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.OutputConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMembership_OutputConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -640,18 +640,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_OutputConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMembership_OutputConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.PaymentConfigurationProperty",
-		reflect.TypeOf((*AwsCleanroomsMembership_PaymentConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.PaymentConfigurationProperty",
+		reflect.TypeOf((*TfMembership_PaymentConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.PaymentConfigurationPropertyList",
-		reflect.TypeOf((*AwsCleanroomsMembership_PaymentConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.PaymentConfigurationPropertyList",
+		reflect.TypeOf((*TfMembership_PaymentConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -666,14 +666,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_PaymentConfigurationPropertyList{}
+			j := jsiiProxy_TfMembership_PaymentConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.PaymentConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsMembership_PaymentConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.PaymentConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMembership_PaymentConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -702,18 +702,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_PaymentConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMembership_PaymentConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.QueryComputeProperty",
-		reflect.TypeOf((*AwsCleanroomsMembership_QueryComputeProperty)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.QueryComputeProperty",
+		reflect.TypeOf((*TfMembership_QueryComputeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.QueryComputePropertyList",
-		reflect.TypeOf((*AwsCleanroomsMembership_QueryComputePropertyList)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.QueryComputePropertyList",
+		reflect.TypeOf((*TfMembership_QueryComputePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -728,14 +728,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_QueryComputePropertyList{}
+			j := jsiiProxy_TfMembership_QueryComputePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.QueryComputePropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsMembership_QueryComputePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.QueryComputePropertyOutputReference",
+		reflect.TypeOf((*TfMembership_QueryComputePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -762,18 +762,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_QueryComputePropertyOutputReference{}
+			j := jsiiProxy_TfMembership_QueryComputePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.S3Property",
-		reflect.TypeOf((*AwsCleanroomsMembership_S3Property)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.S3Property",
+		reflect.TypeOf((*TfMembership_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.S3PropertyList",
-		reflect.TypeOf((*AwsCleanroomsMembership_S3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.S3PropertyList",
+		reflect.TypeOf((*TfMembership_S3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -788,14 +788,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_S3PropertyList{}
+			j := jsiiProxy_TfMembership_S3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembership.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsCleanroomsMembership_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembership.S3PropertyOutputReference",
+		reflect.TypeOf((*TfMembership_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -827,13 +827,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCleanroomsMembership_S3PropertyOutputReference{}
+			j := jsiiProxy_TfMembership_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-clean-rooms.AwsCleanroomsMembershipConfig",
-		reflect.TypeOf((*AwsCleanroomsMembershipConfig)(nil)).Elem(),
+		"@cdktn/aws-clean-rooms.TfMembershipConfig",
+		reflect.TypeOf((*TfMembershipConfig)(nil)).Elem(),
 	)
 }

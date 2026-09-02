@@ -1,0 +1,34 @@
+//go:build no_runtime_type_checking
+
+package awsnetworkfirewall
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataTfFirewallPolicy_IpSetPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfFirewallPolicy_IpSetPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfFirewallPolicy_IpSetPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfFirewallPolicy_IpSetPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfFirewallPolicy_IpSetPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfFirewallPolicy_IpSetPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewDataTfFirewallPolicy_IpSetPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-swf.AwsSwfDomain",
-		reflect.TypeOf((*AwsSwfDomain)(nil)).Elem(),
+		"@cdktn/aws-swf.TfDomain",
+		reflect.TypeOf((*TfDomain)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -82,13 +82,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "workflowExecutionRetentionPeriodInDaysInput", GoGetter: "WorkflowExecutionRetentionPeriodInDaysInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSwfDomain{}
+			j := jsiiProxy_TfDomain{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-swf.AwsSwfDomainConfig",
-		reflect.TypeOf((*AwsSwfDomainConfig)(nil)).Elem(),
+		"@cdktn/aws-swf.TfDomainConfig",
+		reflect.TypeOf((*TfDomainConfig)(nil)).Elem(),
 	)
 }

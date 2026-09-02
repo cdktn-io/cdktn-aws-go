@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager",
+		reflect.TypeOf((*TfConfigurationManager)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -80,18 +80,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSsmquicksetupConfigurationManager{}
+			j := jsiiProxy_TfConfigurationManager{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.ConfigurationDefinitionProperty",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_ConfigurationDefinitionProperty)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.ConfigurationDefinitionProperty",
+		reflect.TypeOf((*TfConfigurationManager_ConfigurationDefinitionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.ConfigurationDefinitionPropertyList",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_ConfigurationDefinitionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.ConfigurationDefinitionPropertyList",
+		reflect.TypeOf((*TfConfigurationManager_ConfigurationDefinitionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -106,14 +106,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSsmquicksetupConfigurationManager_ConfigurationDefinitionPropertyList{}
+			j := jsiiProxy_TfConfigurationManager_ConfigurationDefinitionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.ConfigurationDefinitionPropertyOutputReference",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_ConfigurationDefinitionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.ConfigurationDefinitionPropertyOutputReference",
+		reflect.TypeOf((*TfConfigurationManager_ConfigurationDefinitionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -152,18 +152,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeVersionInput", GoGetter: "TypeVersionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSsmquicksetupConfigurationManager_ConfigurationDefinitionPropertyOutputReference{}
+			j := jsiiProxy_TfConfigurationManager_ConfigurationDefinitionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.StatusSummariesProperty",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_StatusSummariesProperty)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.StatusSummariesProperty",
+		reflect.TypeOf((*TfConfigurationManager_StatusSummariesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.StatusSummariesPropertyList",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_StatusSummariesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.StatusSummariesPropertyList",
+		reflect.TypeOf((*TfConfigurationManager_StatusSummariesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -177,14 +177,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSsmquicksetupConfigurationManager_StatusSummariesPropertyList{}
+			j := jsiiProxy_TfConfigurationManager_StatusSummariesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.StatusSummariesPropertyOutputReference",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_StatusSummariesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.StatusSummariesPropertyOutputReference",
+		reflect.TypeOf((*TfConfigurationManager_StatusSummariesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -212,18 +212,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSsmquicksetupConfigurationManager_StatusSummariesPropertyOutputReference{}
+			j := jsiiProxy_TfConfigurationManager_StatusSummariesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.TimeoutsProperty",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.TimeoutsProperty",
+		reflect.TypeOf((*TfConfigurationManager_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManager.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManager_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManager.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfConfigurationManager_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -257,13 +257,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsSsmquicksetupConfigurationManager_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfConfigurationManager_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ssm-quick-setup.AwsSsmquicksetupConfigurationManagerConfig",
-		reflect.TypeOf((*AwsSsmquicksetupConfigurationManagerConfig)(nil)).Elem(),
+		"@cdktn/aws-ssm-quick-setup.TfConfigurationManagerConfig",
+		reflect.TypeOf((*TfConfigurationManagerConfig)(nil)).Elem(),
 	)
 }

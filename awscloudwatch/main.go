@@ -9,8 +9,183 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "managedRules", GoGetter: "ManagedRules"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceArnInput", GoGetter: "ResourceArnInput"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfContributorManagedInsightRules{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules.ManagedRulesProperty",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules_ManagedRulesProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules.ManagedRulesPropertyList",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules_ManagedRulesPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfContributorManagedInsightRules_ManagedRulesPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules.ManagedRulesPropertyOutputReference",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules_ManagedRulesPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
+			_jsii_.MemberProperty{JsiiProperty: "ruleState", GoGetter: "RuleState"},
+			_jsii_.MemberProperty{JsiiProperty: "templateName", GoGetter: "TemplateName"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfContributorManagedInsightRules_ManagedRulesPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules.RuleStateProperty",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules_RuleStateProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules.RuleStatePropertyList",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules_RuleStatePropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfContributorManagedInsightRules_RuleStatePropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRules.RuleStatePropertyOutputReference",
+		reflect.TypeOf((*DataTfContributorManagedInsightRules_RuleStatePropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "ruleName", GoGetter: "RuleName"},
+			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfContributorManagedInsightRules_RuleStatePropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-cloudwatch.DataTfContributorManagedInsightRulesConfig",
+		reflect.TypeOf((*DataTfContributorManagedInsightRulesConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule",
+		reflect.TypeOf((*TfAlarmMuteRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -88,18 +263,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule{}
+			j := jsiiProxy_TfAlarmMuteRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.MuteTargetsProperty",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_MuteTargetsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.MuteTargetsProperty",
+		reflect.TypeOf((*TfAlarmMuteRule_MuteTargetsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.MuteTargetsPropertyList",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_MuteTargetsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.MuteTargetsPropertyList",
+		reflect.TypeOf((*TfAlarmMuteRule_MuteTargetsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -114,14 +289,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule_MuteTargetsPropertyList{}
+			j := jsiiProxy_TfAlarmMuteRule_MuteTargetsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.MuteTargetsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_MuteTargetsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.MuteTargetsPropertyOutputReference",
+		reflect.TypeOf((*TfAlarmMuteRule_MuteTargetsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarmNames", GoGetter: "AlarmNames"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmNamesInput", GoGetter: "AlarmNamesInput"},
@@ -148,18 +323,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule_MuteTargetsPropertyOutputReference{}
+			j := jsiiProxy_TfAlarmMuteRule_MuteTargetsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.RuleProperty",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.RuleProperty",
+		reflect.TypeOf((*TfAlarmMuteRule_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.RulePropertyList",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.RulePropertyList",
+		reflect.TypeOf((*TfAlarmMuteRule_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -174,14 +349,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule_RulePropertyList{}
+			j := jsiiProxy_TfAlarmMuteRule_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.RulePropertyOutputReference",
+		reflect.TypeOf((*TfAlarmMuteRule_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -210,18 +385,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule_RulePropertyOutputReference{}
+			j := jsiiProxy_TfAlarmMuteRule_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.ScheduleProperty",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_ScheduleProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.ScheduleProperty",
+		reflect.TypeOf((*TfAlarmMuteRule_ScheduleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.SchedulePropertyList",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_SchedulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.SchedulePropertyList",
+		reflect.TypeOf((*TfAlarmMuteRule_SchedulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -236,14 +411,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule_SchedulePropertyList{}
+			j := jsiiProxy_TfAlarmMuteRule_SchedulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRule.SchedulePropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRule_SchedulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRule.SchedulePropertyOutputReference",
+		reflect.TypeOf((*TfAlarmMuteRule_SchedulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -275,18 +450,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchAlarmMuteRule_SchedulePropertyOutputReference{}
+			j := jsiiProxy_TfAlarmMuteRule_SchedulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchAlarmMuteRuleConfig",
-		reflect.TypeOf((*AwsCloudwatchAlarmMuteRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfAlarmMuteRuleConfig",
+		reflect.TypeOf((*TfAlarmMuteRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchCompositeAlarm",
-		reflect.TypeOf((*AwsCloudwatchCompositeAlarm)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfCompositeAlarm",
+		reflect.TypeOf((*TfCompositeAlarm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabled", GoGetter: "ActionsEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabledInput", GoGetter: "ActionsEnabledInput"},
@@ -370,18 +545,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchCompositeAlarm{}
+			j := jsiiProxy_TfCompositeAlarm{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchCompositeAlarm.ActionsSuppressorProperty",
-		reflect.TypeOf((*AwsCloudwatchCompositeAlarm_ActionsSuppressorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfCompositeAlarm.ActionsSuppressorProperty",
+		reflect.TypeOf((*TfCompositeAlarm_ActionsSuppressorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchCompositeAlarm.ActionsSuppressorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchCompositeAlarm_ActionsSuppressorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfCompositeAlarm.ActionsSuppressorPropertyOutputReference",
+		reflect.TypeOf((*TfCompositeAlarm_ActionsSuppressorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "alarm", GoGetter: "Alarm"},
 			_jsii_.MemberProperty{JsiiProperty: "alarmInput", GoGetter: "AlarmInput"},
@@ -412,18 +587,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "waitPeriodInput", GoGetter: "WaitPeriodInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchCompositeAlarm_ActionsSuppressorPropertyOutputReference{}
+			j := jsiiProxy_TfCompositeAlarm_ActionsSuppressorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchCompositeAlarmConfig",
-		reflect.TypeOf((*AwsCloudwatchCompositeAlarmConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfCompositeAlarmConfig",
+		reflect.TypeOf((*TfCompositeAlarmConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchContributorInsightRule",
-		reflect.TypeOf((*AwsCloudwatchContributorInsightRule)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfContributorInsightRule",
+		reflect.TypeOf((*TfContributorInsightRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -486,18 +661,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchContributorInsightRule{}
+			j := jsiiProxy_TfContributorInsightRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchContributorInsightRuleConfig",
-		reflect.TypeOf((*AwsCloudwatchContributorInsightRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfContributorInsightRuleConfig",
+		reflect.TypeOf((*TfContributorInsightRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchContributorManagedInsightRule",
-		reflect.TypeOf((*AwsCloudwatchContributorManagedInsightRule)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfContributorManagedInsightRule",
+		reflect.TypeOf((*TfContributorManagedInsightRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -561,18 +736,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchContributorManagedInsightRule{}
+			j := jsiiProxy_TfContributorManagedInsightRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchContributorManagedInsightRuleConfig",
-		reflect.TypeOf((*AwsCloudwatchContributorManagedInsightRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfContributorManagedInsightRuleConfig",
+		reflect.TypeOf((*TfContributorManagedInsightRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchDashboard",
-		reflect.TypeOf((*AwsCloudwatchDashboard)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfDashboard",
+		reflect.TypeOf((*TfDashboard)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -631,18 +806,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchDashboard{}
+			j := jsiiProxy_TfDashboard{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchDashboardConfig",
-		reflect.TypeOf((*AwsCloudwatchDashboardConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfDashboardConfig",
+		reflect.TypeOf((*TfDashboardConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm",
+		reflect.TypeOf((*TfMetricAlarm)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabled", GoGetter: "ActionsEnabled"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsEnabledInput", GoGetter: "ActionsEnabledInput"},
@@ -773,18 +948,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricAlarm{}
+			j := jsiiProxy_TfMetricAlarm{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.EvaluationCriteriaProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_EvaluationCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.EvaluationCriteriaProperty",
+		reflect.TypeOf((*TfMetricAlarm_EvaluationCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.EvaluationCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_EvaluationCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.EvaluationCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfMetricAlarm_EvaluationCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -812,18 +987,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricAlarm_EvaluationCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfMetricAlarm_EvaluationCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.MetricProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_MetricProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.MetricProperty",
+		reflect.TypeOf((*TfMetricAlarm_MetricProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.MetricPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_MetricPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.MetricPropertyOutputReference",
+		reflect.TypeOf((*TfMetricAlarm_MetricPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -863,18 +1038,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unitInput", GoGetter: "UnitInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricAlarm_MetricPropertyOutputReference{}
+			j := jsiiProxy_TfMetricAlarm_MetricPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.MetricQueryProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_MetricQueryProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.MetricQueryProperty",
+		reflect.TypeOf((*TfMetricAlarm_MetricQueryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.MetricQueryPropertyList",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_MetricQueryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.MetricQueryPropertyList",
+		reflect.TypeOf((*TfMetricAlarm_MetricQueryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -889,14 +1064,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricAlarm_MetricQueryPropertyList{}
+			j := jsiiProxy_TfMetricAlarm_MetricQueryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.MetricQueryPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_MetricQueryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.MetricQueryPropertyOutputReference",
+		reflect.TypeOf((*TfMetricAlarm_MetricQueryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -942,18 +1117,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricAlarm_MetricQueryPropertyOutputReference{}
+			j := jsiiProxy_TfMetricAlarm_MetricQueryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.PromqlCriteriaProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_PromqlCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.PromqlCriteriaProperty",
+		reflect.TypeOf((*TfMetricAlarm_PromqlCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarm.PromqlCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarm_PromqlCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarm.PromqlCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfMetricAlarm_PromqlCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -986,18 +1161,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricAlarm_PromqlCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfMetricAlarm_PromqlCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricAlarmConfig",
-		reflect.TypeOf((*AwsCloudwatchMetricAlarmConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricAlarmConfig",
+		reflect.TypeOf((*TfMetricAlarmConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream",
-		reflect.TypeOf((*AwsCloudwatchMetricStream)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream",
+		reflect.TypeOf((*TfMetricStream)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1092,18 +1267,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream{}
+			j := jsiiProxy_TfMetricStream{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.ExcludeFilterProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_ExcludeFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.ExcludeFilterProperty",
+		reflect.TypeOf((*TfMetricStream_ExcludeFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.ExcludeFilterPropertyList",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_ExcludeFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.ExcludeFilterPropertyList",
+		reflect.TypeOf((*TfMetricStream_ExcludeFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1118,14 +1293,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_ExcludeFilterPropertyList{}
+			j := jsiiProxy_TfMetricStream_ExcludeFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.ExcludeFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_ExcludeFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.ExcludeFilterPropertyOutputReference",
+		reflect.TypeOf((*TfMetricStream_ExcludeFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1155,18 +1330,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_ExcludeFilterPropertyOutputReference{}
+			j := jsiiProxy_TfMetricStream_ExcludeFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.IncludeFilterProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_IncludeFilterProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.IncludeFilterProperty",
+		reflect.TypeOf((*TfMetricStream_IncludeFilterProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.IncludeFilterPropertyList",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_IncludeFilterPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.IncludeFilterPropertyList",
+		reflect.TypeOf((*TfMetricStream_IncludeFilterPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1181,14 +1356,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_IncludeFilterPropertyList{}
+			j := jsiiProxy_TfMetricStream_IncludeFilterPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.IncludeFilterPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_IncludeFilterPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.IncludeFilterPropertyOutputReference",
+		reflect.TypeOf((*TfMetricStream_IncludeFilterPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1218,18 +1393,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_IncludeFilterPropertyOutputReference{}
+			j := jsiiProxy_TfMetricStream_IncludeFilterPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.IncludeMetricProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_IncludeMetricProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.IncludeMetricProperty",
+		reflect.TypeOf((*TfMetricStream_IncludeMetricProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.IncludeMetricPropertyList",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_IncludeMetricPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.IncludeMetricPropertyList",
+		reflect.TypeOf((*TfMetricStream_IncludeMetricPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1244,14 +1419,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_IncludeMetricPropertyList{}
+			j := jsiiProxy_TfMetricStream_IncludeMetricPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.IncludeMetricPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_IncludeMetricPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.IncludeMetricPropertyOutputReference",
+		reflect.TypeOf((*TfMetricStream_IncludeMetricPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1280,18 +1455,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_IncludeMetricPropertyOutputReference{}
+			j := jsiiProxy_TfMetricStream_IncludeMetricPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.StatisticsConfigurationProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_StatisticsConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.StatisticsConfigurationProperty",
+		reflect.TypeOf((*TfMetricStream_StatisticsConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.StatisticsConfigurationPropertyList",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_StatisticsConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.StatisticsConfigurationPropertyList",
+		reflect.TypeOf((*TfMetricStream_StatisticsConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1306,14 +1481,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_StatisticsConfigurationPropertyList{}
+			j := jsiiProxy_TfMetricStream_StatisticsConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.StatisticsConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_StatisticsConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.StatisticsConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMetricStream_StatisticsConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalStatistics", GoGetter: "AdditionalStatistics"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalStatisticsInput", GoGetter: "AdditionalStatisticsInput"},
@@ -1343,18 +1518,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_StatisticsConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMetricStream_StatisticsConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.TimeoutsProperty",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.TimeoutsProperty",
+		reflect.TypeOf((*TfMetricStream_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStream.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchMetricStream_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStream.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMetricStream_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1388,18 +1563,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchMetricStream_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMetricStream_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchMetricStreamConfig",
-		reflect.TypeOf((*AwsCloudwatchMetricStreamConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfMetricStreamConfig",
+		reflect.TypeOf((*TfMetricStreamConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchOtelEnrichment",
-		reflect.TypeOf((*AwsCloudwatchOtelEnrichment)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfOtelEnrichment",
+		reflect.TypeOf((*TfOtelEnrichment)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1455,18 +1630,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchOtelEnrichment{}
+			j := jsiiProxy_TfOtelEnrichment{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchOtelEnrichment.TimeoutsProperty",
-		reflect.TypeOf((*AwsCloudwatchOtelEnrichment_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfOtelEnrichment.TimeoutsProperty",
+		reflect.TypeOf((*TfOtelEnrichment_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchOtelEnrichment.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudwatchOtelEnrichment_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfOtelEnrichment.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfOtelEnrichment_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1497,188 +1672,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudwatchOtelEnrichment_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfOtelEnrichment_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.AwsCloudwatchOtelEnrichmentConfig",
-		reflect.TypeOf((*AwsCloudwatchOtelEnrichmentConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "managedRules", GoGetter: "ManagedRules"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceArnInput", GoGetter: "ResourceArnInput"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules.ManagedRulesProperty",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules_ManagedRulesProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules.ManagedRulesPropertyList",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules_ManagedRulesPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules_ManagedRulesPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules.ManagedRulesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules_ManagedRulesPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "resourceArn", GoGetter: "ResourceArn"},
-			_jsii_.MemberProperty{JsiiProperty: "ruleState", GoGetter: "RuleState"},
-			_jsii_.MemberProperty{JsiiProperty: "templateName", GoGetter: "TemplateName"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules_ManagedRulesPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules.RuleStateProperty",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules_RuleStateProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules.RuleStatePropertyList",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules_RuleStatePropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules_RuleStatePropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRules.RuleStatePropertyOutputReference",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRules_RuleStatePropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "ruleName", GoGetter: "RuleName"},
-			_jsii_.MemberProperty{JsiiProperty: "state", GoGetter: "State"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsCloudwatchContributorManagedInsightRules_RuleStatePropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudwatch.DataAwsCloudwatchContributorManagedInsightRulesConfig",
-		reflect.TypeOf((*DataAwsCloudwatchContributorManagedInsightRulesConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudwatch.TfOtelEnrichmentConfig",
+		reflect.TypeOf((*TfOtelEnrichmentConfig)(nil)).Elem(),
 	)
 }

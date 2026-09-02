@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionCollection",
-		reflect.TypeOf((*AwsRekognitionCollection)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfCollection",
+		reflect.TypeOf((*TfCollection)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -74,18 +74,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionCollection{}
+			j := jsiiProxy_TfCollection{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionCollection.TimeoutsProperty",
-		reflect.TypeOf((*AwsRekognitionCollection_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfCollection.TimeoutsProperty",
+		reflect.TypeOf((*TfCollection_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionCollection.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionCollection_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfCollection.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfCollection_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -113,18 +113,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionCollection_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfCollection_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionCollectionConfig",
-		reflect.TypeOf((*AwsRekognitionCollectionConfig)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfCollectionConfig",
+		reflect.TypeOf((*TfCollectionConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionProject",
-		reflect.TypeOf((*AwsRekognitionProject)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfProject",
+		reflect.TypeOf((*TfProject)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -193,18 +193,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionProject{}
+			j := jsiiProxy_TfProject{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionProject.TimeoutsProperty",
-		reflect.TypeOf((*AwsRekognitionProject_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfProject.TimeoutsProperty",
+		reflect.TypeOf((*TfProject_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionProject.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionProject_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfProject.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfProject_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -235,18 +235,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionProject_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfProject_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionProjectConfig",
-		reflect.TypeOf((*AwsRekognitionProjectConfig)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfProjectConfig",
+		reflect.TypeOf((*TfProjectConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor",
+		reflect.TypeOf((*TfStreamProcessor)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -338,18 +338,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor{}
+			j := jsiiProxy_TfStreamProcessor{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.BoundingBoxProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_BoundingBoxProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.BoundingBoxProperty",
+		reflect.TypeOf((*TfStreamProcessor_BoundingBoxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.BoundingBoxPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_BoundingBoxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.BoundingBoxPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_BoundingBoxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -364,14 +364,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_BoundingBoxPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_BoundingBoxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.BoundingBoxPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_BoundingBoxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.BoundingBoxPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_BoundingBoxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -408,18 +408,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "widthInput", GoGetter: "WidthInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_BoundingBoxPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_BoundingBoxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.ConnectedHomeProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_ConnectedHomeProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.ConnectedHomeProperty",
+		reflect.TypeOf((*TfStreamProcessor_ConnectedHomeProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.ConnectedHomePropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_ConnectedHomePropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.ConnectedHomePropertyList",
+		reflect.TypeOf((*TfStreamProcessor_ConnectedHomePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -434,14 +434,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_ConnectedHomePropertyList{}
+			j := jsiiProxy_TfStreamProcessor_ConnectedHomePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.ConnectedHomePropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_ConnectedHomePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.ConnectedHomePropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_ConnectedHomePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -472,18 +472,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_ConnectedHomePropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_ConnectedHomePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.DataSharingPreferenceProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_DataSharingPreferenceProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.DataSharingPreferenceProperty",
+		reflect.TypeOf((*TfStreamProcessor_DataSharingPreferenceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.DataSharingPreferencePropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_DataSharingPreferencePropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.DataSharingPreferencePropertyList",
+		reflect.TypeOf((*TfStreamProcessor_DataSharingPreferencePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -498,14 +498,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_DataSharingPreferencePropertyList{}
+			j := jsiiProxy_TfStreamProcessor_DataSharingPreferencePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.DataSharingPreferencePropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_DataSharingPreferencePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.DataSharingPreferencePropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_DataSharingPreferencePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -532,18 +532,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_DataSharingPreferencePropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_DataSharingPreferencePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.FaceSearchProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_FaceSearchProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.FaceSearchProperty",
+		reflect.TypeOf((*TfStreamProcessor_FaceSearchProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.FaceSearchPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_FaceSearchPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.FaceSearchPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_FaceSearchPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -558,14 +558,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_FaceSearchPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_FaceSearchPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.FaceSearchPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_FaceSearchPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.FaceSearchPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_FaceSearchPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "collectionId", GoGetter: "CollectionId"},
 			_jsii_.MemberProperty{JsiiProperty: "collectionIdInput", GoGetter: "CollectionIdInput"},
@@ -595,18 +595,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_FaceSearchPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_FaceSearchPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.InputProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_InputProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.InputProperty",
+		reflect.TypeOf((*TfStreamProcessor_InputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.InputPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_InputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.InputPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_InputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -621,14 +621,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_InputPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_InputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.InputPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_InputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.InputPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_InputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -657,18 +657,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_InputPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_InputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.KinesisDataStreamProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_KinesisDataStreamProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.KinesisDataStreamProperty",
+		reflect.TypeOf((*TfStreamProcessor_KinesisDataStreamProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.KinesisDataStreamPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_KinesisDataStreamPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.KinesisDataStreamPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_KinesisDataStreamPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -683,14 +683,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_KinesisDataStreamPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_KinesisDataStreamPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.KinesisDataStreamPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_KinesisDataStreamPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.KinesisDataStreamPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_KinesisDataStreamPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -718,18 +718,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_KinesisDataStreamPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_KinesisDataStreamPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.KinesisVideoStreamProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_KinesisVideoStreamProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.KinesisVideoStreamProperty",
+		reflect.TypeOf((*TfStreamProcessor_KinesisVideoStreamProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.KinesisVideoStreamPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_KinesisVideoStreamPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.KinesisVideoStreamPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_KinesisVideoStreamPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -744,14 +744,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_KinesisVideoStreamPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_KinesisVideoStreamPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.KinesisVideoStreamPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_KinesisVideoStreamPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.KinesisVideoStreamPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_KinesisVideoStreamPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
 			_jsii_.MemberProperty{JsiiProperty: "arnInput", GoGetter: "ArnInput"},
@@ -778,18 +778,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_KinesisVideoStreamPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_KinesisVideoStreamPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.NotificationChannelProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_NotificationChannelProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.NotificationChannelProperty",
+		reflect.TypeOf((*TfStreamProcessor_NotificationChannelProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.NotificationChannelPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_NotificationChannelPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.NotificationChannelPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_NotificationChannelPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -804,14 +804,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_NotificationChannelPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_NotificationChannelPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.NotificationChannelPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_NotificationChannelPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.NotificationChannelPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_NotificationChannelPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -839,18 +839,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_NotificationChannelPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_NotificationChannelPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.OutputProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_OutputProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.OutputProperty",
+		reflect.TypeOf((*TfStreamProcessor_OutputProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.OutputPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_OutputPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.OutputPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_OutputPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -865,14 +865,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_OutputPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_OutputPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.OutputPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_OutputPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.OutputPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_OutputPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -905,18 +905,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_OutputPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_OutputPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.PolygonProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_PolygonProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.PolygonProperty",
+		reflect.TypeOf((*TfStreamProcessor_PolygonProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.PolygonPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_PolygonPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.PolygonPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_PolygonPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -931,14 +931,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_PolygonPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_PolygonPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.PolygonPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_PolygonPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.PolygonPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_PolygonPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -969,18 +969,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "yInput", GoGetter: "YInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_PolygonPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_PolygonPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.RegionsOfInterestProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_RegionsOfInterestProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.RegionsOfInterestProperty",
+		reflect.TypeOf((*TfStreamProcessor_RegionsOfInterestProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.RegionsOfInterestPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_RegionsOfInterestPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.RegionsOfInterestPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_RegionsOfInterestPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -995,14 +995,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_RegionsOfInterestPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_RegionsOfInterestPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.RegionsOfInterestPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_RegionsOfInterestPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.RegionsOfInterestPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_RegionsOfInterestPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "boundingBox", GoGetter: "BoundingBox"},
 			_jsii_.MemberProperty{JsiiProperty: "boundingBoxInput", GoGetter: "BoundingBoxInput"},
@@ -1035,18 +1035,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_RegionsOfInterestPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_RegionsOfInterestPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.S3DestinationProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_S3DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.S3DestinationProperty",
+		reflect.TypeOf((*TfStreamProcessor_S3DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.S3DestinationPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_S3DestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.S3DestinationPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_S3DestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1061,14 +1061,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_S3DestinationPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_S3DestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.S3DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_S3DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.S3DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_S3DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucket", GoGetter: "Bucket"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketInput", GoGetter: "BucketInput"},
@@ -1099,18 +1099,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_S3DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_S3DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.SettingsProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_SettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.SettingsProperty",
+		reflect.TypeOf((*TfStreamProcessor_SettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.SettingsPropertyList",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_SettingsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.SettingsPropertyList",
+		reflect.TypeOf((*TfStreamProcessor_SettingsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1125,14 +1125,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_SettingsPropertyList{}
+			j := jsiiProxy_TfStreamProcessor_SettingsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.SettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_SettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.SettingsPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_SettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1165,18 +1165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_SettingsPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_SettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.TimeoutsProperty",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.TimeoutsProperty",
+		reflect.TypeOf((*TfStreamProcessor_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessor.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRekognitionStreamProcessor_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessor.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfStreamProcessor_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1210,13 +1210,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRekognitionStreamProcessor_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfStreamProcessor_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-rekognition.AwsRekognitionStreamProcessorConfig",
-		reflect.TypeOf((*AwsRekognitionStreamProcessorConfig)(nil)).Elem(),
+		"@cdktn/aws-rekognition.TfStreamProcessorConfig",
+		reflect.TypeOf((*TfStreamProcessorConfig)(nil)).Elem(),
 	)
 }

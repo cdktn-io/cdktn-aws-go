@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsChannelAssociation",
-		reflect.TypeOf((*AwsNotificationsChannelAssociation)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfChannelAssociation",
+		reflect.TypeOf((*TfChannelAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -62,18 +62,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsChannelAssociation{}
+			j := jsiiProxy_TfChannelAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsChannelAssociationConfig",
-		reflect.TypeOf((*AwsNotificationsChannelAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfChannelAssociationConfig",
+		reflect.TypeOf((*TfChannelAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsEventRule",
-		reflect.TypeOf((*AwsNotificationsEventRule)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfEventRule",
+		reflect.TypeOf((*TfEventRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -133,18 +133,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsEventRule{}
+			j := jsiiProxy_TfEventRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsEventRuleConfig",
-		reflect.TypeOf((*AwsNotificationsEventRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfEventRuleConfig",
+		reflect.TypeOf((*TfEventRuleConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsManagedNotificationAccountContactAssociation",
-		reflect.TypeOf((*AwsNotificationsManagedNotificationAccountContactAssociation)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfManagedNotificationAccountContactAssociation",
+		reflect.TypeOf((*TfManagedNotificationAccountContactAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -196,18 +196,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsManagedNotificationAccountContactAssociation{}
+			j := jsiiProxy_TfManagedNotificationAccountContactAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsManagedNotificationAccountContactAssociationConfig",
-		reflect.TypeOf((*AwsNotificationsManagedNotificationAccountContactAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfManagedNotificationAccountContactAssociationConfig",
+		reflect.TypeOf((*TfManagedNotificationAccountContactAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsManagedNotificationAdditionalChannelAssociation",
-		reflect.TypeOf((*AwsNotificationsManagedNotificationAdditionalChannelAssociation)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfManagedNotificationAdditionalChannelAssociation",
+		reflect.TypeOf((*TfManagedNotificationAdditionalChannelAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -259,18 +259,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsManagedNotificationAdditionalChannelAssociation{}
+			j := jsiiProxy_TfManagedNotificationAdditionalChannelAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsManagedNotificationAdditionalChannelAssociationConfig",
-		reflect.TypeOf((*AwsNotificationsManagedNotificationAdditionalChannelAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfManagedNotificationAdditionalChannelAssociationConfig",
+		reflect.TypeOf((*TfManagedNotificationAdditionalChannelAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsNotificationConfiguration",
-		reflect.TypeOf((*AwsNotificationsNotificationConfiguration)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfNotificationConfiguration",
+		reflect.TypeOf((*TfNotificationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -330,18 +330,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsNotificationConfiguration{}
+			j := jsiiProxy_TfNotificationConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsNotificationConfigurationConfig",
-		reflect.TypeOf((*AwsNotificationsNotificationConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfNotificationConfigurationConfig",
+		reflect.TypeOf((*TfNotificationConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsNotificationHub",
-		reflect.TypeOf((*AwsNotificationsNotificationHub)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfNotificationHub",
+		reflect.TypeOf((*TfNotificationHub)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -395,18 +395,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsNotificationHub{}
+			j := jsiiProxy_TfNotificationHub{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsNotificationHub.TimeoutsProperty",
-		reflect.TypeOf((*AwsNotificationsNotificationHub_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfNotificationHub.TimeoutsProperty",
+		reflect.TypeOf((*TfNotificationHub_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsNotificationHub.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNotificationsNotificationHub_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfNotificationHub.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfNotificationHub_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -437,18 +437,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsNotificationHub_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfNotificationHub_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsNotificationHubConfig",
-		reflect.TypeOf((*AwsNotificationsNotificationHubConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfNotificationHubConfig",
+		reflect.TypeOf((*TfNotificationHubConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsOrganizationalUnitAssociation",
-		reflect.TypeOf((*AwsNotificationsOrganizationalUnitAssociation)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfOrganizationalUnitAssociation",
+		reflect.TypeOf((*TfOrganizationalUnitAssociation)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -500,18 +500,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsOrganizationalUnitAssociation{}
+			j := jsiiProxy_TfOrganizationalUnitAssociation{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsOrganizationalUnitAssociationConfig",
-		reflect.TypeOf((*AwsNotificationsOrganizationalUnitAssociationConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfOrganizationalUnitAssociationConfig",
+		reflect.TypeOf((*TfOrganizationalUnitAssociationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsOrganizationsAccess",
-		reflect.TypeOf((*AwsNotificationsOrganizationsAccess)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfOrganizationsAccess",
+		reflect.TypeOf((*TfOrganizationsAccess)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -565,18 +565,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsOrganizationsAccess{}
+			j := jsiiProxy_TfOrganizationsAccess{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsOrganizationsAccess.TimeoutsProperty",
-		reflect.TypeOf((*AwsNotificationsOrganizationsAccess_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfOrganizationsAccess.TimeoutsProperty",
+		reflect.TypeOf((*TfOrganizationsAccess_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications.AwsNotificationsOrganizationsAccess.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsNotificationsOrganizationsAccess_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfOrganizationsAccess.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationsAccess_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -610,13 +610,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationsOrganizationsAccess_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationsAccess_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications.AwsNotificationsOrganizationsAccessConfig",
-		reflect.TypeOf((*AwsNotificationsOrganizationsAccessConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications.TfOrganizationsAccessConfig",
+		reflect.TypeOf((*TfOrganizationsAccessConfig)(nil)).Elem(),
 	)
 }

@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloud9.AwsCloud9EnvironmentEc2",
-		reflect.TypeOf((*AwsCloud9EnvironmentEc2)(nil)).Elem(),
+		"@cdktn/aws-cloud9.TfEnvironmentEc2",
+		reflect.TypeOf((*TfEnvironmentEc2)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -93,18 +93,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloud9EnvironmentEc2{}
+			j := jsiiProxy_TfEnvironmentEc2{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloud9.AwsCloud9EnvironmentEc2Config",
-		reflect.TypeOf((*AwsCloud9EnvironmentEc2Config)(nil)).Elem(),
+		"@cdktn/aws-cloud9.TfEnvironmentEc2Config",
+		reflect.TypeOf((*TfEnvironmentEc2Config)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloud9.AwsCloud9EnvironmentMembership",
-		reflect.TypeOf((*AwsCloud9EnvironmentMembership)(nil)).Elem(),
+		"@cdktn/aws-cloud9.TfEnvironmentMembership",
+		reflect.TypeOf((*TfEnvironmentMembership)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -165,13 +165,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloud9EnvironmentMembership{}
+			j := jsiiProxy_TfEnvironmentMembership{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloud9.AwsCloud9EnvironmentMembershipConfig",
-		reflect.TypeOf((*AwsCloud9EnvironmentMembershipConfig)(nil)).Elem(),
+		"@cdktn/aws-cloud9.TfEnvironmentMembershipConfig",
+		reflect.TypeOf((*TfEnvironmentMembershipConfig)(nil)).Elem(),
 	)
 }

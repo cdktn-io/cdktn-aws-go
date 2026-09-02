@@ -1,0 +1,13 @@
+package awsglobalaccelerator
+
+
+// Experimental.
+type TfEndpointGroup_PortOverrideProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/globalaccelerator_endpoint_group#endpoint_port TfEndpointGroup#endpoint_port}.
+	// Experimental.
+	EndpointPort *float64 `field:"required" json:"endpointPort" yaml:"endpointPort"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/globalaccelerator_endpoint_group#listener_port TfEndpointGroup#listener_port}.
+	// Experimental.
+	ListenerPort *float64 `field:"required" json:"listenerPort" yaml:"listenerPort"`
+}
+

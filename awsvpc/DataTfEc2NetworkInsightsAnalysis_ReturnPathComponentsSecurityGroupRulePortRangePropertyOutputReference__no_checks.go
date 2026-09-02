@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package awsvpc
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateSetInternalValueParameters(val *DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangeProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataTfEc2NetworkInsightsAnalysis_ReturnPathComponentsSecurityGroupRulePortRangePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

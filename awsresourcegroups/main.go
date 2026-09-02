@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup",
-		reflect.TypeOf((*AwsResourcegroupsGroup)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup",
+		reflect.TypeOf((*TfGroup)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -88,18 +88,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup{}
+			j := jsiiProxy_TfGroup{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ConfigurationProperty",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ConfigurationProperty",
+		reflect.TypeOf((*TfGroup_ConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ConfigurationPropertyList",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ConfigurationPropertyList",
+		reflect.TypeOf((*TfGroup_ConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -114,14 +114,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup_ConfigurationPropertyList{}
+			j := jsiiProxy_TfGroup_ConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfGroup_ConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -152,18 +152,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup_ConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfGroup_ConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ParametersProperty",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ParametersProperty)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ParametersProperty",
+		reflect.TypeOf((*TfGroup_ParametersProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ParametersPropertyList",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ParametersPropertyList)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ParametersPropertyList",
+		reflect.TypeOf((*TfGroup_ParametersPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -178,14 +178,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup_ParametersPropertyList{}
+			j := jsiiProxy_TfGroup_ParametersPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ParametersPropertyOutputReference",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ParametersPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ParametersPropertyOutputReference",
+		reflect.TypeOf((*TfGroup_ParametersPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -214,18 +214,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup_ParametersPropertyOutputReference{}
+			j := jsiiProxy_TfGroup_ParametersPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ResourceQueryProperty",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ResourceQueryProperty)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ResourceQueryProperty",
+		reflect.TypeOf((*TfGroup_ResourceQueryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.ResourceQueryPropertyOutputReference",
-		reflect.TypeOf((*AwsResourcegroupsGroup_ResourceQueryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.ResourceQueryPropertyOutputReference",
+		reflect.TypeOf((*TfGroup_ResourceQueryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -255,18 +255,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup_ResourceQueryPropertyOutputReference{}
+			j := jsiiProxy_TfGroup_ResourceQueryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.TimeoutsProperty",
-		reflect.TypeOf((*AwsResourcegroupsGroup_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.TimeoutsProperty",
+		reflect.TypeOf((*TfGroup_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroup.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsResourcegroupsGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroup.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfGroup_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -297,18 +297,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsGroup_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfGroup_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsGroupConfig",
-		reflect.TypeOf((*AwsResourcegroupsGroupConfig)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfGroupConfig",
+		reflect.TypeOf((*TfGroupConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsResource",
-		reflect.TypeOf((*AwsResourcegroupsResource)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfResource",
+		reflect.TypeOf((*TfResource)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -371,18 +371,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsResource{}
+			j := jsiiProxy_TfResource{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsResource.TimeoutsProperty",
-		reflect.TypeOf((*AwsResourcegroupsResource_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfResource.TimeoutsProperty",
+		reflect.TypeOf((*TfResource_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsResource.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsResourcegroupsResource_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfResource.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfResource_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -413,13 +413,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsResourcegroupsResource_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfResource_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-resource-groups.AwsResourcegroupsResourceConfig",
-		reflect.TypeOf((*AwsResourcegroupsResourceConfig)(nil)).Elem(),
+		"@cdktn/aws-resource-groups.TfResourceConfig",
+		reflect.TypeOf((*TfResourceConfig)(nil)).Elem(),
 	)
 }

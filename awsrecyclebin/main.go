@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule",
-		reflect.TypeOf((*AwsRbinRule)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule",
+		reflect.TypeOf((*TfRule)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -96,18 +96,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule{}
+			j := jsiiProxy_TfRule{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.ExcludeResourceTagsProperty",
-		reflect.TypeOf((*AwsRbinRule_ExcludeResourceTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.ExcludeResourceTagsProperty",
+		reflect.TypeOf((*TfRule_ExcludeResourceTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.ExcludeResourceTagsPropertyList",
-		reflect.TypeOf((*AwsRbinRule_ExcludeResourceTagsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.ExcludeResourceTagsPropertyList",
+		reflect.TypeOf((*TfRule_ExcludeResourceTagsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -122,14 +122,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_ExcludeResourceTagsPropertyList{}
+			j := jsiiProxy_TfRule_ExcludeResourceTagsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.ExcludeResourceTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsRbinRule_ExcludeResourceTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.ExcludeResourceTagsPropertyOutputReference",
+		reflect.TypeOf((*TfRule_ExcludeResourceTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -159,18 +159,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_ExcludeResourceTagsPropertyOutputReference{}
+			j := jsiiProxy_TfRule_ExcludeResourceTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.LockConfigurationProperty",
-		reflect.TypeOf((*AwsRbinRule_LockConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.LockConfigurationProperty",
+		reflect.TypeOf((*TfRule_LockConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.LockConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsRbinRule_LockConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.LockConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfRule_LockConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -198,18 +198,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unlockDelayInput", GoGetter: "UnlockDelayInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_LockConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfRule_LockConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.ResourceTagsProperty",
-		reflect.TypeOf((*AwsRbinRule_ResourceTagsProperty)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.ResourceTagsProperty",
+		reflect.TypeOf((*TfRule_ResourceTagsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.ResourceTagsPropertyList",
-		reflect.TypeOf((*AwsRbinRule_ResourceTagsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.ResourceTagsPropertyList",
+		reflect.TypeOf((*TfRule_ResourceTagsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -224,14 +224,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_ResourceTagsPropertyList{}
+			j := jsiiProxy_TfRule_ResourceTagsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.ResourceTagsPropertyOutputReference",
-		reflect.TypeOf((*AwsRbinRule_ResourceTagsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.ResourceTagsPropertyOutputReference",
+		reflect.TypeOf((*TfRule_ResourceTagsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -261,18 +261,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_ResourceTagsPropertyOutputReference{}
+			j := jsiiProxy_TfRule_ResourceTagsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.RetentionPeriodProperty",
-		reflect.TypeOf((*AwsRbinRule_RetentionPeriodProperty)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.RetentionPeriodProperty",
+		reflect.TypeOf((*TfRule_RetentionPeriodProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.RetentionPeriodPropertyOutputReference",
-		reflect.TypeOf((*AwsRbinRule_RetentionPeriodPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.RetentionPeriodPropertyOutputReference",
+		reflect.TypeOf((*TfRule_RetentionPeriodPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -301,18 +301,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_RetentionPeriodPropertyOutputReference{}
+			j := jsiiProxy_TfRule_RetentionPeriodPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.TimeoutsProperty",
-		reflect.TypeOf((*AwsRbinRule_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.TimeoutsProperty",
+		reflect.TypeOf((*TfRule_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsRbinRule_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRule_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -346,18 +346,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRule_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.UnlockDelayProperty",
-		reflect.TypeOf((*AwsRbinRule_UnlockDelayProperty)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.UnlockDelayProperty",
+		reflect.TypeOf((*TfRule_UnlockDelayProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-recycle-bin.AwsRbinRule.UnlockDelayPropertyOutputReference",
-		reflect.TypeOf((*AwsRbinRule_UnlockDelayPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRule.UnlockDelayPropertyOutputReference",
+		reflect.TypeOf((*TfRule_UnlockDelayPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -386,13 +386,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unlockDelayValueInput", GoGetter: "UnlockDelayValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsRbinRule_UnlockDelayPropertyOutputReference{}
+			j := jsiiProxy_TfRule_UnlockDelayPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-recycle-bin.AwsRbinRuleConfig",
-		reflect.TypeOf((*AwsRbinRuleConfig)(nil)).Elem(),
+		"@cdktn/aws-recycle-bin.TfRuleConfig",
+		reflect.TypeOf((*TfRuleConfig)(nil)).Elem(),
 	)
 }

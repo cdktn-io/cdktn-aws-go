@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration",
+		reflect.TypeOf((*TfLoggingConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -83,18 +83,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatLoggingConfiguration{}
+			j := jsiiProxy_TfLoggingConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.CloudwatchLogsProperty",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_CloudwatchLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.CloudwatchLogsProperty",
+		reflect.TypeOf((*TfLoggingConfiguration_CloudwatchLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.CloudwatchLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.CloudwatchLogsPropertyOutputReference",
+		reflect.TypeOf((*TfLoggingConfiguration_CloudwatchLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -121,18 +121,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatLoggingConfiguration_CloudwatchLogsPropertyOutputReference{}
+			j := jsiiProxy_TfLoggingConfiguration_CloudwatchLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.DestinationConfigurationProperty",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_DestinationConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.DestinationConfigurationProperty",
+		reflect.TypeOf((*TfLoggingConfiguration_DestinationConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.DestinationConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.DestinationConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfLoggingConfiguration_DestinationConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogs", GoGetter: "CloudwatchLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "cloudwatchLogsInput", GoGetter: "CloudwatchLogsInput"},
@@ -169,18 +169,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatLoggingConfiguration_DestinationConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfLoggingConfiguration_DestinationConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.FirehoseProperty",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_FirehoseProperty)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.FirehoseProperty",
+		reflect.TypeOf((*TfLoggingConfiguration_FirehoseProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.FirehosePropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_FirehosePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.FirehosePropertyOutputReference",
+		reflect.TypeOf((*TfLoggingConfiguration_FirehosePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -207,18 +207,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatLoggingConfiguration_FirehosePropertyOutputReference{}
+			j := jsiiProxy_TfLoggingConfiguration_FirehosePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.S3Property",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_S3Property)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.S3Property",
+		reflect.TypeOf((*TfLoggingConfiguration_S3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.S3PropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_S3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.S3PropertyOutputReference",
+		reflect.TypeOf((*TfLoggingConfiguration_S3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -245,18 +245,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatLoggingConfiguration_S3PropertyOutputReference{}
+			j := jsiiProxy_TfLoggingConfiguration_S3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.TimeoutsProperty",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.TimeoutsProperty",
+		reflect.TypeOf((*TfLoggingConfiguration_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfiguration.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatLoggingConfiguration_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfiguration.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfLoggingConfiguration_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -290,18 +290,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatLoggingConfiguration_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfLoggingConfiguration_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatLoggingConfigurationConfig",
-		reflect.TypeOf((*AwsIvschatLoggingConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfLoggingConfigurationConfig",
+		reflect.TypeOf((*TfLoggingConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatRoom",
-		reflect.TypeOf((*AwsIvschatRoom)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfRoom",
+		reflect.TypeOf((*TfRoom)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -382,18 +382,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatRoom{}
+			j := jsiiProxy_TfRoom{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatRoom.MessageReviewHandlerProperty",
-		reflect.TypeOf((*AwsIvschatRoom_MessageReviewHandlerProperty)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfRoom.MessageReviewHandlerProperty",
+		reflect.TypeOf((*TfRoom_MessageReviewHandlerProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatRoom.MessageReviewHandlerPropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatRoom_MessageReviewHandlerPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfRoom.MessageReviewHandlerPropertyOutputReference",
+		reflect.TypeOf((*TfRoom_MessageReviewHandlerPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -424,18 +424,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "uriInput", GoGetter: "UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatRoom_MessageReviewHandlerPropertyOutputReference{}
+			j := jsiiProxy_TfRoom_MessageReviewHandlerPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatRoom.TimeoutsProperty",
-		reflect.TypeOf((*AwsIvschatRoom_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfRoom.TimeoutsProperty",
+		reflect.TypeOf((*TfRoom_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ivs-chat.AwsIvschatRoom.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsIvschatRoom_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfRoom.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfRoom_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -469,13 +469,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsIvschatRoom_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfRoom_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ivs-chat.AwsIvschatRoomConfig",
-		reflect.TypeOf((*AwsIvschatRoomConfig)(nil)).Elem(),
+		"@cdktn/aws-ivs-chat.TfRoomConfig",
+		reflect.TypeOf((*TfRoomConfig)(nil)).Elem(),
 	)
 }

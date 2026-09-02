@@ -1,7 +1,0 @@
-package awseks
-
-
-// Experimental.
-type DataAwsEksClusterVersions_ClusterVersionsControlPlaneScalingTiersControlPlaneComponentConfigOverridesKubeSchedulerConfigNodeResourcesFitScoringStrategyConstraintsResourcesProperty struct {
-}
-

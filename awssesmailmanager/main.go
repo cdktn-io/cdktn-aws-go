@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint",
+		reflect.TypeOf((*TfIngressPoint)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -94,18 +94,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint{}
+			j := jsiiProxy_TfIngressPoint{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.IngressPointConfigurationProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_IngressPointConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.IngressPointConfigurationProperty",
+		reflect.TypeOf((*TfIngressPoint_IngressPointConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.IngressPointConfigurationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_IngressPointConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.IngressPointConfigurationPropertyList",
+		reflect.TypeOf((*TfIngressPoint_IngressPointConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -120,14 +120,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_IngressPointConfigurationPropertyList{}
+			j := jsiiProxy_TfIngressPoint_IngressPointConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.IngressPointConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_IngressPointConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.IngressPointConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_IngressPointConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -165,18 +165,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_IngressPointConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_IngressPointConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.NetworkConfigurationProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_NetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.NetworkConfigurationProperty",
+		reflect.TypeOf((*TfIngressPoint_NetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.NetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_NetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.NetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfIngressPoint_NetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -191,14 +191,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_NetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfIngressPoint_NetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.NetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.NetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_NetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -231,18 +231,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_NetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_NetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.PrivateNetworkConfigurationProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_PrivateNetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.PrivateNetworkConfigurationProperty",
+		reflect.TypeOf((*TfIngressPoint_PrivateNetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.PrivateNetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_PrivateNetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.PrivateNetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfIngressPoint_PrivateNetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -257,14 +257,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_PrivateNetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfIngressPoint_PrivateNetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.PrivateNetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_PrivateNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.PrivateNetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_PrivateNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -291,18 +291,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vpcEndpointIdInput", GoGetter: "VpcEndpointIdInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_PrivateNetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_PrivateNetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.PublicNetworkConfigurationProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_PublicNetworkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.PublicNetworkConfigurationProperty",
+		reflect.TypeOf((*TfIngressPoint_PublicNetworkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.PublicNetworkConfigurationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_PublicNetworkConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.PublicNetworkConfigurationPropertyList",
+		reflect.TypeOf((*TfIngressPoint_PublicNetworkConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -317,14 +317,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_PublicNetworkConfigurationPropertyList{}
+			j := jsiiProxy_TfIngressPoint_PublicNetworkConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.PublicNetworkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_PublicNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.PublicNetworkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_PublicNetworkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -351,18 +351,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_PublicNetworkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_PublicNetworkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TimeoutsProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TimeoutsProperty",
+		reflect.TypeOf((*TfIngressPoint_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -396,18 +396,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TlsAuthConfigurationProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TlsAuthConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TlsAuthConfigurationProperty",
+		reflect.TypeOf((*TfIngressPoint_TlsAuthConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TlsAuthConfigurationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TlsAuthConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TlsAuthConfigurationPropertyList",
+		reflect.TypeOf((*TfIngressPoint_TlsAuthConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -422,14 +422,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_TlsAuthConfigurationPropertyList{}
+			j := jsiiProxy_TfIngressPoint_TlsAuthConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TlsAuthConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TlsAuthConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TlsAuthConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_TlsAuthConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -458,18 +458,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "trustStoreInput", GoGetter: "TrustStoreInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_TlsAuthConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_TlsAuthConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TrustStoreProperty",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TrustStoreProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TrustStoreProperty",
+		reflect.TypeOf((*TfIngressPoint_TrustStoreProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TrustStorePropertyList",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TrustStorePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TrustStorePropertyList",
+		reflect.TypeOf((*TfIngressPoint_TrustStorePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -484,14 +484,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_TrustStorePropertyList{}
+			j := jsiiProxy_TfIngressPoint_TrustStorePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPoint.TrustStorePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerIngressPoint_TrustStorePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPoint.TrustStorePropertyOutputReference",
+		reflect.TypeOf((*TfIngressPoint_TrustStorePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "caContent", GoGetter: "CaContent"},
 			_jsii_.MemberProperty{JsiiProperty: "caContentInput", GoGetter: "CaContentInput"},
@@ -524,18 +524,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerIngressPoint_TrustStorePropertyOutputReference{}
+			j := jsiiProxy_TfIngressPoint_TrustStorePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerIngressPointConfig",
-		reflect.TypeOf((*AwsMailmanagerIngressPointConfig)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfIngressPointConfig",
+		reflect.TypeOf((*TfIngressPointConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay",
-		reflect.TypeOf((*AwsMailmanagerRelay)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay",
+		reflect.TypeOf((*TfRelay)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -604,18 +604,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRelay{}
+			j := jsiiProxy_TfRelay{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay.AuthenticationProperty",
-		reflect.TypeOf((*AwsMailmanagerRelay_AuthenticationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay.AuthenticationProperty",
+		reflect.TypeOf((*TfRelay_AuthenticationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay.AuthenticationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRelay_AuthenticationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay.AuthenticationPropertyList",
+		reflect.TypeOf((*TfRelay_AuthenticationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -630,14 +630,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRelay_AuthenticationPropertyList{}
+			j := jsiiProxy_TfRelay_AuthenticationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay.AuthenticationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRelay_AuthenticationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay.AuthenticationPropertyOutputReference",
+		reflect.TypeOf((*TfRelay_AuthenticationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -669,18 +669,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRelay_AuthenticationPropertyOutputReference{}
+			j := jsiiProxy_TfRelay_AuthenticationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay.NoAuthenticationProperty",
-		reflect.TypeOf((*AwsMailmanagerRelay_NoAuthenticationProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay.NoAuthenticationProperty",
+		reflect.TypeOf((*TfRelay_NoAuthenticationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay.NoAuthenticationPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRelay_NoAuthenticationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay.NoAuthenticationPropertyList",
+		reflect.TypeOf((*TfRelay_NoAuthenticationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -695,14 +695,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRelay_NoAuthenticationPropertyList{}
+			j := jsiiProxy_TfRelay_NoAuthenticationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelay.NoAuthenticationPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRelay_NoAuthenticationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelay.NoAuthenticationPropertyOutputReference",
+		reflect.TypeOf((*TfRelay_NoAuthenticationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -727,18 +727,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRelay_NoAuthenticationPropertyOutputReference{}
+			j := jsiiProxy_TfRelay_NoAuthenticationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRelayConfig",
-		reflect.TypeOf((*AwsMailmanagerRelayConfig)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRelayConfig",
+		reflect.TypeOf((*TfRelayConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet",
-		reflect.TypeOf((*AwsMailmanagerRuleSet)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet",
+		reflect.TypeOf((*TfRuleSet)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -803,18 +803,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet{}
+			j := jsiiProxy_TfRuleSet{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ActionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ActionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ActionProperty",
+		reflect.TypeOf((*TfRuleSet_ActionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ActionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ActionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ActionPropertyList",
+		reflect.TypeOf((*TfRuleSet_ActionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -829,14 +829,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ActionPropertyList{}
+			j := jsiiProxy_TfRuleSet_ActionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ActionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ActionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ActionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_ActionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addHeader", GoGetter: "AddHeader"},
 			_jsii_.MemberProperty{JsiiProperty: "addHeaderInput", GoGetter: "AddHeaderInput"},
@@ -909,18 +909,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "writeToS3Input", GoGetter: "WriteToS3Input"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ActionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_ActionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.AddHeaderProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_AddHeaderProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.AddHeaderProperty",
+		reflect.TypeOf((*TfRuleSet_AddHeaderProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.AddHeaderPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_AddHeaderPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.AddHeaderPropertyList",
+		reflect.TypeOf((*TfRuleSet_AddHeaderPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -935,14 +935,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_AddHeaderPropertyList{}
+			j := jsiiProxy_TfRuleSet_AddHeaderPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.AddHeaderPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_AddHeaderPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.AddHeaderPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_AddHeaderPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -971,18 +971,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_AddHeaderPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_AddHeaderPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ArchiveProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ArchiveProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ArchiveProperty",
+		reflect.TypeOf((*TfRuleSet_ArchiveProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ArchivePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ArchivePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ArchivePropertyList",
+		reflect.TypeOf((*TfRuleSet_ArchivePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -997,14 +997,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ArchivePropertyList{}
+			j := jsiiProxy_TfRuleSet_ArchivePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ArchivePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ArchivePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ArchivePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_ArchivePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1034,18 +1034,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ArchivePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_ArchivePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.BounceProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_BounceProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.BounceProperty",
+		reflect.TypeOf((*TfRuleSet_BounceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.BouncePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_BouncePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.BouncePropertyList",
+		reflect.TypeOf((*TfRuleSet_BouncePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1060,14 +1060,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_BouncePropertyList{}
+			j := jsiiProxy_TfRuleSet_BouncePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.BouncePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_BouncePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.BouncePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_BouncePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1108,18 +1108,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_BouncePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_BouncePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ConditionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ConditionProperty",
+		reflect.TypeOf((*TfRuleSet_ConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ConditionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ConditionPropertyList",
+		reflect.TypeOf((*TfRuleSet_ConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1134,14 +1134,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ConditionPropertyList{}
+			j := jsiiProxy_TfRuleSet_ConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ConditionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_ConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "booleanExpression", GoGetter: "BooleanExpression"},
 			_jsii_.MemberProperty{JsiiProperty: "booleanExpressionInput", GoGetter: "BooleanExpressionInput"},
@@ -1190,18 +1190,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verdictExpressionInput", GoGetter: "VerdictExpressionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ConditionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_ConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DeliverToMailboxProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DeliverToMailboxProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DeliverToMailboxProperty",
+		reflect.TypeOf((*TfRuleSet_DeliverToMailboxProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DeliverToMailboxPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DeliverToMailboxPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DeliverToMailboxPropertyList",
+		reflect.TypeOf((*TfRuleSet_DeliverToMailboxPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1216,14 +1216,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_DeliverToMailboxPropertyList{}
+			j := jsiiProxy_TfRuleSet_DeliverToMailboxPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DeliverToMailboxPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DeliverToMailboxPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DeliverToMailboxPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_DeliverToMailboxPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1255,18 +1255,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_DeliverToMailboxPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_DeliverToMailboxPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DeliverToQBusinessProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DeliverToQBusinessProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DeliverToQBusinessProperty",
+		reflect.TypeOf((*TfRuleSet_DeliverToQBusinessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DeliverToQBusinessPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DeliverToQBusinessPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DeliverToQBusinessPropertyList",
+		reflect.TypeOf((*TfRuleSet_DeliverToQBusinessPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1281,14 +1281,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_DeliverToQBusinessPropertyList{}
+			j := jsiiProxy_TfRuleSet_DeliverToQBusinessPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DeliverToQBusinessPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DeliverToQBusinessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DeliverToQBusinessPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_DeliverToQBusinessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1322,18 +1322,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_DeliverToQBusinessPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_DeliverToQBusinessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DropProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DropProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DropProperty",
+		reflect.TypeOf((*TfRuleSet_DropProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DropPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DropPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DropPropertyList",
+		reflect.TypeOf((*TfRuleSet_DropPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1348,14 +1348,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_DropPropertyList{}
+			j := jsiiProxy_TfRuleSet_DropPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.DropPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_DropPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.DropPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_DropPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1380,18 +1380,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_DropPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_DropPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.InvokeLambdaProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_InvokeLambdaProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.InvokeLambdaProperty",
+		reflect.TypeOf((*TfRuleSet_InvokeLambdaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.InvokeLambdaPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_InvokeLambdaPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.InvokeLambdaPropertyList",
+		reflect.TypeOf((*TfRuleSet_InvokeLambdaPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1406,14 +1406,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_InvokeLambdaPropertyList{}
+			j := jsiiProxy_TfRuleSet_InvokeLambdaPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.InvokeLambdaPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_InvokeLambdaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.InvokeLambdaPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_InvokeLambdaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1450,18 +1450,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_InvokeLambdaPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_InvokeLambdaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.PublishToSnsProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_PublishToSnsProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.PublishToSnsProperty",
+		reflect.TypeOf((*TfRuleSet_PublishToSnsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.PublishToSnsPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_PublishToSnsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.PublishToSnsPropertyList",
+		reflect.TypeOf((*TfRuleSet_PublishToSnsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1476,14 +1476,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_PublishToSnsPropertyList{}
+			j := jsiiProxy_TfRuleSet_PublishToSnsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.PublishToSnsPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_PublishToSnsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.PublishToSnsPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_PublishToSnsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1521,18 +1521,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_PublishToSnsPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_PublishToSnsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RelayProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RelayProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RelayProperty",
+		reflect.TypeOf((*TfRuleSet_RelayProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RelayPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RelayPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RelayPropertyList",
+		reflect.TypeOf((*TfRuleSet_RelayPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1547,14 +1547,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RelayPropertyList{}
+			j := jsiiProxy_TfRuleSet_RelayPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RelayPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RelayPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RelayPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RelayPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -1587,18 +1587,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RelayPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RelayPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ReplaceRecipientProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ReplaceRecipientProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ReplaceRecipientProperty",
+		reflect.TypeOf((*TfRuleSet_ReplaceRecipientProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ReplaceRecipientPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ReplaceRecipientPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ReplaceRecipientPropertyList",
+		reflect.TypeOf((*TfRuleSet_ReplaceRecipientPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1613,14 +1613,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ReplaceRecipientPropertyList{}
+			j := jsiiProxy_TfRuleSet_ReplaceRecipientPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.ReplaceRecipientPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_ReplaceRecipientPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.ReplaceRecipientPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_ReplaceRecipientPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1648,18 +1648,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_ReplaceRecipientPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_ReplaceRecipientPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1674,14 +1674,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -1710,18 +1710,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateIsInAddressListProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateIsInAddressListProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1736,14 +1736,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLists", GoGetter: "AddressLists"},
 			_jsii_.MemberProperty{JsiiProperty: "addressListsInput", GoGetter: "AddressListsInput"},
@@ -1772,18 +1772,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionEvaluateIsInAddressListPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1798,14 +1798,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -1841,18 +1841,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1867,14 +1867,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionBooleanExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionBooleanExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionBooleanExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionBooleanExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1905,18 +1905,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionBooleanExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionBooleanExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionDmarcExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionDmarcExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionDmarcExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionDmarcExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionDmarcExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionDmarcExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionDmarcExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionDmarcExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1931,14 +1931,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionDmarcExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionDmarcExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionDmarcExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionDmarcExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionDmarcExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionDmarcExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1967,18 +1967,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionDmarcExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionDmarcExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionIpExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionIpExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionIpExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionIpExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionIpExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionIpExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionIpExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionIpExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1993,14 +1993,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionIpExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionIpExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionIpExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionIpExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionIpExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionIpExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -2027,18 +2027,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionIpExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionIpExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionIpExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionIpExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionIpExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionIpExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionIpExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionIpExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionIpExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionIpExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2053,14 +2053,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionIpExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionIpExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionIpExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionIpExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionIpExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionIpExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2093,18 +2093,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionIpExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionIpExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionNumberExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionNumberExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionNumberExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionNumberExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionNumberExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionNumberExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionNumberExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionNumberExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2119,14 +2119,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionNumberExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionNumberExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionNumberExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionNumberExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionNumberExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionNumberExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -2153,18 +2153,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionNumberExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionNumberExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionNumberExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionNumberExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionNumberExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionNumberExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionNumberExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionNumberExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionNumberExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionNumberExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2179,14 +2179,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionNumberExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionNumberExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionNumberExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionNumberExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionNumberExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionNumberExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2219,18 +2219,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionNumberExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionNumberExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2245,14 +2245,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -2281,18 +2281,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionStringExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2307,14 +2307,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionStringExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -2352,18 +2352,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionStringExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionStringExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2378,14 +2378,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionStringExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionStringExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionStringExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionStringExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionStringExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionStringExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2418,18 +2418,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionStringExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionStringExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2444,14 +2444,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -2480,18 +2480,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionVerdictExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2506,14 +2506,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionVerdictExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -2545,18 +2545,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionVerdictExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionVerdictExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2571,14 +2571,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionVerdictExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleConditionVerdictExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleConditionVerdictExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleConditionVerdictExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleConditionVerdictExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleConditionVerdictExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2611,18 +2611,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleConditionVerdictExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleConditionVerdictExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleProperty",
+		reflect.TypeOf((*TfRuleSet_RuleProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RulePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RulePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RulePropertyList",
+		reflect.TypeOf((*TfRuleSet_RulePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2637,14 +2637,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RulePropertyList{}
+			j := jsiiProxy_TfRuleSet_RulePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RulePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RulePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RulePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RulePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -2684,18 +2684,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "unlessInput", GoGetter: "UnlessInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RulePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RulePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2710,14 +2710,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -2746,18 +2746,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateIsInAddressListProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateIsInAddressListProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2772,14 +2772,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLists", GoGetter: "AddressLists"},
 			_jsii_.MemberProperty{JsiiProperty: "addressListsInput", GoGetter: "AddressListsInput"},
@@ -2808,18 +2808,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionEvaluateIsInAddressListPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2834,14 +2834,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -2877,18 +2877,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2903,14 +2903,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessBooleanExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessBooleanExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessBooleanExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -2941,18 +2941,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessBooleanExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessBooleanExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessDmarcExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessDmarcExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessDmarcExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessDmarcExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessDmarcExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessDmarcExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessDmarcExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessDmarcExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2967,14 +2967,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessDmarcExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessDmarcExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessDmarcExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessDmarcExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessDmarcExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessDmarcExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3003,18 +3003,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessDmarcExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessDmarcExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessIpExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessIpExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessIpExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessIpExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessIpExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessIpExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessIpExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessIpExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3029,14 +3029,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessIpExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessIpExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessIpExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessIpExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessIpExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessIpExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -3063,18 +3063,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessIpExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessIpExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessIpExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessIpExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessIpExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessIpExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessIpExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessIpExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessIpExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessIpExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3089,14 +3089,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessIpExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessIpExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessIpExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessIpExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessIpExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessIpExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3129,18 +3129,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessIpExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessIpExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessNumberExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessNumberExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessNumberExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessNumberExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessNumberExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessNumberExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessNumberExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessNumberExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3155,14 +3155,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessNumberExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessNumberExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessNumberExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessNumberExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessNumberExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessNumberExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -3189,18 +3189,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessNumberExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessNumberExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessNumberExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessNumberExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessNumberExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessNumberExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessNumberExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessNumberExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessNumberExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessNumberExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3215,14 +3215,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessNumberExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessNumberExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessNumberExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessNumberExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessNumberExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessNumberExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3255,18 +3255,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessNumberExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessNumberExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3281,14 +3281,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -3317,18 +3317,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessStringExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3343,14 +3343,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessStringExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -3388,18 +3388,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessStringExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessStringExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3414,14 +3414,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessStringExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessStringExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessStringExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessStringExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessStringExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessStringExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3454,18 +3454,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessStringExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessStringExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3480,14 +3480,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -3516,18 +3516,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessVerdictExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionEvaluateProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3542,14 +3542,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -3581,18 +3581,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessVerdictExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionProperty",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionPropertyList",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3607,14 +3607,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionPropertyList{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessVerdictExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.RuleUnlessVerdictExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.RuleUnlessVerdictExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_RuleUnlessVerdictExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -3647,18 +3647,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_RuleUnlessVerdictExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_RuleUnlessVerdictExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.SendProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_SendProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.SendProperty",
+		reflect.TypeOf((*TfRuleSet_SendProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.SendPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_SendPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.SendPropertyList",
+		reflect.TypeOf((*TfRuleSet_SendPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3673,14 +3673,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_SendPropertyList{}
+			j := jsiiProxy_TfRuleSet_SendPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.SendPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_SendPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.SendPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_SendPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -3710,18 +3710,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_SendPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_SendPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.UnlessProperty",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_UnlessProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.UnlessProperty",
+		reflect.TypeOf((*TfRuleSet_UnlessProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.UnlessPropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_UnlessPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.UnlessPropertyList",
+		reflect.TypeOf((*TfRuleSet_UnlessPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3736,14 +3736,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_UnlessPropertyList{}
+			j := jsiiProxy_TfRuleSet_UnlessPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.UnlessPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_UnlessPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.UnlessPropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_UnlessPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "booleanExpression", GoGetter: "BooleanExpression"},
 			_jsii_.MemberProperty{JsiiProperty: "booleanExpressionInput", GoGetter: "BooleanExpressionInput"},
@@ -3792,18 +3792,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "verdictExpressionInput", GoGetter: "VerdictExpressionInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_UnlessPropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_UnlessPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.WriteToS3Property",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_WriteToS3Property)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.WriteToS3Property",
+		reflect.TypeOf((*TfRuleSet_WriteToS3Property)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.WriteToS3PropertyList",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_WriteToS3PropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.WriteToS3PropertyList",
+		reflect.TypeOf((*TfRuleSet_WriteToS3PropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3818,14 +3818,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_WriteToS3PropertyList{}
+			j := jsiiProxy_TfRuleSet_WriteToS3PropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSet.WriteToS3PropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerRuleSet_WriteToS3PropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSet.WriteToS3PropertyOutputReference",
+		reflect.TypeOf((*TfRuleSet_WriteToS3PropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicy", GoGetter: "ActionFailurePolicy"},
 			_jsii_.MemberProperty{JsiiProperty: "actionFailurePolicyInput", GoGetter: "ActionFailurePolicyInput"},
@@ -3863,18 +3863,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerRuleSet_WriteToS3PropertyOutputReference{}
+			j := jsiiProxy_TfRuleSet_WriteToS3PropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerRuleSetConfig",
-		reflect.TypeOf((*AwsMailmanagerRuleSetConfig)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfRuleSetConfig",
+		reflect.TypeOf((*TfRuleSetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy",
+		reflect.TypeOf((*TfTrafficPolicy)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -3944,18 +3944,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy{}
+			j := jsiiProxy_TfTrafficPolicy{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.BooleanExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_BooleanExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.BooleanExpressionProperty",
+		reflect.TypeOf((*TfTrafficPolicy_BooleanExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.BooleanExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_BooleanExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.BooleanExpressionPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_BooleanExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -3970,14 +3970,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_BooleanExpressionPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_BooleanExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.BooleanExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_BooleanExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.BooleanExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_BooleanExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4008,18 +4008,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_BooleanExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_BooleanExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.ConditionProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_ConditionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.ConditionProperty",
+		reflect.TypeOf((*TfTrafficPolicy_ConditionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.ConditionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_ConditionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.ConditionPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_ConditionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4034,14 +4034,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_ConditionPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_ConditionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.ConditionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_ConditionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.ConditionPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_ConditionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "booleanExpression", GoGetter: "BooleanExpression"},
 			_jsii_.MemberProperty{JsiiProperty: "booleanExpressionInput", GoGetter: "BooleanExpressionInput"},
@@ -4086,18 +4086,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_ConditionPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_ConditionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.IpExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_IpExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.IpExpressionProperty",
+		reflect.TypeOf((*TfTrafficPolicy_IpExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.IpExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_IpExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.IpExpressionPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_IpExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4112,14 +4112,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_IpExpressionPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_IpExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.IpExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_IpExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.IpExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_IpExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4152,18 +4152,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_IpExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_IpExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.Ipv6ExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_Ipv6ExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.Ipv6ExpressionProperty",
+		reflect.TypeOf((*TfTrafficPolicy_Ipv6ExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.Ipv6ExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_Ipv6ExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.Ipv6ExpressionPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_Ipv6ExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4178,14 +4178,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_Ipv6ExpressionPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_Ipv6ExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.Ipv6ExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_Ipv6ExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.Ipv6ExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_Ipv6ExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4218,18 +4218,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_Ipv6ExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_Ipv6ExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.IsInAddressListProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_IsInAddressListProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.IsInAddressListProperty",
+		reflect.TypeOf((*TfTrafficPolicy_IsInAddressListProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.IsInAddressListPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_IsInAddressListPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.IsInAddressListPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_IsInAddressListPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4244,14 +4244,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_IsInAddressListPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_IsInAddressListPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.IsInAddressListPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_IsInAddressListPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.IsInAddressListPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_IsInAddressListPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "addressLists", GoGetter: "AddressLists"},
 			_jsii_.MemberProperty{JsiiProperty: "addressListsInput", GoGetter: "AddressListsInput"},
@@ -4280,18 +4280,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_IsInAddressListPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_IsInAddressListPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4306,14 +4306,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -4342,18 +4342,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluateProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4368,14 +4368,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionBooleanExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -4408,18 +4408,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionBooleanExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionIpExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionIpExpressionEvaluateProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionIpExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionIpExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionIpExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4434,14 +4434,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionIpExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionIpExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -4468,18 +4468,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionIpExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionIpv6ExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionIpv6ExpressionEvaluateProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionIpv6ExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionIpv6ExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4494,14 +4494,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionIpv6ExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionIpv6ExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -4528,18 +4528,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionIpv6ExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateAnalysisProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateAnalysisProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4554,14 +4554,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analyzer", GoGetter: "Analyzer"},
 			_jsii_.MemberProperty{JsiiProperty: "analyzerInput", GoGetter: "AnalyzerInput"},
@@ -4590,18 +4590,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateAnalysisPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionStringExpressionEvaluateProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionStringExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionStringExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4616,14 +4616,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionStringExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionStringExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "analysis", GoGetter: "Analysis"},
 			_jsii_.MemberProperty{JsiiProperty: "analysisInput", GoGetter: "AnalysisInput"},
@@ -4655,18 +4655,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionStringExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionTlsExpressionEvaluateProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluateProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionTlsExpressionEvaluateProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluateProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionTlsExpressionEvaluatePropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionTlsExpressionEvaluatePropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4681,14 +4681,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementConditionTlsExpressionEvaluatePropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementConditionTlsExpressionEvaluatePropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "attribute", GoGetter: "Attribute"},
 			_jsii_.MemberProperty{JsiiProperty: "attributeInput", GoGetter: "AttributeInput"},
@@ -4715,18 +4715,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementConditionTlsExpressionEvaluatePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementProperty",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4741,14 +4741,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.PolicyStatementPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_PolicyStatementPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.PolicyStatementPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_PolicyStatementPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -4779,18 +4779,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_PolicyStatementPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_PolicyStatementPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.StringExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_StringExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.StringExpressionProperty",
+		reflect.TypeOf((*TfTrafficPolicy_StringExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.StringExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_StringExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.StringExpressionPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_StringExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4805,14 +4805,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_StringExpressionPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_StringExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.StringExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_StringExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.StringExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_StringExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4845,18 +4845,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_StringExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_StringExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.TlsExpressionProperty",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_TlsExpressionProperty)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.TlsExpressionProperty",
+		reflect.TypeOf((*TfTrafficPolicy_TlsExpressionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.TlsExpressionPropertyList",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_TlsExpressionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.TlsExpressionPropertyList",
+		reflect.TypeOf((*TfTrafficPolicy_TlsExpressionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -4871,14 +4871,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_TlsExpressionPropertyList{}
+			j := jsiiProxy_TfTrafficPolicy_TlsExpressionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicy.TlsExpressionPropertyOutputReference",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicy_TlsExpressionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicy.TlsExpressionPropertyOutputReference",
+		reflect.TypeOf((*TfTrafficPolicy_TlsExpressionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -4911,13 +4911,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valueInput", GoGetter: "ValueInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsMailmanagerTrafficPolicy_TlsExpressionPropertyOutputReference{}
+			j := jsiiProxy_TfTrafficPolicy_TlsExpressionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-ses-mail-manager.AwsMailmanagerTrafficPolicyConfig",
-		reflect.TypeOf((*AwsMailmanagerTrafficPolicyConfig)(nil)).Elem(),
+		"@cdktn/aws-ses-mail-manager.TfTrafficPolicyConfig",
+		reflect.TypeOf((*TfTrafficPolicyConfig)(nil)).Elem(),
 	)
 }

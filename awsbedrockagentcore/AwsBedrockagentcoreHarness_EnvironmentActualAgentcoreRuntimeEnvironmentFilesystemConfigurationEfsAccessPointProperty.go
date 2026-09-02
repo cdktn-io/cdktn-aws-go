@@ -1,7 +1,0 @@
-package awsbedrockagentcore
-
-
-// Experimental.
-type AwsBedrockagentcoreHarness_EnvironmentActualAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointProperty struct {
-}
-

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awss3control
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validatePutSseKmsParameters(value *TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionSseKmsProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validatePutSseS3Parameters(value interface{}) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateSetInternalValueParameters(val *TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfStorageLensConfiguration_StorageLensConfigurationDataExportStorageLensTableDestinationEncryptionPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

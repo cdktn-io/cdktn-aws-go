@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeLanguageModel",
-		reflect.TypeOf((*AwsTranscribeLanguageModel)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfLanguageModel",
+		reflect.TypeOf((*TfLanguageModel)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -84,18 +84,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeLanguageModel{}
+			j := jsiiProxy_TfLanguageModel{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeLanguageModel.InputDataConfigProperty",
-		reflect.TypeOf((*AwsTranscribeLanguageModel_InputDataConfigProperty)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfLanguageModel.InputDataConfigProperty",
+		reflect.TypeOf((*TfLanguageModel_InputDataConfigProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeLanguageModel.InputDataConfigPropertyOutputReference",
-		reflect.TypeOf((*AwsTranscribeLanguageModel_InputDataConfigPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfLanguageModel.InputDataConfigPropertyOutputReference",
+		reflect.TypeOf((*TfLanguageModel_InputDataConfigPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -127,18 +127,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "tuningDataS3UriInput", GoGetter: "TuningDataS3UriInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeLanguageModel_InputDataConfigPropertyOutputReference{}
+			j := jsiiProxy_TfLanguageModel_InputDataConfigPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeLanguageModel.TimeoutsProperty",
-		reflect.TypeOf((*AwsTranscribeLanguageModel_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfLanguageModel.TimeoutsProperty",
+		reflect.TypeOf((*TfLanguageModel_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeLanguageModel.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTranscribeLanguageModel_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfLanguageModel.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfLanguageModel_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -166,18 +166,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeLanguageModel_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfLanguageModel_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeLanguageModelConfig",
-		reflect.TypeOf((*AwsTranscribeLanguageModelConfig)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfLanguageModelConfig",
+		reflect.TypeOf((*TfLanguageModelConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeMedicalVocabulary",
-		reflect.TypeOf((*AwsTranscribeMedicalVocabulary)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfMedicalVocabulary",
+		reflect.TypeOf((*TfMedicalVocabulary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -249,18 +249,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeMedicalVocabulary{}
+			j := jsiiProxy_TfMedicalVocabulary{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeMedicalVocabulary.TimeoutsProperty",
-		reflect.TypeOf((*AwsTranscribeMedicalVocabulary_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfMedicalVocabulary.TimeoutsProperty",
+		reflect.TypeOf((*TfMedicalVocabulary_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeMedicalVocabulary.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTranscribeMedicalVocabulary_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfMedicalVocabulary.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMedicalVocabulary_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -294,18 +294,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeMedicalVocabulary_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMedicalVocabulary_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeMedicalVocabularyConfig",
-		reflect.TypeOf((*AwsTranscribeMedicalVocabularyConfig)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfMedicalVocabularyConfig",
+		reflect.TypeOf((*TfMedicalVocabularyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeVocabulary",
-		reflect.TypeOf((*AwsTranscribeVocabulary)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfVocabulary",
+		reflect.TypeOf((*TfVocabulary)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -381,18 +381,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeVocabulary{}
+			j := jsiiProxy_TfVocabulary{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeVocabulary.TimeoutsProperty",
-		reflect.TypeOf((*AwsTranscribeVocabulary_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfVocabulary.TimeoutsProperty",
+		reflect.TypeOf((*TfVocabulary_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeVocabulary.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsTranscribeVocabulary_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfVocabulary.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfVocabulary_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -426,18 +426,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeVocabulary_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfVocabulary_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeVocabularyConfig",
-		reflect.TypeOf((*AwsTranscribeVocabularyConfig)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfVocabularyConfig",
+		reflect.TypeOf((*TfVocabularyConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-transcribe.AwsTranscribeVocabularyFilter",
-		reflect.TypeOf((*AwsTranscribeVocabularyFilter)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfVocabularyFilter",
+		reflect.TypeOf((*TfVocabularyFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -509,13 +509,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wordsInput", GoGetter: "WordsInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsTranscribeVocabularyFilter{}
+			j := jsiiProxy_TfVocabularyFilter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-transcribe.AwsTranscribeVocabularyFilterConfig",
-		reflect.TypeOf((*AwsTranscribeVocabularyFilterConfig)(nil)).Elem(),
+		"@cdktn/aws-transcribe.TfVocabularyFilterConfig",
+		reflect.TypeOf((*TfVocabularyFilterConfig)(nil)).Elem(),
 	)
 }

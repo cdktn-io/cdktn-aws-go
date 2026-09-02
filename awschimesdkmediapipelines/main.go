@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -84,18 +84,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.AmazonTranscribeCallAnalyticsProcessorConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.AmazonTranscribeCallAnalyticsProcessorConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.AmazonTranscribeCallAnalyticsProcessorConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.AmazonTranscribeCallAnalyticsProcessorConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "callAnalyticsStreamCategories", GoGetter: "CallAnalyticsStreamCategories"},
 			_jsii_.MemberProperty{JsiiProperty: "callAnalyticsStreamCategoriesInput", GoGetter: "CallAnalyticsStreamCategoriesInput"},
@@ -159,18 +159,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyNameInput", GoGetter: "VocabularyNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_AmazonTranscribeCallAnalyticsProcessorConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.AmazonTranscribeProcessorConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.AmazonTranscribeProcessorConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.AmazonTranscribeProcessorConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.AmazonTranscribeProcessorConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -230,18 +230,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "vocabularyNameInput", GoGetter: "VocabularyNameInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_AmazonTranscribeProcessorConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.ElementsProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.ElementsProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_ElementsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.ElementsPropertyList",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.ElementsPropertyList",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_ElementsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -256,14 +256,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyList{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_ElementsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.ElementsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.ElementsPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "amazonTranscribeCallAnalyticsProcessorConfiguration", GoGetter: "AmazonTranscribeCallAnalyticsProcessorConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "amazonTranscribeCallAnalyticsProcessorConfigurationInput", GoGetter: "AmazonTranscribeCallAnalyticsProcessorConfigurationInput"},
@@ -322,18 +322,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "voiceAnalyticsProcessorConfigurationInput", GoGetter: "VoiceAnalyticsProcessorConfigurationInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_ElementsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.IssueDetectionConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.IssueDetectionConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_IssueDetectionConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.IssueDetectionConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.IssueDetectionConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -360,18 +360,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_IssueDetectionConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.KeywordMatchConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KeywordMatchConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.KeywordMatchConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_KeywordMatchConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.KeywordMatchConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KeywordMatchConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.KeywordMatchConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_KeywordMatchConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -403,18 +403,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KeywordMatchConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_KeywordMatchConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.KinesisDataStreamSinkConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.KinesisDataStreamSinkConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.KinesisDataStreamSinkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.KinesisDataStreamSinkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -441,18 +441,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.LambdaFunctionSinkConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.LambdaFunctionSinkConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.LambdaFunctionSinkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.LambdaFunctionSinkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -479,18 +479,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_LambdaFunctionSinkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.PostCallAnalyticsSettingsProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_PostCallAnalyticsSettingsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.PostCallAnalyticsSettingsProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_PostCallAnalyticsSettingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.PostCallAnalyticsSettingsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_PostCallAnalyticsSettingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.PostCallAnalyticsSettingsPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_PostCallAnalyticsSettingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -525,18 +525,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_PostCallAnalyticsSettingsPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_PostCallAnalyticsSettingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.RealTimeAlertConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RealTimeAlertConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.RealTimeAlertConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_RealTimeAlertConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.RealTimeAlertConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RealTimeAlertConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.RealTimeAlertConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_RealTimeAlertConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -567,18 +567,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RealTimeAlertConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_RealTimeAlertConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.RulesProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RulesProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.RulesProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_RulesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.RulesPropertyList",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RulesPropertyList)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.RulesPropertyList",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_RulesPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -593,14 +593,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RulesPropertyList{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_RulesPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.RulesPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RulesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.RulesPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_RulesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -639,18 +639,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "typeInput", GoGetter: "TypeInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_RulesPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_RulesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.S3RecordingSinkConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.S3RecordingSinkConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.S3RecordingSinkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.S3RecordingSinkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -678,18 +678,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_S3RecordingSinkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.SentimentConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SentimentConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.SentimentConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_SentimentConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.SentimentConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SentimentConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.SentimentConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_SentimentConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -720,18 +720,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SentimentConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_SentimentConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.SnsTopicSinkConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.SnsTopicSinkConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.SnsTopicSinkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.SnsTopicSinkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -758,18 +758,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_SnsTopicSinkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.SqsQueueSinkConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.SqsQueueSinkConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.SqsQueueSinkConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.SqsQueueSinkConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -796,18 +796,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_SqsQueueSinkConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.TimeoutsProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.TimeoutsProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -841,18 +841,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.VoiceAnalyticsProcessorConfigurationProperty",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.VoiceAnalyticsProcessorConfigurationProperty",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration.VoiceAnalyticsProcessorConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfiguration.VoiceAnalyticsProcessorConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -881,13 +881,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "voiceToneAnalysisStatusInput", GoGetter: "VoiceToneAnalysisStatusInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsChimesdkmediapipelinesMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMediaInsightsPipelineConfiguration_VoiceAnalyticsProcessorConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-chime-sdk-media-pipelines.AwsChimesdkmediapipelinesMediaInsightsPipelineConfigurationConfig",
-		reflect.TypeOf((*AwsChimesdkmediapipelinesMediaInsightsPipelineConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-chime-sdk-media-pipelines.TfMediaInsightsPipelineConfigurationConfig",
+		reflect.TypeOf((*TfMediaInsightsPipelineConfigurationConfig)(nil)).Elem(),
 	)
 }

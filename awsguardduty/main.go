@@ -9,8 +9,249 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector",
-		reflect.TypeOf((*AwsGuarddutyDetector)(nil)).Elem(),
+		"@cdktn/aws-guardduty.DataTfDetector",
+		reflect.TypeOf((*DataTfDetector)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "features", GoGetter: "Features"},
+			_jsii_.MemberProperty{JsiiProperty: "findingPublishingFrequency", GoGetter: "FindingPublishingFrequency"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
+			_jsii_.MemberProperty{JsiiProperty: "serviceRoleArn", GoGetter: "ServiceRoleArn"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
+			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDetector{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-guardduty.DataTfDetector.AdditionalConfigurationProperty",
+		reflect.TypeOf((*DataTfDetector_AdditionalConfigurationProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-guardduty.DataTfDetector.AdditionalConfigurationPropertyList",
+		reflect.TypeOf((*DataTfDetector_AdditionalConfigurationPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDetector_AdditionalConfigurationPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-guardduty.DataTfDetector.AdditionalConfigurationPropertyOutputReference",
+		reflect.TypeOf((*DataTfDetector_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDetector_AdditionalConfigurationPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-guardduty.DataTfDetector.FeaturesProperty",
+		reflect.TypeOf((*DataTfDetector_FeaturesProperty)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-guardduty.DataTfDetector.FeaturesPropertyList",
+		reflect.TypeOf((*DataTfDetector_FeaturesPropertyList)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDetector_FeaturesPropertyList{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
+			return &j
+		},
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-guardduty.DataTfDetector.FeaturesPropertyOutputReference",
+		reflect.TypeOf((*DataTfDetector_FeaturesPropertyOutputReference)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberProperty{JsiiProperty: "additionalConfiguration", GoGetter: "AdditionalConfiguration"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
+			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
+			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
+			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
+			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
+			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfDetector_FeaturesPropertyOutputReference{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-guardduty.DataTfDetectorConfig",
+		reflect.TypeOf((*DataTfDetectorConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-guardduty.DataTfFindingIds",
+		reflect.TypeOf((*DataTfFindingIds)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "detectorId", GoGetter: "DetectorId"},
+			_jsii_.MemberProperty{JsiiProperty: "detectorIdInput", GoGetter: "DetectorIdInput"},
+			_jsii_.MemberProperty{JsiiProperty: "findingIds", GoGetter: "FindingIds"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "hasFindings", GoGetter: "HasFindings"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfFindingIds{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-guardduty.DataTfFindingIdsConfig",
+		reflect.TypeOf((*DataTfFindingIdsConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-guardduty.TfDetector",
+		reflect.TypeOf((*TfDetector)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
@@ -82,18 +323,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector{}
+			j := jsiiProxy_TfDetector{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.AuditLogsProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_AuditLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.AuditLogsProperty",
+		reflect.TypeOf((*TfDetector_AuditLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.AuditLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_AuditLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.AuditLogsPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_AuditLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -120,18 +361,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_AuditLogsPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_AuditLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.DatasourcesProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_DatasourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.DatasourcesProperty",
+		reflect.TypeOf((*TfDetector_DatasourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.DatasourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_DatasourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.DatasourcesPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_DatasourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -168,18 +409,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_DatasourcesPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_DatasourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.EbsVolumesProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_EbsVolumesProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.EbsVolumesProperty",
+		reflect.TypeOf((*TfDetector_EbsVolumesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.EbsVolumesPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_EbsVolumesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.EbsVolumesPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_EbsVolumesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -206,18 +447,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_EbsVolumesPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_EbsVolumesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.KubernetesProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_KubernetesProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.KubernetesProperty",
+		reflect.TypeOf((*TfDetector_KubernetesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.KubernetesPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_KubernetesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.KubernetesPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_KubernetesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auditLogs", GoGetter: "AuditLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "auditLogsInput", GoGetter: "AuditLogsInput"},
@@ -245,18 +486,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_KubernetesPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_KubernetesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.MalwareProtectionProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_MalwareProtectionProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.MalwareProtectionProperty",
+		reflect.TypeOf((*TfDetector_MalwareProtectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.MalwareProtectionPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_MalwareProtectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.MalwareProtectionPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_MalwareProtectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -284,18 +525,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_MalwareProtectionPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_MalwareProtectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.S3LogsProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_S3LogsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.S3LogsProperty",
+		reflect.TypeOf((*TfDetector_S3LogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.S3LogsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_S3LogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.S3LogsPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_S3LogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -322,18 +563,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_S3LogsPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_S3LogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.ScanEc2InstanceWithFindingsProperty",
-		reflect.TypeOf((*AwsGuarddutyDetector_ScanEc2InstanceWithFindingsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.ScanEc2InstanceWithFindingsProperty",
+		reflect.TypeOf((*TfDetector_ScanEc2InstanceWithFindingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetector.ScanEc2InstanceWithFindingsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetector_ScanEc2InstanceWithFindingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetector.ScanEc2InstanceWithFindingsPropertyOutputReference",
+		reflect.TypeOf((*TfDetector_ScanEc2InstanceWithFindingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -361,18 +602,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetector_ScanEc2InstanceWithFindingsPropertyOutputReference{}
+			j := jsiiProxy_TfDetector_ScanEc2InstanceWithFindingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetectorConfig",
-		reflect.TypeOf((*AwsGuarddutyDetectorConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetectorConfig",
+		reflect.TypeOf((*TfDetectorConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetectorFeature",
-		reflect.TypeOf((*AwsGuarddutyDetectorFeature)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetectorFeature",
+		reflect.TypeOf((*TfDetectorFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalConfiguration", GoGetter: "AdditionalConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalConfigurationInput", GoGetter: "AdditionalConfigurationInput"},
@@ -436,18 +677,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetectorFeature{}
+			j := jsiiProxy_TfDetectorFeature{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetectorFeature.AdditionalConfigurationProperty",
-		reflect.TypeOf((*AwsGuarddutyDetectorFeature_AdditionalConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetectorFeature.AdditionalConfigurationProperty",
+		reflect.TypeOf((*TfDetectorFeature_AdditionalConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetectorFeature.AdditionalConfigurationPropertyList",
-		reflect.TypeOf((*AwsGuarddutyDetectorFeature_AdditionalConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetectorFeature.AdditionalConfigurationPropertyList",
+		reflect.TypeOf((*TfDetectorFeature_AdditionalConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -462,14 +703,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetectorFeature_AdditionalConfigurationPropertyList{}
+			j := jsiiProxy_TfDetectorFeature_AdditionalConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetectorFeature.AdditionalConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyDetectorFeature_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetectorFeature.AdditionalConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfDetectorFeature_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -498,18 +739,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyDetectorFeature_AdditionalConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfDetectorFeature_AdditionalConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyDetectorFeatureConfig",
-		reflect.TypeOf((*AwsGuarddutyDetectorFeatureConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfDetectorFeatureConfig",
+		reflect.TypeOf((*TfDetectorFeatureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilter",
-		reflect.TypeOf((*AwsGuarddutyFilter)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilter",
+		reflect.TypeOf((*TfFilter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "action", GoGetter: "Action"},
 			_jsii_.MemberProperty{JsiiProperty: "actionInput", GoGetter: "ActionInput"},
@@ -584,18 +825,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyFilter{}
+			j := jsiiProxy_TfFilter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilter.CriterionProperty",
-		reflect.TypeOf((*AwsGuarddutyFilter_CriterionProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilter.CriterionProperty",
+		reflect.TypeOf((*TfFilter_CriterionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilter.CriterionPropertyList",
-		reflect.TypeOf((*AwsGuarddutyFilter_CriterionPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilter.CriterionPropertyList",
+		reflect.TypeOf((*TfFilter_CriterionPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -610,14 +851,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyFilter_CriterionPropertyList{}
+			j := jsiiProxy_TfFilter_CriterionPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilter.CriterionPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyFilter_CriterionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilter.CriterionPropertyOutputReference",
+		reflect.TypeOf((*TfFilter_CriterionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -668,18 +909,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyFilter_CriterionPropertyOutputReference{}
+			j := jsiiProxy_TfFilter_CriterionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilter.FindingCriteriaProperty",
-		reflect.TypeOf((*AwsGuarddutyFilter_FindingCriteriaProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilter.FindingCriteriaProperty",
+		reflect.TypeOf((*TfFilter_FindingCriteriaProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilter.FindingCriteriaPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyFilter_FindingCriteriaPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilter.FindingCriteriaPropertyOutputReference",
+		reflect.TypeOf((*TfFilter_FindingCriteriaPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -707,18 +948,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyFilter_FindingCriteriaPropertyOutputReference{}
+			j := jsiiProxy_TfFilter_FindingCriteriaPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyFilterConfig",
-		reflect.TypeOf((*AwsGuarddutyFilterConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfFilterConfig",
+		reflect.TypeOf((*TfFilterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyInviteAccepter",
-		reflect.TypeOf((*AwsGuarddutyInviteAccepter)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfInviteAccepter",
+		reflect.TypeOf((*TfInviteAccepter)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -780,18 +1021,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyInviteAccepter{}
+			j := jsiiProxy_TfInviteAccepter{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyInviteAccepter.TimeoutsProperty",
-		reflect.TypeOf((*AwsGuarddutyInviteAccepter_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfInviteAccepter.TimeoutsProperty",
+		reflect.TypeOf((*TfInviteAccepter_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyInviteAccepter.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyInviteAccepter_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfInviteAccepter.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfInviteAccepter_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -819,18 +1060,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyInviteAccepter_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfInviteAccepter_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyInviteAccepterConfig",
-		reflect.TypeOf((*AwsGuarddutyInviteAccepterConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfInviteAccepterConfig",
+		reflect.TypeOf((*TfInviteAccepterConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyIpset",
-		reflect.TypeOf((*AwsGuarddutyIpset)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfIpset",
+		reflect.TypeOf((*TfIpset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activate", GoGetter: "Activate"},
 			_jsii_.MemberProperty{JsiiProperty: "activateInput", GoGetter: "ActivateInput"},
@@ -902,18 +1143,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyIpset{}
+			j := jsiiProxy_TfIpset{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyIpsetConfig",
-		reflect.TypeOf((*AwsGuarddutyIpsetConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfIpsetConfig",
+		reflect.TypeOf((*TfIpsetConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan",
+		reflect.TypeOf((*TfMalwareProtectionPlan)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "actions", GoGetter: "Actions"},
 			_jsii_.MemberProperty{JsiiProperty: "actionsInput", GoGetter: "ActionsInput"},
@@ -982,18 +1223,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan{}
+			j := jsiiProxy_TfMalwareProtectionPlan{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.ActionsProperty",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_ActionsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.ActionsProperty",
+		reflect.TypeOf((*TfMalwareProtectionPlan_ActionsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.ActionsPropertyList",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_ActionsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.ActionsPropertyList",
+		reflect.TypeOf((*TfMalwareProtectionPlan_ActionsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1008,14 +1249,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_ActionsPropertyList{}
+			j := jsiiProxy_TfMalwareProtectionPlan_ActionsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.ActionsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_ActionsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.ActionsPropertyOutputReference",
+		reflect.TypeOf((*TfMalwareProtectionPlan_ActionsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1044,18 +1285,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_ActionsPropertyOutputReference{}
+			j := jsiiProxy_TfMalwareProtectionPlan_ActionsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.ProtectedResourceProperty",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_ProtectedResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.ProtectedResourceProperty",
+		reflect.TypeOf((*TfMalwareProtectionPlan_ProtectedResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.ProtectedResourcePropertyList",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_ProtectedResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.ProtectedResourcePropertyList",
+		reflect.TypeOf((*TfMalwareProtectionPlan_ProtectedResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1070,14 +1311,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_ProtectedResourcePropertyList{}
+			j := jsiiProxy_TfMalwareProtectionPlan_ProtectedResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.ProtectedResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_ProtectedResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.ProtectedResourcePropertyOutputReference",
+		reflect.TypeOf((*TfMalwareProtectionPlan_ProtectedResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1106,18 +1347,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_ProtectedResourcePropertyOutputReference{}
+			j := jsiiProxy_TfMalwareProtectionPlan_ProtectedResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.S3BucketProperty",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_S3BucketProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.S3BucketProperty",
+		reflect.TypeOf((*TfMalwareProtectionPlan_S3BucketProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.S3BucketPropertyList",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_S3BucketPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.S3BucketPropertyList",
+		reflect.TypeOf((*TfMalwareProtectionPlan_S3BucketPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1132,14 +1373,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_S3BucketPropertyList{}
+			j := jsiiProxy_TfMalwareProtectionPlan_S3BucketPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.S3BucketPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_S3BucketPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.S3BucketPropertyOutputReference",
+		reflect.TypeOf((*TfMalwareProtectionPlan_S3BucketPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "bucketName", GoGetter: "BucketName"},
 			_jsii_.MemberProperty{JsiiProperty: "bucketNameInput", GoGetter: "BucketNameInput"},
@@ -1169,18 +1410,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_S3BucketPropertyOutputReference{}
+			j := jsiiProxy_TfMalwareProtectionPlan_S3BucketPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.TaggingProperty",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_TaggingProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.TaggingProperty",
+		reflect.TypeOf((*TfMalwareProtectionPlan_TaggingProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.TaggingPropertyList",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_TaggingPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.TaggingPropertyList",
+		reflect.TypeOf((*TfMalwareProtectionPlan_TaggingPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1195,14 +1436,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_TaggingPropertyList{}
+			j := jsiiProxy_TfMalwareProtectionPlan_TaggingPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlan.TaggingPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlan_TaggingPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlan.TaggingPropertyOutputReference",
+		reflect.TypeOf((*TfMalwareProtectionPlan_TaggingPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1230,18 +1471,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMalwareProtectionPlan_TaggingPropertyOutputReference{}
+			j := jsiiProxy_TfMalwareProtectionPlan_TaggingPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMalwareProtectionPlanConfig",
-		reflect.TypeOf((*AwsGuarddutyMalwareProtectionPlanConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMalwareProtectionPlanConfig",
+		reflect.TypeOf((*TfMalwareProtectionPlanConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMember",
-		reflect.TypeOf((*AwsGuarddutyMember)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMember",
+		reflect.TypeOf((*TfMember)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -1315,18 +1556,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMember{}
+			j := jsiiProxy_TfMember{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMember.TimeoutsProperty",
-		reflect.TypeOf((*AwsGuarddutyMember_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMember.TimeoutsProperty",
+		reflect.TypeOf((*TfMember_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMember.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyMember_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMember.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfMember_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1357,18 +1598,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMember_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfMember_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMemberConfig",
-		reflect.TypeOf((*AwsGuarddutyMemberConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMemberConfig",
+		reflect.TypeOf((*TfMemberConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMemberDetectorFeature",
-		reflect.TypeOf((*AwsGuarddutyMemberDetectorFeature)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMemberDetectorFeature",
+		reflect.TypeOf((*TfMemberDetectorFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -1431,18 +1672,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMemberDetectorFeature{}
+			j := jsiiProxy_TfMemberDetectorFeature{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMemberDetectorFeature.AdditionalConfigurationProperty",
-		reflect.TypeOf((*AwsGuarddutyMemberDetectorFeature_AdditionalConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMemberDetectorFeature.AdditionalConfigurationProperty",
+		reflect.TypeOf((*TfMemberDetectorFeature_AdditionalConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMemberDetectorFeature.AdditionalConfigurationPropertyList",
-		reflect.TypeOf((*AwsGuarddutyMemberDetectorFeature_AdditionalConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMemberDetectorFeature.AdditionalConfigurationPropertyList",
+		reflect.TypeOf((*TfMemberDetectorFeature_AdditionalConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -1457,14 +1698,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMemberDetectorFeature_AdditionalConfigurationPropertyList{}
+			j := jsiiProxy_TfMemberDetectorFeature_AdditionalConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyMemberDetectorFeature.AdditionalConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyMemberDetectorFeature_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMemberDetectorFeature.AdditionalConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfMemberDetectorFeature_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1493,18 +1734,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyMemberDetectorFeature_AdditionalConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfMemberDetectorFeature_AdditionalConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyMemberDetectorFeatureConfig",
-		reflect.TypeOf((*AwsGuarddutyMemberDetectorFeatureConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfMemberDetectorFeatureConfig",
+		reflect.TypeOf((*TfMemberDetectorFeatureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationAdminAccount",
-		reflect.TypeOf((*AwsGuarddutyOrganizationAdminAccount)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationAdminAccount",
+		reflect.TypeOf((*TfOrganizationAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1560,18 +1801,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationAdminAccount{}
+			j := jsiiProxy_TfOrganizationAdminAccount{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationAdminAccountConfig",
-		reflect.TypeOf((*AwsGuarddutyOrganizationAdminAccountConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationAdminAccountConfig",
+		reflect.TypeOf((*TfOrganizationAdminAccountConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration",
+		reflect.TypeOf((*TfOrganizationConfiguration)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -1633,18 +1874,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration{}
+			j := jsiiProxy_TfOrganizationConfiguration{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.AuditLogsProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_AuditLogsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.AuditLogsProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_AuditLogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.AuditLogsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_AuditLogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.AuditLogsPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_AuditLogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1671,18 +1912,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_AuditLogsPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_AuditLogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.DatasourcesProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_DatasourcesProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.DatasourcesProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_DatasourcesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.DatasourcesPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_DatasourcesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.DatasourcesPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_DatasourcesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1719,18 +1960,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_DatasourcesPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_DatasourcesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.EbsVolumesProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_EbsVolumesProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.EbsVolumesProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_EbsVolumesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.EbsVolumesPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_EbsVolumesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.EbsVolumesPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_EbsVolumesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoEnable", GoGetter: "AutoEnable"},
 			_jsii_.MemberProperty{JsiiProperty: "autoEnableInput", GoGetter: "AutoEnableInput"},
@@ -1757,18 +1998,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_EbsVolumesPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_EbsVolumesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.KubernetesProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_KubernetesProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.KubernetesProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_KubernetesProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.KubernetesPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_KubernetesPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.KubernetesPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_KubernetesPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "auditLogs", GoGetter: "AuditLogs"},
 			_jsii_.MemberProperty{JsiiProperty: "auditLogsInput", GoGetter: "AuditLogsInput"},
@@ -1796,18 +2037,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_KubernetesPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_KubernetesPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.MalwareProtectionProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_MalwareProtectionProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.MalwareProtectionProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_MalwareProtectionProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.MalwareProtectionPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_MalwareProtectionPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.MalwareProtectionPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_MalwareProtectionPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1835,18 +2076,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_MalwareProtectionPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_MalwareProtectionPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.S3LogsProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_S3LogsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.S3LogsProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_S3LogsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.S3LogsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_S3LogsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.S3LogsPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_S3LogsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoEnable", GoGetter: "AutoEnable"},
 			_jsii_.MemberProperty{JsiiProperty: "autoEnableInput", GoGetter: "AutoEnableInput"},
@@ -1873,18 +2114,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_S3LogsPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_S3LogsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.ScanEc2InstanceWithFindingsProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_ScanEc2InstanceWithFindingsProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.ScanEc2InstanceWithFindingsProperty",
+		reflect.TypeOf((*TfOrganizationConfiguration_ScanEc2InstanceWithFindingsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfiguration.ScanEc2InstanceWithFindingsPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfiguration_ScanEc2InstanceWithFindingsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfiguration.ScanEc2InstanceWithFindingsPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfiguration_ScanEc2InstanceWithFindingsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -1912,18 +2153,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfiguration_ScanEc2InstanceWithFindingsPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfiguration_ScanEc2InstanceWithFindingsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfigurationConfig",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfigurationConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfigurationConfig",
+		reflect.TypeOf((*TfOrganizationConfigurationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfigurationFeature",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfigurationFeature)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfigurationFeature",
+		reflect.TypeOf((*TfOrganizationConfigurationFeature)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "additionalConfiguration", GoGetter: "AdditionalConfiguration"},
 			_jsii_.MemberProperty{JsiiProperty: "additionalConfigurationInput", GoGetter: "AdditionalConfigurationInput"},
@@ -1987,18 +2228,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfigurationFeature{}
+			j := jsiiProxy_TfOrganizationConfigurationFeature{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfigurationFeature.AdditionalConfigurationProperty",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfigurationFeature_AdditionalConfigurationProperty)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfigurationFeature.AdditionalConfigurationProperty",
+		reflect.TypeOf((*TfOrganizationConfigurationFeature_AdditionalConfigurationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfigurationFeature.AdditionalConfigurationPropertyList",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfigurationFeature_AdditionalConfigurationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfigurationFeature.AdditionalConfigurationPropertyList",
+		reflect.TypeOf((*TfOrganizationConfigurationFeature_AdditionalConfigurationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -2013,14 +2254,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfigurationFeature_AdditionalConfigurationPropertyList{}
+			j := jsiiProxy_TfOrganizationConfigurationFeature_AdditionalConfigurationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfigurationFeature.AdditionalConfigurationPropertyOutputReference",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfigurationFeature_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfigurationFeature.AdditionalConfigurationPropertyOutputReference",
+		reflect.TypeOf((*TfOrganizationConfigurationFeature_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "autoEnable", GoGetter: "AutoEnable"},
 			_jsii_.MemberProperty{JsiiProperty: "autoEnableInput", GoGetter: "AutoEnableInput"},
@@ -2049,18 +2290,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyOrganizationConfigurationFeature_AdditionalConfigurationPropertyOutputReference{}
+			j := jsiiProxy_TfOrganizationConfigurationFeature_AdditionalConfigurationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyOrganizationConfigurationFeatureConfig",
-		reflect.TypeOf((*AwsGuarddutyOrganizationConfigurationFeatureConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfOrganizationConfigurationFeatureConfig",
+		reflect.TypeOf((*TfOrganizationConfigurationFeatureConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyPublishingDestination",
-		reflect.TypeOf((*AwsGuarddutyPublishingDestination)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfPublishingDestination",
+		reflect.TypeOf((*TfPublishingDestination)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -2131,18 +2372,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyPublishingDestination{}
+			j := jsiiProxy_TfPublishingDestination{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyPublishingDestinationConfig",
-		reflect.TypeOf((*AwsGuarddutyPublishingDestinationConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfPublishingDestinationConfig",
+		reflect.TypeOf((*TfPublishingDestinationConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.AwsGuarddutyThreatintelset",
-		reflect.TypeOf((*AwsGuarddutyThreatintelset)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfThreatintelset",
+		reflect.TypeOf((*TfThreatintelset)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "activate", GoGetter: "Activate"},
 			_jsii_.MemberProperty{JsiiProperty: "activateInput", GoGetter: "ActivateInput"},
@@ -2214,254 +2455,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsGuarddutyThreatintelset{}
+			j := jsiiProxy_TfThreatintelset{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.AwsGuarddutyThreatintelsetConfig",
-		reflect.TypeOf((*AwsGuarddutyThreatintelsetConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector",
-		reflect.TypeOf((*DataAwsGuarddutyDetector)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "features", GoGetter: "Features"},
-			_jsii_.MemberProperty{JsiiProperty: "findingPublishingFrequency", GoGetter: "FindingPublishingFrequency"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "resetTags", GoMethod: "ResetTags"},
-			_jsii_.MemberProperty{JsiiProperty: "serviceRoleArn", GoGetter: "ServiceRoleArn"},
-			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "tags", GoGetter: "Tags"},
-			_jsii_.MemberProperty{JsiiProperty: "tagsInput", GoGetter: "TagsInput"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGuarddutyDetector{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector.AdditionalConfigurationProperty",
-		reflect.TypeOf((*DataAwsGuarddutyDetector_AdditionalConfigurationProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector.AdditionalConfigurationPropertyList",
-		reflect.TypeOf((*DataAwsGuarddutyDetector_AdditionalConfigurationPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGuarddutyDetector_AdditionalConfigurationPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector.AdditionalConfigurationPropertyOutputReference",
-		reflect.TypeOf((*DataAwsGuarddutyDetector_AdditionalConfigurationPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGuarddutyDetector_AdditionalConfigurationPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector.FeaturesProperty",
-		reflect.TypeOf((*DataAwsGuarddutyDetector_FeaturesProperty)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector.FeaturesPropertyList",
-		reflect.TypeOf((*DataAwsGuarddutyDetector_FeaturesPropertyList)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "get", GoMethod: "Get"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGuarddutyDetector_FeaturesPropertyList{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
-			return &j
-		},
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetector.FeaturesPropertyOutputReference",
-		reflect.TypeOf((*DataAwsGuarddutyDetector_FeaturesPropertyOutputReference)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberProperty{JsiiProperty: "additionalConfiguration", GoGetter: "AdditionalConfiguration"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
-			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
-			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
-			_jsii_.MemberProperty{JsiiProperty: "creationStack", GoGetter: "CreationStack"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "internalValue", GoGetter: "InternalValue"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationAsList", GoMethod: "InterpolationAsList"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "name", GoGetter: "Name"},
-			_jsii_.MemberMethod{JsiiMethod: "resolve", GoMethod: "Resolve"},
-			_jsii_.MemberProperty{JsiiProperty: "status", GoGetter: "Status"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformAttribute", GoGetter: "TerraformAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResource", GoGetter: "TerraformResource"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGuarddutyDetector_FeaturesPropertyOutputReference{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyDetectorConfig",
-		reflect.TypeOf((*DataAwsGuarddutyDetectorConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyFindingIds",
-		reflect.TypeOf((*DataAwsGuarddutyFindingIds)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "detectorId", GoGetter: "DetectorId"},
-			_jsii_.MemberProperty{JsiiProperty: "detectorIdInput", GoGetter: "DetectorIdInput"},
-			_jsii_.MemberProperty{JsiiProperty: "findingIds", GoGetter: "FindingIds"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "hasFindings", GoGetter: "HasFindings"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsGuarddutyFindingIds{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-guardduty.DataAwsGuarddutyFindingIdsConfig",
-		reflect.TypeOf((*DataAwsGuarddutyFindingIdsConfig)(nil)).Elem(),
+		"@cdktn/aws-guardduty.TfThreatintelsetConfig",
+		reflect.TypeOf((*TfThreatintelsetConfig)(nil)).Elem(),
 	)
 }

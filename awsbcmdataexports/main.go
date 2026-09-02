@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport",
-		reflect.TypeOf((*AwsBcmdataexportsExport)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport",
+		reflect.TypeOf((*TfExport)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -72,18 +72,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport{}
+			j := jsiiProxy_TfExport{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.DataQueryProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_DataQueryProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.DataQueryProperty",
+		reflect.TypeOf((*TfExport_DataQueryProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.DataQueryPropertyList",
-		reflect.TypeOf((*AwsBcmdataexportsExport_DataQueryPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.DataQueryPropertyList",
+		reflect.TypeOf((*TfExport_DataQueryPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -98,14 +98,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_DataQueryPropertyList{}
+			j := jsiiProxy_TfExport_DataQueryPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.DataQueryPropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_DataQueryPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.DataQueryPropertyOutputReference",
+		reflect.TypeOf((*TfExport_DataQueryPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -135,18 +135,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_DataQueryPropertyOutputReference{}
+			j := jsiiProxy_TfExport_DataQueryPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.DestinationConfigurationsProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_DestinationConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.DestinationConfigurationsProperty",
+		reflect.TypeOf((*TfExport_DestinationConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.DestinationConfigurationsPropertyList",
-		reflect.TypeOf((*AwsBcmdataexportsExport_DestinationConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.DestinationConfigurationsPropertyList",
+		reflect.TypeOf((*TfExport_DestinationConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -161,14 +161,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_DestinationConfigurationsPropertyList{}
+			j := jsiiProxy_TfExport_DestinationConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.DestinationConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_DestinationConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.DestinationConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfExport_DestinationConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -197,18 +197,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_DestinationConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfExport_DestinationConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.ExportProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_ExportProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.ExportProperty",
+		reflect.TypeOf((*TfExport_ExportProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.ExportPropertyList",
-		reflect.TypeOf((*AwsBcmdataexportsExport_ExportPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.ExportPropertyList",
+		reflect.TypeOf((*TfExport_ExportPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -223,14 +223,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_ExportPropertyList{}
+			j := jsiiProxy_TfExport_ExportPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.ExportPropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_ExportPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.ExportPropertyOutputReference",
+		reflect.TypeOf((*TfExport_ExportPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -273,18 +273,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_ExportPropertyOutputReference{}
+			j := jsiiProxy_TfExport_ExportPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.RefreshCadenceProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_RefreshCadenceProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.RefreshCadenceProperty",
+		reflect.TypeOf((*TfExport_RefreshCadenceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.RefreshCadencePropertyList",
-		reflect.TypeOf((*AwsBcmdataexportsExport_RefreshCadencePropertyList)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.RefreshCadencePropertyList",
+		reflect.TypeOf((*TfExport_RefreshCadencePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -299,14 +299,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_RefreshCadencePropertyList{}
+			j := jsiiProxy_TfExport_RefreshCadencePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.RefreshCadencePropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_RefreshCadencePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.RefreshCadencePropertyOutputReference",
+		reflect.TypeOf((*TfExport_RefreshCadencePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -333,18 +333,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_RefreshCadencePropertyOutputReference{}
+			j := jsiiProxy_TfExport_RefreshCadencePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.S3DestinationProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_S3DestinationProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.S3DestinationProperty",
+		reflect.TypeOf((*TfExport_S3DestinationProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.S3DestinationPropertyList",
-		reflect.TypeOf((*AwsBcmdataexportsExport_S3DestinationPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.S3DestinationPropertyList",
+		reflect.TypeOf((*TfExport_S3DestinationPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -359,14 +359,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_S3DestinationPropertyList{}
+			j := jsiiProxy_TfExport_S3DestinationPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.S3DestinationPropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_S3DestinationPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.S3DestinationPropertyOutputReference",
+		reflect.TypeOf((*TfExport_S3DestinationPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -401,18 +401,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_S3DestinationPropertyOutputReference{}
+			j := jsiiProxy_TfExport_S3DestinationPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.S3OutputConfigurationsProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_S3OutputConfigurationsProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.S3OutputConfigurationsProperty",
+		reflect.TypeOf((*TfExport_S3OutputConfigurationsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.S3OutputConfigurationsPropertyList",
-		reflect.TypeOf((*AwsBcmdataexportsExport_S3OutputConfigurationsPropertyList)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.S3OutputConfigurationsPropertyList",
+		reflect.TypeOf((*TfExport_S3OutputConfigurationsPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -427,14 +427,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_S3OutputConfigurationsPropertyList{}
+			j := jsiiProxy_TfExport_S3OutputConfigurationsPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.S3OutputConfigurationsPropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_S3OutputConfigurationsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.S3OutputConfigurationsPropertyOutputReference",
+		reflect.TypeOf((*TfExport_S3OutputConfigurationsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -467,18 +467,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_S3OutputConfigurationsPropertyOutputReference{}
+			j := jsiiProxy_TfExport_S3OutputConfigurationsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.TimeoutsProperty",
-		reflect.TypeOf((*AwsBcmdataexportsExport_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.TimeoutsProperty",
+		reflect.TypeOf((*TfExport_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExport.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsBcmdataexportsExport_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExport.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfExport_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -509,13 +509,13 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsBcmdataexportsExport_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfExport_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-bcm-data-exports.AwsBcmdataexportsExportConfig",
-		reflect.TypeOf((*AwsBcmdataexportsExportConfig)(nil)).Elem(),
+		"@cdktn/aws-bcm-data-exports.TfExportConfig",
+		reflect.TypeOf((*TfExportConfig)(nil)).Elem(),
 	)
 }

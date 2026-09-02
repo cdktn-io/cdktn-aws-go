@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package awstransferfamily
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validatePutEfsFileLocationParameters(value *TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validatePutS3FileLocationParameters(value *TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationS3FileLocationProperty) error {
+	return nil
+}
+
+func (t *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateSetInternalValueParameters(val *TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_TfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewTfWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

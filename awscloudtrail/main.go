@@ -9,8 +9,65 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail",
-		reflect.TypeOf((*AwsCloudtrail)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.DataTfServiceAccount",
+		reflect.TypeOf((*DataTfServiceAccount)(nil)).Elem(),
+		[]_jsii_.Member{
+			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
+			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
+			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
+			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
+			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
+			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
+			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
+			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
+			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
+			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
+			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
+			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
+			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
+			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
+			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
+			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
+			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
+			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
+			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
+			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
+			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
+			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
+			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
+			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
+			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
+			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
+			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
+			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
+		},
+		func() interface{} {
+			j := jsiiProxy_DataTfServiceAccount{}
+			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
+			return &j
+		},
+	)
+	_jsii_.RegisterStruct(
+		"@cdktn/aws-cloudtrail.DataTfServiceAccountConfig",
+		reflect.TypeOf((*DataTfServiceAccountConfig)(nil)).Elem(),
+	)
+	_jsii_.RegisterClass(
+		"@cdktn/aws-cloudtrail.TfCloudtrail",
+		reflect.TypeOf((*TfCloudtrail)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -119,18 +176,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail{}
+			j := jsiiProxy_TfCloudtrail{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.AdvancedEventSelectorProperty",
-		reflect.TypeOf((*AwsCloudtrail_AdvancedEventSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.AdvancedEventSelectorProperty",
+		reflect.TypeOf((*TfCloudtrail_AdvancedEventSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.AdvancedEventSelectorPropertyList",
-		reflect.TypeOf((*AwsCloudtrail_AdvancedEventSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.AdvancedEventSelectorPropertyList",
+		reflect.TypeOf((*TfCloudtrail_AdvancedEventSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -145,14 +202,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_AdvancedEventSelectorPropertyList{}
+			j := jsiiProxy_TfCloudtrail_AdvancedEventSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.AdvancedEventSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrail_AdvancedEventSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.AdvancedEventSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfCloudtrail_AdvancedEventSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -183,18 +240,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_AdvancedEventSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfCloudtrail_AdvancedEventSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.DataResourceProperty",
-		reflect.TypeOf((*AwsCloudtrail_DataResourceProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.DataResourceProperty",
+		reflect.TypeOf((*TfCloudtrail_DataResourceProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.DataResourcePropertyList",
-		reflect.TypeOf((*AwsCloudtrail_DataResourcePropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.DataResourcePropertyList",
+		reflect.TypeOf((*TfCloudtrail_DataResourcePropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -209,14 +266,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_DataResourcePropertyList{}
+			j := jsiiProxy_TfCloudtrail_DataResourcePropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.DataResourcePropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrail_DataResourcePropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.DataResourcePropertyOutputReference",
+		reflect.TypeOf((*TfCloudtrail_DataResourcePropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -245,18 +302,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "valuesInput", GoGetter: "ValuesInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_DataResourcePropertyOutputReference{}
+			j := jsiiProxy_TfCloudtrail_DataResourcePropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.EventSelectorProperty",
-		reflect.TypeOf((*AwsCloudtrail_EventSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.EventSelectorProperty",
+		reflect.TypeOf((*TfCloudtrail_EventSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.EventSelectorPropertyList",
-		reflect.TypeOf((*AwsCloudtrail_EventSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.EventSelectorPropertyList",
+		reflect.TypeOf((*TfCloudtrail_EventSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -271,14 +328,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_EventSelectorPropertyList{}
+			j := jsiiProxy_TfCloudtrail_EventSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.EventSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrail_EventSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.EventSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfCloudtrail_EventSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -316,18 +373,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_EventSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfCloudtrail_EventSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.FieldSelectorProperty",
-		reflect.TypeOf((*AwsCloudtrail_FieldSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.FieldSelectorProperty",
+		reflect.TypeOf((*TfCloudtrail_FieldSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.FieldSelectorPropertyList",
-		reflect.TypeOf((*AwsCloudtrail_FieldSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.FieldSelectorPropertyList",
+		reflect.TypeOf((*TfCloudtrail_FieldSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -342,14 +399,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_FieldSelectorPropertyList{}
+			j := jsiiProxy_TfCloudtrail_FieldSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.FieldSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrail_FieldSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.FieldSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfCloudtrail_FieldSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -394,18 +451,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_FieldSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfCloudtrail_FieldSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.InsightSelectorProperty",
-		reflect.TypeOf((*AwsCloudtrail_InsightSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.InsightSelectorProperty",
+		reflect.TypeOf((*TfCloudtrail_InsightSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.InsightSelectorPropertyList",
-		reflect.TypeOf((*AwsCloudtrail_InsightSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.InsightSelectorPropertyList",
+		reflect.TypeOf((*TfCloudtrail_InsightSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -420,14 +477,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_InsightSelectorPropertyList{}
+			j := jsiiProxy_TfCloudtrail_InsightSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrail.InsightSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrail_InsightSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrail.InsightSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfCloudtrail_InsightSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -454,18 +511,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrail_InsightSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfCloudtrail_InsightSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailConfig",
-		reflect.TypeOf((*AwsCloudtrailConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfCloudtrailConfig",
+		reflect.TypeOf((*TfCloudtrailConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore",
+		reflect.TypeOf((*TfEventDataStore)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -557,18 +614,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailEventDataStore{}
+			j := jsiiProxy_TfEventDataStore{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.AdvancedEventSelectorProperty",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_AdvancedEventSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.AdvancedEventSelectorProperty",
+		reflect.TypeOf((*TfEventDataStore_AdvancedEventSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.AdvancedEventSelectorPropertyList",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_AdvancedEventSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.AdvancedEventSelectorPropertyList",
+		reflect.TypeOf((*TfEventDataStore_AdvancedEventSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -583,14 +640,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailEventDataStore_AdvancedEventSelectorPropertyList{}
+			j := jsiiProxy_TfEventDataStore_AdvancedEventSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.AdvancedEventSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_AdvancedEventSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.AdvancedEventSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfEventDataStore_AdvancedEventSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -622,18 +679,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailEventDataStore_AdvancedEventSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfEventDataStore_AdvancedEventSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.FieldSelectorProperty",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_FieldSelectorProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.FieldSelectorProperty",
+		reflect.TypeOf((*TfEventDataStore_FieldSelectorProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.FieldSelectorPropertyList",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_FieldSelectorPropertyList)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.FieldSelectorPropertyList",
+		reflect.TypeOf((*TfEventDataStore_FieldSelectorPropertyList)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "allWithMapKey", GoMethod: "AllWithMapKey"},
 			_jsii_.MemberMethod{JsiiMethod: "computeFqn", GoMethod: "ComputeFqn"},
@@ -648,14 +705,14 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "wrapsSet", GoGetter: "WrapsSet"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailEventDataStore_FieldSelectorPropertyList{}
+			j := jsiiProxy_TfEventDataStore_FieldSelectorPropertyList{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexList)
 			return &j
 		},
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.FieldSelectorPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_FieldSelectorPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.FieldSelectorPropertyOutputReference",
+		reflect.TypeOf((*TfEventDataStore_FieldSelectorPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -701,18 +758,18 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailEventDataStore_FieldSelectorPropertyOutputReference{}
+			j := jsiiProxy_TfEventDataStore_FieldSelectorPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.TimeoutsProperty",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_TimeoutsProperty)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.TimeoutsProperty",
+		reflect.TypeOf((*TfEventDataStore_TimeoutsProperty)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStore.TimeoutsPropertyOutputReference",
-		reflect.TypeOf((*AwsCloudtrailEventDataStore_TimeoutsPropertyOutputReference)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStore.TimeoutsPropertyOutputReference",
+		reflect.TypeOf((*TfEventDataStore_TimeoutsPropertyOutputReference)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIndex", GoGetter: "ComplexObjectIndex"},
 			_jsii_.MemberProperty{JsiiProperty: "complexObjectIsFromSet", GoGetter: "ComplexObjectIsFromSet"},
@@ -746,18 +803,18 @@ func init() {
 			_jsii_.MemberProperty{JsiiProperty: "updateInput", GoGetter: "UpdateInput"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailEventDataStore_TimeoutsPropertyOutputReference{}
+			j := jsiiProxy_TfEventDataStore_TimeoutsPropertyOutputReference{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnComplexObject)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailEventDataStoreConfig",
-		reflect.TypeOf((*AwsCloudtrailEventDataStoreConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfEventDataStoreConfig",
+		reflect.TypeOf((*TfEventDataStoreConfig)(nil)).Elem(),
 	)
 	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailOrganizationDelegatedAdminAccount",
-		reflect.TypeOf((*AwsCloudtrailOrganizationDelegatedAdminAccount)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfOrganizationDelegatedAdminAccount",
+		reflect.TypeOf((*TfOrganizationDelegatedAdminAccount)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberProperty{JsiiProperty: "accountId", GoGetter: "AccountId"},
 			_jsii_.MemberProperty{JsiiProperty: "accountIdInput", GoGetter: "AccountIdInput"},
@@ -812,70 +869,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsCloudtrailOrganizationDelegatedAdminAccount{}
+			j := jsiiProxy_TfOrganizationDelegatedAdminAccount{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.AwsCloudtrailOrganizationDelegatedAdminAccountConfig",
-		reflect.TypeOf((*AwsCloudtrailOrganizationDelegatedAdminAccountConfig)(nil)).Elem(),
-	)
-	_jsii_.RegisterClass(
-		"@cdktn/aws-cloudtrail.DataAwsCloudtrailServiceAccount",
-		reflect.TypeOf((*DataAwsCloudtrailServiceAccount)(nil)).Elem(),
-		[]_jsii_.Member{
-			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
-			_jsii_.MemberProperty{JsiiProperty: "arn", GoGetter: "Arn"},
-			_jsii_.MemberProperty{JsiiProperty: "cdktfStack", GoGetter: "CdktfStack"},
-			_jsii_.MemberProperty{JsiiProperty: "constructNodeMetadata", GoGetter: "ConstructNodeMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "count", GoGetter: "Count"},
-			_jsii_.MemberProperty{JsiiProperty: "dependsOn", GoGetter: "DependsOn"},
-			_jsii_.MemberProperty{JsiiProperty: "forEach", GoGetter: "ForEach"},
-			_jsii_.MemberProperty{JsiiProperty: "fqn", GoGetter: "Fqn"},
-			_jsii_.MemberProperty{JsiiProperty: "friendlyUniqueId", GoGetter: "FriendlyUniqueId"},
-			_jsii_.MemberMethod{JsiiMethod: "getAnyMapAttribute", GoMethod: "GetAnyMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanAttribute", GoMethod: "GetBooleanAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getBooleanMapAttribute", GoMethod: "GetBooleanMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getListAttribute", GoMethod: "GetListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberAttribute", GoMethod: "GetNumberAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberListAttribute", GoMethod: "GetNumberListAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getNumberMapAttribute", GoMethod: "GetNumberMapAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringAttribute", GoMethod: "GetStringAttribute"},
-			_jsii_.MemberMethod{JsiiMethod: "getStringMapAttribute", GoMethod: "GetStringMapAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "id", GoGetter: "Id"},
-			_jsii_.MemberProperty{JsiiProperty: "idInput", GoGetter: "IdInput"},
-			_jsii_.MemberMethod{JsiiMethod: "interpolationForAttribute", GoMethod: "InterpolationForAttribute"},
-			_jsii_.MemberProperty{JsiiProperty: "lifecycle", GoGetter: "Lifecycle"},
-			_jsii_.MemberProperty{JsiiProperty: "node", GoGetter: "Node"},
-			_jsii_.MemberMethod{JsiiMethod: "overrideLogicalId", GoMethod: "OverrideLogicalId"},
-			_jsii_.MemberProperty{JsiiProperty: "provider", GoGetter: "Provider"},
-			_jsii_.MemberProperty{JsiiProperty: "rawOverrides", GoGetter: "RawOverrides"},
-			_jsii_.MemberProperty{JsiiProperty: "region", GoGetter: "Region"},
-			_jsii_.MemberProperty{JsiiProperty: "regionInput", GoGetter: "RegionInput"},
-			_jsii_.MemberMethod{JsiiMethod: "registerProviderFeatureUsage", GoMethod: "RegisterProviderFeatureUsage"},
-			_jsii_.MemberMethod{JsiiMethod: "resetId", GoMethod: "ResetId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetOverrideLogicalId", GoMethod: "ResetOverrideLogicalId"},
-			_jsii_.MemberMethod{JsiiMethod: "resetRegion", GoMethod: "ResetRegion"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeAttributes", GoMethod: "SynthesizeAttributes"},
-			_jsii_.MemberMethod{JsiiMethod: "synthesizeHclAttributes", GoMethod: "SynthesizeHclAttributes"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformGeneratorMetadata", GoGetter: "TerraformGeneratorMetadata"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformMetaArguments", GoGetter: "TerraformMetaArguments"},
-			_jsii_.MemberProperty{JsiiProperty: "terraformResourceType", GoGetter: "TerraformResourceType"},
-			_jsii_.MemberMethod{JsiiMethod: "toHclTerraform", GoMethod: "ToHclTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "toMetadata", GoMethod: "ToMetadata"},
-			_jsii_.MemberMethod{JsiiMethod: "toString", GoMethod: "ToString"},
-			_jsii_.MemberMethod{JsiiMethod: "toTerraform", GoMethod: "ToTerraform"},
-			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
-		},
-		func() interface{} {
-			j := jsiiProxy_DataAwsCloudtrailServiceAccount{}
-			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformDataSource)
-			return &j
-		},
-	)
-	_jsii_.RegisterStruct(
-		"@cdktn/aws-cloudtrail.DataAwsCloudtrailServiceAccountConfig",
-		reflect.TypeOf((*DataAwsCloudtrailServiceAccountConfig)(nil)).Elem(),
+		"@cdktn/aws-cloudtrail.TfOrganizationDelegatedAdminAccountConfig",
+		reflect.TypeOf((*TfOrganizationDelegatedAdminAccountConfig)(nil)).Elem(),
 	)
 }

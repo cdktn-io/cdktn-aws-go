@@ -9,8 +9,8 @@ import (
 
 func init() {
 	_jsii_.RegisterClass(
-		"@cdktn/aws-user-notifications-contacts.AwsNotificationscontactsEmailContact",
-		reflect.TypeOf((*AwsNotificationscontactsEmailContact)(nil)).Elem(),
+		"@cdktn/aws-user-notifications-contacts.TfEmailContact",
+		reflect.TypeOf((*TfEmailContact)(nil)).Elem(),
 		[]_jsii_.Member{
 			_jsii_.MemberMethod{JsiiMethod: "addMoveTarget", GoMethod: "AddMoveTarget"},
 			_jsii_.MemberMethod{JsiiMethod: "addOverride", GoMethod: "AddOverride"},
@@ -67,13 +67,13 @@ func init() {
 			_jsii_.MemberMethod{JsiiMethod: "with", GoMethod: "With"},
 		},
 		func() interface{} {
-			j := jsiiProxy_AwsNotificationscontactsEmailContact{}
+			j := jsiiProxy_TfEmailContact{}
 			_jsii_.InitJsiiProxy(&j.Type__cdktnTerraformResource)
 			return &j
 		},
 	)
 	_jsii_.RegisterStruct(
-		"@cdktn/aws-user-notifications-contacts.AwsNotificationscontactsEmailContactConfig",
-		reflect.TypeOf((*AwsNotificationscontactsEmailContactConfig)(nil)).Elem(),
+		"@cdktn/aws-user-notifications-contacts.TfEmailContactConfig",
+		reflect.TypeOf((*TfEmailContactConfig)(nil)).Elem(),
 	)
 }

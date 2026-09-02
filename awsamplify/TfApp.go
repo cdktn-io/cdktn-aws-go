@@ -1,0 +1,2135 @@
+package awsamplify
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-aws-go/awsamplify/jsii"
+
+	"github.com/aws/constructs-go/constructs/v10"
+	"github.com/cdktn-io/cdktn-aws-go/awsamplify/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Represents a {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/amplify_app aws_amplify_app}.
+// Experimental.
+type TfApp interface {
+	cdktn.TerraformResource
+	// Experimental.
+	AccessToken() *string
+	// Experimental.
+	SetAccessToken(val *string)
+	// Experimental.
+	AccessTokenInput() *string
+	// Experimental.
+	Arn() *string
+	// Experimental.
+	AutoBranchCreationConfig() TfApp_AutoBranchCreationConfigPropertyOutputReference
+	// Experimental.
+	AutoBranchCreationConfigInput() *TfApp_AutoBranchCreationConfigProperty
+	// Experimental.
+	AutoBranchCreationPatterns() *[]*string
+	// Experimental.
+	SetAutoBranchCreationPatterns(val *[]*string)
+	// Experimental.
+	AutoBranchCreationPatternsInput() *[]*string
+	// Experimental.
+	BasicAuthCredentials() *string
+	// Experimental.
+	SetBasicAuthCredentials(val *string)
+	// Experimental.
+	BasicAuthCredentialsInput() *string
+	// Experimental.
+	BuildSpec() *string
+	// Experimental.
+	SetBuildSpec(val *string)
+	// Experimental.
+	BuildSpecInput() *string
+	// Experimental.
+	CacheConfig() TfApp_CacheConfigPropertyOutputReference
+	// Experimental.
+	CacheConfigInput() *TfApp_CacheConfigProperty
+	// Experimental.
+	CdktfStack() cdktn.TerraformStack
+	// Experimental.
+	ComputeRoleArn() *string
+	// Experimental.
+	SetComputeRoleArn(val *string)
+	// Experimental.
+	ComputeRoleArnInput() *string
+	// Experimental.
+	Connection() interface{}
+	// Experimental.
+	SetConnection(val interface{})
+	// Experimental.
+	ConstructNodeMetadata() *map[string]interface{}
+	// Experimental.
+	Count() interface{}
+	// Experimental.
+	SetCount(val interface{})
+	// Experimental.
+	CustomHeaders() *string
+	// Experimental.
+	SetCustomHeaders(val *string)
+	// Experimental.
+	CustomHeadersInput() *string
+	// Experimental.
+	CustomRule() TfApp_CustomRulePropertyList
+	// Experimental.
+	CustomRuleInput() interface{}
+	// Experimental.
+	DefaultDomain() *string
+	// Experimental.
+	DependsOn() *[]*string
+	// Experimental.
+	SetDependsOn(val *[]*string)
+	// Experimental.
+	Description() *string
+	// Experimental.
+	SetDescription(val *string)
+	// Experimental.
+	DescriptionInput() *string
+	// Experimental.
+	EnableAutoBranchCreation() interface{}
+	// Experimental.
+	SetEnableAutoBranchCreation(val interface{})
+	// Experimental.
+	EnableAutoBranchCreationInput() interface{}
+	// Experimental.
+	EnableBasicAuth() interface{}
+	// Experimental.
+	SetEnableBasicAuth(val interface{})
+	// Experimental.
+	EnableBasicAuthInput() interface{}
+	// Experimental.
+	EnableBranchAutoBuild() interface{}
+	// Experimental.
+	SetEnableBranchAutoBuild(val interface{})
+	// Experimental.
+	EnableBranchAutoBuildInput() interface{}
+	// Experimental.
+	EnableBranchAutoDeletion() interface{}
+	// Experimental.
+	SetEnableBranchAutoDeletion(val interface{})
+	// Experimental.
+	EnableBranchAutoDeletionInput() interface{}
+	// Experimental.
+	EnvironmentVariables() *map[string]*string
+	// Experimental.
+	SetEnvironmentVariables(val *map[string]*string)
+	// Experimental.
+	EnvironmentVariablesInput() *map[string]*string
+	// Experimental.
+	ForEach() cdktn.ITerraformIterator
+	// Experimental.
+	SetForEach(val cdktn.ITerraformIterator)
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	FriendlyUniqueId() *string
+	// Experimental.
+	IamServiceRoleArn() *string
+	// Experimental.
+	SetIamServiceRoleArn(val *string)
+	// Experimental.
+	IamServiceRoleArnInput() *string
+	// Experimental.
+	Id() *string
+	// Experimental.
+	SetId(val *string)
+	// Experimental.
+	IdInput() *string
+	// Experimental.
+	JobConfig() TfApp_JobConfigPropertyOutputReference
+	// Experimental.
+	JobConfigInput() *TfApp_JobConfigProperty
+	// Experimental.
+	Lifecycle() *cdktn.TerraformResourceLifecycle
+	// Experimental.
+	SetLifecycle(val *cdktn.TerraformResourceLifecycle)
+	// Experimental.
+	Name() *string
+	// Experimental.
+	SetName(val *string)
+	// Experimental.
+	NameInput() *string
+	// The tree node.
+	// Experimental.
+	Node() constructs.Node
+	// Experimental.
+	OauthToken() *string
+	// Experimental.
+	SetOauthToken(val *string)
+	// Experimental.
+	OauthTokenInput() *string
+	// Experimental.
+	Platform() *string
+	// Experimental.
+	SetPlatform(val *string)
+	// Experimental.
+	PlatformInput() *string
+	// Experimental.
+	ProductionBranch() TfApp_ProductionBranchPropertyList
+	// Experimental.
+	Provider() cdktn.TerraformProvider
+	// Experimental.
+	SetProvider(val cdktn.TerraformProvider)
+	// Experimental.
+	Provisioners() *[]interface{}
+	// Experimental.
+	SetProvisioners(val *[]interface{})
+	// Experimental.
+	RawOverrides() interface{}
+	// Experimental.
+	Region() *string
+	// Experimental.
+	SetRegion(val *string)
+	// Experimental.
+	RegionInput() *string
+	// Experimental.
+	Repository() *string
+	// Experimental.
+	SetRepository(val *string)
+	// Experimental.
+	RepositoryInput() *string
+	// Experimental.
+	Tags() *map[string]*string
+	// Experimental.
+	SetTags(val *map[string]*string)
+	// Experimental.
+	TagsAll() *map[string]*string
+	// Experimental.
+	SetTagsAll(val *map[string]*string)
+	// Experimental.
+	TagsAllInput() *map[string]*string
+	// Experimental.
+	TagsInput() *map[string]*string
+	// Experimental.
+	TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata
+	// Experimental.
+	TerraformMetaArguments() *map[string]interface{}
+	// Experimental.
+	TerraformResourceType() *string
+	// Adds a user defined moveTarget string to this resource to be later used in .moveTo(moveTarget) to resolve the location of the move.
+	// Experimental.
+	AddMoveTarget(moveTarget *string)
+	// Experimental.
+	AddOverride(path *string, value interface{})
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	HasResourceMove() interface{}
+	// Experimental.
+	ImportFrom(id *string, provider cdktn.TerraformProvider)
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Wraps a write-only attribute's already-mapped value so that `ProviderFeature.WRITE_ONLY_ATTRIBUTES` usage is registered at *resolve* time instead of at mutation time (setter/constructor). Called by generated bindings from `synthesizeAttributes()` and `synthesizeHclAttributes()`, e.g. `secret_key_wo: this.markWriteOnlyAttribute(cdktn.stringToTerraform(this._secretKeyWo))`; not intended to be called directly.
+	//
+	// `undefined` passes through completely unchanged, so the existing
+	// undefined-filtering that omits unset attributes from synthesized
+	// output (see `resolve()` in `tokens/private/resolve.ts`, and the
+	// `value.value !== undefined` filter in generated
+	// `synthesizeHclAttributes()`) keeps working untouched. `null` is also
+	// passed through unchanged: it already renders as an explicit
+	// null-out and must not arm the validation either.
+	//
+	// Any other value - including one that will itself resolve to nothing
+	// (e.g. a `Lazy`/`IResolvable` producer with no value to contribute) -
+	// is wrapped in a token whose `resolve()` defers to the real resolver
+	// first and registers usage only if what comes back is not
+	// `null`/`undefined`; the resolved value is then returned unchanged,
+	// so what actually renders is untouched by this wrapper. A producer
+	// that resolves to `undefined` therefore neither registers usage nor
+	// leaves anything behind in the synthesized attribute - the omission
+	// behaves exactly as if the attribute had never been set.
+	//
+	// Registration goes through `_registerResolveDiscoveredProviderFeatureUsage`
+	// rather than `registerProviderFeatureUsage`: usage here is only known at
+	// resolve time, and a given element can be resolved across many
+	// synthesis passes over its lifetime (repeated `app.synth()` calls,
+	// tests reusing a construct tree), so it must represent only the CURRENT
+	// pass rather than accumulate forever. Every validation-enabled entry
+	// point (`App.synth`; `Testing.synth`/`synthHcl` with validations;
+	// `StackSynthesizer.synthesize`) runs a prepare step that deactivates any
+	// stale registration and then resolves every element's `toTerraform()`
+	// before that same entry point's validations run - see
+	// `TerraformStack._runPreparingResolve` - so whatever this closure
+	// (re-)registers during that prepare step is always visible to the
+	// validation that reads it afterwards, and nothing left over from an
+	// earlier pass leaks into the current one.
+	// Experimental.
+	MarkWriteOnlyAttribute(value interface{}) interface{}
+	// Move the resource corresponding to "id" to this resource.
+	//
+	// Note that the resource being moved from must be marked as moved using its instance function.
+	// Experimental.
+	MoveFromId(id *string)
+	// Moves this resource to the target resource given by moveTarget.
+	// Experimental.
+	MoveTo(moveTarget *string, index interface{})
+	// Moves this resource to the resource corresponding to "id".
+	// Experimental.
+	MoveToId(id *string)
+	// Overrides the auto-generated logical ID with a specific ID.
+	// Experimental.
+	OverrideLogicalId(newLogicalId *string)
+	// Experimental.
+	PutAutoBranchCreationConfig(value *TfApp_AutoBranchCreationConfigProperty)
+	// Experimental.
+	PutCacheConfig(value *TfApp_CacheConfigProperty)
+	// Experimental.
+	PutCustomRule(value interface{})
+	// Experimental.
+	PutJobConfig(value *TfApp_JobConfigProperty)
+	// Registers a synth-time validation that the project's declared targetVersions admit the given provider-protocol feature family.
+	//
+	// Called by generated provider bindings when a versioned feature is
+	// structurally in use - the element's existence in the construct tree
+	// already implies the feature is used, e.g. constructing a
+	// `TerraformEphemeralResource` at all - so, unlike
+	// `_registerResolveDiscoveredProviderFeatureUsage`, this registration is
+	// never deactivated by `_resetResolveDiscoveredProviderFeatureUsage`. Not
+	// intended to be called directly by user code. Lives on `TerraformElement`
+	// (rather than `TerraformResource`) so it covers any element subclass
+	// that needs it.
+	// Experimental.
+	RegisterProviderFeatureUsage(feature cdktn.ProviderFeature)
+	// Experimental.
+	ResetAccessToken()
+	// Experimental.
+	ResetAutoBranchCreationConfig()
+	// Experimental.
+	ResetAutoBranchCreationPatterns()
+	// Experimental.
+	ResetBasicAuthCredentials()
+	// Experimental.
+	ResetBuildSpec()
+	// Experimental.
+	ResetCacheConfig()
+	// Experimental.
+	ResetComputeRoleArn()
+	// Experimental.
+	ResetCustomHeaders()
+	// Experimental.
+	ResetCustomRule()
+	// Experimental.
+	ResetDescription()
+	// Experimental.
+	ResetEnableAutoBranchCreation()
+	// Experimental.
+	ResetEnableBasicAuth()
+	// Experimental.
+	ResetEnableBranchAutoBuild()
+	// Experimental.
+	ResetEnableBranchAutoDeletion()
+	// Experimental.
+	ResetEnvironmentVariables()
+	// Experimental.
+	ResetIamServiceRoleArn()
+	// Experimental.
+	ResetId()
+	// Experimental.
+	ResetJobConfig()
+	// Experimental.
+	ResetOauthToken()
+	// Resets a previously passed logical Id to use the auto-generated logical id again.
+	// Experimental.
+	ResetOverrideLogicalId()
+	// Experimental.
+	ResetPlatform()
+	// Experimental.
+	ResetRegion()
+	// Experimental.
+	ResetRepository()
+	// Experimental.
+	ResetTags()
+	// Experimental.
+	ResetTagsAll()
+	// Experimental.
+	SynthesizeAttributes() *map[string]interface{}
+	// Experimental.
+	SynthesizeHclAttributes() *map[string]interface{}
+	// Experimental.
+	ToHclTerraform() interface{}
+	// Experimental.
+	ToMetadata() interface{}
+	// Returns a string representation of this construct.
+	// Experimental.
+	ToString() *string
+	// Adds this resource to the terraform JSON output.
+	// Experimental.
+	ToTerraform() interface{}
+	// Applies one or more mixins to this construct.
+	//
+	// Mixins are applied in order. The list of constructs is captured at the
+	// start of the call, so constructs added by a mixin will not be visited.
+	// Use multiple `with()` calls if subsequent mixins should apply to added
+	// constructs.
+	//
+	// Returns: This construct for chaining.
+	// Experimental.
+	With(mixins ...constructs.IMixin) constructs.IConstruct
+}
+
+// The jsii proxy struct for TfApp
+type jsiiProxy_TfApp struct {
+	internal.Type__cdktnTerraformResource
+}
+
+func (j *jsiiProxy_TfApp) AccessToken() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"accessToken",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) AccessTokenInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"accessTokenInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Arn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"arn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) AutoBranchCreationConfig() TfApp_AutoBranchCreationConfigPropertyOutputReference {
+	var returns TfApp_AutoBranchCreationConfigPropertyOutputReference
+	_jsii_.Get(
+		j,
+		"autoBranchCreationConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) AutoBranchCreationConfigInput() *TfApp_AutoBranchCreationConfigProperty {
+	var returns *TfApp_AutoBranchCreationConfigProperty
+	_jsii_.Get(
+		j,
+		"autoBranchCreationConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) AutoBranchCreationPatterns() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"autoBranchCreationPatterns",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) AutoBranchCreationPatternsInput() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"autoBranchCreationPatternsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) BasicAuthCredentials() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"basicAuthCredentials",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) BasicAuthCredentialsInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"basicAuthCredentialsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) BuildSpec() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"buildSpec",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) BuildSpecInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"buildSpecInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CacheConfig() TfApp_CacheConfigPropertyOutputReference {
+	var returns TfApp_CacheConfigPropertyOutputReference
+	_jsii_.Get(
+		j,
+		"cacheConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CacheConfigInput() *TfApp_CacheConfigProperty {
+	var returns *TfApp_CacheConfigProperty
+	_jsii_.Get(
+		j,
+		"cacheConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CdktfStack() cdktn.TerraformStack {
+	var returns cdktn.TerraformStack
+	_jsii_.Get(
+		j,
+		"cdktfStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) ComputeRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"computeRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) ComputeRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"computeRoleArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Connection() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"connection",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) ConstructNodeMetadata() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"constructNodeMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Count() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"count",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CustomHeaders() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customHeaders",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CustomHeadersInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"customHeadersInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CustomRule() TfApp_CustomRulePropertyList {
+	var returns TfApp_CustomRulePropertyList
+	_jsii_.Get(
+		j,
+		"customRule",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) CustomRuleInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"customRuleInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) DefaultDomain() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"defaultDomain",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) DependsOn() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"dependsOn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Description() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"description",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) DescriptionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"descriptionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableAutoBranchCreation() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutoBranchCreation",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableAutoBranchCreationInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableAutoBranchCreationInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableBasicAuth() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableBasicAuth",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableBasicAuthInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableBasicAuthInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableBranchAutoBuild() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableBranchAutoBuild",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableBranchAutoBuildInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableBranchAutoBuildInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableBranchAutoDeletion() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableBranchAutoDeletion",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnableBranchAutoDeletionInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"enableBranchAutoDeletionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnvironmentVariables() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"environmentVariables",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) EnvironmentVariablesInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"environmentVariablesInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) ForEach() cdktn.ITerraformIterator {
+	var returns cdktn.ITerraformIterator
+	_jsii_.Get(
+		j,
+		"forEach",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) FriendlyUniqueId() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"friendlyUniqueId",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) IamServiceRoleArn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"iamServiceRoleArn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) IamServiceRoleArnInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"iamServiceRoleArnInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Id() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"id",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) IdInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"idInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) JobConfig() TfApp_JobConfigPropertyOutputReference {
+	var returns TfApp_JobConfigPropertyOutputReference
+	_jsii_.Get(
+		j,
+		"jobConfig",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) JobConfigInput() *TfApp_JobConfigProperty {
+	var returns *TfApp_JobConfigProperty
+	_jsii_.Get(
+		j,
+		"jobConfigInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Lifecycle() *cdktn.TerraformResourceLifecycle {
+	var returns *cdktn.TerraformResourceLifecycle
+	_jsii_.Get(
+		j,
+		"lifecycle",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Name() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"name",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) NameInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"nameInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Node() constructs.Node {
+	var returns constructs.Node
+	_jsii_.Get(
+		j,
+		"node",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) OauthToken() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauthToken",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) OauthTokenInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"oauthTokenInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Platform() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"platform",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) PlatformInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"platformInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) ProductionBranch() TfApp_ProductionBranchPropertyList {
+	var returns TfApp_ProductionBranchPropertyList
+	_jsii_.Get(
+		j,
+		"productionBranch",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Provider() cdktn.TerraformProvider {
+	var returns cdktn.TerraformProvider
+	_jsii_.Get(
+		j,
+		"provider",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Provisioners() *[]interface{} {
+	var returns *[]interface{}
+	_jsii_.Get(
+		j,
+		"provisioners",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) RawOverrides() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"rawOverrides",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Region() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"region",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) RegionInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"regionInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Repository() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"repository",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) RepositoryInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"repositoryInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) Tags() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tags",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) TagsAll() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsAll",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) TagsAllInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsAllInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) TagsInput() *map[string]*string {
+	var returns *map[string]*string
+	_jsii_.Get(
+		j,
+		"tagsInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) TerraformGeneratorMetadata() *cdktn.TerraformProviderGeneratorMetadata {
+	var returns *cdktn.TerraformProviderGeneratorMetadata
+	_jsii_.Get(
+		j,
+		"terraformGeneratorMetadata",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) TerraformMetaArguments() *map[string]interface{} {
+	var returns *map[string]interface{}
+	_jsii_.Get(
+		j,
+		"terraformMetaArguments",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_TfApp) TerraformResourceType() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformResourceType",
+		&returns,
+	)
+	return returns
+}
+
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/amplify_app aws_amplify_app} Resource.
+// Experimental.
+func NewTfApp(scope constructs.Construct, id *string, config *TfAppConfig) TfApp {
+	_init_.Initialize()
+
+	if err := validateNewTfAppParameters(scope, id, config); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_TfApp{}
+
+	_jsii_.Create(
+		"@cdktn/aws-amplify.TfApp",
+		[]interface{}{scope, id, config},
+		&j,
+	)
+
+	return &j
+}
+
+// Create a new {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/amplify_app aws_amplify_app} Resource.
+// Experimental.
+func NewTfApp_Override(t TfApp, scope constructs.Construct, id *string, config *TfAppConfig) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/aws-amplify.TfApp",
+		[]interface{}{scope, id, config},
+		t,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetAccessToken(val *string) {
+	if err := j.validateSetAccessTokenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"accessToken",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetAutoBranchCreationPatterns(val *[]*string) {
+	if err := j.validateSetAutoBranchCreationPatternsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"autoBranchCreationPatterns",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetBasicAuthCredentials(val *string) {
+	if err := j.validateSetBasicAuthCredentialsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"basicAuthCredentials",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetBuildSpec(val *string) {
+	if err := j.validateSetBuildSpecParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"buildSpec",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetComputeRoleArn(val *string) {
+	if err := j.validateSetComputeRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"computeRoleArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetConnection(val interface{}) {
+	if err := j.validateSetConnectionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"connection",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetCount(val interface{}) {
+	if err := j.validateSetCountParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"count",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetCustomHeaders(val *string) {
+	if err := j.validateSetCustomHeadersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"customHeaders",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetDependsOn(val *[]*string) {
+	_jsii_.Set(
+		j,
+		"dependsOn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetDescription(val *string) {
+	if err := j.validateSetDescriptionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"description",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetEnableAutoBranchCreation(val interface{}) {
+	if err := j.validateSetEnableAutoBranchCreationParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableAutoBranchCreation",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetEnableBasicAuth(val interface{}) {
+	if err := j.validateSetEnableBasicAuthParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableBasicAuth",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetEnableBranchAutoBuild(val interface{}) {
+	if err := j.validateSetEnableBranchAutoBuildParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableBranchAutoBuild",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetEnableBranchAutoDeletion(val interface{}) {
+	if err := j.validateSetEnableBranchAutoDeletionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"enableBranchAutoDeletion",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetEnvironmentVariables(val *map[string]*string) {
+	if err := j.validateSetEnvironmentVariablesParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"environmentVariables",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetForEach(val cdktn.ITerraformIterator) {
+	_jsii_.Set(
+		j,
+		"forEach",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetIamServiceRoleArn(val *string) {
+	if err := j.validateSetIamServiceRoleArnParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"iamServiceRoleArn",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetId(val *string) {
+	if err := j.validateSetIdParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"id",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetLifecycle(val *cdktn.TerraformResourceLifecycle) {
+	if err := j.validateSetLifecycleParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"lifecycle",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetName(val *string) {
+	if err := j.validateSetNameParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"name",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetOauthToken(val *string) {
+	if err := j.validateSetOauthTokenParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"oauthToken",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetPlatform(val *string) {
+	if err := j.validateSetPlatformParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"platform",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetProvider(val cdktn.TerraformProvider) {
+	_jsii_.Set(
+		j,
+		"provider",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetProvisioners(val *[]interface{}) {
+	if err := j.validateSetProvisionersParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"provisioners",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetRegion(val *string) {
+	if err := j.validateSetRegionParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"region",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetRepository(val *string) {
+	if err := j.validateSetRepositoryParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"repository",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetTags(val *map[string]*string) {
+	if err := j.validateSetTagsParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tags",
+		val,
+	)
+}
+
+func (j *jsiiProxy_TfApp)SetTagsAll(val *map[string]*string) {
+	if err := j.validateSetTagsAllParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"tagsAll",
+		val,
+	)
+}
+
+// Generates CDKTN code for importing a TfApp resource upon running "cdktn plan <stack-name>".
+// Experimental.
+func TfApp_GenerateConfigForImport(scope constructs.Construct, importToId *string, importFromId *string, provider cdktn.TerraformProvider) cdktn.ImportableResource {
+	_init_.Initialize()
+
+	if err := validateTfApp_GenerateConfigForImportParameters(scope, importToId, importFromId); err != nil {
+		panic(err)
+	}
+	var returns cdktn.ImportableResource
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-amplify.TfApp",
+		"generateConfigForImport",
+		[]interface{}{scope, importToId, importFromId, provider},
+		&returns,
+	)
+
+	return returns
+}
+
+// Checks if `x` is a construct.
+//
+// Use this method instead of `instanceof` to properly detect `Construct`
+// instances, even when the construct library is symlinked.
+//
+// Explanation: in JavaScript, multiple copies of the `constructs` library on
+// disk are seen as independent, completely different libraries. As a
+// consequence, the class `Construct` in each copy of the `constructs` library
+// is seen as a different class, and an instance of one class will not test as
+// `instanceof` the other class. `npm install` will not create installations
+// like this, but users may manually symlink construct libraries together or
+// use a monorepo tool: in those cases, multiple copies of the `constructs`
+// library can be accidentally installed, and `instanceof` will behave
+// unpredictably. It is safest to avoid using `instanceof`, and using
+// this type-testing method instead.
+//
+// Returns: true if `x` is an object created from a class which extends `Construct`.
+// Experimental.
+func TfApp_IsConstruct(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateTfApp_IsConstructParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-amplify.TfApp",
+		"isConstruct",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func TfApp_IsTerraformElement(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateTfApp_IsTerraformElementParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-amplify.TfApp",
+		"isTerraformElement",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+// Experimental.
+func TfApp_IsTerraformResource(x interface{}) *bool {
+	_init_.Initialize()
+
+	if err := validateTfApp_IsTerraformResourceParameters(x); err != nil {
+		panic(err)
+	}
+	var returns *bool
+
+	_jsii_.StaticInvoke(
+		"@cdktn/aws-amplify.TfApp",
+		"isTerraformResource",
+		[]interface{}{x},
+		&returns,
+	)
+
+	return returns
+}
+
+func TfApp_TfResourceType() *string {
+	_init_.Initialize()
+	var returns *string
+	_jsii_.StaticGet(
+		"@cdktn/aws-amplify.TfApp",
+		"tfResourceType",
+		&returns,
+	)
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) AddMoveTarget(moveTarget *string) {
+	if err := t.validateAddMoveTargetParameters(moveTarget); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"addMoveTarget",
+		[]interface{}{moveTarget},
+	)
+}
+
+func (t *jsiiProxy_TfApp) AddOverride(path *string, value interface{}) {
+	if err := t.validateAddOverrideParameters(path, value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"addOverride",
+		[]interface{}{path, value},
+	)
+}
+
+func (t *jsiiProxy_TfApp) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := t.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		t,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := t.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		t,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := t.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		t,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := t.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		t,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := t.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		t,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := t.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		t,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := t.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		t,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetStringAttribute(terraformAttribute *string) *string {
+	if err := t.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		t,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := t.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		t,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) HasResourceMove() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		t,
+		"hasResourceMove",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) ImportFrom(id *string, provider cdktn.TerraformProvider) {
+	if err := t.validateImportFromParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"importFrom",
+		[]interface{}{id, provider},
+	)
+}
+
+func (t *jsiiProxy_TfApp) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := t.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		t,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) MarkWriteOnlyAttribute(value interface{}) interface{} {
+	if err := t.validateMarkWriteOnlyAttributeParameters(value); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		t,
+		"markWriteOnlyAttribute",
+		[]interface{}{value},
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) MoveFromId(id *string) {
+	if err := t.validateMoveFromIdParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"moveFromId",
+		[]interface{}{id},
+	)
+}
+
+func (t *jsiiProxy_TfApp) MoveTo(moveTarget *string, index interface{}) {
+	if err := t.validateMoveToParameters(moveTarget, index); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"moveTo",
+		[]interface{}{moveTarget, index},
+	)
+}
+
+func (t *jsiiProxy_TfApp) MoveToId(id *string) {
+	if err := t.validateMoveToIdParameters(id); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"moveToId",
+		[]interface{}{id},
+	)
+}
+
+func (t *jsiiProxy_TfApp) OverrideLogicalId(newLogicalId *string) {
+	if err := t.validateOverrideLogicalIdParameters(newLogicalId); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"overrideLogicalId",
+		[]interface{}{newLogicalId},
+	)
+}
+
+func (t *jsiiProxy_TfApp) PutAutoBranchCreationConfig(value *TfApp_AutoBranchCreationConfigProperty) {
+	if err := t.validatePutAutoBranchCreationConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putAutoBranchCreationConfig",
+		[]interface{}{value},
+	)
+}
+
+func (t *jsiiProxy_TfApp) PutCacheConfig(value *TfApp_CacheConfigProperty) {
+	if err := t.validatePutCacheConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putCacheConfig",
+		[]interface{}{value},
+	)
+}
+
+func (t *jsiiProxy_TfApp) PutCustomRule(value interface{}) {
+	if err := t.validatePutCustomRuleParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putCustomRule",
+		[]interface{}{value},
+	)
+}
+
+func (t *jsiiProxy_TfApp) PutJobConfig(value *TfApp_JobConfigProperty) {
+	if err := t.validatePutJobConfigParameters(value); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"putJobConfig",
+		[]interface{}{value},
+	)
+}
+
+func (t *jsiiProxy_TfApp) RegisterProviderFeatureUsage(feature cdktn.ProviderFeature) {
+	if err := t.validateRegisterProviderFeatureUsageParameters(feature); err != nil {
+		panic(err)
+	}
+	_jsii_.InvokeVoid(
+		t,
+		"registerProviderFeatureUsage",
+		[]interface{}{feature},
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetAccessToken() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetAccessToken",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetAutoBranchCreationConfig() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetAutoBranchCreationConfig",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetAutoBranchCreationPatterns() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetAutoBranchCreationPatterns",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetBasicAuthCredentials() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetBasicAuthCredentials",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetBuildSpec() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetBuildSpec",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetCacheConfig() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetCacheConfig",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetComputeRoleArn() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetComputeRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetCustomHeaders() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetCustomHeaders",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetCustomRule() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetCustomRule",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetDescription() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetDescription",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetEnableAutoBranchCreation() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetEnableAutoBranchCreation",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetEnableBasicAuth() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetEnableBasicAuth",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetEnableBranchAutoBuild() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetEnableBranchAutoBuild",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetEnableBranchAutoDeletion() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetEnableBranchAutoDeletion",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetEnvironmentVariables() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetEnvironmentVariables",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetIamServiceRoleArn() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetIamServiceRoleArn",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetId() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetId",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetJobConfig() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetJobConfig",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetOauthToken() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetOauthToken",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetOverrideLogicalId() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetOverrideLogicalId",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetPlatform() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetPlatform",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetRegion() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetRegion",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetRepository() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetRepository",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetTags() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetTags",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) ResetTagsAll() {
+	_jsii_.InvokeVoid(
+		t,
+		"resetTagsAll",
+		nil, // no parameters
+	)
+}
+
+func (t *jsiiProxy_TfApp) SynthesizeAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		t,
+		"synthesizeAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) SynthesizeHclAttributes() *map[string]interface{} {
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		t,
+		"synthesizeHclAttributes",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) ToHclTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		t,
+		"toHclTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) ToMetadata() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		t,
+		"toMetadata",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		t,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) ToTerraform() interface{} {
+	var returns interface{}
+
+	_jsii_.Invoke(
+		t,
+		"toTerraform",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (t *jsiiProxy_TfApp) With(mixins ...constructs.IMixin) constructs.IConstruct {
+	args := []interface{}{}
+	for _, a := range mixins {
+		args = append(args, a)
+	}
+
+	var returns constructs.IConstruct
+
+	_jsii_.Invoke(
+		t,
+		"with",
+		args,
+		&returns,
+	)
+
+	return returns
+}
+
