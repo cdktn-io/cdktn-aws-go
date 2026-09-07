@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetInternalValueParameters(val *AwsConnectorProfile_BasicProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_BasicPropertyOutputReference) validateSetUsernameParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsConnectorProfile_BasicPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

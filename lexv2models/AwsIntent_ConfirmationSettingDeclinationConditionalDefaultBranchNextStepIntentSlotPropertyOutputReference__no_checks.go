@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validatePutValueParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetMapBlockKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetShapeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchNextStepIntentSlotPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

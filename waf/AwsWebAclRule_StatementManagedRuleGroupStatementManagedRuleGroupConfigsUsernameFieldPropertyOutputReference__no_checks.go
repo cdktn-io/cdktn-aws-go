@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateSetIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWebAclRule_StatementManagedRuleGroupStatementManagedRuleGroupConfigsUsernameFieldPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

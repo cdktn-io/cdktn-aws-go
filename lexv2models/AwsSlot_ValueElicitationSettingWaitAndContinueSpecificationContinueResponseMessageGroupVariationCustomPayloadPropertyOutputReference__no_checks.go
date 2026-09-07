@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReference) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupVariationCustomPayloadPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

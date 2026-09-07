@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWebAclRule_StatementRateBasedStatementScopeDownStatementRegexMatchStatementFieldToMatchQueryStringPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

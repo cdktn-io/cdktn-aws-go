@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validatePutButtonParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetImageUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetSubtitleParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReference) validateSetTitleParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsIntent_ConfirmationSettingDeclinationConditionalDefaultBranchResponseMessageGroupMessageImageResponseCardPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package transferfamily
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetFileSystemIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetInternalValueParameters(val *AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWorkflow_OnExceptionStepsDecryptStepDetailsDestinationFileLocationEfsFileLocationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

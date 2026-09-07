@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReference) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsIntent_InitialResponseSettingConditionalDefaultBranchResponseMessageGroupMessageCustomPayloadPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

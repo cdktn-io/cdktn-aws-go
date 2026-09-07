@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsManagedRuleGroup_RulesActionCaptchaCustomRequestHandlingInsertHeaderPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package elementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateSetDestinationRefIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateSetInternalValueParameters(val *AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsHlsGroupSettingsDestinationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

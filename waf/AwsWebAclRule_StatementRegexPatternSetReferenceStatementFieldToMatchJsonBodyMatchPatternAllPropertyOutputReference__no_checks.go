@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWebAclRule_StatementRegexPatternSetReferenceStatementFieldToMatchJsonBodyMatchPatternAllPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

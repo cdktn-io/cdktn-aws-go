@@ -1,0 +1,38 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewAwsSlot_ValueElicitationSettingWaitAndContinueSpecificationContinueResponseMessageGroupPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

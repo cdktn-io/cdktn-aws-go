@@ -1,0 +1,34 @@
+//go:build no_runtime_type_checking
+
+package oracledatabaseaws
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsNetwork_ServiceNetworkEndpointPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsNetwork_ServiceNetworkEndpointPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsNetwork_ServiceNetworkEndpointPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsNetwork_ServiceNetworkEndpointPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsNetwork_ServiceNetworkEndpointPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsNetwork_ServiceNetworkEndpointPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewAwsNetwork_ServiceNetworkEndpointPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

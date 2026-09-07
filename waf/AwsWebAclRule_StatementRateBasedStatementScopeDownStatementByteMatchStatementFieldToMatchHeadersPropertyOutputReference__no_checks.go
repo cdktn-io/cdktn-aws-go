@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validatePutMatchPatternParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetMatchScopeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetOversizeHandlingParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWebAclRule_StatementRateBasedStatementScopeDownStatementByteMatchStatementFieldToMatchHeadersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

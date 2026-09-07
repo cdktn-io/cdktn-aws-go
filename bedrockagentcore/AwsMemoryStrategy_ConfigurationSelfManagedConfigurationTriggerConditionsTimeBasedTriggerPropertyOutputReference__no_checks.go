@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package bedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateSetIdleSessionTimeoutParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsMemoryStrategy_ConfigurationSelfManagedConfigurationTriggerConditionsTimeBasedTriggerPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

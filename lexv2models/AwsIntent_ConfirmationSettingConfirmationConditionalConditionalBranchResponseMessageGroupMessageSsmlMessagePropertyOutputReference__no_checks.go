@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReference) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

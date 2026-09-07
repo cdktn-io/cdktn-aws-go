@@ -1,0 +1,38 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewAwsIntent_ConfirmationSettingConfirmationConditionalConditionalBranchResponseMessageGroupMessageSsmlMessagePropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

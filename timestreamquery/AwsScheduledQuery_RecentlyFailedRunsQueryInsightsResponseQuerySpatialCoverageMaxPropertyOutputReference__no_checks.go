@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package timestreamquery
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQuerySpatialCoverageMaxPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

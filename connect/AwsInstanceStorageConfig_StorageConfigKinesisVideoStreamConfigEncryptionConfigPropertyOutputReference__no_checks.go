@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package connect
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetEncryptionTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetKeyIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsInstanceStorageConfig_StorageConfigKinesisVideoStreamConfigEncryptionConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

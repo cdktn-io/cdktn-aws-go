@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateSetApiSecretKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateSetInternalValueParameters(val *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

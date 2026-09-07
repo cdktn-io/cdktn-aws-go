@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetInternalValueParameters(val *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetPasswordParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReference) validateSetUsernameParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

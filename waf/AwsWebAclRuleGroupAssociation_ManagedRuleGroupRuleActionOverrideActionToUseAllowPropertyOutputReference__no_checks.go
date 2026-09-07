@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validatePutCustomRequestHandlingParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWebAclRuleGroupAssociation_ManagedRuleGroupRuleActionOverrideActionToUseAllowPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

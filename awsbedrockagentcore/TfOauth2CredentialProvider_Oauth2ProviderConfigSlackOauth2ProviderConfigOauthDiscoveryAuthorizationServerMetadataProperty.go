@@ -1,7 +1,0 @@
-package awsbedrockagentcore
-
-
-// Experimental.
-type TfOauth2CredentialProvider_Oauth2ProviderConfigSlackOauth2ProviderConfigOauthDiscoveryAuthorizationServerMetadataProperty struct {
-}
-

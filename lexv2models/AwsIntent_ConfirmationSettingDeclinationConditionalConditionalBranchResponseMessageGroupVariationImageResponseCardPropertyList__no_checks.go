@@ -1,0 +1,38 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewAwsIntent_ConfirmationSettingDeclinationConditionalConditionalBranchResponseMessageGroupVariationImageResponseCardPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

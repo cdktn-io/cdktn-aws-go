@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package elementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateSetDestinationRefIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateSetInternalValueParameters(val *AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsChannel_EncoderSettingsOutputGroupsOutputGroupSettingsMediaPackageGroupSettingsDestinationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

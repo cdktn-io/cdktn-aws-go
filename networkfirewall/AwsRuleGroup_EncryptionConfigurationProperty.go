@@ -1,0 +1,13 @@
+package networkfirewall
+
+
+// Experimental.
+type AwsRuleGroup_EncryptionConfigurationProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkfirewall_rule_group#type AwsRuleGroup#type}.
+	// Experimental.
+	Type *string `field:"required" json:"type" yaml:"type"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/networkfirewall_rule_group#key_id AwsRuleGroup#key_id}.
+	// Experimental.
+	KeyId *string `field:"optional" json:"keyId" yaml:"keyId"`
+}
+

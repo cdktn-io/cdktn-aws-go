@@ -1,0 +1,511 @@
+package appmesh
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-aws-go/appmesh/jsii"
+
+	"github.com/cdktn-io/cdktn-aws-go/appmesh/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type DataAwsVirtualNode_SpecPropertyOutputReference interface {
+	cdktn.ComplexObject
+	// Experimental.
+	Backend() DataAwsVirtualNode_BackendPropertyList
+	// Experimental.
+	BackendDefaults() DataAwsVirtualNode_BackendDefaultsPropertyList
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	InternalValue() *DataAwsVirtualNode_SpecProperty
+	// Experimental.
+	SetInternalValue(val *DataAwsVirtualNode_SpecProperty)
+	// Experimental.
+	Listener() DataAwsVirtualNode_ListenerPropertyList
+	// Experimental.
+	Logging() DataAwsVirtualNode_LoggingPropertyList
+	// Experimental.
+	ServiceDiscovery() DataAwsVirtualNode_ServiceDiscoveryPropertyList
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for DataAwsVirtualNode_SpecPropertyOutputReference
+type jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) Backend() DataAwsVirtualNode_BackendPropertyList {
+	var returns DataAwsVirtualNode_BackendPropertyList
+	_jsii_.Get(
+		j,
+		"backend",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) BackendDefaults() DataAwsVirtualNode_BackendDefaultsPropertyList {
+	var returns DataAwsVirtualNode_BackendDefaultsPropertyList
+	_jsii_.Get(
+		j,
+		"backendDefaults",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) InternalValue() *DataAwsVirtualNode_SpecProperty {
+	var returns *DataAwsVirtualNode_SpecProperty
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) Listener() DataAwsVirtualNode_ListenerPropertyList {
+	var returns DataAwsVirtualNode_ListenerPropertyList
+	_jsii_.Get(
+		j,
+		"listener",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) Logging() DataAwsVirtualNode_LoggingPropertyList {
+	var returns DataAwsVirtualNode_LoggingPropertyList
+	_jsii_.Get(
+		j,
+		"logging",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) ServiceDiscovery() DataAwsVirtualNode_ServiceDiscoveryPropertyList {
+	var returns DataAwsVirtualNode_ServiceDiscoveryPropertyList
+	_jsii_.Get(
+		j,
+		"serviceDiscovery",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+
+// Experimental.
+func NewDataAwsVirtualNode_SpecPropertyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) DataAwsVirtualNode_SpecPropertyOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewDataAwsVirtualNode_SpecPropertyOutputReferenceParameters(terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/aws-app-mesh.DataAwsVirtualNode.SpecPropertyOutputReference",
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		&j,
+	)
+
+	return &j
+}
+
+// Experimental.
+func NewDataAwsVirtualNode_SpecPropertyOutputReference_Override(d DataAwsVirtualNode_SpecPropertyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/aws-app-mesh.DataAwsVirtualNode.SpecPropertyOutputReference",
+		[]interface{}{terraformResource, terraformAttribute, complexObjectIndex, complexObjectIsFromSet},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference)SetInternalValue(val *DataAwsVirtualNode_SpecProperty) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := d.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		d,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := d.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		d,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := d.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		d,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := d.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := d.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := d.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		d,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := d.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := d.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		d,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := d.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		d,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecPropertyOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

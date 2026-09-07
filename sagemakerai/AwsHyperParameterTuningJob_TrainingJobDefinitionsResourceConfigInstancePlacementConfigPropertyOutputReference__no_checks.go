@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validatePutPlacementSpecificationsParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateSetEnableMultipleJobsParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsHyperParameterTuningJob_TrainingJobDefinitionsResourceConfigInstancePlacementConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

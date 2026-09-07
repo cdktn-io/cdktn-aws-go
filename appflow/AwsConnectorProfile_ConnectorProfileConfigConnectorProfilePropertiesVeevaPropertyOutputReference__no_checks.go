@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateSetInstanceUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateSetInternalValueParameters(val *AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesVeevaPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateSetInstanceUrlParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateSetInternalValueParameters(val *AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsConnectorProfile_ConnectorProfileConfigConnectorProfilePropertiesSlackPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReference) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsWebAclRuleGroupAssociation_RuleGroupReferenceRuleActionOverrideActionToUseCountCustomRequestHandlingInsertHeaderPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

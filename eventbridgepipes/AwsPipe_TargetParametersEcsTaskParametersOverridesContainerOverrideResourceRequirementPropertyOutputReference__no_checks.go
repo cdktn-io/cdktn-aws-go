@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package eventbridgepipes
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReference) validateSetValueParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsPipe_TargetParametersEcsTaskParametersOverridesContainerOverrideResourceRequirementPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

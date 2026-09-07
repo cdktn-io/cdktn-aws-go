@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package appmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validatePutIdleParameters(value *AwsRoute_SpecGrpcRouteTimeoutIdleProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validatePutPerRequestParameters(value *AwsRoute_SpecGrpcRouteTimeoutPerRequestProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateSetInternalValueParameters(val *AwsRoute_SpecGrpcRouteTimeoutProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsRoute_SpecGrpcRouteTimeoutPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsRoute_SpecGrpcRouteTimeoutPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

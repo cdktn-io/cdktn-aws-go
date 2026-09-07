@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetDefaultEbsVolumeSizeInGbParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetInternalValueParameters(val *AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetMaximumEbsVolumeSizeInGbParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDomain_DefaultUserSettingsSpaceStorageSettingsDefaultEbsStorageSettingsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

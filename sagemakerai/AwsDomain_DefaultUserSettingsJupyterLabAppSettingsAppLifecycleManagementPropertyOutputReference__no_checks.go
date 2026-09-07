@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validatePutIdleSettingsParameters(value *AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementIdleSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetInternalValueParameters(val *AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDomain_DefaultUserSettingsJupyterLabAppSettingsAppLifecycleManagementPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

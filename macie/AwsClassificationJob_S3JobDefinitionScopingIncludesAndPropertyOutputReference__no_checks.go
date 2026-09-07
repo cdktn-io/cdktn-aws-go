@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package macie
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validatePutSimpleScopeTermParameters(value *AwsClassificationJob_S3JobDefinitionScopingIncludesAndSimpleScopeTermProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validatePutTagScopeTermParameters(value *AwsClassificationJob_S3JobDefinitionScopingIncludesAndTagScopeTermProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsClassificationJob_S3JobDefinitionScopingIncludesAndPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

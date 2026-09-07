@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package bedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetModelIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsEvaluationJob_EvaluationConfigAutomatedEvaluatorModelConfigBedrockEvaluatorModelPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

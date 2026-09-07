@@ -1,0 +1,13 @@
+package mainframemodernization
+
+
+// Experimental.
+type AwsEnvironment_EfsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/m2_environment#file_system_id AwsEnvironment#file_system_id}.
+	// Experimental.
+	FileSystemId *string `field:"required" json:"fileSystemId" yaml:"fileSystemId"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/m2_environment#mount_point AwsEnvironment#mount_point}.
+	// Experimental.
+	MountPoint *string `field:"required" json:"mountPoint" yaml:"mountPoint"`
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package bedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetAccessPointArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetMountPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationEfsAccessPointPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

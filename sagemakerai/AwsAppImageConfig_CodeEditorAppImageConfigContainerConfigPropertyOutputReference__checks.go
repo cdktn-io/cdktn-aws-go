@@ -1,0 +1,225 @@
+//go:build !no_runtime_type_checking
+
+package sagemakerai
+
+import (
+	"fmt"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	switch val.(type) {
+	case *string:
+		// ok
+	case string:
+		// ok
+	case *float64:
+		// ok
+	case float64:
+		// ok
+	case *int:
+		// ok
+	case int:
+		// ok
+	case *uint:
+		// ok
+	case uint:
+		// ok
+	case *int8:
+		// ok
+	case int8:
+		// ok
+	case *int16:
+		// ok
+	case int16:
+		// ok
+	case *int32:
+		// ok
+	case int32:
+		// ok
+	case *int64:
+		// ok
+	case int64:
+		// ok
+	case *uint8:
+		// ok
+	case uint8:
+		// ok
+	case *uint16:
+		// ok
+	case uint16:
+		// ok
+	case *uint32:
+		// ok
+	case uint32:
+		// ok
+	case *uint64:
+		// ok
+	case uint64:
+		// ok
+	default:
+		return fmt.Errorf("parameter val must be one of the allowed types: *string, *float64; received %#v (a %T)", val, val)
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetContainerArgumentsParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetContainerEntrypointParameters(val *[]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetContainerEnvironmentVariablesParameters(val *map[string]*string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigProperty) error {
+	if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+		return err
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateNewAwsAppImageConfig_CodeEditorAppImageConfigContainerConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	if terraformResource == nil {
+		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
+	}
+
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+

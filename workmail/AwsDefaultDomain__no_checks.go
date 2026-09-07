@@ -1,0 +1,130 @@
+//go:build no_runtime_type_checking
+
+package workmail
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDefaultDomain) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDefaultDomain) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateAwsDefaultDomain_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateAwsDefaultDomain_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsDefaultDomain_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsDefaultDomain_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetDomainNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetOrganizationIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDefaultDomain) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsDefaultDomainParameters(scope constructs.Construct, id *string, config *AwsDefaultDomainConfig) error {
+	return nil
+}
+

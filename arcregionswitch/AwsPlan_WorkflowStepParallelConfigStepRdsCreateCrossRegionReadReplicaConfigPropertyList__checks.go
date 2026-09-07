@@ -1,0 +1,104 @@
+//go:build !no_runtime_type_checking
+
+package arcregionswitch
+
+import (
+	"fmt"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	if mapKeyAttributeName == nil {
+		return fmt.Errorf("parameter mapKeyAttributeName is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateGetParameters(index *float64) error {
+	if index == nil {
+		return fmt.Errorf("parameter index is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateSetInternalValueParameters(val interface{}) error {
+	switch val.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty:
+		val := val.(*[]*AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty)
+		for idx_97dfc6, v := range *val {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		}
+	case []*AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty:
+		val_ := val.([]*AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty)
+		val := &val_
+		for idx_97dfc6, v := range *val {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter val[%#v]", idx_97dfc6) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *[]*AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigProperty; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateNewAwsPlan_WorkflowStepParallelConfigStepRdsCreateCrossRegionReadReplicaConfigPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	if terraformResource == nil {
+		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
+	}
+
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	if wrapsSet == nil {
+		return fmt.Errorf("parameter wrapsSet is required, but nil was provided")
+	}
+
+	return nil
+}
+

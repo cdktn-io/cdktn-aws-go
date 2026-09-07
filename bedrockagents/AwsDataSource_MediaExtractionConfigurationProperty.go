@@ -1,0 +1,22 @@
+package bedrockagents
+
+
+// Experimental.
+type AwsDataSource_MediaExtractionConfigurationProperty struct {
+	// audio_extraction_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_data_source#audio_extraction_configuration AwsDataSource#audio_extraction_configuration}
+	// Experimental.
+	AudioExtractionConfiguration interface{} `field:"optional" json:"audioExtractionConfiguration" yaml:"audioExtractionConfiguration"`
+	// image_extraction_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_data_source#image_extraction_configuration AwsDataSource#image_extraction_configuration}
+	// Experimental.
+	ImageExtractionConfiguration interface{} `field:"optional" json:"imageExtractionConfiguration" yaml:"imageExtractionConfiguration"`
+	// video_extraction_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagent_data_source#video_extraction_configuration AwsDataSource#video_extraction_configuration}
+	// Experimental.
+	VideoExtractionConfiguration interface{} `field:"optional" json:"videoExtractionConfiguration" yaml:"videoExtractionConfiguration"`
+}
+

@@ -1,0 +1,10 @@
+package elementalmedialive
+
+
+// Experimental.
+type AwsChannel_TtmlDestinationSettingsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#style_control AwsChannel#style_control}.
+	// Experimental.
+	StyleControl *string `field:"required" json:"styleControl" yaml:"styleControl"`
+}
+

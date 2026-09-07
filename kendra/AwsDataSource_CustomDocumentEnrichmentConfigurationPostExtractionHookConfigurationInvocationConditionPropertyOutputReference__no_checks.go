@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package kendra
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validatePutConditionOnValueParameters(value *AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionConditionOnValueProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetConditionDocumentAttributeKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetInternalValueParameters(val *AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetOperatorParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDataSource_CustomDocumentEnrichmentConfigurationPostExtractionHookConfigurationInvocationConditionPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

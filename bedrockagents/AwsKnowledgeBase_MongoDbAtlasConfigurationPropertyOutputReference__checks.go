@@ -1,0 +1,312 @@
+//go:build !no_runtime_type_checking
+
+package bedrockagents
+
+import (
+	"fmt"
+
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validatePutFieldMappingParameters(value interface{}) error {
+	if value == nil {
+		return fmt.Errorf("parameter value is required, but nil was provided")
+	}
+	switch value.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *[]*AwsKnowledgeBase_StorageConfigurationMongoDbAtlasConfigurationFieldMappingProperty:
+		value := value.(*[]*AwsKnowledgeBase_StorageConfigurationMongoDbAtlasConfigurationFieldMappingProperty)
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	case []*AwsKnowledgeBase_StorageConfigurationMongoDbAtlasConfigurationFieldMappingProperty:
+		value_ := value.([]*AwsKnowledgeBase_StorageConfigurationMongoDbAtlasConfigurationFieldMappingProperty)
+		value := &value_
+		for idx_cd4240, v := range *value {
+			if err := _jsii_.ValidateStruct(v, func() string { return fmt.Sprintf("parameter value[%#v]", idx_cd4240) }); err != nil {
+				return err
+			}
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(value) {
+			return fmt.Errorf("parameter value must be one of the allowed types: cdktn.IResolvable, *[]*AwsKnowledgeBase_StorageConfigurationMongoDbAtlasConfigurationFieldMappingProperty; received %#v (a %T)", value, value)
+		}
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetCollectionNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	switch val.(type) {
+	case *string:
+		// ok
+	case string:
+		// ok
+	case *float64:
+		// ok
+	case float64:
+		// ok
+	case *int:
+		// ok
+	case int:
+		// ok
+	case *uint:
+		// ok
+	case uint:
+		// ok
+	case *int8:
+		// ok
+	case int8:
+		// ok
+	case *int16:
+		// ok
+	case int16:
+		// ok
+	case *int32:
+		// ok
+	case int32:
+		// ok
+	case *int64:
+		// ok
+	case int64:
+		// ok
+	case *uint8:
+		// ok
+	case uint8:
+		// ok
+	case *uint16:
+		// ok
+	case uint16:
+		// ok
+	case *uint32:
+		// ok
+	case uint32:
+		// ok
+	case *uint64:
+		// ok
+	case uint64:
+		// ok
+	default:
+		return fmt.Errorf("parameter val must be one of the allowed types: *string, *float64; received %#v (a %T)", val, val)
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetCredentialsSecretArnParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetDatabaseNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetEndpointParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetEndpointServiceNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	switch val.(type) {
+	case cdktn.IResolvable:
+		// ok
+	case *AwsKnowledgeBase_MongoDbAtlasConfigurationProperty:
+		val := val.(*AwsKnowledgeBase_MongoDbAtlasConfigurationProperty)
+		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+			return err
+		}
+	case AwsKnowledgeBase_MongoDbAtlasConfigurationProperty:
+		val_ := val.(AwsKnowledgeBase_MongoDbAtlasConfigurationProperty)
+		val := &val_
+		if err := _jsii_.ValidateStruct(val, func() string { return "parameter val" }); err != nil {
+			return err
+		}
+	default:
+		if !_jsii_.IsAnonymousProxy(val) {
+			return fmt.Errorf("parameter val must be one of the allowed types: cdktn.IResolvable, *AwsKnowledgeBase_MongoDbAtlasConfigurationProperty; received %#v (a %T)", val, val)
+		}
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetTextIndexNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReference) validateSetVectorIndexNameParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateNewAwsKnowledgeBase_MongoDbAtlasConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	if terraformResource == nil {
+		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
+	}
+
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	if complexObjectIndex == nil {
+		return fmt.Errorf("parameter complexObjectIndex is required, but nil was provided")
+	}
+
+	if complexObjectIsFromSet == nil {
+		return fmt.Errorf("parameter complexObjectIsFromSet is required, but nil was provided")
+	}
+
+	return nil
+}
+

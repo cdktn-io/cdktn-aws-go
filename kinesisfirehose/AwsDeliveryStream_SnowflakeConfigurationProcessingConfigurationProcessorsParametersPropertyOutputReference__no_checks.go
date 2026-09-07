@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package kinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetParameterNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetParameterValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDeliveryStream_SnowflakeConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

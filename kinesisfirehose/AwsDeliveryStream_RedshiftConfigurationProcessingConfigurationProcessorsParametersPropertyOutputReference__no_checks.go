@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package kinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetParameterNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetParameterValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDeliveryStream_RedshiftConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,7 @@
+package s3control
+
+
+// Experimental.
+type AwsStorageLensConfiguration_StorageLensConfigurationExpandedPrefixesDataExportS3BucketDestinationEncryptionSseS3Property struct {
+}
+

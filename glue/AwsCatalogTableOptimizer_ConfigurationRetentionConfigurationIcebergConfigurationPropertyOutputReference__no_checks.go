@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package glue
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetCleanExpiredFilesParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetNumberOfSnapshotsToRetainParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetRunRateInHoursParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetSnapshotRetentionPeriodInDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCatalogTableOptimizer_ConfigurationRetentionConfigurationIcebergConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package kinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetParameterNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetParameterValueParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDeliveryStream_OpensearchConfigurationProcessingConfigurationProcessorsParametersPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

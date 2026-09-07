@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package bedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetAccessPointArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetMountPathParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsHarness_EnvironmentAgentcoreRuntimeEnvironmentFilesystemConfigurationS3FilesAccessPointPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

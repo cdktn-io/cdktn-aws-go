@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package bedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetS3UriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsEvaluationJob_EvaluationConfigHumanDatasetMetricConfigDatasetDatasetLocationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

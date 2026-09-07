@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package appmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateSetInternalValueParameters(val *DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFileProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationTrustFilePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package msk
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validatePutSaslParameters(value *AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationSaslProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateSetInternalValueParameters(val *AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReference) validateSetTlsParameters(val interface{}) error {
+	return nil
+}
+
+func validateNewAwsCluster_BrokerNodeGroupInfoConnectivityInfoVpcConnectivityClientAuthenticationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

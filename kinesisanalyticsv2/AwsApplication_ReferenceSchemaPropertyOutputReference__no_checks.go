@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package kinesisanalyticsv2
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validatePutRecordColumnParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validatePutRecordFormatParameters(value *AwsApplication_ApplicationConfigurationSqlApplicationConfigurationReferenceDataSourceReferenceSchemaRecordFormatProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateSetInternalValueParameters(val *AwsApplication_ReferenceSchemaProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateSetRecordEncodingParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceSchemaPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsApplication_ReferenceSchemaPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

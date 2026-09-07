@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package bedrockagents
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetMaxTokensParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetStopSequencesParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetTemperatureParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReference) validateSetTopPParameters(val *float64) error {
+	return nil
+}
+
+func validateNewAwsFlow_DefinitionNodeConfigurationPromptSourceConfigurationInlineInferenceConfigurationTextPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

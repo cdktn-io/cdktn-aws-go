@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package autoscaling
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validatePutMetricParameters(value *AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatMetricProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetInternalValueParameters(val *AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetPeriodParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetStatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReference) validateSetUnitParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsPolicy_TargetTrackingConfigurationCustomizedMetricSpecificationMetricsMetricStatPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

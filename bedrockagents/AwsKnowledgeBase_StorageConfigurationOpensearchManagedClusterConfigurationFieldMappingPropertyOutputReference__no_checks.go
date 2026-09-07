@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package bedrockagents
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetMetadataFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetTextFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReference) validateSetVectorFieldParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsKnowledgeBase_StorageConfigurationOpensearchManagedClusterConfigurationFieldMappingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

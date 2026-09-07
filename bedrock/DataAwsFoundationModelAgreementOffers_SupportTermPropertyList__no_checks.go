@@ -1,0 +1,34 @@
+//go:build no_runtime_type_checking
+
+package bedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsFoundationModelAgreementOffers_SupportTermPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsFoundationModelAgreementOffers_SupportTermPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsFoundationModelAgreementOffers_SupportTermPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsFoundationModelAgreementOffers_SupportTermPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsFoundationModelAgreementOffers_SupportTermPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsFoundationModelAgreementOffers_SupportTermPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewDataAwsFoundationModelAgreementOffers_SupportTermPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

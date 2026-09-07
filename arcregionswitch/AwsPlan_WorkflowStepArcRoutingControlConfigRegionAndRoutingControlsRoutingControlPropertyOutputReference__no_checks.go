@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package arcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetRoutingControlArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetStateParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsPlan_WorkflowStepArcRoutingControlConfigRegionAndRoutingControlsRoutingControlPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package appmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsVirtualGateway_SpecBackendDefaultsClientPolicyTlsValidationTrustSdsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

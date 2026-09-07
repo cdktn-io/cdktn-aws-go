@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package arcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetRecordSetIdentifierParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsPlan_WorkflowStepParallelConfigStepRoute53HealthCheckConfigRecordSetPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

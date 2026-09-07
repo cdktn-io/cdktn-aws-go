@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package elementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validatePutAudioHlsRenditionSelectionParameters(value *AwsChannel_AudioHlsRenditionSelectionProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validatePutAudioLanguageSelectionParameters(value *AwsChannel_AudioLanguageSelectionProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validatePutAudioPidSelectionParameters(value *AwsChannel_AudioPidSelectionProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validatePutAudioTrackSelectionParameters(value *AwsChannel_AudioTrackSelectionProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateSetInternalValueParameters(val *AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsChannel_InputAttachmentsInputSettingsAudioSelectorSelectorSettingsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,74 @@
+//go:build !no_runtime_type_checking
+
+package eks
+
+import (
+	"fmt"
+
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+func (a *jsiiProxy_AwsCluster_CertificateAuthorityPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	if mapKeyAttributeName == nil {
+		return fmt.Errorf("parameter mapKeyAttributeName is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_CertificateAuthorityPropertyList) validateGetParameters(index *float64) error {
+	if index == nil {
+		return fmt.Errorf("parameter index is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (a *jsiiProxy_AwsCluster_CertificateAuthorityPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	if context == nil {
+		return fmt.Errorf("parameter context is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_CertificateAuthorityPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_CertificateAuthorityPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func (j *jsiiProxy_AwsCluster_CertificateAuthorityPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	if val == nil {
+		return fmt.Errorf("parameter val is required, but nil was provided")
+	}
+
+	return nil
+}
+
+func validateNewAwsCluster_CertificateAuthorityPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	if terraformResource == nil {
+		return fmt.Errorf("parameter terraformResource is required, but nil was provided")
+	}
+
+	if terraformAttribute == nil {
+		return fmt.Errorf("parameter terraformAttribute is required, but nil was provided")
+	}
+
+	if wrapsSet == nil {
+		return fmt.Errorf("parameter wrapsSet is required, but nil was provided")
+	}
+
+	return nil
+}
+

@@ -1,0 +1,94 @@
+//go:build no_runtime_type_checking
+
+package oracledatabaseaws
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsDbSystemShapes) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateDataAwsDbSystemShapes_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateDataAwsDbSystemShapes_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAwsDbSystemShapes_IsTerraformDataSourceParameters(x interface{}) error {
+	return nil
+}
+
+func validateDataAwsDbSystemShapes_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsDbSystemShapes) validateSetAvailabilityZoneIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsDbSystemShapes) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsDbSystemShapes) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsDbSystemShapes) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func validateNewDataAwsDbSystemShapesParameters(scope constructs.Construct, id *string, config *DataAwsDbSystemShapesConfig) error {
+	return nil
+}
+

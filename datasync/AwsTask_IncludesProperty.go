@@ -1,0 +1,13 @@
+package datasync
+
+
+// Experimental.
+type AwsTask_IncludesProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/datasync_task#filter_type AwsTask#filter_type}.
+	// Experimental.
+	FilterType *string `field:"optional" json:"filterType" yaml:"filterType"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/datasync_task#value AwsTask#value}.
+	// Experimental.
+	Value *string `field:"optional" json:"value" yaml:"value"`
+}
+

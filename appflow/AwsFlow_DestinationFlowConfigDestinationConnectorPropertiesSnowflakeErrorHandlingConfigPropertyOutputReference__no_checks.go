@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetBucketPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetFailOnFirstDestinationErrorParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSnowflakeErrorHandlingConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

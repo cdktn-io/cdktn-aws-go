@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validatePutS3DataSourceParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAlgorithm_ValidationSpecificationValidationProfilesTransformJobDefinitionTransformInputDataSourcePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

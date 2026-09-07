@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetBucketPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetFailOnFirstDestinationErrorParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsFlow_DestinationFlowConfigDestinationConnectorPropertiesSapoDataErrorHandlingConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

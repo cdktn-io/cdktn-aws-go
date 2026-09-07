@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package glue
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetDeleteFileThresholdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetMinInputFilesParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetStrategyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCatalogTableOptimizer_ConfigurationCompactionConfigurationIcebergConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

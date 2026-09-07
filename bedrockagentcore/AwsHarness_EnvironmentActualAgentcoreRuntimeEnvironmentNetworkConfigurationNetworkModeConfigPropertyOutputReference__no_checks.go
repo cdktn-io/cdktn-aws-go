@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package bedrockagentcore
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsHarness_EnvironmentActualAgentcoreRuntimeEnvironmentNetworkConfigurationNetworkModeConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

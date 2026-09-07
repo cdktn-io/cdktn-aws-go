@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package waf
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validatePutInsertHeaderParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWebAclRule_StatementRuleGroupReferenceStatementRuleActionOverrideActionToUseChallengeCustomRequestHandlingPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

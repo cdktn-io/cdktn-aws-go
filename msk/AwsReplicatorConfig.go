@@ -1,0 +1,70 @@
+package msk
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsReplicatorConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// kafka_cluster block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#kafka_cluster AwsReplicator#kafka_cluster}
+	// Experimental.
+	KafkaCluster interface{} `field:"required" json:"kafkaCluster" yaml:"kafkaCluster"`
+	// replication_info_list block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#replication_info_list AwsReplicator#replication_info_list}
+	// Experimental.
+	ReplicationInfoList *AwsReplicator_ReplicationInfoListProperty `field:"required" json:"replicationInfoList" yaml:"replicationInfoList"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#replicator_name AwsReplicator#replicator_name}.
+	// Experimental.
+	ReplicatorName *string `field:"required" json:"replicatorName" yaml:"replicatorName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#service_execution_role_arn AwsReplicator#service_execution_role_arn}.
+	// Experimental.
+	ServiceExecutionRoleArn *string `field:"required" json:"serviceExecutionRoleArn" yaml:"serviceExecutionRoleArn"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#description AwsReplicator#description}.
+	// Experimental.
+	Description *string `field:"optional" json:"description" yaml:"description"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#id AwsReplicator#id}.
+	//
+	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+	// Experimental.
+	Id *string `field:"optional" json:"id" yaml:"id"`
+	// log_delivery block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#log_delivery AwsReplicator#log_delivery}
+	// Experimental.
+	LogDelivery *AwsReplicator_LogDeliveryProperty `field:"optional" json:"logDelivery" yaml:"logDelivery"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#region AwsReplicator#region}
+	// Experimental.
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#tags AwsReplicator#tags}.
+	// Experimental.
+	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#tags_all AwsReplicator#tags_all}.
+	// Experimental.
+	TagsAll *map[string]*string `field:"optional" json:"tagsAll" yaml:"tagsAll"`
+	// timeouts block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/msk_replicator#timeouts AwsReplicator#timeouts}
+	// Experimental.
+	Timeouts *AwsReplicator_TimeoutsProperty `field:"optional" json:"timeouts" yaml:"timeouts"`
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package lexv2models
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetAnswerFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetQuestionFieldParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsIntent_QnaIntentConfigurationDataSourceConfigurationOpensearchConfigurationExactResponseFieldsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

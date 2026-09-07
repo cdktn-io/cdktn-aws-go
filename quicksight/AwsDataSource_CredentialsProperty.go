@@ -1,0 +1,18 @@
+package quicksight
+
+
+// Experimental.
+type AwsDataSource_CredentialsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_data_source#copy_source_arn AwsDataSource#copy_source_arn}.
+	// Experimental.
+	CopySourceArn *string `field:"optional" json:"copySourceArn" yaml:"copySourceArn"`
+	// credential_pair block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_data_source#credential_pair AwsDataSource#credential_pair}
+	// Experimental.
+	CredentialPair *AwsDataSource_CredentialPairProperty `field:"optional" json:"credentialPair" yaml:"credentialPair"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/quicksight_data_source#secret_arn AwsDataSource#secret_arn}.
+	// Experimental.
+	SecretArn *string `field:"optional" json:"secretArn" yaml:"secretArn"`
+}
+

@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package timestreamquery
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsScheduledQuery_RecentlyFailedRunsQueryInsightsResponseQueryTemporalRangeMaxPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,106 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validatePutHubAccessConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validatePutModelAccessConfigParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetCompressionTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetEtagParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetManifestEtagParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetManifestS3UriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetS3DataTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetS3UriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsAlgorithm_InferenceSpecificationContainersModelDataSourceS3DataSourcePropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

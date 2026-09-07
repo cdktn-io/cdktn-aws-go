@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetBucketPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetFailOnFirstDestinationErrorParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsFlow_DestinationFlowConfigDestinationConnectorPropertiesRedshiftErrorHandlingConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

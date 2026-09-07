@@ -1,0 +1,15 @@
+package gamelift
+
+
+// Experimental.
+type AwsGameServerGroup_AutoScalingPolicyProperty struct {
+	// target_tracking_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/gamelift_game_server_group#target_tracking_configuration AwsGameServerGroup#target_tracking_configuration}
+	// Experimental.
+	TargetTrackingConfiguration *AwsGameServerGroup_TargetTrackingConfigurationProperty `field:"required" json:"targetTrackingConfiguration" yaml:"targetTrackingConfiguration"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/gamelift_game_server_group#estimated_instance_warmup AwsGameServerGroup#estimated_instance_warmup}.
+	// Experimental.
+	EstimatedInstanceWarmup *float64 `field:"optional" json:"estimatedInstanceWarmup" yaml:"estimatedInstanceWarmup"`
+}
+

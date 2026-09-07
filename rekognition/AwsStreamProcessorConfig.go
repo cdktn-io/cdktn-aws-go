@@ -1,0 +1,84 @@
+package rekognition
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsStreamProcessorConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// An identifier you assign to the stream processor.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#name AwsStreamProcessor#name}
+	// Experimental.
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// The Amazon Resource Number (ARN) of the IAM role that allows access to the stream processor.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#role_arn AwsStreamProcessor#role_arn}
+	// Experimental.
+	RoleArn *string `field:"required" json:"roleArn" yaml:"roleArn"`
+	// data_sharing_preference block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#data_sharing_preference AwsStreamProcessor#data_sharing_preference}
+	// Experimental.
+	DataSharingPreference interface{} `field:"optional" json:"dataSharingPreference" yaml:"dataSharingPreference"`
+	// input block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#input AwsStreamProcessor#input}
+	// Experimental.
+	Input interface{} `field:"optional" json:"input" yaml:"input"`
+	// The identifier for your AWS Key Management Service key (AWS KMS key).
+	//
+	// You can supply the Amazon Resource Name (ARN) of your KMS key, the ID of your KMS key, an alias for your KMS key, or an alias ARN.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#kms_key_id AwsStreamProcessor#kms_key_id}
+	// Experimental.
+	KmsKeyId *string `field:"optional" json:"kmsKeyId" yaml:"kmsKeyId"`
+	// notification_channel block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#notification_channel AwsStreamProcessor#notification_channel}
+	// Experimental.
+	NotificationChannel interface{} `field:"optional" json:"notificationChannel" yaml:"notificationChannel"`
+	// output block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#output AwsStreamProcessor#output}
+	// Experimental.
+	Output interface{} `field:"optional" json:"output" yaml:"output"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#region AwsStreamProcessor#region}
+	// Experimental.
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// regions_of_interest block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#regions_of_interest AwsStreamProcessor#regions_of_interest}
+	// Experimental.
+	RegionsOfInterest interface{} `field:"optional" json:"regionsOfInterest" yaml:"regionsOfInterest"`
+	// settings block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#settings AwsStreamProcessor#settings}
+	// Experimental.
+	Settings interface{} `field:"optional" json:"settings" yaml:"settings"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#tags AwsStreamProcessor#tags}.
+	// Experimental.
+	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
+	// timeouts block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rekognition_stream_processor#timeouts AwsStreamProcessor#timeouts}
+	// Experimental.
+	Timeouts *AwsStreamProcessor_TimeoutsProperty `field:"optional" json:"timeouts" yaml:"timeouts"`
+}
+

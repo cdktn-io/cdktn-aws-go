@@ -1,0 +1,13 @@
+package recyclebin
+
+
+// Experimental.
+type AwsRule_ResourceTagsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rbin_rule#resource_tag_key AwsRule#resource_tag_key}.
+	// Experimental.
+	ResourceTagKey *string `field:"required" json:"resourceTagKey" yaml:"resourceTagKey"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/rbin_rule#resource_tag_value AwsRule#resource_tag_value}.
+	// Experimental.
+	ResourceTagValue *string `field:"optional" json:"resourceTagValue" yaml:"resourceTagValue"`
+}
+

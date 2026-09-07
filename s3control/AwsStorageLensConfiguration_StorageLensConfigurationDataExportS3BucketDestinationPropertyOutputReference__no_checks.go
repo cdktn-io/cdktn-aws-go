@@ -1,0 +1,98 @@
+//go:build no_runtime_type_checking
+
+package s3control
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validatePutEncryptionParameters(value *AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationEncryptionProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetAccountIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetInternalValueParameters(val *AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetOutputSchemaVersionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsStorageLensConfiguration_StorageLensConfigurationDataExportS3BucketDestinationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package athena
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateSetKmsKeyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsWorkgroup_ConfigurationManagedQueryResultsConfigurationEncryptionConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

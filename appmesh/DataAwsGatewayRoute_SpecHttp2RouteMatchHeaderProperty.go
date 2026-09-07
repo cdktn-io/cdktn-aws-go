@@ -1,0 +1,7 @@
+package appmesh
+
+
+// Experimental.
+type DataAwsGatewayRoute_SpecHttp2RouteMatchHeaderProperty struct {
+}
+

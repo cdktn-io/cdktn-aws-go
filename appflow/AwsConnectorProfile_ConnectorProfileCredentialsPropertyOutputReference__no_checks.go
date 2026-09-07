@@ -1,0 +1,146 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutAmplitudeParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsAmplitudeProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutCustomConnectorParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsCustomConnectorProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutDatadogParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDatadogProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutDynatraceParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsDynatraceProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutGoogleAnalyticsParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsGoogleAnalyticsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutHoneycodeParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsHoneycodeProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutInforNexusParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsInforNexusProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutMarketoParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsMarketoProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutRedshiftParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsRedshiftProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSalesforceParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSalesforceProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSapoDataParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSapoDataProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutServiceNowParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsServiceNowProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSingularParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSingularProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSlackParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSlackProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutSnowflakeParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsSnowflakeProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutTrendmicroParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsTrendmicroProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutVeevaParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsVeevaProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validatePutZendeskParameters(value *AwsConnectorProfile_ConnectorProfileConfigConnectorProfileCredentialsZendeskProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetInternalValueParameters(val *AwsConnectorProfile_ConnectorProfileCredentialsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsConnectorProfile_ConnectorProfileCredentialsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

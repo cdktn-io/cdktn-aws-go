@@ -1,0 +1,243 @@
+package memorydb
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-aws-go/memorydb/jsii"
+
+	"github.com/cdktn-io/cdktn-aws-go/memorydb/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type DataAwsCluster_ShardsPropertyList interface {
+	cdktn.ComplexList
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	WrapsSet() *bool
+	// Experimental.
+	SetWrapsSet(val *bool)
+	// Creating an iterator for this complex list.
+	//
+	// The list will be converted into a map with the mapKeyAttributeName as the key.
+	// Experimental.
+	AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	Get(index *float64) DataAwsCluster_ShardsPropertyOutputReference
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for DataAwsCluster_ShardsPropertyList
+type jsiiProxy_DataAwsCluster_ShardsPropertyList struct {
+	internal.Type__cdktnComplexList
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList) WrapsSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"wrapsSet",
+		&returns,
+	)
+	return returns
+}
+
+
+// Experimental.
+func NewDataAwsCluster_ShardsPropertyList(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) DataAwsCluster_ShardsPropertyList {
+	_init_.Initialize()
+
+	if err := validateNewDataAwsCluster_ShardsPropertyListParameters(terraformResource, terraformAttribute, wrapsSet); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_DataAwsCluster_ShardsPropertyList{}
+
+	_jsii_.Create(
+		"@cdktn/aws-memorydb.DataAwsCluster.ShardsPropertyList",
+		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
+		&j,
+	)
+
+	return &j
+}
+
+// Experimental.
+func NewDataAwsCluster_ShardsPropertyList_Override(d DataAwsCluster_ShardsPropertyList, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/aws-memorydb.DataAwsCluster.ShardsPropertyList",
+		[]interface{}{terraformResource, terraformAttribute, wrapsSet},
+		d,
+	)
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_DataAwsCluster_ShardsPropertyList)SetWrapsSet(val *bool) {
+	if err := j.validateSetWrapsSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"wrapsSet",
+		val,
+	)
+}
+
+func (d *jsiiProxy_DataAwsCluster_ShardsPropertyList) AllWithMapKey(mapKeyAttributeName *string) cdktn.DynamicListTerraformIterator {
+	if err := d.validateAllWithMapKeyParameters(mapKeyAttributeName); err != nil {
+		panic(err)
+	}
+	var returns cdktn.DynamicListTerraformIterator
+
+	_jsii_.Invoke(
+		d,
+		"allWithMapKey",
+		[]interface{}{mapKeyAttributeName},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCluster_ShardsPropertyList) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCluster_ShardsPropertyList) Get(index *float64) DataAwsCluster_ShardsPropertyOutputReference {
+	if err := d.validateGetParameters(index); err != nil {
+		panic(err)
+	}
+	var returns DataAwsCluster_ShardsPropertyOutputReference
+
+	_jsii_.Invoke(
+		d,
+		"get",
+		[]interface{}{index},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCluster_ShardsPropertyList) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := d.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		d,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (d *jsiiProxy_DataAwsCluster_ShardsPropertyList) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		d,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

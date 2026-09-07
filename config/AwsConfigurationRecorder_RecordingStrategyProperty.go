@@ -1,0 +1,10 @@
+package config
+
+
+// Experimental.
+type AwsConfigurationRecorder_RecordingStrategyProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/config_configuration_recorder#use_only AwsConfigurationRecorder#use_only}.
+	// Experimental.
+	UseOnly *string `field:"optional" json:"useOnly" yaml:"useOnly"`
+}
+

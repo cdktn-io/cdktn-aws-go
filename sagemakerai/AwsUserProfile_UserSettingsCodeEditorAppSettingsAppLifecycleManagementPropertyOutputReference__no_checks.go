@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validatePutIdleSettingsParameters(value *AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetInternalValueParameters(val *AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsUserProfile_UserSettingsCodeEditorAppSettingsAppLifecycleManagementPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

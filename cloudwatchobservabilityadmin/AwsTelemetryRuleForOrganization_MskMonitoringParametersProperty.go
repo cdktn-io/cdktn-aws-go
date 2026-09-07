@@ -1,0 +1,10 @@
+package cloudwatchobservabilityadmin
+
+
+// Experimental.
+type AwsTelemetryRuleForOrganization_MskMonitoringParametersProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/observabilityadmin_telemetry_rule_for_organization#enhanced_monitoring AwsTelemetryRuleForOrganization#enhanced_monitoring}.
+	// Experimental.
+	EnhancedMonitoring *string `field:"optional" json:"enhancedMonitoring" yaml:"enhancedMonitoring"`
+}
+

@@ -1,0 +1,62 @@
+package timestreamwrite
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsTableConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#database_name AwsTable#database_name}.
+	// Experimental.
+	DatabaseName *string `field:"required" json:"databaseName" yaml:"databaseName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#table_name AwsTable#table_name}.
+	// Experimental.
+	TableName *string `field:"required" json:"tableName" yaml:"tableName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#id AwsTable#id}.
+	//
+	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+	// Experimental.
+	Id *string `field:"optional" json:"id" yaml:"id"`
+	// magnetic_store_write_properties block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#magnetic_store_write_properties AwsTable#magnetic_store_write_properties}
+	// Experimental.
+	MagneticStoreWriteProperties *AwsTable_MagneticStoreWritePropertiesProperty `field:"optional" json:"magneticStoreWriteProperties" yaml:"magneticStoreWriteProperties"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#region AwsTable#region}
+	// Experimental.
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// retention_properties block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#retention_properties AwsTable#retention_properties}
+	// Experimental.
+	RetentionProperties *AwsTable_RetentionPropertiesProperty `field:"optional" json:"retentionProperties" yaml:"retentionProperties"`
+	// schema block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#schema AwsTable#schema}
+	// Experimental.
+	Schema *AwsTable_SchemaProperty `field:"optional" json:"schema" yaml:"schema"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#tags AwsTable#tags}.
+	// Experimental.
+	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/timestreamwrite_table#tags_all AwsTable#tags_all}.
+	// Experimental.
+	TagsAll *map[string]*string `field:"optional" json:"tagsAll" yaml:"tagsAll"`
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package kinesisanalytics
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetInternalValueParameters(val *AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetRecordColumnDelimiterParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetRecordRowDelimiterParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsApplication_ReferenceDataSourcesSchemaRecordFormatMappingParametersCsvPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,0 +1,38 @@
+//go:build no_runtime_type_checking
+
+package cloudwatchobservabilityadmin
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateAllWithMapKeyParameters(mapKeyAttributeName *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateGetParameters(index *float64) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyList) validateSetWrapsSetParameters(val *bool) error {
+	return nil
+}
+
+func validateNewAwsCentralizationRuleForOrganization_RuleDestinationDestinationMetricsConfigurationBackupConfigurationPropertyListParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, wrapsSet *bool) error {
+	return nil
+}
+

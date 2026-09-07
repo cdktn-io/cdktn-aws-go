@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package chimesdkmediapipelines
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateSetInsightsTargetParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsMediaInsightsPipelineConfiguration_KinesisDataStreamSinkConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

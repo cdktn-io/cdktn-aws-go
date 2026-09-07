@@ -1,0 +1,26 @@
+package bedrockagentcore
+
+
+// Experimental.
+type AwsGateway_McpProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway#instructions AwsGateway#instructions}.
+	// Experimental.
+	Instructions *string `field:"optional" json:"instructions" yaml:"instructions"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway#search_type AwsGateway#search_type}.
+	// Experimental.
+	SearchType *string `field:"optional" json:"searchType" yaml:"searchType"`
+	// session_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway#session_configuration AwsGateway#session_configuration}
+	// Experimental.
+	SessionConfiguration interface{} `field:"optional" json:"sessionConfiguration" yaml:"sessionConfiguration"`
+	// streaming_configuration block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway#streaming_configuration AwsGateway#streaming_configuration}
+	// Experimental.
+	StreamingConfiguration interface{} `field:"optional" json:"streamingConfiguration" yaml:"streamingConfiguration"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/bedrockagentcore_gateway#supported_versions AwsGateway#supported_versions}.
+	// Experimental.
+	SupportedVersions *[]*string `field:"optional" json:"supportedVersions" yaml:"supportedVersions"`
+}
+

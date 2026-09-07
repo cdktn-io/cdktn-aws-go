@@ -1,0 +1,22 @@
+package elementalmedialive
+
+
+// Experimental.
+type AwsChannel_HlsMediaStoreSettingsProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#connection_retry_interval AwsChannel#connection_retry_interval}.
+	// Experimental.
+	ConnectionRetryInterval *float64 `field:"optional" json:"connectionRetryInterval" yaml:"connectionRetryInterval"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#filecache_duration AwsChannel#filecache_duration}.
+	// Experimental.
+	FilecacheDuration *float64 `field:"optional" json:"filecacheDuration" yaml:"filecacheDuration"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#media_store_storage_class AwsChannel#media_store_storage_class}.
+	// Experimental.
+	MediaStoreStorageClass *string `field:"optional" json:"mediaStoreStorageClass" yaml:"mediaStoreStorageClass"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#num_retries AwsChannel#num_retries}.
+	// Experimental.
+	NumRetries *float64 `field:"optional" json:"numRetries" yaml:"numRetries"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/medialive_channel#restart_delay AwsChannel#restart_delay}.
+	// Experimental.
+	RestartDelay *float64 `field:"optional" json:"restartDelay" yaml:"restartDelay"`
+}
+

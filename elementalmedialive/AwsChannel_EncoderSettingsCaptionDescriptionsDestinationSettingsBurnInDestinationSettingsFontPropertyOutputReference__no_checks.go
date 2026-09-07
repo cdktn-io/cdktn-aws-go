@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package elementalmedialive
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetInternalValueParameters(val *AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetPasswordParamParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetUriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReference) validateSetUsernameParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsChannel_EncoderSettingsCaptionDescriptionsDestinationSettingsBurnInDestinationSettingsFontPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

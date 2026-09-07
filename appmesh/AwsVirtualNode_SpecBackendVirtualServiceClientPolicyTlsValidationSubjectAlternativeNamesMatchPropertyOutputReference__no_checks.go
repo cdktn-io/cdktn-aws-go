@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package appmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetExactParameters(val *[]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetInternalValueParameters(val *AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsVirtualNode_SpecBackendVirtualServiceClientPolicyTlsValidationSubjectAlternativeNamesMatchPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

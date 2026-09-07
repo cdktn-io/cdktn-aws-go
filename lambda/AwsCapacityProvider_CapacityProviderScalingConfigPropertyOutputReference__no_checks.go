@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package lambda
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validatePutScalingPoliciesParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetMaxVcpuCountParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetScalingModeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsCapacityProvider_CapacityProviderScalingConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

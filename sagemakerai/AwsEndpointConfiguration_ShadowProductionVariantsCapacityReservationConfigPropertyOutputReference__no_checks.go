@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetCapacityReservationPreferenceParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetMlReservationArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsEndpointConfiguration_ShadowProductionVariantsCapacityReservationConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

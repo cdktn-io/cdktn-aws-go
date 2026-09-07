@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package s3
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetSseAlgorithmParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsBucketMetadataConfiguration_MetadataConfigurationJournalTableConfigurationEncryptionConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

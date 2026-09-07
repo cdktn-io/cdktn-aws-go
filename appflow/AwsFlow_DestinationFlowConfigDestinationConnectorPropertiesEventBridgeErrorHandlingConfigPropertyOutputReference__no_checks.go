@@ -1,0 +1,86 @@
+//go:build no_runtime_type_checking
+
+package appflow
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetBucketNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetBucketPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetFailOnFirstDestinationErrorParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsFlow_DestinationFlowConfigDestinationConnectorPropertiesEventBridgeErrorHandlingConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

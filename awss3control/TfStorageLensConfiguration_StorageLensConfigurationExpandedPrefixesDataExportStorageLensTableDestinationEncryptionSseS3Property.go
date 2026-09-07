@@ -1,7 +1,0 @@
-package awss3control
-
-
-// Experimental.
-type TfStorageLensConfiguration_StorageLensConfigurationExpandedPrefixesDataExportStorageLensTableDestinationEncryptionSseS3Property struct {
-}
-

@@ -1,0 +1,7 @@
+package waf
+
+
+// Experimental.
+type AwsWebAclRule_StatementManagedRuleGroupStatementScopeDownStatementByteMatchStatementFieldToMatchCookiesMatchPatternAllProperty struct {
+}
+

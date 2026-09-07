@@ -1,0 +1,10 @@
+package ec2
+
+
+// Experimental.
+type AwsAllowedImagesSettings_DeprecationTimeConditionProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/ec2_allowed_images_settings#maximum_days_since_deprecated AwsAllowedImagesSettings#maximum_days_since_deprecated}.
+	// Experimental.
+	MaximumDaysSinceDeprecated *float64 `field:"optional" json:"maximumDaysSinceDeprecated" yaml:"maximumDaysSinceDeprecated"`
+}
+

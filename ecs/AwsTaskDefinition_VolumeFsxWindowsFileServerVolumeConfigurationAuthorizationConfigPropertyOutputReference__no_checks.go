@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package ecs
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetCredentialsParameterParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetDomainParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetInternalValueParameters(val *AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsTaskDefinition_VolumeFsxWindowsFileServerVolumeConfigurationAuthorizationConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

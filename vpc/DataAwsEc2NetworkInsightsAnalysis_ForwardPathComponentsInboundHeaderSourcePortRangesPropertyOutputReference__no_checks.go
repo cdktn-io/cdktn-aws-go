@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package vpc
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsEc2NetworkInsightsAnalysis_ForwardPathComponentsInboundHeaderSourcePortRangesPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package lambda
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetTypeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReference) validateSetUriParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsEventSourceMapping_AmazonManagedKafkaEventSourceConfigSchemaRegistryConfigAccessConfigPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

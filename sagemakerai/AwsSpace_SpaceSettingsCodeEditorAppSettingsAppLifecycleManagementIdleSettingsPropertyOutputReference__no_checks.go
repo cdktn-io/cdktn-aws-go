@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package sagemakerai
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateSetIdleTimeoutInMinutesParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateSetInternalValueParameters(val *AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsSpace_SpaceSettingsCodeEditorAppSettingsAppLifecycleManagementIdleSettingsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

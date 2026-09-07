@@ -1,0 +1,10 @@
+package appmesh
+
+
+// Experimental.
+type AwsGatewayRoute_SpecHttpRouteActionRewritePathProperty struct {
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/appmesh_gateway_route#exact AwsGatewayRoute#exact}.
+	// Experimental.
+	Exact *string `field:"required" json:"exact" yaml:"exact"`
+}
+

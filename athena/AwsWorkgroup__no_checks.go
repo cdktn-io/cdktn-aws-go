@@ -1,0 +1,154 @@
+//go:build no_runtime_type_checking
+
+package athena
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsWorkgroup) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validatePutConfigurationParameters(value *AwsWorkgroup_ConfigurationProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsWorkgroup) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateAwsWorkgroup_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateAwsWorkgroup_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsWorkgroup_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsWorkgroup_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetForceDestroyParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetStateParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsWorkgroup) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
+func validateNewAwsWorkgroupParameters(scope constructs.Construct, id *string, config *AwsWorkgroupConfig) error {
+	return nil
+}
+

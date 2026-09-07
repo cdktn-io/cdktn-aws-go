@@ -1,0 +1,85 @@
+package comprehend
+
+import (
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsDocumentClassifierConfig struct {
+	// Experimental.
+	Connection interface{} `field:"optional" json:"connection" yaml:"connection"`
+	// Experimental.
+	Count interface{} `field:"optional" json:"count" yaml:"count"`
+	// Experimental.
+	DependsOn *[]cdktn.ITerraformDependable `field:"optional" json:"dependsOn" yaml:"dependsOn"`
+	// Experimental.
+	ForEach cdktn.ITerraformIterator `field:"optional" json:"forEach" yaml:"forEach"`
+	// Experimental.
+	Lifecycle *cdktn.TerraformResourceLifecycle `field:"optional" json:"lifecycle" yaml:"lifecycle"`
+	// Experimental.
+	Provider cdktn.TerraformProvider `field:"optional" json:"provider" yaml:"provider"`
+	// Experimental.
+	Provisioners *[]interface{} `field:"optional" json:"provisioners" yaml:"provisioners"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#data_access_role_arn AwsDocumentClassifier#data_access_role_arn}.
+	// Experimental.
+	DataAccessRoleArn *string `field:"required" json:"dataAccessRoleArn" yaml:"dataAccessRoleArn"`
+	// input_data_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#input_data_config AwsDocumentClassifier#input_data_config}
+	// Experimental.
+	InputDataConfig *AwsDocumentClassifier_InputDataConfigProperty `field:"required" json:"inputDataConfig" yaml:"inputDataConfig"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#language_code AwsDocumentClassifier#language_code}.
+	// Experimental.
+	LanguageCode *string `field:"required" json:"languageCode" yaml:"languageCode"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#name AwsDocumentClassifier#name}.
+	// Experimental.
+	Name *string `field:"required" json:"name" yaml:"name"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#id AwsDocumentClassifier#id}.
+	//
+	// Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+	// If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+	// Experimental.
+	Id *string `field:"optional" json:"id" yaml:"id"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#mode AwsDocumentClassifier#mode}.
+	// Experimental.
+	Mode *string `field:"optional" json:"mode" yaml:"mode"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#model_kms_key_id AwsDocumentClassifier#model_kms_key_id}.
+	// Experimental.
+	ModelKmsKeyId *string `field:"optional" json:"modelKmsKeyId" yaml:"modelKmsKeyId"`
+	// output_data_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#output_data_config AwsDocumentClassifier#output_data_config}
+	// Experimental.
+	OutputDataConfig *AwsDocumentClassifier_OutputDataConfigProperty `field:"optional" json:"outputDataConfig" yaml:"outputDataConfig"`
+	// Region where this resource will be [managed](https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints). Defaults to the Region set in the [provider configuration](https://registry.terraform.io/providers/hashicorp/aws/latest/docs#aws-configuration-reference).
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#region AwsDocumentClassifier#region}
+	// Experimental.
+	Region *string `field:"optional" json:"region" yaml:"region"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#tags AwsDocumentClassifier#tags}.
+	// Experimental.
+	Tags *map[string]*string `field:"optional" json:"tags" yaml:"tags"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#tags_all AwsDocumentClassifier#tags_all}.
+	// Experimental.
+	TagsAll *map[string]*string `field:"optional" json:"tagsAll" yaml:"tagsAll"`
+	// timeouts block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#timeouts AwsDocumentClassifier#timeouts}
+	// Experimental.
+	Timeouts *AwsDocumentClassifier_TimeoutsProperty `field:"optional" json:"timeouts" yaml:"timeouts"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#version_name AwsDocumentClassifier#version_name}.
+	// Experimental.
+	VersionName *string `field:"optional" json:"versionName" yaml:"versionName"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#version_name_prefix AwsDocumentClassifier#version_name_prefix}.
+	// Experimental.
+	VersionNamePrefix *string `field:"optional" json:"versionNamePrefix" yaml:"versionNamePrefix"`
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#volume_kms_key_id AwsDocumentClassifier#volume_kms_key_id}.
+	// Experimental.
+	VolumeKmsKeyId *string `field:"optional" json:"volumeKmsKeyId" yaml:"volumeKmsKeyId"`
+	// vpc_config block.
+	//
+	// Docs at Terraform Registry: {@link https://registry.terraform.io/providers/hashicorp/aws/6.62.0/docs/resources/comprehend_document_classifier#vpc_config AwsDocumentClassifier#vpc_config}
+	// Experimental.
+	VpcConfig *AwsDocumentClassifier_VpcConfigProperty `field:"optional" json:"vpcConfig" yaml:"vpcConfig"`
+}
+

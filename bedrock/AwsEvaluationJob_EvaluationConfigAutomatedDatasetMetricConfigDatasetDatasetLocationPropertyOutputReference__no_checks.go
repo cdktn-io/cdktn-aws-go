@@ -1,0 +1,78 @@
+//go:build no_runtime_type_checking
+
+package bedrock
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetS3UriParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsEvaluationJob_EvaluationConfigAutomatedDatasetMetricConfigDatasetDatasetLocationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

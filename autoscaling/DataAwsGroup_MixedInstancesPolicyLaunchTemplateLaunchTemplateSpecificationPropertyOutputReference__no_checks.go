@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package autoscaling
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsGroup_MixedInstancesPolicyLaunchTemplateLaunchTemplateSpecificationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

@@ -1,7 +1,0 @@
-package awswaf
-
-
-// Experimental.
-type TfWebAclRule_StatementRateBasedStatementScopeDownStatementSqliMatchStatementFieldToMatchJsonBodyMatchPatternAllProperty struct {
-}
-

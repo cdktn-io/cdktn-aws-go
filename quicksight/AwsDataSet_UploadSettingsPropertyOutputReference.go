@@ -1,0 +1,686 @@
+package quicksight
+
+import (
+	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
+	_init_ "github.com/cdktn-io/cdktn-aws-go/quicksight/jsii"
+
+	"github.com/cdktn-io/cdktn-aws-go/quicksight/internal"
+	"github.com/open-constructs/cdk-terrain-go/cdktn"
+)
+
+// Experimental.
+type AwsDataSet_UploadSettingsPropertyOutputReference interface {
+	cdktn.ComplexObject
+	// the index of the complex object in a list.
+	// Experimental.
+	ComplexObjectIndex() interface{}
+	// Experimental.
+	SetComplexObjectIndex(val interface{})
+	// set to true if this item is from inside a set and needs tolist() for accessing it set to "0" for single list items.
+	// Experimental.
+	ComplexObjectIsFromSet() *bool
+	// Experimental.
+	SetComplexObjectIsFromSet(val *bool)
+	// Experimental.
+	ContainsHeader() interface{}
+	// Experimental.
+	SetContainsHeader(val interface{})
+	// Experimental.
+	ContainsHeaderInput() interface{}
+	// The creation stack of this resolvable which will be appended to errors thrown during resolution.
+	//
+	// If this returns an empty array the stack will not be attached.
+	// Experimental.
+	CreationStack() *[]*string
+	// Experimental.
+	Delimiter() *string
+	// Experimental.
+	SetDelimiter(val *string)
+	// Experimental.
+	DelimiterInput() *string
+	// Experimental.
+	Format() *string
+	// Experimental.
+	SetFormat(val *string)
+	// Experimental.
+	FormatInput() *string
+	// Experimental.
+	Fqn() *string
+	// Experimental.
+	InternalValue() *AwsDataSet_UploadSettingsProperty
+	// Experimental.
+	SetInternalValue(val *AwsDataSet_UploadSettingsProperty)
+	// Experimental.
+	StartFromRow() *float64
+	// Experimental.
+	SetStartFromRow(val *float64)
+	// Experimental.
+	StartFromRowInput() *float64
+	// Experimental.
+	TerraformAttribute() *string
+	// Experimental.
+	SetTerraformAttribute(val *string)
+	// Experimental.
+	TerraformResource() cdktn.IInterpolatingParent
+	// Experimental.
+	SetTerraformResource(val cdktn.IInterpolatingParent)
+	// Experimental.
+	TextQualifier() *string
+	// Experimental.
+	SetTextQualifier(val *string)
+	// Experimental.
+	TextQualifierInput() *string
+	// Experimental.
+	ComputeFqn() *string
+	// Experimental.
+	GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{}
+	// Experimental.
+	GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool
+	// Experimental.
+	GetListAttribute(terraformAttribute *string) *[]*string
+	// Experimental.
+	GetNumberAttribute(terraformAttribute *string) *float64
+	// Experimental.
+	GetNumberListAttribute(terraformAttribute *string) *[]*float64
+	// Experimental.
+	GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64
+	// Experimental.
+	GetStringAttribute(terraformAttribute *string) *string
+	// Experimental.
+	GetStringMapAttribute(terraformAttribute *string) *map[string]*string
+	// Experimental.
+	InterpolationAsList() cdktn.IResolvable
+	// Experimental.
+	InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable
+	// Experimental.
+	ResetContainsHeader()
+	// Experimental.
+	ResetDelimiter()
+	// Experimental.
+	ResetFormat()
+	// Experimental.
+	ResetStartFromRow()
+	// Experimental.
+	ResetTextQualifier()
+	// Produce the Token's value at resolution time.
+	// Experimental.
+	Resolve(context cdktn.IResolveContext) interface{}
+	// Return a string representation of this resolvable object.
+	//
+	// Returns a reversible string representation.
+	// Experimental.
+	ToString() *string
+}
+
+// The jsii proxy struct for AwsDataSet_UploadSettingsPropertyOutputReference
+type jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference struct {
+	internal.Type__cdktnComplexObject
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ComplexObjectIndex() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"complexObjectIndex",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ComplexObjectIsFromSet() *bool {
+	var returns *bool
+	_jsii_.Get(
+		j,
+		"complexObjectIsFromSet",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ContainsHeader() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"containsHeader",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ContainsHeaderInput() interface{} {
+	var returns interface{}
+	_jsii_.Get(
+		j,
+		"containsHeaderInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) CreationStack() *[]*string {
+	var returns *[]*string
+	_jsii_.Get(
+		j,
+		"creationStack",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) Delimiter() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"delimiter",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) DelimiterInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"delimiterInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) Format() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"format",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) FormatInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"formatInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) Fqn() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"fqn",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) InternalValue() *AwsDataSet_UploadSettingsProperty {
+	var returns *AwsDataSet_UploadSettingsProperty
+	_jsii_.Get(
+		j,
+		"internalValue",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) StartFromRow() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"startFromRow",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) StartFromRowInput() *float64 {
+	var returns *float64
+	_jsii_.Get(
+		j,
+		"startFromRowInput",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) TerraformAttribute() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"terraformAttribute",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) TerraformResource() cdktn.IInterpolatingParent {
+	var returns cdktn.IInterpolatingParent
+	_jsii_.Get(
+		j,
+		"terraformResource",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) TextQualifier() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"textQualifier",
+		&returns,
+	)
+	return returns
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) TextQualifierInput() *string {
+	var returns *string
+	_jsii_.Get(
+		j,
+		"textQualifierInput",
+		&returns,
+	)
+	return returns
+}
+
+
+// Experimental.
+func NewAwsDataSet_UploadSettingsPropertyOutputReference(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) AwsDataSet_UploadSettingsPropertyOutputReference {
+	_init_.Initialize()
+
+	if err := validateNewAwsDataSet_UploadSettingsPropertyOutputReferenceParameters(terraformResource, terraformAttribute); err != nil {
+		panic(err)
+	}
+	j := jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference{}
+
+	_jsii_.Create(
+		"@cdktn/aws-quicksight.AwsDataSet.UploadSettingsPropertyOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		&j,
+	)
+
+	return &j
+}
+
+// Experimental.
+func NewAwsDataSet_UploadSettingsPropertyOutputReference_Override(a AwsDataSet_UploadSettingsPropertyOutputReference, terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) {
+	_init_.Initialize()
+
+	_jsii_.Create(
+		"@cdktn/aws-quicksight.AwsDataSet.UploadSettingsPropertyOutputReference",
+		[]interface{}{terraformResource, terraformAttribute},
+		a,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetComplexObjectIndex(val interface{}) {
+	if err := j.validateSetComplexObjectIndexParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIndex",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetComplexObjectIsFromSet(val *bool) {
+	if err := j.validateSetComplexObjectIsFromSetParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"complexObjectIsFromSet",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetContainsHeader(val interface{}) {
+	if err := j.validateSetContainsHeaderParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"containsHeader",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetDelimiter(val *string) {
+	if err := j.validateSetDelimiterParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"delimiter",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetFormat(val *string) {
+	if err := j.validateSetFormatParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"format",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetInternalValue(val *AwsDataSet_UploadSettingsProperty) {
+	if err := j.validateSetInternalValueParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"internalValue",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetStartFromRow(val *float64) {
+	if err := j.validateSetStartFromRowParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"startFromRow",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetTerraformAttribute(val *string) {
+	if err := j.validateSetTerraformAttributeParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformAttribute",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetTerraformResource(val cdktn.IInterpolatingParent) {
+	if err := j.validateSetTerraformResourceParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"terraformResource",
+		val,
+	)
+}
+
+func (j *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference)SetTextQualifier(val *string) {
+	if err := j.validateSetTextQualifierParameters(val); err != nil {
+		panic(err)
+	}
+	_jsii_.Set(
+		j,
+		"textQualifier",
+		val,
+	)
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ComputeFqn() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		a,
+		"computeFqn",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetAnyMapAttribute(terraformAttribute *string) *map[string]interface{} {
+	if err := a.validateGetAnyMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]interface{}
+
+	_jsii_.Invoke(
+		a,
+		"getAnyMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetBooleanAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := a.validateGetBooleanAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		a,
+		"getBooleanAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetBooleanMapAttribute(terraformAttribute *string) *map[string]*bool {
+	if err := a.validateGetBooleanMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*bool
+
+	_jsii_.Invoke(
+		a,
+		"getBooleanMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetListAttribute(terraformAttribute *string) *[]*string {
+	if err := a.validateGetListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*string
+
+	_jsii_.Invoke(
+		a,
+		"getListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetNumberAttribute(terraformAttribute *string) *float64 {
+	if err := a.validateGetNumberAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *float64
+
+	_jsii_.Invoke(
+		a,
+		"getNumberAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetNumberListAttribute(terraformAttribute *string) *[]*float64 {
+	if err := a.validateGetNumberListAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *[]*float64
+
+	_jsii_.Invoke(
+		a,
+		"getNumberListAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetNumberMapAttribute(terraformAttribute *string) *map[string]*float64 {
+	if err := a.validateGetNumberMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*float64
+
+	_jsii_.Invoke(
+		a,
+		"getNumberMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetStringAttribute(terraformAttribute *string) *string {
+	if err := a.validateGetStringAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *string
+
+	_jsii_.Invoke(
+		a,
+		"getStringAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) GetStringMapAttribute(terraformAttribute *string) *map[string]*string {
+	if err := a.validateGetStringMapAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns *map[string]*string
+
+	_jsii_.Invoke(
+		a,
+		"getStringMapAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) InterpolationAsList() cdktn.IResolvable {
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		a,
+		"interpolationAsList",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) InterpolationForAttribute(terraformAttribute *string) cdktn.IResolvable {
+	if err := a.validateInterpolationForAttributeParameters(terraformAttribute); err != nil {
+		panic(err)
+	}
+	var returns cdktn.IResolvable
+
+	_jsii_.Invoke(
+		a,
+		"interpolationForAttribute",
+		[]interface{}{terraformAttribute},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ResetContainsHeader() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetContainsHeader",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ResetDelimiter() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetDelimiter",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ResetFormat() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetFormat",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ResetStartFromRow() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetStartFromRow",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ResetTextQualifier() {
+	_jsii_.InvokeVoid(
+		a,
+		"resetTextQualifier",
+		nil, // no parameters
+	)
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) Resolve(context cdktn.IResolveContext) interface{} {
+	if err := a.validateResolveParameters(context); err != nil {
+		panic(err)
+	}
+	var returns interface{}
+
+	_jsii_.Invoke(
+		a,
+		"resolve",
+		[]interface{}{context},
+		&returns,
+	)
+
+	return returns
+}
+
+func (a *jsiiProxy_AwsDataSet_UploadSettingsPropertyOutputReference) ToString() *string {
+	var returns *string
+
+	_jsii_.Invoke(
+		a,
+		"toString",
+		nil, // no parameters
+		&returns,
+	)
+
+	return returns
+}
+

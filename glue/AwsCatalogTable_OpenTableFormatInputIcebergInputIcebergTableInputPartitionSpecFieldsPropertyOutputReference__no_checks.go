@@ -1,0 +1,90 @@
+//go:build no_runtime_type_checking
+
+package glue
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetFieldIdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetNameParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetSourceIdParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReference) validateSetTransformParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsCatalogTable_OpenTableFormatInputIcebergInputIcebergTableInputPartitionSpecFieldsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

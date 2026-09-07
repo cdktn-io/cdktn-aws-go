@@ -1,0 +1,82 @@
+//go:build no_runtime_type_checking
+
+package arcregionswitch
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validatePutRoutingControlParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateSetInternalValueParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsPlan_WorkflowStepParallelConfigStepArcRoutingControlConfigRegionAndRoutingControlsPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+

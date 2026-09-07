@@ -1,0 +1,110 @@
+//go:build no_runtime_type_checking
+
+package kinesisfirehose
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validatePutCloudwatchLoggingOptionsParameters(value *AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationCloudwatchLoggingOptionsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetBucketArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetBufferingIntervalParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetBufferingSizeParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetCompressionFormatParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetErrorOutputPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetInternalValueParameters(val *AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetKmsKeyArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetPrefixParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetRoleArnParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewAwsDeliveryStream_HttpEndpointConfigurationS3ConfigurationPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string) error {
+	return nil
+}
+

@@ -1,7 +1,0 @@
-package awseks
-
-
-// Experimental.
-type DataTfClusterVersions_ClusterVersionsControlPlaneComponentConfigKubeApiServerConfigServiceNodePortRangeDefaultValueProperty struct {
-}
-

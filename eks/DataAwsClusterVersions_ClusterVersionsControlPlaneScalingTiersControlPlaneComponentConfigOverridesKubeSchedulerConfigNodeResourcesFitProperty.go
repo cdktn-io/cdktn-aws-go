@@ -1,0 +1,7 @@
+package eks
+
+
+// Experimental.
+type DataAwsClusterVersions_ClusterVersionsControlPlaneScalingTiersControlPlaneComponentConfigOverridesKubeSchedulerConfigNodeResourcesFitProperty struct {
+}
+

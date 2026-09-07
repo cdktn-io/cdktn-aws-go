@@ -1,0 +1,186 @@
+//go:build no_runtime_type_checking
+
+package kms
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (a *jsiiProxy_AwsKey) validateAddMoveTargetParameters(moveTarget *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateAddOverrideParameters(path *string, value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateImportFromParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateMarkWriteOnlyAttributeParameters(value interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateMoveFromIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateMoveToParameters(moveTarget *string, index interface{}) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateMoveToIdParameters(id *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateOverrideLogicalIdParameters(newLogicalId *string) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validatePutTimeoutsParameters(value *AwsKey_TimeoutsProperty) error {
+	return nil
+}
+
+func (a *jsiiProxy_AwsKey) validateRegisterProviderFeatureUsageParameters(feature cdktn.ProviderFeature) error {
+	return nil
+}
+
+func validateAwsKey_GenerateConfigForImportParameters(scope constructs.Construct, importToId *string, importFromId *string) error {
+	return nil
+}
+
+func validateAwsKey_IsConstructParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsKey_IsTerraformElementParameters(x interface{}) error {
+	return nil
+}
+
+func validateAwsKey_IsTerraformResourceParameters(x interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetBypassPolicyLockoutSafetyCheckParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetConnectionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetCountParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetCustomerMasterKeySpecParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetCustomKeyStoreIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetDeletionWindowInDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetDescriptionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetEnableKeyRotationParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetIdParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetIsEnabledParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetKeyUsageParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetLifecycleParameters(val *cdktn.TerraformResourceLifecycle) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetMultiRegionParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetPolicyParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetProvisionersParameters(val *[]interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetRegionParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetRotationPeriodInDaysParameters(val *float64) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetTagsParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetTagsAllParameters(val *map[string]*string) error {
+	return nil
+}
+
+func (j *jsiiProxy_AwsKey) validateSetXksKeyIdParameters(val *string) error {
+	return nil
+}
+
+func validateNewAwsKeyParameters(scope constructs.Construct, id *string, config *AwsKeyConfig) error {
+	return nil
+}
+

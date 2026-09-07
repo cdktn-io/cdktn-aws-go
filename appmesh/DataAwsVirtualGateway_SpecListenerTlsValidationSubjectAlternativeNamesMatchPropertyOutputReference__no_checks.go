@@ -1,0 +1,74 @@
+//go:build no_runtime_type_checking
+
+package appmesh
+
+// Building without runtime type checking enabled, so all the below just return nil
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetAnyMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetBooleanAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetBooleanMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetNumberAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetNumberListAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetNumberMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetStringAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateGetStringMapAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateInterpolationForAttributeParameters(terraformAttribute *string) error {
+	return nil
+}
+
+func (d *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateResolveParameters(context cdktn.IResolveContext) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetComplexObjectIndexParameters(val interface{}) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetComplexObjectIsFromSetParameters(val *bool) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetInternalValueParameters(val *DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchProperty) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetTerraformAttributeParameters(val *string) error {
+	return nil
+}
+
+func (j *jsiiProxy_DataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReference) validateSetTerraformResourceParameters(val cdktn.IInterpolatingParent) error {
+	return nil
+}
+
+func validateNewDataAwsVirtualGateway_SpecListenerTlsValidationSubjectAlternativeNamesMatchPropertyOutputReferenceParameters(terraformResource cdktn.IInterpolatingParent, terraformAttribute *string, complexObjectIndex *float64, complexObjectIsFromSet *bool) error {
+	return nil
+}
+
